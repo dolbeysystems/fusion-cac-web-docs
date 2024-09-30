@@ -10,7 +10,12 @@ Some facilities will put an icon on your desktop or in another location based on
 hospital network, but if all else fails you should be able to connect by typing the Fusion CAC server
 address into your browser's URL box manually.
 
-It will usually look something like this: https://dolbeyfusion.test.com/cac2
+It will usually look something like this: 
+
+```bash
+https://dolbeyfusion.test.com/cac2
+
+```
 
 > [!info] 
 > This address is just an example. The address for your server will be different. Be sure to type the
@@ -36,7 +41,9 @@ When enabled, the first time the user logs into Fusion CAC with a correct passwo
 appear in the login screen with a QR code or setup key to scan/enter into an authenticator app. When
 the authenticator app is updated, the TOTP will appear in the app with the following title:
 
-`"Fusion CAC " + environmentName appSetting + ": " + user's login ID`
+```bash
+"Fusion CAC " + environmentName appSetting + ": " + user's login ID
+```
 
 A new field will appear below the password field to enter the TOTP. If the TOTP matches the app, the
 user is logged in. Like with the password field, five consecutive failed attempts will lock the user.
@@ -55,3 +62,4 @@ administrator to reset the user's TOTP (which will cause a new QR code to appear
 > Note that the user's profile must be saved after clinking the link in case the reset was accidental. The
 > QR Code and Setup Key newly provided to the user after a reset is NOT the same as the prior QR Code
 > and Setup Key intentionally, which should cause the prior TOTP to no longer work.
+

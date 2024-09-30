@@ -1,4 +1,4 @@
 +++
 title = 'Release Notes'
-weight = 80
+weight = 90
 +++
