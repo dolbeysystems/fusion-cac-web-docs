@@ -110,8 +110,7 @@ How to manually filter:
 
 1. Click the bar icon on the column you wish to filter.
 2. Click on the Filter icon.
-3. Check or uncheck the boxes depending on the data you wish to filter, then click on the filter to
-close the box.
+3. Check or uncheck the boxes depending on the data you wish to filter, then click on the filter to close the box.
 4. The new filter will be applied.
 
 Once you return the data you can then choose the columns you wish to display data. Initially when you
