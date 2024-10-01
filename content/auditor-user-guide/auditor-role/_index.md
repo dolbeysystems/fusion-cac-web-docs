@@ -9,7 +9,7 @@ or coder submits the account with an open audit, the audit will automatically be
 route an account directly to the coder that last submitted (which triggers a save and close), and the
 coder can rebut and route an account back to the audit (which also triggers a save and close).
 
-![DRG](image-304.jpg)
+![Auditor Role](image-304.jpg)
 
 This role allows for the end-user to have a separate code tree while importing the coder-assigned codes
 so that they have something to start with. The auditor role has a companion viewer in the Navigation
