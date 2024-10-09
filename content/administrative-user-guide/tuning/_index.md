@@ -95,13 +95,13 @@ account.
 
 ![](image-571.jpg)
 
-> [!info]
-If you wish to use this functionality, you must perform a one-time step to add the "Adds Pending
-Reason" column to the Document Types Management grid. This is done by clicking on the three dashes
-in the column header column, clicking on the column list tab, and checking "Adds Pending Reason".
-In the grid, you double click in the field to edit the "Adds Pending Reason" field, but you must press
+> [!note] Enabling "Adds Pending Reason"
+If you wish to use this functionality, you must perform a one-time step to add the **Adds Pending
+Reason** column to the Document Types Management grid. This is done by clicking on the three dashes
+in the column header column, clicking on the column list tab, and checking **Adds Pending Reason**.
+In the grid, you double click in the field to edit the **Adds Pending Reason** field, but you must press
 Enter to "commit" that value before saving (just like all other text fields in this grid). The "Mass Edit"
-dialog in Document Types Management also supports the entry of the "Adds Pending Reason" field
+dialog in Document Types Management also supports the entry of the **Adds Pending Reason** field
 
 ## New Document Grouping
 

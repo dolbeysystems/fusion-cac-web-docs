@@ -29,9 +29,9 @@ chart).
 While reviewing, if the CDS have notes they wish to add to the chart they can add an ‘Initial CDI
 Worksheet’.
 
-> [!info]
-> Each site will have its own CDS worksheet, and they may be called something different, the initial
-> worksheet is a default if the site has not added or change the worksheets.
+> [!note] CDS Worksheet Fields Are Custom
+The CDS worksheet that you see will likely have been customized to your site's needs and preferences.
+This section outlines the initial default worksheet prior to customization.
 
 This worksheet can include any notes that are needed such as:
 

@@ -139,8 +139,8 @@ based upon the level they have assigned.
 
 ![](image-529.jpg)
 
-> [!info]
-If your CDM does change you will have to update this table as well.
+> [!caution]
+If your CDM changes, you will need to update this table as well.
 
 ## No Charge Section
 

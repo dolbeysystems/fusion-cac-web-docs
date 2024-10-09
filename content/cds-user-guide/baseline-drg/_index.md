@@ -22,29 +22,29 @@ may claim to much impact therefore the baseline throughout the patients stay is 
 While the baseline DRG may seem like a simple concept, it can at times be difficult to determine. Here is
 an example:
 
--  A patient is admitted through the ER after presenting with undiagnosed abdominal pain, which
-would result in DRG 392 with an estimated reimbursed of $5,008.
-- After further testing, it is revealed the abdominal pain is the result of acute cholecystitis; this
-changes the DRG 446 (disorders of the biliary tract without complication) with an estimated
-reimbursed of $5,175.
-- CDI documents an increased creatinine and a decreased glomerular filtration rate and queries
+1.  A patient is admitted through the ER after presenting with *undiagnosed abdominal pain*, which
+would result in {{% drg 392 %}} with an estimated reimbursed of {{% money "$5,008" %}}</span>.
+2. After further testing, it is revealed the abdominal pain is the result of *acute cholecystitis*; this
+changes the {{% drg 446 %}} (disorders of the biliary tract **without complication**) with an estimated
+reimbursement of {{% money "$5,175" %}}.
+3. CDI documents an increased creatinine and a decreased glomerular filtration rate and queries
 the physician regarding the patient’s renal status. If the doctor provides proper documentation,
-it could be possible to assign a complication for Stage IV chronic kidney disease, which would
-result in DRG 445 (disorders of the biliary tract with CC) with an estimated reimbursed of
-$7,464.
-- The patient undergoes a laparoscopic cholecystectomy, changing the DRG to 418 (laparoscopic
-cholecystectomy with CC) with an estimated reimbursed of $11,868.
-- Next, the patient develops shortness of breath, and the consulting cardiologist documents
-acute-on-chronic congestive heart failure, changing the DRG to 417 (laparoscopic
-cholecystectomy with MCC) with an estimated reimbursed of $17,478.
+it could be possible to assign a code indicating a *complication for Stage IV chronic kidney disease*, which would
+result in {{% drg 445 %}} (disorders of the biliary tract **with CC**) with an estimated reimbursement of {{% money "$7,464" %}}.
+4. The patient undergoes a *laparoscopic cholecystectomy*, changing the DRG to {{% drg 418 %}} (laparoscopic
+cholecystectomy with CC) with an estimated reimbursed of {{% money "$11,868" %}}.
+5. Next, the patient develops shortness of breath, and the consulting cardiologist documents
+*acute-on-chronic congestive heart failure*, changing the DRG to {{% drg 417 %}} (laparoscopic
+cholecystectomy **with MCC**) with an estimated reimbursed of {{% money "$17,478" %}}.
 
-Commonly, the Baseline instead of it being DRG 392 which is the first listed the CDI once the patient
-goes for surgery would readjust to 417. However, if the patient had not gone in for surgery the baseline
-would have remained 392. However, none of the CDI impact is lost though because queries are counted
-separately if you run the query report that CDI would:
+Normally, instead of the Baseline being {{% drg 392 %}} which is the first listed, would adjust to
+would be readjusted to {{% drg 417 %}} once the patient goes to surgery. If the patient had not gone in for surgery the baseline
+would have remained {{% drg 392 %}}. 
 
-- **Query Impact** (Difference between DRG 446 AND 445 = $2289)
-- **Chart Impact** (Difference between Baseline 417 and Final DRG 4117 = $0
+However, none of the CDI impact is lost though because queries are counted separately if you run the query report that CDI would:
+
+- **Query Impact** (Difference between {{% drg 446 %}} and {{% drg 445 %}}= $2289)
+- **Chart Impact** (Difference between Baseline {{% drg 417 %}} and Final {{% drg 4117 %}} = $0
 
 What I listed above is how some organizations do report not all of them through do this, the choice is up
 to your organization. To remind you that your baseline may need updated you can turn on a feature that

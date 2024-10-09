@@ -3,25 +3,27 @@ title = 'Code Panels'
 weight = 80
 +++
 
-#### Diagnosis Codes
+## Unassigned Codes Panel
+
+### Diagnosis Codes
 
 In the bottom right panel on the screen, is a list of unassigned **Diagnosis Codes** that have been suggested
 by the engine for validation. Left-clicking on the diagnosis code will take you to the location within the
 document that prompted the code suggestion.
 
-#### Procedure Codes
+### Procedure Codes
 
 Under unassigned Diagnosis Codes are listed all unassigned **Procedure Codes** that have been suggested
 by the engine for validation. Left-clicking on the procedure code will take you to the location within the
 document that prompted the code suggestion.
 
-#### CPT® Codes
+### CPT® Codes
 
 Under unassigned Procedure Codes are listed all unassigned **CPT® Codes** that have been suggested by
 the engine for validation. Left-clicking on the CPT® code will take you to the location within the
 document that prompted the code suggestion.
 
-#### Assigned Codes
+## Assigned Codes Panel
 
 ![Assigned Codes](image-255.jpg)
 

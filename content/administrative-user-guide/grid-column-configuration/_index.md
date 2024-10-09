@@ -11,8 +11,8 @@ path, auditor and CDI.
 All columns added in Grid Column Configuration appear in Account Search, and selected columns can be
 made visible in the other three pages.
 
-> [!info]
-Ordering is not necessarily important here, but it serves as the default order for new users.
+> [!note] Default Column Ordering
+Ordering can be changed by each user, but the choices here serve as the initial default order for new users.
 
 Each user can rearrange the order of the columns per their liking on the specific pages, which is saved
 automatically (Account List) or manually (Account Search, Calendar Stats by Day, Dashboard).

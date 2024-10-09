@@ -3,8 +3,6 @@ title = 'Exiting an Account'
 weight = 200
 +++
 
-#### Finish Working in an Account
-
 Once you have finished working in an account, there are three ways of proceeding
 
 ![Actions](image-268.png)
@@ -13,7 +11,7 @@ Once you have finished working in an account, there are three ways of proceeding
 - **Save** - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.)
 - **Submit** - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected).
 
-### Account Changed Warning Box
+## Account Changed Warning Box
 
 ![Warning Box](image-272.jpg)
 
@@ -30,7 +28,7 @@ and continue with the process the user had selected. Choosing **“Apply”** wi
 apply the incoming changes to the account and return the user to the
 account to continue working.
 
-### Ending a Coding Session (Log Off)
+## Ending a Coding Session (Log Off)
 
 ![Log Off](image-275.jpg)
 

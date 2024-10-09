@@ -92,8 +92,8 @@ next to their name to indicate they are not a physician.
 
 ![](image-452.jpg)
 
-> [!info]
-Note: This is uncommon as most sites physician query is used from the MFN file not to
+> [!note] Email-based Physician Queries Only
+This is uncommon as most sites physician query is used from the MFN file not to
 email. This feature was developed for a select few sites that do query through email.
 This setting must be turned on by your Project Team or CAC Support in the
 configuration settings. Once enabled this will also require a development interface
@@ -120,12 +120,15 @@ to access the system. Once this id is entered, it cannot be changed.
 Enter in the user name exactly as your windows login appears (Most facilities
 use Active Directory).
 
->[!info]
-The password fields need to have something in it but, if using active
-directory then this password is not used, your windows password will be
-utilized. Also, if a user forgets their password and active directory is used
-then the password must be reset through your internal process of resetting
-your windows password.
+>[!info] Active Directory Users
+If you are using Active Directory, you can just entere a dummy value such as
+"password" into this field, as it requires a value, but will not be used in 
+this configuration.
+
+>[!caution] Active Directory Users - Password Reset
+If a user forgets their password and your system is configured to use Active Directory
+(Windows Passwords), the password must be reset through your internal processes
+for resetting your windows password.
 
 ###### Last Login
 
@@ -248,9 +251,9 @@ user has reached the end, the work starts back at the top again with up to 2 CDI
 
 ![](image-459.jpg)
 
-> [!info]
-If a user routes a chart to the users “You” worklist when the “Go to Next Account” is selected it
-will pull from the “You” worklist then redirect the user to the next worklist in priority order.
+> [!note] Manual Routing Always Takes Priority
+If an admin routes a chart directly to the users “You” worklist, the chart will appear next
+in autoload before resuming normal workgroup priority order.
 
 The "autoload" page provides a copy of the Coder Personal Dashboard. The coder will also see a list of
 accounts they saved with a pending reason at the bottom of the autoload page that they can access by

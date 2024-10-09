@@ -15,4 +15,4 @@ inactivity occurs during the workday.
 
 Role Management contains an option to exclude user roles from being prompted.
 
-![](image-565.jpg)
+![](image-565.png)

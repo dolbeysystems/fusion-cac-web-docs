@@ -25,9 +25,9 @@ sending of charges outbound.
 The "Physicians & Queries" viewer will be highlighted with an amber background in the
 Navigation Tree if the account has at least one physician query CACTWO-6136
 
->[!info]
-Note that the amber background does not appear if the "Physician & Queries"
-viewer is selected because the selection background overrides the amber background.
+>[!note] Background Color Precedence
+The amber background does not appear if the "Physician & Queries"
+viewer is selected because the "selected" background overrides the amber background.
 
 ### Code Summary (Navigation Pane)
 

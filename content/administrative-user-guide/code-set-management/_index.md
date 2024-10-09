@@ -7,10 +7,9 @@ Code sets are groups of codes that users can save that they commonly use or are 
 sets can be saved by topic to provide a quick code assignment. Code sets can be created at a
 management level to push out to coders and/or users can create their own.
 
-> [!info]
-> Code sets do need to be maintained since you are creating codes sets codes if they deleted or
-> modified with the code changes each year they may become obsolete however, if a coder adds an
-> invalid code from a code set you produce an error that you have an invalid code.
+> [!caution] Coding Standard Changes / Expirations
+Code sets need to be regularly reviewed and updated by administrators to account for changes and expirations
+in the ICD/CPT coding standards.
 
 ## How to Create a Code Set
 

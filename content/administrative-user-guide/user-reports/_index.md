@@ -73,9 +73,8 @@ This report provides details about each of the users and what workgroup they are
 sequence. The date range input is irrelevant for this report and will always display the user’s current
 workgroups.
 
-> [!info]
-> The date fields below are not used for this report. The user's current workgroup assignments are
-> reported.
+> [!note] Date Criteria Ignored
+Date criteria are not used for this report. The user's current workgroup assignments are reported.
 
 ![Report](image-366.jpg)
 
@@ -191,14 +190,19 @@ This report is based upon final coded outcomes. A "case mix index" is the averag
 accounts that have a DRG Weight - This report only includes submitted inpatient accounts with a DRG
 Weight.
 
-> [!info] Notes
-> - If there is no filter on facility and more than one facility is included, an additional "All Facilities"
+> [!info] Total Groups
+> Totals are displayed differently based on the facility filter and the number of facilities 
+> returned by the report.
+>
+> - If there is **no filter on facility and more than one facility is in the report**, an additional "All Facilities"
 > group is appended that calculates the case mix for each financial class across all facilities.
-> - If there is any filter on facility and more than one facility is included, an additional "Combined
+> - If there is **any filter on facility and more than one facility is included in the report**, an additional "Combined
 > Facilities" group is appended that calculates the case mix index for each financial class across
 > the filtered facilities.
-> - If only one facility appears in the report, there is no "All Facilities" or "Combined Facilities" group.
-> - Blank facilities or financial classes are displayed as an empty string to be consistent with other reports.
+> - If **only one facility appears in the report**, there is no "All Facilities" or "Combined Facilities" group.
+
+> [!note] Blank Field Values
+> Blank facilities or financial classes are displayed as an empty string to be consistent with other reports.
 
 ![Report](image-378.jpg)
 
@@ -269,7 +273,7 @@ month.
 This report shows productivity by each user by review type. The date range on this report is the Chart
 Reviewed Activity Date. To qualify for this report the chart must have at least one CDI review.
 
-> [!info]
+> [!note] Enable Viewer
 > To access this report you must enable the Documentation Reviews viewer for CDI.
 
 ![Report](image-385.jpg)
@@ -279,7 +283,7 @@ Reviewed Activity Date. To qualify for this report the chart must have at least 
 This report provides details of physician queries created by CDI Specialists on accounts that have since
 been discharged. This report details how the account evolved from a Baseline DRG to a Final DRG.
 
-> [!info]
+> [!caution] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 Any non-cancelled physician query created by a CDI Specialist on an inpatient, now-discharged account
@@ -333,8 +337,8 @@ only display if the DRG was computed by a CDI Specialist; it will not display if
 the Suggested DRG module. The date range input below is irrelevant for this report and will always
 display all inhouse patients.
 
->[!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-389.jpg)
 
@@ -350,8 +354,8 @@ the Chart Working DRG Save Date/Time (Query Create Date for the Queries.)
 
 This report shows the list of diagnosis codes and procedures that CDI assigned in sequenced order.
 
-> [!info]
-> Due to the large width of some columns, this report is not intended to be launched as a PDF.
+> [!caution] No PDF Support
+> Due to the number of columns, this report is not intended to be launched as a PDF.
 
 ![Report](image-391.jpg)
 
@@ -388,8 +392,8 @@ This report provides details about charts with assigned procedures. The date ran
 Chart Last Submitted Date. To qualify for this report the chart must have at least one Procedure code
 assigned on the chart.
 
-> [!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-394.jpg)
 
@@ -463,7 +467,7 @@ duplicate. This report card should be used as an educational opportunity to show
 improvements for the end-user and/or code suggestions. This report is recommended to be used in
 conjunction with an audit.
 
-> [!info]
+> [!note] Documents without codes not included in total
 > The field "Total Documents" had to be constrained to count the total documents on the account with at
 > least one attached code to make the formulas correct. Documents with no codes (suggested nor added) are
 > not counted in this report (and shouldn't be since this report is about engine outcome).
@@ -557,7 +561,7 @@ matched the Final DRG on an account. The date range on this report is the Chart 
 for this report the chart must be an Inpatient Chart with Stage of Submitted,Discharge Date and Final
 DRG.
 
-> [!info]
+> [!note] InpatientDateTime field
 > This report supports a new optional "InpatientDateTime" field if present on the account. The
 > "InpatientDateTime" field is the date/time in which an account became an inpatient account – common
 > for sites that change outpatient accounts to inpatient accounts. If this field is not present, the
@@ -596,7 +600,7 @@ name, then by Author, then by account #. The query will also show if there was a
 the user listed as the reason for the shift. The date range on this report is the Query Create Date (The
 date that the query was initially created and sent)
 
-> [!info]
+> [!note] Queries with same DRG & No Shift Reasons Not Included
 > By design, the Query Impact Report only reports queries that had an impact by either having
 > different before-and-after DRGs or by having shift reasons. The queries not displayed in the Query
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
@@ -617,11 +621,11 @@ date and is grouped by query template name, then by Author, then by account #. T
 show if there was a shift in DRG and what the user listed as the reason for the shift. The date range on
 this report is the Chart Discharged Date.
 
-> [!info]
-> Note: By design, the Query Impact Report only reports queries that had an impact by either having
+> [!note] Queries with same DRG & No Shift Reasons Not Included
+> By design, the Query Impact Report only reports queries that had an impact by either having
 > different before-and-after DRGs or by having shift reasons. The queries not displayed in the Query
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
-> report - Query Impact Report
+> report – Query Impact Report.
 
 ![Report](image-414.jpg)
 
@@ -678,13 +682,13 @@ the DRG was calculated automatically from the Suggested DRG module. Sites that d
 Suggested DRG module can still use this report to get the most recent Working DRGs for all Inhouse
 accounts. In addition to displaying the GMLOS, it also displays the LOS and Variance.
 
-> [!info]
+> [!note] Date Range Not Used
 > The date range is irrelevant and will report on all inpatient accounts with no discharge date that
 > have either a suggested DRG (calculated by the Suggested DRG module) or a working DRG (calculated by
 > a CDI Specialist).
 
-> [!info]
-> Note: This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-420.jpg)
 
@@ -731,8 +735,8 @@ an account# is provided, all other filters will be inactive. (Filtering: Maximum
 date range on this report is the Chart Suggested History Calculated Date/Time (or - can run for a specific,
 single account number).
 
-> [!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-425.jpg)
 
@@ -751,8 +755,8 @@ This report shows user activities within the selected date range. Not selecting 
 system events being displayed. (Filtering: Max of 1 user selected; max of 1 day selected). The date range
 on this report is the Date & Time of the action of the activity.
 
-> [!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ### User Detail Report
 
@@ -771,8 +775,8 @@ time ('Saved', 'Submitted', or cancelled activity in the account), and total tim
 account session. (Filtering: Minimum of 1 user selected; max of 7 days selected). The date range on this
 report is the ChangeHistory Audit Date (Check Out & Check In of the Account Dates).
 
-> [!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-428.jpg)
 
@@ -795,9 +799,8 @@ Any non-cancelled physician query created by a CDI Specialist on an inpatient, n
 should appear as a line item on this report. The date range on this report is the Chart Discharged Date.
 To qualify for this report the chart must be an inpatient patient type.
 
-> [!info]
-> Due to the number of columns, this report is only to viewed in HTML or Excel. If you run this report
-> as PDF, the report won't fit on a page and will be cut off. This is intentional for the time being
+> [!caution] No PDF Support
+> Due to the number of columns, this report is not intended to be launched as a PDF.
 
 ![Report](image-430.jpg)
 
@@ -834,8 +837,8 @@ the date range. Date Range is the date the account was discharged, beginning of 
 of end date. The date range on this report is the Chart Discharged Date. To qualify for this report the
 chart must be Submitted.
 
-> [!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-433.jpg)
 
@@ -848,8 +851,8 @@ maximum of two PPC values, then only two PPC columns will appear in the report. 
 this report is the Chart Discharged Date. To qualify for this report the chart must have PPC Grouper from
 3M CRS or GPCS, be an Inpatient, Submitted chart, with at least 1 PPC value.
 
-> [!info]
-> This report is Not available within Scheduled Reports.
+>[!caution] Not Available For Scheduling
+> This report is not available within Scheduled Reports.
 
 ![Report](image-434.jpg)
 
@@ -858,13 +861,12 @@ this report is the Chart Discharged Date. To qualify for this report the chart m
 This report shows the list of all of the workgroups with the total charts, oldest admit and discharge date
 along with total charges. 
 
-> [!info]
+> [!note] Date Range not Used
 > The date fields below are not used for this report. The current workgroup assignments are reported.
 
-> [!info]
-> - The date range is ignored on this report. It will always output the current workgroup statistics.
-> - If no user is filtered on this report, this report will output the current workgroup statistics for all enabled workgroups that do not have a workgroup type of "Purge" (more info below)
-> - If one or more users are selected as a filter, this report will output the current workgroup statistics for the workgroups that are assigned to only those users (mimicking the workgroup list that appears in the user's personal dashboard).
+> [!info] User Filter Behavior
+> - If **no user is filtered** on this report, this report will output the current workgroup statistics for all enabled workgroups that do not have a workgroup type of "Purge" (more info below)
+> - If **one or more users are selected as a filter**, this report will output the current workgroup statistics for the workgroups that are assigned to only those users (mimicking the workgroup list that appears in the user's personal dashboard).
 > - CDI workgroups can have a blank "oldest discharge date" since no accounts in CDI workgroups typically have a discharge date.
 
 ![Report](image-435.jpg)

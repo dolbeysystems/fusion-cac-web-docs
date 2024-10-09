@@ -5,3 +5,10 @@ theme = 'relearn'
 
 [params]
 themeVariant = 'zen-light'
+
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputs]
+home = ['html', 'rss', 'search']

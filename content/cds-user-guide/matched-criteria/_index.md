@@ -3,7 +3,8 @@ title = 'Matched Criteria'
 weight = 50
 +++
 
-## Matched Criteria
+> [!note] CDI Users Only
+The Matched Criteria viewer is only shown if your current role is CDI.
 
 Matched criteria allow you to see why the chart was routed to you. The matched criteria group is a list
 of “criteria group” that the chart matched upon when it went through workflow. These criteria groups
@@ -36,5 +37,3 @@ matched criteria viewer.
 
 ![Matched Criteria Routing Options](image-302.jpg)
 
-> [!info]
-> Matched criteria will only be viewable if your current role is CDI.

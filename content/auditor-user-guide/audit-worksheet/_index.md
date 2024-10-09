@@ -3,11 +3,11 @@ title = 'Audit Worksheet'
 weight = 50
 +++
 
-*Below are the sections of the audit worksheet and the definition of the fields , including how it was
+Listed below, are the sections of the audit worksheet and the definition of the fields , including how it was
 calculated. If the auditor disagrees with any of the auto-calculated fields below, they can choose to
 override the field by entering in the value that makes sense per the audit. The system will provide an
 audit trail to show what the value was changed from and to for transparency along with the user that
-made the change and the date/time the change was performed.*
+made the change and the date/time the change was performed.
 
 ![](image-312.jpg)
 
@@ -42,9 +42,9 @@ made the change and the date/time the change was performed.*
 
 ## PCS Codes Section
 
-> [!info]
-> This section will only display if there is at least one PCS on the Coder Outcome (Pre-Audit) or the Auditor
-> Outcome (Post-Audit).
+> [!note] At Least One Code Required
+This section will only display if there is at least one PCS on the Coder Outcome (Pre-Audit) or the Auditor
+Outcome (Post-Audit).
 
 | Field                             | Definition |
 | --------------------------------- | ---------- |
@@ -61,9 +61,9 @@ made the change and the date/time the change was performed.*
 
 ## CPT Codes Section
 
-> [!info]
-> This section will only display if there is at least one CPT on the Coder Outcome (Pre-Audit) or the Auditor
-> Outcome (Post-Audit).
+> [!note] At Least One Code Required
+This section will only display if there is at least one CPT on the Coder Outcome (Pre-Audit) or the Auditor
+Outcome (Post-Audit).
 
 | Field                             | Definition |
 | --------------------------------- | ---------- |
@@ -83,8 +83,8 @@ made the change and the date/time the change was performed.*
 
 ## DRG Outcome
 
-> [!info]
-> This section will only display on an inpatient chart.
+> [!note] Inpatient Charts Only
+This section will only display on an inpatient chart.
 
 | Field                             | Definition |
 | --------------------------------- | ---------- |
@@ -117,9 +117,9 @@ made the change and the date/time the change was performed.*
 
 ## Missed Queries
 
-> [!info]
-> This section will only be available if queries were initiated after the audit began. The query does not have
-> to be initiated by the auditor to be attributed to the audit as a missed opportunity.
+> [!note] After Audit Queries Only
+This section will only be available if queries were initiated after the audit began. The query does not have
+to be initiated by the auditor to be attributed to the audit as a missed opportunity.
 
 ![](image-313.jpg)
 

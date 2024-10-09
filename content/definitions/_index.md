@@ -124,6 +124,3 @@ A list of charts to be completed for coding, CDI or QA. Most charts flow into a
 Workgroup based upon automatic criteria, however admin user can route a
 chart to Workgroup (uncommon)
 
-
-## Colors and Symbols
-

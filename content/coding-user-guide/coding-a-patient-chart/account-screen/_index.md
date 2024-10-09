@@ -135,5 +135,5 @@ resolved prior to submission.**
 
 Click on the **Add Document** button to add a document configured based on your user role.
 
-> [!info]
-> Document types available to be added are configured by system administrators.
+> [!note] Document Type Configuration
+Document types available to be added are configured by system administrators.

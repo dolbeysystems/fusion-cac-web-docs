@@ -1,5 +1,5 @@
 +++
-title = 'Chart Prioritization'
+title = 'CDI Alerts and Chart Prioritization'
 weight = 20
 +++
 
@@ -27,32 +27,12 @@ documentation that is missing with the Diagnosis/Topic that is being targeted.
 
 CDI Alerts branch out into 4 types of Alerts.
 
-### No Documentation but, Clinical Indicators
-
-This Alert type is when the provider did not document a Diagnosis but, there are Clinical Indicators that
-support “Possible Diagnosis”.
-
-### Documentation but lack of Clinical Indicators
-
-This is where the provider documented the diagnosis but there is a lack of Clinical Indicators that
-support the diagnosis. For example, if Sepsis was documented by the provider but, it's not supported by
-Clinical Indicators. This Alert helps to ensure that diagnoses are audit proof. Ensuring that the
-supporting evidence requiered for a proper diagnsosis validation is present within the patients chart.
-
-### Documentation but Not Fully Specified
-
-This is where the provider documented a diagnosis but, it was not documented to its Full Specificity. For
-example, Heart Failure Unspecified; the diagnosis is not documented to the Full Specificity. This CDI
-Alert is helpful for ensuring that Diagnoses are documented to their full extent in order to combat
-denials.
-
-### Conflicting Diagnosis
-
-This Alert looks at if there are two or more Fully Specified versions of a diagnosis that maybe potentially
-conflicting. For example, if the provider or providers in one location documented that a patient had
-Acute Diastolic Heart Failure and the other location of the patients record it was Acute on Chronic
-Systolic Heart Failure, this Alert helps to make sure that the proper diagnosis is present to have an
-accurate patient picture for all care providers involved.
+| Alert Type                                      | Description |
+| ----------------------------------------------- | ----------- |
+| **No Documentation but, Clinical Indicators**   | This Alert type is when the provider did not document a Diagnosis but, there are Clinical Indicators that support “Possible Diagnosis”.|
+| Documentation but lack of Clinical Indicators   | This is where the provider documented the diagnosis but there is a lack of Clinical Indicators that support the diagnosis. For example, if Sepsis was documented by the provider but, it's not supported by Clinical Indicators. This Alert helps to ensure that diagnoses are audit proof. Ensuring that the supporting evidence requiered for a proper diagnsosis validation is present within the patients chart. |
+| **Documentation but Not Fully Specified           | This is where the provider documented a diagnosis but, it was not documented to its Full Specificity. For example, Heart Failure Unspecified; the diagnosis is not documented to the Full Specificity. This CDI Alert is helpful for ensuring that Diagnoses are documented to their full extent in order to combat denials. |
+| Conflicting Diagnosis                           | This Alert looks at if there are two or more Fully Specified versions of a diagnosis that maybe potentially conflicting. For example, if the provider or providers in one location documented that a patient had Acute Diastolic Heart Failure and the other location of the patients record it was Acute on Chronic Systolic Heart Failure, this Alert helps to make sure that the proper diagnosis is present to have an accurate patient picture for all care providers involved. |
 
 
 ## Setting up CDI Alerts
@@ -109,7 +89,7 @@ which can be advantageous when toggling through the evidence hyperlinks listed w
 Viewer. This allows you to easily review the evidence provided without having to continously go back to
 the Alerts viewer.
 
-## Navigating the CDI Alerts Veiwer
+## Navigating the CDI Alerts Viewer
 
 Once in the CDI Alerts Viewer you will notice two headings in the dark blue bars “Active Alerts” and
 “Completed Alerts”. When you click on the either of these headings you can either expand or collapse
@@ -307,16 +287,17 @@ for your organization.
 
 ![Documentation Review](image-296.jpg)
 
-By clicking on “+ Add Review” you can select the type of review you are doing. 
+By clicking on “+ Add Review” you can select the type of review that you wish to complete. 
 
-> [!info]
-> To change the review types these can be done from the mapping table.
+> [!tip] Review Type List Configuration
+The list of review types presented here are configurable by a site administrator through
+[Mapping Configuration.]({{< ref "../../administrative-user-guide/mapping-configuration" >}})
 
 ![Documentation Review](image-297.jpg)
 
 Then, type in your notes.  Finally, click Ok to save.
 
-![Documentation Review](image-298.jpg)
+![Documentation Review](image-298.png)
 
 Each review is saved, there are custom management reports to report out specific reviews and the CDI
 Management and CDI Personal Dashboard will all change to accommodate these custom reviews, if you

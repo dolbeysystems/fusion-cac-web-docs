@@ -67,11 +67,11 @@ HCC’s the user will see in the navigation tree a Previous HCC Overview Menu.
 
 ![](image-545.png)
 
-> [!info]
+> [!caution] HCC Indicators Are Not Retroactive
 This will not capture data that existed prior to turning this feature on in the mapping
 table. These are turned on in mappings. Under the Categories mapping there is a check box.
-When HCC's are enabled, these will display below grouped by HCC category and by code —
-showing the account number and MRN # for the visits each were associated with.
+When HCC's are enabled, these will display below grouped by HCC category and by code,
+showing the account number and MRN # for the associated visit.
 
 ## Billing Countdown
 

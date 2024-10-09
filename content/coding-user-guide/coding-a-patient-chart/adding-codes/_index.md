@@ -9,22 +9,21 @@ side under the Assigned Codes pane.
 
 ![Code Tree](image-023.png)
 
-Codes are categorized by Diagnosis Codes, Procedure Codes, and then
-CPT® Codes.
+Codes are placed into the following categories:
 
-From here, you can right-click on a code, then either Assign or
-Edit/Assign the selected code.
+1. Diagnosis Codes
+2. Procedure Codes
+3. CPT® Codes
 
-Selecting Edit/Assign will open a window to review the code, code
-description, set the POA indicator, and designate the code status as
-Admit, Principal or Secondary.
+From here, you can right-click on a code, then either Assign or Edit/Assign the selected code.
 
-Clicking OK after making these selections will then move the selected
-code to the Assigned Codes pane.
+Selecting Edit/Assign will open a window to review the code, code description, set the POA indicator, 
+and designate the code status as Admit, Principal or Secondary.
 
-Left-clicking on an Unassigned Code will open the relevant document in
-the center document viewer and highlight instances of the suggested
-code in yellow.
+Clicking OK after making these selections will then move the selected code to the Assigned Codes pane.
+
+Left-clicking on an Unassigned Code will open the relevant document in the center document viewer and
+highlight instances of the suggested code in yellow.
 
 Continue reviewing all Unassigned Codes until all Assigned Codes have been validated with POA
 indicator and status
@@ -45,9 +44,8 @@ for validation:
 
 After reviewing all suggested codes from either the Documents Pane or Unassigned Code Pane, you can
 add a code to a text document by highlighting the relevant word(s) or phrase and then right-clicking to
-open the Add Code menu. Left-click and drag the mouse to highlight the selected text for code addition, then right-click to
-open the Add Code Menu.
-
+open the Add Code menu. Left-click and drag the mouse to highlight the selected text for code addition,
+then right-click to open the Add Code Menu.
 
 ## Suggested Code
 
@@ -87,7 +85,7 @@ designate the code as Admit, Principal or Secondary.
 
 Alternatively, you may also enter the text description of the code and select the code that way.
 
-> [!info]
+> [!note] Code Editor Window
 > You can add either a Diagnosis or Procedure/CPT® code from the Code Editor window.
 
 ## Add Code from Encoder
@@ -132,9 +130,11 @@ Add Code Menu.
 Click on **Add Code from Encoder** + to launch the Encoder. Continue to use the encoder and accept the final 
 code which will be returned to your chart.
 
-> [!info]
+> [!caution] Adding From Encoder Varies
 > The exact functionality of adding a code from encoder can vary depending on your facility settings
-> and the encoder used. Please consult your manager if you need further instructions.
+> and the encoder used.
+>
+> Please consult your manager if you need further instructions.
 
 ## Editing a Code
 
@@ -247,7 +247,7 @@ codes within the Assigned Codes Pane.
 
 Left click and hold the code to be re-sequenced, then move it to the new sequence location and release.
 
-> [!info]
+> [!important] TruCode Resequencing
 > TruCode users have the option to perform an encoder calculation without automatically
 > resequencing the assigned codes on an as-needed basis.
 
@@ -259,7 +259,8 @@ will enable sites to re-sequence codes above a certain position.
 
 ### Principal Dx Analyzer
 
-This feature is only available for TruCode encoder users. 
+> [!note] TruCode&#8482; Users Only
+This fix only applies to TruCode&#8482; users.
 
 ## Mass Editing Codes
 

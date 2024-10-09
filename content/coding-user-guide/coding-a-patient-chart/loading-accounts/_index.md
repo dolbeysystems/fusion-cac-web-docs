@@ -135,11 +135,9 @@ the number of charts in the Workgroup.
 
 ![Assigned To Menu](image-100.jpg)
 
-> [!info]
-> By default, a Workgroup must have at least one pending chart
-> to display in the system. Assigned Workgroups will not be visible here
-> if there are no accounts available for coding for that specific
-> Workgroup.
+> [!note] Empty Workgroups Not Shown
+By default, a Workgroup must have at least one pending chart to display in the system. Assigned Workgroups
+will not be visible here if there are no accounts available for coding for that specific Workgroup.
 
 ### Auto-Load
 
@@ -148,9 +146,9 @@ will automatically load the next chart in the selected Workgroup upon Save, Subm
 discontinue Auto-Load at any time by unchecking the Auto-Load box. This will return you to the
 Assigned to Workgroup for manual selection of the next chart in the selected Workgroup.
 
-> [!info]
-> Note: Auto-load will load the next chart using the filters and sorts that you have applied to your
-> Workgroup.
+> [!note] Auto-load Uses Filter/Sort
+Auto-load will load the next chart using the filters and sorts that you have applied to your
+Workgroup.
 
 ![Auto-Load NavBar](image-104.jpg)
 
@@ -175,10 +173,10 @@ To ensure that you have the most up-to-date information for accounts in your ass
 when your current session of Fusion CAC has been idle for an extended period, hit the Refresh button to
 update your session with recent activity.
 
-> [!info]
-> The **Refresh** button within Fusion CAC is different from the refresh button in your browser. It is
-> recommended that you NOT use the refresh button in your browser, as this will reload your session,
-> resulting in a loss of your work.
+> [!note] Avoid Browser Refresh
+The **Refresh** button within Fusion CAC is different from the refresh button in your browser. It is
+recommended that you NOT use the refresh button in your browser, as this will reload your session,
+resulting in a loss of your work.
 
 ### Loading a Specific Chart
 
@@ -198,20 +196,21 @@ from the Account # search box.
 
 The Accounts Action Bar includes information on the account including:
 
-- **Chart Status** - Unbilled, Submitted
-- **Patient Type** - Inpatient, Outpatient, etc.
-- **Account #**
-- **Dates of Service** - From and Thru
-- **Length of Stay** - based on current date or discharge date
+| Field                | Description                             |
+| -------------------- | --------------------------------------- |
+| **Chart Status**     | Unbilled, Submitted                     |
+| **Patient Type**     | Inpatient, Outpatient, etc.             |
+| **Account #**        |                                         |
+| **Dates of Service** | From and Thru                           |
+| **Length of Stay**   | based on current date or discharge date |
 
 The Accounts Action Bar also has Control Keys to **Compute** (accessing the encoder), **Cancel**, **Save**, or
 **Submit** to complete work and close a chart.
 
-
-| Action      | Description |
-| ----------- | ----------- |
-| **Compute** | Launches the encoder. This button should be used to Compute the DRG or view encoder Edits.
-| **Cancel**  | This button will CANCEL any changes made to the account and return to the Assigned Accounts Listing for selection of a new account.
-| **Save**    | This button will SAVE any changes made to the account during the current session and return to the Assigned Accounts Listing for selection of a new account.
-| **Submit**  | The SUBMIT button will save and send any changes made to the account downstream based on facility requirements (usually billing or abstraction).
+| Action      | Description                                                                                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Compute** | Launches the encoder. This button should be used to Compute the DRG or view encoder Edits.                                                                   |
+| **Cancel**  | This button will CANCEL any changes made to the account and return to the Assigned Accounts Listing for selection of a new account.                          |
+| **Save**    | This button will SAVE any changes made to the account during the current session and return to the Assigned Accounts Listing for selection of a new account. |
+| **Submit**  | The SUBMIT button will save and send any changes made to the account downstream based on facility requirements (usually billing or abstraction).             |
 
