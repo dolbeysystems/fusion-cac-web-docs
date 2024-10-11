@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Connected :: Fusion CAC Documentation</title>
+    <link>https://example.org/getting-connected/index.html</link>
+    <description>Fusion CAC is a browser-based program. To launch the CAC browser application, open your web browser and enter your site’s Fusion CAC server address into the browser address bar. You will need to get the Fusion CAC server address from your site administrator or manager.&#xA;Fusion CAC URL Example https://fusion-cac-production/cac2&#xA;This address is just an example. The address for your server will be different.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/getting-connected/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

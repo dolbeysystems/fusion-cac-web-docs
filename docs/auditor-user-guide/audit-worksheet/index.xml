@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audit Worksheet :: Fusion CAC Documentation</title>
+    <link>https://example.org/auditor-user-guide/audit-worksheet/index.html</link>
+    <description>Listed below, are the sections of the audit worksheet and the definition of the fields , including how it was calculated. If the auditor disagrees with any of the auto-calculated fields below, they can choose to override the field by entering in the value that makes sense per the audit. The system will provide an audit trail to show what the value was changed from and to for transparency along with the user that made the change and the date/time the change was performed.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/auditor-user-guide/audit-worksheet/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

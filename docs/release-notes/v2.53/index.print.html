@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="V2.53 :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta property="og:url" content="https://example.org/release-notes/v2.53/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="V2.53 :: Fusion CAC Documentation">
+    <meta property="og:description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="V2.53 :: Fusion CAC Documentation">
+    <meta itemprop="description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta itemprop="wordCount" content="2295">
+    <title>V2.53 :: Fusion CAC Documentation</title>
+    <link href="https://example.org/release-notes/v2.53/index.html" rel="canonical" type="text/html" title="V2.53 :: Fusion CAC Documentation">
+    <link href="/release-notes/v2.53/index.xml" rel="alternate" type="application/rss+xml" title="V2.53 :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1728672923" rel="stylesheet">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support print" data-url="/release-notes/v2.53/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/release-notes/index.html"><span itemprop="name">Release Notes</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">V2.53</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.52/index.html" title="V2.52 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.54/index.html" title="V2.54 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="v253">V2.53</h1>
+
+<h2>V2.53.8745 Released 12/15/23</h2>
+<p>
+The notes below indicate changes and additions to the software. Please review these release notes
+carefully when deciding to apply a software update to an installation. 
+</p>
+
+<p>
+Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. 
+Please refer to the change with this tracking assignment number when communicating questions or issues.
+</p>
+
+<p>
+The heading also contains a parenthesized "Change Type", indicating the severity or importance of
+the change.  The severities used are:
+</p>
+
+<ul>
+  <li><strong style="color: darkred">Critical</strong> - Recommended that this application be upgraded as soon as possible at all sites
+  running previous versions.
+  <li><strong style="color: orange">Conditionally Critical</strong> - Recommended that this application be upgraded as soon as possible at
+  all sites running previous versions matching the stated conditions.
+  <li><strong style="color: green">Important</strong> - Recommended upgrading the application if the customer is experiencing the issue
+  denoted or currently applying a work-around for a specific non-functional feature.
+  <li><strong style="color: blue">Enhancement</strong> - Recommended upgrading only if the specific functionality is desired.
+</ul>
+
+<h3 id="new-module-enhancement">New Module (Enhancement)</h3>
+<p><strong>Add CDI Alerts Module</strong></p>
+<p>The software has a feature called CDI Alerts which are automated messages
+generated by the software that can be used to prioritize your CDI workflow.
+CDI Alerts are used to detect potential inaccuracies, inconsistencies and or
+discrepancies in clinical documentation. These Alerts help CDI teams to
+prioritize the charts based on potential query opportunities available.</p>
+<p>The software provides real-time Alerts when potential query opportunities
+are identified. Which will then allow CDI staff to prioritize charts based upon
+those potential opportunities.</p>
+<p>CDI Alerts can also be used by coding and auditing charts where CDI did not
+review the chart.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Contact SME for more information
+  </div>
+  <div class="box-content">
+<p>If you are upgrading, please contact Dolbey’s SME Team for more information on purchasing and
+enabling this feature.</p>
+  </div>
+</div>
+<h2 id="cactwo-5378-enhancement">CACTWO-5378 (Enhancement)</h2>
+<p><strong>Allow multiple Denials to be added to a single account</strong></p>
+<p>The Denial Management viewer will now allow multiple sheets to be created.
+Sheets can also be deleted via a red X to the right of each Denial heading.
+When reporting in Account Search, a new Denials drilldown is available, but it
+will only report on the first Denial on each account.</p>
+<p><a href="#R-image-e6e344598f64d6a180036f1c49d3ae63" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-797.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e6e344598f64d6a180036f1c49d3ae63"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-797.jpg"></a></p>
+<h2 id="cactwo-5423-enhancement">CACTWO-5423 (Enhancement)</h2>
+<p><strong>Add Pending Reasons to Discharge Not Final Coded user report</strong></p>
+<p>A new column for pending reasons has been added to the Discharge Not Final
+Coded user report. If there are multiple pending reasons, they will be
+separated by a comma.</p>
+<p><a href="#R-image-71cc87a5fea73ed340d21c76ed304a4d" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-798.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-71cc87a5fea73ed340d21c76ed304a4d"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-798.jpg"></a></p>
+<h2 id="cactwo-5446-important">CACTWO-5446 (Important)</h2>
+<p><strong>Recalculate query counts when saving an account</strong></p>
+<p>Currently, if a user was in an account that had an open physician query, and
+an external interface closed that query, the count on the Account List for the
+Query Total would still show the query open. This has been changed so that
+the query total on the account is updated upon closing the account.</p>
+<h2 id="cactwo-5481-enhancement">CACTWO-5481 (Enhancement)</h2>
+<p><strong>Users with multiple roles would like column orders to be maintained</strong></p>
+<p>Currently, if a user has multiple roles (e.g., Coder, Auditor, CDI Specialist),
+when the columns are changed for one role, the other roles are automatically
+set to match. This has been changed so that column changes for Account List,
+Charges and Transaction Viewers, and Medication viewers can now all be
+unique to each role.</p>
+<h2 id="cactwo-5537-enhancement">CACTWO-5537 (Enhancement)</h2>
+<p><strong>Allow physician field when embedded on physician query to display</strong></p>
+<p>automatically
+A new field option has been added to Form Designer under the +Add Field
+selection.. If the Physician field is added to a Physician Query, then the
+physician that is assigned will automatically show in that field.</p>
+<p><a href="#R-image-a6a3b85d3bde63a42f0f923b6d570d8a" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-799.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6a3b85d3bde63a42f0f923b6d570d8a"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-799.jpg"></a></p>
+<h2 id="cactwo-5667-enhancement">CACTWO-5667 (Enhancement)</h2>
+<p><strong>Add Auditor to ‘run for’ on Scheduled Reports</strong></p>
+<p>The ‘run for’ field in Scheduled Reports will now show an ‘Auditor Only’ option
+for these reports:</p>
+<ul>
+<li>Outstanding Queries</li>
+<li>Query Impact Report</li>
+<li>Query Impact by Discharge Date</li>
+<li>Query TAT by Author Report</li>
+<li>Query Template Volume Overview</li>
+<li>Query Template Volume by Discharge Date</li>
+<li>User Session Log</li>
+</ul>
+<p><a href="#R-image-9ef58c7448dde1b56809b5c4ce09ac87" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-801.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9ef58c7448dde1b56809b5c4ce09ac87"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-801.jpg"></a></p>
+<h2 id="cactwo-5873-enhancement">CACTWO-5873 (Enhancement)</h2>
+<p><strong>Display the document author in hover over on Documents pane</strong></p>
+<p>A hover over will now display on the documents pane to provide the author
+of the document if it is sent from the interface.</p>
+<h2 id="cactwo-5955-enhancement">CACTWO-5955 (Enhancement)</h2>
+<p><strong>Allow Validation Rule to add a Pending Reason</strong></p>
+<p>In Validation Management, a new field has been added to the rules that are
+created called Pending Reason. This field will have a dropdown with all
+available pending reasons. If a rule is triggered on an account and it has a
+pending reason attached, then the pending reason will be added and the user
+will be able to see the number of the rule. Pending reasons that have a
+physician or date requirement will NOT be available in this list. The only way
+to remove a pending reason that was added by a rule is to have that rule
+cleared.</p>
+<p><a href="#R-image-24b830a1d1ccc728fe42f8f7de2edbd7" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-800.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-24b830a1d1ccc728fe42f8f7de2edbd7"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-800.jpg"></a></p>
+<h2 id="cactwo-5964-enhancement">CACTWO-5964 (Enhancement)</h2>
+<p><strong>Allow Document Search box to be resized</strong></p>
+<p>In an account, when the Document Search is opened, the box can now be
+resized by grabbing and pulling the lower right corner.</p>
+<h2 id="cactwo-5972-enhancement">CACTWO-5972 (Enhancement)</h2>
+<p><strong>Add zoom in and out ability to text based documents</strong></p>
+<p>The ability to zoom in and out has been added as a right click option in
+documents, both on the main page and a pop out. This new zoom feature will
+work for Chrome and Edge users. When a user selects a zoom level, that level
+will be retained for all documents and the last zoom used before log out is the
+zoom level the user will get when they sign back in.</p>
+<h2 id="cactwo-6041-enhancement">CACTWO-6041 (Enhancement)</h2>
+<p><strong>Add Provider Name and Date to the document viewer header</strong></p>
+<p>If there is a physician name and date of service that is sent on the interface
+for a document, the physician name and date will now show in the document
+viewer header, on the popout, and in the Ctrl+ click of the header.</p>
+<h2 id="cactwo-6098-enhancement">CACTWO-6098 (Enhancement)</h2>
+<p><strong>Highlight Navigation pane if Query draft exists</strong></p>
+<p>The Physicians &amp; Queries viewer on the Navigation Pane will now show with
+an amber highlight if there is a Query Draft. When the draft is either updated
+and sent or deleted, the amber color will go away.</p>
+<p><a href="#R-image-91371f7b11661e60457f5a943d11d882" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-802.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-91371f7b11661e60457f5a943d11d882"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-802.jpg"></a></p>
+<h2 id="cactwo-6107-enhancement">CACTWO-6107 (Enhancement)</h2>
+<p><strong>On HCC codes, display HCC version to support V24 and v28</strong></p>
+<p>A code that is followed by an HCC indicator in account detail will now display
+the version of HCC for calendar year 2023 (retroactively) and 2024 when the
+user hovers over the H in the Assigned Codes panel. On the Final Code
+Summary and the Working CDI History viewer, the code’s HCC designation will
+show the HCC number and its version.</p>
+<p><a href="#R-image-476cb6f6ea304ac2f73098d36d96edc0" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-803.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-476cb6f6ea304ac2f73098d36d96edc0"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-803.jpg"></a></p>
+<h2 id="cactwo-6108-enhancement">CACTWO-6108 (Enhancement)</h2>
+<p><strong>Allow history on changes in Form Designer</strong></p>
+<p>Form Designer will now create a history for changes made in Form Designer.
+Once a change is made on a form and saved, a Show History button will show
+in the top right of the worksheet. Clicking on it will bring up a notes box
+allowing for the end user to make a note as to the change, this function like
+the Workflow Management viewer notes.</p>
+<p><a href="#R-image-4899fe154f1c5dd1687cac32b2f6d35b" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-804.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4899fe154f1c5dd1687cac32b2f6d35b"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-804.jpg"></a></p>
+<h2 id="cactwo-6115-enhancement">CACTWO-6115 (Enhancement)</h2>
+<p><strong>Add more fields to Denial Management viewer</strong></p>
+<p>Additional fields for a 3rd appeal and extra DRG information have been added
+to the Denial Management viewer. These fields can also be added to Grid
+Maintenance.</p>
+<p><a href="#R-image-d74c5dc001edd483ee058ce984484409" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-806.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d74c5dc001edd483ee058ce984484409"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-806.jpg"></a></p>
+<h2 id="cactwo-6117-enhancement">CACTWO-6117 (Enhancement)</h2>
+<p><strong>Allow all stratums for PSI 04 quality indicators to show in Code Summary</strong></p>
+<p>In the Algorithm for Quality Indicators section of the Code Summary viewer,
+only the first PSI 04 indicator is displaying. This has been updated to show all
+5 of the indicators.</p>
+<p><a href="#R-image-93f2250224dfc9bc38ef68d9ccb686cc" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-805.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-93f2250224dfc9bc38ef68d9ccb686cc"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-805.jpg"></a></p>
+<h2 id="cactwo-6118-important">CACTWO-6118 (Important)</h2>
+<p><strong>CDI Activity Report grand total line is incorrect if users are filtered</strong></p>
+<p>If the CDI Activity Report is being filtered to just one user, the Grand Total line
+is showing the total for all users instead of just the one filtered. This has been
+corrected.</p>
+<h2 id="cactwo-6120-important">CACTWO-6120 (Important)</h2>
+<p><strong>OR groups are not showing in new Workflow Management page</strong></p>
+<p>If an OR group is added to workgroup level criteria, it is not appearing within
+each criteria group. This has been corrected.</p>
+<h2 id="cactwo-6122-important">CACTWO-6122 (Important)</h2>
+<p><strong>Audit Management error rate not being reported correctly in reports</strong></p>
+<p>The following reports were not calculating the Audit Management error rate
+correctly. They have been corrected.</p>
+<ul>
+<li>Audit Executive Summary</li>
+<li>Inpatient Auditor Productivity</li>
+<li>Inpatient Coder Scorecard</li>
+<li>Outpatient Audit Scorecard</li>
+<li>Outpatient Auditor Productivity</li>
+<li>Outpatient Coder Scorecard</li>
+</ul>
+<h2 id="cactwo-6125-important">CACTWO-6125 (Important)</h2>
+<p><strong>CDI Activity Report is not reporting Reconciliation correctly</strong></p>
+<p>The CDI Activity Report was reporting a DRG Reconciliation if an account set
+for DRG Reconciliation was opened, but then cancelled out. This has been
+corrected so that accts cancelled will no longer be included.</p>
+<h2 id="cactwo-6126-enhancement">CACTWO-6126 (Enhancement)</h2>
+<p><strong>Allow Users to be excluded from the Inactivity prompt</strong></p>
+<p>New funcitonality has been added so that Role Management now contains an
+option to exclude a role type from being triggered.</p>
+<p><a href="#R-image-9fd9a9f4ea5d29e8c258740a13ce91e5" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-806.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9fd9a9f4ea5d29e8c258740a13ce91e5"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-806.jpg"></a></p>
+<h2 id="cactwo-6135-enhancement">CACTWO-6135 (Enhancement)</h2>
+<p><strong>Allow Flowsheet to save the collapse function</strong></p>
+<p>If a user collapses or uncollapses a major category on the Flowsheet viewer,
+that configuration will remain for all accounts that have the Flowsheet viewer.
+Note that if a user collapses/uncollapses a major category in the pop out, it
+will not be seen on the main page until the user moves to a different viewer
+and back.</p>
+<h2 id="cactwo-6136-important">CACTWO-6136 (Important)</h2>
+<p><strong>Auditor Physician Query Draft line is not showing on Dashboard</strong></p>
+<p>If an auditor, CDI specialist, or coder has at least one query draft but no sent
+queries, the total drafts count will now appear for the role with the open
+queries, unanswered, and answer counts displaying as zero on the dashboard.</p>
+<h2 id="cactwo-6144-enhancement">CACTWO-6144 (Enhancement)</h2>
+<p><strong>Show friendly values in Workflow dropdowns</strong></p>
+<p>Currently the new Workflow Management page is not showing the friendly
+value for criteria of a property with a mapping. This has been changed to
+show the friendly value, just like the classic Workflow Management page.</p>
+<h2 id="cactwo-6146-important">CACTWO-6146 (Important)</h2>
+<p><strong>3M is opening another instance when opening a dashboard drilldown</strong></p>
+<p>If a user opens a dashboard drilldown, another window with 3M is opened.
+This has been corrected so that there is only ever one 3M open.</p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> 3M Web Component Users Only
+  </div>
+  <div class="box-content">
+<p>This fix is only applicable for 3M Web Component users.</p>
+  </div>
+</div>
+<h2 id="cactwo-6147-enhancement">CACTWO-6147 (Enhancement)</h2>
+<p><strong>Hide Visit reason fields if there are none on the account</strong></p>
+<p>The Audit Management Worksheet viewer will no longer show all of the Visit
+Reason fields if there are no visit reasons on the account left by the coder or
+the auditor. If a visit reason is added by the auditor during the audit process,
+the Visit Reason fields will open up when the auditor clicks the Update Codes
+button.</p>
+<h2 id="cactwo-6150-important">CACTWO-6150 (Important)</h2>
+<p><strong>Reports are not properly counting intial reviews of accounts</strong></p>
+<p>If a CDI Specialist creates a Baseline DRG (the first Working DRG), then edits
+the account further causing the Working DRG to be cleared, and then saves
+the account without computing a new Working DRG, the creation of the
+Baseline DRG now counts as an initial review.</p>
+<h2 id="cactwo-6181-important">CACTWO-6181 (Important)</h2>
+<p><strong>New Workflow Management page is holding Note text when it should clear</strong></p>
+<p>Adding text into the Note field in a workgroup was resulting in that same text
+appearing in every subsequent workflow This has been corrected.</p>
+<h2 id="cactwo-6188-important">CACTWO-6188 (Important)</h2>
+<p><strong>Adding workflow is changing the workflow order in User Maintenance</strong></p>
+<p>If new workflow is added to the new Workflow Management page, the users
+attached to that workflow are having their order in the User Management
+profile change. This has been corrected so that any newly added workflow
+will go to the end of the list in the new Workflow Management page and the
+User Management profile.</p>
+<h2 id="cactwo-6195-important">CACTWO-6195 (Important)</h2>
+<p><strong>Reporting is not calculating manually added codes properly</strong></p>
+<p>Two user reports (Coder Suggestion Use by Coder and Engine Results by
+Documents) were not calculating codes added manually. This has been
+corrected.</p>
+<h2 id="cactwo-6201-enhancement">CACTWO-6201 (Enhancement)</h2>
+<p><strong>Allow Query to be created and closed in one step</strong></p>
+<p>For customers who do not have a physician query interface and do not createa
+physician query until a response is received, a query can now be created and
+not sent. When enabled, a physician query will show a “Continue” button in
+place of “Send”. Clicking the ‘Continue’ button will refresh the query to open
+the physician response fields so that the query can then be closed. This is
+common for Epic EMR customers.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Additional Configuration Required
+  </div>
+  <div class="box-content">
+<p>Please contact Support to enable this feature.</p>
+  </div>
+</div>
+<h2 id="cactwo-6202-important">CACTWO-6202 (Important)</h2>
+<p><strong>Improve performance of encoder calculations with several codes</strong></p>
+<p>When a user performs an encoder computation, the red bar showing that an
+encoder is open was taking a few seconds to disappear over the
+Compute/Save/Submit buttons. This has been corrected so that it disappers
+sooner.</p>
+<h2 id="cactwo-6204-enhancement">CACTWO-6204 (Enhancement)</h2>
+<p><strong>Update Audit reports to show blank for accuracy</strong></p>
+<p>For the Inpatient Coder Scorecard and the Outpatient Coder Scorecard if there
+are no CPT or PCS codes, the CPT Codes and PCS Codes accuracy columns will
+now display as blank, rather than 100%.</p>
+<h2 id="cactwo-6205-enhancement">CACTWO-6205 (Enhancement)</h2>
+<p><strong>Make Accuracy rates stand out in the Audit Worksheet</strong></p>
+<p>To make the accuracy rate lines stand out in the Audit Worksheet, the
+backgrounds have been changed to show as light blue.</p>
+<p><a href="#R-image-c11b875ed0a53b3582993af8ec52c007" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-808.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c11b875ed0a53b3582993af8ec52c007"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-808.jpg"></a></p>
+<h2 id="cactwo-6217-important">CACTWO-6217 (Important)</h2>
+<p><strong>Field in worksheet showing as ‘Select an item’ when printed</strong></p>
+<p>On worksheets, dropdowns prompting users to select an item were not
+displaying the selection when that worksheet was printed. This has been
+corrected.</p>
+<h2 id="cactwo-6224-enhancement">CACTWO-6224 (Enhancement)</h2>
+<p><strong>Allow DRG Reconcilation to compare DRG weight</strong></p>
+<p>A new setting has been created that, when set to true, will compare DRG
+weights as well as the DRG during reconciliation. By default, the comparing of
+DRG Weights will be disabled.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Additional Configuration Required
+  </div>
+  <div class="box-content">
+<p>Please contact Support to implement this change.</p>
+  </div>
+</div>
+<h2 id="cactwo-6225-important">CACTWO-6225 (Important)</h2>
+<p><strong>Account Search not using ‘only contains’ properly with “Assigned Diagnosis with POA N” field</strong></p>
+<p>Account Search will now correctly use the Only Contains criterion.</p>
+<h2 id="cactwo-6239-important">CACTWO-6239 (Important)</h2>
+<p><strong>Code Suggestion by Coder report is not calculating correctly</strong></p>
+<p>When a code is being added via 3M to an account that is then being
+submitted, that code is not showing up in the Direct column of the From Other
+Sources section of the Code Suggestion Use by Coder report. This has been
+corrected.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

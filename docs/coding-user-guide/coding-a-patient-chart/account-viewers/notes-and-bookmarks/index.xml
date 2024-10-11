@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes and Bookmarks :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html</link>
+    <description>The Notes &amp; Bookmarks becomes visible in the center pane after clicking on the hyperlink from the Navigation Pane. This pane presents a summary and chronological history of all notes and bookmarks added to this account.&#xA;Add Note Notes can be added to the patient chart by clicking on the Add Note button within the Notes &amp; Bookmarks Pane.&#xA;When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the Navigation pane will turn red.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

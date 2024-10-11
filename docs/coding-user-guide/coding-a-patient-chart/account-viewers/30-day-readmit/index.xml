@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>30 Day Readmit :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html</link>
+    <description>If the patient has been readmitted within 30 days of the admit date, the patient demographic data will display below from the previous stay. If the previous stay was also coded, you will see the code summary display below.&#xA;If a check mark appears next to the code, this indicates the code on the previous stay was also suggested for the current stay.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

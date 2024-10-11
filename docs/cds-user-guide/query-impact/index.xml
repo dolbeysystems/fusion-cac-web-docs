@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Query Impact :: Fusion CAC Documentation</title>
+    <link>https://example.org/cds-user-guide/query-impact/index.html</link>
+    <description>How does the impact of a query get recorded? The impact for inpatient cases is captured by the natural actions a CDS takes, therefore no manual data entry needs to be tracked by the CDS. The impact of the query is calculated by using the working DRG calculated within the same session in which you created the physician query for. Then once the physician replies to the query the CDS will then close the query as agreed, disagreed or no opinion. The same session that a CDS closes the query the system will then capture the working DRG that was calculated during this session. A session is closed by saving the chart.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/cds-user-guide/query-impact/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

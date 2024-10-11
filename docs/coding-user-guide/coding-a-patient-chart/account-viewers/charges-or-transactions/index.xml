@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charges/Transactions Viewer :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html</link>
+    <description>If an interface for account charges is set up during configuration, the Charges screen shows a listing of charges on the account and provides activity buttons to Save Layout or Expand the Charges or transactions pane.&#xA;You can expand the width of the Charges or transactions pane to view more available columns by clicking on the in the top right corner of the pane.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

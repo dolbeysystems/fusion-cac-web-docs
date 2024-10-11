@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patient Info :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html</link>
+    <description>The Patient Info pane summarizes patient demographic information (based on system configuration) with data captured for purposes of state and/or registry reporting.&#xA;You can expand the width of the Code Summary pane by clicking on the right arrow in the top right corner of the pane. To update data fields in the Patient Info pane, click on the blue button and select the appropriate selection from the drop-down menu.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

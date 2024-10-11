@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Managing Codes :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/adding-codes/index.html</link>
+    <description>Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane.&#xA;Codes are placed into the following categories:&#xA;Diagnosis Codes Procedure Codes CPT® Codes From here, you can right-click on a code, then either Assign or Edit/Assign the selected code.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/adding-codes/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

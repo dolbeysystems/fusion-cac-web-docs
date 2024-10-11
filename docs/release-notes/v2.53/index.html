@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="V2.53 :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta property="og:url" content="https://example.org/release-notes/v2.53/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="V2.53 :: Fusion CAC Documentation">
+    <meta property="og:description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="V2.53 :: Fusion CAC Documentation">
+    <meta itemprop="description" content="V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta itemprop="wordCount" content="2295">
+    <title>V2.53 :: Fusion CAC Documentation</title>
+    <link href="/release-notes/v2.53/index.xml" rel="alternate" type="application/rss+xml" title="V2.53 :: Fusion CAC Documentation">
+    <link href="/release-notes/v2.53/index.print.html" rel="alternate" type="text/html" title="V2.53 :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support html" data-url="/release-notes/v2.53/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#new-module-enhancement">New Module (Enhancement)</a></li>
+      </ul>
+    </li>
+    <li><a href="#cactwo-5378-enhancement">CACTWO-5378 (Enhancement)</a></li>
+    <li><a href="#cactwo-5423-enhancement">CACTWO-5423 (Enhancement)</a></li>
+    <li><a href="#cactwo-5446-important">CACTWO-5446 (Important)</a></li>
+    <li><a href="#cactwo-5481-enhancement">CACTWO-5481 (Enhancement)</a></li>
+    <li><a href="#cactwo-5537-enhancement">CACTWO-5537 (Enhancement)</a></li>
+    <li><a href="#cactwo-5667-enhancement">CACTWO-5667 (Enhancement)</a></li>
+    <li><a href="#cactwo-5873-enhancement">CACTWO-5873 (Enhancement)</a></li>
+    <li><a href="#cactwo-5955-enhancement">CACTWO-5955 (Enhancement)</a></li>
+    <li><a href="#cactwo-5964-enhancement">CACTWO-5964 (Enhancement)</a></li>
+    <li><a href="#cactwo-5972-enhancement">CACTWO-5972 (Enhancement)</a></li>
+    <li><a href="#cactwo-6041-enhancement">CACTWO-6041 (Enhancement)</a></li>
+    <li><a href="#cactwo-6098-enhancement">CACTWO-6098 (Enhancement)</a></li>
+    <li><a href="#cactwo-6107-enhancement">CACTWO-6107 (Enhancement)</a></li>
+    <li><a href="#cactwo-6108-enhancement">CACTWO-6108 (Enhancement)</a></li>
+    <li><a href="#cactwo-6115-enhancement">CACTWO-6115 (Enhancement)</a></li>
+    <li><a href="#cactwo-6117-enhancement">CACTWO-6117 (Enhancement)</a></li>
+    <li><a href="#cactwo-6118-important">CACTWO-6118 (Important)</a></li>
+    <li><a href="#cactwo-6120-important">CACTWO-6120 (Important)</a></li>
+    <li><a href="#cactwo-6122-important">CACTWO-6122 (Important)</a></li>
+    <li><a href="#cactwo-6125-important">CACTWO-6125 (Important)</a></li>
+    <li><a href="#cactwo-6126-enhancement">CACTWO-6126 (Enhancement)</a></li>
+    <li><a href="#cactwo-6135-enhancement">CACTWO-6135 (Enhancement)</a></li>
+    <li><a href="#cactwo-6136-important">CACTWO-6136 (Important)</a></li>
+    <li><a href="#cactwo-6144-enhancement">CACTWO-6144 (Enhancement)</a></li>
+    <li><a href="#cactwo-6146-important">CACTWO-6146 (Important)</a></li>
+    <li><a href="#cactwo-6147-enhancement">CACTWO-6147 (Enhancement)</a></li>
+    <li><a href="#cactwo-6150-important">CACTWO-6150 (Important)</a></li>
+    <li><a href="#cactwo-6181-important">CACTWO-6181 (Important)</a></li>
+    <li><a href="#cactwo-6188-important">CACTWO-6188 (Important)</a></li>
+    <li><a href="#cactwo-6195-important">CACTWO-6195 (Important)</a></li>
+    <li><a href="#cactwo-6201-enhancement">CACTWO-6201 (Enhancement)</a></li>
+    <li><a href="#cactwo-6202-important">CACTWO-6202 (Important)</a></li>
+    <li><a href="#cactwo-6204-enhancement">CACTWO-6204 (Enhancement)</a></li>
+    <li><a href="#cactwo-6205-enhancement">CACTWO-6205 (Enhancement)</a></li>
+    <li><a href="#cactwo-6217-important">CACTWO-6217 (Important)</a></li>
+    <li><a href="#cactwo-6224-enhancement">CACTWO-6224 (Enhancement)</a></li>
+    <li><a href="#cactwo-6225-important">CACTWO-6225 (Important)</a></li>
+    <li><a href="#cactwo-6239-important">CACTWO-6239 (Important)</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/release-notes/index.html"><span itemprop="name">Release Notes</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">V2.53</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.53/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.52/index.html" title="V2.52 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.54/index.html" title="V2.54 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="v253">V2.53</h1>
+
+<h2>V2.53.8745 Released 12/15/23</h2>
+<p>
+The notes below indicate changes and additions to the software. Please review these release notes
+carefully when deciding to apply a software update to an installation. 
+</p>
+
+<p>
+Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. 
+Please refer to the change with this tracking assignment number when communicating questions or issues.
+</p>
+
+<p>
+The heading also contains a parenthesized "Change Type", indicating the severity or importance of
+the change.  The severities used are:
+</p>
+
+<ul>
+  <li><strong style="color: darkred">Critical</strong> - Recommended that this application be upgraded as soon as possible at all sites
+  running previous versions.
+  <li><strong style="color: orange">Conditionally Critical</strong> - Recommended that this application be upgraded as soon as possible at
+  all sites running previous versions matching the stated conditions.
+  <li><strong style="color: green">Important</strong> - Recommended upgrading the application if the customer is experiencing the issue
+  denoted or currently applying a work-around for a specific non-functional feature.
+  <li><strong style="color: blue">Enhancement</strong> - Recommended upgrading only if the specific functionality is desired.
+</ul>
+
+<h3 id="new-module-enhancement">New Module (Enhancement)</h3>
+<p><strong>Add CDI Alerts Module</strong></p>
+<p>The software has a feature called CDI Alerts which are automated messages
+generated by the software that can be used to prioritize your CDI workflow.
+CDI Alerts are used to detect potential inaccuracies, inconsistencies and or
+discrepancies in clinical documentation. These Alerts help CDI teams to
+prioritize the charts based on potential query opportunities available.</p>
+<p>The software provides real-time Alerts when potential query opportunities
+are identified. Which will then allow CDI staff to prioritize charts based upon
+those potential opportunities.</p>
+<p>CDI Alerts can also be used by coding and auditing charts where CDI did not
+review the chart.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Contact SME for more information
+  </div>
+  <div class="box-content">
+<p>If you are upgrading, please contact Dolbey’s SME Team for more information on purchasing and
+enabling this feature.</p>
+  </div>
+</div>
+<h2 id="cactwo-5378-enhancement">CACTWO-5378 (Enhancement)</h2>
+<p><strong>Allow multiple Denials to be added to a single account</strong></p>
+<p>The Denial Management viewer will now allow multiple sheets to be created.
+Sheets can also be deleted via a red X to the right of each Denial heading.
+When reporting in Account Search, a new Denials drilldown is available, but it
+will only report on the first Denial on each account.</p>
+<p><a href="#R-image-e6e344598f64d6a180036f1c49d3ae63" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-797.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e6e344598f64d6a180036f1c49d3ae63"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-797.jpg"></a></p>
+<h2 id="cactwo-5423-enhancement">CACTWO-5423 (Enhancement)</h2>
+<p><strong>Add Pending Reasons to Discharge Not Final Coded user report</strong></p>
+<p>A new column for pending reasons has been added to the Discharge Not Final
+Coded user report. If there are multiple pending reasons, they will be
+separated by a comma.</p>
+<p><a href="#R-image-71cc87a5fea73ed340d21c76ed304a4d" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-798.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-71cc87a5fea73ed340d21c76ed304a4d"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-798.jpg"></a></p>
+<h2 id="cactwo-5446-important">CACTWO-5446 (Important)</h2>
+<p><strong>Recalculate query counts when saving an account</strong></p>
+<p>Currently, if a user was in an account that had an open physician query, and
+an external interface closed that query, the count on the Account List for the
+Query Total would still show the query open. This has been changed so that
+the query total on the account is updated upon closing the account.</p>
+<h2 id="cactwo-5481-enhancement">CACTWO-5481 (Enhancement)</h2>
+<p><strong>Users with multiple roles would like column orders to be maintained</strong></p>
+<p>Currently, if a user has multiple roles (e.g., Coder, Auditor, CDI Specialist),
+when the columns are changed for one role, the other roles are automatically
+set to match. This has been changed so that column changes for Account List,
+Charges and Transaction Viewers, and Medication viewers can now all be
+unique to each role.</p>
+<h2 id="cactwo-5537-enhancement">CACTWO-5537 (Enhancement)</h2>
+<p><strong>Allow physician field when embedded on physician query to display</strong></p>
+<p>automatically
+A new field option has been added to Form Designer under the +Add Field
+selection.. If the Physician field is added to a Physician Query, then the
+physician that is assigned will automatically show in that field.</p>
+<p><a href="#R-image-a6a3b85d3bde63a42f0f923b6d570d8a" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-799.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6a3b85d3bde63a42f0f923b6d570d8a"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-799.jpg"></a></p>
+<h2 id="cactwo-5667-enhancement">CACTWO-5667 (Enhancement)</h2>
+<p><strong>Add Auditor to ‘run for’ on Scheduled Reports</strong></p>
+<p>The ‘run for’ field in Scheduled Reports will now show an ‘Auditor Only’ option
+for these reports:</p>
+<ul>
+<li>Outstanding Queries</li>
+<li>Query Impact Report</li>
+<li>Query Impact by Discharge Date</li>
+<li>Query TAT by Author Report</li>
+<li>Query Template Volume Overview</li>
+<li>Query Template Volume by Discharge Date</li>
+<li>User Session Log</li>
+</ul>
+<p><a href="#R-image-9ef58c7448dde1b56809b5c4ce09ac87" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-801.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9ef58c7448dde1b56809b5c4ce09ac87"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-801.jpg"></a></p>
+<h2 id="cactwo-5873-enhancement">CACTWO-5873 (Enhancement)</h2>
+<p><strong>Display the document author in hover over on Documents pane</strong></p>
+<p>A hover over will now display on the documents pane to provide the author
+of the document if it is sent from the interface.</p>
+<h2 id="cactwo-5955-enhancement">CACTWO-5955 (Enhancement)</h2>
+<p><strong>Allow Validation Rule to add a Pending Reason</strong></p>
+<p>In Validation Management, a new field has been added to the rules that are
+created called Pending Reason. This field will have a dropdown with all
+available pending reasons. If a rule is triggered on an account and it has a
+pending reason attached, then the pending reason will be added and the user
+will be able to see the number of the rule. Pending reasons that have a
+physician or date requirement will NOT be available in this list. The only way
+to remove a pending reason that was added by a rule is to have that rule
+cleared.</p>
+<p><a href="#R-image-24b830a1d1ccc728fe42f8f7de2edbd7" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-800.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-24b830a1d1ccc728fe42f8f7de2edbd7"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-800.jpg"></a></p>
+<h2 id="cactwo-5964-enhancement">CACTWO-5964 (Enhancement)</h2>
+<p><strong>Allow Document Search box to be resized</strong></p>
+<p>In an account, when the Document Search is opened, the box can now be
+resized by grabbing and pulling the lower right corner.</p>
+<h2 id="cactwo-5972-enhancement">CACTWO-5972 (Enhancement)</h2>
+<p><strong>Add zoom in and out ability to text based documents</strong></p>
+<p>The ability to zoom in and out has been added as a right click option in
+documents, both on the main page and a pop out. This new zoom feature will
+work for Chrome and Edge users. When a user selects a zoom level, that level
+will be retained for all documents and the last zoom used before log out is the
+zoom level the user will get when they sign back in.</p>
+<h2 id="cactwo-6041-enhancement">CACTWO-6041 (Enhancement)</h2>
+<p><strong>Add Provider Name and Date to the document viewer header</strong></p>
+<p>If there is a physician name and date of service that is sent on the interface
+for a document, the physician name and date will now show in the document
+viewer header, on the popout, and in the Ctrl+ click of the header.</p>
+<h2 id="cactwo-6098-enhancement">CACTWO-6098 (Enhancement)</h2>
+<p><strong>Highlight Navigation pane if Query draft exists</strong></p>
+<p>The Physicians &amp; Queries viewer on the Navigation Pane will now show with
+an amber highlight if there is a Query Draft. When the draft is either updated
+and sent or deleted, the amber color will go away.</p>
+<p><a href="#R-image-91371f7b11661e60457f5a943d11d882" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-802.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-91371f7b11661e60457f5a943d11d882"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-802.jpg"></a></p>
+<h2 id="cactwo-6107-enhancement">CACTWO-6107 (Enhancement)</h2>
+<p><strong>On HCC codes, display HCC version to support V24 and v28</strong></p>
+<p>A code that is followed by an HCC indicator in account detail will now display
+the version of HCC for calendar year 2023 (retroactively) and 2024 when the
+user hovers over the H in the Assigned Codes panel. On the Final Code
+Summary and the Working CDI History viewer, the code’s HCC designation will
+show the HCC number and its version.</p>
+<p><a href="#R-image-476cb6f6ea304ac2f73098d36d96edc0" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="image-803.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-476cb6f6ea304ac2f73098d36d96edc0"><img class="border nolazy lightbox shadow lightbox-image" src="image-803.jpg"></a></p>
+<h2 id="cactwo-6108-enhancement">CACTWO-6108 (Enhancement)</h2>
+<p><strong>Allow history on changes in Form Designer</strong></p>
+<p>Form Designer will now create a history for changes made in Form Designer.
+Once a change is made on a form and saved, a Show History button will show
+in the top right of the worksheet. Clicking on it will bring up a notes box
+allowing for the end user to make a note as to the change, this function like
+the Workflow Management viewer notes.</p>
+<p><a href="#R-image-4899fe154f1c5dd1687cac32b2f6d35b" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-804.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4899fe154f1c5dd1687cac32b2f6d35b"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-804.jpg"></a></p>
+<h2 id="cactwo-6115-enhancement">CACTWO-6115 (Enhancement)</h2>
+<p><strong>Add more fields to Denial Management viewer</strong></p>
+<p>Additional fields for a 3rd appeal and extra DRG information have been added
+to the Denial Management viewer. These fields can also be added to Grid
+Maintenance.</p>
+<p><a href="#R-image-d74c5dc001edd483ee058ce984484409" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-806.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d74c5dc001edd483ee058ce984484409"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-806.jpg"></a></p>
+<h2 id="cactwo-6117-enhancement">CACTWO-6117 (Enhancement)</h2>
+<p><strong>Allow all stratums for PSI 04 quality indicators to show in Code Summary</strong></p>
+<p>In the Algorithm for Quality Indicators section of the Code Summary viewer,
+only the first PSI 04 indicator is displaying. This has been updated to show all
+5 of the indicators.</p>
+<p><a href="#R-image-93f2250224dfc9bc38ef68d9ccb686cc" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-805.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-93f2250224dfc9bc38ef68d9ccb686cc"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-805.jpg"></a></p>
+<h2 id="cactwo-6118-important">CACTWO-6118 (Important)</h2>
+<p><strong>CDI Activity Report grand total line is incorrect if users are filtered</strong></p>
+<p>If the CDI Activity Report is being filtered to just one user, the Grand Total line
+is showing the total for all users instead of just the one filtered. This has been
+corrected.</p>
+<h2 id="cactwo-6120-important">CACTWO-6120 (Important)</h2>
+<p><strong>OR groups are not showing in new Workflow Management page</strong></p>
+<p>If an OR group is added to workgroup level criteria, it is not appearing within
+each criteria group. This has been corrected.</p>
+<h2 id="cactwo-6122-important">CACTWO-6122 (Important)</h2>
+<p><strong>Audit Management error rate not being reported correctly in reports</strong></p>
+<p>The following reports were not calculating the Audit Management error rate
+correctly. They have been corrected.</p>
+<ul>
+<li>Audit Executive Summary</li>
+<li>Inpatient Auditor Productivity</li>
+<li>Inpatient Coder Scorecard</li>
+<li>Outpatient Audit Scorecard</li>
+<li>Outpatient Auditor Productivity</li>
+<li>Outpatient Coder Scorecard</li>
+</ul>
+<h2 id="cactwo-6125-important">CACTWO-6125 (Important)</h2>
+<p><strong>CDI Activity Report is not reporting Reconciliation correctly</strong></p>
+<p>The CDI Activity Report was reporting a DRG Reconciliation if an account set
+for DRG Reconciliation was opened, but then cancelled out. This has been
+corrected so that accts cancelled will no longer be included.</p>
+<h2 id="cactwo-6126-enhancement">CACTWO-6126 (Enhancement)</h2>
+<p><strong>Allow Users to be excluded from the Inactivity prompt</strong></p>
+<p>New funcitonality has been added so that Role Management now contains an
+option to exclude a role type from being triggered.</p>
+<p><a href="#R-image-9fd9a9f4ea5d29e8c258740a13ce91e5" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-806.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9fd9a9f4ea5d29e8c258740a13ce91e5"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-806.jpg"></a></p>
+<h2 id="cactwo-6135-enhancement">CACTWO-6135 (Enhancement)</h2>
+<p><strong>Allow Flowsheet to save the collapse function</strong></p>
+<p>If a user collapses or uncollapses a major category on the Flowsheet viewer,
+that configuration will remain for all accounts that have the Flowsheet viewer.
+Note that if a user collapses/uncollapses a major category in the pop out, it
+will not be seen on the main page until the user moves to a different viewer
+and back.</p>
+<h2 id="cactwo-6136-important">CACTWO-6136 (Important)</h2>
+<p><strong>Auditor Physician Query Draft line is not showing on Dashboard</strong></p>
+<p>If an auditor, CDI specialist, or coder has at least one query draft but no sent
+queries, the total drafts count will now appear for the role with the open
+queries, unanswered, and answer counts displaying as zero on the dashboard.</p>
+<h2 id="cactwo-6144-enhancement">CACTWO-6144 (Enhancement)</h2>
+<p><strong>Show friendly values in Workflow dropdowns</strong></p>
+<p>Currently the new Workflow Management page is not showing the friendly
+value for criteria of a property with a mapping. This has been changed to
+show the friendly value, just like the classic Workflow Management page.</p>
+<h2 id="cactwo-6146-important">CACTWO-6146 (Important)</h2>
+<p><strong>3M is opening another instance when opening a dashboard drilldown</strong></p>
+<p>If a user opens a dashboard drilldown, another window with 3M is opened.
+This has been corrected so that there is only ever one 3M open.</p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> 3M Web Component Users Only
+  </div>
+  <div class="box-content">
+<p>This fix is only applicable for 3M Web Component users.</p>
+  </div>
+</div>
+<h2 id="cactwo-6147-enhancement">CACTWO-6147 (Enhancement)</h2>
+<p><strong>Hide Visit reason fields if there are none on the account</strong></p>
+<p>The Audit Management Worksheet viewer will no longer show all of the Visit
+Reason fields if there are no visit reasons on the account left by the coder or
+the auditor. If a visit reason is added by the auditor during the audit process,
+the Visit Reason fields will open up when the auditor clicks the Update Codes
+button.</p>
+<h2 id="cactwo-6150-important">CACTWO-6150 (Important)</h2>
+<p><strong>Reports are not properly counting intial reviews of accounts</strong></p>
+<p>If a CDI Specialist creates a Baseline DRG (the first Working DRG), then edits
+the account further causing the Working DRG to be cleared, and then saves
+the account without computing a new Working DRG, the creation of the
+Baseline DRG now counts as an initial review.</p>
+<h2 id="cactwo-6181-important">CACTWO-6181 (Important)</h2>
+<p><strong>New Workflow Management page is holding Note text when it should clear</strong></p>
+<p>Adding text into the Note field in a workgroup was resulting in that same text
+appearing in every subsequent workflow This has been corrected.</p>
+<h2 id="cactwo-6188-important">CACTWO-6188 (Important)</h2>
+<p><strong>Adding workflow is changing the workflow order in User Maintenance</strong></p>
+<p>If new workflow is added to the new Workflow Management page, the users
+attached to that workflow are having their order in the User Management
+profile change. This has been corrected so that any newly added workflow
+will go to the end of the list in the new Workflow Management page and the
+User Management profile.</p>
+<h2 id="cactwo-6195-important">CACTWO-6195 (Important)</h2>
+<p><strong>Reporting is not calculating manually added codes properly</strong></p>
+<p>Two user reports (Coder Suggestion Use by Coder and Engine Results by
+Documents) were not calculating codes added manually. This has been
+corrected.</p>
+<h2 id="cactwo-6201-enhancement">CACTWO-6201 (Enhancement)</h2>
+<p><strong>Allow Query to be created and closed in one step</strong></p>
+<p>For customers who do not have a physician query interface and do not createa
+physician query until a response is received, a query can now be created and
+not sent. When enabled, a physician query will show a “Continue” button in
+place of “Send”. Clicking the ‘Continue’ button will refresh the query to open
+the physician response fields so that the query can then be closed. This is
+common for Epic EMR customers.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Additional Configuration Required
+  </div>
+  <div class="box-content">
+<p>Please contact Support to enable this feature.</p>
+  </div>
+</div>
+<h2 id="cactwo-6202-important">CACTWO-6202 (Important)</h2>
+<p><strong>Improve performance of encoder calculations with several codes</strong></p>
+<p>When a user performs an encoder computation, the red bar showing that an
+encoder is open was taking a few seconds to disappear over the
+Compute/Save/Submit buttons. This has been corrected so that it disappers
+sooner.</p>
+<h2 id="cactwo-6204-enhancement">CACTWO-6204 (Enhancement)</h2>
+<p><strong>Update Audit reports to show blank for accuracy</strong></p>
+<p>For the Inpatient Coder Scorecard and the Outpatient Coder Scorecard if there
+are no CPT or PCS codes, the CPT Codes and PCS Codes accuracy columns will
+now display as blank, rather than 100%.</p>
+<h2 id="cactwo-6205-enhancement">CACTWO-6205 (Enhancement)</h2>
+<p><strong>Make Accuracy rates stand out in the Audit Worksheet</strong></p>
+<p>To make the accuracy rate lines stand out in the Audit Worksheet, the
+backgrounds have been changed to show as light blue.</p>
+<p><a href="#R-image-c11b875ed0a53b3582993af8ec52c007" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.53/image-808.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c11b875ed0a53b3582993af8ec52c007"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.53/image-808.jpg"></a></p>
+<h2 id="cactwo-6217-important">CACTWO-6217 (Important)</h2>
+<p><strong>Field in worksheet showing as ‘Select an item’ when printed</strong></p>
+<p>On worksheets, dropdowns prompting users to select an item were not
+displaying the selection when that worksheet was printed. This has been
+corrected.</p>
+<h2 id="cactwo-6224-enhancement">CACTWO-6224 (Enhancement)</h2>
+<p><strong>Allow DRG Reconcilation to compare DRG weight</strong></p>
+<p>A new setting has been created that, when set to true, will compare DRG
+weights as well as the DRG during reconciliation. By default, the comparing of
+DRG Weights will be disabled.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Additional Configuration Required
+  </div>
+  <div class="box-content">
+<p>Please contact Support to implement this change.</p>
+  </div>
+</div>
+<h2 id="cactwo-6225-important">CACTWO-6225 (Important)</h2>
+<p><strong>Account Search not using ‘only contains’ properly with “Assigned Diagnosis with POA N” field</strong></p>
+<p>Account Search will now correctly use the Only Contains criterion.</p>
+<h2 id="cactwo-6239-important">CACTWO-6239 (Important)</h2>
+<p><strong>Code Suggestion by Coder report is not calculating correctly</strong></p>
+<p>When a code is being added via 3M to an account that is then being
+submitted, that code is not showing up in the Direct column of the From Other
+Sources section of the Code Suggestion Use by Coder report. This has been
+corrected.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<div>
+  <img src="/images/logo.png" style="width: 250px;">
+</div>
+
+        </div>
+
+        <search>
+          <div class="searchbox default-animation">
+            <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1728672923" defer></script>
+        <script src="/js/search.js?1728672923" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/getting-connected/index.html" class=""><a class="padding" href="/getting-connected/index.html">Getting Connected</a></li>
+          <li data-nav-id="/coding-user-guide/index.html" class=""><a class="padding" href="/coding-user-guide/index.html">Coding User Guide</a><ul id="R-subsections-a8614c33c8bfec76a2d9588607a8e1bb" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/account-list/index.html" class=""><a class="padding" href="/coding-user-guide/account-list/index.html">Account List</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/index.html" class="alwaysopen"><a class="padding" href="/coding-user-guide/coding-a-patient-chart/index.html">Coding a Patient Chart</a><ul id="R-subsections-0d2b19332c4ba8c77eb007b82d54eed3" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html">Loading Accounts</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html">Reviewing Documents</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/adding-codes/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/adding-codes/index.html">Managing Codes</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html">Computing a Drg</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-screen/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-screen/index.html">Account Screen</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/index.html" class="alwaysopen"><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/index.html">Account Viewers</a><ul id="R-subsections-1bc278c73f7fa63ab6a195cd176fd6b0" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html">Code Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html">Patient Info</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html">Notes and Bookmarks</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html">Physicians and Queries</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html">Physician Coding Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html">Final Coding Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html">Working CDI History</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html">Suggested DRG Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html">Discrete Values and Flow Sheet Viewers</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html">Charges/Transactions Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html">Medications Viewers</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html">DRG Reconciliation Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html">30 Day Readmit</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html">Previous HCC Overview</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html">Transfer Codes Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html">Denial Management Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html">ER E/M Viewer</a></li></ul></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/document-tree/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/document-tree/index.html">Document Tree</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/code-panels/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/code-panels/index.html">Code Panels</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html">Exiting an Account</a></li></ul></li></ul></li>
+          <li data-nav-id="/cds-user-guide/index.html" class=""><a class="padding" href="/cds-user-guide/index.html">Cds User Guide</a><ul id="R-subsections-a5e09bd14813c4cf7eda3ed1e61865fc" class="morespace collapsible-menu">
+          <li data-nav-id="/cds-user-guide/chart-reviews/index.html" class=""><a class="padding" href="/cds-user-guide/chart-reviews/index.html">Chart Reviews</a></li>
+          <li data-nav-id="/cds-user-guide/chart-prioritization/index.html" class=""><a class="padding" href="/cds-user-guide/chart-prioritization/index.html">CDI Alerts and Chart Prioritization</a></li>
+          <li data-nav-id="/cds-user-guide/receiving-credit-for-reviews/index.html" class=""><a class="padding" href="/cds-user-guide/receiving-credit-for-reviews/index.html">Receiving Credit for Reviews</a></li>
+          <li data-nav-id="/cds-user-guide/next-review-date/index.html" class=""><a class="padding" href="/cds-user-guide/next-review-date/index.html">Next Review Date</a></li>
+          <li data-nav-id="/cds-user-guide/matched-criteria/index.html" class=""><a class="padding" href="/cds-user-guide/matched-criteria/index.html">Matched Criteria</a></li>
+          <li data-nav-id="/cds-user-guide/query-impact/index.html" class=""><a class="padding" href="/cds-user-guide/query-impact/index.html">Query Impact</a></li>
+          <li data-nav-id="/cds-user-guide/baseline-drg/index.html" class=""><a class="padding" href="/cds-user-guide/baseline-drg/index.html">Baseline Drg</a></li></ul></li>
+          <li data-nav-id="/auditor-user-guide/index.html" class=""><a class="padding" href="/auditor-user-guide/index.html">Auditor User Guide</a><ul id="R-subsections-5f5bf9902057e8fa4ae87edceebbb43b" class="morespace collapsible-menu">
+          <li data-nav-id="/auditor-user-guide/auditor-role/index.html" class=""><a class="padding" href="/auditor-user-guide/auditor-role/index.html">Auditor Role</a></li>
+          <li data-nav-id="/auditor-user-guide/starting-an-audit/index.html" class=""><a class="padding" href="/auditor-user-guide/starting-an-audit/index.html">Starting an Audit</a></li>
+          <li data-nav-id="/auditor-user-guide/privacy-of-the-audit-viewer/index.html" class=""><a class="padding" href="/auditor-user-guide/privacy-of-the-audit-viewer/index.html">Privacy of the Audit Viewer</a></li>
+          <li data-nav-id="/auditor-user-guide/changing-dropdown-content/index.html" class=""><a class="padding" href="/auditor-user-guide/changing-dropdown-content/index.html">Changing Dropdown Content</a></li>
+          <li data-nav-id="/auditor-user-guide/audit-worksheet/index.html" class=""><a class="padding" href="/auditor-user-guide/audit-worksheet/index.html">Audit Worksheet</a></li></ul></li>
+          <li data-nav-id="/administrative-user-guide/index.html" class=""><a class="padding" href="/administrative-user-guide/index.html">Administrative User Guide</a><ul id="R-subsections-1d9c9f69ad5affe101aa478950f2cfab" class="morespace collapsible-menu">
+          <li data-nav-id="/administrative-user-guide/account-search/index.html" class=""><a class="padding" href="/administrative-user-guide/account-search/index.html">Account Search</a></li>
+          <li data-nav-id="/administrative-user-guide/calendar-view/index.html" class=""><a class="padding" href="/administrative-user-guide/calendar-view/index.html">Calendar View</a></li>
+          <li data-nav-id="/administrative-user-guide/dashboard/index.html" class=""><a class="padding" href="/administrative-user-guide/dashboard/index.html">Dashboard</a></li>
+          <li data-nav-id="/administrative-user-guide/user-reports/index.html" class=""><a class="padding" href="/administrative-user-guide/user-reports/index.html">User Reports</a></li>
+          <li data-nav-id="/administrative-user-guide/scheduled-reports/index.html" class=""><a class="padding" href="/administrative-user-guide/scheduled-reports/index.html">Scheduled Reports</a></li>
+          <li data-nav-id="/administrative-user-guide/code-set-management/index.html" class=""><a class="padding" href="/administrative-user-guide/code-set-management/index.html">Code Set Management</a></li>
+          <li data-nav-id="/administrative-user-guide/user-management/index.html" class=""><a class="padding" href="/administrative-user-guide/user-management/index.html">User Management</a></li>
+          <li data-nav-id="/administrative-user-guide/workflow-management/index.html" class=""><a class="padding" href="/administrative-user-guide/workflow-management/index.html">Workflow Management</a></li>
+          <li data-nav-id="/administrative-user-guide/role-management/index.html" class=""><a class="padding" href="/administrative-user-guide/role-management/index.html">Role Management</a></li>
+          <li data-nav-id="/administrative-user-guide/validation-management/index.html" class=""><a class="padding" href="/administrative-user-guide/validation-management/index.html">Validation Management</a></li>
+          <li data-nav-id="/administrative-user-guide/er-em-configuration-page/index.html" class=""><a class="padding" href="/administrative-user-guide/er-em-configuration-page/index.html">Er Em Configuration Page</a></li>
+          <li data-nav-id="/administrative-user-guide/grid-column-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/grid-column-configuration/index.html">Grid Column Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/chat-room/index.html" class=""><a class="padding" href="/administrative-user-guide/chat-room/index.html">Chat Room</a></li>
+          <li data-nav-id="/administrative-user-guide/mapping-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/mapping-configuration/index.html">Mapping Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/form-designer/index.html" class=""><a class="padding" href="/administrative-user-guide/form-designer/index.html">Form Designer</a></li>
+          <li data-nav-id="/administrative-user-guide/shortcut-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/shortcut-configuration/index.html">Shortcut Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/help-menu/index.html" class=""><a class="padding" href="/administrative-user-guide/help-menu/index.html">Help Menu</a></li>
+          <li data-nav-id="/administrative-user-guide/inactivity-timeout/index.html" class=""><a class="padding" href="/administrative-user-guide/inactivity-timeout/index.html">Inactivity Timeout</a></li>
+          <li data-nav-id="/administrative-user-guide/tuning/index.html" class=""><a class="padding" href="/administrative-user-guide/tuning/index.html">Tuning</a></li></ul></li>
+          <li data-nav-id="/definitions/index.html" class=""><a class="padding" href="/definitions/index.html">Definitions</a></li>
+          <li data-nav-id="/fields/index.html" class=""><a class="padding" href="/fields/index.html">Fields</a><ul id="R-subsections-6fc86a29bf06fea820cca35a448cb65f" class="morespace collapsible-menu">
+          <li data-nav-id="/fields/standard-fields/index.html" class=""><a class="padding" href="/fields/standard-fields/index.html">Standard Fields</a></li>
+          <li data-nav-id="/fields/custom-fields/index.html" class=""><a class="padding" href="/fields/custom-fields/index.html">Custom Fields</a></li>
+          <li data-nav-id="/fields/tuning-fields/index.html" class=""><a class="padding" href="/fields/tuning-fields/index.html">Tuning Fields</a></li>
+          <li data-nav-id="/fields/audit-fields/index.html" class=""><a class="padding" href="/fields/audit-fields/index.html">Audit Fields</a></li>
+          <li data-nav-id="/fields/diagnosis-codes-section/index.html" class=""><a class="padding" href="/fields/diagnosis-codes-section/index.html">Diagnosis Codes Section</a></li>
+          <li data-nav-id="/fields/pcs-codes-section/index.html" class=""><a class="padding" href="/fields/pcs-codes-section/index.html">Pcs Codes Section</a></li>
+          <li data-nav-id="/fields/cpt-codes-section/index.html" class=""><a class="padding" href="/fields/cpt-codes-section/index.html">Cpt Codes Section</a></li>
+          <li data-nav-id="/fields/drg-outcome/index.html" class=""><a class="padding" href="/fields/drg-outcome/index.html">Drg Outcome</a></li>
+          <li data-nav-id="/fields/abstracting/index.html" class=""><a class="padding" href="/fields/abstracting/index.html">Abstracting</a></li>
+          <li data-nav-id="/fields/overall-statistics-section/index.html" class=""><a class="padding" href="/fields/overall-statistics-section/index.html">Overall Statistics Section</a></li>
+          <li data-nav-id="/fields/er-em-fields/index.html" class=""><a class="padding" href="/fields/er-em-fields/index.html">Er Em Fields</a></li></ul></li>
+          <li data-nav-id="/colors/index.html" class=""><a class="padding" href="/colors/index.html">Colors and Symbols</a></li>
+          <li data-nav-id="/release-notes/index.html" class="parent "><a class="padding" href="/release-notes/index.html">Release Notes</a><ul id="R-subsections-dda1c160f3cd4c0231dd2e449455015e" class="morespace collapsible-menu">
+          <li data-nav-id="/release-notes/v2.23/index.html" class=""><a class="padding" href="/release-notes/v2.23/index.html">V2.23</a></li>
+          <li data-nav-id="/release-notes/v2.24/index.html" class=""><a class="padding" href="/release-notes/v2.24/index.html">V2.24</a></li>
+          <li data-nav-id="/release-notes/v2.25/index.html" class=""><a class="padding" href="/release-notes/v2.25/index.html">V2.25</a></li>
+          <li data-nav-id="/release-notes/v2.26/index.html" class=""><a class="padding" href="/release-notes/v2.26/index.html">V2.26</a></li>
+          <li data-nav-id="/release-notes/v2.27/index.html" class=""><a class="padding" href="/release-notes/v2.27/index.html">V2.27</a></li>
+          <li data-nav-id="/release-notes/v2.28/index.html" class=""><a class="padding" href="/release-notes/v2.28/index.html">V2.28</a></li>
+          <li data-nav-id="/release-notes/v2.51/index.html" class=""><a class="padding" href="/release-notes/v2.51/index.html">V2.51</a></li>
+          <li data-nav-id="/release-notes/v2.52/index.html" class=""><a class="padding" href="/release-notes/v2.52/index.html">V2.52</a></li>
+          <li data-nav-id="/release-notes/v2.53/index.html" class="active"><a class="padding" href="/release-notes/v2.53/index.html">V2.53</a></li>
+          <li data-nav-id="/release-notes/v2.54/index.html" class=""><a class="padding" href="/release-notes/v2.54/index.html">V2.54</a></li>
+          <li data-nav-id="/release-notes/v2.55/index.html" class=""><a class="padding" href="/release-notes/v2.55/index.html">V2.55</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/release-notes/v2.53/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-zen-light" value="zen-light" selected>Zen Light</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

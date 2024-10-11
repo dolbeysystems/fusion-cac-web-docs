@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit process. With its automated functionality, this tool efficiently compares coder-assigned codes to auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group) adjustments.
+Beyond auditing, the module facilitates tracking of training recommendations, enabling continuous improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow tracking ensures transparent communication and resolution of discrepancies between auditors and coders, ultimately fostering a collaborative and quality-driven coding environment.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Auditor User Guide :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit process. With its automated functionality, this tool efficiently compares coder-assigned codes to auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group) adjustments.
+Beyond auditing, the module facilitates tracking of training recommendations, enabling continuous improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow tracking ensures transparent communication and resolution of discrepancies between auditors and coders, ultimately fostering a collaborative and quality-driven coding environment.">
+    <meta property="og:url" content="https://example.org/auditor-user-guide/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="Auditor User Guide :: Fusion CAC Documentation">
+    <meta property="og:description" content="The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit process. With its automated functionality, this tool efficiently compares coder-assigned codes to auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group) adjustments.
+Beyond auditing, the module facilitates tracking of training recommendations, enabling continuous improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow tracking ensures transparent communication and resolution of discrepancies between auditors and coders, ultimately fostering a collaborative and quality-driven coding environment.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Auditor User Guide :: Fusion CAC Documentation">
+    <meta itemprop="description" content="The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit process. With its automated functionality, this tool efficiently compares coder-assigned codes to auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group) adjustments.
+Beyond auditing, the module facilitates tracking of training recommendations, enabling continuous improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow tracking ensures transparent communication and resolution of discrepancies between auditors and coders, ultimately fostering a collaborative and quality-driven coding environment.">
+    <meta itemprop="wordCount" content="179">
+    <title>Auditor User Guide :: Fusion CAC Documentation</title>
+    <link href="https://example.org/auditor-user-guide/index.html" rel="canonical" type="text/html" title="Auditor User Guide :: Fusion CAC Documentation">
+    <link href="/auditor-user-guide/index.xml" rel="alternate" type="application/rss+xml" title="Auditor User Guide :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1728672923" rel="stylesheet">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support print" data-url="/auditor-user-guide/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Auditor User Guide</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cds-user-guide/baseline-drg/index.html" title="Baseline Drg (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/auditor-user-guide/auditor-role/index.html" title="Auditor Role (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="auditor-user-guide">Auditor User Guide</h1>
+
+<p>The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit
+process. With its automated functionality, this tool efficiently compares coder-assigned codes to
+auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA
+(Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group)
+adjustments.</p>
+<p>Beyond auditing, the module facilitates tracking of training recommendations, enabling continuous
+improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow
+tracking ensures transparent communication and resolution of discrepancies between auditors and
+coders, ultimately fostering a collaborative and quality-driven coding environment.</p>
+<p>The audit worksheet serves as an invaluable additional module within the coding infrastructure, offering
+advanced capabilities to streamline and optimize the audit process. For those interested in exploring its
+functionalities further, reaching out to the Subject Matter Expert (SME) team is highly encouraged. The
+SME team stands ready to provide comprehensive insights and guidance on how this module can
+enhance coding efficiency, accuracy, and overall workflow management within the organization.</p>
+<ul class="children children-li children-sort-">
+  <li><a href="/auditor-user-guide/auditor-role/index.html">Auditor Role</a><ul></ul></li>
+  <li><a href="/auditor-user-guide/starting-an-audit/index.html">Starting an Audit</a><ul></ul></li>
+  <li><a href="/auditor-user-guide/privacy-of-the-audit-viewer/index.html">Privacy of the Audit Viewer</a><ul></ul></li>
+  <li><a href="/auditor-user-guide/changing-dropdown-content/index.html">Changing Dropdown Content</a><ul></ul></li>
+  <li><a href="/auditor-user-guide/audit-worksheet/index.html">Audit Worksheet</a><ul></ul></li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Auditor User Guide</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="auditor-role">Auditor Role</h1>
+
+<p>The audit module introduces a new role of an auditor. The role of an &ldquo;Auditor&rdquo; has the same privileges
+as a &ldquo;Coder&rdquo; when it comes to account editing. In fact, an auditor is editing the final codes. If an auditor
+or coder submits the account with an open audit, the audit will automatically be closed. The auditor can
+route an account directly to the coder that last submitted (which triggers a save and close), and the
+coder can rebut and route an account back to the audit (which also triggers a save and close).</p>
+<p><a href="#R-image-4ee7e0860feeecf0794204e4cac15a53" class="lightbox-link"><img alt="Auditor Role" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/auditor-role/image-304.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4ee7e0860feeecf0794204e4cac15a53"><img alt="Auditor Role" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/auditor-role/image-304.jpg"></a></p>
+<p>This role allows for the end-user to have a separate code tree while importing the coder-assigned codes
+so that they have something to start with. The auditor role has a companion viewer in the Navigation
+Tree. This viewer allows the auditor to document the findings of an audit.</p>
+<p>The pre-audit codes and DRG are displayed for easy reference by the auditor. The auditor conducts the
+review and makes changes to the codes in the Assigned code tree. When finished, the auditor computes
+for the DRG. This displays post-audit results next to the pre-audit results for easy comparison. The
+changes made by the auditor during the review are automatically recorded within the statistics section
+of the viewer.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="starting-an-audit">Starting an Audit</h1>
+
+<ol>
+<li>Ensure you have the role of an auditor and chart access of auditor.</li>
+<li>Open a chart that has been submitted by a coder, you may get this chart from a worklist
+or, by manually typing in an account number.</li>
+<li>On the navigation tree you will notice a viewer called “Audit Worksheet”.
+<a href="#R-image-2f56120ab35bf4c5d0bdc22d70db913b" class="lightbox-link"><img alt="Audit Worksheet" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/starting-an-audit/image-306.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f56120ab35bf4c5d0bdc22d70db913b"><img alt="Audit Worksheet" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/starting-an-audit/image-306.jpg"></a></li>
+<li>Click on “Start Audit” to begin</li>
+<li>Upon clicking on “start audit”, select your audit type
+from the dropdown. This will be used for reporting on the types of audit you
+performed, and this can also be used for workflow purposes.
+<a href="#R-image-1e6af1090981322863cf37817a503453" class="lightbox-link"><img alt="Start Audit" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/starting-an-audit/image-305.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1e6af1090981322863cf37817a503453"><img alt="Start Audit" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/starting-an-audit/image-305.jpg"></a></li>
+<li>The codes in the “assigned code” tree are the same codes initially submitted by the
+coder, allowing the auditor to start the audit with the codes from the coder. The audit
+viewer can be popped out onto a separate screen, allowing the auditor to have a screen
+for reviewing the chart. By selecting “Show All” codes in the unassigned code tree, the
+auditor is taken to the documents/documentation supporting that code. This will help
+streamline the audit process.</li>
+</ol>
+<ul>
+<li>Once the auditor has made changes and is completed with the audit, they can click “Update Codes”
+which automatically calculates and populates the audit statistics section. There is a comment bubble
+next to each code as well as the DRG for the auditor to enter any comment. Next to the codes a
+symbol may display.
+<ul>
+<li>A green ‘plus’ sign will show if the code was added.</li>
+<li>A red ‘minus’ sign will show if a code was deleted.</li>
+<li>A orange up or down ‘arrow’ sign will appear if the code location has been changed, as
+in a primary and secondary are swapped.
+<a href="#R-image-3bcd6b80f55651c510b7e48d264ff1c1" class="lightbox-link"><img alt="Auditor Changes" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/starting-an-audit/image-307.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3bcd6b80f55651c510b7e48d264ff1c1"><img alt="Auditor Changes" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/starting-an-audit/image-307.jpg"></a></li>
+</ul>
+</li>
+</ul>
+<ol start="7">
+<li>Although audit statistics have been automatically calculated and populated, the auditor must
+manually enter in the “total errors” which then automatically calculates the “Error Rate”.
+<a href="#R-image-abfc1d99e7925bc3e4a20baf26ad1c96" class="lightbox-link"><img alt="Audit Statistics" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/starting-an-audit/image-309.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-abfc1d99e7925bc3e4a20baf26ad1c96"><img alt="Audit Statistics" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/starting-an-audit/image-309.jpg"></a></li>
+<li>Complete the additional sections, (abstracting and training recommendations) if applicable.
+<a href="#R-image-5143d10d1e7194220e2ec0b29f0e4b4c" class="lightbox-link"><img alt="Training Recommendations" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/starting-an-audit/image-310.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5143d10d1e7194220e2ec0b29f0e4b4c"><img alt="Training Recommendations" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/starting-an-audit/image-310.jpg"></a></li>
+<li>The auditor can then re-submit the chart or route it back to the coder of record by using the
+“Route to Coder” button in the top right corner of the audit worksheet. This will route the chart to
+the coder’s “You” worklist for them to review and re-submit.
+<a href="#R-image-ee0366f8b24ead4e186ed9f36a433854" class="lightbox-link"><img alt="Route to Coder" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/starting-an-audit/image-308.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ee0366f8b24ead4e186ed9f36a433854"><img alt="Route to Coder" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/starting-an-audit/image-308.jpg"></a></li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="privacy-of-the-audit-viewer">Privacy of the Audit Viewer</h1>
+
+<p>The auditor will need to add the coder of record so that the coder of record, any auditor, or other user
+role that has been given access can view the audit worksheets. This data is only intended for coder
+education and administrative staff to score how the coder is doing in a report card. The coder will be
+able to view the audit viewer and add notes/comments back to the auditor, but the coder will not be
+able to make any changes to the audit worksheet</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="changing-dropdown-content">Changing Dropdown Content</h1>
+
+<p>The AuditType and AuditTrainingTopics mappings can be added to
+override the default mappings. If you would like to override these,
+you can find more information on creating a new mapping from the
+Mapping Configuration section of this user guide.</p>
+<p><a href="#R-image-f49986809d366ebe9d9bd7c0b6575df8" class="lightbox-link"><img alt="Mapping Configuration" class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/changing-dropdown-content/image-311.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f49986809d366ebe9d9bd7c0b6575df8"><img alt="Mapping Configuration" class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/changing-dropdown-content/image-311.jpg"></a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="audit-worksheet">Audit Worksheet</h1>
+
+<p>Listed below, are the sections of the audit worksheet and the definition of the fields , including how it was
+calculated. If the auditor disagrees with any of the auto-calculated fields below, they can choose to
+override the field by entering in the value that makes sense per the audit. The system will provide an
+audit trail to show what the value was changed from and to for transparency along with the user that
+made the change and the date/time the change was performed.</p>
+<p><a href="#R-image-148c0abe82637246fe51fec45dfe4db8" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/audit-worksheet/image-312.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-148c0abe82637246fe51fec45dfe4db8"><img class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/audit-worksheet/image-312.jpg"></a></p>
+<h2 id="diagnosis-codes-section">Diagnosis Codes Section</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Field</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Diagnosis Codes Pre-Audit</td>
+          <td style="text-align: left">The total is the number of diagnosis codes including principal, admit and secondary <strong>at the time the audit is started.</strong> This total does not include Reason for Visit as they are calculated separately.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reasons Pre-Audit</td>
+          <td style="text-align: left">The total is the number of reason for visit diagnosis codes <strong>at the time the audit is started.</strong> This will only display on an outpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Codes Post-Audit</td>
+          <td style="text-align: left">The total is the number of diagnosis codes including principal, admit and secondary <strong>at the time the auditor selects the Update Codes button.</strong> This total does not include Reason for Visit as they are calculated separately.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reasons Post-Audit</td>
+          <td style="text-align: left">The total is the number of reason for visit diagnosis codes <strong>at the time the auditor selects the Update Codes button.</strong> This will only display on an outpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Codes Edited</td>
+          <td style="text-align: left">This is the count of any diagnosis code that has changed after counting the codes that have been added or deleted</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Codes Unassigned</td>
+          <td style="text-align: left">This is the count of the <strong>total of deleted or unassign actions</strong> by the auditor for admit and secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. This total does not include Reason for Visit as they are calculated separately.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Codes Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added or assign actions</strong> by the auditor for admit and secondary codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as admit or secondary, right clicking on a code to validate from a document or adding a code that did not exist previously. This total does not include Reason for Visit as they are calculated separately.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">POA Changes</td>
+          <td style="text-align: left">This is the count of the <strong>total of POA changes</strong> only on unchanged codes (Edited or Added) to prevent double counting errors once the auditor selects the update codes button. If a code was edited, assigned/added or unassigned/deleted it will not be counted within this total. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CC Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added codes that has a classification of CC</strong> (complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The added action is defined by right clicking on a code from the unassigned code tree, right clicking on a code to validate from a document or adding a code that did not exist previously. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CC Removed</td>
+          <td style="text-align: left">This is the count of the <strong>total of removed codes that had a classification of CC</strong> (complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MCC Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added codes that has a classification of MCC</strong> (major complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The added action is defined by right clicking on a code from the unassigned code tree, right clicking on a code to validate from a document or adding a code that did not exist previously. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">MCC Removed</td>
+          <td style="text-align: left">This is the count of the <strong>total of removed codes that had a classification of MCC</strong> (major complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">HAC(s) Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added codes that has a classification of HAC</strong> (Hospital Acquired Condition) by the auditor on secondary codes once the auditor selects the update codes button. The added action is defined by right clicking on a code from the unassigned code tree, right clicking on a code to validate from a document or adding a code that did not exist previously. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">HAC(s) Removed</td>
+          <td style="text-align: left">This is the count of the <strong>total of removed codes that had a classification of HAC</strong> (Hospital Acquired Condition) by the auditor on secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Principal Dx Changed</td>
+          <td style="text-align: left">This is a true or false field. If the principal diagnosis was changed from the previous code assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reasons Edited</td>
+          <td style="text-align: left">This is the count of any visit reason code that has changed after counting the codes that have been added or deleted.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reasons Unassigned</td>
+          <td style="text-align: left">This is the count of the <strong>total of deleted or unassign actions</strong> by the auditor for reason for visit codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as visit reason or by selecting edit diagnosis code and deleting the code. This will only display on an outpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reasons Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added or assign actions</strong> by the auditor for reason for visit codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as visit reason, right clicking on a code to validate from a document or adding a code that did not exist previously. This will only display on an outpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Errors</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Diagnosis Errors = Diagnosis Codes Added + Diagnosis Codes Edited + Diagnosis Codes Unassigned + POA Changes + Principal Dx Changed</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Error Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Diagnosis Error Rate = Diagnosis Codes Added + Diagnosis Codes Edited + Diagnosis Codes Unassigned + POA Changes + Principal Dx Changed/ Diagnosis Codes Pre-Audit</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diagnosis Accuracy Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Diagnosis Error Rate = (Diagnosis Codes Added + Diagnosis Codes Edited + Diagnosis Codes Unassigned + POA Changes + Principal Dx Changed/ Diagnosis Codes Pre-Audit) – 100%</code> This line will be highlighted in blue so the data stands out.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reason Errors</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Visit Reasons Errors = Visit Reasons Added + Visit Reasons Codes Edited + Visit Reasons Codes Unassigned</code> This will only display on an outpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reason Error Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Visit Reasons Errors = Visit Reasons Added + Visit Reasons Codes Edited + Visit Reasons Codes Unassigned/Visit Reasons Pre-Audit</code> This will only display on an outpatient chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Visit Reason Accuracy Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Visit Reasons Errors = (Visit Reasons Added + Visit Reasons Codes Edited + Visit Reasons Codes Unassigned/Visit Reasons Pre-Audit) – 100%</code> This will only display on an outpatient chart. This line will be highlighted in blue so the data stands out.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="pcs-codes-section">PCS Codes Section</h2>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> At Least One Code Required
+  </div>
+  <div class="box-content">
+<p>This section will only display if there is at least one PCS on the Coder Outcome (Pre-Audit) or the Auditor
+Outcome (Post-Audit).</p>
+  </div>
+</div>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Field</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Procedure Codes Pre-Audit</td>
+          <td style="text-align: left">The total is the number of procedure codes including principal and secondary <strong>at the time the audit is started.</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Codes Post-Audit</td>
+          <td style="text-align: left">The total is the number of procedure codes including principal and secondary <strong>at the time the auditor selects the Update Codes button.</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Codes Edited</td>
+          <td style="text-align: left">This is the count of any procedure code that has changed after counting the codes that have been added or deleted.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Codes Unassigned</td>
+          <td style="text-align: left">This is the count of the <strong>total of deleted or unassign actions</strong> by the auditor for principal and secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign principal code, unassign as secondary, unassign all episodes or by selecting edit procedure code and deleting the code.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Codes Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added or assign actions</strong> by the auditor for principal and secondary codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as principal or secondary, right clicking on a code to validate from a document or adding a code that did not exist previously.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Principal PCS Changed</td>
+          <td style="text-align: left">This is a true or false field. If the principal PCS was changed from the previous code assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Errors</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Procedure Errors = Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal PCS Changed</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Error Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Procedure Error Rate = Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal PCS Changed/ Procedure Codes Pre-Audit</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Procedure Accuracy Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Procedure Error Rate = (Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal PCS Changed/ Procedure Codes Pre-Audit) – 100%</code> This line will be highlighted in blue so the data stands out.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="cpt-codes-section">CPT Codes Section</h2>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> At Least One Code Required
+  </div>
+  <div class="box-content">
+<p>This section will only display if there is at least one CPT on the Coder Outcome (Pre-Audit) or the Auditor
+Outcome (Post-Audit).</p>
+  </div>
+</div>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Field</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">CPT Codes Pre-Audit</td>
+          <td style="text-align: left">The total is the number of CPT codes including principal and secondary <strong>at the time the audit is started.</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Codes Post-Audit</td>
+          <td style="text-align: left">The total is the number of CPT codes including principal and secondary <strong>at the time the auditor selects the Update Codes button.</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Codes Edited</td>
+          <td style="text-align: left">This is the count of any CPT code that has changed after counting the codes that have been added or deleted.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Codes Unassigned</td>
+          <td style="text-align: left">This is the count of the <strong>total of deleted or unassign actions</strong> by the auditor for principal and secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign principal code, unassign as secondary, unassign all episodes or by selecting edit procedure code and deleting the code.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Codes Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added or assign actions</strong> by the auditor for principal and secondary codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as principal or secondary, right clicking on a code to validate from a document or adding a code that did not exist previously.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Principal CPT Changed</td>
+          <td style="text-align: left">This is a true or false field. If the principal CPT was changed from the previous code assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Modifiers</td>
+          <td style="text-align: left">This field reflects the total number of modifiers on codes that have not changed, and whether you deleted or added modifiers, the CPT Score and Error Rate should be adjusted accordingly.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Modifiers Added</td>
+          <td style="text-align: left">This is the count of the <strong>total of added modifiers on a CPT</strong> by the auditor where the code previously existed. If the code was already counted within the CPT Codes Added section to prevent duplication of errors. The added action is defined by right clicking on a code from the assigned code tree and selecting to edit to add a modifier.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Modifiers Removed</td>
+          <td style="text-align: left">This is the count of the <strong>total of removed modifiers on a CPT</strong> by the auditor where the code previously existed. If the code was already counted within the CPT Codes Added section to prevent duplication of errors. The removed action is defined by right clicking on a code from the assigned code tree and selecting to edit to remove an existing modifier.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Errors</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>CPT Errors = CPT Codes Added + CPT Codes Edited + CPT Codes Unassigned + Principal CPT Changed</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Error Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>CPT CPT Error Rate = (Added CPT + Edited CPT + Unassigned CPT + Principal CPT Changed + Modifiers Added + Modifiers Removed /Pre-Audit CPT + Modifiers</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">CPT Accuracy Rate</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>CPT Error Rate = (CPT Codes Added + CPT Codes Edited + CPT Codes Unassigned + Principal CPT Changed/CPT Codes Pre-Audit) – 100%</code> This line will be highlighted in blue so the data stands out.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="drg-outcome">DRG Outcome</h2>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Inpatient Charts Only
+  </div>
+  <div class="box-content">
+<p>This section will only display on an inpatient chart.</p>
+  </div>
+</div>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Field</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">MS-DRG Change?</td>
+          <td style="text-align: left">This is a yes or no field. If the billing DRG was changed from the previous DRG assignment. N/A is available in the event the auditor wants to list it as not applicable to the audit. Note if the Billing DRG and the APR-DRG as the same there could be duplication of changes reported on this field and the APR-DRG Change field.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Reimbursement Change?</td>
+          <td style="text-align: left">This is a field that indicates if the billing DRG change resulted in a increase, decrease or no reimbursement change. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Reimbursement Change Amount</td>
+          <td style="text-align: left">This is a field that indicates if the billing DRG change resulted in a change the amount will be displayed.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">APR-DRG ROM Change?</td>
+          <td style="text-align: left">This is a yes or no field. If the APR-DRG changed resulted in an ROM (Risk of Mortality) change. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">APR-DRG SOI Change?</td>
+          <td style="text-align: left">This is a yes or no field. If the APR-DRG changed resulted in an SOI (Severity of Illness) change. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">APR-DRG Change?</td>
+          <td style="text-align: left">This is a yes or no field. If the APR-DRG was changed from the previous DRG assignment. N/A is available in the event the auditor wants to list it as not applicable to the audit. Note if the Billing DRG and the APR-DRG as the same there could be duplication of changes reported on this field and the MS-DRG field which is the Billing DRG.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="abstracting-section">Abstracting Section</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Field</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Discharge Disposition Changed?</td>
+          <td style="text-align: left">This is a true or false field. If the Discharge Disposition was changed from the previous Disposition assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Abstracting Pre-Audit</td>
+          <td style="text-align: left">The total is the number of abstracting components there were <strong>at the time the audit is started.</strong> Abstractions Pre-Audit = (Total Procedure and CPT Codes x 2) + 1 for Discharge Disposition + 1 for Consulting Providers if Present). Procedure and CPT Codes are multiplied by two since there are to abstraction opportunities which is date of service and preforming provider.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Abstracting Errors</td>
+          <td style="text-align: left">This is the total codes that appear in the above boxes the formula is as followed: <code>Abstracting Errors = Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Abstracting Error Rate</td>
+          <td style="text-align: left">This is the total abstracting error rate as a percentage the formula is: <code>Abstracting Errors = Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes/Abstracting Pre-Audit</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Abstracting Accuracy Rate</td>
+          <td style="text-align: left">This is the total abstracting accuracy as a percentage the formula is: <code>Abstracting Error Rate = (Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes/Abstracting Pre-Audit) – 100%</code> This line will be highlighted in blue so the data stands out.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="overall-statistics-section">Overall Statistics Section</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Field</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Total Pre- Audit</td>
+          <td style="text-align: left">The total pre-audit count at the time the audit is started. <code>Total Pre-Audit = Diagnosis Pre-Audit + Visit Reason Pre-Audit + Procedure Pre-Audit + CPT Pre-Audit</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Errors</td>
+          <td style="text-align: left">This is the total overall errors that appear in the above boxes the formula is as followed: <code>Total Errors = Diagnosis Errors + Visit Reason Errors + Procedure Errors + CPT Errors</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Error Rate</td>
+          <td style="text-align: left">This is the total overall error rate as a percentage the formula is: <code>Total Errors = Diagnosis Errors + Visit Reason Errors + Procedure Errors + CPT Errors/Total Pre-Audit</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Accuracy Rate</td>
+          <td style="text-align: left">This is the total overall accuracy as a percentage the formula is: <code>Total Errors = (Diagnosis Errors + Visit Reason Errors + Procedure Errors + CPT Errors/Total Pre-Audit) – 100%</code> This line will be highlighted in blue so the data stands out.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="missed-queries">Missed Queries</h2>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> After Audit Queries Only
+  </div>
+  <div class="box-content">
+<p>This section will only be available if queries were initiated after the audit began. The query does not have
+to be initiated by the auditor to be attributed to the audit as a missed opportunity.</p>
+  </div>
+</div>
+<p><a href="#R-image-a4d677655093947348ebdc2f0d8f39d0" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/audit-worksheet/image-313.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a4d677655093947348ebdc2f0d8f39d0"><img class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/audit-worksheet/image-313.jpg"></a></p>
+<h2 id="training-recommendations">Training Recommendations</h2>
+<p>At the end of the audit if there are training recommendations from the auditor they can list any topics, if
+there are no topics there is a none necessary if there are no topics to recommend. To note these topics
+can be changed from the mapping table. The auditor also has a space to add in addition details as
+needed.</p>
+<p><a href="#R-image-aeb081630c45e94e56345779bf756a9d" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/audit-worksheet/image-314.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-aeb081630c45e94e56345779bf756a9d"><img class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/audit-worksheet/image-314.jpg"></a></p>
+<h2 id="coder-acknowledgement">Coder Acknowledgement</h2>
+<p>If there are auditor changes the auditor will route the chart back to the coder by selecting Route to
+Coder, this section gives the coder the opportunity to either agree with the audit or to provide a
+rebuttal. If the coder selects the outcome to be a rebuttal the coder must provide a comment for the
+auditor. Once the coder provides these, they can route the chart back to the auditor by selecting Route
+to Auditor.</p>
+<p>Once the chart is returned the auditor the auditor has an opportunity to review the rebuttal and provide
+a response to the rebuttal or they can escalate the audit where the manager that receives the escalation
+can add a comment in the Auditor Response to Rebuttal.</p>
+<p><a href="#R-image-cc386952dee2a1f0f1789c5369f85abc" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/auditor-user-guide/audit-worksheet/image-315.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cc386952dee2a1f0f1789c5369f85abc"><img class="border nolazy lightbox shadow lightbox-image" src="/auditor-user-guide/audit-worksheet/image-315.jpg"></a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

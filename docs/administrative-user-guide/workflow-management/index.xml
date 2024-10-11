@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow Management :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/workflow-management/index.html</link>
+    <description>The workflow management editor is a tool that allows users to create, design, modify, and manage workflows. A workflow is a series of tasks or activities that need to be completed in a specific order to achieve a desired outcome.&#xA;What is the purpose of workflow? The purpose of a workflow is to systematically organize and streamline the patient chart activities for proper completion. Workflows are designed to improve efficiency, productivity, and collaboration between CDI, Coding, Quality and Auditing by defining the sequence of steps, assigning responsibilities, and establishing the flow of information between different individuals or departments involved in the process.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/workflow-management/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

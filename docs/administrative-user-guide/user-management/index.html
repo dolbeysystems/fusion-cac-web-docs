@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.
+User Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="User Management :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.
+User Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.">
+    <meta property="og:url" content="https://example.org/administrative-user-guide/user-management/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="User Management :: Fusion CAC Documentation">
+    <meta property="og:description" content="This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.
+User Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="User Management :: Fusion CAC Documentation">
+    <meta itemprop="description" content="This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.
+User Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.">
+    <meta itemprop="wordCount" content="2149">
+    <title>User Management :: Fusion CAC Documentation</title>
+    <link href="/administrative-user-guide/user-management/index.xml" rel="alternate" type="application/rss+xml" title="User Management :: Fusion CAC Documentation">
+    <link href="/administrative-user-guide/user-management/index.print.html" rel="alternate" type="text/html" title="User Management :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support html" data-url="/administrative-user-guide/user-management/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#user-management-columns">User Management Columns</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#adding-a-user">Adding A User</a>
+      <ul>
+        <li><a href="#add-user-fields">Add User Fields</a></li>
+      </ul>
+    </li>
+    <li><a href="#using-force-autoload">Using Force AutoLoad</a>
+      <ul>
+        <li><a href="#setting-limits-on-the-number-of-charts">Setting Limits on the Number of Charts</a></li>
+      </ul>
+    </li>
+    <li><a href="#user-profile">User Profile</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/administrative-user-guide/index.html"><span itemprop="name">Administrative User Guide</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">User Management</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/administrative-user-guide/user-management/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/administrative-user-guide/code-set-management/index.html" title="Code Set Management (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/administrative-user-guide/workflow-management/index.html" title="Workflow Management (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="user-management">User Management</h1>
+
+<p>This tab is where a user can add, delete or change any permissions and set work lists. The grid view will
+show you all users that have access to the system. The page has columns listed above the grid which are
+explained below.</p>
+<p><a href="#R-image-3ea2d71984dd12909b2ce9a355c40c9c" class="lightbox-link"><img alt="User Management Columns" class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-446.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ea2d71984dd12909b2ce9a355c40c9c"><img alt="User Management Columns" class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-446.jpg"></a></p>
+<h2 id="user-management-columns">User Management Columns</h2>
+<h6 id="actions">Actions</h6>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Action</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><a href="#R-image-88fac321b798accda1856257c5f63102" class="lightbox-link"><img alt="Copy User" class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-447.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-88fac321b798accda1856257c5f63102"><img alt="Copy User" class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-447.png"></a></td>
+          <td style="text-align: left">Copy User allows you to copy a user’s profile when creating a new user.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="#R-image-711795f14f941057f99c439f29bbe8dc" class="lightbox-link"><img alt="Edit User" class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-448.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-711795f14f941057f99c439f29bbe8dc"><img alt="Edit User" class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-448.png"></a></td>
+          <td style="text-align: left">Edit User allows you to edit the user’s profile.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="#R-image-5923294dee2edb34c384ed3263385320" class="lightbox-link"><img alt="Delete User" class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-449.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5923294dee2edb34c384ed3263385320"><img alt="Delete User" class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-449.png"></a></td>
+          <td style="text-align: left">Delete allows you to delete incorrect user profiles. <strong>This icon will appear ONLY for users that have not signed in.</strong> Once a user logs in, the delete icon will no longer show in their Actions column.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="locked">Locked</h6>
+<p>This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in
+their password or user id more than 3 times.</p>
+<h6 id="user-id">User Id</h6>
+<p>This field provides the user&rsquo;s user id to login to the system</p>
+<h6 id="first-name">First Name</h6>
+<p>This field provides the user&rsquo;s first name</p>
+<h6 id="last-name">Last Name</h6>
+<p>This field provides the user’s last name.</p>
+<h6 id="facilities">Facilities</h6>
+<p>This field provides the users, facilities they are assigned to. The user will only be able to access
+charts that come from facilities they are assigned to.</p>
+<h6 id="roles">Roles</h6>
+<p>This field provides the user’s role which is also tied to their permissions:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Role</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Viewers</strong></td>
+          <td style="text-align: left">can view the patient chart. They can add notes within the coding application but, will not be able to make changes to codes or DRG’s. Viewers do not have access to the administration application.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Coders</strong></td>
+          <td style="text-align: left">like Viewers, can view the patient chart. In addition to, adding, deleting and changing final codes and DRG’s.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>CDI</strong></td>
+          <td style="text-align: left">like Viewers, can view the patient chart. In addition to, adding, deleting and changing working codes and DRG’s.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Managers</strong></td>
+          <td style="text-align: left">can do everything that Coders and Viewers can do. They can also add and delete users to the system from their own facility, change passwords, or change user roles. Managers can assign accounts to users and produce reports describing the state of the work queue and various coder statistics from their own facility.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Administrators</strong></td>
+          <td style="text-align: left">can do everything that Coders and Viewers can do. They can also add and delete users to the system, change passwords, or change user roles throughout all facilities (if multi-site). Administrators can assign accounts to users and produce reports describing the state of the work queue and various coder statistics.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Read Only</strong></td>
+          <td style="text-align: left">can view the patient chart. They cannot add notes, make changes to codes or DRG’s. Read Only users do not have access to the administration application.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Physician Coder</strong></td>
+          <td style="text-align: left">like Viewers, can view the patient chart. In addition to, adding, deleting and changing final physician coder codes which is different than the coder role which looks at hospital codes.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Single Path Coder</strong></td>
+          <td style="text-align: left">like Viewers, can view the patient chart. In addition to, adding, deleting and changing final codes for both physician and hospital coder.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Auditor</strong></td>
+          <td style="text-align: left">like Viewers, can view the patient chart. In addition to, adding, deleting and changing final coded codes from the coder role.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="workgroups">Workgroups</h6>
+<p>This field tells you which Workgroups the user has access to. If there are
+multiple Workgroups they will be separated by a comma. For an easier view,
+click on the user to see Workgroups</p>
+<h6 id="active-user">Active User</h6>
+<p>This field provides if the user is an active user or inactive.</p>
+<h6 id="last-access-time">Last Access Time</h6>
+<p>This field will tell you the last time the user accessed the system, for more
+detailed audit trail see user reports.</p>
+<h6 id="enable-query">Enable Query</h6>
+<p>This is a setting that must be configured at your site and is uncommon. It has been
+created to allow a user to send a Physician Query to a valid email. If the user
+receiving the query is added as a user in User Management and have a valid email
+address listed. When an email address is added to the user profile, a new checkbox
+will appear to enable Physician Queries.</p>
+<p><a href="#R-image-10fb481caf7baf8d0b8b4fc6186bcbb9" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-450.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-10fb481caf7baf8d0b8b4fc6186bcbb9"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-450.png"></a></p>
+<p>If that checkbox is checked, the user will then appear in the pick list for the physician
+within a physician query.</p>
+<p><a href="#R-image-9e947a87f17f274ef8fe8859baf8c0fe" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-451.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e947a87f17f274ef8fe8859baf8c0fe"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-451.jpg"></a></p>
+<p>The user will only show up by typing in the user’s ID and will show a little person icon
+next to their name to indicate they are not a physician.</p>
+<p><a href="#R-image-f1d5556d84af423e71993130919d014c" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-452.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f1d5556d84af423e71993130919d014c"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-452.jpg"></a></p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Email-based Physician Queries Only
+  </div>
+  <div class="box-content">
+<p>This is uncommon as most sites physician query is used from the MFN file not to
+email. This feature was developed for a select few sites that do query through email.
+This setting must be turned on by your Project Team or CAC Support in the
+configuration settings. Once enabled this will also require a development interface
+change as to how and where queries are sent.</p>
+  </div>
+</div>
+<h2 id="adding-a-user">Adding A User</h2>
+<p>Click on the ‘Add User’ button at the top right of User Administration page.</p>
+<p>You will be presented with a new user profile screen</p>
+<p><a href="#R-image-f15dd9d89307161fd147ac2669d12704" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-453.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f15dd9d89307161fd147ac2669d12704"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-453.jpg"></a></p>
+<h3 id="add-user-fields">Add User Fields</h3>
+<h6 id="user-id-1">User ID</h6>
+<p>This field allows you to enter in a user id, this user id will be used for the user
+to access the system. Once this id is entered, it cannot be changed.</p>
+<h6 id="password">Password</h6>
+<p>Enter in the user name exactly as your windows login appears (Most facilities
+use Active Directory).</p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> Active Directory Users
+  </div>
+  <div class="box-content">
+<p>If you are using Active Directory, you can just entere a dummy value such as
+&ldquo;password&rdquo; into this field, as it requires a value, but will not be used in
+this configuration.</p>
+  </div>
+</div>
+<div class="box notices cstyle caution">
+  <div class="box-label">
+    <i class="fa-fw fas fa-hand"></i> Active Directory Users - Password Reset
+  </div>
+  <div class="box-content">
+<p>If a user forgets their password and your system is configured to use Active Directory
+(Windows Passwords), the password must be reset through your internal processes
+for resetting your windows password.</p>
+  </div>
+</div>
+<h6 id="last-login">Last Login</h6>
+<p>Auto populated with the date/time that the user logged in</p>
+<h6 id="prior-login">Prior Login</h6>
+<p>Auto populated with the prior login date/time</p>
+<h6 id="last-name-1">Last Name</h6>
+<p>This field allows you to enter in the user’s last name.</p>
+<h6 id="first-name-1">First Name</h6>
+<p>This field allows you to enter in the user’s first name.</p>
+<h6 id="email-address">Email Address</h6>
+<p>This field allows you to enter in the user’s email address, this is not used for
+another other than reference.</p>
+<h6 id="employee-number">Employee Number</h6>
+<p>This field allows you to enter in a user’s employee number.</p>
+<h6 id="signature">Signature</h6>
+<p>This button allows you create a signature line. This line
+will appear at the bottom of Physician Queries to show who created the
+query. A new button is located next to the user’s name in the user profile.</p>
+<p><a href="#R-image-b786ae28614409b27a492ad5ea1587a2" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-454.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b786ae28614409b27a492ad5ea1587a2"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-454.jpg"></a></p>
+<p>Clicking it will open a box allowing the user to create the signature</p>
+<p><a href="#R-image-88a98d6d1835c614238bd542b91a3757" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-455.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-88a98d6d1835c614238bd542b91a3757"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-455.jpg"></a></p>
+<h6 id="role">Role</h6>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Role</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Viewers</strong></td>
+          <td style="text-align: left">can view the patient chart but, can not make changes to the chart.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Coders</strong></td>
+          <td style="text-align: left">can view the patient chart. In addition to, adding, deleting and changing both codes and DRG’s on the coding abstract. They can also add and remove from any coding forms in addition to accessing any available editable fields in account information and they can add any notes and bookmarks.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>CDI Specialist</strong></td>
+          <td style="text-align: left">can view the patient chart. In addition to, adding, deleting and changing both codes and DRG’s on the CDI abstract. They can also add and remove from any CDI forms in addition to accessing any available editable fields in account information and they can add any notes and bookmarks.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Auditor</strong></td>
+          <td style="text-align: left">can view the patient chart. In addition to, adding, deleting and changing both codes and DRG’s on the coding abstract. They can also add and remove from any coding forms in addition to accessing any available editable fields in account information and they can add any notes and bookmarks. The role of an auditor will import any previously submitted codes by the coder and also allow for an audit worksheet to start an audit.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Physician Coder</strong></td>
+          <td style="text-align: left">can view the patient chart. In addition to, adding, deleting and changing both codes and DRG’s on the physician coding abstract. They can also add and remove from any physician coding forms in addition to accessing any available editable fields in account information and they can add any notes and bookmarks.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Managers</strong></td>
+          <td style="text-align: left">can do everything that Coders and Viewers can do. They can also add and delete users to the system from their own facility, change passwords, or change user roles. Managers can assign accounts to users and produce reports describing the state of the work queue and various coder statistics from their own facility.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Administrators</strong></td>
+          <td style="text-align: left">can do everything that Coders and Viewers can do. They can also add and delete users to the system, change passwords, or change user roles throughout all facilities (if multi-site). Administrators can assign accounts to users and produce reports describing the state of the work queue and various coder statistics.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Read Only</strong></td>
+          <td style="text-align: left">can view the patient chart. They cannot add notes, make changes to codes or DRG’s. Read Only users do not have access to the administration application.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Router</strong></td>
+          <td style="text-align: left">is a role that is accompanied by either the coder, physician coder or CDI specialist role. This allows the user to route to other users, they can either save and route to a user or workgroup overriding the natural automatic workflow of the system.</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="primary-workgroups">Primary Workgroups</h6>
+<p>This field is a list of check boxes that are populated based on the queues that
+are created in the ‘Automatic Assignment’ tab. By checking these boxes, you
+are giving that user access to queues</p>
+<h6 id="backup-workgroups">Backup Workgroups</h6>
+<p>These workgroups are only visible to the user from the Account List page if
+all other assigned queues are empty. As soon as an assigned workgroup
+receives an account, the backup queues are no longer visible. Auto-
+Download will not be affected.</p>
+<h6 id="group-id">Group ID</h6>
+<p>This field allows you to enter in a user’s group ID.</p>
+<h6 id="active">Active</h6>
+<p>This field allows you to provide or revoke access to the system. If checked
+the user is active, if unchecked the user is inactive and will not have access
+to the system.</p>
+<h6 id="locked-1">Locked</h6>
+<p>If a user has been locked out of the system due to, too many login attempts
+they might be locked out, if you check the box the user will be locked out of
+the system and the user will not be able to login until this box is unchecked.</p>
+<h6 id="save-user-button">Save User Button</h6>
+<p>This button allows you to save the user profile you are adding or editing</p>
+<h6 id="cancel">Cancel</h6>
+<p>This button allows you to cancel the user you are adding or editing without
+making or saving any changes.</p>
+<h2 id="using-force-autoload">Using Force AutoLoad</h2>
+<p><a href="#R-image-0527939a08678b070e5d3abe1ffb9513" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-457.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0527939a08678b070e5d3abe1ffb9513"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-457.png"></a></p>
+<p>This feature allows you to reduce cherry picking allow you to force ordering of the workgroups and the
+order in which patient charts are severed to the end user. If checked, then when the user
+logs in, the user will skip the Account List page and they user will be presented with an
+AutoLoad page. To get the next account they will click on “Go to Next Account” by
+clicking this button it will automatically load the first account from the assigned workgroups based on
+sort ordering set by the manager skipping charts that another user already has locked.</p>
+<p><a href="#R-image-c485a032dbb2b1d22260146214a17c4f" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-456.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c485a032dbb2b1d22260146214a17c4f"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-456.jpg"></a></p>
+<p>If there are no accounts left, the system will automatically load the first account from the visible linked
+workgroups. If there are no accounts left, the user will be presented with a new screen informing the
+user that there are no accounts.</p>
+<h3 id="setting-limits-on-the-number-of-charts">Setting Limits on the Number of Charts</h3>
+<p>Users that are configured to have Forced Autoload will now have an column under the Workgroup
+assignement panels. This will allow managers to limit the amount of accounts in each workflow that the
+forced user will be assigned. If limit is left as blank the user will not have a limit and to move to the next
+workgroup the workgroup will need to be depleated.</p>
+<p>In the instance below, I have set limits on the users accounts they can code out of each workgroup.
+Therefore even if the CDI NLP workgroup has 20 accounts in it, the user will only be able to complete 2
+charts until the user has worked through all of the other assigned workgroups. So the user will receive 2
+CDI NLP accounts, then up to 5 Surgical Testing accounts, and then up to 3 Clinic accounts. When the
+user has reached the end, the work starts back at the top again with up to 2 CDI NLP accounts.</p>
+<p><a href="#R-image-f9877825212521f1b9fdf73bcf05d905" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-459.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f9877825212521f1b9fdf73bcf05d905"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-459.jpg"></a></p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Manual Routing Always Takes Priority
+  </div>
+  <div class="box-content">
+<p>If an admin routes a chart directly to the users “You” worklist, the chart will appear next
+in autoload before resuming normal workgroup priority order.</p>
+  </div>
+</div>
+<p>The &ldquo;autoload&rdquo; page provides a copy of the Coder Personal Dashboard. The coder will also see a list of
+accounts they saved with a pending reason at the bottom of the autoload page that they can access by
+clicking.</p>
+<h2 id="user-profile">User Profile</h2>
+<p>The users profile can be reached from the top right corner of the application or by using user
+management. By clicking on the user name you can click on the verbiage of profile to open the users
+profile. Depending on the permission the user has will depend on the settings available in the users
+profile. In addition clicking on the user name you will be able to see the users productivity stats for
+today.</p>
+<p><a href="#R-image-06bd55dc89f8cc9d0016fc1e51161aac" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/user-management/image-458.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06bd55dc89f8cc9d0016fc1e51161aac"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/user-management/image-458.jpg"></a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<div>
+  <img src="/images/logo.png" style="width: 250px;">
+</div>
+
+        </div>
+
+        <search>
+          <div class="searchbox default-animation">
+            <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1728672923" defer></script>
+        <script src="/js/search.js?1728672923" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/getting-connected/index.html" class=""><a class="padding" href="/getting-connected/index.html">Getting Connected</a></li>
+          <li data-nav-id="/coding-user-guide/index.html" class=""><a class="padding" href="/coding-user-guide/index.html">Coding User Guide</a><ul id="R-subsections-a8614c33c8bfec76a2d9588607a8e1bb" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/account-list/index.html" class=""><a class="padding" href="/coding-user-guide/account-list/index.html">Account List</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/index.html" class="alwaysopen"><a class="padding" href="/coding-user-guide/coding-a-patient-chart/index.html">Coding a Patient Chart</a><ul id="R-subsections-0d2b19332c4ba8c77eb007b82d54eed3" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html">Loading Accounts</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html">Reviewing Documents</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/adding-codes/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/adding-codes/index.html">Managing Codes</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html">Computing a Drg</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-screen/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-screen/index.html">Account Screen</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/index.html" class="alwaysopen"><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/index.html">Account Viewers</a><ul id="R-subsections-1bc278c73f7fa63ab6a195cd176fd6b0" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html">Code Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html">Patient Info</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html">Notes and Bookmarks</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html">Physicians and Queries</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html">Physician Coding Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html">Final Coding Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html">Working CDI History</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html">Suggested DRG Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html">Discrete Values and Flow Sheet Viewers</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html">Charges/Transactions Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html">Medications Viewers</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html">DRG Reconciliation Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html">30 Day Readmit</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html">Previous HCC Overview</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html">Transfer Codes Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html">Denial Management Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html">ER E/M Viewer</a></li></ul></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/document-tree/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/document-tree/index.html">Document Tree</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/code-panels/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/code-panels/index.html">Code Panels</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html">Exiting an Account</a></li></ul></li></ul></li>
+          <li data-nav-id="/cds-user-guide/index.html" class=""><a class="padding" href="/cds-user-guide/index.html">Cds User Guide</a><ul id="R-subsections-a5e09bd14813c4cf7eda3ed1e61865fc" class="morespace collapsible-menu">
+          <li data-nav-id="/cds-user-guide/chart-reviews/index.html" class=""><a class="padding" href="/cds-user-guide/chart-reviews/index.html">Chart Reviews</a></li>
+          <li data-nav-id="/cds-user-guide/chart-prioritization/index.html" class=""><a class="padding" href="/cds-user-guide/chart-prioritization/index.html">CDI Alerts and Chart Prioritization</a></li>
+          <li data-nav-id="/cds-user-guide/receiving-credit-for-reviews/index.html" class=""><a class="padding" href="/cds-user-guide/receiving-credit-for-reviews/index.html">Receiving Credit for Reviews</a></li>
+          <li data-nav-id="/cds-user-guide/next-review-date/index.html" class=""><a class="padding" href="/cds-user-guide/next-review-date/index.html">Next Review Date</a></li>
+          <li data-nav-id="/cds-user-guide/matched-criteria/index.html" class=""><a class="padding" href="/cds-user-guide/matched-criteria/index.html">Matched Criteria</a></li>
+          <li data-nav-id="/cds-user-guide/query-impact/index.html" class=""><a class="padding" href="/cds-user-guide/query-impact/index.html">Query Impact</a></li>
+          <li data-nav-id="/cds-user-guide/baseline-drg/index.html" class=""><a class="padding" href="/cds-user-guide/baseline-drg/index.html">Baseline Drg</a></li></ul></li>
+          <li data-nav-id="/auditor-user-guide/index.html" class=""><a class="padding" href="/auditor-user-guide/index.html">Auditor User Guide</a><ul id="R-subsections-5f5bf9902057e8fa4ae87edceebbb43b" class="morespace collapsible-menu">
+          <li data-nav-id="/auditor-user-guide/auditor-role/index.html" class=""><a class="padding" href="/auditor-user-guide/auditor-role/index.html">Auditor Role</a></li>
+          <li data-nav-id="/auditor-user-guide/starting-an-audit/index.html" class=""><a class="padding" href="/auditor-user-guide/starting-an-audit/index.html">Starting an Audit</a></li>
+          <li data-nav-id="/auditor-user-guide/privacy-of-the-audit-viewer/index.html" class=""><a class="padding" href="/auditor-user-guide/privacy-of-the-audit-viewer/index.html">Privacy of the Audit Viewer</a></li>
+          <li data-nav-id="/auditor-user-guide/changing-dropdown-content/index.html" class=""><a class="padding" href="/auditor-user-guide/changing-dropdown-content/index.html">Changing Dropdown Content</a></li>
+          <li data-nav-id="/auditor-user-guide/audit-worksheet/index.html" class=""><a class="padding" href="/auditor-user-guide/audit-worksheet/index.html">Audit Worksheet</a></li></ul></li>
+          <li data-nav-id="/administrative-user-guide/index.html" class="parent "><a class="padding" href="/administrative-user-guide/index.html">Administrative User Guide</a><ul id="R-subsections-1d9c9f69ad5affe101aa478950f2cfab" class="morespace collapsible-menu">
+          <li data-nav-id="/administrative-user-guide/account-search/index.html" class=""><a class="padding" href="/administrative-user-guide/account-search/index.html">Account Search</a></li>
+          <li data-nav-id="/administrative-user-guide/calendar-view/index.html" class=""><a class="padding" href="/administrative-user-guide/calendar-view/index.html">Calendar View</a></li>
+          <li data-nav-id="/administrative-user-guide/dashboard/index.html" class=""><a class="padding" href="/administrative-user-guide/dashboard/index.html">Dashboard</a></li>
+          <li data-nav-id="/administrative-user-guide/user-reports/index.html" class=""><a class="padding" href="/administrative-user-guide/user-reports/index.html">User Reports</a></li>
+          <li data-nav-id="/administrative-user-guide/scheduled-reports/index.html" class=""><a class="padding" href="/administrative-user-guide/scheduled-reports/index.html">Scheduled Reports</a></li>
+          <li data-nav-id="/administrative-user-guide/code-set-management/index.html" class=""><a class="padding" href="/administrative-user-guide/code-set-management/index.html">Code Set Management</a></li>
+          <li data-nav-id="/administrative-user-guide/user-management/index.html" class="active"><a class="padding" href="/administrative-user-guide/user-management/index.html">User Management</a></li>
+          <li data-nav-id="/administrative-user-guide/workflow-management/index.html" class=""><a class="padding" href="/administrative-user-guide/workflow-management/index.html">Workflow Management</a></li>
+          <li data-nav-id="/administrative-user-guide/role-management/index.html" class=""><a class="padding" href="/administrative-user-guide/role-management/index.html">Role Management</a></li>
+          <li data-nav-id="/administrative-user-guide/validation-management/index.html" class=""><a class="padding" href="/administrative-user-guide/validation-management/index.html">Validation Management</a></li>
+          <li data-nav-id="/administrative-user-guide/er-em-configuration-page/index.html" class=""><a class="padding" href="/administrative-user-guide/er-em-configuration-page/index.html">Er Em Configuration Page</a></li>
+          <li data-nav-id="/administrative-user-guide/grid-column-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/grid-column-configuration/index.html">Grid Column Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/chat-room/index.html" class=""><a class="padding" href="/administrative-user-guide/chat-room/index.html">Chat Room</a></li>
+          <li data-nav-id="/administrative-user-guide/mapping-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/mapping-configuration/index.html">Mapping Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/form-designer/index.html" class=""><a class="padding" href="/administrative-user-guide/form-designer/index.html">Form Designer</a></li>
+          <li data-nav-id="/administrative-user-guide/shortcut-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/shortcut-configuration/index.html">Shortcut Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/help-menu/index.html" class=""><a class="padding" href="/administrative-user-guide/help-menu/index.html">Help Menu</a></li>
+          <li data-nav-id="/administrative-user-guide/inactivity-timeout/index.html" class=""><a class="padding" href="/administrative-user-guide/inactivity-timeout/index.html">Inactivity Timeout</a></li>
+          <li data-nav-id="/administrative-user-guide/tuning/index.html" class=""><a class="padding" href="/administrative-user-guide/tuning/index.html">Tuning</a></li></ul></li>
+          <li data-nav-id="/definitions/index.html" class=""><a class="padding" href="/definitions/index.html">Definitions</a></li>
+          <li data-nav-id="/fields/index.html" class=""><a class="padding" href="/fields/index.html">Fields</a><ul id="R-subsections-6fc86a29bf06fea820cca35a448cb65f" class="morespace collapsible-menu">
+          <li data-nav-id="/fields/standard-fields/index.html" class=""><a class="padding" href="/fields/standard-fields/index.html">Standard Fields</a></li>
+          <li data-nav-id="/fields/custom-fields/index.html" class=""><a class="padding" href="/fields/custom-fields/index.html">Custom Fields</a></li>
+          <li data-nav-id="/fields/tuning-fields/index.html" class=""><a class="padding" href="/fields/tuning-fields/index.html">Tuning Fields</a></li>
+          <li data-nav-id="/fields/audit-fields/index.html" class=""><a class="padding" href="/fields/audit-fields/index.html">Audit Fields</a></li>
+          <li data-nav-id="/fields/diagnosis-codes-section/index.html" class=""><a class="padding" href="/fields/diagnosis-codes-section/index.html">Diagnosis Codes Section</a></li>
+          <li data-nav-id="/fields/pcs-codes-section/index.html" class=""><a class="padding" href="/fields/pcs-codes-section/index.html">Pcs Codes Section</a></li>
+          <li data-nav-id="/fields/cpt-codes-section/index.html" class=""><a class="padding" href="/fields/cpt-codes-section/index.html">Cpt Codes Section</a></li>
+          <li data-nav-id="/fields/drg-outcome/index.html" class=""><a class="padding" href="/fields/drg-outcome/index.html">Drg Outcome</a></li>
+          <li data-nav-id="/fields/abstracting/index.html" class=""><a class="padding" href="/fields/abstracting/index.html">Abstracting</a></li>
+          <li data-nav-id="/fields/overall-statistics-section/index.html" class=""><a class="padding" href="/fields/overall-statistics-section/index.html">Overall Statistics Section</a></li>
+          <li data-nav-id="/fields/er-em-fields/index.html" class=""><a class="padding" href="/fields/er-em-fields/index.html">Er Em Fields</a></li></ul></li>
+          <li data-nav-id="/colors/index.html" class=""><a class="padding" href="/colors/index.html">Colors and Symbols</a></li>
+          <li data-nav-id="/release-notes/index.html" class=""><a class="padding" href="/release-notes/index.html">Release Notes</a><ul id="R-subsections-dda1c160f3cd4c0231dd2e449455015e" class="morespace collapsible-menu">
+          <li data-nav-id="/release-notes/v2.23/index.html" class=""><a class="padding" href="/release-notes/v2.23/index.html">V2.23</a></li>
+          <li data-nav-id="/release-notes/v2.24/index.html" class=""><a class="padding" href="/release-notes/v2.24/index.html">V2.24</a></li>
+          <li data-nav-id="/release-notes/v2.25/index.html" class=""><a class="padding" href="/release-notes/v2.25/index.html">V2.25</a></li>
+          <li data-nav-id="/release-notes/v2.26/index.html" class=""><a class="padding" href="/release-notes/v2.26/index.html">V2.26</a></li>
+          <li data-nav-id="/release-notes/v2.27/index.html" class=""><a class="padding" href="/release-notes/v2.27/index.html">V2.27</a></li>
+          <li data-nav-id="/release-notes/v2.28/index.html" class=""><a class="padding" href="/release-notes/v2.28/index.html">V2.28</a></li>
+          <li data-nav-id="/release-notes/v2.51/index.html" class=""><a class="padding" href="/release-notes/v2.51/index.html">V2.51</a></li>
+          <li data-nav-id="/release-notes/v2.52/index.html" class=""><a class="padding" href="/release-notes/v2.52/index.html">V2.52</a></li>
+          <li data-nav-id="/release-notes/v2.53/index.html" class=""><a class="padding" href="/release-notes/v2.53/index.html">V2.53</a></li>
+          <li data-nav-id="/release-notes/v2.54/index.html" class=""><a class="padding" href="/release-notes/v2.54/index.html">V2.54</a></li>
+          <li data-nav-id="/release-notes/v2.55/index.html" class=""><a class="padding" href="/release-notes/v2.55/index.html">V2.55</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/administrative-user-guide/user-management/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-zen-light" value="zen-light" selected>Zen Light</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

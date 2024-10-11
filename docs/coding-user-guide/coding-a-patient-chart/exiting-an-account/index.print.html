@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="Once you have finished working in an account, there are three ways of proceeding
+Cancel - This cancels all work in the chart and either returns to the Workgroup or autoloads the next account (if autoload is selected). Upon canceling if you have unsaved changes you will be prompted. Save - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.) Submit - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected). Account Changed Warning Box">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Exiting an Account :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="Once you have finished working in an account, there are three ways of proceeding
+Cancel - This cancels all work in the chart and either returns to the Workgroup or autoloads the next account (if autoload is selected). Upon canceling if you have unsaved changes you will be prompted. Save - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.) Submit - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected). Account Changed Warning Box">
+    <meta property="og:url" content="https://example.org/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="Exiting an Account :: Fusion CAC Documentation">
+    <meta property="og:description" content="Once you have finished working in an account, there are three ways of proceeding
+Cancel - This cancels all work in the chart and either returns to the Workgroup or autoloads the next account (if autoload is selected). Upon canceling if you have unsaved changes you will be prompted. Save - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.) Submit - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected). Account Changed Warning Box">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Exiting an Account :: Fusion CAC Documentation">
+    <meta itemprop="description" content="Once you have finished working in an account, there are three ways of proceeding
+Cancel - This cancels all work in the chart and either returns to the Workgroup or autoloads the next account (if autoload is selected). Upon canceling if you have unsaved changes you will be prompted. Save - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.) Submit - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected). Account Changed Warning Box">
+    <meta itemprop="wordCount" content="263">
+    <title>Exiting an Account :: Fusion CAC Documentation</title>
+    <link href="https://example.org/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html" rel="canonical" type="text/html" title="Exiting an Account :: Fusion CAC Documentation">
+    <link href="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.xml" rel="alternate" type="application/rss+xml" title="Exiting an Account :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1728672923" rel="stylesheet">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support print" data-url="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/coding-user-guide/index.html"><span itemprop="name">Coding User Guide</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/coding-user-guide/coding-a-patient-chart/index.html"><span itemprop="name">Coding a Patient Chart</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Exiting an Account</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/coding-user-guide/coding-a-patient-chart/code-panels/index.html" title="Code Panels (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cds-user-guide/index.html" title="Cds User Guide (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="exiting-an-account">Exiting an Account</h1>
+
+<p>Once you have finished working in an account, there are three ways of proceeding</p>
+<p><a href="#R-image-96bd79462b7c75c7f10918c216f57384" class="lightbox-link"><img alt="Actions" class="border nolazy lightbox shadow figure-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-268.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-96bd79462b7c75c7f10918c216f57384"><img alt="Actions" class="border nolazy lightbox shadow lightbox-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-268.png"></a></p>
+<ul>
+<li><strong>Cancel</strong> - This cancels all work in the chart and either returns to the Workgroup or autoloads the next account (if autoload is selected). Upon canceling if you have unsaved changes you will be prompted. <a href="#R-image-20dcc71dcc7faaba0b5e478eb259e0be" class="lightbox-link"><img alt="Are You Sure" class="border nolazy lightbox shadow figure-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-269.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-20dcc71dcc7faaba0b5e478eb259e0be"><img alt="Are You Sure" class="border nolazy lightbox shadow lightbox-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-269.png"></a></li>
+<li><strong>Save</strong> - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.)</li>
+<li><strong>Submit</strong> - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected).</li>
+</ul>
+<h2 id="account-changed-warning-box">Account Changed Warning Box</h2>
+<p><a href="#R-image-82fab73169b8e503b20fc00658b1b48c" class="lightbox-link"><img alt="Warning Box" class="border nolazy lightbox shadow figure-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-272.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-82fab73169b8e503b20fc00658b1b48c"><img alt="Warning Box" class="border nolazy lightbox shadow lightbox-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-272.jpg"></a></p>
+<p>Upon selecting one of these options, Fusion CAC may present a pop-up
+warning that reads, “Warning: Account Changed. The account has been
+changed by an upstream system” This warning appears when Fusion CAC
+has received a change to the account – usually a new document – between
+the time the account was opened and when the user chooses to Cancel,
+Save, or Submit. This warning allows the user to double check their work
+based on new information provided to Fusion CAC.</p>
+<p>Selecting <strong>“Save and Apply”</strong> will apply the incoming changes to the account
+and continue with the process the user had selected. Choosing <strong>“Apply”</strong> will
+apply the incoming changes to the account and return the user to the
+account to continue working.</p>
+<h2 id="ending-a-coding-session-log-off">Ending a Coding Session (Log Off)</h2>
+<p><a href="#R-image-c502a7f2576b453444839c67f9ae8938" class="lightbox-link"><img alt="Log Off" class="border nolazy lightbox shadow figure-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-275.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c502a7f2576b453444839c67f9ae8938"><img alt="Log Off" class="border nolazy lightbox shadow lightbox-image" src="/coding-user-guide/coding-a-patient-chart/exiting-an-account/image-275.jpg"></a></p>
+<p>To log out of the application, click on the down-arrow next to your user name in the
+top right corner of the software, then select ‘Log Out.’</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

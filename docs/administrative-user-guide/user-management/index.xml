@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Management :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/user-management/index.html</link>
+    <description>This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.&#xA;User Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/user-management/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Document Tree :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/document-tree/index.html</link>
+    <description>The Documents Pane frames the Documents Tree and is located on the left-hand side of the Account Screen. The Documents Tree includes a listing of all documents in a patient chart categorized by document type as configured by the hospital.&#xA;Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document. Listed below are Document Indicators.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/document-tree/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

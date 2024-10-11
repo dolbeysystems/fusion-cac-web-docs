@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Final Coding Summary :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html</link>
+    <description>The code summary will display if the facility coders submit the chart. This provides transparency between CDI and your physician coding teams if they are using Fusion CAC as to what was coded.&#xA;By clicking on the header, it will expand the selection so you can see the codes and DRG/APC if applicable. If you see any codes with a plus (+) sign it means that you have not added this code to the account. The plus (+) sign does not indicate that you need to add this code it just allows you to quickly add the code if you have determined you want to use this code using your coding judgment and supporting documentation.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

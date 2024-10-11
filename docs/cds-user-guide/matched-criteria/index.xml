@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matched Criteria :: Fusion CAC Documentation</title>
+    <link>https://example.org/cds-user-guide/matched-criteria/index.html</link>
+    <description>CDI Users Only The Matched Criteria viewer is only shown if your current role is CDI.&#xA;Matched criteria allow you to see why the chart was routed to you. The matched criteria group is a list of “criteria group” that the chart matched upon when it went through workflow. These criteria groups are used to indicate a “possible” query opportunity based upon the criteria outlined in workflow.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/cds-user-guide/matched-criteria/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

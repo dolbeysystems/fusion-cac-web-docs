@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Er Em Configuration Page :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/er-em-configuration-page/index.html</link>
+    <description>The E/M Configuration page must be set up by the Dolbey Team therefore the below is to show you what is within this page. If you need more information on the set up of this page, please contact the SME Team (smeteam@dolbey.com).&#xA;The ER E/M Configuration can be found within the Tools menu. If enabled, you will see it beneath the Validation Management.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/er-em-configuration-page/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

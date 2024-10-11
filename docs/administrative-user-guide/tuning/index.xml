@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tuning :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/tuning/index.html</link>
+    <description>System Search System Search works similarly to Account Search. By creating filters, you can search for patient charts using different criteria. This System Search feature will also be used by the Tuning Team to identify targeted codes that need reviewed and possibly refined.&#xA;An example of a System Search would be all inpatient charts with a diagnosis of hypertension.&#xA;Is inpatient = True Diagnosis Code = In List = I10 # (you may want to include other hypertension codes such as I13.0, I13.9, I12.0, I12.9, etc.) When you select “refresh”, a list of all accounts that meet the criteria will be displayed. If this is a search that you will want to use more than once, you can Save the search, making it available in the drop-down box</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/tuning/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

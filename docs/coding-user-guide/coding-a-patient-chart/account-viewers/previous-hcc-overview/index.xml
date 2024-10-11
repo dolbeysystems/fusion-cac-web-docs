@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Previous HCC Overview :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html</link>
+    <description>The previous HCC overview will display the HCC history to show for both the current and prior year. HCCs will be collected once the HCCs has been enabled in the mapping table. It is recommended to turn HCCs on for all patient types to capture a more complete picture of HCCs. As a reminder, this will not capture data prior to turning this feature on in the mapping table. (In mappings, under the Categories mapping, there is a check box.) When HCCs are enabled, these will display below grouped by HCC category and by code — showing the account number and MRN # for the visits each were associated to.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

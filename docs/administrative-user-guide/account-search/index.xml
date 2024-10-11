@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Account Search :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/account-search/index.html</link>
+    <description>Account Search is helpful for reporting when creating a report that is not in the default user reports. Account Search allows you to search most data points to export the raw data into a CSV file. To begin creating an account search, think about what you want to gain for the data. A few examples:&#xA;How many inpatient charts were discharged last month with a principal diagnosis of sepsis? What charts that were discharged have pending reasons? Of the inpatient types discharged last month and coded, what is the total of each CC and MCCs? To do any of the above you will need to filter the data because the account search can pull all chart data available in the system. Start by clicking on ‘Add Criteria’ and select the fields to constrain the data. Looking for submitted data? Use Stage = Submitted Looking for data discharged from last month? Click on edit next to admit datetime and change to discharge date is last month. Continue to constrain the data based upon what you are looking for. There are about 100+ fields that you can use to constrain the data. Each site will have their own custom fields, depending on how the system was configured.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/account-search/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

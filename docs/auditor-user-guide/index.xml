@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auditor User Guide :: Fusion CAC Documentation</title>
+    <link>https://example.org/auditor-user-guide/index.html</link>
+    <description>The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit process. With its automated functionality, this tool efficiently compares coder-assigned codes to auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group) adjustments.&#xA;Beyond auditing, the module facilitates tracking of training recommendations, enabling continuous improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow tracking ensures transparent communication and resolution of discrepancies between auditors and coders, ultimately fostering a collaborative and quality-driven coding environment.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/auditor-user-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auditor Role</title>
+      <link>https://example.org/auditor-user-guide/auditor-role/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/auditor-user-guide/auditor-role/index.html</guid>
+      <description>The audit module introduces a new role of an auditor. The role of an “Auditor” has the same privileges as a “Coder” when it comes to account editing. In fact, an auditor is editing the final codes. If an auditor or coder submits the account with an open audit, the audit will automatically be closed. The auditor can route an account directly to the coder that last submitted (which triggers a save and close), and the coder can rebut and route an account back to the audit (which also triggers a save and close).</description>
+    </item>
+    <item>
+      <title>Starting an Audit</title>
+      <link>https://example.org/auditor-user-guide/starting-an-audit/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/auditor-user-guide/starting-an-audit/index.html</guid>
+      <description>Ensure you have the role of an auditor and chart access of auditor. Open a chart that has been submitted by a coder, you may get this chart from a worklist or, by manually typing in an account number. On the navigation tree you will notice a viewer called “Audit Worksheet”. Click on “Start Audit” to begin Upon clicking on “start audit”, select your audit type from the dropdown. This will be used for reporting on the types of audit you performed, and this can also be used for workflow purposes. The codes in the “assigned code” tree are the same codes initially submitted by the coder, allowing the auditor to start the audit with the codes from the coder. The audit viewer can be popped out onto a separate screen, allowing the auditor to have a screen for reviewing the chart. By selecting “Show All” codes in the unassigned code tree, the auditor is taken to the documents/documentation supporting that code. This will help streamline the audit process. Once the auditor has made changes and is completed with the audit, they can click “Update Codes” which automatically calculates and populates the audit statistics section. There is a comment bubble next to each code as well as the DRG for the auditor to enter any comment. Next to the codes a symbol may display. A green ‘plus’ sign will show if the code was added. A red ‘minus’ sign will show if a code was deleted. A orange up or down ‘arrow’ sign will appear if the code location has been changed, as in a primary and secondary are swapped. Although audit statistics have been automatically calculated and populated, the auditor must manually enter in the “total errors” which then automatically calculates the “Error Rate”. Complete the additional sections, (abstracting and training recommendations) if applicable. The auditor can then re-submit the chart or route it back to the coder of record by using the “Route to Coder” button in the top right corner of the audit worksheet. This will route the chart to the coder’s “You” worklist for them to review and re-submit.</description>
+    </item>
+    <item>
+      <title>Privacy of the Audit Viewer</title>
+      <link>https://example.org/auditor-user-guide/privacy-of-the-audit-viewer/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/auditor-user-guide/privacy-of-the-audit-viewer/index.html</guid>
+      <description>The auditor will need to add the coder of record so that the coder of record, any auditor, or other user role that has been given access can view the audit worksheets. This data is only intended for coder education and administrative staff to score how the coder is doing in a report card. The coder will be able to view the audit viewer and add notes/comments back to the auditor, but the coder will not be able to make any changes to the audit worksheet</description>
+    </item>
+    <item>
+      <title>Changing Dropdown Content</title>
+      <link>https://example.org/auditor-user-guide/changing-dropdown-content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/auditor-user-guide/changing-dropdown-content/index.html</guid>
+      <description>The AuditType and AuditTrainingTopics mappings can be added to override the default mappings. If you would like to override these, you can find more information on creating a new mapping from the Mapping Configuration section of this user guide.</description>
+    </item>
+    <item>
+      <title>Audit Worksheet</title>
+      <link>https://example.org/auditor-user-guide/audit-worksheet/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/auditor-user-guide/audit-worksheet/index.html</guid>
+      <description>Listed below, are the sections of the audit worksheet and the definition of the fields , including how it was calculated. If the auditor disagrees with any of the auto-calculated fields below, they can choose to override the field by entering in the value that makes sense per the audit. The system will provide an audit trail to show what the value was changed from and to for transparency along with the user that made the change and the date/time the change was performed.</description>
+    </item>
+  </channel>
+</rss>

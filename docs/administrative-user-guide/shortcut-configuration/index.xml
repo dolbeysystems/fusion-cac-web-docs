@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcut Configuration :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/shortcut-configuration/index.html</link>
+    <description>Shortcut keys help provide an easier and usually quicker method of navigating and executing commands within the software.&#xA;Because some hotkeys may be mapped to a different software solution you are using, we allow you to configure ours. We provide defaults but feel free to change them as needed.&#xA;To record a new, simply press the record button on the line of the function you wish to configure. Enter in a button combination usually between 1-2 keys on the keyboard. For Example, ALT and F9 might submit the chart. We are a browser based application therefore you should not use the standard browser hot keys.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/shortcut-configuration/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

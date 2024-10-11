@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Account Screen :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-screen/index.html</link>
+    <description>Banner Bar Below the Accounts Action Bar is the Banner Bar.&#xA;From the Banner Bar, you can toggle between account demographic information and Primary DRG information by clicking on the Primary DRG hyperlink. The DRG view displays information available from the encoder for the computed DRG. You can also click on the Patient Name to expand collapse the account demographic and DRG information. The Accounts Info bar includes information on the account including:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-screen/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Summary :: Fusion CAC Documentation</title>
+    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html</link>
+    <description>The Code Summary screen shows a summary of activity on the account and provides activity buttons to Claim Ownership, Show History, and Print Abstract (if a printer is configured).&#xA;This pane also provides information on Current Owner, First Coder, Last Saver, and Last Submitter.&#xA;You can expand the width of the Code Summary pane by clicking on the right-arrow in the top right of the pane.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

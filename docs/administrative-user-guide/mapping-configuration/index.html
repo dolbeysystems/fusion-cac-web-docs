@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.
+A new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Mapping Configuration :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.
+A new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.">
+    <meta property="og:url" content="https://example.org/administrative-user-guide/mapping-configuration/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="Mapping Configuration :: Fusion CAC Documentation">
+    <meta property="og:description" content="This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.
+A new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Mapping Configuration :: Fusion CAC Documentation">
+    <meta itemprop="description" content="This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.
+A new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.">
+    <meta itemprop="wordCount" content="729">
+    <title>Mapping Configuration :: Fusion CAC Documentation</title>
+    <link href="/administrative-user-guide/mapping-configuration/index.xml" rel="alternate" type="application/rss+xml" title="Mapping Configuration :: Fusion CAC Documentation">
+    <link href="/administrative-user-guide/mapping-configuration/index.print.html" rel="alternate" type="text/html" title="Mapping Configuration :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support html" data-url="/administrative-user-guide/mapping-configuration/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#add-incentive-multiplier-to-category-editor">Add Incentive Multiplier to Category Editor</a></li>
+    <li><a href="#adding-pending-reasons">Adding Pending Reasons</a></li>
+    <li><a href="#adding-custom-review-types">Adding Custom Review Types</a></li>
+    <li><a href="#enabling-hcc-indicators">Enabling HCC Indicators</a></li>
+    <li><a href="#billing-countdown">Billing Countdown</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/administrative-user-guide/index.html"><span itemprop="name">Administrative User Guide</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Mapping Configuration</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/administrative-user-guide/mapping-configuration/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/administrative-user-guide/chat-room/index.html" title="Chat Room (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/administrative-user-guide/form-designer/index.html" title="Form Designer (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="mapping-configuration">Mapping Configuration</h1>
+
+<p>This page allows you to map data from a data field name to a friendly end user facing name. It is highly
+recommended to not touch data mapping tables in a production environment unless you have been
+trained to do so.</p>
+<p>A new Export to CSV button has been added to the mapping title bar. Clicking this will export that
+mapping’s list to CSV, where it can then be printed.</p>
+<p><a href="#R-image-3147b1c35fd66ca120faf16bc19a4653" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-539.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3147b1c35fd66ca120faf16bc19a4653"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-539.png"></a></p>
+<p>For Mapping, you must have administrative rights to configure.</p>
+<p><a href="#R-image-9fd003cb8f1ed76d0a4750ca73dd0fb3" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-540.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9fd003cb8f1ed76d0a4750ca73dd0fb3"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-540.jpg"></a></p>
+<h2 id="add-incentive-multiplier-to-category-editor">Add Incentive Multiplier to Category Editor</h2>
+<p>In Mappings Configuration, a new Incentive Multiplier column will appear in the Category mapping. The
+administrator can optionally record an incentive multiplier that is used in the Incentive Productivity
+Report. Categories without a value in the incentive multiplier will be calculated with an incentive
+multiplier of 1.0.</p>
+<p>The &ldquo;Incentive Productivity Report&rdquo; reports on whole weeks, but only produces an entry if the coder first
+submitted an account that week. This report pulls its data in real-time.</p>
+<p><a href="#R-image-03847a6220c66e2ef9ef402fe35003ac" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-541.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-03847a6220c66e2ef9ef402fe35003ac"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-541.jpg"></a></p>
+<h2 id="adding-pending-reasons">Adding Pending Reasons</h2>
+<p>To add a pending reason, click on “Pending Reasons” on the left side, then click the “Add New Pending
+Reason” button. If you only need pending reasons for certain categories, select all categories that apply.
+Leave the category blank so it applies to all categories.
+A checkbox appears next to each pending reason allowing the user to tie a pending reason to a physician
+and there is an additional check box requiring the date if applicable</p>
+<p><a href="#R-image-5f63ea6ddd2c8def7d0d04a3078a1a86" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-542.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5f63ea6ddd2c8def7d0d04a3078a1a86"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-542.jpg"></a></p>
+<p>When a pending reason has the Physician Required box checked, the user will be prompted for a
+physician when a pending reason is assigned to an account. The prompt will force a physician to be
+selected, and that physician will appear in the Code Summary page and in the Pending Reasons report.</p>
+<h2 id="adding-custom-review-types">Adding Custom Review Types</h2>
+<p>Custom reviews are not enabled at every site, to see the use of custom reviews go to the section for this
+in this user manual.</p>
+<p>To add a Custom Review Type, click on “CDI Review Types” on the left side, then click the “Add New CDI
+Review Types” button. Note: Changing an existing Custom Review Type will change reporting and
+dashboards</p>
+<p><a href="#R-image-55875d7f47d202b880b3f7da03d8ff81" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-543.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-55875d7f47d202b880b3f7da03d8ff81"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-543.jpg"></a></p>
+<h2 id="enabling-hcc-indicators">Enabling HCC Indicators</h2>
+<p>Enabling HCC Indicators does a few things.</p>
+<ol>
+<li>Turns HCC Indicators next to diagnosis codes assigned to the “Assigned Code” Tree, when the user
+assigns a code that has a CMS HCC a small H indicator appears.</li>
+</ol>
+<ul>
+<li>The version of HCC for calendar year 2023 (retroactively) and 2024 will display when the user hovers over the H in the Assigned Codes panel.
+<a href="#R-image-8f270b56586b611325d8ce564b0709c5" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-544.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f270b56586b611325d8ce564b0709c5"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-544.jpg"></a></li>
+</ul>
+<ol start="2">
+<li>For any subsequent time, a patient chart that shares the same MRN number that previously had
+HCC’s the user will see in the navigation tree a Previous HCC Overview Menu.</li>
+<li>There is a field that will capture current HCC total for each chart in account search.</li>
+</ol>
+<p><a href="#R-image-061a86f6c1ae433faf7bd6ec6ad7a0c1" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-545.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-061a86f6c1ae433faf7bd6ec6ad7a0c1"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-545.png"></a></p>
+<div class="box notices cstyle caution">
+  <div class="box-label">
+    <i class="fa-fw fas fa-hand"></i> HCC Indicators Are Not Retroactive
+  </div>
+  <div class="box-content">
+<p>This will not capture data that existed prior to turning this feature on in the mapping
+table. These are turned on in mappings. Under the Categories mapping there is a check box.
+When HCC&rsquo;s are enabled, these will display below grouped by HCC category and by code,
+showing the account number and MRN # for the associated visit.</p>
+  </div>
+</div>
+<h2 id="billing-countdown">Billing Countdown</h2>
+<p>The billing countdown will tell you how many days left to bill the payor. In Mapping Configuration, if
+you add or edit a mapping for &ldquo;Payor&rdquo;, you see a new &ldquo;Default Bill Days&rdquo; field in the header and a new
+&ldquo;Bill Days&rdquo; column for each Payor.</p>
+<p>These fields contain numbers zero or higher or blank to indicate the number of days to add to the
+discharge date (current date is there is no discharge date) to calculate what is basically a billing due
+date.</p>
+<p><a href="#R-image-d7a9f2d93c50cc18ec90828a5aff30be" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-546.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7a9f2d93c50cc18ec90828a5aff30be"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-546.jpg"></a></p>
+<p>The billing date is compared to the current date (or the last submitted date if the account is
+already submitted) to compute the &ldquo;Billing Countdown&rdquo; – the number of days left to submit an
+account. If an account has no payor, no matching payor mapping, or payor mapping with no &ldquo;bill days&rdquo;
+defined, the &ldquo;default bill days&rdquo; is used (zero if &ldquo;default bill days&rdquo; is blank as well.)</p>
+<p>You will find a new field, &ldquo;Billing Countdown,&rdquo; that you can add from Grid Column Configuration, to use
+for account search filters and workflow. A use case for this field is to determine which accounts are
+approaching a due you can do something like this</p>
+<p><a href="#R-image-2c5fb1421fe5f1d23b96d1e2901939d0" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/administrative-user-guide/mapping-configuration/image-547.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c5fb1421fe5f1d23b96d1e2901939d0"><img class="border nolazy lightbox shadow lightbox-image" src="/administrative-user-guide/mapping-configuration/image-547.jpg"></a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<div>
+  <img src="/images/logo.png" style="width: 250px;">
+</div>
+
+        </div>
+
+        <search>
+          <div class="searchbox default-animation">
+            <i class="fas fa-search" title="Search (CTRL+ALT+f)"></i>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1728672923" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1728672923" defer></script>
+        <script src="/js/search.js?1728672923" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <ul>
+          <li><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+        </ul>
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/getting-connected/index.html" class=""><a class="padding" href="/getting-connected/index.html">Getting Connected</a></li>
+          <li data-nav-id="/coding-user-guide/index.html" class=""><a class="padding" href="/coding-user-guide/index.html">Coding User Guide</a><ul id="R-subsections-a8614c33c8bfec76a2d9588607a8e1bb" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/account-list/index.html" class=""><a class="padding" href="/coding-user-guide/account-list/index.html">Account List</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/index.html" class="alwaysopen"><a class="padding" href="/coding-user-guide/coding-a-patient-chart/index.html">Coding a Patient Chart</a><ul id="R-subsections-0d2b19332c4ba8c77eb007b82d54eed3" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html">Loading Accounts</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html">Reviewing Documents</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/adding-codes/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/adding-codes/index.html">Managing Codes</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html">Computing a Drg</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-screen/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-screen/index.html">Account Screen</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/index.html" class="alwaysopen"><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/index.html">Account Viewers</a><ul id="R-subsections-1bc278c73f7fa63ab6a195cd176fd6b0" class="morespace collapsible-menu">
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html">Code Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html">Patient Info</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html">Notes and Bookmarks</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html">Physicians and Queries</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html">Physician Coding Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html">Final Coding Summary</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html">Working CDI History</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html">Suggested DRG Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html">Discrete Values and Flow Sheet Viewers</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html">Charges/Transactions Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html">Medications Viewers</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html">DRG Reconciliation Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html">30 Day Readmit</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html">Previous HCC Overview</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html">Transfer Codes Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html">Denial Management Viewer</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html">ER E/M Viewer</a></li></ul></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/document-tree/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/document-tree/index.html">Document Tree</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/code-panels/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/code-panels/index.html">Code Panels</a></li>
+          <li data-nav-id="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html" class=""><a class="padding" href="/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html">Exiting an Account</a></li></ul></li></ul></li>
+          <li data-nav-id="/cds-user-guide/index.html" class=""><a class="padding" href="/cds-user-guide/index.html">Cds User Guide</a><ul id="R-subsections-a5e09bd14813c4cf7eda3ed1e61865fc" class="morespace collapsible-menu">
+          <li data-nav-id="/cds-user-guide/chart-reviews/index.html" class=""><a class="padding" href="/cds-user-guide/chart-reviews/index.html">Chart Reviews</a></li>
+          <li data-nav-id="/cds-user-guide/chart-prioritization/index.html" class=""><a class="padding" href="/cds-user-guide/chart-prioritization/index.html">CDI Alerts and Chart Prioritization</a></li>
+          <li data-nav-id="/cds-user-guide/receiving-credit-for-reviews/index.html" class=""><a class="padding" href="/cds-user-guide/receiving-credit-for-reviews/index.html">Receiving Credit for Reviews</a></li>
+          <li data-nav-id="/cds-user-guide/next-review-date/index.html" class=""><a class="padding" href="/cds-user-guide/next-review-date/index.html">Next Review Date</a></li>
+          <li data-nav-id="/cds-user-guide/matched-criteria/index.html" class=""><a class="padding" href="/cds-user-guide/matched-criteria/index.html">Matched Criteria</a></li>
+          <li data-nav-id="/cds-user-guide/query-impact/index.html" class=""><a class="padding" href="/cds-user-guide/query-impact/index.html">Query Impact</a></li>
+          <li data-nav-id="/cds-user-guide/baseline-drg/index.html" class=""><a class="padding" href="/cds-user-guide/baseline-drg/index.html">Baseline Drg</a></li></ul></li>
+          <li data-nav-id="/auditor-user-guide/index.html" class=""><a class="padding" href="/auditor-user-guide/index.html">Auditor User Guide</a><ul id="R-subsections-5f5bf9902057e8fa4ae87edceebbb43b" class="morespace collapsible-menu">
+          <li data-nav-id="/auditor-user-guide/auditor-role/index.html" class=""><a class="padding" href="/auditor-user-guide/auditor-role/index.html">Auditor Role</a></li>
+          <li data-nav-id="/auditor-user-guide/starting-an-audit/index.html" class=""><a class="padding" href="/auditor-user-guide/starting-an-audit/index.html">Starting an Audit</a></li>
+          <li data-nav-id="/auditor-user-guide/privacy-of-the-audit-viewer/index.html" class=""><a class="padding" href="/auditor-user-guide/privacy-of-the-audit-viewer/index.html">Privacy of the Audit Viewer</a></li>
+          <li data-nav-id="/auditor-user-guide/changing-dropdown-content/index.html" class=""><a class="padding" href="/auditor-user-guide/changing-dropdown-content/index.html">Changing Dropdown Content</a></li>
+          <li data-nav-id="/auditor-user-guide/audit-worksheet/index.html" class=""><a class="padding" href="/auditor-user-guide/audit-worksheet/index.html">Audit Worksheet</a></li></ul></li>
+          <li data-nav-id="/administrative-user-guide/index.html" class="parent "><a class="padding" href="/administrative-user-guide/index.html">Administrative User Guide</a><ul id="R-subsections-1d9c9f69ad5affe101aa478950f2cfab" class="morespace collapsible-menu">
+          <li data-nav-id="/administrative-user-guide/account-search/index.html" class=""><a class="padding" href="/administrative-user-guide/account-search/index.html">Account Search</a></li>
+          <li data-nav-id="/administrative-user-guide/calendar-view/index.html" class=""><a class="padding" href="/administrative-user-guide/calendar-view/index.html">Calendar View</a></li>
+          <li data-nav-id="/administrative-user-guide/dashboard/index.html" class=""><a class="padding" href="/administrative-user-guide/dashboard/index.html">Dashboard</a></li>
+          <li data-nav-id="/administrative-user-guide/user-reports/index.html" class=""><a class="padding" href="/administrative-user-guide/user-reports/index.html">User Reports</a></li>
+          <li data-nav-id="/administrative-user-guide/scheduled-reports/index.html" class=""><a class="padding" href="/administrative-user-guide/scheduled-reports/index.html">Scheduled Reports</a></li>
+          <li data-nav-id="/administrative-user-guide/code-set-management/index.html" class=""><a class="padding" href="/administrative-user-guide/code-set-management/index.html">Code Set Management</a></li>
+          <li data-nav-id="/administrative-user-guide/user-management/index.html" class=""><a class="padding" href="/administrative-user-guide/user-management/index.html">User Management</a></li>
+          <li data-nav-id="/administrative-user-guide/workflow-management/index.html" class=""><a class="padding" href="/administrative-user-guide/workflow-management/index.html">Workflow Management</a></li>
+          <li data-nav-id="/administrative-user-guide/role-management/index.html" class=""><a class="padding" href="/administrative-user-guide/role-management/index.html">Role Management</a></li>
+          <li data-nav-id="/administrative-user-guide/validation-management/index.html" class=""><a class="padding" href="/administrative-user-guide/validation-management/index.html">Validation Management</a></li>
+          <li data-nav-id="/administrative-user-guide/er-em-configuration-page/index.html" class=""><a class="padding" href="/administrative-user-guide/er-em-configuration-page/index.html">Er Em Configuration Page</a></li>
+          <li data-nav-id="/administrative-user-guide/grid-column-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/grid-column-configuration/index.html">Grid Column Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/chat-room/index.html" class=""><a class="padding" href="/administrative-user-guide/chat-room/index.html">Chat Room</a></li>
+          <li data-nav-id="/administrative-user-guide/mapping-configuration/index.html" class="active"><a class="padding" href="/administrative-user-guide/mapping-configuration/index.html">Mapping Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/form-designer/index.html" class=""><a class="padding" href="/administrative-user-guide/form-designer/index.html">Form Designer</a></li>
+          <li data-nav-id="/administrative-user-guide/shortcut-configuration/index.html" class=""><a class="padding" href="/administrative-user-guide/shortcut-configuration/index.html">Shortcut Configuration</a></li>
+          <li data-nav-id="/administrative-user-guide/help-menu/index.html" class=""><a class="padding" href="/administrative-user-guide/help-menu/index.html">Help Menu</a></li>
+          <li data-nav-id="/administrative-user-guide/inactivity-timeout/index.html" class=""><a class="padding" href="/administrative-user-guide/inactivity-timeout/index.html">Inactivity Timeout</a></li>
+          <li data-nav-id="/administrative-user-guide/tuning/index.html" class=""><a class="padding" href="/administrative-user-guide/tuning/index.html">Tuning</a></li></ul></li>
+          <li data-nav-id="/definitions/index.html" class=""><a class="padding" href="/definitions/index.html">Definitions</a></li>
+          <li data-nav-id="/fields/index.html" class=""><a class="padding" href="/fields/index.html">Fields</a><ul id="R-subsections-6fc86a29bf06fea820cca35a448cb65f" class="morespace collapsible-menu">
+          <li data-nav-id="/fields/standard-fields/index.html" class=""><a class="padding" href="/fields/standard-fields/index.html">Standard Fields</a></li>
+          <li data-nav-id="/fields/custom-fields/index.html" class=""><a class="padding" href="/fields/custom-fields/index.html">Custom Fields</a></li>
+          <li data-nav-id="/fields/tuning-fields/index.html" class=""><a class="padding" href="/fields/tuning-fields/index.html">Tuning Fields</a></li>
+          <li data-nav-id="/fields/audit-fields/index.html" class=""><a class="padding" href="/fields/audit-fields/index.html">Audit Fields</a></li>
+          <li data-nav-id="/fields/diagnosis-codes-section/index.html" class=""><a class="padding" href="/fields/diagnosis-codes-section/index.html">Diagnosis Codes Section</a></li>
+          <li data-nav-id="/fields/pcs-codes-section/index.html" class=""><a class="padding" href="/fields/pcs-codes-section/index.html">Pcs Codes Section</a></li>
+          <li data-nav-id="/fields/cpt-codes-section/index.html" class=""><a class="padding" href="/fields/cpt-codes-section/index.html">Cpt Codes Section</a></li>
+          <li data-nav-id="/fields/drg-outcome/index.html" class=""><a class="padding" href="/fields/drg-outcome/index.html">Drg Outcome</a></li>
+          <li data-nav-id="/fields/abstracting/index.html" class=""><a class="padding" href="/fields/abstracting/index.html">Abstracting</a></li>
+          <li data-nav-id="/fields/overall-statistics-section/index.html" class=""><a class="padding" href="/fields/overall-statistics-section/index.html">Overall Statistics Section</a></li>
+          <li data-nav-id="/fields/er-em-fields/index.html" class=""><a class="padding" href="/fields/er-em-fields/index.html">Er Em Fields</a></li></ul></li>
+          <li data-nav-id="/colors/index.html" class=""><a class="padding" href="/colors/index.html">Colors and Symbols</a></li>
+          <li data-nav-id="/release-notes/index.html" class=""><a class="padding" href="/release-notes/index.html">Release Notes</a><ul id="R-subsections-dda1c160f3cd4c0231dd2e449455015e" class="morespace collapsible-menu">
+          <li data-nav-id="/release-notes/v2.23/index.html" class=""><a class="padding" href="/release-notes/v2.23/index.html">V2.23</a></li>
+          <li data-nav-id="/release-notes/v2.24/index.html" class=""><a class="padding" href="/release-notes/v2.24/index.html">V2.24</a></li>
+          <li data-nav-id="/release-notes/v2.25/index.html" class=""><a class="padding" href="/release-notes/v2.25/index.html">V2.25</a></li>
+          <li data-nav-id="/release-notes/v2.26/index.html" class=""><a class="padding" href="/release-notes/v2.26/index.html">V2.26</a></li>
+          <li data-nav-id="/release-notes/v2.27/index.html" class=""><a class="padding" href="/release-notes/v2.27/index.html">V2.27</a></li>
+          <li data-nav-id="/release-notes/v2.28/index.html" class=""><a class="padding" href="/release-notes/v2.28/index.html">V2.28</a></li>
+          <li data-nav-id="/release-notes/v2.51/index.html" class=""><a class="padding" href="/release-notes/v2.51/index.html">V2.51</a></li>
+          <li data-nav-id="/release-notes/v2.52/index.html" class=""><a class="padding" href="/release-notes/v2.52/index.html">V2.52</a></li>
+          <li data-nav-id="/release-notes/v2.53/index.html" class=""><a class="padding" href="/release-notes/v2.53/index.html">V2.53</a></li>
+          <li data-nav-id="/release-notes/v2.54/index.html" class=""><a class="padding" href="/release-notes/v2.54/index.html">V2.54</a></li>
+          <li data-nav-id="/release-notes/v2.55/index.html" class=""><a class="padding" href="/release-notes/v2.55/index.html">V2.55</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/administrative-user-guide/mapping-configuration/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-zen-light" value="zen-light" selected>Zen Light</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

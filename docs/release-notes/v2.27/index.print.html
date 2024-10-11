@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.2">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="V2.27.8378 Released 12/16/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="V2.27 :: Fusion CAC Documentation">
+    <meta name="twitter:description" content="V2.27.8378 Released 12/16/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta property="og:url" content="https://example.org/release-notes/v2.27/index.html">
+    <meta property="og:site_name" content="Fusion CAC Documentation">
+    <meta property="og:title" content="V2.27 :: Fusion CAC Documentation">
+    <meta property="og:description" content="V2.27.8378 Released 12/16/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="V2.27 :: Fusion CAC Documentation">
+    <meta itemprop="description" content="V2.27.8378 Released 12/16/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:">
+    <meta itemprop="wordCount" content="4376">
+    <title>V2.27 :: Fusion CAC Documentation</title>
+    <link href="https://example.org/release-notes/v2.27/index.html" rel="canonical" type="text/html" title="V2.27 :: Fusion CAC Documentation">
+    <link href="/release-notes/v2.27/index.xml" rel="alternate" type="application/rss+xml" title="V2.27 :: Fusion CAC Documentation">
+    <link href="/images/logo.png?1728672923" rel="icon" type="image/png">
+    <link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1728672923" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1728672923" rel="stylesheet">
+    <link href="/css/fonts.css?1728672923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1728672923" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1728672923" rel="stylesheet">
+    <link href="/css/theme-zen-light.css?1728672923" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1728672923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1728672923" rel="stylesheet">
+    <link href="/css/print.css?1728672923" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1728672923" rel="stylesheet">
+    <script src="/js/variant.js?1728672923"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.index_js_url="/index.search.js?1728672923";
+      // variant stuff
+      window.variants && variants.init( [ 'zen-light' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+<style>
+  h2 { border-block: 1px dashed #777; }
+</style>
+
+  </head>
+  <body class="mobile-support print" data-url="/release-notes/v2.27/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Fusion CAC User Guide</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/release-notes/index.html"><span itemprop="name">Release Notes</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">V2.27</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.26/index.html" title="V2.26 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/release-notes/v2.28/index.html" title="V2.28 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="v227">V2.27</h1>
+
+<h2>V2.27.8378 Released 12/16/22</h2>
+<p>
+The notes below indicate changes and additions to the software. Please review these release notes
+carefully when deciding to apply a software update to an installation. 
+</p>
+
+<p>
+Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. 
+Please refer to the change with this tracking assignment number when communicating questions or issues.
+</p>
+
+<p>
+The heading also contains a parenthesized "Change Type", indicating the severity or importance of
+the change.  The severities used are:
+</p>
+
+<ul>
+  <li><strong style="color: darkred">Critical</strong> - Recommended that this application be upgraded as soon as possible at all sites
+  running previous versions.
+  <li><strong style="color: orange">Conditionally Critical</strong> - Recommended that this application be upgraded as soon as possible at
+  all sites running previous versions matching the stated conditions.
+  <li><strong style="color: green">Important</strong> - Recommended upgrading the application if the customer is experiencing the issue
+  denoted or currently applying a work-around for a specific non-functional feature.
+  <li><strong style="color: blue">Enhancement</strong> - Recommended upgrading only if the specific functionality is desired.
+</ul>
+
+<h3 id="cactwo-5149-enhancement">CACTWO-5149 (Enhancement)</h3>
+<p><strong>Add permission role for Dolbey Community</strong></p>
+<p>A new privilege called ‘Hide Access to Dolbey Community’ has been added to
+Role Management. If checked, that user type will no longer have access to
+Dolbey Community in the Help menu. Dolbey Community is a new web-based
+community for customer management teams launching on January 10, 2023.
+Dolbey Community is intended to bring Fusion CAC users together to
+collaborate and discuss topics that are important to you. You will have the
+opportunity to:</p>
+<ul>
+<li>Ask questions and get answers from your peers.</li>
+<li>Share ideas and best practices that you&rsquo;ve learned along the way.</li>
+<li>Learn tips and tricks — or pass along some of your own.</li>
+<li>Access resources like release notes, training videos, and marketing materials.</li>
+<li>Submit feature requests that may be incorporated into future releases.</li>
+</ul>
+<p>If you would like a login for Dolbey Community, please reach out to the
+<a href="mailto:SMEteam@dolbey.com" rel="external" target="_blank">SMEteam@dolbey.com</a>.</p>
+<h3 id="cactwo-5171-enhancement">CACTWO-5171 (Enhancement)</h3>
+<p><strong>Hide supporting evidence from documents</strong></p>
+<p>Supporting evidence will now be hidden from documents by default. If the
+supporting evidence dialog is open, clicking on the icon next to the code will
+reveal the secondary codes. This will now be hidden to reduce the white noise
+of codes on a chart; however, the evidence is still available. Upon opening the
+supporting evidence dialog you will see the evidence markers.</p>
+<h3 id="cactwo-5224-enhancement">CACTWO-5224 (Enhancement)</h3>
+<p><strong>Allow TruCode™ edits while computing with any other encoder</strong></p>
+<p>If a site uses an encoder other than TruCode and wants to use the TruCode
+edits to supplement their existing encoder they can now do so to display MCE,
+OCE, and medical necessity edits (NCD/LCD).</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> TruCode Edits License Required
+  </div>
+  <div class="box-content">
+<p>This feature requires a TruCode Edits License, please contact the SME Team
+for more information.</p>
+  </div>
+</div>
+<h3 id="cactwo-5256-enhancement">CACTWO-5256 (Enhancement)</h3>
+<p><strong>Allow physicians to be attached to pending reasons from Account Search</strong></p>
+<p>If a pending reason is added to an account from account search and is
+configured to have a physician attached, the user can now add that physician
+in Account Search. Either single or multiple accounts can be highlighted, then
+in the right click menu, after Add Pending Reason is selected, if the pending
+reason selected from the dropdown is set to trigger for physician, the
+physician entry box will be displayed.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Testing Steps
+  </div>
+  <div class="box-content">
+<p><strong>Testing Steps</strong>: In Mappings Configuration, make sure you have at least one
+pending reason that requires a physician. In Account Search, select one or
+more accounts, then right-click and choose &ldquo;Add Pending Reason&rdquo;. Note that
+if you select a pending reason that requires a physician, an additional
+physician drop down appears. If the pending reason requires a physician, the
+physician cannot be left blank. After selecting a physician reason and
+physician, load the account and examine the Code Summary viewer. The
+physician should be present with the newly added pending reason.</p>
+  </div>
+</div>
+<h3 id="cactwo-5257-enhancement">CACTWO-5257 (Enhancement)</h3>
+<p><strong>Allow mass removal of pending reasons in Account Search</strong></p>
+<p>If an account has multiple pending reasons, they will now all be removable
+using Account Search. In Account Search, the user will need to create a search
+using the Pending Reasons Drill Down Level. Highlighting one of the lines on
+the account (pending reasons each have their own lines) and right clicking to
+select Delete Pending Reasons will delete all reasons on the account without
+having to highlight each line.</p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> Info
+  </div>
+  <div class="box-content">
+<p><strong>Testing Steps</strong>: Perform this action on selected accounts, then examine these
+accounts in Account Detail. Any accounts with pending reasons should have
+their pending reasons removed.</p>
+  </div>
+</div>
+<h3 id="cactwo-5264-enhancement">CACTWO-5264 (Enhancement)</h3>
+<p><strong>Add number ordering for criteria groups</strong></p>
+<p>Using Grid Column Configuration, first add the columns Custom Criteria
+Sequence and Criteria Sequence. With these added to the Account List, users
+will be able to see the sequence of the criteria group. The sequence will also
+be viewable in Workflow Management, in front of each criterion. Re-
+arranging the criteria list will update the sequence number as needed.</p>
+<p><a href="#R-image-a86f8348d33bbcf32c231351c6737d04" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-752.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a86f8348d33bbcf32c231351c6737d04"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-752.jpg"></a></p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> Testing Steps
+  </div>
+  <div class="box-content">
+<p><strong>Testing Steps</strong>: In Grid Columns Management, add the column &ldquo;Criteria
+Sequence&rdquo; for default workgroups and the column &ldquo;Custom Criteria
+Sequence&rdquo; for custom workgroups. For both columns, make sure the
+&ldquo;Account List&rdquo; checkboxes are checked. (Note that these columns are not
+added automatically; not all sites will use this feature.)</p>
+<p>The criteria group sequence number is now displayed in Workflow
+Management. When an account is assigned to a workgroup and criteria group,
+the criteria group sequence is now recorded with the workgroup assignment.
+The column &ldquo;Criteria Sequence&rdquo; will display the sequence number for default
+workflow and the column &ldquo;Custom Criteria Sequence&rdquo; will display the
+sequence number for custom workflow. Like with &ldquo;Criteria Group&rdquo;, these
+columns are swapped when examining a specific workgroup in the Account
+List page, depending on whether the workgroup is a default workgroup or a
+custom workgroup. The &ldquo;Matched Criteria Groups&rdquo; viewer will also display the
+sequence number for matched criteria.</p>
+  </div>
+</div>
+<div class="box notices cstyle caution">
+  <div class="box-label">
+    <i class="fa-fw fas fa-hand"></i> Re-run Workflow to Update Existing Accounts
+  </div>
+  <div class="box-content">
+<p>This feature is commonly used with CDI and this feature is not
+retroactive for existing accounts. Workflow must be rerun on existing
+accounts and the account&rsquo;s workgroup, or criteria group must change to see
+the sequence number.</p>
+  </div>
+</div>
+<h3 id="cactwo-5283-enhancement">CACTWO-5283 (Enhancement)</h3>
+<p><strong>Allow chronological sort for documents</strong></p>
+<p>The user can now right click within the document tree and a new menu option
+‘Show Chronologically’ will be there. When clicked, it will sort all the
+documents in chronological order. The order will be saved per user and can
+easily be changed back by right clicking for the menu, from where they can
+choose ‘Show Document Groups’.</p>
+<p><a href="#R-image-abf1ff272f03cfada5693e8f72bd3e2c" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-753.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-abf1ff272f03cfada5693e8f72bd3e2c"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-753.jpg"></a></p>
+<h3 id="cactwo-5294-enhancement">CACTWO-5294 (Enhancement)</h3>
+<p><strong>New capture rate report for CC/MCC</strong></p>
+<p>A new user report has been created called CC/MCC Capture rate. It will show
+the final result of CC/MC capture rates</p>
+<h3 id="cactwo-5296-enhancement">CACTWO-5296 (Enhancement)</h3>
+<p><strong>Show provider name on document</strong></p>
+<p>If a provider name is sent in the meta data of a document, it will now show in
+the Document tree, next to its document. The name is shown after a comma,
+and will be order by last name, first name.</p>
+<p><a href="#R-image-2b3c0ae8dba0588034e3d7d874bc7854" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-754.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b3c0ae8dba0588034e3d7d874bc7854"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-754.png"></a></p>
+<h3 id="cactwo-5298-enhancement">CACTWO-5298 (Enhancement)</h3>
+<p><strong>Add MDC fields columns</strong></p>
+<p>Grid Column Configuration will now allow the addition of 4 columns: Final
+MDC, Final MDC Description, Working MDC, and Working MDC Description.</p>
+<h3 id="cactwo-5308-enhancement">CACTWO-5308 (Enhancement)</h3>
+<p><strong>Add dropdown to hide coding in Document Management</strong></p>
+<p>A new column, Hide Coding, has been added to Document Types
+Management, allowing the user to choose to show suggested codes based on
+whether the account is inpatient or outpatient.</p>
+<p>This will allow sites to hide codes, for example, on radiology reports or
+supporting documentation &ldquo;non&rdquo; physician documents for inpatient charts
+only.</p>
+<h3 id="cactwo-5311-enhancement">CACTWO-5311 (Enhancement)</h3>
+<p><strong>Add new sort fields to workgroups</strong></p>
+<p>In Workflow Management, the fields below have been added to the Sort/Field
+Direction boxes for workgroups. When no other sort order has been set in
+Account list, this is the sort order that will be followed.</p>
+<ol>
+<li>Active Matches Criteria Groups</li>
+<li>Admit Date w/ Time</li>
+<li>Age in Years</li>
+<li>Billing Countdown</li>
+<li>Discharge Date w/ Time</li>
+<li>Late Document Count</li>
+<li>Random Inclusion Factor</li>
+<li>Total Documents</li>
+</ol>
+<h3 id="cactwo-5312-enhancement">CACTWO-5312 (Enhancement)</h3>
+<p><strong>Add Financial Class filter to CDI Metric Scorecard</strong></p>
+<p>The CDI Metric Scorecard report is based on inpatient activity. A filter for
+Financial Class has been added. Other updates to the report include number
+of queries with a disagreement; percentage of queries with a disagreement;
+and DRG pre-bill and post bill match rates.</p>
+<h3 id="cactwo-5313-enhancement">CACTWO-5313 (Enhancement)</h3>
+<p><strong>Add ability to use document status for validation rules</strong></p>
+<p>If a document has been added as a for each loop in the Validation
+Management editor. Users can now create a validation rule that will look at
+each document status and report each instance of a matched validation rule
+on the Code Summary viewer.</p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> Use Case Example
+  </div>
+  <div class="box-content">
+<p><strong>Use Case</strong>: Prevent coders from submitting the account when a document is in
+something other than signed status and notify them using validation rules to
+provide a hard or soft stop to add a pending reason. Common document
+status includes but are not limited to:</p>
+<ul>
+<li>D = draft</li>
+<li>P = preliminary</li>
+<li>F = final</li>
+<li>S = signed</li>
+<li>A = addendum</li>
+</ul>
+  </div>
+</div>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Document Status Flag Required
+  </div>
+  <div class="box-content">
+<p>This feature requires a document interface that provides a document status
+flag. Check your interface before adopting this feature.</p>
+  </div>
+</div>
+<h3 id="cactwo-5314-enhancement">CACTWO-5314 (Enhancement)</h3>
+<p><strong>Change expands all options to increase performance</strong></p>
+<p>To help with performance, some menus have been changed. The right click
+menu on the Document tree now has an Expand option that allows for
+collapse or expand of documents. There is no longer a code expansion, that
+is done by the plus sign only. On the Unassigned/All Codes tree, in the right
+click menu, the Expand option will allow users to expand Codes. This will show
+the codes, or collapse all to hide the codes and only show the headings.</p>
+<h3 id="cactwo-5316-important">CACTWO-5316 (Important)</h3>
+<p><strong>Add facility filters to Administrative dashboards</strong></p>
+<p>Three dashboards will now have the ability to filter by facility: Audit
+Management, CDI Management and Administrative. The filters will apply to
+most dashboards, except for the Autoclose, Discharged Not Final Coded, and
+any panel displaying user counts. The top of the dashboard contains the filter,
+and once the user clicks to filter and selects the facilities desired, clicking the
+refresh button will refresh all the panels to only show the results for that
+facility or facilities.</p>
+<p><a href="#R-image-300b8bec44e17c89b717f8625384f7f2" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-755.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-300b8bec44e17c89b717f8625384f7f2"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-755.jpg"></a></p>
+<h3 id="cactwo-5317-important">CACTWO-5317 (Important)</h3>
+<p><strong>User clicking ‘refresh’ during account load causes accounts to be removed</strong></p>
+<p>When an account list is in the process of being retrieved and a user clicks the
+refresh button, the beginning of the list is removed. This has been corrected.</p>
+<h3 id="cactwo-5318-important">CACTWO-5318 (Important)</h3>
+<p><strong>Validation Editor not evaluating criteria of Charge Codes exist correctly</strong></p>
+<p>If multiple charges exist on an account and one of them does not have a CPT
+code, a validation for Charges Exist does not work properly. This has been
+corrected.</p>
+<div class="box notices cstyle info">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info-circle"></i> Testing Steps
+  </div>
+  <div class="box-content">
+<p><strong>Testing Steps</strong>: You need an account with charges where at least one charge
+does not have a CPT Code. In Validation Editor, add a rule &ldquo;Charge Codes &ndash;&gt;
+Exists&rdquo;. On that account, if at least one charge has a CPT Code, the rule should
+trigger even if another charge doesn&rsquo;t have a CPT Code.</p>
+  </div>
+</div>
+<h3 id="cactwo-5321-important">CACTWO-5321 (Important)</h3>
+<p><strong>SOI/ROM values on banner bar do not match Audit Worksheet</strong></p>
+<p>If an Audit was opened on an account with SOI/ROM values, those values on
+the banner bar were not matching what was showing on the Audit worksheet.
+The Audit Viewer displays the ROM where the SOI should be displayed. The
+data on the account and the audit is correct; it&rsquo;s just the display that is
+incorrect. This has been corrected.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> Requires Audit Management
+  </div>
+  <div class="box-content">
+<p>This feature requires Audit Management which is an additional module; please contact
+SME Team if you are interested in learning more. This also requires an APR-
+DRG license.</p>
+  </div>
+</div>
+<h3 id="cactwo-5322-enhancement">CACTWO-5322 (Enhancement)</h3>
+<p><strong>Provider not showing in drop-down when last name entered contains a space</strong></p>
+<p>If a Physician has a last name containing a space, such as Van Hutton or De
+Graff, the physician is not found when searching on the Physicians &amp; Queries
+page or on a procedure to add the provider by the first part of the last name.
+This has been corrected.</p>
+<h3 id="cactwo-5326-enhancement">CACTWO-5326 (Enhancement)</h3>
+<p><strong>Show middle name in 3M™ Coding and Reimbursement System (CRS)</strong></p>
+<p>encoder
+The 3M CRS encoder was only showing the patient’s last name. This has been
+changed to show the patient’s first, middle and last name in the encoder.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> 3M CRS Users
+  </div>
+  <div class="box-content">
+<p>This feature is for 3M CRS users only</p>
+  </div>
+</div>
+<h3 id="cactwo-5327-important">CACTWO-5327 (Important)</h3>
+<p><strong>Changing query from Cancelled to Wrong Provider doubles query</strong></p>
+<p>When using the &ldquo;Change Physician&rdquo; option on an open query a query is
+created as expected, but when reopening the query and changing the
+cancelled reason to &ldquo;Wrong Provider&rdquo; a second query was resent. To prevent
+this, there is now a dropdown on the Change Physician button that will drop
+down the cancel reasons. Clicking Send New Query will send the query to the
+new physician and close the query to the incorrect one. If a user then
+reopens that cancelled query and changes the cancel reason at the bottom,
+an additional query will not be sent.</p>
+<h3 id="cactwo-5328-enhancement">CACTWO-5328 (Enhancement)</h3>
+<p><strong>Change HCC Viewer to show friendly value</strong></p>
+<p>The HCC Viewer has been updated to show the mapped friendly value for the
+Category.</p>
+<h3 id="cactwo-5331-important">CACTWO-5331 (Important)</h3>
+<p><strong>CDI Activity report is displaying 00:00:00 for some charts</strong></p>
+<p>On the CDI Activity report, any chart with a facility on it caused the records
+‘Time Spent’ to zero out. This has been corrected.</p>
+<h3 id="cactwo-5332-enhancement">CACTWO-5332 (Enhancement)</h3>
+<p><strong>New ‘Today’s Date’ fields created</strong></p>
+<p>In Grid Column Configuration, two new options have been added: Today’s
+Date and Today’s Date /w Time. These can be added to show the current date
+and time on any screen chosen as a column, including Scheduled Reports.</p>
+<h3 id="cactwo-5334-important">CACTWO-5334 (Important)</h3>
+<p><strong>CDI Query reports percentages are not being computed correctly</strong></p>
+<p>The CDI Query Score Card and CDI Query Score Card by Admission Month
+reports were not calculating the DRG Pre-Bill and Post-Bill percentages
+correctly. This has been corrected.</p>
+<h3 id="cactwo-5336-enhancement">CACTWO-5336 (Enhancement)</h3>
+<p><strong>Allow Modifier entry to code by using hyphen</strong></p>
+<p>In version 1, the software allowed you to enter a CPT Code followed by a dash
+and a modifier. The version 2 software now has this feature. When adding,
+editing, or mass editing a CPT code, the modifier can be added by adding a
+hyphen after the code, along with the modifier.</p>
+<h3 id="cactwo-5338-important">CACTWO-5338 (Important)</h3>
+<p><strong>Prevent Out of Memory exceptions in Account list</strong></p>
+<p>If there are more than 5000 accounts in a workgroup when loading the
+account list, the user will now see an error message:</p>
+<p><a href="#R-image-2ff2e8f86223d1e97e959951a6590375" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-756.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2ff2e8f86223d1e97e959951a6590375"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-756.jpg"></a></p>
+<h3 id="cactwo-5340-enhancement">CACTWO-5340 (Enhancement)</h3>
+<p><strong>Allow for default POA other than Y</strong></p>
+<p>CAC now allows the installation to configure the default POA other than Y
+Contact Support to implement this option.</p>
+<h3 id="cactwo-5341-enhancement">CACTWO-5341 (Enhancement)</h3>
+<p><strong>Add columns and calculations for Audit Abstract Report</strong></p>
+<p>The Audit Abstract Report will display the calculation of modifier changes.
+The number of original modifiers, plus the number of new modifiers are added
+to the Pre Audit score. Several column names have been updated accordingly.</p>
+<h3 id="cactwo-5343-important">CACTWO-5343 (Important)</h3>
+<p><strong>Using computed field in Account Search doesn’t return all results</strong></p>
+<p>If there were more than 1000 accounts that matched an Account Search that
+used a computed field, such as Age in Years, then all results were not being
+shown. This has been corrected.</p>
+<h3 id="cactwo-5344-enhancement">CACTWO-5344 (Enhancement)</h3>
+<p><strong>Screen changes for the New Document Grouping page</strong></p>
+<p>Several updates to the New Document Grouping page have been made. The
+‘delete all’ button has been removed, and the ‘save all’ button has been
+changed to ‘save all groups’ for clarity. A confirmation pop up will now occur
+when deleting a document group.</p>
+<h3 id="cactwo-5348-enhancement">CACTWO-5348 (Enhancement)</h3>
+<p><strong>Prevent &ldquo;Account Changed&rdquo; dialog when only images are redownloaded</strong></p>
+<p>When a change is made upstream to an image on an account while that
+account is opened, the Account Changed box pops. This has been changed so
+that only documents will cause the change box to open.</p>
+<h3 id="cactwo-5350-enhancement">CACTWO-5350 (Enhancement)</h3>
+<p><strong>Banner Bar is not showing Discharge Disposition title</strong></p>
+<p>The Discharge Disposition in the banner bar has been changed to now show
+the title from the Discharge Disposition mapping, instead of being hard coded.</p>
+<h3 id="cactwo-5357-enhancement">CACTWO-5357 (Enhancement)</h3>
+<p><strong>Add productivity count to top of screen so the coder does not have to return to</strong></p>
+<p>dashboard to know productivity
+When a user clicks on their user ID in the right corner of the screen, a new
+chart will appear showing the updated work count for the day. If the user is
+both CDI and Coder, the chart that appears will be based on the current profile
+This allows the user to see how charts were worked today without needing to
+return to the dashboard. In this instance, the user is a coder:</p>
+<p><a href="#R-image-cd58b45bf3e95c07d10a091173e30a93" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-757.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cd58b45bf3e95c07d10a091173e30a93"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-757.jpg"></a>
+<a href="#R-image-2b555583fb63e076eb4890cd3eb69bc9" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-758.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b555583fb63e076eb4890cd3eb69bc9"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-758.jpg"></a></p>
+<h3 id="cactwo-5360-enhancement">CACTWO-5360 (Enhancement)</h3>
+<p><strong>Allow 3M CRS facility to be populated in CAC2</strong></p>
+<p>Dolbey now supports the field available in 3M CRS which is an account-level
+“EncoderFacility’ field.</p>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-circle"></i> 3M CRS Users Only
+  </div>
+  <div class="box-content">
+<p>This feature is for 3M CRS users only.</p>
+  </div>
+</div>
+<h3 id="cactwo-5362-enhancement">CACTWO-5362 (Enhancement)</h3>
+<p><strong>Add PSI data to the After Audit section of Audit worksheet</strong></p>
+<p>If an account has a PSI assignment, it shows on the Coder Outcome (Pre-Audit)
+side of the Audit Worksheet. The PSI assignment will now also show on the
+Auditor Outcome (Post-Audit) side after the Update Codes button is clicked</p>
+<h3 id="cactwo-5366-important">CACTWO-5366 (Important)</h3>
+<p><strong>CDI Query Score Card reports should not count all accounts</strong></p>
+<p>The CDI Query Score Card and CDI Query Score Card by Admission Month
+should only count accounts with both Working and Final DRGs on the first
+Submit in the Pre-Bill Mismatch statistics. It was counting all first submit
+accounts. This has been corrected.</p>
+<h3 id="cactwo-5367-cactwo-5366-important">CACTWO-5367 CACTWO-5366 (Important)</h3>
+<p><strong>CDI Query Score Card reports should not count all accounts</strong></p>
+<p>The CDI Query Score Card and CDI Query Score Card by Admission Month
+should only count accounts with both Working and Final DRGs on the first
+Submit in the Post-Bill Mismatch statistics. It was counting all first submit
+accounts. This has been corrected.</p>
+<h3 id="cactwo-5370-important">CACTWO-5370 (Important)</h3>
+<p><strong>Visit Reasons being unassigned when assigning Admit or Principal Diagnosis</strong></p>
+<p>On an outpatient account, if a Diagnosis code was set as a Visit Reason, then
+subsequently right clicked on and added as Admit or Principal, the Visit
+Reason was being deleted. This has been corrected.</p>
+<h3 id="cactwo-5371-enhancement">CACTWO-5371 (Enhancement)</h3>
+<p><strong>Allow Single Path user to switch between facility and professional charge</strong></p>
+<p>If facility charges and professional charges are received separately on an
+account, a single path user will be able to toggle between facility and
+professional charges. The toggle will appear in the upper left corner of the
+charges viewer.</p>
+<p><a href="#R-image-3ff7d062569b264e43fcfb57d477cb48" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-759.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ff7d062569b264e43fcfb57d477cb48"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-759.jpg"></a></p>
+<h3 id="cactwo-5375-enhancement">CACTWO-5375 (Enhancement)</h3>
+<p><strong>Add ROM/SOI indicators on more viewers</strong></p>
+<p>The Working CDI History viewer and the Final Code Summary viewer will now
+show columns for ROM/SOI and HAC/HCC per each code. The designation
+HAC will be shown in the CC/MCC column, when applicable.</p>
+<p><a href="#R-image-f5a78493583e0c834dc2b8a2490da4da" class="lightbox-link"><img class="border nolazy lightbox shadow figure-image" src="/release-notes/v2.27/image-760.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f5a78493583e0c834dc2b8a2490da4da"><img class="border nolazy lightbox shadow lightbox-image" src="/release-notes/v2.27/image-760.jpg"></a></p>
+<h3 id="cactwo-5382-important">CACTWO-5382 (Important)</h3>
+<p><strong>3M CRS responses are doubling</strong></p>
+<p>3M CRS responses are doubling if the user is timed out of the app and then
+logs back in and reopens the account. This has been corrected.
+For 3M CRS users only</p>
+<h3 id="cactwo-5384-important">CACTWO-5384 (Important)</h3>
+<p><strong>Audit Worksheet checkboxes are being unchecked</strong></p>
+<p>If the Audit Management viewer is popped out to another tab and a checkbox
+in the Coder Outcome (Pre-Audit) is checked, adding a code on the main
+browser was clearing the checked box. This has been corrected.</p>
+<h3 id="cactwo-5385-enhancement">CACTWO-5385 (Enhancement)</h3>
+<p><strong>Enable Alternate Length of Stay in 3M CRS</strong></p>
+<p>The ability to provide Alternate Length of Stay to 3M CRS to prevent
+prompting for it with specific groupers has been added.
+For 3M CRS users only</p>
+<h3 id="cactwo-5387-important">CACTWO-5387 (Important)</h3>
+<p><strong>Or groups in Validation Management are not working properly</strong></p>
+<p>If an Or group criteria is created in Validation Management and contains a
+looped result, that result was being ignored. This has been corrected.</p>
+<h3 id="cactwo-5388-enhancement">CACTWO-5388 (Enhancement)</h3>
+<p><strong>Add Hospital Service filter to the Weekly Coder Report</strong></p>
+<p>The Weekly Coder Activity report can now be filtered by Hospital Service.
+Hospital Service will not appear in the header of the report as a filter unless it
+is utilized.</p>
+<h3 id="cactwo-5389-enhancement">CACTWO-5389 (Enhancement)</h3>
+<p><strong>Add grand total line to CDI Activity Report</strong></p>
+<p>A grand total line has been added to the CDI Activity report.</p>
+<h3 id="cactwo-5390-enhancement">CACTWO-5390 (Enhancement)</h3>
+<p><strong>Add CDI codes added via 3M CRS to All codes list for Coders</strong></p>
+<p>Currently, the All Codes list (when user is a Coder) will only show CDI codes
+that are added on a document. They can then be hidden by the Hide CDI
+codes list. Codes that are added by a CDI via the 3M CRS encoder will now also
+appear in that list.
+For 3M CRS users only</p>
+<h3 id="cactwo-5392-important">CACTWO-5392 (Important)</h3>
+<p><strong>User Detail report is not showing AutoClose statistics</strong></p>
+<p>The User Detail report is not showing AutoClose statistics, or data for any
+account with no documents, or has documents with no codes, but direct
+coding via 3M CRS has occurred. This has been corrected.</p>
+<h3 id="cactwo-5393-important">CACTWO-5393 (Important)</h3>
+<p><strong>Filtering results from account search does not update the displayed numbers in</strong></p>
+<p>the bottom left
+When a report pulled up via Account Search is subsequently filtered, the
+number of lines at the bottom of the page are not updating to show the filter.
+This has been corrected.</p>
+<h3 id="cactwo-5394-important">CACTWO-5394 (Important)</h3>
+<p><strong>Submit button is being grayed out when it shouldn’t be</strong></p>
+<p>The submit button on accounts will now be grayed out according to validation
+rules, rather than being hard coded for reasons of no principal diagnosis being
+assigned</p>
+<h3 id="cactwo-5395-important">CACTWO-5395 (Important)</h3>
+<p><strong>Queries closed as No Opinion do not show in Account Search</strong></p>
+<p>If an Account Search report is created using the Queries Drill Down level,
+accounts that had queries closed as ‘No Opinion’ were showing as blank. This
+has been corrected.</p>
+<h3 id="cactwo-5397-enhancement">CACTWO-5397 (Enhancement)</h3>
+<p><strong>Display physician coder data on Code Summary page</strong></p>
+<p>When a physician coder is in an account, they will now see ‘Physician Coding
+Last Saved’ and ‘Physician Coding Last Submitted’ data on the Code Summary
+page.</p>
+<h3 id="cactwo-5398-enhancement">CACTWO-5398 (Enhancement)</h3>
+<p><strong>Add looped field for E/M in Validation Management</strong></p>
+<p>User can now create a validation rule based on E/M loops in Validation
+Management.</p>
+<h3 id="cactwo-5401-important">CACTWO-5401 (Important)</h3>
+<p><strong>Edit pending reasons in Workflow list not dropping or closing properly</strong></p>
+<p>If user edits a criteria group filter in workflow management and leaves the
+edit form open, then clicks on a filter to save, the edit form was staying open,
+and the Edit Pending Reason link was appearing. This has been corrected.</p>
+<h3 id="cactwo-5402-important">CACTWO-5402 (Important)</h3>
+<p><strong>Code designations are not showing correctly during recalculation</strong></p>
+<p>Codes that have been given a CC, MCC, or HAC designation are not updating
+properly when the code itself is moved into a different position in 3M CRS or
+the Assigned codes pane. This has been corrected.</p>
+<h3 id="cactwo-5403-enhancement">CACTWO-5403 (Enhancement)</h3>
+<p><strong>Allow full column name to be displayed in Account and System Search</strong></p>
+<p>The Tools button in the Account and System Search pages will now display the
+full friendly name of the column when deployed.</p>
+<h3 id="cactwo-5404-important">CACTWO-5404 (Important)</h3>
+<p><strong>Slow loading of Dashboard if more than 5000 accounts per workgroup</strong></p>
+<p>A new message will show to alert the user if there are more than 5000
+accounts per workgroup in the dashboard. The limit of 5000 has been placed
+to prevent lockups.</p>
+<h3 id="cactwo-5406-enhancement">CACTWO-5406 (Enhancement)</h3>
+<p><strong>Remove ROM/SOI from Pre-DRG in queries</strong></p>
+<p>ROM/SOI will no longer show when the MS-DRG is grouped and APR is the
+secondary grouper within a physician query.</p>
+<h3 id="cactwo-5407-enhancement">CACTWO-5407 (Enhancement)</h3>
+<p><strong>Coder DRG Summary report has been created</strong></p>
+<p>A new user report called Coder DRG Summary report has been created.
+Accounts must be discharged and submitted to appear in this report. This
+report will show the breakdown per coder MS-DRG to show the total visits per
+DRG.</p>
+<h3 id="cactwo-5408-important">CACTWO-5408 (Important)</h3>
+<p><strong>Cannot reassign codes in Edit All Codes page</strong></p>
+<p>With the Edit All Codes page open, changing a Secondary diagnosis to Principal
+changes the codes. But, if the user then tried to change the former Principal
+back to Principal, that option was not in the codes select dropdown. This has
+been corrected.</p>
+<h3 id="cactwo-5413-important">CACTWO-5413 (Important)</h3>
+<p><strong>Allow 3M CRS to stay open past timeout</strong></p>
+<p>For sites with the 3M CRS encoder, the timeout will now be advanced by 4
+hours when using 3M CRS as the encoder. If 3M is open, the timeout will be
+held for 4 hours before activating.
+For 3M CRS users only</p>
+<h3 id="cactwo-5414-enhancement">CACTWO-5414 (Enhancement)</h3>
+<p><strong>Disallow coders from changing charge physician</strong></p>
+<p>Coders can now be prevented from changing the physician on a charge.
+Please contact Support to enable this feature</p>
+<h3 id="cactwo-5416-enhancement">CACTWO-5416 (Enhancement)</h3>
+<p><strong>Allow Scheduled Reports to generate blank report for emails</strong></p>
+<p>In a previous release there was a feature that if an account search yielded no
+results, it would prevent a report from being generated. This feature is turned
+off by default. The system will not generate an email with blank results until
+it is enabled.
+Please contact Support to enable this feature</p>
+<h3 id="cactwo-5418-enhancement">CACTWO-5418 (Enhancement)</h3>
+<p><strong>Show full assigned username in Code Summary</strong></p>
+<p>The default Code Summary will now show the full username with the ID in
+parenthesis if an account is assigned to a user rather than a workgroup.</p>
+<h3 id="cactwo-5419-cactwo-5421-important">CACTWO-5419 CACTWO-5421 (Important)</h3>
+<p><strong>Edit Pending Reason link missing in Workflow Management</strong></p>
+<p>When copying criteria from workflow management that has a Pending
+Reason, the copy is not showing the Edit Pending Reason link at the end of the
+criteria line. This has been corrected. If the workgroup is copied and another
+criterion is added to the Pending Reason criteria group, it was copying down
+that reason instead of showing a blank for whatever criteria was chosen. This
+is now corrected.</p>
+<h3 id="cactwo-5422-important">CACTWO-5422 (Important)</h3>
+<p><strong>Account Search not paging properly</strong></p>
+<p>If a filter in Account Search uses a computed field (such as Age), then the
+numbering of accounts per page did not show correctly. This has been
+corrected.</p>
+<h3 id="cactwo-5424-important">CACTWO-5424 (Important)</h3>
+<p><strong>Save Last Saver if Auditor saves/submits an account</strong></p>
+<p>Currently, an Auditor will only show as last saver if there has been a
+saver/submitter before. It did not show as a first saver. This has been
+corrected so that no matter what, the auditor’s name will show if last saved.</p>
+<h3 id="cactwo-5427-important">CACTWO-5427 (Important)</h3>
+<p><strong>Alert user to not close browser when logging out to save an account</strong></p>
+<p>If the user is in an account, clicks on the Log Out menu option, and chooses
+&ldquo;Save the account,&rdquo; the user needs to be notified not to close the browser
+until the save is completed. There is no visual indicator to indicate that a save
+is in progress if the save takes a few seconds. Closing the browser early could
+prevent the account from saving completely.</p>
+<h3 id="cactwo-5437-important">CACTWO-5437 (Important)</h3>
+<p><strong>Engine Results by CDI is not filtering correctly</strong></p>
+<p>When adding Users to the Users field in the Engine Outcome per CDI report,
+the results were not the same as if you ran the report without filtering to
+specific user. This has been corrected so that the user filter looks at the same
+columns a non-filtered report does.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1728672923" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1728672923" defer></script>
+    <script src="/js/theme.js?1728672923" defer></script>
+  </body>
+</html>

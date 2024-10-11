@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapping Configuration :: Fusion CAC Documentation</title>
+    <link>https://example.org/administrative-user-guide/mapping-configuration/index.html</link>
+    <description>This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.&#xA;A new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/administrative-user-guide/mapping-configuration/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
