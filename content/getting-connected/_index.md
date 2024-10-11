@@ -107,45 +107,45 @@ to the "Fusion CAC" entry in your authenticator application.
 ## Section Quiz: Test Your CAC Knowledge!
 
 {{< quizdown >}}
-  ---
-  primaryColor: steelblue
-  shuffleQuestions: false
-  shuffleAnswers: true
-  ---
+---
+primaryColor: steelblue
+shuffleQuestions: false
+shuffleAnswers: true
+---
 
 
-  ### How do you launch the Fusion CAC Application?
+### How do you launch the Fusion CAC Application?
 
-  > Remember that Fusion CAC is a **browser-based application**
+> Remember that Fusion CAC is a **browser-based application**
 
-  1. [x] By entering the URL into a supported web browser
-  1. [ ] From the start menu
-  1. [ ] By clicking an icon on your phone
-  1. [ ] By downloading it from your web browser
-
-
-  ### Which browsers are supported by Fusion CAC?
-
-  > Fusion CAC supports three modern browsers
-
-  - [x] Google Chrome
-  - [x] Mozilla Firefox
-  - [x] Microsoft Edge
-  - [ ] Apple Safari
-    > Safari is generally only used on iPhones and Apple computers
-  - [ ] Microsoft Internet Explorer
-    > Internet Explore has reached end-of-life with Microsoft support
+1. [x] By clicking an icon on your desktop or entering the URL into a supported web browser
+1. [ ] From the start menu
+1. [ ] By clicking an icon on your phone
+1. [ ] By downloading it from your web browser
 
 
-  ### How do you know if two-factor authentication is enabled? (Check all that apply)
+### Which browsers are supported by Fusion CAC?
 
-  > There are exactly two correct answers
+> Fusion CAC supports three modern browsers
 
-  - [x] Your supervisor will tell you
-  - [x] You will be presented with a QR code after logging in
-  - [ ] You clicked the "Two-Factor" checkbox on the login screen
-    > There is no such checkbox
-  - [ ] There will be a lock next to the url in the browser address bar
-    > The lock only notifies you that Fusion CAC uses SSL to encrypt browser communication
+- [x] Google Chrome
+- [x] Mozilla Firefox
+- [x] Microsoft Edge
+- [ ] Apple Safari
+  > Safari is generally only used on iPhones and Apple computers
+- [ ] Microsoft Internet Explorer
+  > Internet Explore has reached end-of-life with Microsoft support
+
+
+### How do you know if two-factor authentication is enabled? (Check all that apply)
+
+> There are exactly two correct answers
+
+- [x] Your supervisor will tell you
+- [x] You will be presented with a QR code after logging in
+- [ ] You clicked the "Two-Factor" checkbox on the login screen
+  > There is no such checkbox
+- [ ] There will be a lock next to the url in the browser address bar
+  > The lock only notifies you that Fusion CAC uses SSL to encrypt browser communication
 
 {{< /quizdown >}}
