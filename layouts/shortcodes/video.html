@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center">
   <video controls style="width: 80%">
-    <source src="/videos/{{ .Get 0 }}">
+    <source src="{{ absURL "videos/"}}{{ .Get 0 }}">
   </video>
 </div>
