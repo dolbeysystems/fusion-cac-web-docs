@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://dolbeysystems.github.io/fusion-cac-web-docs/'
 languageCode = 'en-us'
 title = 'Fusion CAC Documentation'
 theme = 'relearn'
