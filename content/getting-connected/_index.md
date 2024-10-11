@@ -113,6 +113,7 @@ to the "Fusion CAC" entry in your authenticator application.
   shuffleAnswers: true
   ---
 
+
   ### How do you launch the Fusion CAC Application?
 
   > Remember that Fusion CAC is a **browser-based application**
@@ -121,6 +122,7 @@ to the "Fusion CAC" entry in your authenticator application.
   1. [ ] From the start menu
   1. [ ] By clicking an icon on your phone
   1. [ ] By downloading it from your web browser
+
 
   ### Which browsers are supported by Fusion CAC?
 
@@ -133,6 +135,7 @@ to the "Fusion CAC" entry in your authenticator application.
     > Safari is generally only used on iPhones and Apple computers
   - [ ] Microsoft Internet Explorer
     > Internet Explore has reached end-of-life with Microsoft support
+
 
   ### How do you know if two-factor authentication is enabled? (Check all that apply)
 
