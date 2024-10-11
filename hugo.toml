@@ -1,4 +1,5 @@
 baseURL = 'https://dolbeysystems.github.io/fusion-cac-web-docs/'
+relativeURLs = false
 languageCode = 'en-us'
 title = 'Fusion CAC Documentation'
 theme = 'relearn'
