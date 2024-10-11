@@ -2,142 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Administrative User Guide :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/</link>
     <description>This guide reviews the application from the perspective of an administrator.&#xA;Account Search Calendar View Dashboard User Reports Scheduled Reports Code Set Management User Management Workflow Management Role Management Validation Management Er Em Configuration Page Grid Column Configuration Chat Room Mapping Configuration Form Designer Shortcut Configuration Help Menu Inactivity Timeout Tuning</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Account Search</title>
-      <link>https://example.org/administrative-user-guide/account-search/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/account-search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/account-search/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/account-search/</guid>
       <description>Account Search is helpful for reporting when creating a report that is not in the default user reports. Account Search allows you to search most data points to export the raw data into a CSV file. To begin creating an account search, think about what you want to gain for the data. A few examples:&#xA;How many inpatient charts were discharged last month with a principal diagnosis of sepsis? What charts that were discharged have pending reasons? Of the inpatient types discharged last month and coded, what is the total of each CC and MCCs? To do any of the above you will need to filter the data because the account search can pull all chart data available in the system. Start by clicking on ‘Add Criteria’ and select the fields to constrain the data. Looking for submitted data? Use Stage = Submitted Looking for data discharged from last month? Click on edit next to admit datetime and change to discharge date is last month. Continue to constrain the data based upon what you are looking for. There are about 100+ fields that you can use to constrain the data. Each site will have their own custom fields, depending on how the system was configured.</description>
     </item>
     <item>
       <title>Calendar View</title>
-      <link>https://example.org/administrative-user-guide/calendar-view/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/calendar-view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/calendar-view/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/calendar-view/</guid>
       <description>The calendar view will show which users touched charts today and the actions they took. Upon first logging on you will be presented with a calendar view which by default shows the current calendar week.&#xA;To view the entire calendar month or choose a date range use the control keys at the top of the calendar.</description>
     </item>
     <item>
       <title>Dashboard</title>
-      <link>https://example.org/administrative-user-guide/dashboard/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/dashboard/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/</guid>
       <description>A user with administrative rights is now provided with overviews of Coder and CDI activity. The admin user can also select to look specifically at Coder or CDI information by selecting the appropriate dashboard button.&#xA;The dashboard is shown when you log in and after you login it can be access by clicking on the Fusion CAC/CDI in the top left corner of the application or my clicking on the reporting menu item and selecting dashboard. The software has 4 main dashboards with drill down data. These dashboards are separated by:</description>
     </item>
     <item>
       <title>User Reports</title>
-      <link>https://example.org/administrative-user-guide/user-reports/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/user-reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/user-reports/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/user-reports/</guid>
       <description>User reports are canned reports that are preformatted reports below each of the report is outlined with a brief description. If you are looking for data that is not in user reports, consider account search to create a custom search to export the raw data. User reports are meant to be run on-demand but, many of the user reports can also be scheduled to be run at date/time interval. Since scheduled reports are sent through email, no user reports that contain PHI is available therefore you will find the scheduled reports do not contain all 47 however, most are available.</description>
     </item>
     <item>
       <title>Scheduled Reports</title>
-      <link>https://example.org/administrative-user-guide/scheduled-reports/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/scheduled-reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/scheduled-reports/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/scheduled-reports/</guid>
       <description>Scheduled reporting enables you to: schedule a report to be delivered during a time window, repeat the report on a one-time, daily, weekly, or monthly basis, and email the report to the user who needs to see the report. Note that not all reports can be scheduled. Review the table of default reports to see if the one you wish to schedule is available for this feature. There are two sections in scheduled reports ones for Built-in reports from the user reports section and those that are scheduled account search filters.</description>
     </item>
     <item>
       <title>Code Set Management</title>
-      <link>https://example.org/administrative-user-guide/code-set-management/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/code-set-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/code-set-management/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/code-set-management/</guid>
       <description>Code sets are groups of codes that users can save that they commonly use or are difficult to code. Codes sets can be saved by topic to provide a quick code assignment. Code sets can be created at a management level to push out to coders and/or users can create their own.&#xA;Coding Standard Changes / Expirations Code sets need to be regularly reviewed and updated by administrators to account for changes and expirations in the ICD/CPT coding standards.</description>
     </item>
     <item>
       <title>User Management</title>
-      <link>https://example.org/administrative-user-guide/user-management/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/user-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/user-management/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/user-management/</guid>
       <description>This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.&#xA;User Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.</description>
     </item>
     <item>
       <title>Workflow Management</title>
-      <link>https://example.org/administrative-user-guide/workflow-management/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/workflow-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/workflow-management/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/workflow-management/</guid>
       <description>The workflow management editor is a tool that allows users to create, design, modify, and manage workflows. A workflow is a series of tasks or activities that need to be completed in a specific order to achieve a desired outcome.&#xA;What is the purpose of workflow? The purpose of a workflow is to systematically organize and streamline the patient chart activities for proper completion. Workflows are designed to improve efficiency, productivity, and collaboration between CDI, Coding, Quality and Auditing by defining the sequence of steps, assigning responsibilities, and establishing the flow of information between different individuals or departments involved in the process.</description>
     </item>
     <item>
       <title>Role Management</title>
-      <link>https://example.org/administrative-user-guide/role-management/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/role-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/role-management/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/role-management/</guid>
       <description>This allows you to create custom user roles that can access certain privileges of Fusion CAC by checking or unchecking the box next to each of the privileges. When first viewed, Role Management will already have default privileges for each role checked for backwards compatibility. This allows management to create new roles. Even though the user can have more privileges, they will still maintain a current role of either coder or CDI which controls what assigned code tree and fields need completed upon their actions within the software.</description>
     </item>
     <item>
       <title>Validation Management</title>
-      <link>https://example.org/administrative-user-guide/validation-management/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/validation-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/validation-management/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/validation-management/</guid>
       <description>Validation management is a rule editor that is permission based and can be found under the Tools menu.&#xA;Validation rules allow the admin staff to create rules that show up on the code summary page to prevent users from submitting a patient chart or provide a warning to simply warn the user that something may need to be completed instead of preventing submission.&#xA;From the front end of the software, you can create simple rules such as:</description>
     </item>
     <item>
       <title>Er Em Configuration Page</title>
-      <link>https://example.org/administrative-user-guide/er-em-configuration-page/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/er-em-configuration-page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/er-em-configuration-page/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/er-em-configuration-page/</guid>
       <description>The E/M Configuration page must be set up by the Dolbey Team therefore the below is to show you what is within this page. If you need more information on the set up of this page, please contact the SME Team (smeteam@dolbey.com).&#xA;The ER E/M Configuration can be found within the Tools menu. If enabled, you will see it beneath the Validation Management.</description>
     </item>
     <item>
       <title>Grid Column Configuration</title>
-      <link>https://example.org/administrative-user-guide/grid-column-configuration/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/grid-column-configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/grid-column-configuration/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/grid-column-configuration/</guid>
       <description>The “Grid Column Configuration” page is an administrative page used to identify the columns displayed in Account List, Account Search, Calendar Stats by Day, and Dashboard pages. You can identify which columns you want to display for each of the default user types including: coder, physician coder, single path, auditor and CDI.&#xA;All columns added in Grid Column Configuration appear in Account Search, and selected columns can be made visible in the other three pages.</description>
     </item>
     <item>
       <title>Chat Room</title>
-      <link>https://example.org/administrative-user-guide/chat-room/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/chat-room/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/chat-room/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/chat-room/</guid>
       <description>A chat room is available on most admin tools workflow, form designer, user management, validation management. This chat room allows users to communicate when they are working in the admin tools. The chat is only available on one of these admin tool pages while another user is also in one of these tools. The chat will reset upon log off.</description>
     </item>
     <item>
       <title>Mapping Configuration</title>
-      <link>https://example.org/administrative-user-guide/mapping-configuration/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/mapping-configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/mapping-configuration/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/mapping-configuration/</guid>
       <description>This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.&#xA;A new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.</description>
     </item>
     <item>
       <title>Form Designer</title>
-      <link>https://example.org/administrative-user-guide/form-designer/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/form-designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/form-designer/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/form-designer/</guid>
       <description>The form designer is used to create worksheets for CDI, Coders, Shared Worksheets, Physician Coder, Documentation Review Forms and Query templates.&#xA;A “Shared Worksheet” is a worksheet that can be used by both CDI Specialists and Coders, unlike “CDI Worksheet” and “Coder Worksheet” which are exclusive to CDI and Coding, respectively.&#xA;Forms are used to collect data and/or take notes. For example, CDI Worksheets are used for a CDI to document their thoughts while reviewing a chart.</description>
     </item>
     <item>
       <title>Shortcut Configuration</title>
-      <link>https://example.org/administrative-user-guide/shortcut-configuration/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/shortcut-configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/shortcut-configuration/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/shortcut-configuration/</guid>
       <description>Shortcut keys help provide an easier and usually quicker method of navigating and executing commands within the software.&#xA;Because some hotkeys may be mapped to a different software solution you are using, we allow you to configure ours. We provide defaults but feel free to change them as needed.&#xA;To record a new, simply press the record button on the line of the function you wish to configure. Enter in a button combination usually between 1-2 keys on the keyboard. For Example, ALT and F9 might submit the chart. We are a browser based application therefore you should not use the standard browser hot keys.</description>
     </item>
     <item>
       <title>Help Menu</title>
-      <link>https://example.org/administrative-user-guide/help-menu/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/help-menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/help-menu/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/help-menu/</guid>
       <description>The help menu can be found using the ? in the top right corner of the application. You will find a few resources under this menu. By clicking on the Fusion CAC/CDI Help you will find this user guide that you are viewing currently. You will also find how to reach out to our support and tuning resources in additional Keyboard short cuts.</description>
     </item>
     <item>
       <title>Inactivity Timeout</title>
-      <link>https://example.org/administrative-user-guide/inactivity-timeout/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/inactivity-timeout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/inactivity-timeout/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/inactivity-timeout/</guid>
       <description>Logins can be set to trigger an ‘inactivity reason’ via settings added to the Web.config file. With these settings, any user logging in after a certain period receives a pop-up window box which will ask them to select a reason they have been inactive and add any other notes they want to add. Inactivity Reasons are created in Mapping Configuration. This feature will help managers see where and why inactivity occurs during the workday.</description>
     </item>
     <item>
       <title>Tuning</title>
-      <link>https://example.org/administrative-user-guide/tuning/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/administrative-user-guide/tuning/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/</guid>
       <description>System Search System Search works similarly to Account Search. By creating filters, you can search for patient charts using different criteria. This System Search feature will also be used by the Tuning Team to identify targeted codes that need reviewed and possibly refined.&#xA;An example of a System Search would be all inpatient charts with a diagnosis of hypertension.&#xA;Is inpatient = True Diagnosis Code = In List = I10 # (you may want to include other hypertension codes such as I13.0, I13.9, I12.0, I12.9, etc.) When you select “refresh”, a list of all accounts that meet the criteria will be displayed. If this is a search that you will want to use more than once, you can Save the search, making it available in the drop-down box</description>
     </item>
   </channel>

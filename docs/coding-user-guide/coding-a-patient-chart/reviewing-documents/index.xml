@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reviewing Documents :: Fusion CAC Documentation</title>
-    <link>https://example.org/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/reviewing-documents/</link>
     <description>Documents presented in Fusion CAC should be reviewed to determine the specific reason for the encounter and the conditions treated. Codes can be validated through document review from the Documents Pane or code review from the Unassigned Codes pane. Codes can also be added manually via direct code entry or through use of an interfaced encoder.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inactivity Timeout :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/inactivity-timeout/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/inactivity-timeout/</link>
     <description>Logins can be set to trigger an ‘inactivity reason’ via settings added to the Web.config file. With these settings, any user logging in after a certain period receives a pop-up window box which will ask them to select a reason they have been inactive and add any other notes they want to add. Inactivity Reasons are created in Mapping Configuration. This feature will help managers see where and why inactivity occurs during the workday.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/inactivity-timeout/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/inactivity-timeout/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

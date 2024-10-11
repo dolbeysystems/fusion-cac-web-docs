@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Suggested DRG Viewer :: Fusion CAC Documentation</title>
-    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/</link>
     <description>Fusion CAC suggests a DRG on inpatient charts. This Suggested DRG is computed by the system within a set interval (typically every six hours of the patient’s admission provided there is enough documentation to suggest codes used to compute a DRG).&#xA;The Suggested DRG is then re-calculated every six hours until discharge or a CDI Specialist or Coder computes a DRG. At that time the Suggested DRG is discontinued. The Suggested DRG along with other data elements are not commonly used within Fusion CAC, rather this data is sent outbound to be used by other healthcare professionals ,such as physicians and case managers, to predict the number of days that the insurance (payor) will pay for the patient to stay within the hospital based upon the current diagnosis of the patient. The common data element used by case management and physicians is called the GMLOS (Geometric Means Length of Stay).</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

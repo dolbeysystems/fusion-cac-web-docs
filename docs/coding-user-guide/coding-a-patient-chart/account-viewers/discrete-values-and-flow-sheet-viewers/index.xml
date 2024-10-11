@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discrete Values and Flow Sheet Viewers :: Fusion CAC Documentation</title>
-    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/</link>
     <description>This Viewer is Optional This an optional feature and may not be configured for your site or supported by your EMR vendor. The discrete values show trending data or data that has values. The most common examples of discrete values are lab values and vital signs.&#xA;Once you have clicked on Discrete Values or the Flow Sheet Viewer from the navigation tree you will be presented with one of the two views depending on your desired configuration during the project.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Physicians and Queries :: Fusion CAC Documentation</title>
-    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/</link>
     <description>Within this page you can add physicians and change the staff function. if it is not correct.&#xA;Adding &amp; Editing Physicians The bottom portion, ‘Account Physicians’, is pre-populated by your registration system. Physicians can be added, changed, or removed if incorrect or missing. To add a physician, click on the ‘Add Physician’ button and begin typing in the physician’s last name to populate a list to choose from, then click add. Choose the staff function that fits the physician you choose. If it is a consulting physician enter in the consultation date.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>V2.26 :: Fusion CAC Documentation</title>
-    <link>https://example.org/release-notes/v2.26/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/release-notes/v2.26/</link>
     <description>V2.26.8297 Released 09/09/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized &#34;Change Type&#34;, indicating the severity or importance of the change. The severities used are:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/release-notes/v2.26/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/release-notes/v2.26/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

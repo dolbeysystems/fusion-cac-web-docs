@@ -2,128 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Account Viewers :: Fusion CAC Documentation</title>
-    <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/</link>
     <description>Account Viewers are located under the “Navigation” header, and give different views/information on the loaded account that are not contained in documents.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Summary</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/</guid>
       <description>The Code Summary screen shows a summary of activity on the account and provides activity buttons to Claim Ownership, Show History, and Print Abstract (if a printer is configured).&#xA;This pane also provides information on Current Owner, First Coder, Last Saver, and Last Submitter.&#xA;You can expand the width of the Code Summary pane by clicking on the right-arrow in the top right of the pane.</description>
     </item>
     <item>
       <title>Patient Info</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/</guid>
       <description>The Patient Info pane summarizes patient demographic information (based on system configuration) with data captured for purposes of state and/or registry reporting.&#xA;You can expand the width of the Code Summary pane by clicking on the right arrow in the top right corner of the pane. To update data fields in the Patient Info pane, click on the blue button and select the appropriate selection from the drop-down menu.</description>
     </item>
     <item>
       <title>Notes and Bookmarks</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/</guid>
       <description>The Notes &amp; Bookmarks becomes visible in the center pane after clicking on the hyperlink from the Navigation Pane. This pane presents a summary and chronological history of all notes and bookmarks added to this account.&#xA;Add Note Notes can be added to the patient chart by clicking on the Add Note button within the Notes &amp; Bookmarks Pane.&#xA;When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the Navigation pane will turn red.</description>
     </item>
     <item>
       <title>Physicians and Queries</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/</guid>
       <description>Within this page you can add physicians and change the staff function. if it is not correct.&#xA;Adding &amp; Editing Physicians The bottom portion, ‘Account Physicians’, is pre-populated by your registration system. Physicians can be added, changed, or removed if incorrect or missing. To add a physician, click on the ‘Add Physician’ button and begin typing in the physician’s last name to populate a list to choose from, then click add. Choose the staff function that fits the physician you choose. If it is a consulting physician enter in the consultation date.</description>
     </item>
     <item>
       <title>Physician Coding Summary</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/</guid>
       <description>The physician code summary will display if the physician coders are also coding within Fusion CAC, and they submit the chart. This provides transparency between the facility and physician coding teams as to what was coded.&#xA;By clicking on the header, it will expand the selection so you can see the codes that were coded. If you see any codes with a plus (+) sign it means that you have not added this code to the account. The plus (+) sign does not indicate that you need to add this code, it just allows you to quickly add the code if you have determined you want to use this code using your coding judgment and supporting documentation.</description>
     </item>
     <item>
       <title>Final Coding Summary</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/</guid>
       <description>The code summary will display if the facility coders submit the chart. This provides transparency between CDI and your physician coding teams if they are using Fusion CAC as to what was coded.&#xA;By clicking on the header, it will expand the selection so you can see the codes and DRG/APC if applicable. If you see any codes with a plus (+) sign it means that you have not added this code to the account. The plus (+) sign does not indicate that you need to add this code it just allows you to quickly add the code if you have determined you want to use this code using your coding judgment and supporting documentation.</description>
     </item>
     <item>
       <title>Working CDI History</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/</guid>
       <description>The working CDI History can be used to look at historical working DRG calculations. The coders cannot edit this information, but they can review the data.&#xA;The first calculated DRG will assume the Baseline DRG role, which is used to calculate the CDI impact on a chart. If you wish to change the Baseline DRG, you can click the “Set Baseline DRG” button.&#xA;Adding an Alternative Working DRG You can also indicate which Working DRGs are an alternative DRG for reconciliation. By checking the box next to each DRG, you are approving it as an alternative DRG to auto-reconcile the chart. You can manually add an additional DRG if it does not appear in the list.</description>
     </item>
     <item>
       <title>Suggested DRG Viewer</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/</guid>
       <description>Fusion CAC suggests a DRG on inpatient charts. This Suggested DRG is computed by the system within a set interval (typically every six hours of the patient’s admission provided there is enough documentation to suggest codes used to compute a DRG).&#xA;The Suggested DRG is then re-calculated every six hours until discharge or a CDI Specialist or Coder computes a DRG. At that time the Suggested DRG is discontinued. The Suggested DRG along with other data elements are not commonly used within Fusion CAC, rather this data is sent outbound to be used by other healthcare professionals ,such as physicians and case managers, to predict the number of days that the insurance (payor) will pay for the patient to stay within the hospital based upon the current diagnosis of the patient. The common data element used by case management and physicians is called the GMLOS (Geometric Means Length of Stay).</description>
     </item>
     <item>
       <title>Discrete Values and Flow Sheet Viewers</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/</guid>
       <description>This Viewer is Optional This an optional feature and may not be configured for your site or supported by your EMR vendor. The discrete values show trending data or data that has values. The most common examples of discrete values are lab values and vital signs.&#xA;Once you have clicked on Discrete Values or the Flow Sheet Viewer from the navigation tree you will be presented with one of the two views depending on your desired configuration during the project.</description>
     </item>
     <item>
       <title>Charges/Transactions Viewer</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/</guid>
       <description>If an interface for account charges is set up during configuration, the Charges screen shows a listing of charges on the account and provides activity buttons to Save Layout or Expand the Charges or transactions pane.&#xA;You can expand the width of the Charges or transactions pane to view more available columns by clicking on the in the top right corner of the pane.</description>
     </item>
     <item>
       <title>Medications Viewers</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/</guid>
       <description>A Medication Administration Record (MAR, or eMAR for electronic versions), commonly referred to as a drug chart, is the report that serves as a legal record of the drugs administered to a patient at a facility by a health care professional. The MAR is a part of a patient’s permanent record on their medical chart. The health care professional signs off on the record at the time that the drug or device is administered. Common information collected such as</description>
     </item>
     <item>
       <title>DRG Reconciliation Viewer</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/</guid>
       <description>The DRG Reconciliation viewer displays the differences between the last known working DRG and the final DRG coded by a coder, with symbols indicating the discrepancies. The viewer updates in real time and does not store historical information. If the coder updates the DRG, the changes will reflect immediately in the DRG Reconciliation viewer. For historical data, please refer to reports</description>
     </item>
     <item>
       <title>30 Day Readmit</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/</guid>
       <description>If the patient has been readmitted within 30 days of the admit date, the patient demographic data will display below from the previous stay. If the previous stay was also coded, you will see the code summary display below.&#xA;If a check mark appears next to the code, this indicates the code on the previous stay was also suggested for the current stay.</description>
     </item>
     <item>
       <title>Previous HCC Overview</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/</guid>
       <description>The previous HCC overview will display the HCC history to show for both the current and prior year. HCCs will be collected once the HCCs has been enabled in the mapping table. It is recommended to turn HCCs on for all patient types to capture a more complete picture of HCCs. As a reminder, this will not capture data prior to turning this feature on in the mapping table. (In mappings, under the Categories mapping, there is a check box.) When HCCs are enabled, these will display below grouped by HCC category and by code — showing the account number and MRN # for the visits each were associated to.</description>
     </item>
     <item>
       <title>Transfer Codes From Previous Encounter Viewer</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/</guid>
       <description>Transfer codes can be used to help combine account codes into one encounter. Most sites leverage the ADT to combine the actual account, however, you may need to copy codes from one encounter to another.&#xA;If a patient has two different accounts and the coder has already done work on each of the accounts, the Transfer Codes feature can be an easy way to post codes when you’re within one account and want to search in another account, and have the ability to open that other account and see the codes. To transfer codes, type in the account number, then click load account. Once you have loaded the account, use the check boxes to the left of the codes to choose which codes you will transfer. Once you have finished that, select “Transfer Codes” and the codes you selected will be added to the “assigned code” tree that is on the current account.</description>
     </item>
     <item>
       <title>Denial Management Viewer</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/</guid>
       <description>Denial management tracking involves monitoring cases where a patient’s submitted billing chart is rejected by the payer. Various reasons, such as medical necessity, code, or DRG assignment, could lead to these denials. This tool is designed to comprehensively record the specifics related to denial management and tracking. It is capable of documenting multiple denials for each chart, with the ability to log and categorize them for the purpose of tracking, managing workflows, and generating reports.</description>
     </item>
     <item>
       <title>ER E/M Viewer</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/</guid>
       <description>The ER E/M Viewer is an add-on module for any chart with a “Is Emergency” flag within the account properties. If you do not have this module, today contact the SME Team (smeteam@dolbey.com) for more information.&#xA;If this module is turned on on any “Is Emergency” chart you find the “E/M Coding Worksheet” in the Navigation menu.&#xA;To begin ER charging click on the “E/M Coding Worksheet” in the Navigation menu.</description>
     </item>
   </channel>

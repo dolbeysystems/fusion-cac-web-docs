@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Reports :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/user-reports/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/user-reports/</link>
     <description>User reports are canned reports that are preformatted reports below each of the report is outlined with a brief description. If you are looking for data that is not in user reports, consider account search to create a custom search to export the raw data. User reports are meant to be run on-demand but, many of the user reports can also be scheduled to be run at date/time interval. Since scheduled reports are sent through email, no user reports that contain PHI is available therefore you will find the scheduled reports do not contain all 47 however, most are available.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/user-reports/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/user-reports/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

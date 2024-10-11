@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Definitions :: Fusion CAC Documentation</title>
-    <link>https://example.org/definitions/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/definitions/</link>
     <description>Admit Reason This is the reason that registration has typed in; this is not the admit reason set by the coder. That information is displayed in the Admit Dx Code field.&#xA;Category A category is a ‘Dolbey’ created field that is used to further specify a patient type, if applicable. At some sites, category might equal patient type while others may have a category that is comprised of multiple fields to create that category. For example, if you would like to report on how many charts a coder completed for inpatient and then define them by LOS, you then have a category to define the difference between LOS patient types or service lines.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/definitions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/definitions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding User Guide :: Fusion CAC Documentation</title>
-    <link>https://example.org/coding-user-guide/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/</link>
     <description>This guide explains the Fusion CAC Web application from the perspective of a coder.&#xA;Account List Coding a Patient Chart Loading Accounts Reviewing Documents Managing Codes Computing a Drg Account Screen Account Viewers Code Summary Patient Info Notes and Bookmarks Physicians and Queries Physician Coding Summary Final Coding Summary Working CDI History Suggested DRG Viewer Discrete Values and Flow Sheet Viewers Charges/Transactions Viewer Medications Viewers DRG Reconciliation Viewer 30 Day Readmit Previous HCC Overview Transfer Codes From Previous Encounter Viewer Denial Management Viewer ER E/M Viewer Document Tree Code Panels Exiting an Account</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/coding-user-guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Account List</title>
-      <link>https://example.org/coding-user-guide/account-list/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/account-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/account-list/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/account-list/</guid>
       <description>Accessing your Workgroups A Workgroup is a list of work that needs to be completed by you or someone else who is assigned to the workgroup. Workgroups are set up by your administrator and are usually broken down by patient type or hospital service.&#xA;To access your Workgroups, start by clicking on the down arrow to the right of the Assigned to button to view a list of your assigned workgroups.</description>
     </item>
     <item>
       <title>Coding a Patient Chart</title>
-      <link>https://example.org/coding-user-guide/coding-a-patient-chart/index.html</link>
+      <link>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/coding-user-guide/coding-a-patient-chart/index.html</guid>
+      <guid>https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/</guid>
       <description>Loading Accounts Reviewing Documents Managing Codes Computing a Drg Account Screen Account Viewers Code Summary Patient Info Notes and Bookmarks Physicians and Queries Physician Coding Summary Final Coding Summary Working CDI History Suggested DRG Viewer Discrete Values and Flow Sheet Viewers Charges/Transactions Viewer Medications Viewers DRG Reconciliation Viewer 30 Day Readmit Previous HCC Overview Transfer Codes From Previous Encounter Viewer Denial Management Viewer ER E/M Viewer Document Tree Code Panels Exiting an Account</description>
     </item>
   </channel>

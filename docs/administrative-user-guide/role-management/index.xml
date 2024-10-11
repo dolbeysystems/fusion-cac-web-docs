@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Role Management :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/role-management/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/role-management/</link>
     <description>This allows you to create custom user roles that can access certain privileges of Fusion CAC by checking or unchecking the box next to each of the privileges. When first viewed, Role Management will already have default privileges for each role checked for backwards compatibility. This allows management to create new roles. Even though the user can have more privileges, they will still maintain a current role of either coder or CDI which controls what assigned code tree and fields need completed upon their actions within the software.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/role-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/role-management/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

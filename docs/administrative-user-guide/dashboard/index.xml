@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dashboard :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/dashboard/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/</link>
     <description>A user with administrative rights is now provided with overviews of Coder and CDI activity. The admin user can also select to look specifically at Coder or CDI information by selecting the appropriate dashboard button.&#xA;The dashboard is shown when you log in and after you login it can be access by clicking on the Fusion CAC/CDI in the top left corner of the application or my clicking on the reporting menu item and selecting dashboard. The software has 4 main dashboards with drill down data. These dashboards are separated by:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

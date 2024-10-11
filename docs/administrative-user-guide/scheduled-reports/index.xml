@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scheduled Reports :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/scheduled-reports/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/scheduled-reports/</link>
     <description>Scheduled reporting enables you to: schedule a report to be delivered during a time window, repeat the report on a one-time, daily, weekly, or monthly basis, and email the report to the user who needs to see the report. Note that not all reports can be scheduled. Review the table of default reports to see if the one you wish to schedule is available for this feature. There are two sections in scheduled reports ones for Built-in reports from the user reports section and those that are scheduled account search filters.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/scheduled-reports/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/scheduled-reports/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

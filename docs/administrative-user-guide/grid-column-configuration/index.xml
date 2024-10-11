@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grid Column Configuration :: Fusion CAC Documentation</title>
-    <link>https://example.org/administrative-user-guide/grid-column-configuration/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/grid-column-configuration/</link>
     <description>The “Grid Column Configuration” page is an administrative page used to identify the columns displayed in Account List, Account Search, Calendar Stats by Day, and Dashboard pages. You can identify which columns you want to display for each of the default user types including: coder, physician coder, single path, auditor and CDI.&#xA;All columns added in Grid Column Configuration appear in Account Search, and selected columns can be made visible in the other three pages.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/administrative-user-guide/grid-column-configuration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/grid-column-configuration/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

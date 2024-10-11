@@ -5,7 +5,7 @@ var relearn_search_index = [
     "description": "Accessing your Workgroups A Workgroup is a list of work that needs to be completed by you or someone else who is assigned to the workgroup. Workgroups are set up by your administrator and are usually broken down by patient type or hospital service.\nTo access your Workgroups, start by clicking on the down arrow to the right of the Assigned to button to view a list of your assigned workgroups.",
     "tags": [],
     "title": "Account List",
-    "uri": "/coding-user-guide/account-list/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/account-list/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -13,7 +13,7 @@ var relearn_search_index = [
     "description": "Account Search is helpful for reporting when creating a report that is not in the default user reports. Account Search allows you to search most data points to export the raw data into a CSV file. To begin creating an account search, think about what you want to gain for the data. A few examples:\nHow many inpatient charts were discharged last month with a principal diagnosis of sepsis? What charts that were discharged have pending reasons? Of the inpatient types discharged last month and coded, what is the total of each CC and MCCs? To do any of the above you will need to filter the data because the account search can pull all chart data available in the system. Start by clicking on ‘Add Criteria’ and select the fields to constrain the data. Looking for submitted data? Use Stage = Submitted Looking for data discharged from last month? Click on edit next to admit datetime and change to discharge date is last month. Continue to constrain the data based upon what you are looking for. There are about 100+ fields that you can use to constrain the data. Each site will have their own custom fields, depending on how the system was configured.",
     "tags": [],
     "title": "Account Search",
-    "uri": "/administrative-user-guide/account-search/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/account-search/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Auditor User Guide",
@@ -21,7 +21,7 @@ var relearn_search_index = [
     "description": "The audit module introduces a new role of an auditor. The role of an “Auditor” has the same privileges as a “Coder” when it comes to account editing. In fact, an auditor is editing the final codes. If an auditor or coder submits the account with an open audit, the audit will automatically be closed. The auditor can route an account directly to the coder that last submitted (which triggers a save and close), and the coder can rebut and route an account back to the audit (which also triggers a save and close).",
     "tags": [],
     "title": "Auditor Role",
-    "uri": "/auditor-user-guide/auditor-role/index.html"
+    "uri": "/fusion-cac-web-docs/auditor-user-guide/auditor-role/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -29,7 +29,7 @@ var relearn_search_index = [
     "description": "There are 3 different types of reviews:\nInitial Follow-up Reconciliation Initial Review An initial review is a new case in terms of ‘CDI’ and is referred to as a case that has never been reviewed by CDI. A CDI review for inpatient charts must have a working DRG associated to be considered reviewed. If there is no DRG then the patient is considered new.\nWhen a CDI Specialist creates a Baseline DRG (the first Working DRG), then edits the account further causing the Working DRG to be cleared, and then saves the account without computing a new Working DRG, the creation of the Baseline DRG also counts as an initial review.",
     "tags": [],
     "title": "Chart Reviews",
-    "uri": "/cds-user-guide/chart-reviews/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/chart-reviews/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -37,7 +37,7 @@ var relearn_search_index = [
     "description": "The Code Summary screen shows a summary of activity on the account and provides activity buttons to Claim Ownership, Show History, and Print Abstract (if a printer is configured).\nThis pane also provides information on Current Owner, First Coder, Last Saver, and Last Submitter.\nYou can expand the width of the Code Summary pane by clicking on the right-arrow in the top right of the pane.",
     "tags": [],
     "title": "Code Summary",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/code-summary/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -45,7 +45,7 @@ var relearn_search_index = [
     "description": "Assigned Accounts Grid Column Settings Each column within the Assigned Accounts Grid has menu options to pin, auto size, and reset columns as well as a Tool Panel to select which columns you want displayed in your view of the assigned accounts grid.\nClick on the Menu icon to view the drop-down listing.",
     "tags": [],
     "title": "Loading Accounts",
-    "uri": "/coding-user-guide/coding-a-patient-chart/loading-accounts/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/loading-accounts/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -53,7 +53,7 @@ var relearn_search_index = [
     "description": "The following table contains a list of all standard fields available.\nDisplay Name Field Description Abstract Patient Class This is the abstraction Patient Class for the patient chart. Account Number This is the account number for the patient chart. Account Status This is the account status for the patient chart. Active Matched Criteria Groups This is the total number of active criteria groups on a patient chart. Added to Images This is how many total codes were added to an image document. Admit Date This is the admit date of the patient. Even though the field is named admit date time it only displays the date. Admit Date w/ Time Computed to display the patient’s admit date with the admit time Admit Diagnosis Codes This is the admit diagnosis code of the patient chart. Admit Reason This is the admit reason which comes from ADT. Admit Source This is the admit source of the patient chart. Admit Type This is the admit type on the patient chart. Admitting Physician Computed to display the first physician name with a role of Admitting. Admitting Physician ID Computed to display the first physician ID with a role of Admitting. Age in Years Computed to display the patient’s age in years. Assigned CPT Code This is used to search for a chart with an assigned CPT code. Assigned Diagnosis Code This is used to search for a chart with an assigned diagnosis code. Assigned POA Assigned Procedure Codes This is used to search for a chart with an assigned procedure (PCS) code. Assigned Visit Reason Codes This is used to search for a chart with an assigned visit reason code. Attending Physician Computed to display the first physician name with a role of Attending Attending Physician ID Computed to display the first physician ID with a role of Attending AutoClose Date/Time This is the date and time the patient chart was autoclosed. AutoClose Rejection Reason This is the reason why the patient chart was rejected from autoclose. Baseline Working APRDRG This is the Baseline APR-DRG. Baseline Working DRG This is the Baseline DRG. Baseline Working DRG Weight This is the Baseline DRG Weight. Baseline Working Estimated Reimbursement This is the Baseline DRG Estimated Reimbursement. Billing Countdown The billing countdown will tell you how many days left to bill the payor. In Mapping Configuration, if you add or edit a mapping for “Payor”, you see a new “Default Bill Days” field in the header and a new “Bill Days” column for each Payor. These fields contain numbers zero or higher or blank to indicate the number of days to add to the discharge date (current date is there is no discharge date) to calculate what is basically a billing due date. The billing date is compared to the current date (or the last submitted date if the account is already submitted) to compute the “Billing Countdown” – the number of days left to submit an account. If an account has no payor, no matching payor mapping, or payor mapping with no “bill days” defined, the “default bill days” is used (zero if “default bill days” is blank as well.) Bed This is the last known patients bed. Birth Weight (g) This is the patients birth weight in grams. This can be provided either through the ADT interface or manually entered by a coder. Building This is the last known patients building which is usually equal to the nursing unit or location. Campus This is the last known patient’s campus. Category This is a Dolbey created patient type to assist with reporting because often a patient type field needed to be joined with a location, hospital service or other fields to alter reporting for productivity categories join those fields to create custom patient types for easy productivity and DNFC reporting. Calculated Date/Time This field shows you the last time the encoder was last run, if it’s blank, the encoder needs to be run. This is so that in Account Search and workflow. This can help find an accounts that the user should have an APC, DRG or if you are reviewing to see if a coder clicked on the encode to run edits CDI Physician Queries Agreed This is the outcome of the query reporting by the CDI user closing the query. Agree commonly means that the physician provided the CDI with a valid diagnosis. CDI Physician Queries Cancelled Not accessible in Form Designer. You can customize these by adding a mapping table using this key PhysicianQueryCancelReasons this will overwrite the default cancel options. CDI Physician Queries Closed This is the total number of physician queries closed issued by a CDI user. CDI Physician Queries Disagreed This is the outcome of the query reporting by the CDI user closing the query. Disagree commonly means that the physician provided the CDI with a different result than expected. CDI Physician Queries No Opinion This is the outcome of the query reporting by the CDI user closing the query. No Opinion commonly means that the physician provided the CDI with a clinically insignificant diagnosis. CDI Physician Queries No Response This is the total number of physician queries closed by a CDI user due to no response from the physician. CDI Physician Queries Open This is the total number of physician queries still open issued by a CDI user. CDI Physician Queries Responded This is the total number of physician queries responded to by Physician for issued by a CDI user. CDI Physician Query Total This is the total number of physician queries issued by a CDI user regardless of if the query is open or closed. If a user was in an account that had an open physician query, and an external interface closed that query, the query total on the account is updated upon closing the account. Coding Ready End Date/Time This is a field used to identify the end date used for when a chart is completed by coding. Coding Ready Start Date/Time This is a field used to identify the start date used for when a chart is ready for coding. Days to First Submit This column will show the difference between the Discharge Date and the date the account was first submitted. This will also include the time along with the date, so the number will be shown as a decimal. Denial Billed DRG This is a field from the denial management viewer to display the billed DRG. Denial Code Change Needed This is a field from the denial management viewer to display if a code change is needed. Denial Coder Id This is a field from the denial management viewer to display the Coder Id that is to work the denial which could also be the coder of record. Denial Codes in Question This is a field from the denial management viewer to display the Code(s) in Question. Denial Complete This is a field from the denial management viewer to display if the denial is completed. Denial DRG Change Needed This is a field from the denial management viewer to display the if a DRG change is needed. Denial Final Appeal Date This is a field from the denial management viewer to display the Final Appeal Date. Denial First Appeal Date This is a field from the denial management viewer to display the First Appeal Date. Denial First Appeal Sent Date This is a field from the denial management viewer to display the First Appeal Sent Date. Denial HIMS Received Date This is a field from the denial management viewer to display the HIMS Received Date. Denial Manager Assigned Date This is a field from the denial management viewer to display the Manager Assigned Date. Denial Notification Letter Date This is a field from the denial management viewer to display the Notification Letter Date. Denial Outcome This is a field from the denial management viewer to display the Outcome of the Denial. Denial Payer DRG This is a field from the denial management viewer to display the Payer DRG. Denial Reason This is a field from the denial management viewer to display the reason of the Denial. Denial Response Due Date This is a field from the denial management viewer to display the Response Due Date. Denial Reviewer ID This is a field from the denial management viewer to display the Reviewer ID. Denial Second Appeal Route This is a field from the denial management viewer to display the Second Appeal Route. Denial Second Appeal Sent Date This is a field from the denial management viewer to display the Second Appeal Sent Date. Denial Status This is a field from the denial management viewer to display the status of the Denial. Denial Third Appeal Route This is a field from the denial management viewer to display the Third Appeal Route. Denial Third Appeal Sent Date This is a field from the denial management viewer to display the Third Appeal Sent Date. Denial Type This is a field from the denial management viewer to display the type of the Denial. Discharge Date This is the discharge date of the patient. Discharge Date w/ Time This is the discharge date with the time of the patient. Discharge Disposition This is the discharge disposition of the patient. Discharge Date w/ Time Computed to display the patient’s discharge date with discharge time Discharged To This is where the patient was discharged to. Document Code This is used to find any code suggested by the engine or added by a user assigned or unassigned. Document Type This is a field to identify a unique document name that is on a patient chart. DRG Weight Difference Computed to display the Final DRG Weight minus the Baseline Working DRG Weight Effective Date This is a field used to drive reoccurring patient charts. If the coder is coding multiple encounters within a single encounter in order to generate a bill for each they would code, set an effective date and save to generate an outbound message. If they need to code for another encounter date within the same they would change the date and re-save the account. Exclude from Matched Criteria This is a field to identify when we do not want a criteria group to display on the match criteria viewer. Facility This is the facility of the patient. Final ALOS This is the final ALOS on the patient chart. Final APR-DRG This is the final APR-DRG on the patient chart. Final APR-DRG Description This is the final APR-DRG Description on the patient chart. Final APR-DRG GLOS This is the final APR-DRG GMLOS on the patient chart. Final APR-DRG Weight This is the final APR-DRG weight on the patient chart. Final CC Total This is the final CC total on the patient chart. Final DRG This is the final DRG on the patient chart. Final DRG Description This is the final DRG Description on the patient chart. Final DRG Weight This is the final DRG weight on the patient chart. Final Estimated Reimbursement This is the final DRG Estimated Reimbursement on the patient chart. Final GLOS This is the final DRG GMLOS on the patient chart. Final HAC Total This is the final HAC total on the patient chart. Final HCC Total This is the final HCC total on the patient chart. Final MCC Total This is the final MCC total on the patient chart. Final PPC Total This is the final PPC total on the patient chart. Final Risk of Mortality This is the final APR-DRG ROM on the patient chart. Final Severity of Illness This is the final APR-DRG SOI on the patient chart. Financial Class This is the financial class of the patient. First CDI Owner First Name This is the first CDI owner first name on the patient chart. First CDI Owner Last Name This is the first CDI owner last name on the patient chart. First CDI Owner Date This is the first CDI owner date on the patient chart. First CDI Owner This is the first CDI owner user Id on the patient chart. First CDI Saver First Name This is the first CDI saver first name on the patient chart. First CDI Saver Last Name This is the first CDI saver last name on the patient chart. First CDI Saver Date This is the first CDI saver date on the patient chart. First CDI Saver This is the first CDI saver user Id on the patient chart. First Coded Date This is the first time the chart was submitted. First Coder First Name This is the first users first name that submitted the chart. First Coder Last Name This is the first users last name that submitted the chart. First Coder User ID This is the first users user Id that submitted the chart. First CPT Code This is the first sequenced CPT code coded by a coder. First Diagnosis Code This is the first sequenced Diagnosis code coded by a coder. First Procedure Code This is the first sequenced Procedure PCS code coded by a coder. First Submitter First Name This is the first users first name to submit the patient chart. First Submitter Last Name This is the first users last name to submit the patient chart. First Submitted Date This is the first date the patient chart was submitted. First Submitter User ID This is the first user id to submit the patient chart. Floor This is the last known patients floor location. Has Late-Arriving Documents This field identifies if there are late arriving documents. The field “Has Late-Arriving Documents” is a true/false field that exists only in Workflow Management. It is not a “grid column”. For Account Search, the field “Late Document Count” is a numeric field that displays the number of late-arriving documents. The criteria “Late Document Count \u003e 0” in Account Search is equivalent to “Has Late-Arriving Documents equals True” in Workflow Management. Hospital Service This field is used to identify the patients hospital service. Is AutoClosed This is a field that will tell if you if the chart was autoclose by the system. True means that it was. Is Emergency Room Visit This field identifies if the chart is an ER visit. Is Inpatient This field identifies if the chart is an inpatient chart. Is DRG Reconciled This is a field to tell if a patient chart was reconciled on submit. True means that either the Last known Working or alternative DRG matched the Final DRG. False means that either the patient charts Last known Working or alternative DRG listed did not match the Final DRG. This field is only applicable on inpatient charts. Is Released by CDI This field shows if the CDI user released the chart while in the reconciliation process on behalf of the coder from the submit state the coder originally submitted. Is Resubmitted Is Resubmitted is a term used to mean the chart was completed by coding and the chart had already had a submit action performed. If Is Resubmitted is True that means a coder has submitted this chart to billing a subsequent time. If Is Resubmit is equal to false then the chart has not been resubmitted and it was only submitted a single time. Last Interface Update This is the last date and time the interface received an update to the account. Last CDI Owner First Name This is the last CDI Owners first name. An ownership can be claimed by selecting the owner button on the code summary viewer. Last CDI Owner Last Name This is the last CDI Owners last name. An ownership can be claimed by selecting the owner button on the code summary viewer. Last CDI Owner Date This is the last CDI Owner date they saved the account. An ownership can be claimed by selecting the owner button on the code summary viewer Last CDI Owner User ID This is the last CDI Owners user id. An ownership can be claimed by selecting the owner button on the code summary viewer. Last CDI Saver First Name This is the last CDI user that saved the accounts first name. Last CDI Saver Last Name This is the last CDI user that saved the accounts last name. Last CDI Saver Date This is the last CDI user that saved the accounts date. Last CDI Saver User ID This is the last CDI user that saved the accounts user id. Last Saver First Name This is the last coder user that saved the accounts first name. Last Saver Last Name This is the last coder user that saved the accounts last name. Last Saved Date This is the last coder user that saved the accounts date. Last Saver User ID This is the last coder user that saved the accounts user id. Last Submitter First Name This is the last coder user that submitted the accounts first name. Last Submitter Last Name This is the last coder user that submitted the accounts last name. Last Submitted Date This is the last coder user that submitted the accounts date. Last Submitter User ID This is the last coder user that submitted the accounts user id. Last Viewer First Name This is the last viewer’s first name to view the account without saving or submitting. Last Viewer Last Name This is the last viewer’s last name to view the account without saving or submitting. Last Viewer This is the last viewer’s user id to view the account without saving or submitting. Last Viewed Date/Time This is the last viewer’s date they viewed the account without saving or submitting. Late Document Count This is the total documents that were late. Late is defined as post submit. Late Document Type This is the document types that are late arriving. Length of Stay Calculated; This is the current Length of Stay on the patient’s chart. This is Admit Date to Discharge Date and if Discharge Date is not present then it’s calculated to today’s date. This is different than the ALOS and the GMLOS that is calculated by the encoder. Often referred to as the LOS. Location This field can store the location but, commonly the location is stored within the building field not the location field. Locked By This is the current user that has the account locked which is defined by actively in use. Locked Date/Time This is the date and time the account became locked in use by the current user. Next Review Date This field can be changed to a different date other than the default which is every day. This field is used by the CDI team to indicate the date that they want the chart routed back to the follow-up review worklist. This field can be found on the code summary page changing the calendar date field from the date displayed to a future date. This will tell the chart to not route back to the “Follow-up Review” until the current calendar date matches the date you changed the next review date to. New Document Flag Computed to true if any documents were imported onto account after the last time the account was saved. The user would see in the accounts grid a check mark to indicate True; Not accessible in Form Designer Owner First Name This is the current Owners first name. An ownership can be claimed by selecting the owner button on the code summary viewer. Owner Last Name This is the current Owners last name. An ownership can be claimed by selecting the owner button on the code summary viewer. Owner Name This is the current Owner date they saved the account. An ownership can be claimed by selecting the owner button on the code summary viewer. Owner User ID This is the current Owners user id. An ownership can be claimed by selecting the owner button on the code summary viewer. Patient Birth Date This is the patients birth date. Patient First Name This is the patient’s first name. Patient Gender This is the patient’s gender. Patient Last Name This is the patient’s last name. Patient MRN This is the patients’ medical record number. Patient Middle Name This is the patient’s middle name. Patient Class This is the patient class of the account. Patient Type This is the patient type of the account. Payor This is the primary payor of the account. Payor (Secondary) This is the secondary payor of the account. Pending Reason An account can have zero or more pending reasons. Each pending reason can have additional properties Mappings Configuration and provides the client to control what pending reason are displayed for the role the end user has in addition to what other information should be recorded with a pending reason such as provider and date. Commonly, pending reasons can also trigger workflow and validation rules to ask the end user to take other actions such as adding a form to collect additional data such as CDI Questions or Quality Initiatives detail. Pending Reason Physician Name This is the physicians name that is attached to the pending reason. Pending Reason Physician ID This is the physicians Id that is attached to the pending reason. Physician Coding Stage This is the stage of the account for physician coding which is independent from the stage field which is known as the facility stage. Physician Queries Agreed This is the outcome of the query reporting by the physician coding user closing the query. Agree commonly means that the physician provided the CDI with a valid diagnosis. Physician Queries Cancelled This is the outcome of the query reporting by the physician coding user closing the query as cancelled. You can customize these by adding a mapping table using this key PhysicianQueryCancelReasons this will overwrite the default cancel options. Physician Queries Closed This is the total number of physician queries closed issued by a physician coding user Physician Queries Disagreed This is the outcome of the query reporting by the physician coding user closing the query. Disagree commonly means that the physician provided the physician coding with a different result than expected. Physician Queries No Opinion This is the outcome of the query reporting by the physician coding user closing the query. No Opinion commonly means that the physician provided the physician coding with a clinically insignificant diagnosis. Physician Queries No Response This is the total number of physician queries closed by a physician coding user due to no response from the physician. Physician Queries Open This is the total number of physician queries still open issued by a physician coding user. Physician Query Responded This is the total number of physician queries responded to by Physician for issued by a physician coding user. Physician Query Total This is the total number of physician queries issued by a physician coding user regardless of if the query is open or closed. If a user was in an account that had an open physician query, and an external interface closed that query, the query total on the account is updated upon closing the account. Pre-Bill Working DRG This is the working DRG pre-bill. Pre-Bill Working DRG Description This is the working DRG Description pre-bill. Pre-Bill Working DRG Weight This is the working DRG Weight pre-bill. Pre-Bill Final DRG This is the final DRG pre-bill. Pre-Bill Final DRG Description This is the final DRG Description pre-bill. Pre-Bill Final DRG Weight This is the final DRG Weight pre-bill. Pre-Bill DRG Match This field is shows true or false. True meaning that there was a pre- bill DRG match of the last know working and the final DRG. Pre-Visit Account Number Not accessible in Form Designer Primary Grouper This is the primary grouper of the account. Principal CPT Code This is the principal CPT code on the account. Principal CPT Physician This is the principal CPT code abstracted physician. Principal CPT Modifier This is the principal CPT code modifier(s). The user can add up to 4 modifiers unless they are using the 3M CRS encoder, then they will be able to add up to 5 modifiers. Principal Diagnosis Code This is the principal diagnosis code on the account. Principal Procedure Code This is the principal procedure (PCS) code on the account. Principal Procedure Physician This is the principal procedure (PCS) code abstracted physician. PSI Indicator This is the PSI’s that were identified by a coder user. The PSI indicator is identified by using the patient safety indicator technical specifications. This field requires the quality module. Public Note User ID This is the users id that created the public note. Public Note Date/Time This is the date and time that the public note was created. Public Note This is the public note. Random Inclusion Factor Computed to display a random number between 1 and 100; Not accessible in Form Designer Room This is the last known room of the patient. Secondary Grouper This is the secondary grouper of the account. Service Type This is the service type of the account. Stage The stage of the patient tells you if the patient chart is unbilled, billed (submitted), In Review (QA). Submit Account for Post- QA This is used in workflow to define when a chart qualifies for a QA Review worklist if it should be prebill or post bill review. True indicates it will be a post bill account and False is Prebill. Time Spent By CDI This is the total time spent in an account for a user with a CDI role. Time Spent By First Coder This is the total time spent in an account for the first timefor a user with a Coder role. Time Spent By Coding This is the total time spent in an account and any subsequent time after the first time it was saved or submitted for a user with a Coder role Total Charges This is the total charges on the patient chart. Commonly, this information is sent on the ADT interface. Total Documents Computed to display the total number of documents on the account. Transfer From This is where the patient was transferred from. Transfer To This is where the patient was transferred to. Validation Rule Count at Submit This tells you if there were any active validation rules at Submit. Workflow Trigger Date Not accessible in Form Designer Workgroup This field identifies what current default workgroup the patient chart is currently within. Workgroup Assigned By This is used to indicate that user manually assigned the chart to another user’s “You” worklist. Workgroup Category This field identifies what current workgroup(s) category the patient chart is currently within. Workgroup Assigned Date This field identifies the date that the patient chart qualified for the current workgroup. Workgroup Submitted This is used in QA workflow to identify that a chart should not requalify for a QA workgroup if it was previously submitted from it to prevent chart looping. Workgroup Type In Workflow Management, each workgroup now has a new “WorkGroup Type” field. This field is optional, but sites can designate a type for each workgroup. The purpose of doing so is for current and future reporting. For this feature, setting a workgroup to a type besides “Coding” will exclude the account’s time assigned to it in the “Coding Chart Status Report”. Working Admit Diagnosis Code This is the working admit diagnosis code. Working ALOS This is the working ALOS. Working APRDRG This is the working APR-DRG. Working APRDRG Description This is the working APR-DRG Description. Working APRDRG GLOS This is the working APR-DRG GMLOS. Working CC Total This is the working CC total count. Working CPT Codes This is used to identify working CPT Codes. Working Diagnosis Codes This is used to identify working diagnosis Codes. Working DRG This is the working DRG. Working DRG Description This is the working DRG Description. Working DRG Weight This is the working DRG Weight. Working Estimated Reimbursement This is the working DRG Estimated Reimbursement. Working GLOS This is the working DRG GMLOS. Working HAC Total This is the working HAC total count. Working HCC Total This is the working HCC total count. Working MCC Total This is the working MCC total count. Working PPC Total This is the working PPC total count. Working Principal CPT Code This is used to identify working principal CPT Codes. Working Principal Diagnosis Code This is used to identify working principal diagnosis Codes. Working Principal Procedure Code This is used to identify working principal procedure (PCS) Codes. Working Procedure Codes This is used to identify working procedure (PCS) Codes. Working Risk of Mortality This is the working APR-DRG ROM. Working Severity of Illness This is the working APR-DRG SOI. Working Visit Reason Codes This is used to identify working Visit Reason Codes.",
     "tags": [],
     "title": "Standard Fields",
-    "uri": "/fields/standard-fields/index.html"
+    "uri": "/fusion-cac-web-docs/fields/standard-fields/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -61,7 +61,7 @@ var relearn_search_index = [
     "description": "V2.23.8021 Released 12/17/21 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.23",
-    "uri": "/release-notes/v2.23/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.23/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -69,7 +69,7 @@ var relearn_search_index = [
     "description": "The calendar view will show which users touched charts today and the actions they took. Upon first logging on you will be presented with a calendar view which by default shows the current calendar week.\nTo view the entire calendar month or choose a date range use the control keys at the top of the calendar.",
     "tags": [],
     "title": "Calendar View",
-    "uri": "/administrative-user-guide/calendar-view/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/calendar-view/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -77,7 +77,7 @@ var relearn_search_index = [
     "description": "The software has a feature called CDI Alerts which are automated messages generated by the software that can be used to prioritize your CDI workflow. CDI Alerts are used to detect potential inaccuracies, inconsistencies and or discrepancies in clinical documentation. These Alerts help CDI teams to prioritize the charts based on potential query opportunities available.\nThe software provides real-time Alerts when potential query opportunities are identified. Which will then allow CDI staff to prioritize charts based upon those potential opportunities.",
     "tags": [],
     "title": "CDI Alerts and Chart Prioritization",
-    "uri": "/cds-user-guide/chart-prioritization/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/chart-prioritization/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide",
@@ -85,7 +85,7 @@ var relearn_search_index = [
     "description": "Loading Accounts Reviewing Documents Managing Codes Computing a Drg Account Screen Account Viewers Code Summary Patient Info Notes and Bookmarks Physicians and Queries Physician Coding Summary Final Coding Summary Working CDI History Suggested DRG Viewer Discrete Values and Flow Sheet Viewers Charges/Transactions Viewer Medications Viewers DRG Reconciliation Viewer 30 Day Readmit Previous HCC Overview Transfer Codes From Previous Encounter Viewer Denial Management Viewer ER E/M Viewer Document Tree Code Panels Exiting an Account",
     "tags": [],
     "title": "Coding a Patient Chart",
-    "uri": "/coding-user-guide/coding-a-patient-chart/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -93,7 +93,7 @@ var relearn_search_index = [
     "description": "The following table lists common fields that are implemented on an as-needed basis depending on requirements and licensing.\nDisplay Name Field Description Charge CPT Codes Computed as a list of CPT codes assigned to Charges. Does not apply to Transactions. Charge Revenue Codes Computed as a list of Revenue Codes assigned to Charges. Does not apply to Transactions. Is Prior HCC Present Computed as True if any prior account of the patient contains an HCC code. Field is defined in the site’s ADT script and performs a database lookup upon receipt of ADT for prior accounts. Last Suggested Calculation Date/Time This is the last suggested DRG calculation date and time. The site must be licensed to use Suggested DRG Module. Last Suggested DRG This is the last suggested DRG. Site must be licensed to use Suggested DRG Module. Last Suggested DRG Description This is the last suggested DRG Description. Site must be licensed to use Suggested DRG Module. Last Suggested DRG Weight This is the last suggested DRG Weight. Site must be licensed to use Suggested DRG Module. Last Suggested Estimated Reimbursement This is the last suggested DRG Estimated Reimbursement. Site must be licensed to use Suggested DRG Module. PSI Indicator This is the PSI’s that were identified by a coder user. The PSI indicator is identified by using the patient safety indicator technical specifications. This field requires the quality module. Quality Measure This is a field used to identified if a coder user identified PC-06. The PC-06 indicator is identified by using the quality measures technical specifications. This field requires the quality module. CDI PSI Indicator This is the PSI’s that were identified by a CDI user. The PSI indicator is identified by using the patient safety indicator technical specifications. This field requires the quality module. CDI Quality Measure This is a field used to identified if a CDI user identified PC-06. The PC- 06 indicator is identified by using the quality measures technical specifications. This field requires the quality module",
     "tags": [],
     "title": "Custom Fields",
-    "uri": "/fields/custom-fields/index.html"
+    "uri": "/fusion-cac-web-docs/fields/custom-fields/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -101,7 +101,7 @@ var relearn_search_index = [
     "description": "Fusion CAC is a browser-based program. To launch the CAC browser application, open your web browser and enter your site’s Fusion CAC server address into the browser address bar. You will need to get the Fusion CAC server address from your site administrator or manager.\nFusion CAC URL Example https://fusion-cac-production/cac2\nThis address is just an example. The address for your server will be different.",
     "tags": [],
     "title": "Getting Connected",
-    "uri": "/getting-connected/index.html"
+    "uri": "/fusion-cac-web-docs/getting-connected/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -109,7 +109,7 @@ var relearn_search_index = [
     "description": "The Patient Info pane summarizes patient demographic information (based on system configuration) with data captured for purposes of state and/or registry reporting.\nYou can expand the width of the Code Summary pane by clicking on the right arrow in the top right corner of the pane. To update data fields in the Patient Info pane, click on the blue button and select the appropriate selection from the drop-down menu.",
     "tags": [],
     "title": "Patient Info",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/patient-info/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -117,7 +117,7 @@ var relearn_search_index = [
     "description": "Documents presented in Fusion CAC should be reviewed to determine the specific reason for the encounter and the conditions treated. Codes can be validated through document review from the Documents Pane or code review from the Unassigned Codes pane. Codes can also be added manually via direct code entry or through use of an interfaced encoder.",
     "tags": [],
     "title": "Reviewing Documents",
-    "uri": "/coding-user-guide/coding-a-patient-chart/reviewing-documents/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/reviewing-documents/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Auditor User Guide",
@@ -125,7 +125,7 @@ var relearn_search_index = [
     "description": "Ensure you have the role of an auditor and chart access of auditor. Open a chart that has been submitted by a coder, you may get this chart from a worklist or, by manually typing in an account number. On the navigation tree you will notice a viewer called “Audit Worksheet”. Click on “Start Audit” to begin Upon clicking on “start audit”, select your audit type from the dropdown. This will be used for reporting on the types of audit you performed, and this can also be used for workflow purposes. The codes in the “assigned code” tree are the same codes initially submitted by the coder, allowing the auditor to start the audit with the codes from the coder. The audit viewer can be popped out onto a separate screen, allowing the auditor to have a screen for reviewing the chart. By selecting “Show All” codes in the unassigned code tree, the auditor is taken to the documents/documentation supporting that code. This will help streamline the audit process. Once the auditor has made changes and is completed with the audit, they can click “Update Codes” which automatically calculates and populates the audit statistics section. There is a comment bubble next to each code as well as the DRG for the auditor to enter any comment. Next to the codes a symbol may display. A green ‘plus’ sign will show if the code was added. A red ‘minus’ sign will show if a code was deleted. A orange up or down ‘arrow’ sign will appear if the code location has been changed, as in a primary and secondary are swapped. Although audit statistics have been automatically calculated and populated, the auditor must manually enter in the “total errors” which then automatically calculates the “Error Rate”. Complete the additional sections, (abstracting and training recommendations) if applicable. The auditor can then re-submit the chart or route it back to the coder of record by using the “Route to Coder” button in the top right corner of the audit worksheet. This will route the chart to the coder’s “You” worklist for them to review and re-submit.",
     "tags": [],
     "title": "Starting an Audit",
-    "uri": "/auditor-user-guide/starting-an-audit/index.html"
+    "uri": "/fusion-cac-web-docs/auditor-user-guide/starting-an-audit/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -133,7 +133,7 @@ var relearn_search_index = [
     "description": "V2.24.8129 Released 04/04/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.24",
-    "uri": "/release-notes/v2.24/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.24/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -141,7 +141,7 @@ var relearn_search_index = [
     "description": "This guide explains the Fusion CAC Web application from the perspective of a coder.\nAccount List Coding a Patient Chart Loading Accounts Reviewing Documents Managing Codes Computing a Drg Account Screen Account Viewers Code Summary Patient Info Notes and Bookmarks Physicians and Queries Physician Coding Summary Final Coding Summary Working CDI History Suggested DRG Viewer Discrete Values and Flow Sheet Viewers Charges/Transactions Viewer Medications Viewers DRG Reconciliation Viewer 30 Day Readmit Previous HCC Overview Transfer Codes From Previous Encounter Viewer Denial Management Viewer ER E/M Viewer Document Tree Code Panels Exiting an Account",
     "tags": [],
     "title": "Coding User Guide",
-    "uri": "/coding-user-guide/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -149,7 +149,7 @@ var relearn_search_index = [
     "description": "A user with administrative rights is now provided with overviews of Coder and CDI activity. The admin user can also select to look specifically at Coder or CDI information by selecting the appropriate dashboard button.\nThe dashboard is shown when you log in and after you login it can be access by clicking on the Fusion CAC/CDI in the top left corner of the application or my clicking on the reporting menu item and selecting dashboard. The software has 4 main dashboards with drill down data. These dashboards are separated by:",
     "tags": [],
     "title": "Dashboard",
-    "uri": "/administrative-user-guide/dashboard/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/dashboard/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -157,7 +157,7 @@ var relearn_search_index = [
     "description": "Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane.\nCodes are placed into the following categories:\nDiagnosis Codes Procedure Codes CPT® Codes From here, you can right-click on a code, then either Assign or Edit/Assign the selected code.",
     "tags": [],
     "title": "Managing Codes",
-    "uri": "/coding-user-guide/coding-a-patient-chart/adding-codes/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/adding-codes/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -165,7 +165,7 @@ var relearn_search_index = [
     "description": "The Notes \u0026 Bookmarks becomes visible in the center pane after clicking on the hyperlink from the Navigation Pane. This pane presents a summary and chronological history of all notes and bookmarks added to this account.\nAdd Note Notes can be added to the patient chart by clicking on the Add Note button within the Notes \u0026 Bookmarks Pane.\nWhen notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the Navigation pane will turn red.",
     "tags": [],
     "title": "Notes and Bookmarks",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/notes-and-bookmarks/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Auditor User Guide",
@@ -173,7 +173,7 @@ var relearn_search_index = [
     "description": "The auditor will need to add the coder of record so that the coder of record, any auditor, or other user role that has been given access can view the audit worksheets. This data is only intended for coder education and administrative staff to score how the coder is doing in a report card. The coder will be able to view the audit viewer and add notes/comments back to the auditor, but the coder will not be able to make any changes to the audit worksheet",
     "tags": [],
     "title": "Privacy of the Audit Viewer",
-    "uri": "/auditor-user-guide/privacy-of-the-audit-viewer/index.html"
+    "uri": "/fusion-cac-web-docs/auditor-user-guide/privacy-of-the-audit-viewer/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -181,7 +181,7 @@ var relearn_search_index = [
     "description": "Receiving Credit for Reviews Review Type Details Initial Review For Inpatient charts this is the first time a working DRG is computed and saved on a chart by a user with the role of CDI. For outpatient this is the first time a chart is opened and saved by a user with the role of CDI. Follow-up Review For Inpatient charts this any subsequent time after the initial a chart is accessed a working DRG is computed and saved on a chart by a user with the role of CDI however, a chart is only counted 1 time per day. For outpatient this is the first time a chart is opened and saved by a user with the role of CDI however, a chart is only counted 1 time per day Reconciliation Reconciliation can only happen 1 time per chart, so pass back and forth do not count. Query Completion This is counted as a Subsequent or Follow-up Review. Documentation Reviews If your site does different styles of CDI reviews or want to track management reporting there are reports for documentation reviews, different than how our default tracks, you can use the documentation review viewer to track reviews by topic. Other organizations have used this if there CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow up review.",
     "tags": [],
     "title": "Receiving Credit for Reviews",
-    "uri": "/cds-user-guide/receiving-credit-for-reviews/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/receiving-credit-for-reviews/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -189,7 +189,7 @@ var relearn_search_index = [
     "description": "The following table lists tuning-related fields that are only implemented per site at the direction of the Tuning Team.\nDisplay Name Field Description Added to Images Total number of codes added to images Coder Add Rate Total number of codes that the coder manually added to text documents that the engine did not get correct compared to how many codes were ‘assigned’ Engine DX Suggest Rate How many DX codes the engine suggested compared to how many codes were ‘assigned’ Engine PR Suggest Rate How many procedure codes (PCS and/or CPT codes) the engine suggested compared to how many codes were ‘assigned’ Redundant Code Count Total number of codes that the coder added manually but the engine suggested the code already Total DX Codes Total number of diagnosis codes submitted Total Procedure Codes Total number of procedure codes (PCS and/or CPT codes) submitted",
     "tags": [],
     "title": "Tuning Fields",
-    "uri": "/fields/tuning-fields/index.html"
+    "uri": "/fusion-cac-web-docs/fields/tuning-fields/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -197,7 +197,7 @@ var relearn_search_index = [
     "description": "Below are the section of the audit worksheet and the definition of the field as to how it was calculated. If the auditor disagrees with any of the auto-calculated fields below the auditor can choose to override the field by entering in the value that makes sense per the audit, the system will provide an audit trail to show what the value was changed from and to for transparency along with the user that made the change and the date/time the change was performed.",
     "tags": [],
     "title": "Audit Fields",
-    "uri": "/fields/audit-fields/index.html"
+    "uri": "/fusion-cac-web-docs/fields/audit-fields/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -205,7 +205,7 @@ var relearn_search_index = [
     "description": "This program will introduce automatic workflow processes which is defined as processes where tasks, information or documents are passed from one place to another for action, according to a set of procedural rules.\nEach organization will have different workflows from one another to coordinate tasks between people and synchronize data between systems, with the ultimate goal of improving organizational efficiency and responsiveness.\nEach CDS will have a worklist which will include new cases if current patient location meets the CDS work assignments and follow-up cases that the chart owner has been assigned for the CDS reviewing.",
     "tags": [],
     "title": "Cds User Guide",
-    "uri": "/cds-user-guide/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Auditor User Guide",
@@ -213,7 +213,7 @@ var relearn_search_index = [
     "description": "The AuditType and AuditTrainingTopics mappings can be added to override the default mappings. If you would like to override these, you can find more information on creating a new mapping from the Mapping Configuration section of this user guide.",
     "tags": [],
     "title": "Changing Dropdown Content",
-    "uri": "/auditor-user-guide/changing-dropdown-content/index.html"
+    "uri": "/fusion-cac-web-docs/auditor-user-guide/changing-dropdown-content/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -221,7 +221,7 @@ var relearn_search_index = [
     "description": "Use the Compute button to launch the encoder and proceed with confirmation of codes and sequencing to complete grouping and return the computed grouping and codes to Fusion CAC.",
     "tags": [],
     "title": "Computing a Drg",
-    "uri": "/coding-user-guide/coding-a-patient-chart/computing-a-drg/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/computing-a-drg/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -229,7 +229,7 @@ var relearn_search_index = [
     "description": "Next Review Date field can be changed to a different date other than the default which is every day. A CDS can change the interval that the chart is routed back to a queue, when on the code summary page changing the calendar date field from the date displayed to a future date. This will tell the chart to not route back to the “Follow-up Review” until the current calendar date matches the date you changed the next review date to.",
     "tags": [],
     "title": "Next Review Date",
-    "uri": "/cds-user-guide/next-review-date/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/next-review-date/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -237,7 +237,7 @@ var relearn_search_index = [
     "description": "Within this page you can add physicians and change the staff function. if it is not correct.\nAdding \u0026 Editing Physicians The bottom portion, ‘Account Physicians’, is pre-populated by your registration system. Physicians can be added, changed, or removed if incorrect or missing. To add a physician, click on the ‘Add Physician’ button and begin typing in the physician’s last name to populate a list to choose from, then click add. Choose the staff function that fits the physician you choose. If it is a consulting physician enter in the consultation date.",
     "tags": [],
     "title": "Physicians and Queries",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physicians-and-queries/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -245,7 +245,7 @@ var relearn_search_index = [
     "description": "User reports are canned reports that are preformatted reports below each of the report is outlined with a brief description. If you are looking for data that is not in user reports, consider account search to create a custom search to export the raw data. User reports are meant to be run on-demand but, many of the user reports can also be scheduled to be run at date/time interval. Since scheduled reports are sent through email, no user reports that contain PHI is available therefore you will find the scheduled reports do not contain all 47 however, most are available.",
     "tags": [],
     "title": "User Reports",
-    "uri": "/administrative-user-guide/user-reports/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/user-reports/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -253,7 +253,7 @@ var relearn_search_index = [
     "description": "Banner Bar Below the Accounts Action Bar is the Banner Bar.\nFrom the Banner Bar, you can toggle between account demographic information and Primary DRG information by clicking on the Primary DRG hyperlink. The DRG view displays information available from the encoder for the computed DRG. You can also click on the Patient Name to expand collapse the account demographic and DRG information. The Accounts Info bar includes information on the account including:",
     "tags": [],
     "title": "Account Screen",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-screen/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-screen/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Auditor User Guide",
@@ -261,7 +261,7 @@ var relearn_search_index = [
     "description": "Listed below, are the sections of the audit worksheet and the definition of the fields , including how it was calculated. If the auditor disagrees with any of the auto-calculated fields below, they can choose to override the field by entering in the value that makes sense per the audit. The system will provide an audit trail to show what the value was changed from and to for transparency along with the user that made the change and the date/time the change was performed.",
     "tags": [],
     "title": "Audit Worksheet",
-    "uri": "/auditor-user-guide/audit-worksheet/index.html"
+    "uri": "/fusion-cac-web-docs/auditor-user-guide/audit-worksheet/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -269,7 +269,7 @@ var relearn_search_index = [
     "description": "The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit process. With its automated functionality, this tool efficiently compares coder-assigned codes to auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group) adjustments.\nBeyond auditing, the module facilitates tracking of training recommendations, enabling continuous improvement in coding accuracy and proficiency. Additionally, its built-in section for rebuttal workflow tracking ensures transparent communication and resolution of discrepancies between auditors and coders, ultimately fostering a collaborative and quality-driven coding environment.",
     "tags": [],
     "title": "Auditor User Guide",
-    "uri": "/auditor-user-guide/index.html"
+    "uri": "/fusion-cac-web-docs/auditor-user-guide/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -277,7 +277,7 @@ var relearn_search_index = [
     "description": "Field Field Description Diagnosis Codes Pre-Audit The total is the number of diagnosis codes including principal, admit and secondary at the time the audit is started. This total does not include Reason for Visit as they are calculated separately. Visit Reasons Pre-Audit The total is the number of reason for visit diagnosis codes at the time the audit is started. This will only display on an outpatient chart. Diagnosis Codes Post- Audit The total is the number of diagnosis codes including principal, admit and secondary at the time the auditor selects the Update Codes button. This total does not include Reason for Visit as they are calculated separately. Visit Reasons Post-Audit The total is the number of reason for visit diagnosis codes at the time the auditor selects the Update Codes button. This will only display on an outpatient chart. Diagnosis Codes Edited This is the count of the total of edit actions by the auditor for admit and secondary codes once the auditor selects the update codes button. An edit is defined as a simple change to the same code category such as the last digit of a code however if the auditor replaced the full code this is still counted as an edit rather than an unassign and an add. The editing action is defined by right clicking on a code from the assigned code tree and selecting edit diagnosis code with a replacement diagnosis code. This total does not include Reason for Visit as they are calculated separately. Diagnosis Codes Unassigned This is the count of the total of deleted or unassign actions by the auditor for admit and secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. This total does not include Reason for Visit as they are calculated separately. Diagnosis Codes Added This is the count of the total of added or assign actions by the auditor for admit and secondary codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as admit or secondary, right clicking on a code to validate from a document or adding a code that did not exist previously. This total does not include Reason for Visit as they are calculated separately. POA Changes This is the count of the total of POA changes only on unchanged codes (Edited or Added) to prevent double counting errors once the auditor selects the update codes button. If a code was edited, assigned/added or unassigned/deleted it will not be counted within this total. This will only display on an inpatient chart. CC Added This is the count of the total of added codes that has a classification of CC (complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The added action is defined by right clicking on a code from the unassigned code tree, right clicking on a code to validate from a document or adding a code that did not exist previously. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart. CC Removed This is the count of the total of removed codes that had a classification of CC (complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart. MCC Added This is the count of the total of added codes that has a classification of MCC (major complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The added action is defined by right clicking on a code from the unassigned code tree, right clicking on a code to validate from a document or adding a code that did not exist previously. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart. MCC Removed This is the count of the total of removed codes that had a classification of MCC (major complication or comorbidity) by the auditor on secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart. HAC(s) Added This is the count of the total of added codes that has a classification of HAC (Hospital Acquired Condition) by the auditor on secondary codes once the auditor selects the update codes button. The added action is defined by right clicking on a code from the unassigned code tree, right clicking on a code to validate from a document or adding a code that did not exist previously. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart. HAC(s) Removed This is the count of the total of removed codes that had a classification of HAC (Hospital Acquired Condition) by the auditor on secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as secondary, unassign as admit or by selecting edit diagnosis code and deleting the code. These are not counted in the total error rate to prevent duplication of errors. This will only display on an inpatient chart. Principal Dx Changed This is a true or false field. If the principal diagnosis was changed from the previous code assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit. Visit Reasons Edited This is the count of the total of edit actions by the auditor for reason for visit codes once the auditor selects the update codes button. An edit is defined as a simple change to the same code category such as the last digit of a code however if the auditor replaced the full code this is still counted as an edit rather than an unassign and an add. The editing action is defined by right clicking on a code from the assigned code tree and selecting edit diagnosis code with a replacement diagnosis code. This will only display on an outpatient chart. Visit Reasons Unassigned This is the count of the total of deleted or unassign actions by the auditor for reason for visit codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign diagnosis code, unassign as visit reason or by selecting edit diagnosis code and deleting the code. This will only display on an outpatient chart Visit Reasons Added This is the count of the total of added or assign actions by the auditor for reason for visit codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as visit reason, right clicking on a code to validate from a document or adding a code that did not exist previously. This will only display on an outpatient chart. Diagnosis Errors This is the total codes that appear in the above boxes the formula is as followed: Diagnosis Errors = Diagnosis Codes Added + Diagnosis Codes Edited + Diagnosis Codes Unassigned + POA Changes + Principal Dx Changed. Diagnosis Error Rate This is the total codes that appear in the above boxes the formula is as followed: Diagnosis Error Rate = Diagnosis Codes Added + Diagnosis Codes Edited + Diagnosis Codes Unassigned + POA Changes + Principal Dx Changed/ Diagnosis Codes Pre-Audit. Diagnosis Accuracy Rate This is the total codes that appear in the above boxes the formula is as followed: Diagnosis Error Rate = (Diagnosis Codes Added + Diagnosis Codes Edited + Diagnosis Codes Unassigned + POA Changes + Principal Dx Changed/ Diagnosis Codes Pre-Audit) – 100%. Visit Reason Errors This is the total codes that appear in the above boxes the formula is as followed: Visit Reasons Errors = Visit Reasons Added + Visit Reasons Codes Edited + Visit Reasons Codes Unassigned. This will only display on an outpatient chart. Visit Reason Error Rate This is the total codes that appear in the above boxes the formula is as followed: Visit Reasons Errors = Visit Reasons Added + Visit Reasons Codes Edited + Visit Reasons Codes Unassigned/Visit Reasons Pre-Audit. This will only display on an outpatient chart. Visit Reason Accuracy Rate This is the total codes that appear in the above boxes the formula is as followed: Visit Reasons Errors = (Visit Reasons Added + Visit Reasons Codes Edited + Visit Reasons Codes Unassigned/Visit Reasons Pre-Audit) – 100%. This will only display on an outpatient chart.",
     "tags": [],
     "title": "Diagnosis Codes Section",
-    "uri": "/fields/diagnosis-codes-section/index.html"
+    "uri": "/fusion-cac-web-docs/fields/diagnosis-codes-section/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -285,7 +285,7 @@ var relearn_search_index = [
     "description": "CDI Users Only The Matched Criteria viewer is only shown if your current role is CDI.\nMatched criteria allow you to see why the chart was routed to you. The matched criteria group is a list of “criteria group” that the chart matched upon when it went through workflow. These criteria groups are used to indicate a “possible” query opportunity based upon the criteria outlined in workflow.",
     "tags": [],
     "title": "Matched Criteria",
-    "uri": "/cds-user-guide/matched-criteria/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/matched-criteria/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -293,7 +293,7 @@ var relearn_search_index = [
     "description": "The physician code summary will display if the physician coders are also coding within Fusion CAC, and they submit the chart. This provides transparency between the facility and physician coding teams as to what was coded.\nBy clicking on the header, it will expand the selection so you can see the codes that were coded. If you see any codes with a plus (+) sign it means that you have not added this code to the account. The plus (+) sign does not indicate that you need to add this code, it just allows you to quickly add the code if you have determined you want to use this code using your coding judgment and supporting documentation.",
     "tags": [],
     "title": "Physician Coding Summary",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/physician-coding-summary/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -301,7 +301,7 @@ var relearn_search_index = [
     "description": "Scheduled reporting enables you to: schedule a report to be delivered during a time window, repeat the report on a one-time, daily, weekly, or monthly basis, and email the report to the user who needs to see the report. Note that not all reports can be scheduled. Review the table of default reports to see if the one you wish to schedule is available for this feature. There are two sections in scheduled reports ones for Built-in reports from the user reports section and those that are scheduled account search filters.",
     "tags": [],
     "title": "Scheduled Reports",
-    "uri": "/administrative-user-guide/scheduled-reports/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/scheduled-reports/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -309,7 +309,7 @@ var relearn_search_index = [
     "description": "Account Viewers are located under the “Navigation” header, and give different views/information on the loaded account that are not contained in documents.",
     "tags": [],
     "title": "Account Viewers",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -317,7 +317,7 @@ var relearn_search_index = [
     "description": "This guide reviews the application from the perspective of an administrator.\nAccount Search Calendar View Dashboard User Reports Scheduled Reports Code Set Management User Management Workflow Management Role Management Validation Management Er Em Configuration Page Grid Column Configuration Chat Room Mapping Configuration Form Designer Shortcut Configuration Help Menu Inactivity Timeout Tuning",
     "tags": [],
     "title": "Administrative User Guide",
-    "uri": "/administrative-user-guide/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -325,7 +325,7 @@ var relearn_search_index = [
     "description": "Code sets are groups of codes that users can save that they commonly use or are difficult to code. Codes sets can be saved by topic to provide a quick code assignment. Code sets can be created at a management level to push out to coders and/or users can create their own.\nCoding Standard Changes / Expirations Code sets need to be regularly reviewed and updated by administrators to account for changes and expirations in the ICD/CPT coding standards.",
     "tags": [],
     "title": "Code Set Management",
-    "uri": "/administrative-user-guide/code-set-management/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/code-set-management/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -333,7 +333,7 @@ var relearn_search_index = [
     "description": "The code summary will display if the facility coders submit the chart. This provides transparency between CDI and your physician coding teams if they are using Fusion CAC as to what was coded.\nBy clicking on the header, it will expand the selection so you can see the codes and DRG/APC if applicable. If you see any codes with a plus (+) sign it means that you have not added this code to the account. The plus (+) sign does not indicate that you need to add this code it just allows you to quickly add the code if you have determined you want to use this code using your coding judgment and supporting documentation.",
     "tags": [],
     "title": "Final Coding Summary",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/final-coding-summary/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -341,7 +341,7 @@ var relearn_search_index = [
     "description": "Field Field Description Procedure Codes Pre-Audit The total is the number of procedure codes including principal and secondary at the time the audit is started. Procedure Codes Post-Audit The total is the number of procedure codes including principal and secondary at the time the auditor selects the Update Codes button. Procedure Codes Edited This is the count of the total of edit actions by the auditor for principal and secondary codes once the auditor selects the update codes button. An edit is defined as a simple change to the same code category such as the last digit of a code however if the auditor replaced the full code this is still counted as an edit rather than an unassign and an add. The editing action is defined by right clicking on a code from the assigned code tree and selecting edit procedure code with a replacement procedure code. Procedure Codes Unassigned This is the count of the total of deleted or unassign actions by the auditor for principal and secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign principal code, unassign as secondary, unassign all episodes or by selecting edit procedure code and deleting the code. Procedure Codes Added This is the count of the total of added or assign actions by the auditor for principal and secondary codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as principal or secondary, right clicking on a code to validate from a document or adding a code that did not exist previously. Principal PCS Changed This is a true or false field. If the principal PCS was changed from the previous code assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit. Procedure Errors This is the total codes that appear in the above boxes the formula is as followed: Procedure Errors = Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal PCS Changed. Procedure Error Rate This is the total codes that appear in the above boxes the formula is as followed: Procedure Error Rate = Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal PCS Changed/ Procedure Codes Pre-Audit. Procedure Accuracy Rate This is the total codes that appear in the above boxes the formula is as followed: Procedure Error Rate = (Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal PCS Changed/ Procedure Codes Pre-Audit) – 100%.",
     "tags": [],
     "title": "Pcs Codes Section",
-    "uri": "/fields/pcs-codes-section/index.html"
+    "uri": "/fusion-cac-web-docs/fields/pcs-codes-section/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -349,7 +349,7 @@ var relearn_search_index = [
     "description": "How does the impact of a query get recorded? The impact for inpatient cases is captured by the natural actions a CDS takes, therefore no manual data entry needs to be tracked by the CDS. The impact of the query is calculated by using the working DRG calculated within the same session in which you created the physician query for. Then once the physician replies to the query the CDS will then close the query as agreed, disagreed or no opinion. The same session that a CDS closes the query the system will then capture the working DRG that was calculated during this session. A session is closed by saving the chart.",
     "tags": [],
     "title": "Query Impact",
-    "uri": "/cds-user-guide/query-impact/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/query-impact/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Cds User Guide",
@@ -357,7 +357,7 @@ var relearn_search_index = [
     "description": "The baseline DRG is used for reporting program impact, some organizations do report like this, and others do not the choice is yours our system accommodates for it if you choose to use it. There are two styles of impact that can be reported which are:\nChart Impact Query Impact These are both reporting separately as you could be query positive impact regardless of if the chart has a positive, negative or neutral impact. The baseline is defined as the DRG that would have been coded and billed if no CDI specialist reviewed the chart.",
     "tags": [],
     "title": "Baseline Drg",
-    "uri": "/cds-user-guide/baseline-drg/index.html"
+    "uri": "/fusion-cac-web-docs/cds-user-guide/baseline-drg/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -365,7 +365,7 @@ var relearn_search_index = [
     "description": "Field Field Description CPT Codes Pre-Audit The total is the number of CPT codes including principal and secondary at the time the audit is started. CPT Codes Post-Audit The total is the number of CPT codes including principal and secondary at the time the auditor selects the Update Codes button CPT Codes Edited This is the count of the total of edit actions by the auditor for principal and secondary codes once the auditor selects the update codes button. An edit is defined as a simple change to the same code category such as the last digit of a code however if the auditor replaced the full code this is still counted as an edit rather than an unassign and an add. The editing action is defined by right clicking on a code from the assigned code tree and selecting edit CPT code with a replacement procedure code. CPT Codes Unassigned This is the count of the total of deleted or unassign actions by the auditor for principal and secondary codes once the auditor selects the update codes button. The unassign action is defined by right clicking on a code from the assigned code tree and selecting one of the unassign principal code, unassign as secondary, unassign all episodes or by selecting edit procedure code and deleting the code. CPT Codes Added This is the count of the total of added or assign actions by the auditor for principal and secondary codes once the auditor selects the update codes button. The assign action is defined by right clicking on a code from the unassigned code tree and selecting assign as principal or secondary, right clicking on a code to validate from a document or adding a code that did not exist previously. Principal CPT Changed This is a true or false field. If the principal CPT was changed from the previous code assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit. Total Modifiers Added This is the count of the total of added modifiers on a CPT by the auditor where the code previously existed. If the code was already counted within the CPT Codes Added section to prevent duplication of errors. The added action is defined by right clicking on a code from the assigned code tree and selecting to edit to add a modifier. Total Modifiers Removed This is the count of the total of removed modifiers on a CPT by the auditor where the code previously existed. If the code was already counted within the CPT Codes Added section to prevent duplication of errors. The removed action is defined by right clicking on a code from the assigned code tree and selecting to edit to remove an existing modifier. CPT Errors This is the total codes that appear in the above boxes the formula is as followed: CPT Errors = CPT Codes Added + CPT Codes Edited + CPT Codes Unassigned + Principal CPT Changed. CPT Error Rate This is the total codes that appear in the above boxes the formula is as followed: CPT Error Rate = Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal CPT Changed/CPT Codes Pre-Audit CPT Accuracy Rate This is the total codes that appear in the above boxes the formula is as followed: CPT Error Rate = (CPT Codes Added + CPT Codes Edited + CPT Codes Unassigned + Principal CPT Changed/CPT Codes Pre-Audit) – 100%",
     "tags": [],
     "title": "Cpt Codes Section",
-    "uri": "/fields/cpt-codes-section/index.html"
+    "uri": "/fusion-cac-web-docs/fields/cpt-codes-section/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -373,7 +373,7 @@ var relearn_search_index = [
     "description": "The Documents Pane frames the Documents Tree and is located on the left-hand side of the Account Screen. The Documents Tree includes a listing of all documents in a patient chart categorized by document type as configured by the hospital.\nIcons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document. Listed below are Document Indicators.",
     "tags": [],
     "title": "Document Tree",
-    "uri": "/coding-user-guide/coding-a-patient-chart/document-tree/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/document-tree/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -381,7 +381,7 @@ var relearn_search_index = [
     "description": "This tab is where a user can add, delete or change any permissions and set work lists. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below.\nUser Management Columns Actions Action Description Copy User allows you to copy a user’s profile when creating a new user. Edit User allows you to edit the user’s profile. Delete allows you to delete incorrect user profiles. This icon will appear ONLY for users that have not signed in. Once a user logs in, the delete icon will no longer show in their Actions column. Locked This field provides if the users login is locked, a user’s account can be locked by incorrectly typing in their password or user id more than 3 times.",
     "tags": [],
     "title": "User Management",
-    "uri": "/administrative-user-guide/user-management/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/user-management/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -389,7 +389,7 @@ var relearn_search_index = [
     "description": "The working CDI History can be used to look at historical working DRG calculations. The coders cannot edit this information, but they can review the data.\nThe first calculated DRG will assume the Baseline DRG role, which is used to calculate the CDI impact on a chart. If you wish to change the Baseline DRG, you can click the “Set Baseline DRG” button.\nAdding an Alternative Working DRG You can also indicate which Working DRGs are an alternative DRG for reconciliation. By checking the box next to each DRG, you are approving it as an alternative DRG to auto-reconcile the chart. You can manually add an additional DRG if it does not appear in the list.",
     "tags": [],
     "title": "Working CDI History",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/working-cdi-history/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -397,7 +397,7 @@ var relearn_search_index = [
     "description": "Unassigned Codes Panel Diagnosis Codes In the bottom right panel on the screen, is a list of unassigned Diagnosis Codes that have been suggested by the engine for validation. Left-clicking on the diagnosis code will take you to the location within the document that prompted the code suggestion.\nProcedure Codes Under unassigned Diagnosis Codes are listed all unassigned Procedure Codes that have been suggested by the engine for validation. Left-clicking on the procedure code will take you to the location within the document that prompted the code suggestion.",
     "tags": [],
     "title": "Code Panels",
-    "uri": "/coding-user-guide/coding-a-patient-chart/code-panels/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/code-panels/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -405,7 +405,7 @@ var relearn_search_index = [
     "description": "Admit Reason This is the reason that registration has typed in; this is not the admit reason set by the coder. That information is displayed in the Admit Dx Code field.\nCategory A category is a ‘Dolbey’ created field that is used to further specify a patient type, if applicable. At some sites, category might equal patient type while others may have a category that is comprised of multiple fields to create that category. For example, if you would like to report on how many charts a coder completed for inpatient and then define them by LOS, you then have a category to define the difference between LOS patient types or service lines.",
     "tags": [],
     "title": "Definitions",
-    "uri": "/definitions/index.html"
+    "uri": "/fusion-cac-web-docs/definitions/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -413,7 +413,7 @@ var relearn_search_index = [
     "description": "This section will only display on an inpatient chart.\nField Field Description MS-DRG Change? This is a yes or no field. If the billing DRG was changed from the previous DRG assignment. N/A is available in the event the auditor wants to list it as not applicable to the audit. Note if the Billing DRG and the APR-DRG as the same there could be duplication of changes reported on this field and the APR-DRG Change field. Reimbursement Change? This is a field that indicates if the billing DRG change resulted in a increase, decrease or no reimbursement change. N/A is available in the event the auditor wants to list it as not applicable to the audit. Reimbursement Change Amount This is a field that indicates if the billing DRG change resulted in a change the amount will be displayed. APR-DRG ROM Change? This is a yes or no field. If the APR-DRG changed resulted in an ROM (Risk of Mortality) change. N/A is available in the event the auditor wants to list it as not applicable to the audit. APR-DRG SOI Change? This is a yes or no field. If the APR-DRG changed resulted in an SOI (Severity of Illness) change. N/A is available in the event the auditor wants to list it as not applicable to the audit. APR-DRG Change? This is a yes or no field. If the APR-DRG was changed from the previous DRG assignment. N/A is available in the event the auditor wants to list it as not applicable to the audit. Note if the Billing DRG and the APR-DRG as the same there could be duplication of changes reported on this field and the MS-DRG field which is the Billing DRG.",
     "tags": [],
     "title": "Drg Outcome",
-    "uri": "/fields/drg-outcome/index.html"
+    "uri": "/fusion-cac-web-docs/fields/drg-outcome/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -421,7 +421,7 @@ var relearn_search_index = [
     "description": "Fusion CAC suggests a DRG on inpatient charts. This Suggested DRG is computed by the system within a set interval (typically every six hours of the patient’s admission provided there is enough documentation to suggest codes used to compute a DRG).\nThe Suggested DRG is then re-calculated every six hours until discharge or a CDI Specialist or Coder computes a DRG. At that time the Suggested DRG is discontinued. The Suggested DRG along with other data elements are not commonly used within Fusion CAC, rather this data is sent outbound to be used by other healthcare professionals ,such as physicians and case managers, to predict the number of days that the insurance (payor) will pay for the patient to stay within the hospital based upon the current diagnosis of the patient. The common data element used by case management and physicians is called the GMLOS (Geometric Means Length of Stay).",
     "tags": [],
     "title": "Suggested DRG Viewer",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/suggested-drg/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -429,7 +429,7 @@ var relearn_search_index = [
     "description": "The workflow management editor is a tool that allows users to create, design, modify, and manage workflows. A workflow is a series of tasks or activities that need to be completed in a specific order to achieve a desired outcome.\nWhat is the purpose of workflow? The purpose of a workflow is to systematically organize and streamline the patient chart activities for proper completion. Workflows are designed to improve efficiency, productivity, and collaboration between CDI, Coding, Quality and Auditing by defining the sequence of steps, assigning responsibilities, and establishing the flow of information between different individuals or departments involved in the process.",
     "tags": [],
     "title": "Workflow Management",
-    "uri": "/administrative-user-guide/workflow-management/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/workflow-management/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -437,7 +437,7 @@ var relearn_search_index = [
     "description": "Field Field Description Discharge Disposition Changed? This is a true or false field. If the Discharge Disposition was changed from the previous Disposition assignment the field will result in true which is counted as one error and if it was not changed it will result in false which is not counted as an error. N/A is available in the event the auditor wants to list it as not applicable to the audit. Abstracting Pre-Audit The total is the number of abstracting components there were at the time the audit is started. Abstractions Pre-Audit = (Total Procedure and CPT Codes x 2) + 1 for Discharge Disposition + 1 for Consulting Providers if Present). Procedure and CPT Codes are multiplied by two since there are to abstraction opportunities which is date of service and preforming provider. Abstracting Errors This is the total codes that appear in the above boxes the formula is as followed: Abstracting Errors = Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes. Abstracting Error Rate This is the total abstracting error rate as a percentage the formula is: Abstracting Errors = Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes/Abstracting Pre-Audit. Abstracting Accuracy Rate This is the total abstracting accuracy as a percentage the formula is: Abstracting Error Rate = (Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes/Abstracting Pre-Audit) – 100%.",
     "tags": [],
     "title": "Abstracting",
-    "uri": "/fields/abstracting/index.html"
+    "uri": "/fusion-cac-web-docs/fields/abstracting/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -445,7 +445,7 @@ var relearn_search_index = [
     "description": "This Viewer is Optional This an optional feature and may not be configured for your site or supported by your EMR vendor. The discrete values show trending data or data that has values. The most common examples of discrete values are lab values and vital signs.\nOnce you have clicked on Discrete Values or the Flow Sheet Viewer from the navigation tree you will be presented with one of the two views depending on your desired configuration during the project.",
     "tags": [],
     "title": "Discrete Values and Flow Sheet Viewers",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/discrete-values-and-flow-sheet-viewers/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -453,7 +453,7 @@ var relearn_search_index = [
     "description": "This section contains an alphabetical list of fields configured to be available in account search, workflow, and account list grid. These fields and their friendly names are set in the grid columns configuration that can be found in the tools menu. The “Grid Column Configuration” page is an administrative page used to identify the columns displayed. This list may not have the full listing of fields as some fields are custom, however the fields listed are the most common.",
     "tags": [],
     "title": "Fields",
-    "uri": "/fields/index.html"
+    "uri": "/fusion-cac-web-docs/fields/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -461,7 +461,7 @@ var relearn_search_index = [
     "description": "This allows you to create custom user roles that can access certain privileges of Fusion CAC by checking or unchecking the box next to each of the privileges. When first viewed, Role Management will already have default privileges for each role checked for backwards compatibility. This allows management to create new roles. Even though the user can have more privileges, they will still maintain a current role of either coder or CDI which controls what assigned code tree and fields need completed upon their actions within the software.",
     "tags": [],
     "title": "Role Management",
-    "uri": "/administrative-user-guide/role-management/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/role-management/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -469,7 +469,7 @@ var relearn_search_index = [
     "description": "If an interface for account charges is set up during configuration, the Charges screen shows a listing of charges on the account and provides activity buttons to Save Layout or Expand the Charges or transactions pane.\nYou can expand the width of the Charges or transactions pane to view more available columns by clicking on the in the top right corner of the pane.",
     "tags": [],
     "title": "Charges/Transactions Viewer",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/charges-or-transactions/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -477,7 +477,7 @@ var relearn_search_index = [
     "description": "The Fusion CAC 2 application contains a variety of colors and symbols. The following table provides a detailed explanation of the significance associated with each color and symbol.\nE\u0026M Coding Viewer (Navigation Pane) The E\u0026M Coding viewer lettering will turn red if a user added charges and they were not sent outbound. In order to send the charges outbound there is a check box at the bottom of the viewer “Send Charges Outbound” then you must click save or submit. Once charges are sent outbound the viewer text will return to the default color (black).",
     "tags": [],
     "title": "Colors and Symbols",
-    "uri": "/colors/index.html"
+    "uri": "/fusion-cac-web-docs/colors/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -485,7 +485,7 @@ var relearn_search_index = [
     "description": "Field Field Description Total Pre-Audit The total pre-audit count at the time the audit is started. Total Pre-Audit = Diagnosis Pre-Audit + Visit Reason Pre-Audit + Procedure Pre-Audit + CPT Pre-Audit + Abstracting Pre-Audit. Total Errors This is the total overall errors that appear in the above boxes the formula is as followed: Total Errors = Diagnosis Errors + Visit Reason Errors + Procedure Errors + CPT Errors + Abstracting Errors. Total Error Rate This is the total overall error rate as a percentage the formula is: Total Errors = Diagnosis Errors + Visit Reason Errors + Procedure Errors + CPT Errors + Abstracting Errors/Total Pre-Audit. Total Accuracy Rate This is the total overall accuracy as a percentage the formula is: Total Errors = (Diagnosis Errors + Visit Reason Errors + Procedure Errors + CPT Errors + Abstracting Errors/Total Pre-Audit) – 100%.",
     "tags": [],
     "title": "Overall Statistics Section",
-    "uri": "/fields/overall-statistics-section/index.html"
+    "uri": "/fusion-cac-web-docs/fields/overall-statistics-section/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -493,7 +493,7 @@ var relearn_search_index = [
     "description": "Validation management is a rule editor that is permission based and can be found under the Tools menu.\nValidation rules allow the admin staff to create rules that show up on the code summary page to prevent users from submitting a patient chart or provide a warning to simply warn the user that something may need to be completed instead of preventing submission.\nFrom the front end of the software, you can create simple rules such as:",
     "tags": [],
     "title": "Validation Management",
-    "uri": "/administrative-user-guide/validation-management/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/validation-management/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -501,7 +501,7 @@ var relearn_search_index = [
     "description": "The E/M Configuration page must be set up by the Dolbey Team therefore the below is to show you what is within this page. If you need more information on the set up of this page, please contact the SME Team (smeteam@dolbey.com).\nThe ER E/M Configuration can be found within the Tools menu. If enabled, you will see it beneath the Validation Management.",
     "tags": [],
     "title": "Er Em Configuration Page",
-    "uri": "/administrative-user-guide/er-em-configuration-page/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/er-em-configuration-page/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Fields",
@@ -509,7 +509,7 @@ var relearn_search_index = [
     "description": "Field Field Description E/M Critical Care CPT Code This is the Critical Care CPT Code that was generated based upon time entered from within the ER E/M Worksheet. E/M Critical Care Duration This is the Critical Care time duration that was entered in by the coder either manually or using the time helper based upon time entered from within the ER E/M Worksheet. E/M ER Date This is the ER date the user entered into the ER E/M Worksheet. E/M ER Physician First Name This is the ER Physician First Name the user entered into the ER E/M Worksheet. E/M ER Physician ID This is the ER Physician ID the user tied to the physician entered on the ER E/M Worksheet. E/M ER Physician Last Name This is the ER Physician Last Name the user entered into the ER E/M Worksheet. E/M Is CC Criteria Met This is the radio button outcome from the CC Criteria Met that the user manually entered from within the ER E/M Worksheet. E/M Is CC Time Determined This is the radio button outcome from the CC Time Determined that the user manually entered from within the ER E/M Worksheet. E/M Level CPT Code This is the E/M Level CPT Code that was generated based upon the matrix selections entered from within the ER E/M Worksheet. This pertains to level 1-5 as critical care is documented in the E/M Critical Care CPT Code. E/M Level Number This is the E/M Level that was generated based upon the matrix selections entered from within the ER E/M Worksheet. This pertains to level 1-5 as critical care is documented separately. E/M No Charge CPT Code This is the No Charge CPT Code that was generated based the selection entered from within the ER E/M Worksheet. E/M No Charge Description This is the No Charge Description that was generated based the selection entered from within the ER E/M Worksheet. E/M Trauma This is the Trauma selection that was entered from within the ER E/M Worksheet.",
     "tags": [],
     "title": "Er Em Fields",
-    "uri": "/fields/er-em-fields/index.html"
+    "uri": "/fusion-cac-web-docs/fields/er-em-fields/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -517,7 +517,7 @@ var relearn_search_index = [
     "description": "A Medication Administration Record (MAR, or eMAR for electronic versions), commonly referred to as a drug chart, is the report that serves as a legal record of the drugs administered to a patient at a facility by a health care professional. The MAR is a part of a patient’s permanent record on their medical chart. The health care professional signs off on the record at the time that the drug or device is administered. Common information collected such as",
     "tags": [],
     "title": "Medications Viewers",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/medications-viewer/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -525,7 +525,7 @@ var relearn_search_index = [
     "description": "The DRG Reconciliation viewer displays the differences between the last known working DRG and the final DRG coded by a coder, with symbols indicating the discrepancies. The viewer updates in real time and does not store historical information. If the coder updates the DRG, the changes will reflect immediately in the DRG Reconciliation viewer. For historical data, please refer to reports",
     "tags": [],
     "title": "DRG Reconciliation Viewer",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/drg-reconciliation/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -533,7 +533,7 @@ var relearn_search_index = [
     "description": "The “Grid Column Configuration” page is an administrative page used to identify the columns displayed in Account List, Account Search, Calendar Stats by Day, and Dashboard pages. You can identify which columns you want to display for each of the default user types including: coder, physician coder, single path, auditor and CDI.\nAll columns added in Grid Column Configuration appear in Account Search, and selected columns can be made visible in the other three pages.",
     "tags": [],
     "title": "Grid Column Configuration",
-    "uri": "/administrative-user-guide/grid-column-configuration/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/grid-column-configuration/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -541,7 +541,7 @@ var relearn_search_index = [
     "description": "If the patient has been readmitted within 30 days of the admit date, the patient demographic data will display below from the previous stay. If the previous stay was also coded, you will see the code summary display below.\nIf a check mark appears next to the code, this indicates the code on the previous stay was also suggested for the current stay.",
     "tags": [],
     "title": "30 Day Readmit",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/30-day-readmit/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -549,7 +549,7 @@ var relearn_search_index = [
     "description": "A chat room is available on most admin tools workflow, form designer, user management, validation management. This chat room allows users to communicate when they are working in the admin tools. The chat is only available on one of these admin tool pages while another user is also in one of these tools. The chat will reset upon log off.",
     "tags": [],
     "title": "Chat Room",
-    "uri": "/administrative-user-guide/chat-room/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/chat-room/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -557,7 +557,7 @@ var relearn_search_index = [
     "description": "This page allows you to map data from a data field name to a friendly end user facing name. It is highly recommended to not touch data mapping tables in a production environment unless you have been trained to do so.\nA new Export to CSV button has been added to the mapping title bar. Clicking this will export that mapping’s list to CSV, where it can then be printed.",
     "tags": [],
     "title": "Mapping Configuration",
-    "uri": "/administrative-user-guide/mapping-configuration/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/mapping-configuration/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -565,7 +565,7 @@ var relearn_search_index = [
     "description": "The previous HCC overview will display the HCC history to show for both the current and prior year. HCCs will be collected once the HCCs has been enabled in the mapping table. It is recommended to turn HCCs on for all patient types to capture a more complete picture of HCCs. As a reminder, this will not capture data prior to turning this feature on in the mapping table. (In mappings, under the Categories mapping, there is a check box.) When HCCs are enabled, these will display below grouped by HCC category and by code — showing the account number and MRN # for the visits each were associated to.",
     "tags": [],
     "title": "Previous HCC Overview",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/previous-hcc-overview/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -573,7 +573,7 @@ var relearn_search_index = [
     "description": "The form designer is used to create worksheets for CDI, Coders, Shared Worksheets, Physician Coder, Documentation Review Forms and Query templates.\nA “Shared Worksheet” is a worksheet that can be used by both CDI Specialists and Coders, unlike “CDI Worksheet” and “Coder Worksheet” which are exclusive to CDI and Coding, respectively.\nForms are used to collect data and/or take notes. For example, CDI Worksheets are used for a CDI to document their thoughts while reviewing a chart.",
     "tags": [],
     "title": "Form Designer",
-    "uri": "/administrative-user-guide/form-designer/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/form-designer/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -581,7 +581,7 @@ var relearn_search_index = [
     "description": "Transfer codes can be used to help combine account codes into one encounter. Most sites leverage the ADT to combine the actual account, however, you may need to copy codes from one encounter to another.\nIf a patient has two different accounts and the coder has already done work on each of the accounts, the Transfer Codes feature can be an easy way to post codes when you’re within one account and want to search in another account, and have the ability to open that other account and see the codes. To transfer codes, type in the account number, then click load account. Once you have loaded the account, use the check boxes to the left of the codes to choose which codes you will transfer. Once you have finished that, select “Transfer Codes” and the codes you selected will be added to the “assigned code” tree that is on the current account.",
     "tags": [],
     "title": "Transfer Codes From Previous Encounter Viewer",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/transfer-codes-from-previous-encounter-viewer/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -589,7 +589,7 @@ var relearn_search_index = [
     "description": "Denial management tracking involves monitoring cases where a patient’s submitted billing chart is rejected by the payer. Various reasons, such as medical necessity, code, or DRG assignment, could lead to these denials. This tool is designed to comprehensively record the specifics related to denial management and tracking. It is capable of documenting multiple denials for each chart, with the ability to log and categorize them for the purpose of tracking, managing workflows, and generating reports.",
     "tags": [],
     "title": "Denial Management Viewer",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -597,7 +597,7 @@ var relearn_search_index = [
     "description": "Shortcut keys help provide an easier and usually quicker method of navigating and executing commands within the software.\nBecause some hotkeys may be mapped to a different software solution you are using, we allow you to configure ours. We provide defaults but feel free to change them as needed.\nTo record a new, simply press the record button on the line of the function you wish to configure. Enter in a button combination usually between 1-2 keys on the keyboard. For Example, ALT and F9 might submit the chart. We are a browser based application therefore you should not use the standard browser hot keys.",
     "tags": [],
     "title": "Shortcut Configuration",
-    "uri": "/administrative-user-guide/shortcut-configuration/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/shortcut-configuration/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart \u003e Account Viewers",
@@ -605,7 +605,7 @@ var relearn_search_index = [
     "description": "The ER E/M Viewer is an add-on module for any chart with a “Is Emergency” flag within the account properties. If you do not have this module, today contact the SME Team (smeteam@dolbey.com) for more information.\nIf this module is turned on on any “Is Emergency” chart you find the “E/M Coding Worksheet” in the Navigation menu.\nTo begin ER charging click on the “E/M Coding Worksheet” in the Navigation menu.",
     "tags": [],
     "title": "ER E/M Viewer",
-    "uri": "/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/er-em-viewer/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -613,7 +613,7 @@ var relearn_search_index = [
     "description": "The help menu can be found using the ? in the top right corner of the application. You will find a few resources under this menu. By clicking on the Fusion CAC/CDI Help you will find this user guide that you are viewing currently. You will also find how to reach out to our support and tuning resources in additional Keyboard short cuts.",
     "tags": [],
     "title": "Help Menu",
-    "uri": "/administrative-user-guide/help-menu/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/help-menu/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -621,7 +621,7 @@ var relearn_search_index = [
     "description": "Logins can be set to trigger an ‘inactivity reason’ via settings added to the Web.config file. With these settings, any user logging in after a certain period receives a pop-up window box which will ask them to select a reason they have been inactive and add any other notes they want to add. Inactivity Reasons are created in Mapping Configuration. This feature will help managers see where and why inactivity occurs during the workday.",
     "tags": [],
     "title": "Inactivity Timeout",
-    "uri": "/administrative-user-guide/inactivity-timeout/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/inactivity-timeout/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Administrative User Guide",
@@ -629,7 +629,7 @@ var relearn_search_index = [
     "description": "System Search System Search works similarly to Account Search. By creating filters, you can search for patient charts using different criteria. This System Search feature will also be used by the Tuning Team to identify targeted codes that need reviewed and possibly refined.\nAn example of a System Search would be all inpatient charts with a diagnosis of hypertension.\nIs inpatient = True Diagnosis Code = In List = I10 # (you may want to include other hypertension codes such as I13.0, I13.9, I12.0, I12.9, etc.) When you select “refresh”, a list of all accounts that meet the criteria will be displayed. If this is a search that you will want to use more than once, you can Save the search, making it available in the drop-down box",
     "tags": [],
     "title": "Tuning",
-    "uri": "/administrative-user-guide/tuning/index.html"
+    "uri": "/fusion-cac-web-docs/administrative-user-guide/tuning/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Coding User Guide \u003e Coding a Patient Chart",
@@ -637,7 +637,7 @@ var relearn_search_index = [
     "description": "Once you have finished working in an account, there are three ways of proceeding\nCancel - This cancels all work in the chart and either returns to the Workgroup or autoloads the next account (if autoload is selected). Upon canceling if you have unsaved changes you will be prompted. Save - This saves your work and either returns to the Workgroup or autoloads the next account (if autoload is selected.) Submit - This saves and sends your work to the next phase of workflow, based on your organizations requirements and either returns to the Workgroup or autoloads the next account (if autoload is selected). Account Changed Warning Box",
     "tags": [],
     "title": "Exiting an Account",
-    "uri": "/coding-user-guide/coding-a-patient-chart/exiting-an-account/index.html"
+    "uri": "/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/exiting-an-account/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -645,7 +645,7 @@ var relearn_search_index = [
     "description": "This section contains addenums to the Fusion CAC 2.0 manual based on software releases during the 2.XX cycle.\nV2.23 V2.24 V2.25 V2.26 V2.27 V2.28 V2.51 V2.52 V2.53 V2.54 V2.55",
     "tags": [],
     "title": "Release Notes",
-    "uri": "/release-notes/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -653,7 +653,7 @@ var relearn_search_index = [
     "description": "",
     "tags": [],
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/fusion-cac-web-docs/categories/"
   },
   {
     "breadcrumb": "",
@@ -661,7 +661,7 @@ var relearn_search_index = [
     "description": "Welcome to the Fusion CAC Web Application Product Documentation site!\nThis site is intended for reference by coders, CDS as well as supervisors and technical users who need to understand CAC functionality and workflow. This document will explain how to use Fusion CAC, describe each CAC component’s functionality, identify best practices, and illustrate the benefits provided.\nThe various chapters within this guide can be navigated using the \u003c (previous) and \u003e (next) buttons at the top-right of your screen, the navigation list on the left, or the search box above the navigation.",
     "tags": [],
     "title": "Fusion CAC User Guide",
-    "uri": "/index.html"
+    "uri": "/fusion-cac-web-docs/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide",
@@ -669,7 +669,7 @@ var relearn_search_index = [
     "description": "",
     "tags": [],
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/fusion-cac-web-docs/tags/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -677,7 +677,7 @@ var relearn_search_index = [
     "description": "V2.24.8210 Released 06/24/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.25",
-    "uri": "/release-notes/v2.25/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.25/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -685,7 +685,7 @@ var relearn_search_index = [
     "description": "V2.26.8297 Released 09/09/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.26",
-    "uri": "/release-notes/v2.26/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.26/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -693,7 +693,7 @@ var relearn_search_index = [
     "description": "V2.27.8378 Released 12/16/22 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.27",
-    "uri": "/release-notes/v2.27/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.27/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -701,7 +701,7 @@ var relearn_search_index = [
     "description": "V2.28.8497 Released 03/24/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.28",
-    "uri": "/release-notes/v2.28/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.28/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -709,7 +709,7 @@ var relearn_search_index = [
     "description": "V2.51.8581 Released 07/07/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.51",
-    "uri": "/release-notes/v2.51/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.51/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -717,7 +717,7 @@ var relearn_search_index = [
     "description": "V2.52.8658 Released 09/22/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.52",
-    "uri": "/release-notes/v2.52/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.52/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -725,7 +725,7 @@ var relearn_search_index = [
     "description": "V2.53.8745 Released 12/15/23 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.53",
-    "uri": "/release-notes/v2.53/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.53/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -733,7 +733,7 @@ var relearn_search_index = [
     "description": "V2.54.8854 Released 04/05/2024 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.54",
-    "uri": "/release-notes/v2.54/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.54/"
   },
   {
     "breadcrumb": "Fusion CAC User Guide \u003e Release Notes",
@@ -741,6 +741,6 @@ var relearn_search_index = [
     "description": "V2.55.8945 Released 06/28/2024 The notes below indicate changes and additions to the software. Please review these release notes carefully when deciding to apply a software update to an installation. Each note is related to an issue tracking assignment number (starting with CACTWO) in the heading. Please refer to the change with this tracking assignment number when communicating questions or issues. The heading also contains a parenthesized \"Change Type\", indicating the severity or importance of the change. The severities used are:",
     "tags": [],
     "title": "V2.55",
-    "uri": "/release-notes/v2.55/index.html"
+    "uri": "/fusion-cac-web-docs/release-notes/v2.55/"
   }
 ]

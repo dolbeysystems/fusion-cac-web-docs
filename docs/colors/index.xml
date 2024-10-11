@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colors and Symbols :: Fusion CAC Documentation</title>
-    <link>https://example.org/colors/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/colors/</link>
     <description>The Fusion CAC 2 application contains a variety of colors and symbols. The following table provides a detailed explanation of the significance associated with each color and symbol.&#xA;E&amp;M Coding Viewer (Navigation Pane) The E&amp;M Coding viewer lettering will turn red if a user added charges and they were not sent outbound. In order to send the charges outbound there is a check box at the bottom of the viewer “Send Charges Outbound” then you must click save or submit. Once charges are sent outbound the viewer text will return to the default color (black).</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/colors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/colors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

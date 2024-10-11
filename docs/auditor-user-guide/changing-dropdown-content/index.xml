@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Changing Dropdown Content :: Fusion CAC Documentation</title>
-    <link>https://example.org/auditor-user-guide/changing-dropdown-content/index.html</link>
+    <link>https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/changing-dropdown-content/</link>
     <description>The AuditType and AuditTrainingTopics mappings can be added to override the default mappings. If you would like to override these, you can find more information on creating a new mapping from the Mapping Configuration section of this user guide.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/auditor-user-guide/changing-dropdown-content/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/changing-dropdown-content/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
