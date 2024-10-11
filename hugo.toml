@@ -6,9 +6,17 @@ theme = 'relearn'
 [params]
 themeVariant = 'zen-light'
 
+[params.imageEffects]
+border = true
+lazy = false
+lightbox = true
+shadow = true
+
 
 [markup.goldmark.renderer]
 unsafe = true
 
 [outputs]
-home = ['html', 'rss', 'search']
+home = ['html', 'rss', 'search', 'print']
+page = ['html', 'rss', 'print']
+section = ['html', 'rss', 'print']

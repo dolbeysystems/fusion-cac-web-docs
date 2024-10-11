@@ -3,27 +3,24 @@ title = "Getting Connected"
 weight = 20
 +++
 
+
 Fusion CAC is a **browser-based** program. To launch the CAC browser application, open your web browser and enter
-your site’s Fusion CAC server address into the browser address bar.  You will need to get the Fusion CAC server
-address from your site administrator or manager.
+your site’s Fusion CAC server address into the {{%button%}}browser address bar{{%/button%}}.  You will need to get the Fusion CAC server
+address from your {{%icon icon="user-tie"%}} site administrator or manager.
 
-The address will usually look something like this: 
-
-```bash
-https://fusion-cac-production/cac2
-```
-
-> [!important] Example Only
-This address is just an example. The address for your server will be different. Be sure to type the
-server address into the URL box, not the Search box.
+> [!info] Fusion CAC URL Example
+> **https://fusion-cac-production/cac2**
+>
+>*This address is just an example. The address for your server will be different.*
 
 > [!note] Shortcut
-Your facility may have created an icon on your desktop or in another location based on how you connect to the
-hospital network, but either way, you can load the Fusion CAC software by typing the Fusion CAC server
-address into your browser's URL box manually.
+Your facility may have created an shortcut icon on your desktop to make it easier for you to quickly connect to
+the Fusion CAC application.
 
 
-Dolbey currently supports recent versions of the following web browsers:
+## {{%icon icon="globe"%}} Web Browser Support
+
+Fusion CAC works on *recent versions* of the following web browsers:
 
 <div style="display: flex; justify-content: center;">
   <figure>
@@ -46,13 +43,18 @@ Fusion CAC software.
 
 ## {{% icon icon="user" %}} Logging in to the Fusion CAC Coding Application
 
-Log in to Fusion CAC using the username and password provided to you by your facility.
+Once the Fusion CAC application has loaded in your browser, enter the username and password
+provided to you by your facility, and then press the {{%button%}}Login{{%/button%}} button.
 
-![login page](/images/image-004.jpg)
+{{%video "/logging-in.webm"%}}
+
+> [!warning] Account Lock-Out
+Five consecutive failed logins will cause your account to be locked out of the
+application.  If you are locked out, contact your {{% icon icon="user-tie" %}} supervisor.
 
 ## {{% icon icon="lock" %}} Two-Factor Authentication (Optional)
 
-> [!important] Two-Factor Configuration Required
+> [!important] Your organization may not have Two-Factor Authentication configured
 Two-factor authentication must be configured for your site by the Dolbey Support team.  If your site
 is not using two-factor authentication, this section will not apply to your login process.
 
@@ -73,34 +75,73 @@ flowchart LR;
   end
 {{< /mermaid >}}
 
-> [!caution]
+> [!warning] Account Lock-Out In Two-Factor Flow
 Five consecutive failed logins at either stage will cause your account to be locked out of the
-application.
+application.  If you are locked out, contact your {{% icon icon="user-tie" %}} supervisor.
 
-Your site may be configured for two-factor authentication.  If this is the case, the first time that
-you login, you will be presented with a screen showing a QR code or setup key to scan or enter into
-an authenticator app on your phone.  Once you have scanned or saved the code to your authenticator
-app, the TOTP (time-based one-time password) entry for Fusion CAC will appear in your authenticator 
-app with the following title.
+If your site is configured for **two-factor authentication**, after your first login, you will be
+taken to a screen showing a QR code to scan or a key to enter into
+an authenticator app on your {{% icon icon="phone" %}} smartphone.  
 
-```bash
-"Fusion CAC " + environmentName appSetting + ": " + user's login ID
+Once you have scanned or saved the code to your authenticator app, the TOTP (time-based one-time
+password) entry for Fusion CAC will appear in your authenticator  app with a title similar to this:
+
 ```
-To view the TOTP key for the app, select this entry in your authenticator app.  You should see a 
-long sequence of characters that will change every minute.  From now on, when you login to the Fusion
-CAC application, you will need to view and enter this key from your phone into the field beneath the
+Fusion CAC Dolbey Health Production: heminger
+```
+
+At this point, your {{% icon icon="phone" %}} authenticator app has been configured and will now
+give you time-based codes to log in to the Fusion CAC coding application.
+
+To view the time-based code when logging into the app, select the entry in your authenticator app.  You should see a 
+long sequence of characters that will change every minute.  When you login to the Fusion
+CAC application, you will need to view and enter this key from your {{%icon icon="phone"%}} authenticator app into the field beneath the
 password field.
 
-An administrator or user with privileges to User Management will be able to reset any user's two factor
-authenticator for situations in which the user lost the phone or purchased a new phone that requires a
-new QR code to scan. A new "Two Factor" line will appear in the User Detail page indicating whether the
-user has successfully logged in with a TOTP previously. If the user did, a link will appear for the
-administrator to reset the user's TOTP (which will cause a new QR code to appear for that user).
+> [!note] What if I get a new phone?
+Your {{%icon icon="user-tie"%}} site administrator or supervisor can reset your two-factor
+authentication setup if you have replaced or reset your phone and no longer have access
+to the "Fusion CAC" entry in your authenticator application.
 
-> [!caution] Save Required
-The user's profile must be saved after clinking the link in case the reset was accidental. 
+## Section Quiz: Test Your CAC Knowledge!
 
-> [!caution] Reset Creates a New QR Code
-The QR Code and Setup Key newly provided to the user after a reset is NOT the same as the prior QR Code
-and Setup Key intentionally, which should cause the prior TOTP to no longer work.
+{{< quizdown >}}
+  ---
+  primaryColor: steelblue
+  shuffleQuestions: false
+  shuffleAnswers: true
+  ---
 
+  ### How do you launch the Fusion CAC Application?
+
+  > Remember that Fusion CAC is a **browser-based application**
+
+  1. [x] By entering the URL into a supported web browser
+  1. [ ] From the start menu
+  1. [ ] By clicking an icon on your phone
+  1. [ ] By downloading it from your web browser
+
+  ### Which browsers are supported by Fusion CAC?
+
+  > Fusion CAC supports three modern browsers
+
+  - [x] Google Chrome
+  - [x] Mozilla Firefox
+  - [x] Microsoft Edge
+  - [ ] Apple Safari
+    > Safari is generally only used on iPhones and Apple computers
+  - [ ] Microsoft Internet Explorer
+    > Internet Explore has reached end-of-life with Microsoft support
+
+  ### How do you know if two-factor authentication is enabled? (Check all that apply)
+
+  > There are exactly two correct answers
+
+  - [x] Your supervisor will tell you
+  - [x] You will be presented with a QR code after logging in
+  - [ ] You clicked the "Two-Factor" checkbox on the login screen
+    > There is no such checkbox
+  - [ ] There will be a lock next to the url in the browser address bar
+    > The lock only notifies you that Fusion CAC uses SSL to encrypt browser communication
+
+{{< /quizdown >}}

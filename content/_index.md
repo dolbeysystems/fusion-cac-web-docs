@@ -12,5 +12,3 @@ CAC component’s functionality, identify best practices, and illustrate the ben
 The various chapters within this guide can be navigated using the **<** (previous) and **>** (next) buttons at the top-right of
 your screen, the **navigation list** on the left, or the **search box** above the navigation.
 
-
-{{% children depth=999 %}}

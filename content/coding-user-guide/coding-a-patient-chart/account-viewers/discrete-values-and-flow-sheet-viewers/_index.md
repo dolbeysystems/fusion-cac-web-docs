@@ -67,6 +67,7 @@ indicates if the value is low vs. high.
 ![Discrete Values Viewer](image-185.jpg)
 
 > [!tip] Pop-Out Window
-> The flow sheet or discrete data viewer can be popped out into another window by clicking on a
-> little square with an arrow pointing to the right in the navigation tree next to the flowsheet or data
-> viewer name.
+The **flow sheet viewer** or **discrete data viewer** can be popped out into another window
+{{%icon icon="window-restore"%}} by clicking on
+the {{%icon icon="arrow-up-right-from-square"%}} icon in the {{%icon icon="folder-tree"%}} navigation tree next to the flowsheet or data
+viewer name.

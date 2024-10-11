@@ -6,7 +6,7 @@ weight = 100
 The Fusion CAC 2 application contains a variety of colors and symbols. The following table provides a
 detailed explanation of the significance associated with each color and symbol.
 
-### E&M Coding Viewer (Navigation Pane)
+## E&M Coding Viewer (Navigation Pane)
 
 ![](image-579.jpg)
 
@@ -18,7 +18,7 @@ charges are sent outbound the viewer text will return to the default color (blac
 Please note that this feature is optional and requires configuration to enable the
 sending of charges outbound.
 
-### Physicians & Queries
+## Physicians & Queries
 
 ![](image-580.jpg)
 
@@ -29,7 +29,7 @@ Navigation Tree if the account has at least one physician query CACTWO-6136
 The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.
 
-### Code Summary (Navigation Pane)
+## Code Summary (Navigation Pane)
 
 ![](image-581.jpg)
 
@@ -48,7 +48,7 @@ information comes from the APR-DRG which is a priority grouper licensed from 3M 
 
 **1-3 Numbers in Visit Reason Section**: This indicates the position number of visit reason.
 
-### Validation Results (Code Summary)
+## Validation Results (Code Summary)
 
 ![](image-584.png)
 
@@ -58,7 +58,7 @@ be things that they need to resolve. It does prevent the user from submitting th
 **Yellow**: This color is associated with validation soft stop used to notify a user that there may
 be things that they need to resolve. It does not prevent the user from submitting the chart.
 
-### Document Tree
+## Document Tree
 
 ![](image-585.jpg)
 
@@ -94,7 +94,7 @@ document.
 
 **Aqua Background**: This color indicates this document has been popped out into a different tab.
 
-### Document Pane
+## Document Pane
 
 ![](image-589.png)
 
@@ -140,7 +140,7 @@ show all or unassigned code tree this indicates there is a comment on a code. Th
 comment can also be found on the notes & bookmarks under the navigation tree within the
 code comment section.
 
-### Audit Worksheet
+## Audit Worksheet
 
 ![](image-596.jpg)
 
@@ -163,7 +163,7 @@ or items getting audited on the coder or auditor tree.
 
 **Blue background**: Accuracy rate lines have a blue background, so they stand out.
 
-### Code Tree
+## Code Tree
 
 ![](image-599.jpg)
 
@@ -217,20 +217,20 @@ admission (POA) status. When clicked the end user can change the status to the f
 - W = Withdrawal
 - E = Exempt
 
-### Notes & Bookmarks (Navigation Tree)
+## Notes & Bookmarks (Navigation Tree)
 
 ![](image-602.jpg)
 
 **Red**: The red indicates that there are notes, bookmarks or code comments.
 
-### Physicians & Queries (Navigation Tree)
+## Physicians & Queries (Navigation Tree)
 
 ![](image-603.jpg)
 
 **Red**: The red indicates that there are answered queries awaiting review.
 **Brown**: The brown indicates that there are open queries awaiting an answer
 
-### Charges (Navigation Tree)
+## Charges (Navigation Tree)
 
 ![](image-604.jpg)
 
@@ -239,7 +239,7 @@ the TruCode encoder or add on edits. If you hoover over the caution symbol you c
 edit, if you need a larger view of the edit you can open the TruCode research page for
 further details.
 
-### CDI Alerts (Navigation Tree)
+## CDI Alerts (Navigation Tree)
 
 ![](image-605.jpg)
 
@@ -254,7 +254,7 @@ consult to occur the next day to decide if a query is needed."
 **Red with Number**: The red indicates that there are "Active CDI Alerts" and the number
 represents to total active alerts.
 
-### Dashboards
+## Dashboards
 
 ![](image-607.jpg)
 
@@ -262,7 +262,7 @@ represents to total active alerts.
 will open a new tab into a pop out with the details behind the number. There are some
 numbers like numbers with a percentage rates or averages that won't yield pop out results.
 
-### Tuning Dashboard (Tuning Menu)
+## Tuning Dashboard (Tuning Menu)
 
 ![](image-608.jpg)
 
@@ -270,7 +270,7 @@ numbers like numbers with a percentage rates or averages that won't yield pop ou
 represents the charts that an user accessed. The tuning team uses this to keep track of the
 cases they have reviewed and those they have left to review.
 
-### Right Corner (Anywhere)
+## Right Corner (Anywhere)
 
 ![](image-609.jpg)
 
@@ -278,7 +278,7 @@ cases they have reviewed and those they have left to review.
 keys configured for your site and more. This icon can also have customized links for the
 site and if this is needed a ticket can be logged with development
 
-### Banner Bar
+## Banner Bar
 
 ![](image-610.jpg)
 ![](image-611.jpg)

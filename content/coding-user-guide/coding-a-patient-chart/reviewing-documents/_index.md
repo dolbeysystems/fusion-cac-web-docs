@@ -9,14 +9,14 @@ Unassigned Codes pane. Codes can also be added manually via direct code entry or
 
 ![Document Tree](image-031.png)
 
-## Validating a Code
+## {{% icon icon="check" %}} Validating a Code
 
 Codes can be validated/added to the chart as Assigned Codes as you are reviewing documents and the suggested codes within
 the document.
 
 Right-click on the code to Edit/Assign the code.
 
-## Code Highlighting
+## {{% icon icon="highlighter" %}} Code Highlighting
 
 - If the background of the text suggestion has a <span style="color:purple; font-weight: bold">purple</span> background, the text matches a code suggestion.
 - If the background of the text suggestion has a <span style="color:red; font-weight: bold">red</span> background, the text matches only a secondary token.
