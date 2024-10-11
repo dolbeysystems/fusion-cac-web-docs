@@ -3,10 +3,11 @@ title = "Getting Connected"
 weight = 20
 +++
 
-
-Fusion CAC is a **browser-based** program. To launch the CAC browser application, open your web browser and enter
-your site’s Fusion CAC server address into the {{%button%}}browser address bar{{%/button%}}.  You will need to get the Fusion CAC server
-address from your {{%icon icon="user-tie"%}} site administrator or manager.
+Fusion CAC is a **browser-based** program. To launch the CAC browser application,
+open your web browser and enter your site’s Fusion CAC server address into the
+{{%button%}}browser address bar{{%/button%}}.  You will need to get the Fusion
+CAC server address from your {{%icon icon="user-tie"%}} site administrator or
+manager.
 
 > [!info] Fusion CAC URL Example
 > **https://fusion-cac-production/cac2**
@@ -14,9 +15,8 @@ address from your {{%icon icon="user-tie"%}} site administrator or manager.
 >*This address is just an example. The address for your server will be different.*
 
 > [!note] Shortcut
-Your facility may have created an shortcut icon on your desktop to make it easier for you to quickly connect to
-the Fusion CAC application.
-
+Your facility may have created an shortcut icon on your desktop to make it easier
+for you to quickly connect to the Fusion CAC application.
 
 ## {{%icon icon="globe"%}} Web Browser Support
 
@@ -38,8 +38,8 @@ Fusion CAC works on *recent versions* of the following web browsers:
 </div>
 
 > [!caution] Internet Explorer Support
-Microsoft Internet Explorer is no longer supported by Microsoft and is also not compatible with the
-Fusion CAC software.
+Microsoft Internet Explorer is no longer supported by Microsoft and is also not compatible with
+the Fusion CAC software.
 
 ## {{% icon icon="user" %}} Logging in to the Fusion CAC Coding Application
 
@@ -55,8 +55,9 @@ application.  If you are locked out, contact your {{% icon icon="user-tie" %}} s
 ## {{% icon icon="lock" %}} Two-Factor Authentication (Optional)
 
 > [!important] Your organization may not have Two-Factor Authentication configured
-Two-factor authentication must be configured for your site by the Dolbey Support team.  If your site
-is not using two-factor authentication, this section will not apply to your login process.
+Two-factor authentication must be configured for your site by the Dolbey Support team.
+If your site is not using two-factor authentication, this section will not apply to your login
+process.
 
 {{< mermaid >}}
 flowchart LR;
@@ -93,10 +94,10 @@ Fusion CAC Dolbey Health Production: heminger
 At this point, your {{% icon icon="phone" %}} authenticator app has been configured and will now
 give you time-based codes to log in to the Fusion CAC coding application.
 
-To view the time-based code when logging into the app, select the entry in your authenticator app.  You should see a 
-long sequence of characters that will change every minute.  When you login to the Fusion
-CAC application, you will need to view and enter this key from your {{%icon icon="phone"%}} authenticator app into the field beneath the
-password field.
+To view the time-based code when logging into the app, select the entry in your authenticator app.
+You should see a long sequence of characters that will change every minute.  When you login to the
+Fusion CAC application, you will need to view and enter this key from your {{%icon icon="phone"%}}
+authenticator app into the field beneath the password field.
 
 > [!note] What if I get a new phone?
 Your {{%icon icon="user-tie"%}} site administrator or supervisor can reset your two-factor

@@ -19,22 +19,23 @@ Click on the {{% icon icon="bars" %}} Menu icon to view the drop-down listing.
 
 ![Pin Column](image-087.jpg)
 
-The Pin Column feature will allow you to freeze certain columns to the left {{% icon icon="arrow-left" %}} or right {{% icon icon="arrow-right" %}} of your accounts 
-grid pane. Doing so will keep these columns visible when you move to other areas of the assigned 
-accounts grid.
+The Pin Column feature will allow you to freeze certain columns to the left {{% icon icon="arrow-left" %}} or
+right {{% icon icon="arrow-right" %}} of your accounts  grid pane. Doing so will keep these columns
+visible when you move to other areas of the assigned  accounts grid.
 
 To pin multiple columns, click on each column that you want to pin and select the menu option based on where
 you would like to view the selected pinned column. Columns can be rearranged after they have been pinned
-based on your view preferences. To unpin a column, select the Pin Column option from the menu and
-choose No Pin.
+based on your view preferences. To unpin a column, select the {{%button%}}Pin Column{{%/button%}} option from
+the menu and choose {{%button%}}No Pin{{%/button%}}.
 
 ### {{% icon icon="left-right" %}} Auto size & Reset Columns
 
 Within the assigned accounts listing, the default column width is based on the account with the data
 field having the most characters. You can size individual columns or all columns to automatically fit the
 width of contents of that particular column. To Auto size just one column, select the menu button for
-the column, then select {{% button %}}Autosize This Column{{% /button %}}. To automatically fit the width of contents for ALL
-columns, select the menu button for any column, then select {{% button %}}Autosize All Columns{{% /button %}}.
+the column, then select {{% button %}}Autosize This Column{{% /button %}}. To automatically fit the width of
+contents for ALL columns, select the menu button for any column, then select {{% button %}}Autosize All
+Columns{{% /button %}}.
 
 To return column widths to their default settings, select the menu button for any column, then select
 {{% button %}}Reset Columns{{% /button %}}.
@@ -45,9 +46,9 @@ The Tool Panel feature gives you the flexibility to customize the display of col
 Accounts Grid. In addition to the option of auto sizing columns to maximize what is displayed, you can
 select/deselect column headings based on your preferences.
 
-Click on {{% button %}}Tool Panel{{% /button %}} from the Column Setting drop-down listing to view the Tool Panel selection menu.
-You can select/deselect columns to be displayed and then click on Tool Panel again to hide the Tool
-Panel selection menu.
+Click on {{% button %}}Tool Panel{{% /button %}} from the Column Setting drop-down listing to view the Tool
+Panel selection menu. You can select/deselect columns to be displayed and then click on Tool Panel again
+to hide the Tool Panel selection menu.
 
 ## {{% icon icon="table-columns" %}} Grid Columns Fields
 
@@ -60,8 +61,8 @@ clicking on the Columns icon in any column on your assigned accounts listing.
 
 Tool Panel settings will remain for all future coding sessions and subsequent logins.
 
-To bring all columns back into view, click on {{% button %}}Reset Columns{{% /button %}} from the Column Settings drop-down
-listing.
+To bring all columns back into view, click on {{% button %}}Reset Columns{{% /button %}} from the Column
+Settings drop-down listing.
 
 ### {{% icon icon="filter" %}} Filter Menu
 
@@ -72,13 +73,13 @@ in the Search box.
 
 ![Column Filter Menu](image-092.jpg)
 
-A Filter icon in front of the column heading means that a filter has been applied.
+A {{%icon icon="filter"%}} Filter icon in front of the column heading means that a filter has been applied.
 
-To remove any selected filters, click on the Filter button and then check the box for {{% icon icon="square-check" %}}**Select All** 
-to remove all filters.
+To remove any selected filters, click on the Filter button and then check the box for
+{{% icon icon="square-check" %}}**Select All**  to remove all filters.
 
-If you filter columns, you can use the {{% button %}}Reset Filter{{% /button %}} button to remove filters vs. removing 
-the filter from the column itself.
+If you filter columns, you can use the {{% button %}}Reset Filter{{% /button %}} button to remove filters vs.
+removing  the filter from the column itself.
 
 ![Column Filter Menu](image-088.jpg)
 
@@ -86,12 +87,14 @@ the filter from the column itself.
 
 Sorting work queue columns is an integral part of workflow. By sorting information in the assigned
 accounts grid, you can see data the way you want and find accounts quickly. You can sort data by text
-(A to Z or Z to A), numbers (smallest to largest or largest to smallest), and dates (oldest to newest and
+({{%icon icon="arrow-down-a-z"%}} or {{%icon icon="arrow-down-z-a"%}}), numbers
+({{%icon icon="arrow-down-1-9"%}} or {{%icon icon="arrow-down-9-1"%}}), and dates (oldest to newest and
 newest to oldest).
 
 To sort a single column, click once on the column header of the column you want to sort. The column
-header will change to an up arrow. This will sort the column first in ascending order (A-Z). Click the
-column header again to change to a descending (Z-A) sort with a down arrow.
+header will change to an up arrow. This will sort the column first in ascending order
+{{%icon icon="arrow-down-a-z"%}}. Click the column header again to change to a descending
+{{%icon icon="arrow-down-z-a"%}} sort with a down arrow.
 
 | UI                                | Description     |
 | --------------------------------- | --------------- |
@@ -143,8 +146,8 @@ will not be visible here if there are no accounts available for coding for that 
 
 Checking the Auto-Load box before you start your session or when you are in an assigned Workgroup
 will automatically load the next chart in the selected Workgroup upon Save, Submit, or Cancel. You can
-discontinue Auto-Load at any time by unchecking the {{% icon icon="square" %}} Auto-Load box. This will return you to the
-Assigned to Workgroup for manual selection of the next chart in the selected Workgroup.
+discontinue Auto-Load at any time by unchecking the {{% icon icon="square" %}} Auto-Load box. This will
+return you to the Assigned to Workgroup for manual selection of the next chart in the selected Workgroup.
 
 > [!note] Auto-load Uses Filter/Sort
 Auto-load will load the next chart using the filters and sorts that you have applied to your
@@ -152,11 +155,12 @@ Workgroup.
 
 ![Auto-Load NavBar](image-104.jpg)
 
-Fusion CAC will automatically open the next account in your assigned Workgroup after you {{% button %}}Cancel{{% /button %}},
-{{% button %}}Save{{% /button %}} or {{% button %}}Submit{{% /button %}} the current account.
+Fusion CAC will automatically open the next account in your assigned Workgroup after you {{% button %}}
+ancel{{% /button %}}, {{% button %}}Save{{% /button %}} or {{% button %}}Submit{{% /button %}} the current
+account.
 
-To discontinue auto-loading of the next chart in your assigned Workgroup, you can click {{% button %}}No{{% /button %}} when
-presented with the **Auto-Load Next Account?** dialog.
+To discontinue auto-loading of the next chart in your assigned Workgroup, you can click
+{{%button%}}No{{%/button%}} when presented with the **Auto-Load Next Account?** dialog.
 
 ![Disconnect Auto-Load](image-105.png)
 
@@ -166,12 +170,12 @@ presented with the **Auto-Load Next Account?** dialog.
 
 Fusion CAC is regularly reacting to account activity, submitting information to the encoder, updating
 Workgroups, and receiving updated data to the EMR. When you are working from the assigned accounts listing,
-from time to time you might need to {{% icon icon="arrows-rotate" %}} refresh the data and update the Workgroups with
-recent information.
+from time to time you might need to {{% icon icon="arrows-rotate" %}} refresh the data and update the
+Workgroups with recent information.
 
 To ensure that you have the most up-to-date information for accounts in your assigned Workgroups, or
-when your current session of Fusion CAC has been idle for an extended period, hit the {{% button %}}Refresh{{% /button %}} button to
-update your session with recent activity.
+when your current session of Fusion CAC has been idle for an extended period, hit the
+{{%button%}}Refresh{{%/button%}} button to update your session with recent activity.
 
 > [!note] Avoid Browser Refresh
 The **Refresh** button within Fusion CAC is different from the refresh button in your browser. It is
@@ -182,8 +186,8 @@ resulting in a loss of your work.
 
 If your facility has opted to use a workflow outside of Fusion CAC or the chart you wish to work on is not
 in your assigned Workgroup, you can open a chart by entering the account number in the **Account #**
-search box on the right side of the Account List Control Bar. Press {{% button %}}ENTER{{% /button %}} after typing in the account
-number to open the chart to the Account Screen.
+search box on the right side of the Account List Control Bar. Press {{% button %}}ENTER{{% /button %}}
+after typing in the account number to open the chart to the Account Screen.
 
 ![Loading a Specific Chart](image-106.png)
 
@@ -204,9 +208,9 @@ The Accounts Action Bar includes information on the account including:
 | **Dates of Service** | From and Thru                           |
 | **Length of Stay**   | based on current date or discharge date |
 
-The Accounts Action Bar also includes buttons to {{% button %}}Compute{{% /button %}} (accessing the encoder), 
-{{% button %}}Cancel{{% /button %}}, {{% button %}}Save{{% /button %}}, or
-{{% button %}}Submit{{% /button %}} to complete work and close a chart.
+The Accounts Action Bar also includes buttons to {{% button %}}Compute{{% /button %}} (accessing the
+encoder), {{%button%}}Cancel{{%/button%}}, {{%button%}}Save{{%/button%}}, or
+{{%button%}}Submit{{%/button%}} to complete work and close a chart.
 
 | Action      | Description                                                                                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
