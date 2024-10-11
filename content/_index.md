@@ -3,7 +3,7 @@ archetype = "home"
 title = "Fusion CAC User Guide"
 +++
 
-Welcome to the Fusion CAC Web Application Product Documentation site!
+Welcome to the Fusion CAC Web Application Product Documentation site.
 
 This site is intended for reference by coders, CDS as well as supervisors and technical users who need
 to understand CAC functionality and workflow. This document will explain how to use Fusion CAC, describe each
