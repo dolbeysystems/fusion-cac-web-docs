@@ -1,5 +1,5 @@
 +++
-title = 'Baseline Drg'
+title = 'Baseline DRG'
 weight = 70
 +++
 

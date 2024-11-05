@@ -1,5 +1,5 @@
 +++
-title = 'Computing a Drg'
+title = 'Computing a DRG'
 weight = 40
 +++
 
