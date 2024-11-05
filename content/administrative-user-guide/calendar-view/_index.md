@@ -1,5 +1,5 @@
 +++
-title = 'Calendar View'
+title = 'Calendar Views'
 weight = 20
 +++
 
