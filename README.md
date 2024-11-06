@@ -48,3 +48,12 @@ Studio Code.
 > integrate changes that you were not up to date with on the server before pushing your changes.
 > Once this is completed, you should push/sync again.
 
+### Authoring
+
+Details on how to author content in the content folder can be found at the documentation for the hugo relearn theme 
+here:
+
+https://mcshelby.github.io/hugo-theme-relearn/index.html
+
+
+
