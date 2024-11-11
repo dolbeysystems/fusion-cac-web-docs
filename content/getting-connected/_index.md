@@ -36,6 +36,7 @@ To launch the CAC application:
 address into the address bar. The server address will be provided by your {{%icon icon="user-tie"%}} site
 administrator or manager. It will usually look something like this: https://dolbeyfusion.test.com/cac2
 
+
 ![Login Screen](User Guide Login Screen.png)
 
 Once the Fusion CAC application has loaded in your browser, enter the username
