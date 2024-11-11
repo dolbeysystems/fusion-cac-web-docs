@@ -54,63 +54,20 @@ APC computed and returned from the encoder.
 
 ![Banner Bar - DRG/APC](image-110.jpg)
 
-### Quality Indicators Module
 
-This module is an additional cost that adds on the ability to identify PSI, Quality Measure PC-06 and the
-Elixhauser Measures. If you want to learn more about this quality module you can contact the SME team
-for more details at smeteam@dolbey.com.
 
-#### PSI Indicators
 
-The PSI Module uses the PSI technical specification from Agency for Healthcare Research and Quality
-U.S. Department of Health and Human Services from www.qualityindicators.ahrq.gov.
 
-Fusion CAC uses the final codes assigned by coders along with other patient data that meet each PSI
-guideline. Fusion CAC provides an indicator on the banner bar to a coder when codes coupled with
-patient demographics meet a PSI guideline.
 
-This PSI indicator displays in the banner bar under the compute button. The PSI is reported in one of two
-fields CDI PSI Indicator or PSI Indicator if identified by a coder. The indicator can be used for workflow
-and/or reporting.
 
 ![PSI Indicators](image-114.jpg)
 
-#### PDI Indicator
-
-The PDI Module uses the PDI technical specification from Agency for Healthcare Research and Quality
-U.S. Department of Health and Human Services www.qualityindicators.ahrq.gov.
-
-The Pediatric Quality Indicators (PDIs) focus on potentially preventable complications and iatrogenic
-events for pediatric patients treated in hospitals and on preventable hospitalizations among pediatric
-patients, taking into account the special characteristics of the pediatric population.
-
-This PDI indicator displays in the banner bar under the compute button. The PDI is reported in one of
-two fields CDI PDI Indicator or PDI Indicator if identified by a coder. The indicator can be used for
-workflow and/or reporting.
-
-The algorithm for the PDI on if it applied or not is within the code summary pane.
 
 ![PSI Indicators](image-116.jpg)
 
-#### PC-06 Indicator
-
-The Quality Measure Module supports the PC06 measure and uses the Joint Commission technical
-specification https://manual.jointcommission.org/releases/TJC2018B/MIF0393.html.
-
-Fusion CAC uses the final codes assigned by coders along with other patient data that meet each PC-06
-guideline. Fusion CAC provides an indicator on the banner bar to a coder when codes coupled with
-patient demographics meet a PC-06 guideline. The indicator can be used for workflow and/or reporting.
-
-This field indicator displays in the banner bar under the compute button as shown below.
 
 ![PSI Indicators](image-117.jpg)
 
-#### Elixhauser Comorbidity Measure Indicator
-
-The Elixhauser Comorbidity Index is a method of categorizing comorbidities of patients based on the
-International Classification of Diseases (ICD) diagnosis codes. The indicator can be used for workflow
-and/or reporting. This field indicator displays in the banner bar under the compute button as shown
-below.
 
 ![PSI Indicators](image-118.jpg)
 

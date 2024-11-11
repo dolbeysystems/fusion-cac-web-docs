@@ -13,14 +13,14 @@ Accounts are commonly sorted into workgroups based on criteria set by the operat
 
 ![Account List](image-005.jpg)
 
-To access your Workgroups, click on the down arrow to the right of
+To access Workgroups, click on the down arrow to the right of
 the {{%button%}}Assigned to{{%/button%}} button to view the list of assigned
 workgroups.
 
 ![Assigned To](image-012.jpg)
 
 > [!note]
-If you do not see any groups in your drop-down, ensure the drop-down menu to
+If there are no workgroups in the drop-down, ensure the drop-down menu to
 the left of {{%button%}}Assigned to{{%/button%}} says **Accounts**. If it does,
 contact your {{%icon icon="user-tie"%}} supervisor.
 
