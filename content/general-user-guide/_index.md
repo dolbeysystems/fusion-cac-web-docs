@@ -1,6 +1,6 @@
 +++
 title = 'General User Guide'
-weight = 60
+weight = 21
 +++
 
 This guide provides a general overview of application functionality.
