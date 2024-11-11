@@ -6,11 +6,13 @@ weight = 100
 The Fusion CAC 2 application contains a variety of colors and symbols. The following table provides a
 detailed explanation of the significance associated with each color and symbol.
 
-## E&M Coding Viewer (Navigation Pane)
+## Navigation Pane
 
-![](image-579.jpg)
+   ##### E&M Coding Viewer
 
-The E&M Coding viewer lettering will turn red if a user added charges and they were
+![](EMViewerRed.png)
+
+The E&M Coding viewer title will turn red if a user added charges and they were
 not sent outbound. In order to send the charges outbound there is a check box at the
 bottom of the viewer "Send Charges Outbound" then you must click save or submit. Once
 charges are sent outbound the viewer text will return to the default color (black).
@@ -18,7 +20,7 @@ charges are sent outbound the viewer text will return to the default color (blac
 Please note that this feature is optional and requires configuration to enable the
 sending of charges outbound.
 
-## Physicians & Queries
+##### Physicians & Queries
 
 ![](image-580.jpg)
 
@@ -29,7 +31,7 @@ Navigation Tree if the account has at least one physician query CACTWO-6136
 The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.
 
-## Code Summary (Navigation Pane)
+##### Code Summary
 
 ![](image-581.jpg)
 
@@ -48,7 +50,7 @@ information comes from the APR-DRG which is a priority grouper licensed from 3M 
 
 **1-3 Numbers in Visit Reason Section**: This indicates the position number of visit reason.
 
-## Validation Results (Code Summary)
+###### Validation Results
 
 ![](image-584.png)
 
