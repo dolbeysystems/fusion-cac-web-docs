@@ -33,7 +33,7 @@ assigned to a particular workgroup, you should contact your {{%icon icon="user-t
 
 Once you have selected a workgroup, a list of accounts will appear in the grid. The displayed grid can be customized by using the column menu settings to pin, auto size, sort, filter, and select columns to display. Columns can also be re-ordered by clicking and dragging the column headings. These setting are custom and "sticky", meaning they can be set per user and remembered for future logins.
 
-![Account List](FilteredAdmitReason.png)  ![Account List](FilterOptions.png)
+![Column Filter and Sort](FilteredAdmitReason.png)  ![Column Filter Options](FilterOptions.png)
 
 
 Click anywhere on the row of the selected account to open it.
@@ -45,28 +45,30 @@ If a specific account is needed, it can be accessed by typing the account number
 account will open after the user hits the {{%button%}}Enter{{%/button%}} key or
 click the {{%icon icon="list"%}} List icon.
 
-![Account Bar](ManualAccountSearch.png)
+![Account Number Search](ManualAccountSearch.png)
 
 ## Alternate Views
 
 Other special-case views are available by clicking the drop-down next to **Account List** and selecting the appropriate option:
 
+![Alternate Views Dropdown](AlternateViews.png)
+
 ### {{%icon icon="clock-rotate-left"%}} Recent Views
 
 The Recent Views menu item allows users to quickly find accounts accessed within the last 24 hours in sequenced order.
 
-![Recent Views](image-011.jpg)
+![Recent Views](RecentViews.png)
 
 ### {{%icon icon="spinner"%}} Pending Accounts
 
-The Pending Accounts menu item displays all of the accounts that currently have a **Pending Reason** set.
+The Pending Accounts menu item displays all of the accounts that currently have a **Pending Reason** set by the user.
 
-![Pending Accounts](image-019.jpg)
+![Pending Accounts](PendingAccounts.png)
 
 
 ### {{%icon icon="magnifying-glass"%}} MRN Search
 
 The MRN Search field allows users to search accounts by MRN.
 
-![MRN Search](image-020.png)
+![MRN Search](MRNSearch.png)
 
