@@ -11,7 +11,6 @@ Not all organizations will use all of these modules. If you are unsure if a modu
 
 The audit module allows for the role of an auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. The auditor can route an account directly to the coder that last submitted (triggering a save and close), and the coder can rebut and route an account back to the audit (also triggering a save and close). More details on audit functionality can be found in the [Audit User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/). 
 
-![](AuditModule.png)
 
 ## Denials Management 
 
@@ -43,7 +42,7 @@ Fusion CAC uses the final codes assigned by coders along with other patient data
 guideline. Fusion CAC provides an indicator on the banner bar to a coder when codes coupled with
 patient demographics meet a PSI guideline.
 
-This PSI indicator displays in the banner bar under the compute button. The PSI is reported in one of two
+The PSI is reported in one of two
 fields CDI PSI Indicator or PSI Indicator if identified by a coder. The indicator can be used for workflow
 and/or reporting.
 
@@ -56,11 +55,10 @@ The Pediatric Quality Indicators (PDIs) focus on potentially preventable complic
 events for pediatric patients treated in hospitals and on preventable hospitalizations among pediatric
 patients, taking into account the special characteristics of the pediatric population.
 
-This PDI indicator displays in the banner bar under the compute button. The PDI is reported in one of
+The PDI is reported in one of
 two fields CDI PDI Indicator or PDI Indicator if identified by a coder. The indicator can be used for
 workflow and/or reporting.
 
-The algorithm for the PDI on if it applied or not is within the code summary pane.
 
 #### PC-06 Indicator
 
@@ -71,14 +69,12 @@ Fusion CAC uses the final codes assigned by coders along with other patient data
 guideline. Fusion CAC provides an indicator on the banner bar to a coder when codes coupled with
 patient demographics meet a PC-06 guideline. The indicator can be used for workflow and/or reporting.
 
-This field indicator displays in the banner bar under the compute button as shown below.
 
 #### Elixhauser Comorbidity Measure Indicator
 
 The Elixhauser Comorbidity Index is a method of categorizing comorbidities of patients based on the
 International Classification of Diseases (ICD) diagnosis codes. The indicator can be used for workflow
-and/or reporting. This field indicator displays in the banner bar under the compute button as shown
-below.
+and/or reporting. 
 
 
 

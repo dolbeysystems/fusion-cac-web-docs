@@ -11,13 +11,13 @@ Clicking on the **Accounts** tab at the top of the screen allows users access to
 
 Accounts are commonly sorted into workgroups based on criteria set by the operational/management team. Each workgroup is a list of work that needs to be completed by users assigned to the workgroup. 
 
-![Account List](image-005.jpg)
+![](AccountList.png)
 
 To access Workgroups, click on the down arrow to the right of
 the {{%button%}}Assigned to{{%/button%}} button to view the list of assigned
 workgroups.
 
-![Assigned To](image-012.jpg)
+![Assigned To](AssignedTo.png)
 
 > [!note]
 If there are no workgroups in the drop-down, ensure the drop-down menu to
@@ -33,7 +33,7 @@ assigned to a particular workgroup, you should contact your {{%icon icon="user-t
 
 Once you have selected a workgroup, a list of accounts will appear in the grid. The displayed grid can be customized by using the column menu settings to pin, auto size, sort, filter, and select columns to display. Columns can also be re-ordered by clicking and dragging the column headings. These setting are custom and "sticky", meaning they can be set per user and remembered for future logins.
 
-![Account List](image-005.jpg)
+![Account List](FilteredAdmitReason.png)  ![Account List](FilterOptions.png)
 
 
 Click anywhere on the row of the selected account to open it.
@@ -45,7 +45,7 @@ If a specific account is needed, it can be accessed by typing the account number
 account will open after the user hits the {{%button%}}Enter{{%/button%}} key or
 click the {{%icon icon="list"%}} List icon.
 
-![Account Bar](image-010.jpg)
+![Account Bar](ManualAccountSearch.png)
 
 ## Alternate Views
 

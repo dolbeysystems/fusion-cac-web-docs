@@ -60,17 +60,6 @@ APC computed and returned from the encoder.
 
 
 
-![PSI Indicators](image-114.jpg)
-
-
-![PSI Indicators](image-116.jpg)
-
-
-![PSI Indicators](image-117.jpg)
-
-
-![PSI Indicators](image-118.jpg)
-
 The algorithm to determine the Elixhauser measure can be found on the code summary at the bottom
 under the assigned codes.
 
