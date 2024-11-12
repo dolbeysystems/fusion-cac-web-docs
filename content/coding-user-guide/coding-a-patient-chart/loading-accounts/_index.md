@@ -7,22 +7,23 @@ weight = 10
 
 ### {{% icon icon="table-columns" %}} Column Settings
 
-![Column Settings](image-084.png)
 
 Each column within the Assigned Accounts Grid has menu options to pin, auto
 size, and reset columns as well as a Tool Panel to select which columns you
-want displayed in your view of the assigned accounts grid.
+want displayed in your view of the assigned accounts grid. Click on the {{% icon icon="bars" %}} Menu icon to view the drop-down listing.
 
-Click on the {{% icon icon="bars" %}} Menu icon to view the drop-down listing.
+![Column Settings](image-084.png)
+
 
 ### {{% icon icon="map-pin" %}} Pin Column
 
-![Pin Column](image-087.jpg)
 
 The Pin Column feature will allow you to freeze certain columns to the left
 {{% icon icon="arrow-left" %}} or right {{% icon icon="arrow-right" %}} of your
 accounts  grid pane. Doing so will keep these columns visible when you move to
 other areas of the assigned  accounts grid.
+
+![Pin Column](image-087.jpg)
 
 To pin multiple columns, click on each column that you want to pin and select
 the menu option based on where you would like to view the selected pinned
