@@ -33,7 +33,9 @@ assigned to a particular workgroup, you should contact your {{%icon icon="user-t
 
 Once you have selected a workgroup, a list of accounts will appear in the grid. The displayed grid can be customized by using the column menu settings to pin, auto size, sort, filter, and select columns to display. Columns can also be re-ordered by clicking and dragging the column headings. These setting are custom and "sticky", meaning they can be set per user and remembered for future logins.
 
-![Column Filter and Sort](FilteredAdmitReason.png)  ![Column Filter Options](FilterOptions.png)
+![Column Filter and Sort](FilteredAdmitReason.png)  
+
+![Column Filter Options](FilterOptions.png)
 
 
 Click anywhere on the row of the selected account to open it.
