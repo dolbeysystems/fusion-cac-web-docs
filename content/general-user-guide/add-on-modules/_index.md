@@ -7,8 +7,6 @@ Not all organizations will use all of these modules. If you are unsure if a modu
 
 {{% children depth=999 %}}
 
-## Additional Edits
-
 ## Audit Module
 
 The audit module allows for the role of an auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. The auditor can route an account directly to the coder that last submitted (which triggers a save and close), and the coder can rebut and route an account back to the audit (which also triggers a save and close). More details on audit functionality can be found in the [Audit User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/). 
