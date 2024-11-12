@@ -12,7 +12,6 @@ Not all organizations will use all of these modules. If you are unsure if a modu
 The audit module allows for the role of an auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. The auditor can route an account directly to the coder that last submitted (which triggers a save and close), and the coder can rebut and route an account back to the audit (which also triggers a save and close). More details on audit functionality can be found in the [Audit User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/). 
 
 
-
 ## Denials Management 
 
 This tool is designed to comprehensively record the specifics related to denial management and tracking. Denial management tracking involves monitoring cases where a patient's submitted billing chart is rejected by the payer. Various reasons, such as medical necessity, code, or DRG assignment, could lead to these denials. It is capable of documenting multiple denials for each chart, with the ability to log and categorize them for the purpose of tracking, managing workflows, and generating reports. More details on denial mamnagment functionality can be found in the [General User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-viewers/denial-management-viewer/).
@@ -22,6 +21,8 @@ This tool is designed to comprehensively record the specifics related to denial 
 The ER E/M Viewer is an add-on module for any chart with a “Is Emergency” flag within the account properties.
 If this module is turned on, any “Is Emergency” chart will have the “E/M Coding Worksheet” in the Navigation menu. 
 There are several sections to the E/M Coding worksheet including:  E/M No Charge, E/M Level, Trauma, Critical Care, Medications, and Additional Charging. More details on ER E/M functionality can be found in the [General User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-screen/#navigation-pane).
+
+![](EMViewerRed.png)
 
 ## Physician Coding/Single Path
 
