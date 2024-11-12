@@ -9,8 +9,9 @@ Not all organizations will use all of these modules. If you are unsure if a modu
 
 ## Audit Module
 
-The audit module allows for the role of an auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. The auditor can route an account directly to the coder that last submitted (which triggers a save and close), and the coder can rebut and route an account back to the audit (which also triggers a save and close). More details on audit functionality can be found in the [Audit User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/). 
+The audit module allows for the role of an auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. The auditor can route an account directly to the coder that last submitted (triggering a save and close), and the coder can rebut and route an account back to the audit (also triggering a save and close). More details on audit functionality can be found in the [Audit User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/). 
 
+![](AuditModule.png)
 
 ## Denials Management 
 
@@ -22,7 +23,6 @@ The ER E/M Viewer is an add-on module for any chart with a “Is Emergency” fl
 If this module is turned on, any “Is Emergency” chart will have the “E/M Coding Worksheet” in the Navigation menu. 
 There are several sections to the E/M Coding worksheet including:  E/M No Charge, E/M Level, Trauma, Critical Care, Medications, and Additional Charging. More details on ER E/M functionality can be found in the [General User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-screen/#navigation-pane).
 
-![](EMViewerRed.png)
 
 ## Physician Coding/Single Path
 
