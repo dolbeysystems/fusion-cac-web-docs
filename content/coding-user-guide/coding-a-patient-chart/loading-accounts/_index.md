@@ -10,7 +10,9 @@ weight = 10
 
 Each column within the Assigned Accounts Grid has menu options to pin, auto
 size, and reset columns as well as a Tool Panel to select which columns you
-want displayed in your view of the assigned accounts grid. Click on the {{% icon icon="bars" %}} Menu icon to view the drop-down listing.
+want displayed in your view of the assigned accounts grid. 
+
+Click on the {{% icon icon="bars" %}} Menu icon to view the drop-down listing.
 
 ![Column Settings](image-084.png)
 
