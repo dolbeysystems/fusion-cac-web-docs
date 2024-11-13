@@ -3,8 +3,6 @@ title = 'Account Viewers'
 weight = 52
 +++
 
-This guide provides a general overview of application functionality.
-
 {{% children depth=999 %}}
 
 ## Code Summary
@@ -15,12 +13,18 @@ The Code Summary screen shows a summary of activity on the account and provides 
 
 ![Code Summary Banner](CodeSummaryBanner.png)
 
-When the Code Summary link displays RED, there are validation errors on the chart that must be 
+When the Code Summary link displays RED, there are [validation errors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/validation-management/) on the chart that must be 
 resolved prior to submission.
 
 ![Red Code Summary](RedCodeSummary.png)
 
 ## Account Information
+
+![Account Information Viewer](AccountInformationViewer.png)
+
+The Account Information pane summarizes patient demographic information (based on custom system configuration) with data captured for purposes of state and/or registry reporting. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right corner of the pane. To update data fields in the Account information pane, click on the blue button and select the appropriate selection from the drop-down menu.
+
+![Account Information Banner](AccountInformationBanner.png)
 
 ## Notes & Bookmars
 
