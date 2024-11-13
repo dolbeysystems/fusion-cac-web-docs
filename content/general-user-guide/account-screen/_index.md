@@ -56,8 +56,9 @@ indicates action items  required to finalize the chart or  additional informatio
 
 ### +Add
 
-Click on the Add Document button to add a document configured based on your user role.
+Click on the +Add document button to add a document configured based on your user role. 
 
+![Add Document Button](AddDocuments.png)
 
-[!note]Document types available to be added are configured by system administrators.
+Available document types are configured with the operational/management team per organization. 
 

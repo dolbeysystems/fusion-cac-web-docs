@@ -40,13 +40,13 @@ Dolbey can support the addition of this field to your account information viewer
 
 ![Notes & Bookmarks Viewer](NotesBookmarksViewer.png)
 
-The Notes & Bookmarks becomes visible in the center pane after clicking on the hyperlink from the Navigation Pane.  This pane presents a summary and chronological history of all notes and bookmarks added to this account. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right corner of the pane.
+The Notes & Bookmarks becomes visible in the center pane after clicking on the hyperlink from the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane).  This pane presents a summary and chronological history of all notes and bookmarks added to this account. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right corner of the pane.
 
 Notes can be added to the patient chart by clicking on the +Add Note button within the Notes & Bookmarks Pane. 
 
 ![+Add Note](AddNote.png)
 
-When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the Navigation pane will turn red.  
+When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) will turn red.  
 
 ![Red Notes & Bookmarks Viewer](RedNotesBookmarks.png)
 
@@ -76,11 +76,81 @@ To review all bookmarks within a chart, go to Notes & Bookmarks in the Navigatio
 
 
 The **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** button will delete the selected bookmark.
-The **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** pencil button is used to edit a previously added bookmark.
+The **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** button is used to edit a previously added bookmark.
 The **{{< rawhtml >}}<span style="color:#008000">GREEN PAPER</span>{{< /rawhtml >}}** button will jump to the location where the bookmark was created.
 
 
 ## Physicians & Queries
+
+![Physicians & Queries Viewer](PhysiciansQueriesViewer.png)
+
+Within this viewer users can add physicians and change the staff function, if necessary. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right corner of the pane.
+
+### Editing Physicians
+
+The bottom portion, ‘Account Physicians’, is pre-populated by the organization's registration system. Physicians can be added, changed, or removed if incorrect or missing. To add a physician, click on the ‘Add Physician’ button and begin typing in the physician’s last name to populate a list to choose from, then click add. Choose the staff function that fits the choosen physician. If it is a consulting physician enter, in the consultation date. 
+
+![Adding a Physician](AddPhysician.png)
+
+To remove a physician that either you added or was sent incorrectly from the registration system click on the **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** button to remove the physician. 
+
+### Querying a Physician
+
+To add a query to a physician that is listed, click on either the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon next to the physician.
+
+![Blue Query Envlope](BlueEnvelope.png)
+
+To query a physician not listed, click on +Add Query.
+ ![Add Query Button](AddQuery.png)
+
+Add a physician if the physician did not auto fill by clicking on the ‘add physician’ button and begin typing in the last name. Then click on ‘Select Template’ to choose the query template you wish to use.  
+
+![Selecting Query Template](SelectTemplate.png)
+
+If configured, users can see a co-signer field that allows assignment of a cosigner. The cosigner field is a field that can be sent in the outbound interface for the query. The receiving system can choose to use this process if the co-signer needs to receive the query after the main user answers, but before it gets returned to Dolbey.  When a physician query is created, a new "Cosigner" physician dropdown appears below the existing "Physician" dropdown. Filling in this field is optional. When the query is saved as a draft or sent outbound, the cosigner field will be saved with the query and sent as an additional recipient. In the grid inside the Physicians & Queries, the user may also choose to add "Cosigner" as a visible column.
+
+### Creating a Query
+
+Write the query or fill out the template details as needed. 
+
+![Selecting a Query Reason](QueryReason.png)
+
+Once completed, select from the reason dropdown why you are sending the query and above that field check the box if the query will affect final coding. 
+
+Click “Send” to complete and send the query or click {{%button%}}Save Draft{{%/button%}} if the query is not ready to be sent. If saved  as draft, a draft query section will appear that is separated from sent or closed queries. If a user has at least one draft, but no sent queries, the total drafts count on their personal dashboard will display as zero. 
+
+![Query Drafts](QueryDraft.png)
+
+![Complete Query Options](QueryComplete.png) 
+
+Alternatively, for organizations who do not have a physician query interface **AND** do not create a physician query until a response is received, a query can be created and not sent.  When enabled, a physician query will show a {{%button%}}Continue{{%/button%}} button in place of {{%button%}}Send{{%/button%}}. Clicking the “Continue” button will refresh the query to open the physician response fields so that the query can then be closed.
+
+### Placeholder Queries
+
+Some organizaitions create a physcian query within Fusion CAC and then copy and paste it into a different system rather, then send them through an interface. Dolbey refers to this as a place holder query for reporting and transparencey. A feature can be enabled so that text entered into fields on the place holder query will no longer display in bold. To activate this option, please contact CAC Support (cacsupport@dolbey.com).
+
+### Query Status
+
+The status of the query will display in the actions column on the query grid. The following are status options:
+
+|Status    |Description                                                         |
+|----------|--------------------------------------------------------------------|
+|Open      | This query has been sent, but not yet responded to by the provider.|
+|Answered  | This query has been sent and has received a response, but has yet to be closed by the end user.|
+|Cancelled | This query has been cancelled by the end user. The status column will display the reason for the cancellation.|
+|Closed    | This query has been closed by the end user. The status column will display the outcome of the query.|
+
+### Per User Settings
+When moving around the columns in the Physician Queries grid and then clicking the Save Layout button, the columns and order will be saved for the Queries grid for all future accounts for that user.  Any other user will see the default layout.  Next to the Save Layout button is a Reset Filters button, this will take any custom layout and change it back to the default fields.  
+
+![Reset Filter & Save Layout Buttons](FilterLayout.png)
+
+If the organization chooses to use signatures when sending queries, automatic signatures can be addended to the query. Signatures can be editied within each user's profile.  
+
+![Query Signature Sample](QuerySignature.png)
+
+> [!note]
+> Please refer to your {{%icon icon="user-tie"%}}supervisor for details as each organization has custom query templates and additional details surrounding queries.
 
 ## Addtional Viewers
 
