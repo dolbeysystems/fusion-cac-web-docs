@@ -46,15 +46,18 @@ The DRG view displays information available from the encoder for the computed DR
 ## Navigation Pane
 
 The Navigation Pane sits above the Documents Pane on the left-hand side of the Account Screen. 
-The Navigation Pane includes hyperlinks to pages within the chart providing summary views of
+The Navigation Pane includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/), to pages within the chart providing summary views of
 coding information, demographic information, as well as clinical documentation, workflow, and 
 worksheets.
 
 Any Navigation link highlighted in **{{< rawhtml >}}<span style="color:#a00">RED</span>{{< /rawhtml >}}**
 indicates action items  required to finalize the chart or  additional information available for review and reference. 
 
+
 ### +Add
 
 Click on the Add Document button to add a document configured based on your user role.
 
+
+[!note]Document types available to be added are configured by system administrators.
 

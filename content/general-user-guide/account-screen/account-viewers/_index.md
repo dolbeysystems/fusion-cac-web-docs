@@ -7,18 +7,26 @@ This guide provides a general overview of application functionality.
 
 {{% children depth=999 %}}
 
-### Code Summary
+## Code Summary
 
-**When the Code Summary link displays RED, there are validation errors on the chart that must be 
-resolved prior to submission.**
+![Code Summary Viewer](CodeSummaryViewer.png)
 
-### Account Information
+The Code Summary screen shows a summary of activity on the account and provides activity buttons to Claim Ownership, Show History, and Print Abstract (if a printer is configured). This viewer also provides information on Current Owner, First Coder, Last Saver, and Last Submitter. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right of the pane. 
 
-### Notes & Bookmars
+![Code Summary Banner](CodeSummaryBanner.png)
 
-### Physicians & Queries
+When the Code Summary link displays RED, there are validation errors on the chart that must be 
+resolved prior to submission.
 
-### Addtional Viewers
+![Red Code Summary](RedCodeSummary.png)
+
+## Account Information
+
+## Notes & Bookmars
+
+## Physicians & Queries
+
+## Addtional Viewers
 
 > [!note] Optional Viewers
 > The following viewers are part of optional
