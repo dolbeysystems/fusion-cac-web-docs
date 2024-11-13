@@ -26,7 +26,9 @@ Information in the banner bar may include:
 - Patinet Age and date of birth
 - Medical Record Number (MRN)
 
->[!info] Clicking the patient's name will collapse the banner bar to provide more vertical screen space. Clicking the patient's name again will expand the banner bar and the information displayed. 
+> [!info] Banner Bar Collapse/Expand
+> Clicking the patient's name will collapse the banner bar to provide more vertical screen space.
+> Clicking the patient's name again will expand the banner bar and the information displayed. 
 
 
 ### DRG/APC
@@ -42,8 +44,6 @@ The DRG view displays information available from the encoder for the computed DR
 
 
 ## Navigation Pane
-
-
 
 The Navigation Pane sits above the Documents Pane on the left-hand side of the Account Screen. 
 The Navigation Pane includes hyperlinks to pages within the chart providing summary views of
@@ -70,9 +70,12 @@ resolved prior to submission.**
 
 ### Addtional Viewers
 
-
-
-> [!note] The following viewers are part of optional [add-on modules](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/add-on-modules/) and may not be used at all organizations. If you are unsure if a module is relevant to your organization, please contact your  supervisor. Organizations looking for more information on these modules should reach out to the Dolbey SME team via email (smeteam@dolbey.com).
+> [!note] Optional Viewers
+> The following viewers are part of optional
+> [add-on modules](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/add-on-modules/)
+> and may not be used at all organizations. If you are unsure if a module is relevant to your
+> organization, please contact your  supervisor. Organizations looking for more information on
+> these modules should reach out to the Dolbey SME team via email (smeteam@dolbey.com).
 
 ##### Audit Viewer
 
