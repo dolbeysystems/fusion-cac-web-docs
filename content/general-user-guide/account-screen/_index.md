@@ -9,6 +9,13 @@ weight = 50
 
 The blue bar accross the top of the screen is the Account Action Bar. This bar displays specific account information such as the account status,the account number/HAR, and the dates of service. Additonally, the Account Action Bar houses buttons allowing the user to compute, cancel, save, or submit the account as needed.
 
+|Button |Function|
+|-------|--------|
+|Compute|Launches the encoder.  This button should be used to Compute the DRG or view encoder Edits.|
+|Cancel |This button will CANCEL any changes made to the account and return to the Assigned Accounts Listing for selection of a new account.|
+|Save   |This button will SAVE any changes made to the account during the current session and return to the Assigned Accounts Listing for selection of a new account.|
+|Submit |The SUBMIT button will save and send any changes made to the account downstream based on facility requirements (usually billing or abstraction). |
+
 ## Banner Bar
 
 ![Banner Bar](AccountBannerBar.png)
@@ -62,3 +69,44 @@ Click on the +Add document button to add a document configured based on your use
 
 Available document types are configured with the operational/management team per organization. 
 
+## Document Tree
+
+The Documents Pane frames the Documents Tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document. Listed below are Document Indicators.
+
+|Icon    |Meaning |
+|--------|--------|
+|![Pop Out](PopOutIcon.png)|Open document in new tab/window to allow continued access to the document while working in other areas of the chart.|
+|![Camera](ImageIcon.png)|Image/scanned document|
+|![Text Document](TextDocIcon.png)| Text document|
+|![Bold Text](BoldText.png)|Bold document titles indicate the document has not been viewed by the current user|
+|![Expand Code Suggestions](ExpandIcon.png)|Document with engine code suggestions|
+|![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents pane with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
+
+
+## Document Pane
+
+The Documents Tree includes a listing of all documents in a patient chart categorized by document type, as configured by the hospital.
+
+## Code Panes
+
+Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. 
+
+![Unassigned Code Pane](UnassignedCodePane.png)
+
+Codes are categorized by Diagnosis Codes, Procedure Codes, and then CPT® Codes. 
+
+![Categorized Codes](CategorizedCodes.png)
+
+From here, users can right-click on a code, then either Assign or Edit/Assign the selected code.
+
+![Right Click Code Menu](CodeRightClick.png)
+
+Selecting Edit will open a window to review the code, code description, set the POA indicator, and designate the code status as Admit, Principal or Secondary.
+
+![Code Edit Box](CodeEditBox.png)
+
+Clicking OK after making these selections will then move the selected code to the Assigned Codes pane.
+
+![Assigned Code Pane](AssignedCodePane.png)
+
+Left-clicking on an Unassigned Code will open the relevant document in the center document viewer and highlight instances of the suggested code in yellow. Continue reviewing all Unassigned Codes until all Assigned Codes have been validated with POA indicator and status.
