@@ -7,12 +7,31 @@ weight = 11
 
 {{% children depth=999 %}}
 
-To edit an existing or suggested code, left click on the code to bring up the encoder and Code Editor windows.  If you are set up with dual monitors, you can move the encoder window to the second monitor and keep it open as you work through validation of each the engine suggested codes. From the Code Editor window, you can update the code from the code drop-down menu, via Direct Entry, or Encoder.  You can also validate/update the POA indicator and validate/update the code status (Admit, Principal, or Secondary).
-If you wish to change the code, place your curser in the drop-down box where the code you wish to change is displayed. You can remove, for example, the .9 and replace it with the code extension that you need vs. entering the entire code. 
 
-You also have the option to minimize and restore the Code Editor window to continue viewing documents or other areas of the chart as you are working to complete additional details for the procedure code.
 
-Adding Procedure Code Data
+To edit an existing or suggested code, left click on the code to bring up the encoder and Code Editor windows.  If the user is set up with dual monitors, the encoder window can be moved to the second monitor to remain open as they work through validation of each the engine suggested codes. From the Code Editor window, users can update codes from the code drop-down menu, via Direct Entry, or Encoder.  The POA indicator and code status (Admit, Principal, or Secondary) can also be updated in the Code Editor.
+
+To change a code, place the curser in the drop-down box where the code to be changed is displayed. Code parts, such as the code extension, can be edited instead of removing the whole thing.
+
+![Code Editor Window](CodeEditor2.png)
+
+Users have the option to minimize and restore the Code Editor window to continue viewing documents or other areas of the chart as they are working to complete additional details for the procedure code.
+
+![Minimize Editor Window](MinimizeEditor.png)
+
+|Code Editor Icon|Description|
+|----------------|-----------|
+|![Edit Icon](EditIcon.png)|This button launches the encoder for the existing code|
+|![Direct Entry Button](DirectEntryButton.png)|Adds a new line for direct entry of additional codes|
+|![+Encoder Button](EncoderButton.png)|Launches the encoder for selection of a code|
+|![OK Button](OKButton.png)|Saves any changes for the current session of Code Editor|
+|![Cancel Button](CancelButton.png)|Closes window without saving changes from the current session of Code Editor|
+|![X Icon](XIcon.png)|Deletes the selected code from the chart|
+|![Minimize Editor Window](MinimizeEditor.png)|Minimizes Code Editor window so that the main screen can be viewed|
+|![Restore Code Editor Button](RestoreEditor.png)|Restores the Code Editor window to full size for review and completion|
+
+
+### Adding Procedure Code Data
 Procedure codes typically require additional information for Physician and Date of Service for the procedure indicated along with procedure details. These fields are configured according to facility requirements and may look different in your version of Fusion CAC.
 To enter in a date and physician to the procedure codes, right-click on the procedure code and then select Edit Procedure Info from the menu. After selecting a procedure code, the Code Editor window for the selected procedure code will open.
 Add Procedure Date
