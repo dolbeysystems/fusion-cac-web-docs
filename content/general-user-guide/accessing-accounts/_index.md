@@ -16,7 +16,7 @@ Accounts are commonly sorted into workgroups based on criteria set by the operat
 
 To access assigned worklists, click on the down arrow to the right of
 the {{%button%}}Assigned to{{%/button%}} button to view the list of assigned
-workgroups. Each of the user's assigned worklist will be listed along with a bubble showing the number of accounts in the group ready for coding. Once all the charts from a worklist have been worked, the list will not display in the {{%button%}}Assigned to{{%/button%}} dropdown until there are one or more charts to work. 
+workgroups. Each of the user's assigned worklist will be listed along with a bubble showing the number of accounts in the group ready for coding. By default, **a worklist must have at least one pending chart to display in the system**. Assigned Workgroups will not be visible here if there are no accounts available for coding for that specific Workgroup.
 
 ![Assigned To](AssignedTo.png)
 
@@ -28,6 +28,24 @@ contact your {{%icon icon="user-tie"%}} supervisor.
 
 If you want more information on how your workgroups are set up or why you are
 assigned to a particular workgroup, you should contact your {{%icon icon="user-tie"%}} supervisor.
+
+### Auto-Load
+
+![Auto Load Checbox](AutoLoad.png)
+
+Checking the Auto-Load box before starting a session or while in an assigned worklist will automatically load the next chart in the selected Workgroup upon Save, Submit, or Cancel. Users can discontinue Auto-Load at any time by unchecking the Auto-Load box. This will return them to the Assigned to Workgroup for manual selection of the next chart in the selected Workgroup.
+
+### Refresh Button
+
+Fusion CAC is regularly reacting to account activity, submitting information to the encoder, updating Workgroups, and returning data to the EMR.  When you are working from the assigned accounts listing, from time to time you might need to refresh the data and update the Workgroups with recent information.
+
+![Refresh Button](RefreshButton.png)
+
+To ensure that you have the most up-to-date information for accounts in your assigned Workgroups, or when your current session of Fusion CAC has been idle for an extended period, hit the Refresh button to update your session with recent activity. 
+
+>[!Note]The Refresh button within Fusion CAC is different from the refresh button in your browser. It is recommended that you **NOT** use the refresh button in your browser, as this will reload your session, resulting in a loss of your work. 
+
+
 
 ### {{%icon icon="sort"%}} Sorting and  {{%icon icon="filter"%}} Filtering
 
@@ -45,6 +63,14 @@ To remove any selected filters, click on the Filter button and then check the bo
 When filtering columns, use the ‘Reset Filter’ button to remove filters vs. removing the filter from the column its self. 
 
 ![Reset Filters Button](ResetFilters.png)
+
+Sorting information in the assigned accounts grid, allows users to see data the way they want and find accounts quickly. Data can be sorted by text (A to Z or Z to A), numbers (smallest to largest or largest to smallest), and dates (oldest to newest and newest to oldest). To sort a single column, click once on the column header of the column you want to sort.  The column header will change to an up arrow. This will sort the column first in ascending order (A-Z).  Click the column header again to change to a descending (Z-A) sort with a down arrow. Clicking on the column heading a third time will return the column to the default sort and the arrow will disappear.
+
+###### Ascending Sort: ![Ascending Sort](Ascending.png)
+
+###### Descending Sort: ![Descending Sort](Descending.png)
+
+In the assigned accounts grid, users can select multiple columns for ascending and descending sorts. For example, users can sort accounts by discharge date and then by LOS to focus efforts on accounts with longer lengths of stay for a specific discharge date.  Sorting helps to quickly visualize, organize, and understand the Workgroup for effective decision making and finding the next chart to be prioritized for coding. To sort multiple columns, click the column heading of the first column in the selection, then hold down the SHIFT button while clickiing the column headings of other columns yo be added to the selection for sorting. Click the column header for sort selection (ascending, descending, default) until the individual column is sorted in the preferred sort order.  After all selections have been made, release the keys for the sort results.
 
 ## Assigned Account Grid
 
@@ -75,12 +101,6 @@ Users can choose which columns to view when displaying their assigned accounts l
 ![Hide or Show Columns](HideOrShow.png)
 
 Tool Panel settings will remain for all future coding sessions and subsequent logins. To bring all columns back into view, click on Reset Columns from the Column Settings drop-down listing.
-
-
-
-
-
-
 
 ## Manually Loading an Account
 
