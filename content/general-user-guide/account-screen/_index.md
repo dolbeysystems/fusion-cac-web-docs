@@ -120,4 +120,10 @@ Clicking OK after making these selections will then move the selected code to th
 
 ![Assigned Code Pane](AssignedCodePane.png)
 
-Left-clicking on an Unassigned Code will open the relevant document in the center document viewer and highlight instances of the suggested code in yellow. Continue reviewing all Unassigned Codes until all Assigned Codes have been validated with POA indicator and status.
+Left-clicking on an Unassigned Code will open the relevant document in the center document viewer and highlight instances of the suggested code in yellow. 
+
+![Left Click Unassigned Code](LeftClickUnassigned.png) 
+
+![Yellow Highlighted Code](YellowHighlight.png)
+
+Continue reviewing all Unassigned Codes until all Assigned Codes have been validated with POA indicator and status.
