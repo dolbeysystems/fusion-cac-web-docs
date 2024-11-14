@@ -13,9 +13,9 @@ Accounts are commonly sorted into workgroups based on criteria set by the operat
 
 ![](AccountList.png)
 
-To access Workgroups, click on the down arrow to the right of
+To access assigned worklists, click on the down arrow to the right of
 the {{%button%}}Assigned to{{%/button%}} button to view the list of assigned
-workgroups.
+workgroups. Each of the user's assigned worklist will be listed along with a bubble showing the number of accounts in the group ready for coding. Once all the charts from a worklist have been worked, the list will not display in the {{%button%}}Assigned to{{%/button%}} dropdown until there are one or more charts to work. 
 
 ![Assigned To](AssignedTo.png)
 
@@ -53,7 +53,7 @@ click the {{%icon icon="list"%}} List icon.
 
 Other special-case views are available by clicking the drop-down next to **Account List** and selecting the appropriate option:
 
-![Alternate Views Dropdown](AlternateViews.png)
+![Alternate Views Dropdown](AlertnateViews.png)
 
 ### {{%icon icon="clock-rotate-left"%}} Recent Views
 
@@ -70,7 +70,7 @@ The Pending Accounts menu item displays all of the accounts that currently have 
 
 ### {{%icon icon="magnifying-glass"%}} MRN Search
 
-The MRN Search field allows users to search accounts by MRN.
+The MRN Search field allows users to search accounts by MRN. The grid will display MRNs that match the search.
 
 ![MRN Search](MRNSearch.png)
 

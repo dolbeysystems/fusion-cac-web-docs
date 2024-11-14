@@ -1,6 +1,6 @@
 +++
 title = 'Account Screen'
-weight = 50
+weight = 11
 +++
 
 ## Account Action Bar
@@ -71,7 +71,9 @@ Available document types are configured with the operational/management team per
 
 ## Document Tree
 
-The Documents Pane frames the Documents Tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document. Listed below are Document Indicators.
+![Document Tree](DocumentTree.png)
+
+The Documents Tree includes a listing of all documents in a patient chart categorized by document type, as configured by the hospital. It frames the Documents Tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document. Listed below are Document Indicators.
 
 |Icon    |Meaning |
 |--------|--------|
@@ -85,7 +87,16 @@ The Documents Pane frames the Documents Tree and is located on the left-hand sid
 
 ## Document Pane
 
-The Documents Tree includes a listing of all documents in a patient chart categorized by document type, as configured by the hospital.
+![Document Pane](DocumentPane.png)
+
+The document pane is in the middle of the screen to display the document or viewer clicked on within the document tree or navigation pane.
+
+On the left hand side of main header are backward and forward arrows. These arrows will allow users to move back and forth through documents that have been opened in the document the viewer screen. 
+
+>[!Note] When a user arrows back and forth, then clicks on another document, the user starts a new history for that option. 
+
+If there is a physician on a document, the name will show in the document viewer header, on the popout, and in the Ctrl+ click of the header.
+
 
 ## Code Panes
 
