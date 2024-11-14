@@ -29,7 +29,6 @@ contact your {{%icon icon="user-tie"%}} supervisor.
 If you want more information on how your workgroups are set up or why you are
 assigned to a particular workgroup, you should contact your {{%icon icon="user-tie"%}} supervisor.
 
-
 ### {{%icon icon="sort"%}} Sorting and  {{%icon icon="filter"%}} Filtering
 
 Once you have selected a workgroup, a list of accounts will appear in the grid. The displayed grid can be customized by using the column menu settings to pin, auto size, sort, filter, and select columns to display. Columns can also be re-ordered by clicking and dragging the column headings. These setting are custom and "sticky", meaning they can be set per user and remembered for future logins.
@@ -37,6 +36,15 @@ Once you have selected a workgroup, a list of accounts will appear in the grid. 
 ![Column Filter and Sort](FilteredAdmitReason.png)  
 
 ![Column Filter Options](FilterOptions.png)
+
+Using the Filter Menu allows users to narrow down and isolate the accounts to be worked based on the data elements within the selected column. For example, the Filter Menu for the D/C Date column allows you to filter the account list by selected dates using the checkboxes or entering specific dates in the Search box. A Filter icon in front of the column heading means that a filter has been applied. 
+
+![Filtered Column](FilteredDC.png)
+
+To remove any selected filters, click on the Filter button and then check the box for (Select All) to remove all filters. 
+When filtering columns, use the ‘Reset Filter’ button to remove filters vs. removing the filter from the column its self. 
+
+![Reset Filters Button](ResetFilters.png)
 
 ## Assigned Account Grid
 
@@ -64,8 +72,17 @@ Click on Tool Panel from the Column Setting drop-down listing to view the Tool P
 
 Users can choose which columns to view when displaying their assigned accounts list by clicking on the Columns icon in any column on your assigned accounts listing.
 
+![Hide or Show Columns](HideOrShow.png)
 
-### Manually Loading an Account
+Tool Panel settings will remain for all future coding sessions and subsequent logins. To bring all columns back into view, click on Reset Columns from the Column Settings drop-down listing.
+
+
+
+
+
+
+
+## Manually Loading an Account
 
 If a specific account is needed, it can be accessed by typing the account number into the
 **Account #** field on the right side of the Account List bar. The entered
@@ -73,6 +90,7 @@ account will open after the user hits the {{%button%}}Enter{{%/button%}} key or
 click the {{%icon icon="list"%}} List icon.
 
 ![Account Number Search](ManualAccountSearch.png)
+
 
 ## Alternate Views
 
