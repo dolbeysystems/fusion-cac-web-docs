@@ -3,7 +3,8 @@ title = 'Accessing Accounts'
 weight = 10
 +++
 
-Clicking on the **Accounts** tab at the top of the screen allows users access to accounts in the system.
+Clicking on the **Accounts** tab at the top of the screen allows users access to accounts in the system. Click anywhere on the row of the selected account to open it.
+
 
 ## Account List
 
@@ -37,8 +38,32 @@ Once you have selected a workgroup, a list of accounts will appear in the grid. 
 
 ![Column Filter Options](FilterOptions.png)
 
+## Assigned Account Grid
 
-Click anywhere on the row of the selected account to open it.
+![Account Grid Column Headers](AccountGridColumns.png)
+
+Each column within the Assigned Accounts Grid has menu options to pin, auto size, and reset columns as well as a Tool Panel to select which columns you want displayed in your view of the assigned accounts grid. Click on the Menu icon to view the drop-down listing.
+
+
+##### Pin Column
+
+![Pin a Column](PinColumn.png)
+
+The Pin Column feature allows users to freeze certain columns to the right or left of the accounts grid pane. Doing so will keep these columns visible when moving to other areas of the assigned accounts grid. To pin multiple columns, click on each column that to be pinned and select the appropriate menu option. Columns can be rearranged after they have been pinned based on view preferences. To unpin a column, select the Pin Column option from the menu and choose No Pin.
+
+##### Auto size & Reset Columns
+
+Within the assigned accounts listing, the default column width is based on the account with the data field with the most characters. Users can size individual columns, or all columns to automatically fit the width of contents of that particular column. To auto size just one column, select the menu button for the column, then select Autosize This Column. To automatically fit the width of contents for ALL columns, select the menu button for any column, then select Autosize All Columns. To return column widths to their default settings, select the menu button for any column, then select Reset Columns.
+
+##### Tool Panel
+
+The Tool Panel feature gives users the flexibility to customize the display of columns within their Assigned Accounts Grid. In addition to the option of auto sizing columns to maximize what is displayed, users can select/deselect column headings based on preference.
+Click on Tool Panel from the Column Setting drop-down listing to view the Tool Panel selection menu.  Select/deselect columns to be displayed and then click on Tool Panel again to hide the Tool Panel selection menu.
+
+##### Grid Column Fields
+
+Users can choose which columns to view when displaying their assigned accounts list by clicking on the Columns icon in any column on your assigned accounts listing.
+
 
 ### Manually Loading an Account
 
