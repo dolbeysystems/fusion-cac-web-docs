@@ -1,6 +1,6 @@
 +++
 title = 'Account Information'
-weight = 30
+weight = 21
 +++
 
 

@@ -1,6 +1,6 @@
 +++
 title = 'Add-On Modules and Viewers'
-weight = 51
+weight = 26
 +++
 
 > [!note] Optional Viewers

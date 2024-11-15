@@ -1,6 +1,6 @@
 +++
 title = 'Notes & Bookmarks'
-weight = 30
+weight = 22
 +++
 
 

@@ -1,6 +1,6 @@
 +++
 title = 'Physicians & Queries'
-weight = 30
+weight = 23
 +++
 
 
@@ -62,6 +62,14 @@ When ready to close a query, whether that be to review a response and update the
 ![Query Envelope Icon](QueryEnvelope.png)
 
 ![Close Query Options](CloseQueryAa.png)
+
+###### Query Response Show Diff
+
+The physician query has a "Show Diff" toggle above physician query responses in the Physician Query dialog. Clicking it will show additional text in blue highlighting and deleted text in red highlighting. When the diff is shown, the button changes to "Hide Diff," which when clicked will show the unaltered response.
+
+![Query Show Diff](QueryDiff.png)
+
+>[!Note] If your organization has an interface that imports the physicians response, the diff logic may report false positives and false negatives, like changes from double quotes to single quotes or the addition/deletion of blank lines.
 
 Once a query is opened and responded (or the user is recording the response on behalf of the physician), the responding physician and the date/time of the response can be editied. If the organization is manually closing queries, this information ensures that the management reports reflect accurate turnaround times. 
 
