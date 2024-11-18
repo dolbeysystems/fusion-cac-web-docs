@@ -1,5 +1,5 @@
 +++
-title = 'Code Summaries'
+title = 'Code Summary'
 weight = 20
 +++
 
@@ -98,13 +98,16 @@ If a printer is configured for the computer, click on this button to print a cop
 Use the Claim Ownership feature based on the organization’s requirements and procedures. Consult your {{%icon icon="user-tie"%}} manager for more information on claiming ownership of a chart. 
 
 
-## Final Coding Summary
+## Final Code Summary
 
-The final code summary will display if the facility coders submit the chart. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded.
+![Final Code Summary Viewer](FinalCodeSumViewer.png)
+
+The final code summary will only be available once the facility coder clicks the submit button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded for along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/).  
 
 ![Final Code Summary](FinalCodeSummary.png)
 
-Clicking on the header will expand the selection to display the codes that were coded and DRG/APC, if applicable. Any codes with a plus (+) sign indicates the code has not been added to the account. The plus (+) sign *does not indicate* that the code needs to be added. It is for the user to quickly add the code if they determine it is needed using coding judgment and supporting documentation.
+Clicking on the header will expand the selection to display the codes that were coded and DRG/APC, if applicable. Any codes with a plus (+) sign indicates the code has not been added to the account. The plus (+) sign *does not indicate* that the code needs to be added. It is for the user to quickly add the code if they determine it is needed using coding judgment and supporting documentation. If applicable, the code’s HCC designation will show the HCC number and its version.
+
 
 ## Physician Coding Summary
 
