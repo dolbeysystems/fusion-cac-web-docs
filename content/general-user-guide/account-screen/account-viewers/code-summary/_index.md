@@ -1,5 +1,5 @@
 +++
-title = 'Code Summary'
+title = 'Code Summaries'
 weight = 20
 +++
 
