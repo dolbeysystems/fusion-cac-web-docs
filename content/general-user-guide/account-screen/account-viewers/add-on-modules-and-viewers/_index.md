@@ -28,6 +28,8 @@ The audit module allows for the role of an auditor within the application. The r
 
 ## Discrete Values (Viewer)
 
+![Discrecte Values Viewer](DiscreteValuesViewer.png)
+
 **This feature may not be supported by your organization's EMR vendor.** The discrete values show trending data or data that has values.  The most common examples of discrete values are lab values and vital signs. The viewer can be popped out into another window by clicking on a little square with an arrow pointing to the right in the navigation tree next to the viewer name.
 
 An older style of discrete data can be displayed in a discrete values viewer. Tabs across the top of the screen display the categories of data. This displays each of the types of discrete data elements, which may vary by organization. 
