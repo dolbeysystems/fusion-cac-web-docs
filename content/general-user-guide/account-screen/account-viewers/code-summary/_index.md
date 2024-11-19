@@ -7,9 +7,11 @@ weight = 20
 {{% children depth=999 %}}
 
 
-![Code Summary Viewer](CodeSummaryPane.png)
+![Code Summary](CodeSummary.png)
 
 The Code Summary is the last pane to be reviewed prior to chart submission.This screen shows a summary of activity on the account and provides activity buttons to **Claim Ownership**, **Show History**, and **Print Abstract** *(if a printer is configured)*. This viewer also provides information on Current Owner, First Coder, Last Saver, and Last Submitter. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right of the pane. 
+
+![Code Summary Viewer](CodeSummaryPane.png)
 
 ### Show History
 

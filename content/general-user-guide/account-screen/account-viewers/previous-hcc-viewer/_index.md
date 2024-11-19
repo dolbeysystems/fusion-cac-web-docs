@@ -1,9 +1,11 @@
 +++
-title = 'Previous HCC Viewer'
+title = 'Previous HCC'
 weight = 30
 +++
 
 {{% children depth=999 %}}
+
+![Previous HCCs](PreviousHCCViewer.png)
 
 The previous HCC overview will display the HCC history to show for both the current and prior year. When HCCs are enabled, these will display grouped by HCC category and by code — showing the account number and MRN # for the visits each were associated to. 
 

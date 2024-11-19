@@ -6,8 +6,6 @@ weight = 29
 
 {{% children depth=999 %}}
 
-## Denials Management (Viewer)
-
 ![Denials Viewer](DenialManagementViewer.png)
 
 The denial management viewer displays on submitted accounts. Clicking on this viewer presents a form with several fields to be filled in when an account has been denied payment. 

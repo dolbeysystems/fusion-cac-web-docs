@@ -1,5 +1,5 @@
 +++
-title = 'Medications Viewer'
+title = 'Medications'
 weight = 25
 
 +++
