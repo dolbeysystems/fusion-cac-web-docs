@@ -49,28 +49,22 @@ any column, then select {{% button %}}Reset Columns{{% /button %}}.
 
 ### {{% icon icon="wrench" %}} Tool Panel
 
-The Tool Panel feature gives you the flexibility to customize the display of
-columns within your Assigned Accounts Grid. In addition to the option of auto
-sizing columns to maximize what is displayed, you can select/deselect column
-headings based on your preferences.
-
-Click on {{% button %}}Tool Panel{{% /button %}} from the Column Setting
-drop-down listing to view the Tool Panel selection menu. You can
-select/deselect columns to be displayed and then click on Tool Panel again to
+The Tool Panel feature gives you the flexibility to customize what columns you want to display within your Assigned Accounts Grid. 
+When you click on {{% button %}}Tool Panel{{% /button %}} from the {{% icon icon="bars" %}} Menu icon, a list of headers will come up to the right of the screen.
+This allows you to select/deselect column headings based on your preferences. Click on Tool Panel again to
 hide the Tool Panel selection menu.
+
+Tool panel settings will remain for all future coding sessions and subsequent logins.
+
 
 ## {{% icon icon="table-columns" %}} Grid Columns Fields
 
 ### {{% icon icon="eye-slash" %}} Hide or Show Columns
 
-You can choose which columns you want to view when displaying your assigned
-accounts listing by clicking on the Columns icon in any column on your assigned
-accounts listing.
+Once headings have been selected/deselected to view in the Assigned Accounts Grid via the Tool Panel, you can also choose which columns you want to view during a particular working session. 
+This can be done by clicking on the Columns icon in any column on your assigned accounts listing.
 
 ![Hide or Show Column](image-091.jpg)
-
-Tool Panel settings will remain for all future coding sessions and subsequent
-logins.
 
 To bring all columns back into view, click on
 {{% button %}}Reset Columns{{% /button %}} from the Column Settings drop-down
@@ -94,9 +88,9 @@ box for {{% icon icon="square-check" %}}**Select All**  to remove all filters.
 
 If you filter columns, you can use the
 {{% button %}}Reset Filter{{% /button %}} button to remove filters vs.
-removing  the filter from the column itself.
+removing  the filter from the column itself. This button is found towards the top right of the application screen.
 
-![Column Filter Menu](image-088.jpg)
+![Column Filter Menu](2024-11-20_ResetFilter.png)
 
 ## {{% icon icon="sort" %}} Sorting Accounts within a Single Column
 
@@ -139,28 +133,26 @@ selections have been made, release the keys for the sort results.
 
 ## {{% icon icon="hospital-user" %}} Accounts Button
 
-Click on the Accounts button to toggle between the Accounts view and Recent
-Views, or you can click on the drop-down arrow to select between Account and
-Recent Views.
+In the top left corner of the application, click on the Accounts button to toggle between different account list views. The "Account List" view is the list of accounts of the workqueue you are in. The "Recent Views" will show a list of accounts you have recently touched. The "Pending Accounts" list is a list of the accounts you have added a pending reason to. The "MRN Search" is a way for you to search for accounts by a patient's medical record number. 
 
-![Accounts Button](image-097.jpg)
+![Accounts Button](2024-11-20_AccountList.png)
 
 ### {{% icon icon="share-from-square" %}} Assigned to
 
-Workgroups will be assigned to a coder or group of coders for charts to be
+Workgroups will be assigned to a coder or group of coders for accounts to be
 coded. Workgroups are listings of similar accounts grouped by specified
-criteria. Accounts can reside in only one Workgro frup at any given time. Each
+criteria. Accounts can reside in only one Workgroup at any given time. Each
 coder will have different groups assigned. Check with your manager to
 understand your own Workgroup assignment.
 
 Click on the {{% button %}} Assigned to: {{% /button %}} button to display a
 drop-down menu of assigned Workgroups. Next to each Workgroup name is a bubble
-{{% badge %}} 5 {{% /badge %}} with the number of charts in the Workgroup.
+{{% badge %}} 5 {{% /badge %}} with the number of accounts in the Workgroup.
 
 ![Assigned To Menu](image-100.jpg)
 
 > [!note] Empty Workgroups Not Shown
-By default, a Workgroup must have at least one pending chart to display in the
+By default, a Workgroup must have at least one pending account to display in the
 system. Assigned Workgroups will not be visible here if there are no accounts
 available for coding for that specific Workgroup.
 
@@ -170,17 +162,17 @@ Checking the Auto-Load box before you start your session or when you are in an
 assigned Workgroup will automatically load the next chart in the selected
 Workgroup upon Save, Submit, or Cancel. You can discontinue Auto-Load at any
 time by unchecking the {{% icon icon="square" %}} Auto-Load box. This will
-return you to the Assigned to Workgroup for manual selection of the next chart
+return you to the "Assigned to Workgroup" for manual selection of the next chart
 in the selected Workgroup.
 
 > [!note] Auto-load Uses Filter/Sort
-> Auto-load will load the next chart using the filters and sorts that you have
+> Auto-load will load the next account using the filters and sorts that you have
 > applied to your Workgroup.
 
 ![Auto-Load NavBar](image-104.jpg)
 
 Fusion CAC will automatically open the next account in your assigned Workgroup
-after you {{% button %}} ancel{{% /button %}},
+after you {{% button %}}Cancel{{% /button %}},
 {{% button %}}Save{{% /button %}} or {{% button %}}Submit{{% /button %}} the
 current account.
 
@@ -188,14 +180,14 @@ To discontinue auto-loading of the next chart in your assigned Workgroup, you
 can click {{%button%}}No{{%/button%}} when presented with the
 **Auto-Load Next Account?** dialog.
 
-![Disconnect Auto-Load](image-105.png)
+![Disconnect Auto-Load](2024-11-20_AutoLoad.png)
 
 ### {{% icon icon="arrows-rotate" %}} Refresh Button
 
 ![Disconnect Auto-Load](image-101.png)
 
 Fusion CAC is regularly reacting to account activity, submitting information to
-the encoder, updating Workgroups, and receiving updated data to the EMR. When
+the encoder, updating Workgroups, and receiving updated data to the EHR. When
 you are working from the assigned accounts listing, from time to time you might
 need to {{% icon icon="arrows-rotate" %}} refresh the data and update the
 Workgroups with recent information.
@@ -210,24 +202,25 @@ The **Refresh** button within Fusion CAC is different from the refresh button
 in your browser. It is recommended that you NOT use the refresh button in your
 browser, as this will reload your session, resulting in a loss of your work.
 
-### {{% icon icon="clipboard-user" %}} Loading a Specific Chart
+### {{% icon icon="clipboard-user" %}} Loading a Specific Account
 
-If your facility has opted to use a workflow outside of Fusion CAC or the chart
-you wish to work on is not in your assigned Workgroup, you can open a chart by
+If your facility has opted to use a workflow outside of Fusion CAC or the account
+you wish to work on is not in your assigned Workgroup, you can open an account by
 entering the account number in the **Account #** search box on the right side
 of the Account List Control Bar. Press {{% button %}}ENTER{{% /button %}}
-after typing in the account number to open the chart to the Account Screen.
+after typing in the account number to open the account to the Account Screen.
 
-![Loading a Specific Chart](image-106.png)
+![Loading a Specific Chart](2024-11-20_AccountSearch.png)
 
 ### {{% icon icon="clipboard" %}} Accounts Action Bar
 
-The Accounts Action Bar will be visible after you open account from the
-Workgroup or manually enter it from the Account # search box.
+The Accounts Action Bar will be visible after you open an account from the
+Workgroup or manually enter it from the Account # search box. 
 
-![Accounts Action Bar](image-107.jpg)
+![Accounts Action Bar](2024-11-20_AccountActionsBar.png)
 
-The Accounts Action Bar includes information on the account including:
+On the left of the Accounts Action Bar, it includes information about the account including:
+
 
 | Field                | Description                             |
 | -------------------- | --------------------------------------- |
@@ -237,15 +230,16 @@ The Accounts Action Bar includes information on the account including:
 | **Dates of Service** | From and Thru                           |
 | **Length of Stay**   | based on current date or discharge date |
 
-The Accounts Action Bar also includes buttons to
+On the right of the Accounts Action Bar, it includes buttons to make the following actions:
 {{% button %}}Compute{{% /button %}} (accessing the encoder),
 {{%button%}}Cancel{{%/button%}}, {{%button%}}Save{{%/button%}}, or
 {{%button%}}Submit{{%/button%}} to complete work and close a chart.
+
 
 | Action      | Description                                                                                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Compute** | Launches the encoder. This button should be used to Compute the DRG or view encoder Edits.                                                                   |
 | **Cancel**  | This button will CANCEL any changes made to the account and return to the Assigned Accounts Listing for selection of a new account.                          |
-| **Save**    | This button will SAVE any changes made to the account during the current session and return to the Assigned Accounts Listing for selection of a new account. |
+| **Save**    | This button will SAVE any changes made to the account during the current session. |
 | **Submit**  | The SUBMIT button will save and send any changes made to the account downstream based on facility requirements (usually billing or abstraction).             |
 

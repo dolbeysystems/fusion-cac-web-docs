@@ -4,9 +4,7 @@ weight = 90
 +++
 
 
-This allows you to create custom user roles that can access certain privileges of Fusion CAC by checking
-or unchecking the box next to each of the privileges. When first viewed, Role Management will already
-have default privileges for each role checked for backwards compatibility. This allows management to
+Under "Tools" in the application, there is a tab for "Role Management". This allows you to create custom user roles that can access certain privileges of Fusion CAC by checking or unchecking the box next to each of the privileges. When first viewed, Role Management will already have default privileges for each role checked for backwards compatibility. This allows management to
 create new roles. Even though the user can have more privileges, they will still maintain a current role of
 either coder or CDI which controls what assigned code tree and fields need completed upon their
 actions within the software.
