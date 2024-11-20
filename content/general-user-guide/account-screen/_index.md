@@ -180,6 +180,8 @@ To adjust the level of zoom on a document, right-click within the document and c
 
 Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. 
 
+##### Unassigned Codes
+
 ![Unassigned Code Pane](UnassignedCodePane.png)
 
 Codes are categorized by Diagnosis Codes, Procedure Codes, and then CPT® Codes. 
@@ -205,3 +207,20 @@ Left-clicking on an Unassigned Code will open the relevant document in the cente
 ![Yellow Highlighted Code](YellowHighlight.png)
 
 Continue reviewing all Unassigned Codes until all Assigned Codes have been validated with POA indicator and status.
+
+###### Procedure Codes
+
+Under unassigned Diagnosis Codes are listed all unassigned Procedure Codes that have been suggested by the engine for validation. Left-clicking on the procedure code will take the user to the location within the document that prompted the code suggestion. 
+
+###### Procedure Codes
+
+Under unassigned Diagnosis Codes are listed all unassigned Procedure Codes that have been suggested by the engine for validation. Left-clicking on the procedure code will take the user to the location within the document that prompted the code suggestion. 
+
+##### Assigned Codes
+
+The Assigned pane sits above the Unassigned pane on the right-hand side of the Account Screen. The Assigned pane includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes pane. All codes on submit within this pane will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
+
+Codes falling below the 25th position will display within a light purple color. 
+
+![Assigned Code Pane](AssignedCodes.png)
+ 
