@@ -73,7 +73,7 @@ Available document types are configured with the operational/management team per
 
 ![Document Tree](DocumentTree.png)
 
-The Documents Tree includes a listing of all documents in a patient chart categorized by document type, as configured by the hospital. It frames the Documents Tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document. Listed below are Document Indicators.
+The Documents Tree includes a listing of all documents in a patient chart categorized by document type, as configured by the organization. It frames the Documents Tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document.
 
 |Icon    |Meaning |
 |--------|--------|
@@ -84,6 +84,75 @@ The Documents Tree includes a listing of all documents in a patient chart catego
 |![Expand Code Suggestions](ExpandIcon.png)|Document with engine code suggestions|
 |![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents pane with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
 
+For convenience, users may want to pop out the document into a separate window to continue viewing it while accessing other areas of the chart.
+
+![Pop Out](PopOutIcon.png)
+
+On the documents panel users will see a backward and a forward arrow. This will allow the user to move up and down through the documents listed in the panel. 
+
+![Document Tree Arrows](DocumentTreeArrows.png)
+
+##### Document Codes
+
+If the document has a plus sign to the left of the document name, there are codes within the document for review and validation. Click on the {{%button%}}**+**{{%/button%}} next to a document to expand and show all codes found on the selected document.
+
+![Documented Codes](DocCodes.png)
+   
+Clicking on a document will load the document in the document viewer. Clicking on a suggested code listed underneath the document will take you to highlighted text within the document that triggered the engine to make that code suggestion. 
+
+![Suggested Document Code](DocSuggested.png)
+
+##### Sort Documents
+
+Sorting documents within the Documents tree is done by right-clicking on a document within the pane and selecting Sort, then Default, A-Z, Z-A, Date Ascending, or Date Descending. 
+
+![Document Sort Menu](DocumentSort.png)
+
+Users can reorganize the Document Tree by right clicking on the documents. Clicking on sort will allow users to sort the documents within the folders alphabetically or date. Documents can also be sorted chronologically which removes all folders and will organize all documents in chronological order.
+
+#### Text Document Visual Differences
+
+**For text only documents**, users can view the differences between two documents. Attempting to use images or manual documents will result in a red toast message advising the user to use a different document.   
+
+To see differences, the user must first open a document.  Next, they will right click on another document in the document tree and select View Diff from the menu.  
+
+![View Diff Right Click Menu](ViewDiff.png)
+
+This will bring up a new tab. The left side of the tab will show the older document, and the right side will show the newer document. The older document will show red highlights wherever something was changed, and the right side will show blue highlights for anything that was added. 
+
+![New Tab For View Diff](NewTab.png)
+
+![Document Differences](DocDiff.png)
+
+##### Search Button
+
+The Documents tree includes a Search button.  
+
+![Document Search](DocSearch.png)
+
+Click on the Search button to open and enter the specific terms or phrase to be found within the documents in the chart. Upon clicking the search button, a floating window will now open and will fill with all results for the search word.  Each result will display the name and date of the document along with a short portion of the sentence containing the word. The arrows allow you to move up and down through the list. This window stays active when using auto-load and will update with each account’s search results. The window can be minimized to a ‘Restore’ button on the Document tree. Clicking on the Restore button will re-open the search window and will display the results.  
+
+![Document Search Results](SearchResults.png)
+
+After pressing the Enter key, documents that include the searched term or phrase will be highlighted in RED. 
+
+![Documents Highlighted Red](RedDocs.png)
+
+Click on the document highlighted in RED to view the searched term/phrase within the document.  Each occurrence of the searched term/phrase will be highlighted in yellow.
+
+![Yellow Highlighted Search Term](YellowHighlightTerm.png)
+
+##### Expand Documents 
+
+Right-click on a document within the Documents pane and select Expand to visualize all documents within a documents folder or all suggested codes within each document. The default view is Expand Documents, with options to Collapse All. This allows the user to see the whole folder structure to see what options they have before they open a folder to view specific documents.
+
+![Expand Documents](ExpandDoc.png)
+
+The right click zoom will not be available for photo documents or pdf documents, since they have their own.  Zoom will also not be available on worksheets. **This feature is not compatible for Firefox users because Firefox does not support the style.**
+
+##### Read/Unread
+
+When returning to a chart after new documents have been added, documents that have not previously been reviewed by the current user will appear in **BOLD** text.  Documents that have been previously viewed will appear in normal text.
 
 ## Document Pane
 
@@ -97,6 +166,15 @@ On the left hand side of main header are backward and forward arrows. These arro
 
 If there is a physician on a document, the name will show in the document viewer header, on the popout, and in the Ctrl+ click of the header.
 
+Click on the pop out icon to open the selected document in a new window. The document opens in a new window for continued viewing while other areas of the chart are accessed during the current coding session.
+
+![Pop Out](PopOutIcon.png)
+
+##### Zoom Documents 
+
+To adjust the level of zoom on a document, right-click within the document and click “Zoom”. This feature is available both on the main page and in popped out documents. When a user selects a zoom level, that level will be retained for all documents. The last zoom level used before sign out is the zoom level the user will get when they sign back in. 
+
+![Document Zoom](DocZoom.png)
 
 ## Code Panes
 
