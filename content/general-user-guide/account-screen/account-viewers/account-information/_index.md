@@ -6,6 +6,8 @@ weight = 21
 
 {{% children depth=999 %}}
 
+![Account Info Viewer](AccountInfo.png)
+
 ![Account Information Viewer](AccountInformationViewer.png)
 
 The Account Information pane summarizes patient demographic information (based on custom system configuration) with data captured for purposes of state and/or registry reporting. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right corner of the pane. To update data fields in the Account information pane, click on the blue button and select the appropriate selection from the drop-down menu.

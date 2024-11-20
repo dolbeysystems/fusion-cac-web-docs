@@ -1,6 +1,6 @@
 +++
 title = 'Working CDI History'
-weight = 24
+weight = 26
 +++
 
 The working CDI History can be used to look at historical working DRG calculations. The coders cannot edit this information, but they can review the data.
