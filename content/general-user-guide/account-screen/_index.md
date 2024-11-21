@@ -1,6 +1,6 @@
 +++
 title = 'Account Screen'
-weight = 11
+weight = 10
 +++
 
 ## Account Action Bar
