@@ -114,6 +114,22 @@ When saving a search, a new field will show in the save box called Filter Summar
 
 ![Saved Account Search](SavedAS.png)
 
+### Scheduling a Report
+
+When a search is saved, a {{%button%}}+Add Scheduler{{%/button%}} button will appear for users in Account Search to open a dialog box to create/edit/delete a schedule. Each saved search can have one schedule.
+
+![Add Scheduler Button](AddScheduler.png)
+
+![Scheduler Box](Scheduler.png)
+
+Once the user fills this out and saves, the button changes so the user can edit the scheduled report from account search.
+
+![Edit Scheduler Button](EditScheduler.png)
+
+Users can also see the account searches that were scheduled under the reporting tabs and scheduled user reports.
+
+![Saved Account Search Filters](SavedASFilters.png)
+
 ### Export to CSV
 
 Search results can be exportd from the right click menu. Exporting in the CSV format allows users to view them in Excel. Exported results will maintain the columns and grouping. 
