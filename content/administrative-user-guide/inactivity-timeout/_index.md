@@ -1,6 +1,6 @@
 +++
 title = 'Inactivity Timeout'
-weight = 180
+weight = 35
 +++
 
 Logins can be set to trigger an ‘inactivity reason’ via settings added to the Web.config file. With
