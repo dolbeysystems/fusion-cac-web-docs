@@ -3,14 +3,20 @@ title = 'Dashboard'
 weight = 30
 +++
 
-A user with administrative rights is now provided with overviews of Coder and CDI activity. The admin
+A user with administrative rights is provided with overviews of Coder and CDI activity. The administrative
 user can also select to look specifically at Coder or CDI information by selecting the appropriate
 dashboard button.
 
-The dashboard is shown when you log in and after you login it can be access by clicking on the Fusion
-CAC/CDI in the top left corner of the application or my clicking on the reporting menu item and selecting
-dashboard. The software has 4 main dashboards with drill down data. These dashboards are separated
-by:
+The dashboard is shown when the user logs in and after login, it can be accessed by 
+- Clicking on Fusion CAC/CDI in the top left corner of the application
+  
+![Fusion CAC](FusionCAC.png)
+
+- Clicking on the reporting menu item and selecting dashboard
+  
+![Reporting Menu Dashboard](Dashboard.png)
+
+The software has 6 main dashboards with drill down data:
 
 1. Administrative Dashboard
 2. Coder Personal Dashboard
@@ -19,99 +25,80 @@ by:
 5. Audit Management Dashboard
 6. Audit Personal Dashboard
 
-## Administrative Dashboard
+### Administrative Dashboard
 
-The administrative dashboard is only available for those users with an admin role. This dashboard
-displays quick data at a glance. Clicking on any of the numbers in blue will open a grid to display the data
-that goes into the number displayed.
+The administrative dashboard is only available for those users with the administrator role. This dashboard
+displays data at a glance. Clicking on any of the blue numbers will open a grid to display the data
+that goes into that number.
 
-![Administrative Dashboard](image-333.jpg)
+![Administrative Dashboard](AdminDash.png)
 
-### Users Online
+#### Users Online
 
 This displays the users online or offline broken out user type. The blue numbers are links to view the
-users behind the number you selected.
+user detail behind the number you selected.
 
-![Users Online](image-334.png)
+![Users Online](UsersOnline.png)
 
-If you click on any of the blue “online” numbers you can see how long and what account the user is
-within. If you right click on the grid you can export to csv.
+![Users Online Detail](CodersOnline.png)
 
-![Export Users Online](image-335.jpg)
+Users can right click on the grid to export to CSV.
 
-### Open Queries
+#### Open Queries
 
-This displays the open queries, unanswered vs. answered per role along with average TAT and provider
+This section displays open, unanswered, and answered queries per role along with average turn around time (TAT) and provider
 response rate.
 
-![Open Queries](image-336.jpg)
+![Open Queries](OpenQueries.png)
 
-If you click on any of the blue numbers you can see the data behind that number. If you right click on the
-grid you can export to csv.
+Click on any of the blue numbers to see the data behind that number. Right clicking on the
+grid provides the option to export to CSV.
 
-![Export](image-338.jpg)
-
-### Top 10 Queries in Last 30 Days
+##### Top 10 Queries in Last 30 Days
 
 This displays the 10 most used query templates within the last 30 days.
 
-![Top 10 Queries](image-339.png)
+![Top 10 Queries](Top10Queries.png)
 
-If you click on any of the blue numbers you can see the data behind that number. If you right click on the
-grid you can export to csv.
+Click on any of the blue numbers to see the data behind that number. Right clicking on the
+grid provides the option to export to CSV.
 
-![Top 10 Queries](image-340.jpg)
+#### AutoClose Daily Stats
 
-### AutoClose Daily Stats
+This section displays AutoClose stats, including charts autoclosed and rejected on the current day. It also includes data for
+month to date. 
 
-This displays the AutoClose stats including charts autoclosed today, rejected today and then data for
-month to date. If you click on any of the blue numbers you can see the data behind that number. If you
-right click on the grid you can export to csv.
+![AutoClose Daily Stats](ACDailyStats.png)
 
-![AutoClose Daily Stats](image-341.jpg)
+Click on any of the blue numbers to see the data behind that number. Right clicking on the
+grid provides the option to export to CSV.
 
-### Coder Productivity
+#### Coder Productivity
 
 This displays the coders productivity by charts submitted and those that are pending.
 
-![Coder Productivity](image-342.png)
+![Coder Productivity](CoderProductvity.png)
 
-If you click on any of the blue numbers you can see the data behind that number. If you right click on the
-grid you can export to csv.
+Click on any of the blue numbers to see the data behind that number. Right clicking on the
+grid provides the option to export to CSV.
 
-![Coder Productivity](image-343.jpg)
-
-### Coding Trends per Day
+#### Coding Trends per Day
 
 Coding Trends per day combines "Average Daily Coded" and "Average TAT to Submit" to show
-averages over last 7, last 30, and last 90 days compared to the prior 7, prior 30, or prior 90 days,
-grouped by category
+averages over the last 7, 30, and 90 days compared to the prior 7, 30, or 90 days, grouped by category.
 
-## Average Daily Coded
+![Coding Trends Per Day](TrendsPerDay.png)
 
-This displays the current average productivity per category to date compared to last 3 months break
-out per category.
+#### Discharge Not Final Coded (DNFC)
 
-![Coder Productivity](image-344.jpg)
-
-## Average TAT to Submit
-
-This displays the average TAT from Discharge to Submit per Category then break out by This Week,
-Last Week, Last Month, Last 90 Days.
-
-![Average TAT to Submit](image-345.jpg)
-
-### Discharge Not Final Coded (DNFC)
-
-This section provides the admin staff the ability to see where they are in regards to outstanding the
-sum of total charges per charts outstanding for the current month also known as discharge not final
-coded. The admin staff can also see if they are meeting their goal for how many charts are
+This section provides the admin staff the ability to see where the organization is in regards to the outstanding sum of total charges. The data broken down by total outstanding charges per charts outstanding for the current month also known as discharge not final
+coded. The admin staff can also see if the team is meeting their goal for how many charts are
 outstanding at the end of the month. A comparison is displayed to show total charges for the current
-month compared to compared to the previous month.
+month compared to the previous month.
 
-![Discharge Not Final Coded](image-346.jpg)
+![Discharge Not Final Coded](DNFCSection.png)
 
-#### Filtering Discharge Not Final Coded (DNFC)
+##### Filtering Discharge Not Final Coded (DNFC)
 
 This section can be filtered by facility and/or category. By leaving the filters blank it will combine all
 facilities and all patient types. You can use the filter to filter by a facility by clicking on the drop down
@@ -119,14 +106,14 @@ or you can also include a category so that it only displays inpatient informatio
 
 ![Filtering DNFC](image-347.jpg)
 
-#### Available
+###### Available
 
 Defined as all patients discharged and not submitted within a coding worklist (Workgroup Type must
 equal coding) per either the “current month” or “previous month” depending on the column reported.
 Next to each value should be a number in blue that represents the number of charts that make up the
 dollar value. Users can click these numbers to drill down and display the chart details
 
-#### Unavailable
+###### Unavailable
 
 Defined as all patients discharged and not submitted and not within a coding worklist (Workgroup Type
 not equal to coding) per either the “current month” or “previous month” depending on the column
@@ -135,11 +122,11 @@ make up the dollar value. Users can click these numbers to drill down and displa
 the drill down it would be helpful to pivot the list first on the Workgroup Type and then by Pending
 Reason.
 
-#### Total
+###### Total
 
 This will be the total of both available and unavailable for coding.
 
-#### Goal
+###### Goal
 
 This section of the dashboard allows you to set a target goal for your discharge not final coded. You can
 set the goal by clicking on the red button that indicates “Add Goals”.
@@ -148,7 +135,7 @@ By clicking on “Add Goals” you can set the goals per facility and per catego
 
 ![Filtering DNFC](image-349.jpg)
 
-#### Difference
+###### Difference
 
 The difference between the goal and actual (Goal - Total DNFC). For visual clarity, the number will be
 displayed in green if the difference is less than or equal to the goal. If the total is greater than the goal,
