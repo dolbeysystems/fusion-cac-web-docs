@@ -1,8 +1,8 @@
 +++
 title = 'General User Guide'
-weight = 21
+weight = 60
 +++
 
-
+This guide reviews the application from the perspective of an administrator.
 
 {{% children depth=999 %}}
