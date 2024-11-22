@@ -12,17 +12,6 @@ The viewer name will turn red to alert the user that action is needed.
 
 ![Viewer Turned Red](RedViewer.png)
 
-
-### Physicians & Queries
-
-![Highlighted Physicians & Queries](PhysiciansQueriesHighlighted.png)
-
-The "Physicians & Queries" viewer will be highlighted with an amber background in the
-Navigation Tree if the account has at least one physician query.
-
->[!note] The amber background does not appear if the "Physician & Queries"
-viewer is selected because the "selected" background overrides the amber background.
-
 ### Code Summary
 
 |Symbol/Color   |Meaning   |
@@ -38,6 +27,52 @@ viewer is selected because the "selected" background overrides the amber backgro
 **Red**: Validation hard stop used to notify a user that there are things that they need to resolve. It **does** prevent the user from submitting the chart.
 
 **Yellow**: This color is associated with validation soft stop used to notify a user that there may be things that they need to resolve. It **does not** prevent the user from submitting the chart.
+
+### Physicians & Queries
+
+![Highlighted Physicians & Queries](PhysiciansQueriesHighlighted.png)
+
+The "Physicians & Queries" viewer will be highlighted with an amber background in the
+Navigation Tree if the account has at least one physician query.
+
+>[!note] The amber background does not appear if the "Physician & Queries"
+viewer is selected because the "selected" background overrides the amber background.
+
+The viewer will turn brown to indicate there are open queries awaiting a response.
+
+![Open Query](OpenQuery.png)
+
+### Charges
+
+![](image-604.jpg)
+
+**Caution Symbol**: The caution symbol next to the left of the code is a edit that comes from
+the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the
+edit, if you need a larger view of the edit you can open the TruCode research page for
+further details.
+
+### CDI Alerts (Navigation Tree)
+
+![](image-605.jpg)
+
+![](image-606.jpg)
+
+**Paper Icon**: The paper icon allows users to click to enter notes to indicate thoughts on
+the CDI Alert.
+
+For Example, a user may want to indicate they are "Watching the alert because they want to wait for a
+consult to occur the next day to decide if a query is needed."
+
+**Red with Number**: The red indicates that there are "Active CDI Alerts" and the number
+represents to total active alerts.
+
+## Dashboards
+
+![](image-607.jpg)
+
+**Blue Text**: Most of the blue text on the dashboard is a clickable link. When clicked it
+will open a new tab into a pop out with the details behind the number. There are some
+numbers like numbers with a percentage rates or averages that won't yield pop out results.
 
 ## Document Tree
 
@@ -78,104 +113,25 @@ Words/Phrases and Codes can be highlighted in few different colors:
 
 ## Code Tree
 
-![](image-599.jpg)
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|H Icon|Indicates that the code is a HCC ![Code is a HCC](H.png)|
+|MCC|Indicates that the code is a MCC ![Code is a MCC](mcc.png)|
+|CC|Indicates that the code is a CC ![Code is a CC](CC.png)|
+|HAC|Returned upon computing for the MS-DRG, this indicates that the code is an HAC.|
+|NOR|Indicates the procedure code is a non-OR procedure.
+|Tag|Returned upon computing for the MS-DRG, this indicates that the code is responsible for one of the following quality measures **PSI**, **PDI**, **PC-06** or **Elixhauser**.|
+|Purple Background on **Assigned Codes**|There are more than 25 codes and any code in purple is below the the 25th position. This is important since CMS only accepts 25 diagnosis codes in the event you need to consider resequencing codes that need to be above the 25th position.
+|Exclamation Icon|Will appear on the "show all" tree when a user manually entered this code *and* the system suggested it.
+|Person Icon|A user manually entered this code. It was not suggested by the application. Hovering over the icon will display the user who added it.
+|Caution Symbol|An edit that comes from the TruCode encoder or add on edits. If you hover over the caution symbol you can see the edit. Users needing a larger view of the edit can open the TruCode research page for further details.|
+|Green Flag|In the "Show All" or "Unassigned Code Tree," the presence of a green flag next to a code signifies that there is a comment associated with that particular code. This same flag can also be found alongside the code within a document and in the notes & bookmarks section under the navigation tree within the code comment section.|
+|Pencil Icon|Exclusively available for **non-TruCode** organizations. It allows end users to manually input a code into the encoder using the compute button. This signifies that there is no direct association between the code and any specific location on a document.|
+|Letter Blocks|Indicates the present on admission (POA) status. When clicked the end user can change the status to the following: <ul><li>Y = Yes</li><li>N = No</li><li>U = Undefined</li><li>W = Withdrawal</li><li>E = Exempt</li></ul>|
 
-![](image-600.jpg)
+## Tuning Dashboard
 
-![](image-601.jpg)
-
-**H Icon**: This icon indicates that the code is an HCC.
-
-**MCC**: This indicates that the code is an MCC.
-
-**CC**: This indicates that the code is an CC.
-
-**HAC**: This is returned upon computing for the MS-DRG indicates that the code is an HAC.
-
-**NOR**: This indicates the procedure code is a non-OR procedure.
-
-**Tag**: This is returned upon computing for the MS-DRG indicates that the code is the
-culprit to one of the following quality measures **PSI**, **PDI**, **PC-06** or **Elixhauser**.
-
-**Purple Background on Assigned Codes**: This means that there are more than 25
-codes and any code in purple is below the the 25th position. This is important since CMS
-only accepts 25 diagnosis codes in the event you need to consider resequencing codes
-that need to be above the 25th position.
-
-**Exclamation Icon**: This will appear on the "show all" tree when a user manually entered
-this code and the system suggested it.
-
-**Person Icon**: A user manually entered this code. It was not suggested by the application.
-Hovering over the icon will display the user who added it.
-
-**Caution Symbol**: The caution symbol next to the left of the code is a edit that comes from
-the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the
-edit, if you need a larger view of the edit you can open the TruCode research page for further details.
-
-**Green Flag**: In the "Show All" or "Unassigned Code Tree," the presence of a green flag next to
-a code signifies that there is a comment associated with that particular code. This same flag
-can also be found alongside the code within a document and in the notes & bookmarks section
-under the navigation tree within the code comment section.
-
-**Pencil Icon**: The pencil icon is exclusively available on non- TruCode sites, allowing end
-users to manually input a code into the encoder using the compute button. This signifies
-that there is no direct association between the code and any specific location on a document.
-
-**Letter Blocks**: The letter blocks next to each of the diagnosis codes indicate the present on
-admission (POA) status. When clicked the end user can change the status to the following:
-
-- Y = Yes
-- N = No
-- U = Undefined
-- W = Withdrawal
-- E = Exempt
-
-## Notes & Bookmarks (Navigation Tree)
-
-![](image-602.jpg)
-
-**Red**: The red indicates that there are notes, bookmarks or code comments.
-
-## Physicians & Queries (Navigation Tree)
-
-![](image-603.jpg)
-
-**Red**: The red indicates that there are answered queries awaiting review.
-**Brown**: The brown indicates that there are open queries awaiting an answer
-
-## Charges (Navigation Tree)
-
-![](image-604.jpg)
-
-**Caution Symbol**: The caution symbol next to the left of the code is a edit that comes from
-the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the
-edit, if you need a larger view of the edit you can open the TruCode research page for
-further details.
-
-## CDI Alerts (Navigation Tree)
-
-![](image-605.jpg)
-
-![](image-606.jpg)
-
-**Paper Icon**: The paper icon allows users to click to enter notes to indicate thoughts on
-the CDI Alert.
-
-For Example, a user may want to indicate they are "Watching the alert because they want to wait for a
-consult to occur the next day to decide if a query is needed."
-
-**Red with Number**: The red indicates that there are "Active CDI Alerts" and the number
-represents to total active alerts.
-
-## Dashboards
-
-![](image-607.jpg)
-
-**Blue Text**: Most of the blue text on the dashboard is a clickable link. When clicked it
-will open a new tab into a pop out with the details behind the number. There are some
-numbers like numbers with a percentage rates or averages that won't yield pop out results.
-
-## Tuning Dashboard (Tuning Menu)
+![Tuning Menu](TuningMenu.png)
 
 ![](image-608.jpg)
 
