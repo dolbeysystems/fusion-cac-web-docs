@@ -1,13 +1,15 @@
 +++
-title = 'Er Em Configuration Page'
+title = 'ER E/M Configuration Page'
 weight = 110
 +++
+
+>[!Note] The organization must have ER E/M Configuration enabled to use this feature. If this is not currently enabled, please contact your account representative for more information.
 
 The E/M Configuration page must be set up by the Dolbey Team therefore the
 below is to show you what is within this page. If you need more information on the
 set up of this page, please contact the SME Team (smeteam@dolbey.com).
 
-![](image-511.jpg)
+![](2024-11-22_EMConfig.png)
 
 The ER E/M Configuration can be found within the Tools menu. If enabled, you will
 see it beneath the Validation Management.
