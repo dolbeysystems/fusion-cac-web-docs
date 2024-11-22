@@ -5,33 +5,31 @@ weight = 110
 
 >[!Note] The organization must have ER E/M Configuration enabled to use this feature. If this is not currently enabled, please contact your account representative for more information.
 
-The E/M Configuration page must be set up by the Dolbey Team therefore the
-below is to show you what is within this page. If you need more information on the
-set up of this page, please contact the SME Team (smeteam@dolbey.com).
+Once the E/M Configuration has been enabled, the initial setup must be completed by the Dolbey Team. After this setup is finalized, your organization can make any desired changes directly or contact the SME Team at smeteam@dolbey.com for additional support.
+
+Below is a reference guide to assist with setting up or modifying the configuration as needed.
+
+The ER E/M Configuration can be found within the Tools menu. If enabled, it will be seen beneath Validation Management. 
 
 ![](2024-11-22_EMConfig.png)
 
-The ER E/M Configuration can be found within the Tools menu. If enabled, you will
-see it beneath the Validation Management.
+When you click on the ER E/M Configuration, a page will open and should appear similar to the image below.
 
-Upon clicking on ER E/M Configuration, you will be presented with the
-configuration page which should look similar to the below.
+![](2024-11-22_EMConfigPg.png)
 
-![](image-509.jpg)
+The configuration page allows you to set up the E/M Level Matrix and other related components. If a user has Facility Mapping, the E/M Configuration can be copied across different facilities.
 
-Within the configuration page, you can configure the E/M Level Matrix and other components. If a user
-has a Facility Mapping, the EM E/R Configurations can now be copied between the various facilities. If
-the user has a Facility mapping, a new option will appear in the top right of the screen allowing selection
-of one of the facilities. Once a facility is chosen, that facility’slevels will appear. A new Copy button will
-show at the top of the Levels section. Clicking it will open a dialog asking the user what facility to copy
-those current levels to. The levels will be presented in a dropdown. In this case, I am in Dolbey South –
-Cincinnati, and when I select the copy button, I have the option to pick another facility to copy those
-levels to:
+When Facility Mapping is available, a new option will appear in the top-right corner of the screen, enabling you to select a facility. Once a facility is selected, the levels associated with that facility will be displayed. A Copy button will also appear at the top of the Levels section.
 
-![](image-510.jpg)
+![](2024-11-22_Facility.png)
 
-This option will overwrite and copy the current levels that are onscreen to the facility that is selected. If the user
-does not have a Facility mapping, then these copy options will be hidden.
+Clicking the Copy button opens a dialog box where you can choose a destination facility to copy the current levels to. Facilities available for copying will be listed in a dropdown menu. For example, if you are working in Dolbey South – Cincinnati, selecting the Copy button will allow you to pick another facility to replicate the levels.
+
+![](2024-11-22_CopyFacility.png)
+
+This option will overwrite and copy the current levels that are onscreen to the facility that is selected.
+
+>[!Note] If an organization does not have Facility Mapping, and only has one facility, the copy options will be hiden.
 
 ## Configuring the E/M Matrix
 
