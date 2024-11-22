@@ -1,6 +1,6 @@
 +++
 title = 'Reviewing Documentation'
-weight = 12
+weight = 10
 +++
 
 

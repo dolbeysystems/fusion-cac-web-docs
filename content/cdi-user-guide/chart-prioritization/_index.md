@@ -291,7 +291,7 @@ By clicking on “+ Add Review” you can select the type of review that you wis
 
 > [!tip] Review Type List Configuration
 The list of review types presented here are configurable by a site administrator through
-[Mapping Configuration.]({{< ref "../../administrative-user-guide/mapping-configuration" >}})
+[Mapping Configuration.]
 
 ![Documentation Review](image-297.jpg)
 

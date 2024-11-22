@@ -1,6 +1,6 @@
 +++
 title = 'Account Screen'
-weight = 11
+weight = 10
 +++
 
 ## Account Action Bar
@@ -22,7 +22,7 @@ The blue bar accross the top of the screen is the Account Action Bar. This bar d
 
 Below the Accounts Action Bar is the Banner Bar, which contains 
 
-### Patient Information 
+#### Patient Information 
 
 Information in the banner bar may include:
 
@@ -38,7 +38,7 @@ Information in the banner bar may include:
 > Clicking the patient's name again will expand the banner bar and the information displayed. 
 
 
-### DRG/APC
+#### DRG/APC
 
 From the Banner Bar, you can toggle between demographic information and Primary DRG
 information by clicking on the Primary DRG hyperlink. 
@@ -61,7 +61,7 @@ Any Navigation link highlighted in **{{< rawhtml >}}<span style="color:#a00">RED
 indicates action items  required to finalize the chart or  additional information available for review and reference. 
 
 
-### +Add
+#### +Add
 
 Click on the +Add document button to add a document configured based on your user role. 
 
@@ -92,7 +92,7 @@ On the documents panel users will see a backward and a forward arrow. This will 
 
 ![Document Tree Arrows](DocumentTreeArrows.png)
 
-##### Document Codes
+#### Document Codes
 
 If the document has a plus sign to the left of the document name, there are codes within the document for review and validation. Click on the {{%button%}}**+**{{%/button%}} next to a document to expand and show all codes found on the selected document.
 
@@ -102,7 +102,7 @@ Clicking on a document will load the document in the document viewer. Clicking o
 
 ![Suggested Document Code](DocSuggested.png)
 
-##### Sort Documents
+#### Sort Documents
 
 Sorting documents within the Documents tree is done by right-clicking on a document within the pane and selecting Sort, then Default, A-Z, Z-A, Date Ascending, or Date Descending. 
 
@@ -124,7 +124,7 @@ This will bring up a new tab. The left side of the tab will show the older docum
 
 ![Document Differences](DocDiff.png)
 
-##### Search Button
+#### Search Button
 
 The Documents tree includes a Search button.  
 
@@ -142,7 +142,7 @@ Click on the document highlighted in RED to view the searched term/phrase within
 
 ![Yellow Highlighted Search Term](YellowHighlightTerm.png)
 
-##### Expand Documents 
+#### Expand Documents 
 
 Right-click on a document within the Documents pane and select Expand to visualize all documents within a documents folder or all suggested codes within each document. The default view is Expand Documents, with options to Collapse All. This allows the user to see the whole folder structure to see what options they have before they open a folder to view specific documents.
 
@@ -150,7 +150,7 @@ Right-click on a document within the Documents pane and select Expand to visuali
 
 The right click zoom will not be available for photo documents or pdf documents, since they have their own.  Zoom will also not be available on worksheets. **This feature is not compatible for Firefox users because Firefox does not support the style.**
 
-##### Read/Unread
+#### Read/Unread
 
 When returning to a chart after new documents have been added, documents that have not previously been reviewed by the current user will appear in **BOLD** text.  Documents that have been previously viewed will appear in normal text.
 
@@ -170,7 +170,7 @@ Click on the pop out icon to open the selected document in a new window. The doc
 
 ![Pop Out](PopOutIcon.png)
 
-##### Zoom Documents 
+#### Zoom Documents 
 
 To adjust the level of zoom on a document, right-click within the document and click “Zoom”. This feature is available both on the main page and in popped out documents. When a user selects a zoom level, that level will be retained for all documents. The last zoom level used before sign out is the zoom level the user will get when they sign back in. 
 
@@ -178,17 +178,29 @@ To adjust the level of zoom on a document, right-click within the document and c
 
 ## Code Panes
 
-Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. 
+Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. This allows the user to view each code with a link to the documentation and context of words and phrases which prompted the code suggestion. If the code has a {{%button%}}**+**{{%/button%}} to the left of the code, there are codes within the document for review and validation.
 
-##### Unassigned Codes
+#### Unassigned Codes
 
 ![Unassigned Code Pane](UnassignedCodePane.png)
+
+There are 2 different symbols that may display next to the code(s). If there is not an icon next to the code, then the engine suggested these codes.
+
+|Code Icon| Meaning|
+|---------|--------|
+|![Person Icon](PersonIcon.png)|The Person icon indicates a user manually entered this code and the system did not suggest it. Hovering over this icon will display the user who manually added it.|
+|![Exclamation Icon](Exclamation.png)|The exclamation mark icon indicates a user manually entered this code *and* the system suggested it. Clicking on the {{%button%}}**+**{{%/button%}} next to the code then hovering over the person icon will display the user whom manually added it.|
 
 Codes are categorized by Diagnosis Codes, Procedure Codes, and then CPT® Codes. 
 
 ![Categorized Codes](CategorizedCodes.png)
 
-From here, users can right-click on a code, then either Assign or Edit/Assign the selected code.
+Alternatively, users can toggle between showing All Codes or just the Unassigned Codes. Click on the Show All button to toggle between showing All Codes suggested by the engine on this account or Show Unassigned to view just the suggested codes pending validation to be moved to the Assigned Codes pane. If there is a code that appears on multiple document types and one of those is assigned, it will appear as **BOLD** in the Show All codes tree. 
+
+![Show All Code Button](ShowAllCodes.png)
+
+![Bold Code in Show All](BoldCode.png)
+Users can right-click on a code, then either Assign or Edit/Assign the selected code.
 
 ![Right Click Code Menu](CodeRightClick.png)
 
@@ -208,15 +220,35 @@ Left-clicking on an Unassigned Code will open the relevant document in the cente
 
 Continue reviewing all Unassigned Codes until all Assigned Codes have been validated with POA indicator and status.
 
-###### Procedure Codes
+##### Procedure Codes
 
 Under unassigned Diagnosis Codes are listed all unassigned Procedure Codes that have been suggested by the engine for validation. Left-clicking on the procedure code will take the user to the location within the document that prompted the code suggestion. 
 
-###### Procedure Codes
+##### CPT Codes
 
-Under unassigned Diagnosis Codes are listed all unassigned Procedure Codes that have been suggested by the engine for validation. Left-clicking on the procedure code will take the user to the location within the document that prompted the code suggestion. 
+Under unassigned Procedure Codes are listed all unassigned CPT® Codes that have been suggested by the engine for validation. Left-clicking on the CPT® code will take you to the location within the document that prompted the code suggestion. 
 
-##### Assigned Codes
+##### Hide CDI Added Codes
+
+If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes Pane will be viewable.  When checked, any code added to a document by a CDI will be hidden from the list. 
+
+![Hide CDI Codes Check Box](HidCDICodes.png)
+
+##### Code Comments
+
+A comment can be added to a code on the [document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#document-tree), or the Unassigned/Show All code tree. 
+
+![Add/Edit Code Comment](CodeComment.png)
+
+![Add/Edit Code Comment](CodeCommentDoc.png)
+
+Comments will show as a green flag in the trees **and** on the code in the document tree. The comment is readable via a hover over; in the document itself, the flag can be clicked to open the comment. The comment can be added to or deleted by erasing the text. The comment will show in its own section in the Notes and Bookmarks viewer, and can be edited or deleted there.   
+
+![Code Comment Flag](CommentFlag.png)
+
+![Code Comment Notes & Bookmarks](CodeBookmark.png)
+
+#### Assigned Codes
 
 The Assigned pane sits above the Unassigned pane on the right-hand side of the Account Screen. The Assigned pane includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes pane. All codes on submit within this pane will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
 
@@ -224,3 +256,43 @@ Codes falling below the 25th position will display within a light purple color.
 
 ![Assigned Code Pane](AssignedCodes.png)
  
+##### Admit Diagnosis
+
+ Listed first in the Assigned pane is the Admit Diagnosis. Users can right-click on any assigned diagnosis code and select Assign as Admit Diagnosis to add the code as the Admit Diagnosis. This right click menu will change depending on if you click on diagnosis or procedures and if the user is in an inpatient vs outpatient chart.
+
+![Right Click Admit Diagnosis](RCAdmit.png)
+
+##### Assigned Diagnoses
+
+Under Admit Diagnosis are all Assigned Diagnoses as they are validated and added via direct entry or using the encoder. There is no designation for principal, the code will display as the first listed under assigned diagnosis and will appear in bold text. Users will need to right click on desired code to add as an assigned principal code to see the bold text.
+
+##### Assigned ICD-10 Procedures
+
+Listed beneath Assigned Diagnoses are all Assigned ICD-10 Procedures as they are validated and added using the encoder.
+
+##### Assigned CPT® Codes
+
+Following the listed Assigned ICD-10 Procedures are the Assigned CPT® Codes.
+
+##### Code Editor
+
+An additional, quicker, way to open the Code Editor dialog via the right-click menu right from the assigned code tree. When clicking on the code from the assigned code tree, user will edit only the code along with the position they have clicked on. However, if using the hot key from the unassigned code tree will open a full code editor, since no action has been assigned yet to that code.
+
+![Right Click Edit Code](RightClickEdit.png)
+
+##### Add Code Set Button
+
+Users have the option of adding codes from a code set for standard procedures based on facility settings.
+
+![Add Code Set](AddSet.png)
+
+Click on the Add Set button to open the Add code from code set window then click on the down arrow to review a menu of code sets.
+
+![Add Code From Code Set](CodeFromSet.png)
+
+Click on the Code Set to view a listing of the codes for this code set.
+
+![Code Set Codes List](CodeSetCodes.png)
+
+Click OK to simultaneously add all codes from this code set to the chart.
+

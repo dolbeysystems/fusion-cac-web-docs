@@ -1,9 +1,8 @@
 +++
-title = 'Coding a Patient Chart'
-weight = 21
+title = 'Coding A Chart'
+weight = 11
 +++
 
 
 
 {{% children depth=999 %}}
-

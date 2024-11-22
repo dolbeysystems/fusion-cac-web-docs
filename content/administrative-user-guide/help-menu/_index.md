@@ -1,6 +1,6 @@
 +++
 title = 'Help Menu'
-weight = 170
+weight = 34
 +++
 
 The help menu can be found using the ? in the top right corner of the
