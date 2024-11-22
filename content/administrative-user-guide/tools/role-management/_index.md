@@ -9,48 +9,69 @@ create new roles. Even though the user can have more privileges, they will still
 either coder or CDI which controls what assigned code tree and fields need completed upon their
 actions within the software.
 
-![](image-489.jpg)
+![](2024-11-21_RoleMgmt.png)
 
-The chart-access section will tell which roles the user will have added to the assigned code tree however, you
-can add additional privileges as needed.
 
-To create a new role, in the top right-hand corner where it says type new role add in whatever you want
-the role to be named(example: CDI Enhanced). Once you have a name click on the add role button. With
-this role you may want to provide the CDI access to everything that they had previously as well as allow
-them to be able to help design queries. In this example you would copy over any of the settings for the
-CDI specialist default role in addition to giving them privileges to the form designer to create and edit
-CDI forms and create and edit physician query forms. Once you are done selecting the privileges for the
-custom role you have created, click on save all roles in the top right-hand corner.
+To create a new role, navigate to the top-right corner and locate the "Type new role" field. Enter the desired name for the new role (e.g., CDI Enhanced). After naming the role, click the "+Add Role" button. In this example of a "CDI Enhanced" user role, this role may require providing CDI access to all previous permissions while also enabling the ability to design queries. To add the privileges, replicate the settings from the CDI Specialist default role and add privileges for the form designer to create and edit both CDI forms and physician query forms. Once all privileges for the custom role are selected, click "Save All Roles" in the top-right corner.
+
+![](2024-11-21_AddUserRole.png)
+
+## Features and Privileges
+
+Various privileges are able to be assgined to a user for specific features in the application. To grant access, identify the feature the user needs and assign the corresponding privileges. Features include the following and are located in the blue drop down box:
+
+- Chart (Access, Editing, Physician Queries, Routing)
+
+- Community
+
+- Dashboard
+
+- Document Types Management
+
+- Form Designer
+
+- Grid Column Configuration
+
+- Login
+
+- Mapping Configuration
+
+- Reporitng (Account Search, Calendar, Scheduled Reports, User Reports)
+
+- Role Management
+
+- Shortcut Configuration
+
+- System Search
+
+- Tuning (Dashboard, Productivity)
+
+- User Management
+
+- Workflow Management
+
+![](2024-11-21_Features.png)
+
+
 
 ## Hidden Roles
 
-When designing the custom roles, you may want to get rid of some of the rolls that are not applicable to
-what you were doing. To hide a column, click on the header. For example, if you click on CDI specialist
-you will notice the CDI specialist column will go away and be shown above where it says hidden roles. If
-you want to unhide the role you can click on CDI specialist under hidden roles, and it will add that
-column back in.
+When creating custom roles, consider removing any roles that are not relevant to navigate checked/unchecked privileges easier. To hide a column, simply click on its header. For instance, clicking on "CDI Specialist" will hide the corresponding column, moving it to the "Hidden Roles" section that is located above the role columns. To unhide the role, click on "CDI Specialist" under "Hidden Roles," and the column will reappear.
 
 ![](image-487.jpg)
 
 ## Locked Roles
 
-You will notice a lock icon next to a few of the roles. The lock icon indicates it is a
-default role in our application and cannot be deleted. However, any of the custom roles
-that have been added do not have a lock icon, are not tied to areas of the software, and
-can be deleted.
+A lock icon appears next to certain roles, indicating they are default roles within the application and cannot be deleted. In contrast, custom roles, which do not have a lock icon, are not tied to specific areas of the software and can be removed if needed.
 
-![](image-488.png)
+![](2024-11-21_LockedRole.png)
 
 ## Deleting Roles
 
-Click on the delete role button in the top right-hand corner, upon clicking on that button shows all of the
-user roles in the software.
+Click the "Delete Role" button in the top right corner to display a list of all custom user roles in the software.
 
 ![](image-493.jpg)
 
-On the pop-up box to delete the custom rolls it indicates any users that are assigned
-to this role will no longer have user privileges. Best practice is to ensure
-users with this role are reassigned to a different one prior to deleting this
-role so you don’t lock them out of the software.
+The pop-up box for deleting custom roles provides a warning that any users assigned to the role will lose their privileges. As a best practice, reassign users to a different role before deleting the custom role to prevent them from being locked out of the software.v
 
-![](image-492.jpg)
+![](2024-11-21_DeleteRole.png)
