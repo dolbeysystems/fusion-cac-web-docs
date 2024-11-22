@@ -3,167 +3,78 @@ title = 'Colors and Symbols'
 weight = 100
 +++
 
-The Fusion CAC 2 application contains a variety of colors and symbols. The following table provides a
+The Fusion CAC 2 application contains a variety of colors and symbols. The following guide provides a
 detailed explanation of the significance associated with each color and symbol.
 
 ## Navigation Pane
 
-   ##### E&M Coding Viewer
+The viewer name will turn red to alert the user that action is needed.
 
-![](EMViewerRed.png)
+![Viewer Turned Red](RedViewer.png)
 
-The E&M Coding viewer title will turn red if a user added charges and they were
-not sent outbound. In order to send the charges outbound there is a check box at the
-bottom of the viewer "Send Charges Outbound" then you must click save or submit. Once
-charges are sent outbound the viewer text will return to the default color (black).
 
-Please note that this feature is optional and requires configuration to enable the
-sending of charges outbound.
+### Physicians & Queries
 
-##### Physicians & Queries
-
-![](image-580.jpg)
+![Highlighted Physicians & Queries](PhysiciansQueriesHighlighted.png)
 
 The "Physicians & Queries" viewer will be highlighted with an amber background in the
-Navigation Tree if the account has at least one physician query CACTWO-6136
+Navigation Tree if the account has at least one physician query.
 
->[!note] Background Color Precedence
-The amber background does not appear if the "Physician & Queries"
+>[!note] The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.
 
-##### Code Summary
+### Code Summary
 
-![](image-581.jpg)
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|Blue/Red Circles Containing Numbers|These circles with numbers next to each code are the Risk of Mortality (ROM) and Severity of Illness (SOI) which can be values 1-4, this information comes from the APR-DRG which is a priority grouper licensed from 3M GPCS. ![ROM SOI Circles](ROMSOICircles.png)|
+|P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
+|Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
 
-![](image-582.jpg)
+#### Validation Results
 
-![](image-583.jpg)
+![Validation Results](image-584.png)
 
-**Red**: The code summary will turn red if there is a validation rule error or warning present.
-Once the validation rules are resolved the viewer text will return to the default color (black).
+**Red**: Validation hard stop used to notify a user that there are things that they need to resolve. It **does** prevent the user from submitting the chart.
 
-**Blue/Red Circles** that contain Numbers: These circles with numbers next to each code are
-the Risk of Mortality (ROM) and Severity of Illness (SOI) which can be values 1-4, this
-information comes from the APR-DRG which is a priority grouper licensed from 3M GPCS.
-
-**P Icon**: This indicates the diagnosis is a principal.
-
-**1-3 Numbers in Visit Reason Section**: This indicates the position number of visit reason.
-
-###### Validation Results
-
-![](image-584.png)
-
-**Red**: This color is associated with validation hard stop used to notify a user that there may
-be things that they need to resolve. It does prevent the user from submitting the chart.
-
-**Yellow**: This color is associated with validation soft stop used to notify a user that there may
-be things that they need to resolve. It does not prevent the user from submitting the chart.
+**Yellow**: This color is associated with validation soft stop used to notify a user that there may be things that they need to resolve. It **does not** prevent the user from submitting the chart.
 
 ## Document Tree
 
-![](image-585.jpg)
-
-![](image-586.png)
-
-![](image-587.jpg)
-
-![](image-588.jpg)
-
-**White Paper Icon**: This icon means that the document is a text based document and may
-be eligible to receive code suggestions.
-
-**Camera Icon**: This icon means that the document is a scanned document and is not eligible to
-receive code suggestions.
-
-**Pink**: Documents that arrive late are highlighted in pink, alerting the end user that these
-documents were not accessible during the coding process. These documents were added to the patient chart after the
-submission.
-
-**Black Background**: This color indicates the document has been archived which means that the document was
-removed or replaced on the account and that the end user had already added codes or bookmarks on the document.
-
-**Red Text**: The red text on the document name is displayed when you use the search and
-what you search for it finds the word/phase in a document it will highlight the documents in
-red to call attention to them.
-
-**Grey Circle with Number**: The grey circle with a number on the document name is displayed when you use the
-search and what you search for it finds the word/phase in a document it will highlight the
-documents in grey circle with the number indicates the number of instances that word/phrase is within the
-document.
-
-**Square with arrow symbol**: This symbol is used if you want to pop out the documents into a separate tab.
-
-**Aqua Background**: This color indicates this document has been popped out into a different tab.
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|Paper Icon|Text based document and may be eligible to receive code suggestions. ![Paper Icon](PaperIcon.png)|
+|Camera Icon|Scanned document and is not eligible to receive code suggestions. ![Camera Icon](CameraIcon.png)|
+|Pink Text|Late arriving documentation. These documents were not accessible during the coding process as they were added to the patient chart after submission. ![Pink Text](PinkText.png)|
+|Black Background|The document has been archived, meaning it was removed or replaced on the account. The end user had already added codes or bookmarks on the document.|
+|Red Text|Search results were found on the document. ![Red Text](RedText.png)|
+|Grey Circle with Number|Displays the umber of instances the searched word/phrase is within the document. ![Grey Circle](GreyCircle.png)|
+|Square with Arrow|Indicates the user can pop out the document(s) into a separate tab. [Document Pop Out Square](DocumentPopOut.png)|
+|Aqua Background|Indicates the document has been popped out into a different tab. ![Popped Out Document](AquaBackground.png)|
 
 ## Document Pane
 
-![](image-589.png)
-
-![](image-590.png)
-
-![](image-592.jpg)
-
-![](image-593.png)
-
-![](image-595.png)
-
 Words/Phrases and Codes can be highlighted in few different colors:
 
-**Bright Yellow**: Words/Phrases and Codes can be highlighted bright yellow when you either
-click on the code from the unassigned or Show all panel linking you to the code location
-within the document. It can also result in yellow if you user uses the search feature to
-search on a word or phrase you will notice the words will highlight yellow in the document.
-
-**Green Highlight**: This color is used when a code is validated by an end users on a different
-document other than the one you are looking at, this allows the end user on subsequent
-document to quickly see what was already validated. Green is also used by CDI Alerts which
-highlights words and phrases used to pull details out to link to text for clinical evidence for
-CDI Alerts.
-
-**Caution Yellow**: This color is associated with caution codes which indicates when the
-system suggests codes that are flagged as cautionary. Caution codes are applied to documents that the
-management team has identified as requiring careful consideration. These
-cautionary documents enable the system to suggest codes that may not be present on
-provider-facing or coder- codable documents. It's important to note that these
-codes cannot be validated from these documents alone.
-
-For instance, if a nurse mentions that a patient was treated for respiratory failure,
-but there is no mention of it by the provider, the caution code serves as a reminder to ensure
-that no relevant information is overlooked. It acts as a safety net to capture potential
-discrepancies or omissions in the documentation process.
-
-**Green Paper Icon**: This means that a bookmark has been added by an end user. If you hoover over this
-you can see the note or if you go to notes & bookmarks within the navigation tree you can see all that
-were placed.
-
-**Green Flag**: The green flag next to the code within the document and is shown on the
-show all or unassigned code tree this indicates there is a comment on a code. The code
-comment can also be found on the notes & bookmarks under the navigation tree within the
-code comment section.
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|Bright Yellow|The user clicked on the code from the unassigned or Show all panel linking to the code location within the document. It can also turn yellow if the user uses the search feature to search on a word or phrase. ![Yellow Highlighted Code](YellowCode.png)|
+|Green Highlight|The code is validated by an end users on a different document. This allows the end user on subsequent documents to quickly see what was already validated. Green is also used by CDI Alerts which highlights words and phrases used to pull details out to link to text for clinical evidence for CDI Alerts. ![Green Highlighted Code](GreenHighlight.png)|
+|Caution Yellow|Identifies caution codes which indicates when the system suggests codes that are flagged as cautionary. Caution codes are applied to documents that the management team has identified as requiring careful consideration. These cautionary documents enable the system to suggest codes that may not be present on provider-facing or codable documents. It's important to note that these codes cannot be validated from these documents alone. ![Caution Code Yellow](CautionCode.png) ***example:*** If a nurse mentions that a patient was treated for respiratory failure, but there is no mention of it by the provider, the caution code serves as a reminder to ensure that no relevant information is overlooked. It acts as a safety net to capture potential discrepancies or omissions in the documentation process.
+|Green Paper Icon|A bookmark has been added by an end user. Hovering over this icon will display the associated note. Alternatively, users can go to notes & bookmarks within the navigation tree you can see all that were placed. ![Bookmark Icon](BookmarkIcon.png)|
+|Green Flag| Displayed next to the code within the document and on the show all or unassigned code tree to indicate there is a comment on a code. The code comment can also be found on the notes & bookmarks under the navigation tree within the code comment section. ![Code Comment](CodeCommentIcon.png)|
 
 ## Audit Worksheet
 
-![](image-596.jpg)
-
-![](image-598.jpg)
-
-![](image-597.jpg)
-
-**Red**: The red indicates that there is an open audit.
-
-**Brown**: The brown indicates that there is a closed audit.
-
-**Asterisk Symbol**:
-
-**P Icon**: This indicates the diagnosis is a principal.
-
-**1-3 Numbers in Visit Reason Section**: This indicates the position number of visit reason.
-
-**Comment Icon**: The comment icon allows auditors to enter in notes next to any of the codes
-or items getting audited on the coder or auditor tree.
-
-**Blue background**: Accuracy rate lines have a blue background, so they stand out.
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|Red Title|Indicates an open audit ![Open Audit](OpenAudit.png)|
+|Brown Title|Indicates a closed audit ![Closed Audit](BrownTitle.png)|
+|Astrisk|Indicates a required field ![Required Field](Astrisk.png)|
+|P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
+|Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
+|Speech Bubble|Allows auditors to enter in notes next to any of the codes or items getting audited on the coder or auditor tree ![Speech Bubble](CommentIcon.png)|
+|Blue Background|Accuracy rate lines have a blue background, so they stand out. ![Blue Background](BlueBackground.png)|
 
 ## Code Tree
 
