@@ -29,7 +29,7 @@ to define the difference between LOS patient types or service lines.
 ## New Review Date 
 
 Next review date is set either automatically by the system or manually by the
-CDI if they choose to override the system automatic default date. The default
+CDI user if they choose to override the system automatic default date. The default
 date is whatever your management team has selected as a default interval for
 follow up reviews to occur. This may mean that the default is set for the next
 business day or two days later. This field is can be manually overridden by a
