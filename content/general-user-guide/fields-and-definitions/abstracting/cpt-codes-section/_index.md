@@ -1,5 +1,5 @@
 +++
-title = 'Cpt Codes Section'
+title = 'CPT Codes'
 weight = 70
 +++
 

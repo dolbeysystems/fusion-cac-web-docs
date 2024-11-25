@@ -1,5 +1,5 @@
 +++
-title = 'Diagnosis Codes Section'
+title = 'Diagnosis Codes'
 weight = 50
 +++
 

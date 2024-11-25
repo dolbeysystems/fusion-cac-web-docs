@@ -1,5 +1,5 @@
 +++
-title = 'Drg Outcome'
+title = 'DRG Outcome'
 weight = 80
 +++
 

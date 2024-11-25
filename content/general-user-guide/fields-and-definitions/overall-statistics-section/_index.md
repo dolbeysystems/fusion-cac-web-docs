@@ -1,5 +1,5 @@
 +++
-title = 'Overall Statistics Section'
+title = 'Overall Statistics'
 weight = 100
 +++
 
