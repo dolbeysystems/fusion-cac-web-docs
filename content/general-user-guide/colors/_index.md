@@ -20,18 +20,11 @@ Most of the blue text on the dashboard is a clickable link. When clicked, it wil
 
 ## Banner Bar
 
-![](image-610.jpg)
-![](image-611.jpg)
-![](image-612.jpg)
-
-**ROM or SOI**: If these number are in red it means that the ROM or SOI on the score is high (either a 3 or a 4)
-
-**G/LOS or ALOS**: If these are in green it means there are still days left in the patient stay and
-red means they have exceeded the days.
-
-**DRG**: if the DRG is red it means that a mismatch occurred where the CDI and coder do not match either the exact DRG
-or if the DRGs are the same the DRG weight is different this can occur on APR-DRGs. If the DRG
-is green it means the DRG's matched.
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|ROM/SOI|Red numbers mean that the ROM or SOI is high (either a 3 or a 4) ![Red ROM SOI](SOIROM.png)|
+|LOS Information|Green indicates there are still days left in the patient stay ![LOS Information](LOSInfo.png) Red means they have exceeded the days.|
+|DRG|A red DRG means that a mismatch occurred where the CDI and coder do not match. The exact DRG may be differtent, or if the DRGs are the same the DRG weight is different. This can occur on APR-DRGs. ![Red DRG](RedDRG.png) If the DRG is green it means the DRG's matched. ![Green DRG](GreenDRG.png)|
 
 ## Navigation Pane
 
