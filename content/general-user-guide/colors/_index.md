@@ -6,6 +6,33 @@ weight = 100
 The Fusion CAC 2 application contains a variety of colors and symbols. The following guide provides a
 detailed explanation of the significance associated with each color and symbol.
 
+## Top Right Corner (Any Screen)
+
+The {{%button%}}?{{%/button%}} icon represents the help menu where users can find the user guide, hot keys configured per organization, and more.This menu can include customized links for each organization. If this functionality is needed, contact cacsupport@dolbey.com to log a ticket. 
+
+![Question Mark Menu](QuestionIcon.png)
+
+## Dashboards
+
+![Clickable Links](BlueLinks.png)
+
+Most of the blue text on the dashboard is a clickable link. When clicked, it will open a new tab into a pop out with the details behind the number. Some numbers, such as percentage rates or averages, will not yield pop out results.
+
+## Banner Bar
+
+![](image-610.jpg)
+![](image-611.jpg)
+![](image-612.jpg)
+
+**ROM or SOI**: If these number are in red it means that the ROM or SOI on the score is high (either a 3 or a 4)
+
+**G/LOS or ALOS**: If these are in green it means there are still days left in the patient stay and
+red means they have exceeded the days.
+
+**DRG**: if the DRG is red it means that a mismatch occurred where the CDI and coder do not match either the exact DRG
+or if the DRGs are the same the DRG weight is different this can occur on APR-DRGs. If the DRG
+is green it means the DRG's matched.
+
 ## Navigation Pane
 
 The viewer name will turn red to alert the user that action is needed.
@@ -44,35 +71,29 @@ The viewer will turn brown to indicate there are open queries awaiting a respons
 
 ### Charges
 
-![](image-604.jpg)
+![Caution Symbol](ChargeEdit.png)
 
-**Caution Symbol**: The caution symbol next to the left of the code is a edit that comes from
-the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the
-edit, if you need a larger view of the edit you can open the TruCode research page for
+The caution symbol next to the left of the code is a edit that comes from the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the edit, if you need a larger view of the edit you can open the TruCode research page for
 further details.
 
-### CDI Alerts (Navigation Tree)
+### CDI Alerts
 
-![](image-605.jpg)
+![CDI Alers Paper Icon](CDIAlertsNotesIcon.png)
 
-![](image-606.jpg)
+The paper icon allows users to click to enter notes to indicate thoughts on
+the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-prioritization/).
 
-**Paper Icon**: The paper icon allows users to click to enter notes to indicate thoughts on
-the CDI Alert.
+### Audit Worksheet
 
-For Example, a user may want to indicate they are "Watching the alert because they want to wait for a
-consult to occur the next day to decide if a query is needed."
-
-**Red with Number**: The red indicates that there are "Active CDI Alerts" and the number
-represents to total active alerts.
-
-## Dashboards
-
-![](image-607.jpg)
-
-**Blue Text**: Most of the blue text on the dashboard is a clickable link. When clicked it
-will open a new tab into a pop out with the details behind the number. There are some
-numbers like numbers with a percentage rates or averages that won't yield pop out results.
+|Symbol/Color   |Meaning   |
+|---------------|----------|
+|Red Title|Indicates an open audit ![Open Audit](OpenAudit.png)|
+|Brown Title|Indicates a closed audit ![Closed Audit](BrownTitle.png)|
+|Astrisk|Indicates a required field ![Required Field](Astrisk.png)|
+|P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
+|Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
+|Speech Bubble|Allows auditors to enter in notes next to any of the codes or items getting audited on the coder or auditor tree ![Speech Bubble](CommentIcon.png)|
+|Blue Background|Accuracy rate lines have a blue background, so they stand out. ![Blue Background](BlueBackground.png)|
 
 ## Document Tree
 
@@ -99,18 +120,6 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |Green Paper Icon|A bookmark has been added by an end user. Hovering over this icon will display the associated note. Alternatively, users can go to notes & bookmarks within the navigation tree you can see all that were placed. ![Bookmark Icon](BookmarkIcon.png)|
 |Green Flag| Displayed next to the code within the document and on the show all or unassigned code tree to indicate there is a comment on a code. The code comment can also be found on the notes & bookmarks under the navigation tree within the code comment section. ![Code Comment](CodeCommentIcon.png)|
 
-## Audit Worksheet
-
-|Symbol/Color   |Meaning   |
-|---------------|----------|
-|Red Title|Indicates an open audit ![Open Audit](OpenAudit.png)|
-|Brown Title|Indicates a closed audit ![Closed Audit](BrownTitle.png)|
-|Astrisk|Indicates a required field ![Required Field](Astrisk.png)|
-|P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
-|Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
-|Speech Bubble|Allows auditors to enter in notes next to any of the codes or items getting audited on the coder or auditor tree ![Speech Bubble](CommentIcon.png)|
-|Blue Background|Accuracy rate lines have a blue background, so they stand out. ![Blue Background](BlueBackground.png)|
-
 ## Code Tree
 
 |Symbol/Color   |Meaning   |
@@ -120,44 +129,19 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |CC|Indicates that the code is a CC ![Code is a CC](CC.png)|
 |HAC|Returned upon computing for the MS-DRG, this indicates that the code is an HAC.|
 |NOR|Indicates the procedure code is a non-OR procedure.
-|Tag|Returned upon computing for the MS-DRG, this indicates that the code is responsible for one of the following quality measures **PSI**, **PDI**, **PC-06** or **Elixhauser**.|
-|Purple Background on **Assigned Codes**|There are more than 25 codes and any code in purple is below the the 25th position. This is important since CMS only accepts 25 diagnosis codes in the event you need to consider resequencing codes that need to be above the 25th position.
-|Exclamation Icon|Will appear on the "show all" tree when a user manually entered this code *and* the system suggested it.
-|Person Icon|A user manually entered this code. It was not suggested by the application. Hovering over the icon will display the user who added it.
-|Caution Symbol|An edit that comes from the TruCode encoder or add on edits. If you hover over the caution symbol you can see the edit. Users needing a larger view of the edit can open the TruCode research page for further details.|
-|Green Flag|In the "Show All" or "Unassigned Code Tree," the presence of a green flag next to a code signifies that there is a comment associated with that particular code. This same flag can also be found alongside the code within a document and in the notes & bookmarks section under the navigation tree within the code comment section.|
+|Tag|Returned upon computing for the MS-DRG, this indicates that the code is responsible for one of the following quality measures **PSI**, **PDI**, **PC-06** or **Elixhauser**. ![Quality Indicator Tag](QITag.png)|
+|Purple Background on **Assigned Codes**|There are more than 25 codes and any code in purple is below the the 25th position. This is important since CMS only accepts 25 diagnosis codes in the event you need to consider resequencing codes that need to be above the 25th position.![Purple Background](PurpleBackground.png)|
+|Exclamation Icon|Will appear on the "show all" tree when a user manually entered this code *and* the system suggested it.![Exclamation Mark](ExclamationMark.png)|
+|Person Icon|A user manually entered this code. It was not suggested by the application. Hovering over the icon will display the user who added it.![Person Icon](PersonIcon.png)|
+|Caution Symbol|An edit that comes from the TruCode encoder or add on edits. If you hover over the caution symbol you can see the edit. Users needing a larger view of the edit can open the TruCode research page for further details.![Caution Symbol](CautionSymbol.png)|
+|Green Flag|In the "Show All" or "Unassigned Code Tree," the presence of a green flag next to a code signifies that there is a comment associated with that particular code. This same flag can also be found alongside the code within a document and in the notes & bookmarks section under the navigation tree within the code comment section.![Code Comment](CodeCommentIcon.png)|
 |Pencil Icon|Exclusively available for **non-TruCode** organizations. It allows end users to manually input a code into the encoder using the compute button. This signifies that there is no direct association between the code and any specific location on a document.|
-|Letter Blocks|Indicates the present on admission (POA) status. When clicked the end user can change the status to the following: <ul><li>Y = Yes</li><li>N = No</li><li>U = Undefined</li><li>W = Withdrawal</li><li>E = Exempt</li></ul>|
+|Letter Blocks|Indicates the present on admission (POA) status. When clicked the end user can change the status to the following: <ul><li>Y = Yes</li><li>N = No</li><li>U = Undefined</li><li>W = Withdrawal</li><li>E = Exempt</li></ul> ![Letter Blocks](LetterBlocks.png)|
 
 ## Tuning Dashboard
 
 ![Tuning Menu](TuningMenu.png)
 
-![](image-608.jpg)
+![Star Symbol](TuningStar.png)
 
-**Star Symbol**: The star symbol can be found in the tuning dashboard when clicking on a numbered result. This
-represents the charts that an user accessed. The tuning team uses this to keep track of the
-cases they have reviewed and those they have left to review.
-
-## Right Corner (Anywhere)
-
-![](image-609.jpg)
-
-**Question Mark Icon**: This icon represents the help menu that you can find the user guide, hot
-keys configured for your site and more. This icon can also have customized links for the
-site and if this is needed a ticket can be logged with development
-
-## Banner Bar
-
-![](image-610.jpg)
-![](image-611.jpg)
-![](image-612.jpg)
-
-**ROM or SOI**: If these number are in red it means that the ROM or SOI on the score is high (either a 3 or a 4)
-
-**G/LOS or ALOS**: If these are in green it means there are still days left in the patient stay and
-red means they have exceeded the days.
-
-**DRG**: if the DRG is red it means that a mismatch occurred where the CDI and coder do not match either the exact DRG
-or if the DRGs are the same the DRG weight is different this can occur on APR-DRGs. If the DRG
-is green it means the DRG's matched.
+The star symbol can be found in the tuning dashboard when clicking on a numbered result. It represents the charts that an user accessed. The tuning team uses this to keep track of the cases they have reviewed vs those they have left to review.
