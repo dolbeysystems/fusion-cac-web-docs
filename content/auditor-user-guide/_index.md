@@ -20,4 +20,44 @@ functionalities further, please reach out to Dolbey's Subject Matter Expert (SME
 SME team stands ready to provide comprehensive insights and guidance on how this module can
 enhance coding efficiency, accuracy, and overall workflow management within the organization.
 
-{{% children depth=999 %}}
+The auditor will need to add the coder of record so that the coder of record, any auditor, or other user
+role that has been given access can view the audit worksheets. This data is only intended for coder
+education and administrative staff to score how the coder is doing in a report card. The coder will be
+able to view the audit viewer and add notes/comments back to the auditor, but the coder will not be
+able to make any changes to the audit worksheet
+
+## Auditor Role
+
+The audit module introduced the role of an auditor. The role of an "Auditor" has the same privileges
+as a "Coder" when it comes to account editing. In fact, an auditor is editing the final codes. If an auditor
+or coder submits the account with an open audit, the audit will automatically be closed. The auditor can
+route an account directly to the coder that last submitted (triggering a save and close), and the
+coder can rebut and route an account back to the auditor (also triggering a save and close).
+
+![Auditor Role](AuditorRole.png)
+
+This role allows for the end-user to have a separate code tree while importing the coder-assigned codes
+so that they have something to start with. The auditor role has a companion viewer in the Navigation
+Tree. This viewer allows the auditor to document the findings of an audit.
+
+![Audit Worksheet Viewer](AuditViewer.png)
+
+The pre-audit codes and DRG are displayed for easy reference by the auditor. The auditor conducts the
+review and makes changes to the codes in the Assigned code tree. When finished, the auditor computes
+for the DRG. This displays post-audit results next to the pre-audit results for easy comparison. The
+changes made by the auditor during the review are automatically recorded within the statistics section
+of the viewer.
+
+## Viewer Privacy
+
+The auditor will need to add the coder of record so that the coder of record, any auditor, or other user
+role that has been given access can view the audit worksheets.
+
+![Coder of Record](CoderofRecord.png)
+
+The data on the audit worksheet(s) is *only* intended for coder education and administrative staff to score how the coder is doing in a report card. The coder will be able to view the audit viewer and add notes/comments back to the auditor, but the coder will not be able to make any changes to the audit worksheet.
+
+## Custom Content
+
+The Audit Type and Training Topics drop downs can be customized per orgranization. The AuditType and AuditTrainingTopics mapping tables can be added to override the default mappings. Users who would like to customie these can find more information on creating a new mapping from the [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) section of this user guide.
+

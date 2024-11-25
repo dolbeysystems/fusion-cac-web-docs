@@ -50,3 +50,9 @@ manually enter in the “total errors” which then automatically calculates the
 the coder’s **You** worklist for them to review and re-submit.
 
 ![Route to Coder](RouteToCoder.png)
+
+## Multiple Audits per Account
+
+An account can have one or more audits added to it. Clicking {{%button%}}+Add Audit{{%/button%}} will create a new, blank audit worksheet. These worksheets are numbered and displayed at the top of the audit viewer, along with a date stamp indicating when each worksheet was opened. The worksheet currently being viewed will be highlighted with a green background.
+
+![Multiple Audits](MultipleAudits.png)
