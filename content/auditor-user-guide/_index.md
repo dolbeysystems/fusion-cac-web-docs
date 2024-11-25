@@ -3,7 +3,7 @@ title = 'Auditor User Guide'
 weight = 50
 +++
 
-The audit worksheet is a comprehensive module designed to streamline and enhance the coder audit
+The audit module provides comprehensive functionality designed to streamline and enhance the coder audit
 process. With its automated functionality, this tool efficiently compares coder-assigned codes to
 auditor-assigned codes, generating audit outcomes for various aspects including code accuracy, POA
 (Present on Admission) changes, abstraction correctness, and DRG (Diagnosis-Related Group)
@@ -14,9 +14,9 @@ improvement in coding accuracy and proficiency. Additionally, its built-in secti
 tracking ensures transparent communication and resolution of discrepancies between auditors and
 coders, ultimately fostering a collaborative and quality-driven coding environment.
 
-The audit worksheet serves as an invaluable additional module within the coding infrastructure, offering
+The audit component serves as an invaluable additional module within the coding infrastructure, offering
 advanced capabilities to streamline and optimize the audit process. For those interested in exploring its
-functionalities further, reaching out to the Subject Matter Expert (SME) team is highly encouraged. The
+functionalities further, please reach out to Dolbey's Subject Matter Expert (SME) team (smeteam@dolbey.com). The
 SME team stands ready to provide comprehensive insights and guidance on how this module can
 enhance coding efficiency, accuracy, and overall workflow management within the organization.
 
