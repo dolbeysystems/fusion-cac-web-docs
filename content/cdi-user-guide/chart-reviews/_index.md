@@ -9,8 +9,7 @@ Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard in
 
 An initial review is a case that has never been reviewed by CDI user in Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
 
-When a CDI Specialist (CDS) creates a Baseline DRG (the first Working DRG), then edits the account (further
-causing the Working DRG to be cleared), and then saves the account without computing a new
+When a CDI Specialist (CDS) creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/) (the first Working DRG), then edits the account (further causing the Working DRG to be cleared), and then saves the account without computing a new
 Working DRG, the creation of the Baseline DRG also counts as an initial review.
 
 The CDS will review the patient chart documentation and assign any codes necessary to calculate a working and/or baseline DRG. The CDS may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
@@ -88,3 +87,13 @@ From here the CDI Specialist has 3 options.
 | **Reconciliation**        | Reconciliation can only happen 1 time per chart, so pass back and forth do not count. |
 | **Query Completion**      | This is counted as a Subsequent or Follow-up Review. |
 | **Documentation Reviews** | If your site does different styles of CDI reviews or want to track management reporting there are reports for documentation reviews, different than how our default tracks, you can use the documentation review viewer to track reviews by topic. Other organizations have used this if there CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow up review. |
+
+### Documentation Reviews
+
+If an organization does different styles of CDI reviews, or want to track management reporting different than default tracking, the documentation review viewer can be used to track reviews by topic. Organizations have used this if the CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow up review. 
+
+By default, documentation reviews have a free form text field. Organizations can also create forms within the [form designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/form-designer/) for each of these reviews.
+
+Custom management reports are built into the application to report out on specific reviews. The CDI Management and CDI Personal Dashboard will also change to accommodate these custom reviews. Organizations that do not have documentation reviews enabled will have custom review content hidden as it is not appliable. 
+
+If an organization does not have documentation reviews enabled and they wish to track reviews differently, they should contact the Dolbey SME Team (smeteam@dolbey.com) for a demo.
