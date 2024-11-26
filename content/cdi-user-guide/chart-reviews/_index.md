@@ -54,6 +54,8 @@ review date on the Code Summary viewer.
 
 ![Next Review Date](NextReviewDate.png)
 
+A CDI user can change the interval that the chart is routed back to a queue. Changing the calendar date field from the date displayed to a future date will tell the chart to not route back to the “Follow-up Review” until the current calendar date matches the date selected by the user.
+
 ## Reconciliation
 
 After discharge, the coder will assign a Final DRG. How the organization has choosen to set up workflow will determine what happens after the coder clicks Submit. Commonly, organizations choose for charts to flow into a reconciliation queue for a CDI team member to review (if the last known working DRG and the final DRG do not match). When the coder clicks submit, the chart either
@@ -75,3 +77,14 @@ From here the CDI Specialist has 3 options.
 >[!Note] Outpatient CDI
 >Organizations with users performing CDI on outpatient charts will meet with the Dolbey SME to set up outpatient specific  workflow for their CDI team.
 
+## Receiving Credit for Reviews
+
+![Review Credit](DocReview.png)
+
+| Review Type               | Details |
+| ------------------------- | ------- |
+| **Initial Review**        | For Inpatient charts this is the first time a working DRG is computed and saved on a chart by a user with the role of CDI. For outpatient this is the first time a chart is opened and saved by a user with the role of CDI.
+| **Follow-up Review**      | For Inpatient charts this any subsequent time after the initial a chart is accessed a working DRG is computed and saved on a chart by a user with the role of CDI however, a chart is only counted 1 time per day. For outpatient this is the first time a chart is opened and saved by a user with the role of CDI however, a chart is only counted 1 time per day |
+| **Reconciliation**        | Reconciliation can only happen 1 time per chart, so pass back and forth do not count. |
+| **Query Completion**      | This is counted as a Subsequent or Follow-up Review. |
+| **Documentation Reviews** | If your site does different styles of CDI reviews or want to track management reporting there are reports for documentation reviews, different than how our default tracks, you can use the documentation review viewer to track reviews by topic. Other organizations have used this if there CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow up review. |
