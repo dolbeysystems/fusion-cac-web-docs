@@ -1,6 +1,6 @@
 +++
 title = 'Exiting a Chart'
-weight = 13
+weight = 14
 +++
 
 

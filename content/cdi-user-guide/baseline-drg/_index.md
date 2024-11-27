@@ -3,19 +3,18 @@ title = 'Baseline DRG'
 weight = 70
 +++
 
-The baseline DRG is used for reporting program impact, some organizations do report like this, and
-others do not the choice is yours our system accommodates for it if you choose to use it. There are two
-styles of impact that can be reported which are:
+The baseline DRG is used for reporting program impact. The baseline is defined as the DRG that would have been coded and billed if no CDI specialist reviewed the chart.
 
-1. **Chart Impact**
-2. **Query Impact**
+There are two styles of impact that can be reported:
 
-These are both reporting separately as you could be query positive impact regardless of if the chart has
-a positive, negative or neutral impact. The baseline is defined as the DRG that would have been coded
-and billed if no CDI specialist reviewed the chart.
+1. Chart Impact
+2. Query Impact
 
-You can report the impact of a CDI specialist by measuring the difference between the baseline DRG and
-the billed DRG because of your organizations policy that the last know working and final DRG always
+Both styles of reporting are separate, as query impact can be positive regardless of if the chart has
+a positive, negative, or neutral impact.
+
+Organizations can report the impact of a CDI specialist by measuring the difference between the baseline DRG and
+the billed DRG. because of your organizations policy that the last know working and final DRG always
 match, I we measure impact on last known working and final your impact would always be neutral if we
 measure baseline which by default is the first DRG you calculate unless the baseline is readjusted you
 may claim to much impact therefore the baseline throughout the patients stay is commonly readjusted.
@@ -46,11 +45,13 @@ However, none of the CDI impact is lost though because queries are counted separ
 - **Query Impact** (Difference between {{% drg 446 %}} and {{% drg 445 %}}= $2289)
 - **Chart Impact** (Difference between Baseline {{% drg 417 %}} and Final {{% drg 4117 %}} = $0
 
-What I listed above is how some organizations do report not all of them through do this, the choice is up
-to your organization. To remind you that your baseline may need updated you can turn on a feature that
-upon save it displays a message asking the CDI user if they would like to update there baseline DRG if
-the last computed working DRG is different than the baseline. Remember you only want to move the
-baseline when the baseline needs reset such as a patient going in for surgery, if you constantly update
-the baseline you will show no or little impact. The goal is to show the impact of your work.
+The above is how *some* organizations choose to do reporting.
+
+To remind the user that the baseline may need to be updated, a feature can be enabled to displays a message upon a save asking the CDI user if they would like to update the baseline DRG if the last computed working DRG is different than the baseline. It is recommened to only move the
+baseline when the baseline needs reset, such as a patient going in for surger. Constantly updating
+the baseline will little to no impact. The goal of baseline drg reporting is to show the impact of the CDI user's work.
 
 ![DRG](image-303.jpg)
+
+>[!Note] Not Used By All Organizations 
+>This reporting style may not be used by your organization. The Fusion CAC system accommodates for it, if an organization chooses to use it. Please speak with your {{%icon icon="user-tie"%}} manager if you have questions about how your facility tracks impact. 
