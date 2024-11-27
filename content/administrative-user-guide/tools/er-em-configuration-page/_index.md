@@ -33,14 +33,14 @@ This option will overwrite and copy the current levels that are onscreen to the 
 
 ## Configuring the E/M Matrix
 
-The table below shows how the E/M Matrix will display to the end user. You can configure the verbiage
-on this table to control what is displayed for end users.
+The table below illustrates how the E/M Matrix will appear to end users. 
+You can customize the text displayed in this table to tailor the information shown to end users.
 
-![](image-513.jpg)
+![](2024-11-27_EMMatrix.png)
 
-The E/M Coding Matrix has horizontal columns which display the E/M Level across the top. Below each
-level are selections that make up the level. There are a few categories under each of the levels which, by
-default, include the following topics:
+The E/M Level matrix features horizontal columns that display the levels across the top. Below each level are the criteria that define it,
+organized into several categories. By default, these categories include the topics listed below; however, the topics are fully configurable
+based on the specific needs of each facility. 
 
 1. Mode of Arrival
 2. Disposition
@@ -50,36 +50,29 @@ default, include the following topics:
 6. Procedures
 7. Other Criteria
 
-Under the levels, you will have seven topics that drive each of those levels. These topic names are
-configurable, as some of the default topics may not pertain to your facility.
+Each topic under the levels includes a list of items relevant to that topic and its corresponding level. 
+The E/M Matrix configuration allows you to customize the content within each field under the respective E/M Level, 
+enabling your facility to tailor the listed items for each code to meet its specific requirements.
 
-Each of the topics under the levels will have a list of items that are applicable to the topic and the
-corresponding level. However, this E/M Matrix configuration will allow you to change the content within
-each of those fields underneath of the corresponding E&M level as your facility may have different items
-to list under each code, per topic.
+To make changes to the default options, can click on of the grey numbers to open the matrix configuration.
 
-To make changes to the default you can click on the grey number to open the matrix configuration.
+![](2024-11-27_EMChanges.png)
 
-![](image-514.jpg)
+After opening the number, you will see each E/M Level along with its corresponding codes. Under the Level Topic section,
+you will find a "+Add" button next to each level. Clicking this button allows you to add a new criteria selection. An open
+text field will appear where you can enter your facility's criteria. 
 
-Once you have opened the number, you will see each of the levels with corresponding codes. Next to each
-of the levels under Level Topic you will see a +Add button. Clicking on this +Add button will allow you to
-add another selection. Clicking on this button, display an open text field where you can type in what you
-want the choice to be. Remember this verbiage should be short and simple.
+![](2024-11-27_EMAdd.png)
 
-![](image-515.png)
+To remove any criteria selections, under each topic and level, simply click on the X button next to the criteria. 
 
-You can also remove selections under each topic and level by selecting the X button. This will remove the
-selection.
+![](2024-11-27_EMRemove.png)
 
-![](image-517.jpg)
+To change or udpate the verbiage of the criteria selection, place the cursor into the level item field and change the text. 
 
-You can also change the default verbiage we provided by simply placing your cursor into each topic and
-level. You can remove or change any of the verbiage that is in these fields
+![](2024-11-27_EMTextBefore.png)
 
-![](image-519.jpg)
-
-![](image-521.png)
+![](2024-11-27_EMTextAfter.png)
 
 ## Configuring Charging Options and CDM
 
