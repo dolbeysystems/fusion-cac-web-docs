@@ -3,9 +3,8 @@ title = 'Chat Room'
 weight = 130
 +++
 
-A chat room is available on most admin tools workflow, form designer, user management, validation
-management. This chat room allows users to communicate when they are working in the admin tools.
-The chat is only available on one of these admin tool pages while another user is also in one of these
-tools. The chat will reset upon log off.
+A chat room feature is available in most administrative tools, including User Management, Workflow Management, Validation Management, and Form Designer. This feature allows users to communicate in real-time while working within these tools.
+
+The chat room is only active when multiple users are simultaneously accessing one of the administrative tools. Please note that the chat history resets upon logging off.
 
 ![](image-538.jpg)
