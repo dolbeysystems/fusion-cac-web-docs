@@ -29,7 +29,7 @@ Clicking the Copy button opens a dialog box where you can choose a destination f
 
 This option will overwrite and copy the current levels that are onscreen to the facility that is selected.
 
->[!Note] If an organization does not have Facility Mapping, and only has one facility, the copy options will be hiden.
+>[!Note] If an organization does not have Facility Mapping, and only has one facility, the copy options will be hidden.
 
 ## Configuring the E/M Matrix
 
@@ -76,36 +76,34 @@ To change or udpate the verbiage of the criteria selection, place the cursor int
 
 ## Configuring Charging Options and CDM
 
-Below the E/M Matrix configuration you will see a section for “Other”. The other section allows you add
-in charging components attached to a charge master. To make changes to the default, you can click on
+Below the E/M Level matrix configuration you will see a section for “Other”. The "Other" section allows you to add
+in charging components attached to your facility's charge master. To make changes to the default, you can click on
 the grey number to open the charge and CDM configuration.
 
-The effective date field the date on which the CDM table in the new charges once you open up the table
-will take effect. This way, if you have a new updated CDM table or if you were trying to plan for the
-future you can stage when these tables are available to the Coding Team.
+The Effective Date field specifies the date when the CDM Table and its associated new charges will take effect. This feature allows you to schedule updates to the CDM Table, ensuring that future changes are staged and ready for the Coding Team when needed.
 
 ## Updating the CDM
 
-Click on the green “Edit CDM Table”button to the right of the effective date.
+Click on the green “Edit CDM Table” button to the right of the effective date.
 
-![](image-522.jpg)
+![](2024-12-02_Options.png)
 
-By clicking the button it will open up the edit CDM table this is asking for you to paste from your Excel
+Clicking the button will open up the "Edit CDM Table" window where you can paste the CDM colmns directly from your Excel
 spreadsheet.
 
-![](image-523.jpg)
+![](2024-12-02_CDMTable.png)
 
-Best practice is to paste in the CDM column, then the description, then the CPT code. This step is
-extremely important because any assigned CDM will need to be sent in the outbound interface,
+The best practice is to paste in the column for the CDM code, then the description, and finally the CPT code. This step is
+extremely important because any assigned CDM code will need to be sent in the outbound interface;
 therefore, your CDM table needs to match whatever is going to be downstream from Dolbey.
 
-Once you paste it in the information, click on the update button to ensure the preview looks correct. If
-so, click on the OK button to continue.
+After you paste in the information, click on the OK button to continue.
 
-![](image-524.jpg)
+There is also a way to add a CDM code manually. To do this, click on the "+Add CDM Manually" button. This will create a new row with free text fields to add the CDM code, the description, and the CPT code. 
 
-Once you’ve dropped in the CDM table you can now edit the categories within the option section. There
-are a few different default options:
+![](2024-12-02_AddCDM.png)
+
+Once the CDM table is populated, you can edit the categories within the "Option" section. The default options available are:
 
 - Trauma
 - No charges
@@ -113,9 +111,9 @@ are a few different default options:
 - Medication time/modifier
 - Additional charges
 
-To edit any of these options you can click on the gray date next to each of these options to open them.
-Some of these options may not pertain to you. If so, you can remove all the options underneath the
-sections and that section will be removed from the E/M coding page for your users.
+Like the E/M Level matrix, these categories can be customized to suit your facility's specifc needs.
+
+To edit an option, click the gray date tab to open the options and make changes. If certain options are not relevant to your facility, you can remove all items under those sections simply by clicking on the "Delete" button. Once emptied, the section will no longer appear for your users. 
 
 ## Trauma Section
 
@@ -123,12 +121,12 @@ When you open the trauma section, you will have an item name. Some data will be 
 of these items have a CDM attached per E/M level, including critical care. Ensure that the CDM
 underneath each of the levels corresponds to what your CDM table indicates.
 
-![](image-525.jpg)
+![](2024-12-02_Trauma.png)
 
-For your end users this will be a drop-down menu. For example, when the user
-selects **Pre-Hospital Notification**, they do not have to select the E/M level. Based
-upon the matrix and what they selected, it will drop in the associated CDM code
-based upon the level they have assigned.
+For your end users this will appear as a drop-down menu. For example, when the user
+selects **Pre-Hospital Notification**, they are not required to manually choose the E/M level. Based 
+on the matrix and their selection, the system will automatically populate the corresponding CDM code associated 
+with the assigned level.
 
 ![](image-529.jpg)
 
@@ -137,26 +135,24 @@ If your CDM changes, you will need to update this table as well.
 
 ## No Charge Section
 
-Once you have reviewed the Trauma section you can then click on the gray date next to no charge. This
-option is set up a little bit differently. The item field will be the verbiage that you want to correspond to
-the CPT code to the right.
+Once you have reviewed the Trauma section you can then click on the gray date next to the "No Charge" option. The "Item" field will be the verbiage that you want to correspond to the CPT code in the CPT column to the right of the Item column. 
 
 ![](image-527.jpg)
 
-For your end users, this box will drop-down. The user will choose the item and in the outbound interface
-we will drop in both the CPT code and the corresponding CDM code that you have listed in this table.
+For your end users, this will appear as a drop-down menu. The user will choose the item and the outbound interface
+will contain both the CPT code and the corresponding CDM code that you have listed in this table.
 
 ![](image-528.jpg)
 
 ## Medication Quantity
 
-Once you have reviewed the No Charge section you can then click on the gray date next to Medication
-Quantity. Within this section you can list the item name in which we had provided a default description,
-these items will match to corresponding CPT and CDM code
+Once you have reviewed the "No Charge" option you can then click on the gray date next to the "Medication
+Quantity" option. In this section, you can list item names, for which we have provided default descriptions. These items will
+align with their corresponding CPT and CDM codes.
 
 ![](image-530.jpg)
 
-The medication quantity as well as the medication time modifier is not about the medication. rather the
+The medication quantity as well as the medication time modifier is not about the medication, but rather the
 way the medication was administered. This allows you to charge for any injections, infusions, IV pushes,
 immunizations, and hydration. The medication administration quantity allows you to define how many
 of each occurred on a particular date, if the ER visit occurred over more than one day, and other
@@ -182,8 +178,8 @@ time/modifier, however, other organizations will relocate all of the items withi
 administration to the medication administration time/modifier section so that all medications are within
 the same section.
 
-Within this section, you can list the item name in which we provided a default description, these items
-will match to corresponding CPT and CDM codes.
+Within this section, you can list item names, for which we have provided default descriptions. These items will
+align with their corresponding CPT and CDM codes.
 
 ![](image-532.jpg)
 
@@ -198,17 +194,16 @@ more than one medication that needs to be considered.
 
 ## Additional Charges
 
-This allows you to enter in some of the things that are common to be charged for within the ER. We
-have indicated that there are four common ones however, you can add as many as you like by clicking
-on the plus add button. You can also remove any default items if you do not charge for these by
-selecting the delete button next to the defaults provided.
+The "Addtional Charges" option allows you to enter items that are commonly charged in the ER. By default, we have 
+identified four common items; however, you can easily add more by clicking the "+Add" button. If any of the default
+items are not applicable to your facility, you can remove them by selecting the "Delete" button next to the item.
 
-Within the section you can list the item name in which we had provided a default description, these
-items will match to corresponding CPT and CDM codes.
+Within this section, you can list item names, for which we have provided default descriptions. These items will
+align with their corresponding CPT and CDM codes.
 
-![](image-535.jpg)
+![](2024-12-02_Additional.png)
 
 To the end-user this looks like a table where they can quickly add a quantity, date, and modifier if any of
 the default charges are applicable.
 
-![](image-536.jpg)
+![](2024-12-02_AdditionalForUser.png)
