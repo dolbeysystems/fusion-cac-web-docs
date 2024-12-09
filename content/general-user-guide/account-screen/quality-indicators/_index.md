@@ -3,7 +3,7 @@ title = 'Quality Indicators'
 weight = 11
 +++
 
-This module allows for the ability to identify PDI, PSI, Quality Measure PC-06 and the Elixhauser Measures. 
+In the Code Summary Viewer at the bottom, you'll find the Algorithm for Quality Indicators, which outlines the methodology used to identify Pediatric Quality Indicators (PDI), Patient Safety Indicators (PSI), Quality Measure PC-06, and Elixhauser Measures. 
 
 #### PSI Indicators
 
@@ -12,11 +12,9 @@ U.S. Department of Health and Human Services from [www.qualityindicators.ahrq.go
 
 ![PSI 06 in Banner Bar](PSI06.png)
 
-Fusion CAC uses the final codes assigned by coders along with other patient data that meet each PSI
-guideline. Fusion CAC provides an indicator on the banner bar to a coder when codes coupled with
-patient demographics meet a PSI guideline.
+Fusion CAC leverages the codes from the assigned code tree, along with other relevant patient data, to determine whether specific quality measures are met. Fusion CAC provides an indicator on the banner bar when codes coupled with patient demographics meet a PSI guideline.
 
-The PSI is reported in one of two fields CDI PSI Indicator or PSI Indicator if identified by a coder. The indicator can be used for workflow and/or reporting. When a PSI is applied to an account it will display in the algorithm section of the Code Summary viewer. A red tag will display next to the applied PSI for visibility. 
+The PSI is reported in one of two fields CDI PSI Indicator or PSI Indicator. The indicator can be used for workflow and/or reporting. When a PSI is applied to an account it will display in the algorithm section of the Code Summary viewer. A red tag will display next to the applied PSI for visibility. 
 
 ![PSI Algorithm Flag](PSIAlgorithm.png)
 
@@ -29,7 +27,7 @@ The Pediatric Quality Indicators (PDIs) focus on potentially preventable complic
 events for pediatric patients treated in hospitals and on preventable hospitalizations among pediatric
 patients, considering the special characteristics of the pediatric population.
 
-This PDI indicator displays in the banner bar under the compute button. The PDI is reported in one of two fields CDI PDI Indicator or PDI Indicator if identified by a coder. The indicator can be used for workflow and/or reporting.
+This PDI indicator displays in the banner bar under the compute button. The PDI is reported in one of two fields CDI PDI Indicator or PDI Indicator if identified. The indicator can be used for workflow and/or reporting.
 
 The algorithm for the PDI on if it applied or not is within the code summary pane.
 
@@ -43,7 +41,7 @@ specification [https://manual.jointcommission.org/releases/TJC2018B/MIF0393.html
 
 ![PC-06 Banner Bar](PC06.png)
 
-Fusion CAC uses the final codes assigned by coders along with other patient data that meet each PC-06
+Fusion CAC uses the codes from the assigned code tree along with other patient data that meet each PC-06
 guideline. Fusion CAC provides an indicator on the banner bar to a coder when codes coupled with
 patient demographics meet a PC-06 guideline. The indicator can be used for workflow and/or reporting.
 
