@@ -3,53 +3,63 @@ title = 'Tuning'
 weight = 33
 +++
 
+The Dolbey Tuning Team is made up of credentialed medical coders, each with over 10 years of experience. Their job, primarily, is to work with the Dolbey FAE engine to ensure the Fusion CAC application is providing the most accurate code suggestions. It is the Tuning Teams responsibility to:
+
+- **File Documents into the Correct Folders** - unsorted documents indicatie a unique document type that has not yet been seen by the application. The Tuning Team will need to train the engine on how to handle the document. Incorrect handling skews the accuracy/precision resulting in too many or not enough codes suggested to the coder. Once the team has decided on engine handling, they will then collect document headers to indicate where within the document the engine should or should not suggest codes.
+  
+- **Triage Customer Issues with Engine Results** - users can report questions and/or issues with code suggestions by emailing results@dolbey.com.
+  
+- **Analyze Engine Results** - dashboards within the application tell the Tuning Team what codes are regularly missed, suggested, and/or not used by end users allowing the team to tailor the engine per organization. 
+
+By design, the FAE engine over codes. This means the FAE engine will code for everything including but not limited to diagnoses, procedures, allergies, medications, family history, past medical history, signs & symptoms as well as if there’s an injury how the injury was caused and where the injury occurred. Accuracy typically means how accurate and precise the FAE engine is at suggesting codes. However, since the application is over coding by design the Tuning Teams measures accuracy by how often the FAE engine misses a code causing coders to take manual action to add the code. This is as close to accuracy as Dolbey can get without splitting hairs trying to determine accuracy by site and state guidelines. This method of measring accuracy is used by other CAC vendors as well and is considered to be industry standard.
+
+Any questions on code suggestions should be directed to the Tuning Team via email (results@dolbey.com). 
+
 ## System Search
-System Search works similarly to Account Search. By creating filters, you can search for patient charts
-using different criteria. This System Search feature will also be used by the Tuning Team to identify
-targeted codes that need reviewed and possibly refined.
+System Search works similarly to [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/). 
+
+![System Search](SystemSearch.png)
+
+Creating filters allows the user to search for patient charts using different criteria. System Search is also used by the Tuning Team to identify targeted codes that need reviewed and possibly refined.
 
 An example of a System Search would be all inpatient charts with a diagnosis of hypertension.
 
-```python
-Is inpatient = True
-Diagnosis Code = In List = I10 
-  # (you may want to include other hypertension codes such as I13.0, I13.9, I12.0, I12.9, etc.)
-```
+![System Search for Hyptension Dx](HypertensionCharts.png)
 
-When you select “refresh”, a list of all accounts that meet the criteria will be displayed. If this is a search
-that you will want to use more than once, you can Save the search, making it available in the drop-down
-box
+> [!Note] Users may want to include other hypertension codes such as I13.0, I13.9, I12.0, I12.9, etc.
 
-![](image-568.jpg)
+Clicking {{%button%}}Refresh{{%/button%}} will display a list of all accounts that meet the criteria. If this is a search that will be used more than once, users can save the search, making it available in the drop-down box.
 
-The results that yield may show you other codes, as the filter you place will bring up any chart with the
-codes suggested, however, the grid displays all codes on the account as well as the code in question.
+![Saved Hypertension System Search](HypertensionAccounts.png)
 
-To filter to only those codes within in the grid column, click on the 3 dashes in the column header to
-further filter the list.
+The results that yield may show other codes, as the filter placed will bring up *any* chart with the
+codes suggested. The grid displays all codes on the account as well as the code in question. To filter to only those codes within in the grid column, click on the hamburger button in the column header to further filter the list.
+
+![Hamburger Button to Filter](HamburgerButton.png)
 
 ## Document Type Management
 
-This is used for many reasons, further explained here:
+![Document Types Management](DocTypesManagement.png)
 
 ### Filing Documents
 
-Document Type Management can be used to file documents.
+To file documents:
 
 - Open Document Type Management
-- Sort on documents by clicking on the group name to display the documents currently not in a
-folder. Choose the documents that need to be filed.
-- Change the friendly name by double-clicking on the name and replacing it with another name. It
-is important to remember to use a naming convention that new users will understand
+- Sort on documents by clicking on the group name to display the documents currently not in a folder. Choose the documents that need to be filed
+- Change the friendly name by double-clicking on the name and replacing it with another name **using a naming convention that new users will understand**
 
+![Filing a Document](NewSort.png)
 
 ### Engine Handling
-Engine Handling is set up after the documents have a friendly name. This set-up basically instructs the
-code suggesting engine what to do when it [engine] encounters the document. Does the engine suggest
-codes on the document or ignore it? What type of code does the engine suggest for that document?
 
-Depending on how your site is set up, there can be a drop-down menu to select the type of handling the
-document receives. On the other hand, there can be two different fields - one called inclusion and one
+Engine Handling is set up after the documents have a friendly name. This set-up basically instructs the code suggesting engine what to do when it encounters the document. 
+
+Depending on how the organization is configured, there may be a drop-down menu to select the type of handling the document receives. 
+
+![]()
+
+On the other hand, there can be two different fields - one called inclusion and one
 called exclusion - that allows us to include or exclude certain code sets starting with a prefix.
 For example, on a document called Newborn History and Physical, the engine should exclude O codes so that if the
 documentation has mother documentation, the engine doesn’t get confused and try to suggest O codes
