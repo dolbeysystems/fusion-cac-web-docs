@@ -3,12 +3,11 @@ title = 'User Reports'
 weight = 40
 +++
 
-User reports are canned reports that are preformatted reports below each of the report is outlined with
-a brief description. If you are looking for data that is not in user reports, consider account search to
-create a custom search to export the raw data. User reports are meant to be run on-demand but, many
-of the user reports can also be scheduled to be run at date/time interval. Since scheduled reports are
-sent through email, no user reports that contain PHI is available therefore you will find the scheduled
-reports do not contain all 47 however, most are available.
+![User Reports](UserReports.png)
+
+User reports are canned reports that are preformatted. User reports were created to be run on-demand, but many reports can also be scheduled to run at a specific date/time interval. Each report is outlined [below](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-reports-and-descriptions) along with a brief description. 
+
+Users looking for data that is not available in user reports can use [account search] (http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
 
 ## Running a User Report
 
