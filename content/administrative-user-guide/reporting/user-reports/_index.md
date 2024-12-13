@@ -9,64 +9,57 @@ User reports are canned reports that are preformatted. User reports were created
 
 Users looking for data that is not available in user reports can use [account search] (http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
 
-## Running a User Report
+### Running a User Report
 
-1. To run a report, select the report from the list you wish to run for a complete list of the reports 
-and descriptions click here. You can also find the report description by selecting a report and it will
-display a short description on the screen.
-![Report](image-361.jpg)
-2. Once you have selected a report the report may require filtering each report is uniqPage 127 of 399
-© 2024 Dolbey, All Rights Reserved. All trademarks, trade names, and copyrights are the property of their respective owners.
-Statements regarding productivity gains are not guarantees of actual cost savings. FOR CONFIDENTIAL USE ONLY.
-User Reports and Descriptions
-Below is a listing of all the reports and a short description, your organization may have custom reports
-that may not appear in this list, this list is of the default reports. If there are other reports your
-organization would benefit from and you cannot pull the data you need from account search please
-contact our the Dolbey SME team smeteam@dolbey.com to discuss the options for us to create a new
-user report.
-25 Most Common CPT Codes Report
-This report is to provide a listing of the top 25 CPT® codes by patient type (category) for the discharge
-date range provided. The Date Range for this report is the Chart Discharged Date.ue in the style of
-data it will yield please review filter options and use as needed.
-![Report](image-360.jpg)
-  a. Most CDI reports contain five additional filters to give the user the option to filter as ‘
+1. Select the report from the available list - the selected report will display a short description on the screen
+
+![User Report List](ReportList.png)
+
+![Report Discription](ReportDis.png)
+
+2. Filter as needed - each report is unique in the style of data it will yield please review filter options and use as needed
+   
+![Report Filter Options](ReportFilters.png)
+
+  >[!Note] CDI Filters
+  >Most CDI reports contain additional filters to give the user the option to filter as ‘
   include’ or ‘exclude’
-3. Select the format of the report your options are pdf, html, .xlsx
-4. Select Run Report, note if you run .xlsx check the bottom of your screen for the export or your
-downloads folder.
 
-![Report](image-362.jpg)
+3. Select the format of the report - .xlsx will result in a file in the users downloads folder.
+
+![Report Format Options](FormatOptions.png)
+
+4. Select Run Report
+   
+![Run Report](RunReport.png)
 
 ## User Reports and Descriptions
 
-Below is a listing of all the reports and a short description, your organization may have custom reports
-that may not appear in this list, this list is of the default reports. If there are other reports your
-organization would benefit from and you cannot pull the data you need from account search please
-contact our the Dolbey SME team smeteam@dolbey.com to discuss the options for us to create a new
-user report.
+The following is a complete list of Fusion CAC's default reports and their descriptions. An organization may have custom reports
+that do not appear in this list. Additionally, some reports may be part of an add-on module. For questions or if there are other reports your organization would benefit from and you cannot pull the data you need from account search please contact our SME Team (smeteam@dolbey.com) to discuss options.
 
-### 25 Most Common CPT Codes Report
+#### 25 Most Common CPT Codes Report
 
 This report is to provide a listing of the top 25 CPT® codes by patient type (category) for the discharge
 date range provided. The Date Range for this report is the Chart Discharged Date.
 
-![Report](image-363.jpg)
+![25 Most Common CPT Codes](25CPTs.png)
 
-### 25 Most Common Diagnosis Codes Report
+#### 25 Most Common Diagnosis Codes Report
 
 This report is to provide a listing of the top 25 diagnosis codes by patient type (category) per the
 discharge date range provided. The Date Range for this report is the Chart Discharged Date.
 
-![Report](image-364.jpg)
+![25 Most Common Diagnosis Code](25Dx.png)
 
-### 25 Most Common PCS Codes Report
+#### 25 Most Common PCS Codes Report
 
 This report is to provide a listing of the top 25 PCS codes by patient type (category) per the discharge
 date range provided. The Date Range for this report is the Chart Discharged Date.
 
-![Report](image-365.jpg)
+![25 Most Common PCS Codes Report](25PCS.png)
 
-### Assigned Workgroup Report
+#### Assigned Workgroup Report
 
 This report provides details about each of the users and what workgroup they are assigned to in
 sequence. The date range input is irrelevant for this report and will always display the user’s current
@@ -75,9 +68,9 @@ workgroups.
 > [!note] Date Criteria Ignored
 Date criteria are not used for this report. The user's current workgroup assignments are reported.
 
-![Report](image-366.jpg)
+![Assigned Workgroup Report](AssignedWrkgrp.png)
 
-### Audit Abstract Report
+#### Audit Abstract Report
 
 This report will provide an overview of the abstraction scores for each user based upon a date range.
 
@@ -90,17 +83,17 @@ Notes:
 - Procedure Modifier Changes value is the total number of procedure modifier changes (CPT).
 - Total Abstract Errors value is the Sum of all abstract (discharge disposition change, date changes and provider changes) errors during audit.
 
-![Report](image-367.jpg)
+![Audit Abstract Report](AuditAbstract.png)
 
-### Audit Executive Summary
+#### Audit Executive Summary
 
 This report is an executive level view that shows an overview of inpatient and outpatient audit activity
 by Auditor. It includes the audit rate and average error rates for diagnoses and procedure coding. The
 date of this report is based on the date the account was first submitted.
 
-![Report](image-368.jpg)
+![Audit Executive Summary](AuditExec.png)
 
-### Inpatient Audit Scorecard
+#### Inpatient Audit Scorecard
 
 This monthly report provides a summary of the Auditor's work completed for any type of inpatient audit
 and the financial impact based on the audit findings. This report will show number of coders and coded
@@ -108,48 +101,48 @@ encounters audited that resulted in a DRG change and either over payments or und
 report will also show the details of physician queries that resulted because of the audit and financial
 impact of changes made.
 
-![Report](image-369.jpg)
+![Inpatient Audit Scorecard](IPAuditSC.png)
 
-### Inpatient Auditor Productivity
+#### Inpatient Auditor Productivity
 
 This report shows auditor productivity by audit type and sub-type and a sum of the total outcomes for
 each.
 
-![Report](image-370.jpg)
+![Inpatient Auditor Productivity](IPAuditPro.png)
 
-### Inpatient Coder Scorecard
+#### Inpatient Coder Scorecard
 
 This report shows, on an individual coder basis, the principal diagnoses, secondary diagnoses, and
 procedure code assignment errors that may or may not have resulted in a DRG change and financial
 impact. The report has an audit present. The date range for this report is for the date the audit was
 performed.
 
-![Report](image-371.jpg)
+![Inpatient Coder Scorecard](IPCoderSC.png)
 
-### Outpatient Audit Scorecard
+#### Outpatient Audit Scorecard
 
 This monthly report provides a summary of the Auditor's work completed for any type of outpatient
 audit.
 
-![Report](image-372.jpg)
+![Outpatient Audit Scorecard](image-372.jpg)
 
-### Outpatient Auditor Productivity
+#### Outpatient Auditor Productivity
 
 This report shows auditor productivity by outpatient audit type and sub-type and a sum of the total
 outcomes for each.
 
-![Report](image-373.jpg)
+![Outpatient Auditor Productivity](image-373.jpg)
 
-### Outpatient Coder Scorecard
+#### Outpatient Coder Scorecard
 
 This report shows, on an individual coder basis, the errors and accuracy rates for diagnosis codes
 including Reason for Visit and secondary diagnoses; errors in CPT code assignments, modifiers, charges,
 and procedure details (provider name and date of procedure). The date range for this report is for the
 date the audit was performed.
 
-![Report](image-374.jpg)
+![Outpatient Coder Scorecard](image-374.jpg)
 
-### Cancelled Query Report
+#### Cancelled Query Report
 
 This report is to track Physician Queries that were cancelled within the date range specified. Only
 queries cancelled from within the Physician Query viewer will be tracked on this report, i.e. any third-
@@ -157,17 +150,17 @@ party cancellations will not appear. Created date and cancelled date will be dis
 amount of time the query was open. The date range for this report is the date that the physician query
 was cancelled.
 
-![Report](image-375.jpg)
+![Cancelled Query Report](CancelledQ.png)
 
-### Case Mix Index Comparison Trend Report
+#### Case Mix Index Comparison Trend Report
 
 This report shows the Baseline, Working, and Final CMI per discharge month. (Filtering: Only run as a
 monthly report). The date range on this report is the Chart Discharge Date please note the range is
 expanded to the full month.
 
-![Report](image-376.jpg)
+![Case Mix Index Comparison Trend Report](image-376.jpg)
 
-### Case Mix Index Report by Attending Physician Report
+#### Case Mix Index Report by Attending Physician Report
 
 This report will show the difference between the most Current Working CMI and Final CMI, additionally
 providing the CMI Difference (Final CMI – Current Working CMI.) This report will show how the
@@ -178,9 +171,9 @@ document the chart comprehensively. This report should be used in conjunction wi
 on the attending physician if you are questioning the results. (Filtering: Only run as a monthly report).
 The date range for this report is on the Chart Admit Date
 
-![Report](image-377.jpg)
+![Case Mix Index Report by Attending Physician Report](image-377.jpg)
 
-### Case Mix Index per Month
+#### Case Mix Index per Month
 
 Date Range: Chart Discharge Date (only Submitted Inpatient charts with a DRG Weight valued will
 appear in this report)
@@ -203,7 +196,7 @@ Weight.
 > [!note] Blank Field Values
 > Blank facilities or financial classes are displayed as an empty string to be consistent with other reports.
 
-![Report](image-378.jpg)
+![Case Mix Index per Month](image-378.jpg)
 
 ### CC/MCC Capture Rate
 
