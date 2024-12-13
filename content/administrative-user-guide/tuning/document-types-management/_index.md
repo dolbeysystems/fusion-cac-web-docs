@@ -59,23 +59,14 @@ In the grid, double click in the field to edit the **Adds Pending Reason**. The 
 
 ### Caution Coding
 
-Caution codea are suggested by the system but cannot be assigned by a coder because of the document type.
+Documents can configured in Document Types management to be caution code documents. Coders should not code from these documents, but still be aware that the verbiage exists as it may result in a possible query. For example, if a nurse indicates the patient was being treated for respiratory
+failure but the provider never mentioned it, the caution code will help to ensure users aren't missing anything.
 
-If a document is configured in Document Types management to be a caution code document it means the coder should not code from that but, be aware that the verbiage exists as it may
-result in a possible query. For example, if a nurse indicates the patient was being treated for respiratory
-failure but, the provider never mentioned it the caution code will help to ensure you aren’t missing
-anything.
-
-In Document Types Management, change the "Caution Coding" field of the Document Type to "All
-Patient Types". Save your change, then load the account and that document. A "caution coding"
-document is a document from which the user cannot assign codes, so the code suggestions within the
-document have a "caution" background instead of the usual lavender background. The Unassigned Code
-tree now displays the same caution background for those codes, and the right-click menu on those
+In Document Types Management, change the "Caution Coding" field of the Document Type to "All Patient Types" by double clicking in the Caution Code column. Save the change, then load the account and that document. The code suggestions within the document will have a golden "caution" background instead of the usual lavender background to indicate they cannot be assigned. The Unassigned Code tree displays the same caution background for those codes, and the right-click menu on those
 codes prevent assigning or changing the caution code.
 
-![](image-577.jpg)
+![Caution Code Column](SetCaution.png)
 
-In the Unassigned Codes pane, any code attached to that document will show in a yellow background,
-and will not have the option to assign on the right click menu.
+In the Unassigned Codes pane, any code attached to a caution document will show in a yellow background and will not have the option to assign on the right click menu.
 
-![](image-578.jpg)
+![Caution Code in Tree](CautionCode.png)

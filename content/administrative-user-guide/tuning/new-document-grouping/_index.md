@@ -3,64 +3,38 @@ title = 'New Document Grouping'
 weight = 32
 +++
 
-## New Document Grouping
+![New Document Grouping](NewDocGrp.png)
 
-New Document Grouping allows you to automatically put documents into folders. For example, if the
-document name contains the word “consults” or “consultation”, you may want to file it within the
-Consults folder and set the engine handling set to Do not Code Procedures.
+By default, users with the Administrator role or the Tuning role have access to the "New Document Grouping" page in the Tuning menu. This page allows users to create a list of groups that should be created for new document types. For example, if the document name contains the word “consults” or “consultation”, the organization may want to file it within the Consults folder and set the engine handling to Do not Code Procedures.
 
-By default, users with the Administrator role or the Tuning role have access to the "New Document
-Grouping" page in the Tuning menu. In this page, users create a list of groups that should be created for
-new document types:
+![Grouped Consults](GroupConsults.png)
 
-- Group Name equals the name of an existing document group from Document Types
-Management. Note that when one is selected, its Group Order automatically populates.
-- Add equals click to add a new document group that is not in Document Types Management.
-Users enter the document group name and its order number.
-- Group Order = the sequence of the document grouping. Note this is copied from Document
-Types Management but it can be edited, which would only affect new document types.
-- Includes, Excludes, and NLP Handling = same functionality as in Document Types Management
-- Documents = click to add string matching for new document types from the interface. Note that
-there are four supported operators
-- Sequencing buttons = new document types are processed through the groups in the order that
-is displayed
+### Creating a New Automated Grouping
 
-### How to Create a New Automated Grouping
+|Field Name|Description|
+|----------|-----------|
+|Group Name|name of existing document group from Document Types Management. When one is selected, the Group Order automatically populates|
+|+Add Group|adds a new document group that is not in Document Types Management. Users will be prompted to enter a new document group name and order number|
+|Group Order|sequence of the document grouping. The order is copied from Document Types Management but can be edited. Edits will only affect new document types|
+|Includes, Excludes, and NLP Handling|as in Document Types Management, these fields indicate limitations placed on the group(s)|
+|Documents|list of documents included in the group.|
+|Sequencing buttons|new document types are processed through the groups in the order that is displayed|
 
-1. Click on + Add Group
-2. Select the group name you are creating the automation for or click on the Add Button to
-create a new group that doesn’t already exist.
-![](image-572.jpg)
+##### To create a new group: 
 
-3. Select how you want the engine to handle these types of documents - you can either
-have engine handling dropdown or use includes or excludes.
+1. Click {{%button%}}+Add Group{{%/button%}}
+2. Select the appropriate group name from the drop down or click **+** to create a custom group name
+3. Select how the engine should handle these types of documents using the engine handling dropdown or includes/excludes
+   ![Engine Handling Options for Documentation](EngineHandlingOptions.png)
 
-#### Engine Handling Drop Down
+The drop down allows users to block certain code sets. If more targeted handling is needed to
+include or exclude certain codes, consider using the includes or excludes method.
 
-This drop down allows you to block certain code sets. But,if you need more targeted handling to
-include or exclude certain codes, then consider using the includes or excludes method shown
-below.
+Using includes or excludes allows users to override the settings and choose to either include or exclude certain code prefixes. The image above indicates thatthe group will uses codes that start with A,B,C,D,E,F,G, or H. 
 
-![](image-573.jpg)
+>[!Note] Includes and excludes cannot be used at the same time. 
 
-#### Includes and Excludes
+Once the folder and engine handling have been set, select the documents to be included in this group. Click on {{%button%}}Edit{{%/button%}}, then {{%button%}}+Add{{%/button%}}. When choosing an operator, "Contains" will likely be the best choice. For example, if the user wants to
+put all radiology documents into a folder, consider that if it contains XR, NM, MRA, MRI, US, CT, then those should go into the radiology folder. Use a comma to separate multiple items. Click OK once complete.
 
-Using the includes or excludes allows you to override the settings and choose to either includeor
-exclude certain code prefixes. The below figure shows that this group will only include codes
-that begin with the prefix of A. To note you can not use both includes and excludes this is an
-either or.
-
-![](image-574.jpg)
-
-4.  Once you have set the folder and the engine handling, then select the documents you
-want to include in this group. Click on the edit button then select +Add. Then, choose
-your operator. HINT: Contains will likely be the best choice. For example, if you want to
-put all radiology documents into to a folder, you may consider that if it contains XR, NM,
-MRA, MRI, US, CT, then those should go into the radiology folder. Use a comma to
-separate multiple items. Click OK once complete.
-
-![](image-575.png)
-
-Once you have completed the new grouping, select Save All in the top right corner.
-
-![](image-576.jpg)
+Once the new grouping is complete, select Save All in the top right corner.
