@@ -112,6 +112,8 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |Caution Yellow|Identifies [caution codes](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/#caution-code) which indicates when the system suggests codes that are flagged as cautionary. Caution codes are applied to documents that the management team has identified as requiring careful consideration. These cautionary documents enable the system to suggest codes that may not be present on provider-facing or codable documents. It's important to note that these codes cannot be validated from these documents alone. ![Caution Code Yellow](CautionCode.png) ***example:*** If a nurse mentions that a patient was treated for respiratory failure, but there is no mention of it by the provider, the caution code serves as a reminder to ensure that no relevant information is overlooked. It acts as a safety net to capture potential discrepancies or omissions in the documentation process.
 |Green Paper Icon|A bookmark has been added by an end user. Hovering over this icon will display the associated note. Alternatively, users can go to notes & bookmarks within the navigation tree you can see all that were placed. ![Bookmark Icon](BookmarkIcon.png)|
 |Green Flag| Displayed next to the code within the document and on the show all or unassigned code tree to indicate there is a comment on a code. The code comment can also be found on the notes & bookmarks under the navigation tree within the code comment section. ![Code Comment](CodeCommentIcon.png)|
+|Blue Background|indicates a diagnosis code ![Blue Diagnosis Code](BlueDx.png)|
+|Red Background|indicates a procedure code ![Red Procedure Code](RedPCS.png)|
 
 ## Code Tree
 
