@@ -474,7 +474,7 @@ determine if the chart is being coded correctly or if additional data should hav
 a query. This report would be used in conjunction with an audit. The date range on this report is the
 Chart Last Submitted Date (Must have a status of Submitted.)
 
-![Report](image-405.jpg)
+![Final Code Count per Account Report](FinalCodeCount.png)
 
 ### Global Productivity Report
 
@@ -483,7 +483,7 @@ This report shows coder productivity by patient type per day, the number of 'Vie
 selected). The date range on this report is the Change History Audit Date (Submitted, Resubmitted,
 Saved, Viewed actions.)
 
-![Report](image-406.jpg)
+![Global Productivity Report](GlobalProductivity.png)
 
 ### HAC Report
 
@@ -491,7 +491,7 @@ This report is to provide a listing of all patients admitted within the date ran
 contains hospital acquired conditions. This report only looks at final coded data and does not reflect
 working data. The date range on this report is the Chart Admit Date.
 
-![Report](image-407.jpg)
+![HAC Report](HAC.png)
 
 ### Incentive Productiviy Report
 
@@ -503,7 +503,7 @@ each week, per user, to calculate incentive points.
 - Categories without a value in the incentive multiplier will be calculated with an incentive multiplier of 1.0.
 - This report is like the "Weekly Coder Productivity Report" in that it reports on whole weeks, but only produces an entry if the coder first submitted an account that week.
 
-![Report](image-408.jpg)
+![Incentive Productiviy Report](IncentiveProductivity.png)
 
 ### Length of Stay Variance Report
 
@@ -512,22 +512,7 @@ GMLOS based on the most current Working DRG. The variance is the difference betw
 GMLOS. The higher that number, the chart is identified as needing a re-review for potential DRG change
 and SOI/ROM. The date range on this report is the Chart Admit Date (Must be an Inpatient Chart).
 
-![Report](image-409.jpg)
-
-### Matched Suggested DRG Outcome Report
-
-This report examines the Suggested DRG History to the earliest date/time that a Suggested DRG
-matched the Final DRG on an account. The date range on this report is the Chart Admit Date. To qualify
-for this report the chart must be an Inpatient Chart with Stage of Submitted,Discharge Date and Final
-DRG.
-
-> [!note] InpatientDateTime field
-> This report supports a new optional "InpatientDateTime" field if present on the account. The
-> "InpatientDateTime" field is the date/time in which an account became an inpatient account – common
-> for sites that change outpatient accounts to inpatient accounts. If this field is not present, the
-> AdmitDateTime is used.
-
-![Report](image-410.jpg)
+![Length of Stay Variance Report](LOSVariance.png)
 
 ### Outstanding Queries Report
 
@@ -536,7 +521,7 @@ summary that shows the Top Physicians with outstanding queries and the length of
 query has been open. Date Range: Query Create Date (The date that the query was initially created and
 sent).
 
-![Report](image-411.jpg)
+![Outstanding Queries Report](OutstandingQueries.png)
 
 ### Pending Reasons Report
 
@@ -545,7 +530,7 @@ is, and which physician was assigned to the pending reason. Not all pending reas
 physician assigned as some pending reasons are not a result of chart deficiency. The date range on this
 report is the Chart Admit Date.
 
-![Report](image-412.jpg)
+![Pending Reasons Report](PendReasonsRrpt.png)
 
 ### Query Impact Report
 
@@ -566,7 +551,7 @@ date that the query was initially created and sent)
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
 > report – Query Impact Report.
 
-![Report](image-413.jpg)
+![Query Impact Report](QImpact.png)
 
 ### Query Impact by Discharge Date Report
 
@@ -587,7 +572,7 @@ this report is the Chart Discharged Date.
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
 > report – Query Impact Report.
 
-![Report](image-414.jpg)
+![Query Impact by Discharge Date Report](QImpactbyDisDate.png)
 
 ### Query Overview Report
 
@@ -595,7 +580,7 @@ This report shows pre-discharge physicians query response or non-response and th
 date range on this report is the Query Create Date (The date that the query was initially created and
 sent).
 
-![Report](image-415.jpg)
+![Query Overview Report](QueryOverview.png)
 
 ### Query Stats Report
 
@@ -603,7 +588,7 @@ This report shows the physicians within the date range that were queried. The re
 many charts the physician was queried for and how many queries these charts resulted in. The date
 range on this report is the Query Create Date (The date that the query was initially created and sent.)
 
-![Report](image-416.jpg)
+![Query Stats Report](QueryStats.png)
 
 ### Present on Admission Tracking Report
 
