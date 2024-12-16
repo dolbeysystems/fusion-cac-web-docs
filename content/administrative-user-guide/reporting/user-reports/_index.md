@@ -288,7 +288,7 @@ admit date of accounts, respectively
 The date range on this report is the Chart Discharged Date, please note that this report date range is
 expanded to the full month
 
-![CDI Query Score Card Report](image-387.jpg)
+![CDI Query Score Card Report](CDIQSC.png)
 
 #### CDI Rounding Report
 
@@ -300,21 +300,7 @@ between ALOS and the GMLOS. The higher that number, the chart is identified as n
 for potential DRG change and SOI/ROM. The date range on this report is the Chart Admit Date. To
 qualify for this report the chart must be an Inpatient Chart. 
 
-![CDI Rounding Report](image-388.jpg)
-
-#### CDI DRG Report
-
-This report shows all unsubmitted inpatient accounts without a discharge date that have a calculated
-Suggested or Working DRG and all diagnosis codes used in that calculation, ordered by Room # from the
-location. Only the most recent Suggested or Working DRG is displayed for each account. The GMLOS will
-only display if the DRG was computed by a CDI Specialist; it will not display if the DRG was computed by
-the Suggested DRG module. The date range input below is irrelevant for this report and will always
-display all inhouse patients.
-
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
-![CDI DRG Report](image-389.jpg)
+![CDI Rounding Report](CDIRR.png)
 
 #### CDI Activity Report
 
@@ -322,7 +308,7 @@ This report shows the number of ‘Initial Reviews’ vs ‘Followup Reviews’ 
 the total number of queries sent. (Filtering: Max of 31 days selected). The date range on this report is
 the Chart Working DRG Save Date/Time (Query Create Date for the Queries.)
 
-![CDI Activity Report](image-390.jpg)
+![CDI Activity Report](CDIAct.png)
 
 #### CDI Codes on Submitted Charts Report
 
@@ -331,13 +317,13 @@ This report shows the list of diagnosis codes and procedures that CDI assigned i
 > [!caution] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
-![CDI Codes on Submitted Charts Report](image-391.jpg)
+![CDI Codes on Submitted Charts Report](CDICodesSubChts.png)
 
 #### Coder DRG Summary
 
 This report is to show the breakdown per coder MS-DRG to show the total visits per DRG.
 
-![Coder DRG Summary](image-392.jpg)
+![Coder DRG Summary](CoderDRG.png)
 
 #### Engine Outcome Summary by Coder Report
 
@@ -358,7 +344,7 @@ should be used in conjunction with a coding audit if needed.
 
 The date range on this report is the Chart Submitted Date (FirstSubmitter.)
 
-![Engine Outcome Summary by Coder Report](image-393.jpg)
+![Engine Outcome Summary by Coder Report](EngineOutcomeSumCoder.png)
 
 #### Coded Procedure Account Details Report
 
@@ -369,7 +355,7 @@ assigned on the chart.
 >[!caution] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-![Coded Procedure Account Details Report](image-394.jpg)
+![Coded Procedure Account Details Report](CodedPCSAcctDetail.png)
 
 #### Coder Activity Report
 
@@ -380,7 +366,7 @@ range. Date Range is the date of the activity, beginning of start date to the en
 max of 31 days selected). The date range on this report is the Change History Audit Date (Viewed, Saved,
 Submitted, Resubmitted actions.
 
-![Coder Activity Report](image-395.jpg)
+![Coder Activity Report](CoderActivity.png)
 
 #### Coder Detailed Activity Report
 
@@ -391,7 +377,7 @@ account on a specific date. A touch is defined as a unique save or submit action
 keeps the account loaded, and then submits it, the time between loading the account
 and saving it counts as time submitted instead of time saving.
 
-![Coder Detailed Activity Report](image-396.jpg)
+![Coder Detailed Activity Report](CoderDetailedActivity.png)
 
 #### Physician Coding Activity
 
@@ -400,7 +386,7 @@ submitted and pended, then the total number of Queries created, the total time u
 accounts, and total time spent per day - grouped by coder then by category over the date range. Date
 Range is the date of the activity, beginning of start date to the ending of end date.
 
-![Physician Coding Activity](image-397.png)
+![Physician Coding Activity](PhysicianCodingActivity.png)
 
 #### Coding Chart Status Report
 
@@ -411,7 +397,7 @@ be examined for completeness and non-coding staff may place pending reasons on t
 deficiencies. When the deficiencies are resolved, the chart is then assigned to a coding worklist to
 indicate the chart is ready for coding. The date range on this report is the Chart Discharged Date
 
-![Coding Chart Status Report](image-398.jpg)
+![Coding Chart Status Report](CodingChartStatus.png)
 
 #### Discharged Not Final Coded Report
 
@@ -420,7 +406,7 @@ coding. The date range for this report is the Chart Discharged Date. To qualify 
 must have a status of Unbilled. If there are multiple pending reasons on a qualifying chart, they will be
 separated by a comma.
 
-![Discharged Not Final Coded Report](image-399.jpg)
+![Discharged Not Final Coded Report](DischargedNotFinalCoded.png)
 
 #### DRG Comparison Report
 
@@ -430,7 +416,7 @@ the selected range will be included. The user(s) selected below will constrain t
 by the CDS on the most current calculated Baseline DRG or the Coder that last submitted with a Final
 DRG. (Filtering: Minimum of 1 category selected). The date range on this report is the Chart Admit Date.
 
-![DRG Comparison Report](image-400.jpg)
+![DRG Comparison Report](DRGComparison.png)
 
 #### Engine Outcome Detail per Coder
 
@@ -446,7 +432,7 @@ conjunction with an audit.
 > least one attached code to make the formulas correct. Documents with no codes (suggested nor added) are
 > not counted in this report (and shouldn't be since this report is about engine outcome).
 
-![Engine Outcome Detail per Coder](image-401.jpg)
+![Engine Outcome Detail per Coder](EngineOutcomeDeatilCoder.png)
 
 ### Engine Outcome Detail per CDI
 
@@ -460,7 +446,7 @@ assign for final code assignment. This report card should be used as an educatio
 possible improvements for the end-user and/or the code suggestions. This report is recommended to be
 used in conjunction with an audit.
 
-![Report](image-402.jpg)
+![Engine Outcome Detail per CDI](EngineOutcomeDeatilCDI.png)
 
 ### Engine Results by Documents Report
 
@@ -469,14 +455,14 @@ first and last times the document was received on the submitted accounts. The re
 most to least added/edited codes by the coder. The date range on this report is the Chart Submitted
 Date (FirstSubmitter).
 
-![Report](image-403.jpg)
+![Engine Results by Documents Report](EngineResultsByDoc.png)
 
-### Final Class Outcome by Discharge Report
+### Financial Class Outcome by Discharge Report
 
 This report shows the breakdown per financial class per month. It will breakdown the total patient
 charts, average length of stay total charts and case mix index.
 
-![Report](image-404.jpg)
+![Financial Class Outcome by Discharge Report](FinancialClassOutcome.png)
 
 ### Final Code Count per Account Report
 
