@@ -3,71 +3,63 @@ title = 'User Reports'
 weight = 40
 +++
 
-User reports are canned reports that are preformatted reports below each of the report is outlined with
-a brief description. If you are looking for data that is not in user reports, consider account search to
-create a custom search to export the raw data. User reports are meant to be run on-demand but, many
-of the user reports can also be scheduled to be run at date/time interval. Since scheduled reports are
-sent through email, no user reports that contain PHI is available therefore you will find the scheduled
-reports do not contain all 47 however, most are available.
+![User Reports](UserReports.png)
 
-## Running a User Report
+User reports are canned reports that are preformatted. User reports were created to be run on-demand, but many reports can also be scheduled to run at a specific date/time interval. Each report is outlined [below](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-reports-and-descriptions) along with a brief description. 
 
-1. To run a report, select the report from the list you wish to run for a complete list of the reports 
-and descriptions click here. You can also find the report description by selecting a report and it will
-display a short description on the screen.
-![Report](image-361.jpg)
-2. Once you have selected a report the report may require filtering each report is uniqPage 127 of 399
-© 2024 Dolbey, All Rights Reserved. All trademarks, trade names, and copyrights are the property of their respective owners.
-Statements regarding productivity gains are not guarantees of actual cost savings. FOR CONFIDENTIAL USE ONLY.
-User Reports and Descriptions
-Below is a listing of all the reports and a short description, your organization may have custom reports
-that may not appear in this list, this list is of the default reports. If there are other reports your
-organization would benefit from and you cannot pull the data you need from account search please
-contact our the Dolbey SME team smeteam@dolbey.com to discuss the options for us to create a new
-user report.
-25 Most Common CPT Codes Report
-This report is to provide a listing of the top 25 CPT® codes by patient type (category) for the discharge
-date range provided. The Date Range for this report is the Chart Discharged Date.ue in the style of
-data it will yield please review filter options and use as needed.
-![Report](image-360.jpg)
-  a. Most CDI reports contain five additional filters to give the user the option to filter as ‘
+Users looking for data that is not available in user reports can use [account search] (http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
+
+### Running a User Report
+
+1. Select the report from the available list - the selected report will display a short description on the screen
+
+![User Report List](ReportList.png)
+
+![Report Discription](ReportDis.png)
+
+2. Filter as needed - each report is unique in the style of data it will yield please review filter options and use as needed
+   
+![Report Filter Options](ReportFilters.png)
+
+  >[!Note] CDI Filters
+  >Most CDI reports contain additional filters to give the user the option to filter as ‘
   include’ or ‘exclude’
-3. Select the format of the report your options are pdf, html, .xlsx
-4. Select Run Report, note if you run .xlsx check the bottom of your screen for the export or your
-downloads folder.
 
-![Report](image-362.jpg)
+3. Select the format of the report - .xlsx will result in a file in the users downloads folder.
+
+![Report Format Options](FormatOptions.png)
+
+4. Select Run Report
+   
+![Run Report](RunReport.png)
 
 ## User Reports and Descriptions
 
-Below is a listing of all the reports and a short description, your organization may have custom reports
-that may not appear in this list, this list is of the default reports. If there are other reports your
-organization would benefit from and you cannot pull the data you need from account search please
-contact our the Dolbey SME team smeteam@dolbey.com to discuss the options for us to create a new
-user report.
+The following is a complete list of Fusion CAC's default reports and their descriptions. An organization may have custom reports
+that do not appear in this list. Additionally, some reports may be part of an add-on module. For questions or if there are other reports your organization would benefit from and you cannot pull the data you need from account search please contact our SME Team (smeteam@dolbey.com) to discuss options.
 
-### 25 Most Common CPT Codes Report
+#### 25 Most Common CPT Codes Report
 
 This report is to provide a listing of the top 25 CPT® codes by patient type (category) for the discharge
 date range provided. The Date Range for this report is the Chart Discharged Date.
 
-![Report](image-363.jpg)
+![25 Most Common CPT Codes](25CPTs.png)
 
-### 25 Most Common Diagnosis Codes Report
+#### 25 Most Common Diagnosis Codes Report
 
 This report is to provide a listing of the top 25 diagnosis codes by patient type (category) per the
 discharge date range provided. The Date Range for this report is the Chart Discharged Date.
 
-![Report](image-364.jpg)
+![25 Most Common Diagnosis Code](25Dx.png)
 
-### 25 Most Common PCS Codes Report
+#### 25 Most Common PCS Codes Report
 
 This report is to provide a listing of the top 25 PCS codes by patient type (category) per the discharge
 date range provided. The Date Range for this report is the Chart Discharged Date.
 
-![Report](image-365.jpg)
+![25 Most Common PCS Codes Report](25PCS.png)
 
-### Assigned Workgroup Report
+#### Assigned Workgroup Report
 
 This report provides details about each of the users and what workgroup they are assigned to in
 sequence. The date range input is irrelevant for this report and will always display the user’s current
@@ -76,9 +68,9 @@ workgroups.
 > [!note] Date Criteria Ignored
 Date criteria are not used for this report. The user's current workgroup assignments are reported.
 
-![Report](image-366.jpg)
+![Assigned Workgroup Report](AssignedWrkgrp.png)
 
-### Audit Abstract Report
+#### Audit Abstract Report
 
 This report will provide an overview of the abstraction scores for each user based upon a date range.
 
@@ -91,17 +83,17 @@ Notes:
 - Procedure Modifier Changes value is the total number of procedure modifier changes (CPT).
 - Total Abstract Errors value is the Sum of all abstract (discharge disposition change, date changes and provider changes) errors during audit.
 
-![Report](image-367.jpg)
+![Audit Abstract Report](AuditAbstract.png)
 
-### Audit Executive Summary
+#### Audit Executive Summary
 
 This report is an executive level view that shows an overview of inpatient and outpatient audit activity
 by Auditor. It includes the audit rate and average error rates for diagnoses and procedure coding. The
 date of this report is based on the date the account was first submitted.
 
-![Report](image-368.jpg)
+![Audit Executive Summary](AuditExec.png)
 
-### Inpatient Audit Scorecard
+#### Inpatient Audit Scorecard
 
 This monthly report provides a summary of the Auditor's work completed for any type of inpatient audit
 and the financial impact based on the audit findings. This report will show number of coders and coded
@@ -109,48 +101,48 @@ encounters audited that resulted in a DRG change and either over payments or und
 report will also show the details of physician queries that resulted because of the audit and financial
 impact of changes made.
 
-![Report](image-369.jpg)
+![Inpatient Audit Scorecard](IPAuditSC.png)
 
-### Inpatient Auditor Productivity
+#### Inpatient Auditor Productivity
 
 This report shows auditor productivity by audit type and sub-type and a sum of the total outcomes for
 each.
 
-![Report](image-370.jpg)
+![Inpatient Auditor Productivity](IPAuditPro.png)
 
-### Inpatient Coder Scorecard
+#### Inpatient Coder Scorecard
 
 This report shows, on an individual coder basis, the principal diagnoses, secondary diagnoses, and
 procedure code assignment errors that may or may not have resulted in a DRG change and financial
 impact. The report has an audit present. The date range for this report is for the date the audit was
 performed.
 
-![Report](image-371.jpg)
+![Inpatient Coder Scorecard](IPCoderSC.png)
 
-### Outpatient Audit Scorecard
+#### Outpatient Audit Scorecard
 
 This monthly report provides a summary of the Auditor's work completed for any type of outpatient
 audit.
 
-![Report](image-372.jpg)
+![Outpatient Audit Scorecard](OPAuditSC.png)
 
-### Outpatient Auditor Productivity
+#### Outpatient Auditor Productivity
 
 This report shows auditor productivity by outpatient audit type and sub-type and a sum of the total
 outcomes for each.
 
-![Report](image-373.jpg)
+![Outpatient Auditor Productivity](OPAuditSC.png)
 
-### Outpatient Coder Scorecard
+#### Outpatient Coder Scorecard
 
 This report shows, on an individual coder basis, the errors and accuracy rates for diagnosis codes
 including Reason for Visit and secondary diagnoses; errors in CPT code assignments, modifiers, charges,
 and procedure details (provider name and date of procedure). The date range for this report is for the
 date the audit was performed.
 
-![Report](image-374.jpg)
+![Outpatient Coder Scorecard](OPCoderSC.png)
 
-### Cancelled Query Report
+#### Cancelled Query Report
 
 This report is to track Physician Queries that were cancelled within the date range specified. Only
 queries cancelled from within the Physician Query viewer will be tracked on this report, i.e. any third-
@@ -158,17 +150,17 @@ party cancellations will not appear. Created date and cancelled date will be dis
 amount of time the query was open. The date range for this report is the date that the physician query
 was cancelled.
 
-![Report](image-375.jpg)
+![Cancelled Query Report](CancelledQ.png)
 
-### Case Mix Index Comparison Trend Report
+#### Case Mix Index Comparison Trend Report
 
 This report shows the Baseline, Working, and Final CMI per discharge month. (Filtering: Only run as a
 monthly report). The date range on this report is the Chart Discharge Date please note the range is
 expanded to the full month.
 
-![Report](image-376.jpg)
+![Case Mix Index Comparison Trend Report](CMICompTrend.png)
 
-### Case Mix Index Report by Attending Physician Report
+#### Case Mix Index Report by Attending Physician Report
 
 This report will show the difference between the most Current Working CMI and Final CMI, additionally
 providing the CMI Difference (Final CMI – Current Working CMI.) This report will show how the
@@ -179,9 +171,9 @@ document the chart comprehensively. This report should be used in conjunction wi
 on the attending physician if you are questioning the results. (Filtering: Only run as a monthly report).
 The date range for this report is on the Chart Admit Date
 
-![Report](image-377.jpg)
+![Case Mix Index Report by Attending Physician Report](CMIAttPhys.png)
 
-### Case Mix Index per Month
+#### Case Mix Index per Month
 
 Date Range: Chart Discharge Date (only Submitted Inpatient charts with a DRG Weight valued will
 appear in this report)
@@ -204,26 +196,18 @@ Weight.
 > [!note] Blank Field Values
 > Blank facilities or financial classes are displayed as an empty string to be consistent with other reports.
 
-![Report](image-378.jpg)
+![Case Mix Index per Month](CMIMonth.png)
 
-### CC/MCC Capture Rate
+#### CC/MCC Capture Rate
 
 This report provides the final outcome of CC/MCC capture rate. This can be used to compare the
 CC/MCC capture rate to those DRG's that don’t have a DRG but, have the opportunity to be maximized
 which is defined as DRG's with a DRG description of without CC/MCC, w/o CC, w/o MCC. This report will
 tell you what opportunities may have been missed
 
-![Report](image-379.jpg)
+![CC/MCC Capture Rate](ccmccCapRate.png)
 
-### CDI Detailed by Review Type Report
-
-This report provides details about the type of CDI reviews performed by account. The date range of this
-report is the Chart Reviewed Activity Date. To qualify for this report the chart must have at least one CDI
-review.
-
-![Report](image-380.jpg)
-
-### CDI Executive Summary Report
+#### CDI Executive Summary Report
 
 This report is an executive level view broken down per month that shows total discharges vs. total
 reviews in addition to the # of total queries, response rates and improved DRG's. The improved DRG is
@@ -231,26 +215,26 @@ calculated by determining if there was a positive reimbursement gain from the ba
 DRG. (Filtering: Max of 12 months selected; only run as a monthly report). The date range on this report
 is the Chart Admit Date, please note that this report date range is expanded to the full month
 
-![Report](image-381.jpg)
+![CDI Executive Summary Report](CDIExecSum.png)
 
-### CDI Financial Benefit Report
+#### CDI Financial Benefit Report
 
 This report is broken down per month coded and the total financial impact CDI had on the chart. The
 report will only display charts with unmatched DRG's and show a financial impact based on the baseline
 DRG to final coded DRG. The date range on this report is the Chart Submitted Date (LastSubmitter).
 
-![Report](image-382.jpg)
+![CDI Financial Benefit Report](CDIFinBen.png)
 
-### CDI Metric Score Card
+#### CDI Metric Score Card
 
 This report shows CDI productivity based upon the CDI user reviews and queries. The report will show
 CDI activity specifically on the number of initial reviews (first time a CDI reviews a chart), number of
 follow up reviews (reviews beyond the first time a CDI reviews a chart), queries issued, agreed upon
 query amounts, and the number of days we show activity occurring.
 
-![Report](image-383.jpg)
+![CDI Metric Score Card](CDIMetSC.png)
 
-### CDI Productivity - Admission Month Report
+#### CDI Productivity - Admission Month Report
 
 This report shows CDI productivity based upon the admission month of the patient. The report will show
 CDI activity specifically on the # of initial reviews (first time a CDI reviews a chart). A review is calculated
@@ -266,19 +250,9 @@ admission month if there was a CDI review. (Filtering: Only run as a monthly rep
 this report is the Chart Admit Date, please note that this report date range is expanded to the full
 month.
 
-![Report](image-384.jpg)
+![CDI Productivity](CDIProMonth.png)
 
-### CDI Productivity by Review Type Report
-
-This report shows productivity by each user by review type. The date range on this report is the Chart
-Reviewed Activity Date. To qualify for this report the chart must have at least one CDI review.
-
-> [!note] Enable Viewer
-> To access this report you must enable the Documentation Reviews viewer for CDI.
-
-![Report](image-385.jpg)
-
-### CDI Query Detail Report
+#### CDI Query Detail Report
 
 This report provides details of physician queries created by CDI Specialists on accounts that have since
 been discharged. This report details how the account evolved from a Baseline DRG to a Final DRG.
@@ -289,9 +263,9 @@ been discharged. This report details how the account evolved from a Baseline DRG
 Any non-cancelled physician query created by a CDI Specialist on an inpatient, now-discharged account
 should appear as a line item on this report.
 
-![Report](image-386.jpg)
+![CDI Query Detail Report](CDIDetail.png)
 
-### CDI Query Score Card Report
+#### CDI Query Score Card Report
 
 This report is displayed in several sections:
 
@@ -314,9 +288,9 @@ admit date of accounts, respectively
 The date range on this report is the Chart Discharged Date, please note that this report date range is
 expanded to the full month
 
-![Report](image-387.jpg)
+![CDI Query Score Card Report](CDIQSC.png)
 
-### CDI Rounding Report
+#### CDI Rounding Report
 
 This report shows all charts reviewed and not reviewed by CDI. If the account has not been reviewed by
 CDI, working information will be blank to allow CDI to take notes while rounding. If the account has been
@@ -326,46 +300,32 @@ between ALOS and the GMLOS. The higher that number, the chart is identified as n
 for potential DRG change and SOI/ROM. The date range on this report is the Chart Admit Date. To
 qualify for this report the chart must be an Inpatient Chart. 
 
-![Report](image-388.jpg)
+![CDI Rounding Report](CDIRR.png)
 
-### CDI DRG Report
-
-This report shows all unsubmitted inpatient accounts without a discharge date that have a calculated
-Suggested or Working DRG and all diagnosis codes used in that calculation, ordered by Room # from the
-location. Only the most recent Suggested or Working DRG is displayed for each account. The GMLOS will
-only display if the DRG was computed by a CDI Specialist; it will not display if the DRG was computed by
-the Suggested DRG module. The date range input below is irrelevant for this report and will always
-display all inhouse patients.
-
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
-![Report](image-389.jpg)
-
-### CDI Activity Report
+#### CDI Activity Report
 
 This report shows the number of ‘Initial Reviews’ vs ‘Followup Reviews’ per category (patient type) with
 the total number of queries sent. (Filtering: Max of 31 days selected). The date range on this report is
 the Chart Working DRG Save Date/Time (Query Create Date for the Queries.)
 
-![Report](image-390.jpg)
+![CDI Activity Report](CDIAct.png)
 
-### CDI Codes on Submitted Charts Report
+#### CDI Codes on Submitted Charts Report
 
 This report shows the list of diagnosis codes and procedures that CDI assigned in sequenced order.
 
 > [!caution] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
-![Report](image-391.jpg)
+![CDI Codes on Submitted Charts Report](CDICodesSubChts.png)
 
-### Coder DRG Summary
+#### Coder DRG Summary
 
 This report is to show the breakdown per coder MS-DRG to show the total visits per DRG.
 
-![Report](image-392.jpg)
+![Coder DRG Summary](CoderDRG.png)
 
-### Engine Outcome Summary by Coder Report
+#### Engine Outcome Summary by Coder Report
 
 This report can be used to determine how the engine performed for the coder. It shows whether they
 leveraged the code suggestions or if they manually entered codes, bypassing suggestions. Data is
@@ -384,9 +344,9 @@ should be used in conjunction with a coding audit if needed.
 
 The date range on this report is the Chart Submitted Date (FirstSubmitter.)
 
-![Report](image-393.jpg)
+![Engine Outcome Summary by Coder Report](EngineOutcomeSumCoder.png)
 
-### Coded Procedure Account Details Report
+#### Coded Procedure Account Details Report
 
 This report provides details about charts with assigned procedures. The date range on this report is the
 Chart Last Submitted Date. To qualify for this report the chart must have at least one Procedure code
@@ -395,9 +355,9 @@ assigned on the chart.
 >[!caution] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-![Report](image-394.jpg)
+![Coded Procedure Account Details Report](CodedPCSAcctDetail.png)
 
-### Coder Activity Report
+#### Coder Activity Report
 
 This report shows the distinct number of accounts that were 'Viewed', 'Saved', 'Submitted', and
 'Resubmitted', then the total number of Queries created, the total time updating, time viewing
@@ -406,9 +366,9 @@ range. Date Range is the date of the activity, beginning of start date to the en
 max of 31 days selected). The date range on this report is the Change History Audit Date (Viewed, Saved,
 Submitted, Resubmitted actions.
 
-![Report](image-395.jpg)
+![Coder Activity Report](CoderActivity.png)
 
-### Coder Detailed Activity Report
+#### Coder Detailed Activity Report
 
 This report is very similar to the "Coder Activity Report" but with two notable changes:
 1. The new column "Chart Touches" counts the number of times the user touched" an
@@ -417,18 +377,18 @@ account on a specific date. A touch is defined as a unique save or submit action
 keeps the account loaded, and then submits it, the time between loading the account
 and saving it counts as time submitted instead of time saving.
 
-![Report](image-396.jpg)
+![Coder Detailed Activity Report](CoderDetailedActivity.png)
 
-### Physician Coding Activity
+#### Physician Coding Activity
 
 This report shows the distinct unique charts a physician coder viewed and how many changes were
 submitted and pended, then the total number of Queries created, the total time updating, time viewing
 accounts, and total time spent per day - grouped by coder then by category over the date range. Date
 Range is the date of the activity, beginning of start date to the ending of end date.
 
-![Report](image-397.png)
+![Physician Coding Activity](PhysicianCodingActivity.png)
 
-### Coding Chart Status Report
+#### Coding Chart Status Report
 
 This report displays coding productivity in regard to submitted, pending, and unbilled charts. This report
 shows how long the chart took to code from the time the patient was discharged and how long the chart
@@ -437,18 +397,18 @@ be examined for completeness and non-coding staff may place pending reasons on t
 deficiencies. When the deficiencies are resolved, the chart is then assigned to a coding worklist to
 indicate the chart is ready for coding. The date range on this report is the Chart Discharged Date
 
-![Report](image-398.jpg)
+![Coding Chart Status Report](CodingChartStatus.png)
 
-### Discharged Not Final Coded Report
+#### Discharged Not Final Coded Report
 
 This report will show management all of the discharged charts within the system that do not have final
 coding. The date range for this report is the Chart Discharged Date. To qualify for this report the chart
 must have a status of Unbilled. If there are multiple pending reasons on a qualifying chart, they will be
 separated by a comma.
 
-![Report](image-399.jpg)
+![Discharged Not Final Coded Report](DischargedNotFinalCoded.png)
 
-### DRG Comparison Report
+#### DRG Comparison Report
 
 This report shows the difference between Baseline DRG and Final DRG per account. Only accounts that
 have both a CDS calculated Baseline DRG and a Coder Submitted Final DRG with an Admit Date within
@@ -456,9 +416,9 @@ the selected range will be included. The user(s) selected below will constrain t
 by the CDS on the most current calculated Baseline DRG or the Coder that last submitted with a Final
 DRG. (Filtering: Minimum of 1 category selected). The date range on this report is the Chart Admit Date.
 
-![Report](image-400.jpg)
+![DRG Comparison Report](DRGComparison.png)
 
-### Engine Outcome Detail per Coder
+#### Engine Outcome Detail per Coder
 
 This report should be used to show if the user is using code suggestions or manually adding codes. It will
 show total assigned codes broken down by code set along with how many codes were suggested by the
@@ -472,7 +432,7 @@ conjunction with an audit.
 > least one attached code to make the formulas correct. Documents with no codes (suggested nor added) are
 > not counted in this report (and shouldn't be since this report is about engine outcome).
 
-![Report](image-401.jpg)
+![Engine Outcome Detail per Coder](EngineOutcomeDeatilCoder.png)
 
 ### Engine Outcome Detail per CDI
 
@@ -486,7 +446,7 @@ assign for final code assignment. This report card should be used as an educatio
 possible improvements for the end-user and/or the code suggestions. This report is recommended to be
 used in conjunction with an audit.
 
-![Report](image-402.jpg)
+![Engine Outcome Detail per CDI](EngineOutcomeDeatilCDI.png)
 
 ### Engine Results by Documents Report
 
@@ -495,14 +455,14 @@ first and last times the document was received on the submitted accounts. The re
 most to least added/edited codes by the coder. The date range on this report is the Chart Submitted
 Date (FirstSubmitter).
 
-![Report](image-403.jpg)
+![Engine Results by Documents Report](EngineResultsByDoc.png)
 
-### Final Class Outcome by Discharge Report
+### Financial Class Outcome by Discharge Report
 
 This report shows the breakdown per financial class per month. It will breakdown the total patient
 charts, average length of stay total charts and case mix index.
 
-![Report](image-404.jpg)
+![Financial Class Outcome by Discharge Report](FinancialClassOutcome.png)
 
 ### Final Code Count per Account Report
 
@@ -514,7 +474,7 @@ determine if the chart is being coded correctly or if additional data should hav
 a query. This report would be used in conjunction with an audit. The date range on this report is the
 Chart Last Submitted Date (Must have a status of Submitted.)
 
-![Report](image-405.jpg)
+![Final Code Count per Account Report](FinalCodeCount.png)
 
 ### Global Productivity Report
 
@@ -523,7 +483,7 @@ This report shows coder productivity by patient type per day, the number of 'Vie
 selected). The date range on this report is the Change History Audit Date (Submitted, Resubmitted,
 Saved, Viewed actions.)
 
-![Report](image-406.jpg)
+![Global Productivity Report](GlobalProductivity.png)
 
 ### HAC Report
 
@@ -531,7 +491,7 @@ This report is to provide a listing of all patients admitted within the date ran
 contains hospital acquired conditions. This report only looks at final coded data and does not reflect
 working data. The date range on this report is the Chart Admit Date.
 
-![Report](image-407.jpg)
+![HAC Report](HAC.png)
 
 ### Incentive Productiviy Report
 
@@ -543,7 +503,7 @@ each week, per user, to calculate incentive points.
 - Categories without a value in the incentive multiplier will be calculated with an incentive multiplier of 1.0.
 - This report is like the "Weekly Coder Productivity Report" in that it reports on whole weeks, but only produces an entry if the coder first submitted an account that week.
 
-![Report](image-408.jpg)
+![Incentive Productiviy Report](IncentiveProductivity.png)
 
 ### Length of Stay Variance Report
 
@@ -552,22 +512,7 @@ GMLOS based on the most current Working DRG. The variance is the difference betw
 GMLOS. The higher that number, the chart is identified as needing a re-review for potential DRG change
 and SOI/ROM. The date range on this report is the Chart Admit Date (Must be an Inpatient Chart).
 
-![Report](image-409.jpg)
-
-### Matched Suggested DRG Outcome Report
-
-This report examines the Suggested DRG History to the earliest date/time that a Suggested DRG
-matched the Final DRG on an account. The date range on this report is the Chart Admit Date. To qualify
-for this report the chart must be an Inpatient Chart with Stage of Submitted,Discharge Date and Final
-DRG.
-
-> [!note] InpatientDateTime field
-> This report supports a new optional "InpatientDateTime" field if present on the account. The
-> "InpatientDateTime" field is the date/time in which an account became an inpatient account – common
-> for sites that change outpatient accounts to inpatient accounts. If this field is not present, the
-> AdmitDateTime is used.
-
-![Report](image-410.jpg)
+![Length of Stay Variance Report](LOSVariance.png)
 
 ### Outstanding Queries Report
 
@@ -576,7 +521,7 @@ summary that shows the Top Physicians with outstanding queries and the length of
 query has been open. Date Range: Query Create Date (The date that the query was initially created and
 sent).
 
-![Report](image-411.jpg)
+![Outstanding Queries Report](OutstandingQueries.png)
 
 ### Pending Reasons Report
 
@@ -585,7 +530,7 @@ is, and which physician was assigned to the pending reason. Not all pending reas
 physician assigned as some pending reasons are not a result of chart deficiency. The date range on this
 report is the Chart Admit Date.
 
-![Report](image-412.jpg)
+![Pending Reasons Report](PendReasonsRrpt.png)
 
 ### Query Impact Report
 
@@ -606,7 +551,7 @@ date that the query was initially created and sent)
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
 > report – Query Impact Report.
 
-![Report](image-413.jpg)
+![Query Impact Report](QImpact.png)
 
 ### Query Impact by Discharge Date Report
 
@@ -627,7 +572,7 @@ this report is the Chart Discharged Date.
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
 > report – Query Impact Report.
 
-![Report](image-414.jpg)
+![Query Impact by Discharge Date Report](QImpactbyDisDate.png)
 
 ### Query Overview Report
 
@@ -635,7 +580,7 @@ This report shows pre-discharge physicians query response or non-response and th
 date range on this report is the Query Create Date (The date that the query was initially created and
 sent).
 
-![Report](image-415.jpg)
+![Query Overview Report](QueryOverview.png)
 
 ### Query Stats Report
 
@@ -643,7 +588,7 @@ This report shows the physicians within the date range that were queried. The re
 many charts the physician was queried for and how many queries these charts resulted in. The date
 range on this report is the Query Create Date (The date that the query was initially created and sent.)
 
-![Report](image-416.jpg)
+![Query Stats Report](QueryStats.png)
 
 ### Present on Admission Tracking Report
 

@@ -3,11 +3,10 @@ title = 'Validation Management'
 weight = 100
 +++
 
-Validation management is a rule editor that is permission based and can be found under the Tools menu.
+The "Validation Management" tool is a rules editor that is permission based and can be found under the Tools menu.
 
-Validation rules allow the admin staff to create rules that show up on the code summary page to prevent
-users from submitting a patient chart or provide a warning to simply warn the user that something may
-need to be completed instead of preventing submission.
+Validation Management allows the admin staff to create rules that show up on the code summary page prior to submitting an account. 
+These rules can be made to either prevent an account from being submited until certain requirements are met, or issue a warning to alert users about incomplete items while still allowing the user to submit an account. 
 
 From the front end of the software, you can create simple rules such as:
 
@@ -15,39 +14,35 @@ From the front end of the software, you can create simple rules such as:
 - If the coder codes a newborn code, the newborn weight must exist.
 - If a certain charge is on a chart and a diagnosis code is not present.
 
-There are countless ways to use this validation rules editor to notify your end-user, whether they are
-coder or a CDI specialist
+The Validation Managment tool offers countless ways to notify end-users of specific rules regardless of their user role.
 
 ## Creating a Validation Rule
 
-You can create new rules by entering in a rule name in the top right-hand corner of the page and clicking
-on +add rule.
+You can create new rules by first entering a rule name in the top right-hand corner of the page and then clicking
+on "+Add rule".
 
-![](image-495.jpg)
+![](2024-12-09_NewRule.png)
 
-This adds the new validation rule and a number to the rule. This way when you are trying to
-troubleshoot a rule that may not be doing quite what you were looking for, it will tell you what rule
-number it happens to be to make it easier to target the rule in the validation rules editor.
+When the new rule is added, a number will be associated with the rule. The number will be used a reference when users troubleshoot a rule that may not be doing what it was intended to do. When a rule is triggered in Code Summary, the rule number will display at the end of the rule. Knowing this number will help the user find the rule quickly in Validation Management to make any updates to it.
 
-![](image-491.jpg)
+![](2024-12-09_RuleNumber.png)
 
 ### Level Type
 
-Once you have named a validation rule, you can then open the rule by clicking on the +. Once you have
-done that, you now must define what you want the validation rule
-to do. Start by selecting the level of the rule on the left-hand side.
+Once a validation rule has been named and added, you can then build or later edit the rule by clicking on the "+" icon to exapnd the rule. Here, you will begin to define and add criteria for what you want the validation rule to do.
+Start by selecting the rule's "Level" from the dropdown menu on the left-hand side of the screen. 
 
-![](image-497.jpg)
+![](2024-12-09_RuleLevel.png)
 
-The levels are defined as:
+The Levels are defined as:
 
 - **Error** - This validation rule must be resolved before the
-user can submit a chart. Typically, this type of rule only
-applies to a coder because CDI specialists do not typically submit charts. This validation rule
+user can submit a chart. This validation rule typically only
+applies to Coders because CDI specialists do not generally submit charts. This validation rule
 appears in a red color, indicating there is a hard stop.
-- **Critical** - This validation rule is the same as an error, with an additional warning. If, upon clicking
+- **Critical** - This validation rule is the same as an error, with an additional warning. If upon clicking
 save, the end-user still has a critical error, they will get a pop-up box that indicates they still
-have validation rules outstanding and asking if they wish to continue. This validation rule
+have validation rules outstanding and will be asked if they wish to continue. This validation rule
 appears in a red color, indicating there is a hard stop.
 - **Warning** - This validation rule is a soft stop used to notify a user that there may be things that
 they need to resolve. It does not prevent the user from submitting the chart. This validation
@@ -62,10 +57,9 @@ red to show it is not active.
 
 Once you have selected the level of the validation rule you want to create, you must define what the
 criteria is starting with the verbiage you want to display to the end user. For example, you can display an
-error if a chart does not have a discharge disposition, so it doesn’t get submitted to billing without one.
+error if a chart does not have a discharge disposition so it doesn’t get submitted to billing without one.
 Since we would want to warn the coder and not the CDI specialist, we would add another criterion input
-so user role is not equal to CDI specialist. First, type in the display name, which is displayed for the user
-on the code summary so keep it simple but provide how they fix the error.
+so user role is not equal to CDI specialist. First, type in the display name; this will be waht the user will see on the code summary. Keep the informaiton concise, but also provide how they can fix the error.
 
 Example: **D/C Disposition must be present** - The end user would know they have to add that to
 continue.
