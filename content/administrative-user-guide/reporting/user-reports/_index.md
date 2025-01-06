@@ -618,7 +618,7 @@ query was initially created and sent).
 
 ![Query Template Volume Overview Report](QueryTempVol.png)
 
-### Query Template Volume by Discharge Date Report
+#### Query Template Volume by Discharge Date Report
 
 This report shows the volume of queries per template for discharged accounts, sorted by whom the query was sent with the date sent and then responded to then when it was closed as agreed, disagreed or no opinion.
 
@@ -627,7 +627,7 @@ This report shows the volume of queries per template for discharged accounts, so
 > [!note] 
 > This report is a clone of the existing ["Query Template Volume Overview"](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-template-volume-overview-report) report but the date range of the report is by Discharge Date instead of Query Creation Date. This means that only queries of discharged accounts will appear in this report.  
 
-### Recent Suggested/Working DRG Report
+#### Recent Suggested/Working DRG Report
 
 This report shows all unsubmitted inpatient accounts without a discharge date that have a calculated
 Suggested or Working DRG, grouped by calculation date. Only the most recent Suggested or Working
@@ -644,7 +644,7 @@ accounts. In addition to displaying the GMLOS, it also displays the LOS and Vari
 >[!caution] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-![Report](image-420.jpg)
+![Recent Suggested/Working DRG Report](SuggestedWrkingHist.png)
 
 ### Recurring Account Productivity Report
 
