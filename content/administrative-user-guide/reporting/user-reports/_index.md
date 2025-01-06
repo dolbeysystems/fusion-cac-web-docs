@@ -434,7 +434,7 @@ conjunction with an audit.
 
 ![Engine Outcome Detail per Coder](EngineOutcomeDeatilCoder.png)
 
-### Engine Outcome Detail per CDI
+#### Engine Outcome Detail per CDI
 
 This report shows the total codes that the engine is suggesting, and what CDI is using vs. what CDI is
 manually adding compared to the coder's Final Codes. This report should tell the level of manual effort
@@ -448,7 +448,7 @@ used in conjunction with an audit.
 
 ![Engine Outcome Detail per CDI](EngineOutcomeDeatilCDI.png)
 
-### Engine Results by Documents Report
+#### Engine Results by Documents Report
 
 This report shows the default engine accuracy per document at the time of submission. Also, shows the
 first and last times the document was received on the submitted accounts. The report is sorted from
@@ -457,14 +457,14 @@ Date (FirstSubmitter).
 
 ![Engine Results by Documents Report](EngineResultsByDoc.png)
 
-### Financial Class Outcome by Discharge Report
+#### Financial Class Outcome by Discharge Report
 
 This report shows the breakdown per financial class per month. It will breakdown the total patient
 charts, average length of stay total charts and case mix index.
 
 ![Financial Class Outcome by Discharge Report](FinancialClassOutcome.png)
 
-### Final Code Count per Account Report
+#### Final Code Count per Account Report
 
 This report shows the submitted chart high level outcomes for diagnosis and procedure codes per
 account. The Total Dx column displays the total of unique diagnosis codes on the account (visit, admit,
@@ -476,7 +476,7 @@ Chart Last Submitted Date (Must have a status of Submitted.)
 
 ![Final Code Count per Account Report](FinalCodeCount.png)
 
-### Global Productivity Report
+#### Global Productivity Report
 
 This report shows coder productivity by patient type per day, the number of 'Viewed', 'Saved', and
 'Submitted' actions, and the total time logged working on that patient type. (Filtering: Max of 31 days
@@ -485,7 +485,7 @@ Saved, Viewed actions.)
 
 ![Global Productivity Report](GlobalProductivity.png)
 
-### HAC Report
+#### HAC Report
 
 This report is to provide a listing of all patients admitted within the date range of this report that
 contains hospital acquired conditions. This report only looks at final coded data and does not reflect
@@ -493,7 +493,7 @@ working data. The date range on this report is the Chart Admit Date.
 
 ![HAC Report](HAC.png)
 
-### Incentive Productiviy Report
+#### Incentive Productiviy Report
 
 This report applies an incentive multiplier to the distinct number of accounts that were first submitted
 each week, per user, to calculate incentive points.
@@ -505,7 +505,7 @@ each week, per user, to calculate incentive points.
 
 ![Incentive Productiviy Report](IncentiveProductivity.png)
 
-### Length of Stay Variance Report
+#### Length of Stay Variance Report
 
 This report shows an account level view by admit date of the difference between the ALOS and the
 GMLOS based on the most current Working DRG. The variance is the difference between ALOS and the
@@ -514,7 +514,7 @@ and SOI/ROM. The date range on this report is the Chart Admit Date (Must be an I
 
 ![Length of Stay Variance Report](LOSVariance.png)
 
-### Outstanding Queries Report
+#### Outstanding Queries Report
 
 This report displays a list of the physicians that have open queries. At the top of the report there is a
 summary that shows the Top Physicians with outstanding queries and the length of time their oldest
@@ -523,7 +523,7 @@ sent).
 
 ![Outstanding Queries Report](OutstandingQueries.png)
 
-### Pending Reasons Report
+#### Pending Reasons Report
 
 This report shows which charts are pending, who placed the pending reason, what the pending reason
 is, and which physician was assigned to the pending reason. Not all pending reasons will have a
@@ -532,7 +532,7 @@ report is the Chart Admit Date.
 
 ![Pending Reasons Report](PendReasonsRrpt.png)
 
-### Query Impact Report
+#### Query Impact Report
 
 This report includes all charts that received queries and resulted in at least one of the following:
 
@@ -553,7 +553,7 @@ date that the query was initially created and sent)
 
 ![Query Impact Report](QImpact.png)
 
-### Query Impact by Discharge Date Report
+#### Query Impact by Discharge Date Report
 
 This report includes all charts that received queries and resulted in at least one of the following:
 
@@ -566,7 +566,7 @@ date and is grouped by query template name, then by Author, then by account #. T
 show if there was a shift in DRG and what the user listed as the reason for the shift. The date range on
 this report is the Chart Discharged Date.
 
-> [!note] Queries with same DRG & No Shift Reasons Not Included
+> [!note] Queries With the Same DRG & No Shift Reasons Not Included
 > By design, the Query Impact Report only reports queries that had an impact by either having
 > different before-and-after DRGs or by having shift reasons. The queries not displayed in the Query
 > Impact Report had identical DRGs and no shift reasons, so they were excluded. Hence, the name of the
@@ -574,7 +574,7 @@ this report is the Chart Discharged Date.
 
 ![Query Impact by Discharge Date Report](QImpactbyDisDate.png)
 
-### Query Overview Report
+#### Query Overview Report
 
 This report shows pre-discharge physicians query response or non-response and the template used. The
 date range on this report is the Query Create Date (The date that the query was initially created and
@@ -582,7 +582,7 @@ sent).
 
 ![Query Overview Report](QueryOverview.png)
 
-### Query Stats Report
+#### Query Stats Report
 
 This report shows the physicians within the date range that were queried. The report will show how
 many charts the physician was queried for and how many queries these charts resulted in. The date
@@ -590,7 +590,7 @@ range on this report is the Query Create Date (The date that the query was initi
 
 ![Query Stats Report](QueryStats.png)
 
-### Present on Admission Tracking Report
+#### Present on Admission Tracking Report
 
 This report is based on the date the patient chart was discharged and its final diagnosis codes. POA
 Values will be listed, along with HAC determinations if they are present. The totals for the columns Visit
@@ -598,25 +598,34 @@ Count, Total LOS Days and Average LOS, (if available; Deaths, Autopsy Required) 
 the Totals for the Present on Admit and HAC columns are figured per code. The date range on this
 report is the Chart Discharged Date.
 
-![Report](image-417.jpg)
+![Present on Admission Tracking Report](POATracking.png)
 
-### Query TAT by Author Report
+#### Query TAT by Author Report
 
 This report shows all of the queries that have been responded, with who sent the queries and the turn
 around time, which is based on the date/time it was sent to the physician until the date/time that the
 query was responded. The date range on this report is the Query Create Date (The date that the query
 was initially created and sent).
 
-![Report](image-418.jpg)
+![Query TAT by Author Report](QueryTAT.png)
 
-### Query Template Volume Overview Report
+#### Query Template Volume Overview Report
 
 This report shows the volume of queries per template sorted by whom the query was sent with the date
 sent and then responded to then when it was closed as agreed, disagreed or no opinion per account
 along with the discharge date. The date range on this report is the Query Create Date (The date that the
 query was initially created and sent).
 
-![Report](image-419.jpg)
+![Query Template Volume Overview Report](QueryTempVol.png)
+
+### Query Template Volume by Discharge Date Report
+
+This report shows the volume of queries per template for discharged accounts, sorted by whom the query was sent with the date sent and then responded to then when it was closed as agreed, disagreed or no opinion.
+
+![Query Template Volume by Discharge Date Report](QueryTempVolByDC.png)
+
+> [!note] 
+> This report is a clone of the existing ["Query Template Volume Overview"](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-template-volume-overview-report) report but the date range of the report is by Discharge Date instead of Query Creation Date. This means that only queries of discharged accounts will appear in this report.  
 
 ### Recent Suggested/Working DRG Report
 
