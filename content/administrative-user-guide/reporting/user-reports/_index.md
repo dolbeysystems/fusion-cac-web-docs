@@ -636,17 +636,14 @@ the DRG was calculated automatically from the Suggested DRG module. Sites that d
 Suggested DRG module can still use this report to get the most recent Working DRGs for all Inhouse
 accounts. In addition to displaying the GMLOS, it also displays the LOS and Variance.
 
-> [!note] Date Range Not Used
-> The date range is irrelevant and will report on all inpatient accounts with no discharge date that
-> have either a suggested DRG (calculated by the Suggested DRG module) or a working DRG (calculated by
-> a CDI Specialist).
+The date range is irrelevant and will report on all inpatient accounts with no discharge date that have either a suggested DRG (calculated by the Suggested DRG module) or a working DRG (calculated by a CDI Specialist).
+
+![Recent Suggested/Working DRG Report](SuggestedWrkingHist.png)
 
 >[!caution] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-![Recent Suggested/Working DRG Report](SuggestedWrkingHist.png)
-
-### Recurring Account Productivity Report
+#### Recurring Account Productivity Report
 
 This report tracks daily productivity for recurring accounts. It uses the effective date to track which
 occurrence of the account was coded. An account can repeat on the report if the chart has been coded
@@ -656,54 +653,42 @@ Saved, Viewed actions
 
 ![Report](image-421.jpg)
 
-### Submitted by Coder Report
+#### Submitted by Coder Report
 
 This report shows the number of accounts submitted - grouped by facility, category, and submitter -
 over the account discharged date range. The number of accounts submitted per coder is compared to
 the total number of accounts per facility and category to calculate a submitted rate. Total discharges are
 only displayed per facility and category. The date range on this report is the Chart Discharged Date
 
-![Report](image-422.jpg)
+![Submitted by Coder Report](SubmittedByCoder.png)
 
-### Submitted by Discharge Date Report
+#### Submitted by Discharge Date Report
 
 This report shows the number of accounts discharged, submitted, and percent of submitted - grouped
 by facility, discharge date, and patient type over the date range. The date range on this report is the
 Chart Discharged Date.
 
-![Report](image-423.jpg)
+![Submitted by Discharge Date Report](SubmittedByDCDate.png)
 
-### Submitted Secondary Diagnosis Total
+#### Submitted Secondary Diagnosis Total
 
 This report is based on the first submit of an account. It shows the total number of secondary diagnoses
 codes per account and whether the end user manually added the code(s), the system suggested them,
 or the user added AND the engine suggested the code(s). In addition, the total codes still unassigned
 upon submit will be shown.
 
-![Report](image-424.jpg)
+![Submitted Secondary Diagnosis Total](SubSecDxTotal.png)
 
-### Suggested DRG Report
-
-This report will display account, DRG, and code information on accounts that have a calculated DRG. If
-an account# is provided, all other filters will be inactive. (Filtering: Maximum of 7 days selected). The
-date range on this report is the Chart Suggested History Calculated Date/Time (or - can run for a specific,
-single account number).
-
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
-![Report](image-425.jpg)
-
-### Top 10 Coded Medical vs. Surgical DRG Report
+#### Top 10 Coded Medical vs. Surgical DRG Report
 
 This report displays the Top 10 Medical vs. Surgical DRGs for submitted accounts within the defined
 discharge date. Medical DRGs and Surgical DRGs are defined by the DRG type that is returned from the
 TruCode or 3M CRS encoder. The date range on this report is the Chart Discharged Date (Must be
 Submitted and have a Final DRG).
 
-![Report](image-426.jpg)
+![Top 10 Coded Medical vs. Surgical DRG Report](CodedMedVsSurgDRG.png)
 
-### User Audit Trail Report
+#### User Audit Trail Report
 
 This report shows user activities within the selected date range. Not selecting a User will result in only
 system events being displayed. (Filtering: Max of 1 user selected; max of 1 day selected). The date range
@@ -712,7 +697,7 @@ on this report is the Date & Time of the action of the activity.
 >[!caution] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-### User Detail Report
+#### User Detail Report
 
 This report shows the detail of the accounts that are coded including re-submits, the codes
 Added/Deleted by the coder, number of documents, and Total Charges amounts — grouped by coder
@@ -720,21 +705,21 @@ over the date range. (distinct accounts) Date Range is the date the account was 
 start date to the ending of end date. (Filtering: Minimum of 1 user selected; max of 7 days selected). The
 date range on this report is the ChangeHistory Audit Date (Submitted actions).
 
-![Report](image-427.jpg)
+![User Detail Report](UserDetail.png)
 
-### User Session Log Report
+#### User Session Log Report
 
 This report shows the users log showing the Checkout time (when user went into the account), Checkin
 time ('Saved', 'Submitted', or cancelled activity in the account), and total time in the account per each
 account session. (Filtering: Minimum of 1 user selected; max of 7 days selected). The date range on this
 report is the ChangeHistory Audit Date (Check Out & Check In of the Account Dates).
 
+![User Session Log Report](UserSesLog.png)
+
 >[!caution] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-![Report](image-428.jpg)
-
-### Weekly Coder Activity Report
+#### Weekly Coder Activity Report
 
 This report shows the distinct number of accounts that were 'Viewed', 'Saved', 'Submitted', and
 'Resubmitted', then the total number of Queries created, the total time updating, time viewing
@@ -743,9 +728,9 @@ week range. The week range contains the date of the activity, beginning of start
 (Filtering: Minimum of 1 user selected). The date range on this report is the Change History Audit Date
 (Viewed, Saved, Submitted, Resubmitted actions).
 
-![Report](image-429.jpg)
+![Weekly Coder Activity Report](WeeklyCoderAct.png)
 
-### CDI Query Detail Report
+#### CDI Query Detail Report
 
 This report provides details of physician queries created by CDI Specialists on accounts that have since
 been discharged. This report details how the account evolved from a Baseline DRG to a Final DRG.
@@ -753,20 +738,20 @@ Any non-cancelled physician query created by a CDI Specialist on an inpatient, n
 should appear as a line item on this report. The date range on this report is the Chart Discharged Date.
 To qualify for this report the chart must be an inpatient patient type.
 
+![CDI Query Detail Report](CDIQDet.png)
+
 > [!caution] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
-![Report](image-430.jpg)
-
-### Consulting Provider Report
+#### Consulting Provider Report
 
 This report provides a list of all consulting provider(s) that were added to each account. The date range
 on this report is the Chart Discharged Date. To qualify for this report the chart must be Submitted and
 have at least one Consulting Provider.
 
-![Report](image-431.jpg)
+![Consulting Provider Report](image-431.jpg)
 
-### Engine Outcome per Coder Report
+#### Engine Outcome per Coder Report
 
 This report should be used to show if the user is using code suggestions or manually adding codes. It will
 show total assigned codes broken down by code set along with how many codes were suggested by the
@@ -781,7 +766,7 @@ are not counted in this report and should not be since this report is about engi
 range on this report is the Chart Submitted Date. To qualify for this, report the chart must be Submitted
 with assigned codes.
 
-![Report](image-432.jpg)
+![Engine Outcome per Coder Report](OutcomeDetailCoder.png)
 
 ### Payor Volumes Report
 
