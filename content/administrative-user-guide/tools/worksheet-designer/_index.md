@@ -21,7 +21,7 @@ To add a workheet, simply click on the {{%button%}}+Add{{%/button%}} button in t
 
 ![Add New Worksheet](AddWorksheet.png)
 
-A blank template will appear on screen. The first step is to enter a unique a document name. Each worksheet must have a unique name for reporting purposes. A document name must exist before the template can be saved. 
+A blank template will appear on screen. The first step is to enter a unique a document name. Each worksheet must have a unique name for reporting purposes. **A document name must exist *before* the template can be saved.**
 
 ![Blank Template](BlankTemplate.png)
 
@@ -32,92 +32,84 @@ Text copied or typed directly into the worksheet will be read-only for the end u
 
 ![Static Text](StaticText.png)
 
+### Adding Fields
 
-However, you can
-create fields that they can enter information into the form by clicking
-on Add Field will present an updated dialog that includes a new
-"Account Field" type.
+Fusion CAC offers several types of fields that can be added to worksheet templates. These fields all end users to enter information into the worksheet. 
 
-![](image-550.jpg)
+Add a new field by clicking {{%button%}}+Add Field{{%/button%}} in the template tool menu.
 
-In this dialog, the field name should be unique, so you can do reporting.
-You can also make fields required by checking the box or not if it’s
-optional. After clicking OK, another dialog will appear to
-select the field to display. After selecting a field, a box will display in Form Designer as a
-placeholder for the field that you selected. Chose the type of field that makes sense
-based on the form.
+![Add Field](AddField.png)
 
-![](image-551.jpg)
+![Add Field Dialogue](AddFieldDialogue.png)
 
-In the Physician Query Dialog or in a manually added worksheet within an account, the
-placeholder will be replaced with bolded text representing the field's actual value
+#### Field Type
 
-![](image-548.jpg)
+![Field Type](FieldType.png)
 
+###### Single Input
 
-## Creating Dynamic Sections
+![Single Input Field](SingleInput.png)
 
-What is a Dynamic Section? This allows users to create a template for the user creating the query to
-customize the query by removing sections as needed from the template or to
-rearrange the order of information.
+A single input field allows the end user to free type text. This field is best used for entering a concise amount of information, such as a name or short series of numbers. The box will grow horizontally as the user types to fit the data entered.
 
-![](image-554.jpg)
+###### Multiple-Line Text
 
-The Field Name will be displayed in the template above its section. Text and
-fields can be inserted into a section; sections cannot be inserted in other sections.
-When the template is added to a query, each section will now show an up and
-down arrow for movement, along with an X to delete that section from the query.
+![Multiple-Line Text](MultiLineText.png)
 
-Once sections are created, they will look like the below within form designer:
+A multiple-line text field allows the end user to free type text. This field is often used for entering a large amount of information, such as taking notes or providing detailed comments. The box will grow vertically as the user types to fit the data entered. 
 
-![](image-555.jpg)
+###### Checkbox
 
-Once sections are created, they will look like this when a user created a query within an account
+![Worksheet Checkbox](Checkbox.png)
 
-![](image-556.jpg)
+A checkbox allows the end user to indicate certain items are applicable. This field has been used to show that the worksheet is complete or as a way for users to select certain action items. 
 
-A user can move sections up or down, or remove sections. If you remove a section you will be presented
-with an undo button to place it back into the query.
+###### Date/Datetime
 
-## Creating Internal Notes
+![Date](Date.png) ![Datetime](Datetime.png)
 
-Internal only notes can now be added to Physician Query templates from
-the form designer. On a template, clicking the Insert dropdown will now
-show a new option of Add Internal Note. The Internal note is only
-displayed for the user filling out the query and is not set to the provider
-receiving the query.
+These fields allow the end user to indicate the date and time of a response, test, or other item being tracked. 
 
-![](image-560.jpg)
+###### Dropdown
 
-Selecting this option will add a highlighted free text line to the
-document.
+###### Account Field
 
-![](image-557.jpg)
+#### Field Name
 
-When adding a physician query the user will see the highlighted section in the query when that template
-is selected.
+![Unique Field Name](FieldName.png)
 
-![](image-558.jpg)
+Each field should have a unique name for reporting purposes. 
 
-After sending the query, this note will no longer be seen unless the user has the privilege of ‘Edit Open
-Queries to resend’ in Role Management. An Edit checkbox will show on the date line, and checking it
-will show the query with the internal note.
+Field names can repeat across worksheets, but **each field on a worksheet must be unique.** If a field name is repeated on a worksheet, whatever is entered into one field will be automatically duplicated into the other fields with the same name on that worksheet. 
 
-![](image-559.jpg)
+#### Editable
 
-In user reports, the following
-reports will display the "Query For" field in the same field as the "Query Template" column separated
-with a colon:
+![Editable](Editable.png)
 
-- Outstanding Queries
-- Query Impact by Discharge Date
-- Query Impact Report
-- Query TAT by Author Report
-- Query Template Volume Overview
+Individual fields can be locked down per user role. This way Auditors, CDI Specialists, and Coders can add and view a shared worksheet to a chart, but only users with the specified role can edit certain fields. All users will be able to see the information in that field, but only the specified user role can edit the field. 
 
-Form Designer will create a history for changes made to templates in Form Designer. Once a change is
-made on a form and saved, a Show History button will show in the top right of the worksheet. Clicking
+#### Make Required
+
+![Make Field Required](MakeRequired.png)
+
+Fields can be made required by checking the box. Leaving the box unchecked means the field is optional and the worksheet can be completed even if that field is left blank. 
+
+When a worksheet is added to a chart, required fields will have a light red background to indicate action must be taken. Addiontally, the user will be presented with a red toast message if they try to save the chart without completing all required fields. The toast message will include the fields that need to be completed. 
+
+![Required Field Red Background](RedRequiredField.png)
+
+Clicking OK, will add the selected field to the template with the specified settings. A box will then display in Worksheet Designer as a
+placeholder for the selected field with the field name. The fields are not interactive from Worksheet Designer. Once a worksheet has been added to a chart, the field name will be replaced with instructions for the end user. 
+
+![Fields From the Front End](FrontEndFields.png)
+
+## Show History
+
+Worksheet Designer will create a history for changes made to templates in Form Designer. Once a change is
+made on a form and saved, {{%button%}}Show History{{%/button%}} will appear in the top right of the worksheet. Clicking
 on it will bring up a notes box, just like in Workflow Management.
 
-![](image-561.jpg)
+![Show History Button](ShowHistory.png)
+
+![Show History Changes Dialogue](ShowHistChanges.png)
 

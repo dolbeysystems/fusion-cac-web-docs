@@ -31,3 +31,69 @@ will be presented with a box to add in what the query was for, it should be some
 that follows the normal template names so the reporting is still available.
 
 ![](image-553.jpg)
+
+## Creating Dynamic Sections
+
+What is a Dynamic Section? This allows users to create a template for the user creating the query to
+customize the query by removing sections as needed from the template or to
+rearrange the order of information.
+
+![](image-554.jpg)
+
+The Field Name will be displayed in the template above its section. Text and
+fields can be inserted into a section; sections cannot be inserted in other sections.
+When the template is added to a query, each section will now show an up and
+down arrow for movement, along with an X to delete that section from the query.
+
+Once sections are created, they will look like the below within form designer:
+
+![](image-555.jpg)
+
+Once sections are created, they will look like this when a user created a query within an account
+
+![](image-556.jpg)
+
+A user can move sections up or down, or remove sections. If you remove a section you will be presented
+with an undo button to place it back into the query.
+
+## Creating Internal Notes
+
+Internal only notes can now be added to Physician Query templates from
+the form designer. On a template, clicking the Insert dropdown will now
+show a new option of Add Internal Note. The Internal note is only
+displayed for the user filling out the query and is not set to the provider
+receiving the query.
+
+![](image-560.jpg)
+
+Selecting this option will add a highlighted free text line to the
+document.
+
+![](image-557.jpg)
+
+When adding a physician query the user will see the highlighted section in the query when that template
+is selected.
+
+![](image-558.jpg)
+
+After sending the query, this note will no longer be seen unless the user has the privilege of ‘Edit Open
+Queries to resend’ in Role Management. An Edit checkbox will show on the date line, and checking it
+will show the query with the internal note.
+
+![](image-559.jpg)
+
+In user reports, the following
+reports will display the "Query For" field in the same field as the "Query Template" column separated
+with a colon:
+
+- Outstanding Queries
+- Query Impact by Discharge Date
+- Query Impact Report
+- Query TAT by Author Report
+- Query Template Volume Overview
+
+Form Designer will create a history for changes made to templates in Form Designer. Once a change is
+made on a form and saved, a Show History button will show in the top right of the worksheet. Clicking
+on it will bring up a notes box, just like in Workflow Management.
+
+![](image-561.jpg)
