@@ -91,29 +91,21 @@ Account fields will automatically populate information from the account, if it h
 
 ###### Sections
 
-What is a Dynamic Section? This allows users to create a template for the user creating the query to
-customize the query by removing sections as needed from the template or to
-rearrange the order of information.
+![Dynamic Query Sections](Sections.png)
 
-![](image-554.jpg)
+Sections allows end users to customize the query by removing sections as needed from the template or to rearrange the order of information.
 
-The Field Name will be displayed in the template above its section. Text and
-fields can be inserted into a section; sections cannot be inserted in other sections.
-When the template is added to a query, each section will now show an up and
-down arrow for movement, along with an X to delete that section from the query.
+Static text and fields can be inserted into a section, however **sections cannot be inserted in other sections**.
 
-Once sections are created, they will look like the below within form designer:
+When the query is added to an account, each section will show have arrows so the end user can re-order as needed. Sections will also have a X to remove that section from the query. Once a section has been removed, an undo button will become available to place it back into the query.
 
-![](image-555.jpg)
-
-Once sections are created, they will look like this when a user created a query within an account
-
-![](image-556.jpg)
-
-A user can move sections up or down, or remove sections. If you remove a section you will be presented
-with an undo button to place it back into the query.
+![Section Buttons](SectionButtons.png)
 
 ###### Physician
+
+![Physician Field](PhysicianField.png)
+
+The physician field will auto-populate the name of the physician being sent the query, if the information is available. 
 
 #### Field Name
 
@@ -140,33 +132,29 @@ placeholder for the selected field with the field name. The fields are not inter
 
 #### Creating Internal Notes
 
-Internal only notes can now be added to Physician Query templates from
-the form designer. On a template, clicking the Insert dropdown will now
-show a new option of Add Internal Note. The Internal note is only
-displayed for the user filling out the query and is not set to the provider
-receiving the query.
+![Internal Note](InternalNote.png)
 
-![](image-560.jpg)
+Internal notes can be added to query templates to provide a note for the *end user only* from the Insert menu in the template tool menu.
 
-Selecting this option will add a highlighted free text line to the
-document.
+![Insert Internal Note](InsertNote.png)
 
-![](image-557.jpg)
+These notes are only displayed for the user filling out the query and is not set to the provider receiving the query. When adding a physician query the user will see the highlighted section in the query when that template is selected.
 
-When adding a physician query the user will see the highlighted section in the query when that template
-is selected.
+![Front End Note](FrontEndNote.png)
 
-![](image-558.jpg)
+After sending the query, the internal note will no longer be seen unless the user has the privilege of "Edit Open Queries to Resend" in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/). 
 
-After sending the query, this note will no longer be seen unless the user has the privilege of ‘Edit Open
-Queries to resend’ in Role Management. An Edit checkbox will show on the date line, and checking it
-will show the query with the internal note.
+## Blank Query Template
 
-![](image-559.jpg)
+![Blank Query Template](BlankQueryTemp.png)
 
-In user reports, the following
-reports will display the "Query For" field in the same field as the "Query Template" column separated
-with a colon:
+If a Physician Query has a document name of “Blank Query Template”, then an additional **Add Input For 'Query For'** field is automatically added for the user to enter plain text when the query is added to an account. **This field cannot be removed from the Blank Query Template.** 
+
+![Query For Field](QueryFor.png)
+
+When the end users use this template, they will be presented with a box to free type the query topic.
+
+In the following reports, the Query template column will show “Blank Query Template”: followed by the value for the ”Query For” field:
 
 - Outstanding Queries
 - Query Impact by Discharge Date
@@ -174,37 +162,17 @@ with a colon:
 - Query TAT by Author Report
 - Query Template Volume Overview
 
-Form Designer will create a history for changes made to templates in Form Designer. Once a change is
-made on a form and saved, a Show History button will show in the top right of the query. Clicking
-on it will bring up a notes box, just like in Workflow Management.
+## Verbal Query Template
 
-![](image-561.jpg)
+A verbal query template can be requested through CAC Support (cacsupport@dolbey.com). Scripting logic will be added so that when a template named “VERBAL QUERY” is used, the query will not be sent outbound to the provider. 
 
-## Creating a Blank Query Template
+For accurate reporting on the topics of the query, Dolbey recommends creating a template using the exact name “VERBAL QUERY” and selecting the check box **Add Field For 'Query For'** next to the document name. 
 
-![Blank Query Template](BlankQueryTemp.png)
+![Add Field For 'Query For'](AddQueryFor.png)
 
-If a Physician Query has a document name of “Blank Query Template”, then an additional Add Query For field is automatically added for the user to enter plain text when the query is added to an account. **This field cannot be removed from the Blank Query Template.** 
+When the end users use this template to record the verbal query outcome they will be presented with a box to free type the query topic. 
 
 ![Query For Field](QueryFor.png)
-
-In applicable reports, the Query template column will show “Blank Query Template”: followed by the value for the ”Query For” field.
-
-## Verbal Query
-
-You can request with CAC Support a verbal query template that will not be sent outbound. CAC Support
-can add logic into the script so that when a template named “VERBAL QUERY” is used it will not be sent
-outbound to the provider. To ensure you can still report on the topics of the query we would
-recommend creating a template using the exact name “VERBAL QUERY” and then select the check box
-Add Field For 'Query For'
-
-![](image-552.jpg)
-
-If this box is checked, when the end users use this template to record the verbal query outcome they
-will be presented with a box to add in what the query was for, it should be something like Sepsis or CHF
-that follows the normal template names so the reporting is still available.
-
-![](image-553.jpg)
 
 ## Show History
 
