@@ -220,7 +220,7 @@ Once a query has been named and saved, the Document Name cannot be edited. This 
 9. Click Ok
 10. Enter a new document name and Save
 
-Click the red {{%button%}}X{{%/button%}} button to remove the original query so it can no longer be used. The deleted queryt will still show up on accounts it was added to prior to being deleted, but users will not be able to add it to new accounts. 
+Click the red {{%button%}}X{{%/button%}} button to remove the original query so it can no longer be used. The deleted query will still show up on accounts it was added to prior to being deleted, but users will not be able to add it to new accounts. 
 
 This method also allows for an existing queryt to easily be re-catagorized by role. 
 
