@@ -23,8 +23,8 @@ To add a workheet, simply click on the {{%button%}}+Add{{%/button%}} button in t
 
 A blank template will appear on screen. The first step is to enter a unique a document name. Each worksheet must have a unique name for reporting purposes. **A document name must exist *before* the template can be saved.** 
 
->[!note] Renaming a Worksheet
->Once a worksheet name has been saved, it cannot be edited. To rename an exisitng worksheet, please see the Source Code section below or contact the SME Team (smeteam@dolbey.com).
+>[!note] Renaming a worksheet
+>Once a worksheet name has been saved, it cannot be edited. To rename an exisitng worksheet, please see the Source Code [section below](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/#renamingmoving-a-worksheet) or contact the SME Team (smeteam@dolbey.com).
 
 ![Blank Template](BlankTemplate.png)
 
@@ -37,13 +37,11 @@ Text copied or typed directly into the worksheet will be read-only for the end u
 
 ### Adding Fields
 
-Fusion CAC offers several types of fields that can be added to worksheet templates. These fields all end users to enter information into the worksheet. 
+Fusion CAC offers several types of fields that can be added to worksheet templates. These fields allows end users to enter information into the worksheet once it has been added to an account. 
 
 Add a new field by clicking {{%button%}}+Add Field{{%/button%}} in the template tool menu.
 
 ![Add Field](AddField.png)
-
-![Add Field Dialogue](AddFieldDialogue.png)
 
 #### Field Type
 
@@ -124,8 +122,8 @@ placeholder for the selected field with the field name. The fields are not inter
 
 ## Show History
 
-Worksheet Designer will create a history for changes made to templates in Form Designer. Once a change is
-made on a form and saved, {{%button%}}Show History{{%/button%}} will appear in the top right of the worksheet. Clicking
+Worksheet Designer will create a history for changes made to templates in Worksheet Designer. Once a change is
+made on a template and saved, {{%button%}}Show History{{%/button%}} will appear in the top right of the worksheet. Clicking
 on it will bring up a notes box, just like in Workflow Management.
 
 ![Show History Button](ShowHistory.png)
