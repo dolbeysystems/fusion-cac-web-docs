@@ -21,7 +21,10 @@ To add a workheet, simply click on the {{%button%}}+Add{{%/button%}} button in t
 
 ![Add New Worksheet](AddWorksheet.png)
 
-A blank template will appear on screen. The first step is to enter a unique a document name. Each worksheet must have a unique name for reporting purposes. **A document name must exist *before* the template can be saved.**
+A blank template will appear on screen. The first step is to enter a unique a document name. Each worksheet must have a unique name for reporting purposes. **A document name must exist *before* the template can be saved.** 
+
+>[!note] Renaming a Worksheet
+>Once a worksheet name has been saved, it cannot be edited. To rename an exisitng worksheet, please see the Source Code section below or contact the SME Team (smeteam@dolbey.com).
 
 ![Blank Template](BlankTemplate.png)
 
@@ -72,7 +75,23 @@ These fields allow the end user to indicate the date and time of a response, tes
 
 ###### Dropdown
 
+![Select Item From Dropdown](Dropdown.png)
+
+Dropdown menus allow end users to select from a pre-determined list of options. 
+
+After naming and determining who can edit the field, a dialogue will open to set the options in the dropdown menu. 
+
+![Dropdown Field](DropdownField.png)
+
+Dropdown items can be edited by pulling up the template in Worksheet Designer and clicking {{%button%}}Edit Dropdown{{%/button%}} in the template tool bar. 
+
 ###### Account Field
+
+![Account Field](AccountField.png)
+
+Account fields will automatically populate information from the account, if it has been sent to Fusion CAC. Autopopulated account information will be displayed in a bolder font to differentiate it from text manually entered by an end user. 
+
+![Populated Account Field](PopulatedAccountField.png)
 
 #### Field Name
 
@@ -113,3 +132,44 @@ on it will bring up a notes box, just like in Workflow Management.
 
 ![Show History Changes Dialogue](ShowHistChanges.png)
 
+## Source Code
+
+The template source code can be found under the Tools menu within the template tool bar. The source code is the programming language that tells the application how to display the worksheet. It may be overwhelming to look through, but can be helpful in making quick edits to worksheets. 
+
+![Source Code](SourceCode.png)
+
+### Changing Field Width
+
+By default, fields will take up the full width of the template. The width can be reduced in the source code to best fit formatting needs. 
+
+In the example below, the width of the dropdown menu has been modified so that it can be on the same line as a checkbox and a multi-line text box. 
+
+![Modified Fields](ModifiedFields.png)
+
+This was done by opening the source code, finding the name of the field, and changing the width percentage. 
+
+![Modified Width](ModifiedWidth.png)
+
+### Renaming/Moving a Worksheet
+
+Once a worksheet has been named and saved, the Document Name cannot be edited. This is intentional for accurate reporting. If a worksheet needs to have a new name, the simplest way to change the name is to copy the source code into a new template and give that template the correct name. Copying the source code will bring over the whole body of the worksheet as is, so the only thing that needs to change is the document name. 
+
+1. In worksheet designer, open the template to be copied/renamed
+2. Open the template's source code
+3. Select all the text in the source code box
+   - This can be done by clicking and dragging to highlight or with the keyboard shortcut Ctrl + A
+4. Copy the source code
+   - This can be done by right-clicking in the highlighted text and choosing copy or with the keyboard shortcut Ctrl + C
+5. Click Ok to close the source code window
+6. Add a new worksheet in the desired section
+7. Open the template's source code
+8. Paste the copied source code into the box
+   - This can be done by right-clicking and choosing paste or with the keyboard shortcut Ctrl + V
+9. Click Ok
+10. Enter a new document name and Save
+
+Click the red {{%button%}}X{{%/button%}} button to remove the original worksheet so it can no longer be used. The deleted worksheet will still show up on accounts it was added to prior to being deleted, but users will not be able to add it to new accounts. 
+
+This method also allows for an existing worksheet to easily be re-catagorized by role. 
+
+If you have any questions or would like to walk through editing source code with someone, please reach out to the Dolbey SME team (smeteam@dolbey.com).
