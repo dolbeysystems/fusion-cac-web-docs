@@ -3,13 +3,10 @@ title = 'Shortcut Configuration'
 weight = 160
 +++
 
-Shortcut keys offer a more efficient and convenient way to navigate and execute commands within the software.
+Keyboard shortcuts are keys or key combinations allowing users to take certain action within the application without using their mouse. Some users find it more efficent to work without having to take their hands off the keyboard to use their mouse. 
 
-Because some hotkeys may be mapped to a different software solution you are using, we allow you to 
-configure our hotkeys. Default settings have been provided, but feel free to change them as needed.
+Many different applications use hotkeys and keys may already be mapped to different software solutions used by an organization. Dolbey allows hotkeys for Fusion CAC to be configured per organization. Default settings have been provided, but can be changed as needed by users with the role of Administrator.
 
-To record a new hotkey combination, simply press the record button on the line of the function you wish to configure.
-Enter in a button combination usually between 1-2 keys on the keyboard. For Example, ALT and F9
-might submit the chart. Since we are a browser-based application, standard browswer hotkeys should not be used.
+To record a new hotkey combination, simply press the record button on the line of the function you wish to configure and enter in a key combination (usually 1-2 keys on the keyboard). Since Fusion CAC is a browser-based application, **standard browswer hotkeys should not be used**.
 
 ![](2024-12-03_ShortcutConfig.png)
