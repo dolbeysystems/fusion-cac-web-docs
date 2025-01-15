@@ -1,13 +1,13 @@
 +++
 title = 'General User Guide'
-weight = 21
+weight = 60
 +++
 
 This section provides a general overview of application functionality.
 
 The Help Menu can be accessed by clicking on the **?** in the top right hand corner of the application.
 
-![](2024-12-03_FusionHelp.png)
+![Help Menu](FusionHelp.png)
 
 
 Here, users will find the following resources:
