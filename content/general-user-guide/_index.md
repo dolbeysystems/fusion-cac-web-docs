@@ -3,7 +3,6 @@ title = 'General User Guide'
 weight = 60
 +++
 
-This section provides a general overview of application functionality.
 
 ## Help Menu
 
@@ -24,11 +23,7 @@ Here, users will find the following resources:
 | Haugen Academy | Access to the Haugen Academy educational platfom, if licensed by the organization |
 
 
-## Keyboard Shortcuts
+### Keyboard Shortcuts
 
 Keyboard shortcuts are keys or key combinations allowing users to take certain action within the application without using their mouse.
 The keyboard short cuts can be changed by an administrator in the [Shortcut Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/shortcut-configuration/) tool. 
-
-
-
-{{% children depth=999 %}}

@@ -35,7 +35,7 @@ that goes into that number.
 
 The dashboard can be filtered by facility. Leaving the filter blank will combine all facilities and all patient types. 
 
-![Facilites Filter](FacilitiesFilter.png)
+![Facilites Filter](FacilitesFilter.png)
 
 ### Users Online
 
