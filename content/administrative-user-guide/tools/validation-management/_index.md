@@ -3,55 +3,41 @@ title = 'Validation Management'
 weight = 100
 +++
 
-The "Validation Management" tool is a rules editor that is permission based and can be found under the Tools menu.
+![Validation Management](ValidationManagement.png)
 
-Validation Management allows the admin staff to create rules that show up on the code summary page prior to submitting an account. 
-These rules can be made to either prevent an account from being submited until certain requirements are met, or issue a warning to alert users about incomplete items while still allowing the user to submit an account. 
+Validation Management allows user roles with the correct permission to create rules that show up on the code summary page prior to submitting an account. These rules can be made to either prevent an account from being submited until certain requirements are met, or issue a warning to alert users about incomplete items while still allowing the user to submit an account. 
 
-From the front end of the software, you can create simple rules such as:
+Examples of rules that can be created with this tool include:
 
-- A user must have a discharge date to submit a patient chart that is inpatient.
-- If the coder codes a newborn code, the newborn weight must exist.
-- If a certain charge is on a chart and a diagnosis code is not present.
-
-The Validation Managment tool offers countless ways to notify end-users of specific rules regardless of their user role.
+- A user must have a discharge date to submit an inpatient chart
+- The newborn weight must exist on a newborn chart
+- If a certain charge is on a chart and a diagnosis code is not present
 
 ## Creating a Validation Rule
 
-You can create new rules by first entering a rule name in the top right-hand corner of the page and then clicking
-on "+Add rule".
+Begin by entering a rule name in the top right-hand corner of the page and then clicking on {{%button%}}+Add Rule{{%/button%}}.
 
 ![](2024-12-09_NewRule.png)
 
-When the new rule is added, a number will be associated with the rule. The number will be used a reference when users troubleshoot a rule that may not be doing what it was intended to do. When a rule is triggered in Code Summary, the rule number will display at the end of the rule. Knowing this number will help the user find the rule quickly in Validation Management to make any updates to it.
+When the new rule is added, a number will be associated with the rule. The number will be used as reference when users troubleshoot a rule that may not be working as intended. When a rule is triggered in Code Summary, the rule number will display on the right end of the rule. Knowing this number will help administrators find the rule quickly in Validation Management for troubleshooting/updates.
 
 ![](2024-12-09_RuleNumber.png)
 
 ### Level Type
 
-Once a validation rule has been named and added, you can then build or later edit the rule by clicking on the "+" icon (to the left of the rule number) to exapnd the rule. Here, you will begin to define and add criteria for what you want the validation rule to do.
-Start by selecting the rule's "Level" from the dropdown menu on the left-hand side of the screen. 
+Once a validation rule has been named and added, the rule is edited by clicking on the **+** to the left of the rule number. After expanding the rule, add criteria to define what the validation rule will do.
+
+Start by selecting the **Level** from the dropdown menu on the left-hand side of the screen. 
 
 ![](2024-12-09_RuleLevel.png)
 
-The Levels are defined as:
-
-- **Error** - This validation rule must be resolved before the
-user can submit a chart. This validation rule typically only
-applies to Coders because CDI specialists do not generally submit charts. This validation rule
-appears in a red color, indicating there is a hard stop.
-- **Critical** - This validation rule is the same as an error, with an additional warning. If upon clicking
-save, the end-user still has a critical error, they will get a pop-up box that indicates they still
-have validation rules outstanding and will be asked if they wish to continue. This validation rule
-appears in a red color, indicating there is a hard stop.
-- **Warning** - This validation rule is a soft stop used to notify a user that there may be things that
-they need to resolve. It does not prevent the user from submitting the chart. This validation
-rules appears in a yellow color, indicating there is possible intervention needed.
-- **Toast Message** - This is a notification that comes from the top right-hand corner of the browser
-as a red notification that is presented for a few seconds. Toast messages do not stop the user
-from submitting or saving a chart. It is simply a notification message to alert the user.
-- **Disabled** - This will disable the validation rule and turn the rule within validation management
-red to show it is not active.
+|Level|Description|
+|-----|-----------|
+|**Error**|Must be resolved before the user can submit a chart. This validation rule typically only applies to Coders because CDI specialists do not generally submit charts. Errors have a red background, indicating there is a hard stop|
+|**Critical**|Same as an error, with an additional warning. If upon clicking save, the end-user still has a critical error, they will get a pop-up box that indicates they still have validation rules outstanding and will be asked if they wish to continue. This validation rule has a red background, indicating there is a hard stop|
+|**Warning**|A soft stop used to notify a user that there *may* be things to resolve. It does not prevent the user from submitting the chart. This validation rules has a yellow color background, indicating possible intervention is needed|
+|**Toast Message**|This is a notification that comes from the top right-hand corner of the browser as a red message presented for a few seconds Toast messages do not stop the user from submitting or saving a chart. It is simply a notification message to alert the user|
+|**Disabled**|This level will disable the validation rule and prevent it from alerting the end user. The rule will turn red within validation management to show it is not active|
 
 ### Defining the Criteria
 
