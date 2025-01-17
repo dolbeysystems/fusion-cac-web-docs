@@ -75,9 +75,9 @@ Below the E/M Level matrix configuration is a section for “Other”. The "Othe
 
 The Effective Date field specifies the date when the CDM Table and its associated new charge(s) will take effect. This feature allows updates to the CDM Table to be scheduled, ensuring that future changes are staged and ready for the Coding Team when needed.
 
-### Updating the CDM
+#### Updating the CDM
 
-##### Copy and Paste
+###### Copy and Paste
 
 Click on the green “Edit CDM Table” button to the right of the effective date.
 
@@ -92,7 +92,7 @@ extremely important because any assigned CDM code will need to be sent in the ou
 
 After the information has been correctly updated, click {{%button%}}Ok{{%/button%}} to continue.
 
-##### Manually
+###### Manually
 
 CDM codes can be updated manually by clicking {{%button%}}+Add CDM Manually{{%/button%}}.
 
@@ -112,95 +112,66 @@ Like the E/M Level matrix, these categories can be customized to best fit the fa
 
 To edit an option, click the gray date tab to open the options and make changes. If certain options are not relevant, remove items under those sections simply by clicking on the **{{< rawhtml >}}<span style="color:#FF0000">RED.X</span>{{< /rawhtml >}}**. Once emptied, the section will no longer for your users. 
 
-## Trauma Section
+#### Options: Trauma
 
-When you open the trauma section, you will have an item name. Some data will be defaulted here. Each
-of these items have a CDM attached per E/M level, including critical care. Ensure that the CDM
-underneath each of the levels corresponds to what your CDM table indicates.
+Expanding the trauma section will display several items by default. Each item has a CDM attached per E/M level, including critical care. Ensure that the CDM underneath each of the levels corresponds to what the CDM table indicates.
 
 ![](2024-12-02_Trauma.png)
 
-For your end users this will appear as a drop-down menu. For example, when the user
-selects **Pre-Hospital Notification**, they are not required to manually choose the E/M level. Based 
-on the matrix and their selection, the system will automatically populate the corresponding CDM code associated 
-with the assigned level.
+For end users, this will appear as a dropdown menu in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/add-on-modules-and-viewers/#er-em-module). Based on the matrix and their selection, the system will automatically populate the corresponding CDM code associated  with the assigned level.
 
-![](image-529.jpg)
+![Trauma Dropdown Menu](TraumaMenu.png)
 
-> [!caution]
-If your CDM changes, you will need to update this table as well.
+> [!caution] Update With CDM
+If your CDM changes, this table needs to be updated as well.
 
-## No Charge Section
+##### Options: No Charge
 
-Once you have reviewed the Trauma section you can then click on the gray date next to the "No Charge" option. The "Item" field will be the verbiage that you want to correspond to the CPT code in the CPT column to the right of the Item column. 
+Clicking on the gray date next to **No Charge** will exapnd the section. The "Item" field will be the verbiage that corresponds to the CPT code in the CPT column to the right of the Item column. 
 
-![](image-527.jpg)
+![No Charge Option](NoCharge.png)
 
-For your end users, this will appear as a drop-down menu. The user will choose the item and the outbound interface
-will contain both the CPT code and the corresponding CDM code that you have listed in this table.
+For end users, this will appear as a dropdown menu in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/add-on-modules-and-viewers/#er-em-module). The user will choose the item and the outbound interface
+will contain both the CPT code and the corresponding CDM code listed in this table.
 
-![](image-528.jpg)
+![No Charge Dropdown](NoChargeDropdown.png)
 
-## Medication Quantity
+#### Options: Medication Quantity & Medication Time/Modifier
 
-Once you have reviewed the "No Charge" option you can then click on the gray date next to the "Medication
-Quantity" option. In this section, you can list item names, for which we have provided default descriptions. These items will
-align with their corresponding CPT and CDM codes.
+Click on the gray date next to **Medication Quantity** to expand the section. Item names, for which Dolbey provides default descriptions, can be listed here. These items will align with their corresponding CPT and CDM codes.
 
-![](image-530.jpg)
+The medication sections are not about the medication, but rather the way the medication was administered. This allows organizations to charge for any injections, infusions, IV pushes, immunizations, and hydration. The medication administration quantity allows facilities to define how many
+of each occurred on a particular date, if the ER visit occurred over more than one day, and other modifiers as needed.
 
-The medication quantity as well as the medication time modifier is not about the medication, but rather the
-way the medication was administered. This allows you to charge for any injections, infusions, IV pushes,
-immunizations, and hydration. The medication administration quantity allows you to define how many
-of each occurred on a particular date, if the ER visit occurred over more than one day, and other
-modifiers which can be added as needed.
+![Medication Section](MedicationSection.png)
 
-To the end-user this looks like a table where they can pick all the medication administrations to apply
-and provide dates and modifiers. There is a section for the end users to enter a note to keep everything
-in line so that they can indicate which medications they have already charged for. This helps the end-
-user keep their thought process together, and also provides information in the event that there is an
-audit.
+Medication Time/Modifier includes the ability to indicate that multiples of an item exist on the account. If there are different drugs involved, the user can copy the individual lines and add in the durations of each medication along with the date and modifier if the modifiers, if appropriate.
 
-![](image-531.jpg)
+To the end-user, this will be a table where they can pick all the medication administrations to apply and provide dates and modifiers in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/add-on-modules-and-viewers/#er-em-module). There is also a section end users to enter a note to keep everything in line so that they can indicate which medications they have already charged for. This helps the end user stay organized while providing information in the event of an audit.
 
-## Medication Time/Modifier
+![Medication Section Viewer](MedInViewer.png)
 
-Medication administration time/modifier is very similar to the medication administration quantity. The
-only difference is that you are able to indicate that there are, for example, multiple infusions. If there
-are different drugs involved you can copy the individual lines so that you can add in the durations of
-each medication along with the date and modifier if the modifiers are different.
+Some organizations like to have Medication Quantity and Medication Time/Modifier. Other organizations choose to relocate all of the items within the Medication Quantity to the Medication Time/Modifier section so that all medications are within the same section.
 
-Some organizations like to have medication administration quantity and medication administration
-time/modifier, however, other organizations will relocate all of the items within the medication
-administration to the medication administration time/modifier section so that all medications are within
-the same section.
+![Copy Icon](CopyIcon.png)
 
-Within this section, you can list item names, for which we have provided default descriptions. These items will
-align with their corresponding CPT and CDM codes.
+#### Options: Additional Charges
 
-![](image-532.jpg)
+Addtional Charges is often a list of items commonly charged in the ER. The default list includes:
 
-To the end-user, this looks like a table where they can pick all the medication administrations to apply
-and provide date and modifiers. There is also a section for the end users to enter a note to keep
-everything in line so that they can indicate which medications that they have already charged for. This
-helps the end-user keep their thought process together, but also provides information if there is an
-audit. There is also a copy button to the left of the note that allows the end user to copy if there are
-more than one medication that needs to be considered.
+- Voiding Cystogram
+- Insert Foley (Simple)
+- Change Cystostomy (Simple)
+- Temporary External Pacing
+  
+This list can be modified to best the needs of the organization.
 
-![](image-533.jpg)
+![Add Button](+Add.png)
 
-## Additional Charges
+ ![Delete Button](RedX.png)
 
-The "Addtional Charges" option allows you to enter items that are commonly charged in the ER. By default, we have 
-identified four common items; however, you can easily add more by clicking the "+Add" button. If any of the default
-items are not applicable to your facility, you can remove them by selecting the "Delete" button next to the item.
+Items listed in this section will align with their corresponding CPT and CDM codes.
 
-Within this section, you can list item names, for which we have provided default descriptions. These items will
-align with their corresponding CPT and CDM codes.
-
-![](2024-12-02_Additional.png)
-
-To the end-user this looks like a table where they can quickly add a quantity, date, and modifier if any of
-the default charges are applicable.
+To the end-user this displays as a table where they can quickly add a quantity, date, and modifier as applicable.
 
 ![](2024-12-02_AdditionalForUser.png)
