@@ -29,7 +29,7 @@ When the new rule is added, a number will be associated with the rule. The numbe
 
 ### Level Type
 
-Once a validation rule has been named and added, you can then build or later edit the rule by clicking on the "+" icon to exapnd the rule. Here, you will begin to define and add criteria for what you want the validation rule to do.
+Once a validation rule has been named and added, you can then build or later edit the rule by clicking on the "+" icon (to the left of the rule number) to exapnd the rule. Here, you will begin to define and add criteria for what you want the validation rule to do.
 Start by selecting the rule's "Level" from the dropdown menu on the left-hand side of the screen. 
 
 ![](2024-12-09_RuleLevel.png)
@@ -50,35 +50,36 @@ rules appears in a yellow color, indicating there is possible intervention neede
 - **Toast Message** - This is a notification that comes from the top right-hand corner of the browser
 as a red notification that is presented for a few seconds. Toast messages do not stop the user
 from submitting or saving a chart. It is simply a notification message to alert the user.
-- **Disabled** – This will disable the validation rule and turn the rule within validation management
+- **Disabled** - This will disable the validation rule and turn the rule within validation management
 red to show it is not active.
 
 ### Defining the Criteria
 
 Once you have selected the level of the validation rule you want to create, you must define what the
 criteria is starting with the verbiage you want to display to the end user. For example, you can display an
-error if a chart does not have a discharge disposition so it doesn’t get submitted to billing without one.
-Since we would want to warn the coder and not the CDI specialist, we would add another criterion input
-so user role is not equal to CDI specialist. First, type in the display name; this will be waht the user will see on the code summary. Keep the informaiton concise, but also provide how they can fix the error.
+error if a chart does not have a discharge disposition so it does not get submitted to billing without one.
+Since we would want to warn the Coder and not the CDI specialist, we would add another criterion input
+so user role is not equal to CDI specialist. First, type in the display name; this will be what the user will see on the code summary. 
+Keep the informaiton concise, but also provide how they can fix the error.
 
-Example: **D/C Disposition must be present** - The end user would know they have to add that to
-continue.
+Example: **Missing Discharge Disposition** - The end user would know they have to add the disposition to continue.
 
-![](image-498.jpg)
+![](2025-01-16_ValidationRule.png)
 
 
 ### Type of Criteria
 
-Once you have created the rule name, click on **Add Criteria** to define how the system fires this rule.
-Upon clicking on **Add Criteria**, you will be presented with types of criteria.
+To add criteria to rule, as in the example above, click on **Add Criteria** to define how the system fires this rule.
 
-**Account** – Account type criteria allows you to select fields for a patient chart/account such as discharge
-date discharge disposition, admit date, procedure codes, diagnosis codes, and many others.
+![](2025-01-16_AddCriteria.png)
 
-**User** - User type criteria allows you to restrict the rule to a certain users role, such as a coder or a CDI
-user role only. Commonly, an account criterion and a user role will be used together, however account
-level criteria can be used independently from the user role. It does not, however, make sense to create a
-rule on a user role and not define any other account level criteria.
+Upon clicking on **Add Criteria**, you will be presented with differnt types of criteria.
+
+**Account** - Account type criteria allows you to select fields for a patient chart/account such as discharge
+date, discharge disposition, admit date, procedure codes, diagnosis codes, and many others.
+
+**User** - User type criteria allows you to restrict the rule to a certain users role, such as a Coder or a CDI
+user role only. Typically, account-level criteria and user roles are used together, though account-level criteria can be used independently of user roles. However, creating a rule based solely on a user role without specifying any additional account-level criteria is not advisable.
 
 ![](image-499.jpg)
 
@@ -169,7 +170,7 @@ fields the **For Each** field make sense for: charges, CPT codes, diagnosis code
 reasons, and physicians.
 
 Once you have selected a fields, you need to define the field you are looking for.
-Example: Place an error reminding the coder to add the POA status on any diagnosis code that has a U
+Example: Place an error reminding the Coder to add the POA status on any diagnosis code that has a U
 Click on **For Each**, then select diagnosis codes. Select POA from the field drop-down menu which will
 allow you to review operators. For this example, use the operator of Equals. Once you select the
 operator of Equals, then you have a field to fill in the value, which would e be “U” in this example.
