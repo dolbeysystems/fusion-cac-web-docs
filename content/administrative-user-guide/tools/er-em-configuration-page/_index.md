@@ -3,64 +3,59 @@ title = 'ER E/M Configuration Page'
 weight = 110
 +++
 
->[!Note] The organization must have ER E/M Configuration enabled to use this feature. If this is not currently enabled, please contact your account representative for more information.
+>[!Note] 
+> The organization must have [ER E/M Module](http://localhost:1313/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/add-on-modules-and-viewers/#er-em-module) enabled to use this feature. If this is not currently enabled, please contact your account representative for more information.
 
-Once the E/M Configuration has been enabled, the initial setup must be completed by the Dolbey Team. After this setup is finalized, your organization can make any desired changes directly or contact the SME Team at smeteam@dolbey.com for additional support.
+Once the E/M Configuration has been enabled, the initial setup must be completed by the Dolbey Team. After this setup is finalized, your organization can make any desired changes directly or contact the SME Team (smeteam@dolbey.com) for additional support.
 
-Below is a reference guide to assist with setting up or modifying the configuration as needed.
+![ER E/M Tool Menu](2024-11-22_EMConfig.png)
 
-The ER E/M Configuration can be found within the Tools menu. If enabled, it will be seen beneath Validation Management. 
+The configuration page allows for customization of the E/M Level Matrix and other related components. If the organization has Facility Mapping, the E/M Configuration can be copied across different facilities.
 
-![](2024-11-22_EMConfig.png)
+![ER E/m Config Page](2024-11-22_EMConfigPg.png)
 
-When you click on the ER E/M Configuration, a page will open and should appear similar to the image below.
-
-![](2024-11-22_EMConfigPg.png)
-
-The configuration page allows you to set up the E/M Level Matrix and other related components. If a user has Facility Mapping, the E/M Configuration can be copied across different facilities.
-
-When Facility Mapping is available, a new option will appear in the top-right corner of the screen, enabling you to select a facility. Once a facility is selected, the levels associated with that facility will be displayed. A Copy button will also appear at the top of the Levels section.
+When Facility Mapping is available, the facility can be selected in the top right corner. Once a facility is selected, the levels associated with that facility will be displayed. {{%button%}}Copy{{%/button%}} will also appear at the top of the Levels section to easily duplicate settings accross facilites.
 
 ![](2024-11-22_Facility.png)
 
-Clicking the Copy button opens a dialog box where you can choose a destination facility to copy the current levels to. Facilities available for copying will be listed in a dropdown menu. For example, if you are working in Dolbey South – Cincinnati, selecting the Copy button will allow you to pick another facility to replicate the levels.
+Clicking {{%button%}}Copy{{%/button%}} opens a dialog box to choose a destination facility to copy the current levels to. Facilities available for copying will be listed in a dropdown menu.
 
 ![](2024-11-22_CopyFacility.png)
 
 This option will overwrite and copy the current levels that are onscreen to the facility that is selected.
 
->[!Note] If an organization does not have Facility Mapping, and only has one facility, the copy options will be hidden.
+>[!Note] 
+>If an organization has only one facility, the copy options will be hidden.
 
-## Configuring the E/M Matrix
+## E/M Matrix
 
 The table below illustrates how the E/M Matrix will appear to end users. 
-You can customize the text displayed in this table to tailor the information shown to end users.
+Text displayed in this table can be customized to tailor the information shown to end users.
 
-![](2024-11-27_EMMatrix.png)
+![ER E/M Matrix](2024-11-27_EMMatrix.png)
 
-The E/M Level matrix features horizontal columns that display the levels across the top. Below each level are the criteria that define it,
-organized into several categories. By default, these categories include the topics listed below; however, the topics are fully configurable
-based on the specific needs of each facility. 
+The E/M Level matrix features horizontal columns that display the levels across the top. 
 
-1. Mode of Arrival
-2. Disposition
-3. Testing
-4. Medication
-5. Behavioral
-6. Procedures
-7. Other Criteria
+Below each level are the defining criteria organized into several topics, each with a list of relevant items. By default, these categories include: 
 
-Each topic under the levels includes a list of items relevant to that topic and its corresponding level. 
-The E/M Matrix configuration allows you to customize the content within each field under the respective E/M Level, 
-enabling your facility to tailor the listed items for each code to meet its specific requirements.
+- Mode of Arrival
+- Disposition
+- Testing
+- Medication
+- Behavioral
+- Procedures
+- Other Criteria
 
-To make changes to the default options, can click on of the grey numbers to open the matrix configuration.
+Topics are fully configurable based on the specific needs of each facility. 
 
-![](2024-11-27_EMChanges.png)
+The E/M Matrix configuration allows organizations to customize the content within each field under the respective E/M Level, 
+enabling facilites to tailor the listed items for each code to meet specific requirements.
 
-After opening the number, you will see each E/M Level along with its corresponding codes. Under the Level Topic section,
-you will find a "+Add" button next to each level. Clicking this button allows you to add a new criteria selection. An open
-text field will appear where you can enter your facility's criteria. 
+To make changes to the default options, click the grey numbers to open the matrix configuration.
+
+![Edit EM E/R Defaults](2024-11-27_EMChanges.png)
+
+After expanding the topic, users will see each E/M Level along with its corresponding codes. Next to each level is {{%button%}}+Add{{%/button%}}. Clicking this button allows for the addition of a new level item. 
 
 ![](2024-11-27_EMAdd.png)
 
@@ -74,36 +69,38 @@ To change or udpate the verbiage of the criteria selection, place the cursor int
 
 ![](2024-11-27_EMTextAfter.png)
 
-## Configuring Charging Options and CDM
+### Configuring Charging Options and CDM
 
-Below the E/M Level matrix configuration you will see a section for “Other”. The "Other" section allows you to add
-in charging components attached to your facility's charge master. To make changes to the default, you can click on
-the grey number to open the charge and CDM configuration.
+Below the E/M Level matrix configuration is a section for “Other”. The "Other" section allows for the addition of charging components attached to the facility's charge master. To make changes to the default, click on the grey number to open the charge and CDM configuration.
 
-The Effective Date field specifies the date when the CDM Table and its associated new charges will take effect. This feature allows you to schedule updates to the CDM Table, ensuring that future changes are staged and ready for the Coding Team when needed.
+The Effective Date field specifies the date when the CDM Table and its associated new charge(s) will take effect. This feature allows updates to the CDM Table to be scheduled, ensuring that future changes are staged and ready for the Coding Team when needed.
 
-## Updating the CDM
+### Updating the CDM
+
+##### Copy and Paste
 
 Click on the green “Edit CDM Table” button to the right of the effective date.
 
 ![](2024-12-02_Options.png)
 
-Clicking the button will open up the "Edit CDM Table" window where you can paste the CDM colmns directly from your Excel
-spreadsheet.
+CDM columns can be copy and pasted directly into the "Edit CDM Table" window from an Excel spreadsheet.
 
 ![](2024-12-02_CDMTable.png)
 
-The best practice is to paste in the column for the CDM code, then the description, and finally the CPT code. This step is
-extremely important because any assigned CDM code will need to be sent in the outbound interface;
-therefore, your CDM table needs to match whatever is going to be downstream from Dolbey.
+Best practice is to paste in the column for the CDM code, then the description, and finally the CPT code. This step is
+extremely important because any assigned CDM code will need to be sent in the outbound interface. Therefore, the CDM table in Fusion CAC needs to match whatever system is downstream
 
-After you paste in the information, click on the OK button to continue.
+After the information has been correctly updated, click {{%button%}}Ok{{%/button%}} to continue.
 
-There is also a way to add a CDM code manually. To do this, click on the "+Add CDM Manually" button. This will create a new row with free text fields to add the CDM code, the description, and the CPT code. 
+##### Manually
+
+CDM codes can be updated manually by clicking {{%button%}}+Add CDM Manually{{%/button%}}.
 
 ![](2024-12-02_AddCDM.png)
 
-Once the CDM table is populated, you can edit the categories within the "Option" section. The default options available are:
+This will create a new row with free text fields to add the CDM code, the description, and the CPT code. 
+
+Once the CDM table is populated, categories can be edited within the "Option" section. The default options are:
 
 - Trauma
 - No charges
@@ -111,9 +108,9 @@ Once the CDM table is populated, you can edit the categories within the "Option"
 - Medication time/modifier
 - Additional charges
 
-Like the E/M Level matrix, these categories can be customized to suit your facility's specifc needs.
+Like the E/M Level matrix, these categories can be customized to best fit the facility's needs.
 
-To edit an option, click the gray date tab to open the options and make changes. If certain options are not relevant to your facility, you can remove all items under those sections simply by clicking on the "Delete" button. Once emptied, the section will no longer appear for your users. 
+To edit an option, click the gray date tab to open the options and make changes. If certain options are not relevant, remove items under those sections simply by clicking on the **{{< rawhtml >}}<span style="color:#FF0000">RED.X</span>{{< /rawhtml >}}**. Once emptied, the section will no longer for your users. 
 
 ## Trauma Section
 

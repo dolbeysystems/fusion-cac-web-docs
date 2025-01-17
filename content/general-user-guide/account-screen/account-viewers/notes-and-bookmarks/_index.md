@@ -44,6 +44,6 @@ To review all bookmarks within a chart, go to Notes & Bookmarks in the Navigatio
 ![Sample Notes & Bookmarks List](NotesBookmarksList.png)
 
 
-The **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** button will delete the selected bookmark.
+The **{{< rawhtml >}}<span style="color:#FF0000">RED.X</span>{{< /rawhtml >}}** button will delete the selected bookmark.
 The **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** button is used to edit a previously added bookmark.
 The **{{< rawhtml >}}<span style="color:#008000">GREEN PAPER</span>{{< /rawhtml >}}** button will jump to the location where the bookmark was created.
