@@ -3,150 +3,51 @@ title = 'Workflow Management'
 weight = 80
 +++
 
-The workflow management editor is a tool that allows users to create, design, modify, and manage
-workflows. A workflow is a series of tasks or activities that need to be completed in a specific order to
-achieve a desired outcome.
+![Workflow Management Tool](WorkflowManagement.png)
 
-## What is the purpose of workflow?
+The workflow management editor allow administrators to create, design, modify, and manage workflow(s) within Fusion CAC.
 
-The purpose of a workflow is to systematically organize and streamline the patient chart activities for
-proper completion. Workflows are designed to improve efficiency, productivity, and collaboration
-between CDI, Coding, Quality and Auditing by defining the sequence of steps, assigning responsibilities,
-and establishing the flow of information between different individuals or departments involved in the
-process.
+The purpose of a workflow is to systematically organize and streamline the patient chart activities for proper completion. Workflows are designed to improve efficiency, productivity, and collaboration between the various user roles by defining the sequence of steps, assigning responsibilities,
+and establishing the flow of information between different individuals or departments involved in the process. They ensure that tasks are completed in a structured and efficient manner, enabling organizations to achieve their goals more effectively. 
 
-Overall, workflows play a crucial role in enhancing operational efficiency, consistency, collaboration, and
-overall effectiveness within organizations. They ensure that tasks are completed in a structured and
-efficient manner, enabling organizations to achieve their goals more effectively. In Fusion CAC each
-workflow is configured with pieces of Criteria. Criteria is what causes a workflow rule to fire, either by
-creating a field equal to, contains or does not contain. Often a workflow will contain a Criteria with
-many different filters within it to ensure we constrain the data with enough detail, so all charts do not
-get caught in one Workgroup.
+## Worklists
 
+Worklists are organized into one of the following categories:
 
-## New Workflow Editor
+|Category|Description|
+|--------|-----------|
+|[Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit)|Available for any charts needing an audit. This workflow can be used to define certain days for when charts are added to the Auditor worklist(s)|
+|[Autoclose](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#autoclose)|Process by which an ancillary patient chart can be autoclosed based upon a set of rules without coder intervention
+|CDI/Concurrent|**ONLY** valid if the patient chart does not have a discharge date and has a status of unbilled|
+|Post Discharge|**ONLY** valid if patient chart has a discharge date and has a status of unbilled|
+|QA Review|Available for any charts needing QA and/or for reconciliation workflow|
+|Custom|Allows custom categories to meet unique client specification|
 
-The new workflow management page is listed as “workflow management”. Fusion
-CAC offers two options for workflow management: the "workflow management"
-and "workflow management classic" designs. While both pages offer similar
-features, the new workflow management page includes additional functionalities
-that are not available in the classic version.
+Categories are made up of one or more worklists. Each worklist is then made up of one or more criteria groups. For example:
 
-We understand the importance of a smooth transition, so we will be maintaining
-the new workflow management system for a few releases. To accommodate your
-preferences, we have implemented a convenient option to switch between the classic view and the new
-page display. This way, you can transition gradually and comfortably, choosing the workflow
-management system that best suits your immediate needs.
+- The Post Discharge category 
+  - Contains the Inpatient worklist
+    - Which has the Ready for Coding criteria group
+      - Which is then made up of multiple criteria 
 
-To simplify the transition process further, we have imported all your existing workflows into the new
-workflow management system. This means any changes made in either of the pages will be reflected in
-the other, allowing you to become familiar with the enhanced features and maximize the benefits they
-offer. The new workflow management editor offers several enhancements, including:
+![Worklist Hierarchy](WorklistHierarchy.png)
 
-- Improved Vertical Viewing Space for Workgroups: This display offers a better vertical viewing
-space, enabling workgroups to access and manage their workflows more efficiently.
-- Side-by-Side Comparison of Workgroups: Users can compare and analyze workgroups using a
-convenient side-by-side comparison feature
-- Filtering Ability to Search Workgroups by Specific Fields: This feature allows users to filter and 
-search for workgroups based on specific fields, making it easier to find relevant information. This
-filter is “smart” no matter the operator you use if you indicate Building = Rad it will find any
-workgroup that has the building with rad regardless if its equals or in list.
-![](image-462.jpg)
-- Cleaner/Sleeker Look and Feel: We have focused on creating a cleaner and sleeker design to
-enhance the overall user experience.
-![](image-463.jpg)
+Often a worklist will contain multiple criteria groups. Each criteria group has many different filters to fully constrain the data. This ensures the appropriate number of charts are caught in each worklist.
 
-## Classic Workflow Editor
+>[!note]Terminology
+>Worklist and Workgroup are often used interchangeably when discussing the "buckets" accounts are sorted into.
 
-### Workflow Categories
+### Audit
 
-The categories are defined as:
+Audit workflow collects charts meeting the specified criteria needed to be reviewed by an auditor. The workflow can define certain days for when charts are added to the Auditor worklist(s).
 
-#### AutoClose
+Example: Select that workflow automatically adds charts to the worklist on the first day of every month and last day of the month.
 
-This is a process by which an ancillary patient chart can be auto closed based upon a set of rules without
-coder intervention. Autoclose is a process that takes somewhat “simple” outpatient visits and
-automates the coding process by submitting the chart directly to billing. You may also know this as the
-industry term autonomous coding.
+![Edit Audit Dialogue](EditAudit.png)
 
-This automation allows for the handling of a lot of the simple high volume outpatient visits with little to
-no human intervention. Many organizations are turning towards AutoClose to ensure they can capitalize
-on the low hanging fruit of these ancillary chart types while not sacrificing the staff they have.
+On the designated days every month, 5 charts (the number of charts can be changed) from every coder (First Submitter) will be automatically routed to the auditor’s worklist. 
 
-Patient charts that pass AutoClose criteria are coded and submitted to billing, while those that fail
-AutoClose are rejected and routed to a worklist for coder intervention. Charts rejected are presented to
-the coder with a failure reason.
-
-You can start AutoClosing charts right away. However, many organizations want to see how the engine
-functions before AutoClose is enabled. Autoclose has a test mode which allows you to simulate what
-would have AutoClosed had it been turned on in production. This allows users to review and determine
-if AutoClose is ready for production.
-
-No matter when you start, it is recommended to begin with specific accounts. The best early candidates
-are lab, screening mammogram, outpatient therapies (physical, occupational, or speech therapy) and
-other accounts that do not require an interpretive report.
-
-The types of accounts will depend on your organization, the type of services you offer, your payor, and
-state requirements. Common outpatient service lines to implement in addition to the early adapters
-listed above include:
-
-- Screening Mammogram
-- Sleep Lab
-- Labs
-- Chest X-rays
-- ED Left Without Being Seen
-- Canceled Accounts
-- Cardiac rehab
-- Dietary or nutritional counseling
-- Esophageal motility studies
-- Outpatient dialysis
-- Pulmonary function tests
-- Vaccine visits
-
-As you expand your AutoClose capabilities we recommend you conduct regular audits to make sure your
-system captures and codes everything correctly.
-
-With AutoClose, charts can be processed within seconds and the total turn-around time can be a little as
-a few minutes. Charts are processed 24 hours a day, 365 days a year with AutoClose. This allows you to,
-essentially, gain a coder that doesn’t have sick days or take vacations. This means that charts can be
-submitted to payors sooner which accelerates time-to-cash.
-
-The impact AutoClose can have on revenue is one of the best benefits of this feature. Many
-organizations AutoClose, on average, 10,000 or more charts per month. This equals out to about
-120,000 outpatient visits AutoClosed per year without coder intervention. That is an estimate of 2.5
-FTEs.
-
-##### CDI/Concurrent
-
-This type of workflow is ONLY valid if a patient chart does not have a discharge date and has a status of
-unbilled.
-
-##### Post Discharge
-
-This type of workflow is ONLY valid if patient chart has a discharge date and has a status of unbilled.
-
-##### QA Review
-
-This type of workflow is available for any charts you may wish to QA. This is also used for reconciliation
-workflow.
-
-##### Custom
-
-This type of workflow was designed to allow custom categories to meet unique client requirements.
-
-##### Audit
-
-This type of workflow is available for any charts you wish to audit. This workflow can be used to define
-certain days for when charts would get added to the Auditor worklist(s).
-
-
-Example: Select that workflow automatically adds charts to the worklist on the first day of every month
-and last day of the month.
-
-On these designated days every month, 5 charts (the number of charts can be changed) from every
-coder (First Submitter) will be automatically routed to the auditor’s worklist. You can define the
-auditor’s worklist by specific patient type (category) and/or service to automatically route into the
-worklist for a designated date range.
+The auditor’s worklist can be defined by specific patient type (category) and/or service to automatically route into the worklist for a designated date range.
 
 For example, on the 1st of the month auditors would want charts from the previous month from the
 15th day to the last day of the month. Those 5 charts from each coder should be from different dates
@@ -161,6 +62,41 @@ to all other workgroup categories, but Audit workflow is triggered on a schedule
 When Audit workflow is activated based upon the schedule configured within the workflow, it will grab
 accounts based on the criteria filters, group them by one or more fields, then select x number of
 accounts from each workgroup.
+
+### AutoClose
+
+This automation is the a process by which an ancillary patient chart can be closed by the application based upon a set of rules without coder intervention. Autoclose is a process that takes routine outpatient visits and automates the coding process by submitting the chart directly to billing. This concept is known in the industry as autonomous coding.
+
+Organizations often use AutoClose to ensure they can capitalize on the value of these ancillary charts while not sacrificing the staff they have.
+Common outpatient service lines that make great candidates for AutoClose include:
+
+- Screening Mammogram
+- Sleep Lab
+- Labs
+- Chest X-rays
+- ED Left Without Being Seen
+- Canceled Accounts
+- Cardiac rehab
+- Dietary or nutritional counseling
+- Esophageal motility studies
+- Outpatient dialysis
+- Pulmonary function tests
+- Vaccine visits
+
+The types of accounts eligible for AutoClose depend on the organization, the type of services offered, payor(s), and state requirements. The Dolbey SME Team is happy to answer any questions and will work with each organization to configure AutoClose. 
+
+With AutoClose, charts can be processed within seconds and the total turn-around time can be a little as a few minutes. Charts are processed 24 hours a day, 365 days a year with AutoClose. The impact AutoClose can have on revenue is one of the best benefits of this feature. Many
+organizations AutoClose, on average, **10,000 or more charts per month**. This equals out to about 120,000 outpatient visits AutoClosed per year without coder intervention. That is an estimate of 2.5FTEs.
+
+#### Completeing Charts
+
+AutoClose can be set to complete charts on day one. Many organizations, however, choose to learn more about how the engine functions before AutoClose is enabled. Autoclose has a **test mode** which allows organizations to simulate what would have AutoClosed had it been enabled in production. This allows users to review and determine if AutoClose is ready for production at their facility.  
+
+Patient charts that pass AutoClose criteria are coded and submitted to billing. Those that fail AutoClose are rejected and routed to a worklist for coder intervention. Rejected are presented to the coder with a failure reason.
+
+As an organization expands their AutoClose capabilities, Dolbey recommends conducting regular audits to ensure the system captures and codes everything correctly.
+
+
 
 ### Workflow Management
 
