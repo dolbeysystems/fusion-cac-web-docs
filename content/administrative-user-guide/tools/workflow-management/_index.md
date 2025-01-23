@@ -42,7 +42,7 @@ It is possible for an account to be in more than one worklist at a time, dependi
 Often a worklist will contain multiple criteria groups. Each criteria group has many different filters to fully constrain the data. This ensures the appropriate number of charts are caught in each worklist.
 
 >[!note]Terminology
->Worklist and Workgroup are often used interchangeably when discussing the "buckets" accounts are sorted into.
+>Worklist and Workgroup are often used interchangeably when discussing sorting accounts into "buckets".
 
 ### Audit
 
@@ -71,6 +71,28 @@ percentage, or both. Using the example above:
 - Setting the selection to 5 maximum with no percentage means that for each unique group of "Last Submitter" and "Is Inpatient" accounts, randomly assign up to 5 accounts
 - Setting the selection to 50 percent and 10 maximum means that for each unique group of "Last Submitter" and "Is Inpatient" accounts, randomly assign 50% of the accounts, up to 5 maximum
 - Setting the selection to 50 percent with no maximum means that for each unique group of Last Submitter" and "Is Inpatient" accounts, randomly assign 50% of the accounts
+  
+##### Random Audit
+
+The criteria filter, "Random Percentage" is included in the workflow criteria options. When set to a number
+between 0 and 100 and detected in the workflow engine, a random number will be generated. If the
+random number is less than or greater than the number in the filter criteria, the Criteria will match.
+
+Random Inclusion Factor that is less than 20 will pass a theoretical 20% of accounts through the filter.
+You don't want to use this with equals (=) because it would always cause a ~1% result, and you don't
+want to use it with greater than (>) because it will pass an inverse percentage.
+
+As noted, this is not going to be an exact percentage, only a theoretical one. In edge cases, you could
+ask for "20% of accounts" and end up getting zero, or you could end up getting all of them, but most of
+the time, you should get ~20%.
+
+This field is intended to be used with QA Workflow, although the application won't prevent an
+administrator from using it in other types of workflow. Valid values for this field are from 1 to 99; any
+other values in this field won't work.
+
+Do not think of this field as a percentage, but rather as a 100-sided die. When workflow examines this
+filter, it'll "roll the die". The common use case for this filter is "Random Inclusion Factor --> less than -->
+10".
 
 ### AutoClose
 
@@ -105,12 +127,12 @@ Patient charts that pass AutoClose criteria are coded and submitted to billing. 
 
 As an organization expands their AutoClose capabilities, Dolbey recommends conducting regular audits to ensure the system captures and codes everything correctly.
 
-## Add Workflow
+## Edit Workflow
 
 >[!note]Terminology
->Worklist and Workgroup are often used interchangeably when discussing the "buckets" accounts are sorted into.
+>Worklist and Workgroup are often used interchangeably when discussing sorting accounts into "buckets".
 
-### New Category
+#### New Category
 
 To add a new category in Workflow Management, click {{%button%}}+Add New Category{{%/button%}} in the top right corner.
 
@@ -118,7 +140,7 @@ The dialogue box has options to add a default/standard category or a new custom 
 
 ![Add New Category](AddNewCategory.png)
 
-### Add Worklist 
+#### Add Worklist 
 
 To add a new worklist, click {{%button%}}+Add{{%/button%}} under the appropriate category on the left hand side of the screen. 
 
@@ -128,14 +150,14 @@ Name the new workgroup.
 
 ![Name Workgroup](NameWorkgroup.png)
 
-Add a Criteria Group
+#### Add a Criteria Group
 
 ![Add Criteria Group](AddCriteriaGroup.png)
 
 Name the Criteria Group something simple but meaningful to describe the reason accounts will move into the workgroup. This will help with
 troubleshooting in the future.
 
-### Set Criteria 
+#### Set Criteria 
 
 Workflow has two different criteria options to build workflow.
 
@@ -175,45 +197,24 @@ After setting the Workgroup Level criteria, check the box to include the criteri
 
 This functionality helps to keep repetitive criteria creation to a minimum.
 
+Add as many values as needed to ensure the data is sufficiently constrained so the appropriate charts make it into each queue. 
 
+#### Workflow Operators
 
-1. Then click on the criteria name and click “Add Filter” and select “Set Value…”. The property are
-database fields. Add as many values as needed to ensure you filter the data down so the
-appropriate charts make it into each queue. One you add a property you will be presented with
-a set of operators; depending on the property you select the operators can be different.
-![](image-479.jpg)
+Each criterion has a set of operators. Depending on the property slected, the operators may be different.
 
-#### Workflow History Edits
-
-The display for Workflow Management has been changed to allow for an onscreen running history of
-edits. Users and Linked Users will now be seen under the name of the workgroup and will be defaulted
-as collapsed. Clicking on the link will toggle the box open.
-
-![](image-485.jpg)
-
-Any change made to criteria will show as a time
-stamp on the criteria bar next to the specific criteria
-that was changed. The date on the criteria bar will
-always be the latest change date.
-
-Hovering over the date will give detailed data for
-that specific date change. If multiple changes have
-been made to a workgroup, clicking on the date in
-the criteria bar will open a box listing all changes for that workgroup.
-
-![](image-486.jpg)
-
-### Workflow Operators
 
 | Operator             | Description |
 | -------------------- | ----------- |
 | Equals               | This is used if you have one value, and it must equal the value. This is case sensitive. |
+|Not Equal             |
 | >                    | This sign means that the value must be less than the value noted. |
 | <                    | This sign means that the value must be greater than the value noted. |
 | >=                   | This sign means that the value must be less or equal to than the value noted. |
 | <=                   | This sign means that the value must be greater or equal to the value noted. |
 | In List              | If you have more than one value, it could be any of the following. |
 | Not In List          | If you have more than one value, you do not want it to equal. |
+|Starts With           |
 | Contains             | If you have a word, phrase or value that can contain it must have what you added exactly. This is common when including payors. |
 | Only Contains        | Any one of the codes it is not needed to do all 3. |
 | Exists               | This will search to see if anything “exists” in this field, if it’s not blank it will match. No value is needed after the operator. |
@@ -226,26 +227,66 @@ the criteria bar will open a box listing all changes for that workgroup.
 | Includes Any Of      | If you have more than one value and it could be any of the following. |
 | Does not Include     | If you have more than one value, you do not want it to equal you must use “Not In List” |
 
+#### Properties
 
-### Random Audit
+Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button%}} to expand the dialogue.
 
-The criteria filter, "Random Percentage" is included in the workflow criteria options. When set to a number
-between 0 and 100 and detected in the workflow engine, a random number will be generated. If the
-random number is less than or greater than the number in the filter criteria, the Criteria will match.
+![Worklist Properties](WorklistProperties.png)
 
-Random Inclusion Factor that is less than 20 will pass a theoretical 20% of accounts through the filter.
-You don't want to use this with equals (=) because it would always cause a ~1% result, and you don't
-want to use it with greater than (>) because it will pass an inverse percentage.
+###### Workgroup Type
 
-As noted, this is not going to be an exact percentage, only a theoretical one. In edge cases, you could
-ask for "20% of accounts" and end up getting zero, or you could end up getting all of them, but most of
-the time, you should get ~20%.
+Workgroup Type is used to identify which team or department owns a specific workgroup. This classification is essential for determining ownership and accountability within the workflow. For example, if to verify whether a particular chart is accessible or being held up, management can check which team owns that worklist. This property allows users to quickly identify the appropriate workgroup for reporting and ensure accurate tracking and visibility across departments.
 
-This field is intended to be used with QA Workflow, although the application won't prevent an
-administrator from using it in other types of workflow. Valid values for this field are from 1 to 99; any
-other values in this field won't work.
+###### Sort Field and Direction 
 
-Do not think of this field as a percentage, but rather as a 100-sided die. When workflow examines this
-filter, it'll "roll the die". The common use case for this filter is "Random Inclusion Factor --> less than -->
-10".
+Sort Field is used to define how patient charts are automatically organized when added to a worklist. This field determines the primary criterion for sorting, ensuring that charts are arranged in a consistent and logical order to streamline the workflow. For example, coding worklists are commonly sorted by Discharge Date to prioritize records based on when the patient was discharged. 
+
+After selecting the appropriate sort field, setting the Sort Direction allows management to specify the order in which the charts will appear:
+- Ascending: Sorts the charts starting with the oldest date, ensuring that older records are addressed first.
+- Descending: Sorts the charts starting with the most recent date, prioritizing the newest records.
+
+This sorting mechanism helps users efficiently manage their workload by organizing patient charts in a way that aligns with their operational priorities, such as completing older cases first or focusing on more recent discharges.
+
+###### Assigned Users
+
+Users listed here are assigned to the worklist and will see it in the Assigned To: dropdown on the [Accounts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) page. 
+
+Click in the assigned users box and select the desired user(s). Holding down Ctrl allows for selecting multiple users at once. 
+
+Click the **X** next to an assigned user to remove them from the worklist. 
+
+###### Notes
+
+![Worklist Notes](WorklistNotes.png)
+
+Notes can be added to indicate to anyone reviewing workflow management why changes were made to criteria or sequencing. As notes are added, they will be added to a table in the workgroup properties.
+
+#### Reordering Worklists
+
+When workflow is triggered, placement decisions are made top-down and inside-out
+- Examine criteria in the first workgroup's first criteria group
+- Potentially assign the workgroup and criteria If the account meets all the criteria
+- If no "match", examine the next criteria group in the same workgroup (if applicable)
+- If there are no more criteria groups, examine the next workgroup and repeat until a "match" is found
+
+Worklist order matters because of how placement decisions are made. 
+
+![Move Worklist Up or Down](MoveUpDown.png)
+
+Workgroups can be reordered using the buttons at the top of the worklist or by clicking and dragging the worklist name in the list on the left hand side of the screen.
+
+## Workflow History Edits
+
+The Workflow Management page display a running history of edits. A timestamp in next to the worklist name will show the date and time of the last change made. Hovering over the date/time stamp will provide additional details. Clicking on that timestamp will open a log of changes made to the workgroup and criteria group(s).
+
+![Workgroup Level Timestamp](WorkgroupDatestamp.png)
+
+Any change made to criteria will show as a time stamp to the right of the specific criteria that was changed. Hovering over the date/time stamp will provide additional details. Clicking on that timestamp will open a log of changes made to that criteria.
+
+![Workflow Edit History](EditHistory.png)
+
+Users and Linked Users will now be seen under the name of the workgroup and will be defaulted
+as collapsed. Clicking on the link will toggle the box open.
+
+
 
