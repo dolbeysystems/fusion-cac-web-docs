@@ -3,48 +3,61 @@ title = 'User Management'
 weight = 70
 +++
 
-Under "Tools" in the application there is a tab for "User Management". This tab is where a user with a Manager and/or Administrator role can add, delete, or change any permissions and/or set work lists for other users. The grid view will show you all users that have access to the system. The page has columns listed above the grid which are explained below. The columns can be arranged in any order.
+![User Management](UserManagement.png)
 
-![User Management Columns](2024-11-14_User.png)
+User Management allows management to add, delete, or change permissions and/or set work lists for other users. The grid view will display all users with a Fusion CAC User ID. The columns can be arranged in any order and saved per user.
 
-## User Management Columns
+| Column |Description|
+| -------|-----------|
+|Action  |Copy exisiting profile when creating new user:![Copy User](image-447.png) Edit existing profile:![Edit User](image-448.png) Remove unused profile: ![Delete User](image-449.png)|
+|[Locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked-1)   |Indicates if the user is locked out of the application|
+|Employee Number|Employee number from ogranization|
+|User ID|Username used to log into the application|
+|First Name|User's first name|
+|Last Name|User's last name|
+|Facilities|User's assigned facilites|
+|Roles|User’s assigned role(s) in the applicationied to their permissions|
+|Workgroups|User's assigned workgroups|
+|Active User|Indicates if the user has active access to the application|
+|Last Access Time|Date and time the user last logged into the application|
+|Force Autoload|Status of Force Autoload for the user|
+|Email|User's email address|
 
-###### Actions 
+>[!note] Removing a Profile
+> A profile can only be removed if the user has not signed into the application. Once a user logs in, the delete icon will no longer show in their Actions column. This is to maintain accurate reporting. If a user should no longer have access to the Fusion CAC application, their profile should be [locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked-1).
 
-| Action                        | Description |
-| ----------------------------- | ----------- |
-| ![Copy User](image-447.png)   | Copy User allows you to copy a user’s profile when creating a new user. |
-| ![Edit User](image-448.png)   | Edit User allows you to edit the user’s profile. |
-| ![Delete User](image-449.png) | Delete allows you to delete incorrect user profiles. **This icon will appear ONLY for users that have not signed in.** Once a user logs in, the delete icon will no longer show in their Actions column. |
+## Edit User Profile 
 
-###### Locked
+### New User
 
-This field shows if a user's login is locked. A user’s account can be locked by incorrectly typing in
-their password or user id more than three (3) times.
+{{%button%}}+Add User{{%/button%}} allows management to create a brand new user profile from scratch
 
-###### Employee Number
+![](2024-11-14_NewUser.png)
 
-This field provides the user's employee number that is associated with their facility. 
+Copying a user profile will carry over some settings from an existing profile to a brand new profile
+- Roles
+- Facilites
+- Chart Access
+- Workgroups
 
-###### User Id
+### User Name and Password (Required)
 
-This field provides the user's user id to login to the system.
+It is common practice for organizations to use LDAP to communicate with their Active Directory, which stores user information such as usernames and passwords. When a user logs into Fusion CAC, the application can use LDAP to check Active Directory for the user's credentials. In short, LDAP allows the application to use existing usernames and passwords from Active Directory, so users do not need to remember separate login credentials specific to Fusion CAC. 
 
-###### First Name
+For this process to work, the credentials entered into Fusion CAC must be identical to the Windows login provided by the organization. As long as the user name matches, there is no need to enter a password when creating a new profile in the application. Fusion CAC will be able to link to Active Directory and the end user can log into the application using the same information they use to log into their work computer. 
 
-This field provides the user's first name.
+>[!info] User Name Cannot be Changed
+>Once a user name is entered it cannot be edited. If a profile is created with an invalid user name, a new profile with the correct user name must be created. This is to maintain consistency for reporting. If the incorrect profile is never used, it may be removed from the User Management page.
 
-###### Last Name
+### Employee Number
 
-This field provides the user’s last name.
+If applicable, the user's employee number can be entered. Only administrators can see and edit user Employee Numbers. 
 
-###### Facilities
+### Roles
 
-This field provides the facilities that a user is assigned to. The user will only be able to access charts that come from facilities they are assigned to.
+In Fusion CAC, roles determine the permissions and privileges a user has while navigating the application. Users can have multiple roles. Roles can be configured by management in the [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/) tool. 
 
-###### Roles
-
-This field provides the user’s role, or roles, which is also tied to their permissions.
+Default roles include:
 
 | Role                  | Description |
 | --------------------- | ----------- |
@@ -58,149 +71,60 @@ This field provides the user’s role, or roles, which is also tied to their per
 | **Manager**           | Can do everything that Coders and Viewers can do. They can also add and delete users to the system from their own facility, change passwords, or change user roles. Managers can assign accounts to users and produce reports describing the state of the work queue and various coder statistics from their own facility. |
 | **Administrator**     | Can do everything that Coders and Viewers can do. They can also add and delete users to the system, change passwords, or change user roles throughout all facilities (if multi-site). Administrators can assign accounts to users and produce reports describing the state of the work queue and various coder statistics. |
 
-###### Workgroups
+### Facilities
 
-This field tells you which Workgroups the user has access to. If there are multiple Workgroups they will be separated by a comma. For an easier view, click on the user to see Workgroups.
+Multi-site organizations can assign specific facilities to users. Options in the dropdown menu can be customized using the [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) tool. Once assigned, the user will only be able to acces charts from their assigned facilities.
 
-###### Active User
+### Manager
 
-This field shows if the user is active or inactive.
+### Email
 
-###### Last Access Time
+### Name (Required)
 
-This field will tell you the last time the user accessed the system. For more detailed audit trail see User Reports.
+Data entered in these fields are used to identify the user in reports. 
 
-###### Enable Query
+### Signature
 
-This is a setting that must be configured at your site and is uncommon. It has been
-created to allow a user to send a Physician Query to a valid email. If the user
-receiving the query is added as a user in User Management and have a valid email
-address listed. When an email address is added to the user profile, a new checkbox
-will appear to enable Physician Queries.
+Clicking {{%button%}}+Add{{%/button%}} next to Signature in the top right corner allows each user to create a signature that will automatically be sent at the bottom of physician queries. This line
+will appear at the bottom of Physician Queries to show who created the
+query. A new button is located next to the user’s name in the user profile.
 
-![](image-450.png)
+![Add Signature](AddSignature.png)
 
-If that checkbox is checked, the user will then appear in the pick list for the physician
-within a physician query.
+Clicking it will open a box allowing the user to create the signature.
 
-![](2024-11-14_EnableQuery.png)
+![Sample User Signature](DemoSignature.png)
 
-The user will only show up by typing in the user’s ID and will show a little person icon
-next to their name to indicate they are not a physician.
+For formatting options, highlight the text in the signature box. 
+
+### Enable Query
+
+This setting is *not* commonly configured. Enable Query allows a user to send a Physician Query to a valid email, if the user receiving the query is added in User Management with a vaild email address. 
+
+![Enable Query Checkbox](EnableQuery.png)
+
+If that checkbox is checked, the user becomes searchable in the physician dropdown within a physician query.
+
+![Physican Query Picklist](2024-11-14_EnableQuery.png)
+
+The user will only be visable upon typing in the User ID and will show a little person icon next to their name to indicate they are not a physician.
 
 ![](2024-11-14_PersonIcon.png)
 
 > [!note] Email-based Physician Queries Only
-This is uncommon as most sites physician query is used from the MFN file not to
-email. This feature was developed for a select few sites that do query through email.
-This setting must be turned on by your Project Team or CAC Support in the
-configuration settings. Once enabled this will also require a development interface
-change as to how and where queries are sent.
+Most sites sending physician queries choose to send to physicians in their MFN file rather than email. This feature was developed for a select few sites that do query through email.
+This setting **must be turned on** by your Project Team or CAC Support. Enableing this functionality requires development work as an interface change is needed as to how and where queries are sent.
 
-## Adding a User
+### Active
 
-Click on the "Add User" button at the top right of the User Administration page.
-
-You will be presented with a new user profile screen.
-
-![](2024-11-14_NewUser.png)
-
-### Add User Fields
-
-
-###### User Name
-
-This field allows you to enter a user name that will be used for the user to access the system. Enter the user name exactly how their Windows login appears (most facilities use Active Directory). Once this is entered, it cannot be changed.
-
-###### Password
-
->[!info] Active Directory Users
-Just like the user name, a new user's password will be the same as their Windows log-in (Active Direcotry). No password will need to be created during the process of adding a new user.
-
->[!caution] Active Directory Users - Reset Password
-If a user forgets their password and your system is configured to use your Windows log-in (Active Directory), the password must be reset through your internal processes for resetting your Windows password.
-
-###### Employee Number
-
-This field allows you to enter in a user’s employee number.
-
-###### Email Address
-
-This field allows you to enter in the user’s email address.
-
-###### Last Name
-
-This field allows you to enter in the user’s last name.
-
-###### First Name
-
-This field allows you to enter in the user’s first name.
-
-###### Middle Name
-
-This field allows you to enter in the user's middle name, if needed.
-
-###### Signature
-
-This button allows each user to create a signature line. This line
-will appear at the bottom of Physician Queries to show who created the
-query. A new button is located next to the user’s name in the user profile.
-
-![](image-454.jpg)
-
-Clicking it will open a box allowing the user to create the signature.
-
-![](image-455.jpg)
-
-###### Roles
-
-| Role                  | Description |
-| --------------------- | ----------- |
-| **Viewer**            | Can view the patient chart but cannot make changes. |
-| **Coder**             | Can view the patient chart, as well as add, delete, and change codes and DRGs on the coding abstract. Can add and remove items on coding forms, access editable fields in account information, and add notes and bookmarks. |
-| **Physician Coder**   | Can view the patient chart, add, delete, and change codes for physician-specific coding. Can add and remove items on physician coding forms, access editable fields in account information, and add notes and bookmarks. |
-| **Single Path Coder** | Can view the patient chart and has permissions to add, delete, and modify final codes for both physician and hospital coding. |
-| **CDI Specialist**    | Can view the patient chart, add, delete, and change codes and DRGs on the CDI abstract. Can add and remove items on CDI forms, access editable fields in account information, and add notes and bookmarks. |
-| **Router**            | This role is an add-on for Coder, Physician Coder, or CDI Specialist roles. Enables users to manually route tasks to other users or workgroups, overriding the system’s automated workflow. |
-| **Auditor**           | Can view the patient chart and add, delete, and change codes and DRGs on the coding abstract. Can add and remove items on coding forms, access editable fields in account information, and add notes and bookmarks. Can also import previously submitted codes and initiate an audit worksheet. |
-| **Manager**           | Can do everything that Coders and Viewers can do. They can also add and delete users to the system from their own facility, change passwords, or change user roles. Managers can assign accounts to users and produce reports describing the state of the work queue and various coder statistics from their own facility. |
-| **Administrator**     | Can do everything that Coders and Viewers can do. They can also add and delete users to the system, change passwords, or change user roles throughout all facilities (if multi-site). Administrators can assign accounts to users and produce reports describing the state of the work queue and various coder statistics. |
-
-###### Facilities
-
-This field allows you to assign specific facilities to a user (in multi-site setups). Once assigned, the user will only be able to acces charts that come from facilities they are assigned to.
-
-###### Primary Workgroups
-
-This field is a list of check boxes that are populated based on the queues that
-are created in the "Automatic Assignment" tab. By checking these boxes, you
-are giving that user access to queues.
-
-###### Backup Workgroups
-
-These workgroups are only visible to the user from the Account List page if
-all other assigned queues are empty. As soon as an assigned workgroup
-receives an account, the backup queues are no longer visible. Auto-
-Download will not be affected.
-
-###### Active
-
-This field allows you to provide or revoke access to the system. If checked
-the user is active, if unchecked the user is inactive and will not have access
-to the system.
+This field allows management to revoke access to the system. If checked the user is active and can log into the application. If unchecked, the user is inactive and will not have access to the system.
 
 ###### Locked
 
-If a user has attempted too many unsuccessful logins, they will be locked out of the system. When this happens the "Locked" check box will be checked. The user will not be able to login until this box is unchecked.
+The user will not be able to login until this box is unchecked. An account will automatically lock by incorrectly after three (3) incorrect sign in attempts. If a user's profile is locked, they will not be able to log into the Fusion CAC application. Unchecking the box will allow the user to attempt to sign back in. 
 
-###### Save User Button
-
-This button allows you to save the user profile you are adding or editing.
-
-###### Cancel
-
-This button allows you to cancel the user you are adding or editing without
-making or saving any changes.
+>[!caution] Active Directory Users - Reset Password
+If a user forgets their password the system is configured to use Windows log-in (Active Directory), the password must be reset through the organization's internal processes for resetting account information.
 
 ## Using Force AutoLoad
 
@@ -231,6 +155,32 @@ in autoload before resuming normal workgroup priority order.
 The "Autoload" page provides a copy of the Coder Personal Dashboard. The coder will also see a list of
 accounts they saved with a Pending Reason at the bottom of the autoload page that they can access by
 clicking.
+
+###### Primary Workgroups
+
+This field is a list of check boxes that are populated based on the queues that
+are created in the "Automatic Assignment" tab. By checking these boxes, you
+are giving that user access to queues.
+
+###### Backup Workgroups
+
+These workgroups are only visible to the user from the Account List page if
+all other assigned queues are empty. As soon as an assigned workgroup
+receives an account, the backup queues are no longer visible. Auto-
+Download will not be affected.
+
+
+
+###### Save User Button
+
+This button allows you to save the user profile you are adding or editing.
+
+###### Cancel
+
+This button allows you to cancel the user you are adding or editing without
+making or saving any changes.
+
+
 
 ## User Profile
 
