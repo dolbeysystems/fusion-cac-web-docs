@@ -77,11 +77,21 @@ Multi-site organizations can assign specific facilities to users. Options in the
 
 ### Manager
 
+The user can be assigned to an individual manager. Selecting a user from the Manager dropdown and saving the user will add/edit the manager assigned to the coder.
+
+![User Manager Assignment](Manager.png)
+
+Managers only have accessibility to pull user reports and dashboard activities for the end users assigned to them. When the manager logs in and has at least one coder assigned to them, the coder and audit administrative dashboards will only show data relevant to the assigned coder(s). When the manager runs a [User Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/), the report will automatically be filtered to the users assigned to the manager. The manager is unable to gather any report information involving users not assigned to the manager. 
+
+For this feature, managers are defined as users with the role of "Manager" but not a role of "Administrator." No users have managers by default, since the configuration of managers is entirely optional. Additionally, a user cannot be their own manager.
+
 ### Email
+
+The user's email can be entered for documentation purposes, unless the organization is using the [Enable Query](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#enable-query) functionality. 
 
 ### Name (Required)
 
-Data entered in these fields are used to identify the user in reports. 
+Data entered in these fields are used to identify the user various areas of the application, including reporting. 
 
 ### Signature
 
@@ -119,71 +129,63 @@ This setting **must be turned on** by your Project Team or CAC Support. Enablein
 
 This field allows management to revoke access to the system. If checked the user is active and can log into the application. If unchecked, the user is inactive and will not have access to the system.
 
-###### Locked
+### Locked
 
 The user will not be able to login until this box is unchecked. An account will automatically lock by incorrectly after three (3) incorrect sign in attempts. If a user's profile is locked, they will not be able to log into the Fusion CAC application. Unchecking the box will allow the user to attempt to sign back in. 
 
 >[!caution] Active Directory Users - Reset Password
 If a user forgets their password the system is configured to use Windows log-in (Active Directory), the password must be reset through the organization's internal processes for resetting account information.
 
-## Using Force AutoLoad
+### Workgroups
 
-![](2024-11-15_AutoLoadBox.png)
+Workgroups selected from the dropdown are assigned to the user. 
 
-This feature helps prevent cherry-picking by enforcing the order in which workgroups and patient charts are assigned to end users. When enabled, users will bypass the Account List page upon logging in and instead be directed to the AutoLoad page. To access the next account, they simply click the "Go to Next Account" button, which automatically loads the first available account from their assigned workgroups. The system follows the sort order set by the manager and skips any charts currently locked by another user.
+![Assigned Primary Workgroups](AssignedPrimary.png) 
+
+Assigned workgroups will display to the end user in the Assgned To: dropdown on the [Accounts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) page. 
+
+Primary workgroups will be presented to the end user first. Backup workgroups will be presented if there are no accounts availble in the user's primary queues. 
+
+To select multiple workgroups at a time, hold the Ctrl key while clicking. 
+
+### Force AutoLoad
+
+![Force AutoLoad Checkbox](2024-11-15_AutoLoadBox.png)
+
+Force Autoload helps prevent cherry-picking by forcing the order in which patient charts are presented to end users. 
+
+![Autoload Dashboard](AutoloadDashboard.png)
+
+Users with ForceAutoload enabled will bypass the Account List page upon logging in and be directed to the AutoLoad page. To access their next account, they simply click {{%button%}}Go To Next Account{{%/button%}}, which automatically loads the first available account from their assigned workgroups. The system follows the sort order set by the manager and skips any charts currently locked in use by another user.
 
 ![](2024-11-15_AutoLoad.png)
 
-If there are no accounts left, the system will automatically load the first account from the visible linked
-workgroups. If there are no accounts left, the user will be presented with a new screen informing the
-user that there are no accounts.
+If there are no accounts left to work, the user will receive a message that there are no accounts in the queue.
 
-### Setting Limits on the Number of Charts
+![No Accounts in Queue](NoAccounts.png)
 
-Users that are configured to have Forced Autoload will now have a column under the Workgroup
-assignement panels in their user profile. This will allow managers to limit the amount of accounts in each workflow that the
-forced user will be assigned. If no limit is set, the user will have access to however many accounts are currently in the workgroup. To transition to the next workgroup, the current workgroup must be fully completed.
+#### Workgroup Limits
 
-In the example below, I’ve set account limits for the user for each of their assigned workgroups. With these limits in place, if the Post Discharge SDS workgroup contains 20 accounts, the user can only complete 5 charts before moving on to their next assigned workgroup. The user will sequentially receive 5 accounts from Post Discharge Surgery Center and up to 5 from Urgent Care. Once all assigned workgroups are cycled through, the system will return to the first workgroup, starting again with up to 5 Post Discharge SDS accounts.
+When Force Autoload is enabled, *Limit:* boxes will display next to each assigned workgroup. 
 
-![](2024-11-15_AutoLoadLimit.png)
+![Force Autoload Workgroup Limits](Limits.png)
+
+Managers can limit the number of accounts per workgroup the user will be assigned before they are presented with accounts from the next list. If no limit is set, the user will have access to however many accounts are currently in the workgroup. To transition to the next workgroup, the current workgroup must be fully completed.
 
 > [!note] Manual Routing Always Takes Priority
-If an admin routes a chart directly to the users “You” worklist, the chart will appear next
-in autoload before resuming normal workgroup priority order.
+If an administrator routes a chart directly to the user's “You” worklist, the chart will automatically be presetened *before* resuming normal workgroup priority order.
 
-The "Autoload" page provides a copy of the Coder Personal Dashboard. The coder will also see a list of
-accounts they saved with a Pending Reason at the bottom of the autoload page that they can access by
-clicking.
-
-###### Primary Workgroups
-
-This field is a list of check boxes that are populated based on the queues that
-are created in the "Automatic Assignment" tab. By checking these boxes, you
-are giving that user access to queues.
-
-###### Backup Workgroups
-
-These workgroups are only visible to the user from the Account List page if
-all other assigned queues are empty. As soon as an assigned workgroup
-receives an account, the backup queues are no longer visible. Auto-
-Download will not be affected.
+The Autoload page provides a copy of the Coder Personal Dashboard. The coder will also see a list of accounts they saved with a Pending Reason at the bottom of the autoload page.
 
 
+## User Profile Menu
 
-###### Save User Button
+Users can access their profile information by clicking on their name in the top right hand corner.
 
-This button allows you to save the user profile you are adding or editing.
+- Selecting "Profile" will open their profile. The user's permissions will dictate which settings they are able to edit. Users with multiple roles will need to open their profile to switch roles. 
+- Log Out will log the user out of the application. It is recommened for users to log out when they are done working rather than just closing the browser window.
+- Daily productivty stats are displayed for the user to quickly see their work.
 
-###### Cancel
+![Daily Coder Stats](DailyStats.png)
 
-This button allows you to cancel the user you are adding or editing without
-making or saving any changes.
-
-
-
-## User Profile
-
-A user's profile can be accessed through the top-right corner of the application or via the User Management section. Clicking on the user’s name and selecting "Profile" will open their profile. The settings available within the profile depend on the user’s assigned permissions. Additionally, by clicking on the user’s name, you can view their productivity statistics for the day.
-
-![](image-458.jpg)
+![Daily CDI Stats](CDIDailyStats.png)

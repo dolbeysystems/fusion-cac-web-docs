@@ -42,7 +42,7 @@ It is possible for an account to be in more than one worklist at a time, dependi
 Often a worklist will contain multiple criteria groups. Each criteria group has many different filters to fully constrain the data. This ensures the appropriate number of charts are caught in each worklist.
 
 >[!note]Terminology
->Worklist and Workgroup are often used interchangeably when discussing sorting accounts into "buckets".
+>Worklist, Workgroup, and Queue are often used interchangeably when discussing sorting accounts into "buckets".
 
 ### Audit
 
@@ -288,5 +288,12 @@ Any change made to criteria will show as a time stamp to the right of the specif
 Users and Linked Users will now be seen under the name of the workgroup and will be defaulted
 as collapsed. Clicking on the link will toggle the box open.
 
+## Manual Routing
+Users with the ability to route charts, can right-click on an account and manually assign it to a user or workgroup. 
 
+![Manual Account Assignment](ManualAssignment.png)
 
+If an account is manually routed to a user it will populate their "You" queue. 
+
+>[!note]Not Recommended
+>It is not recommended to manually route a chart unless absolutely necessary. Once a chart has been manually routed it will no longer move through workflow automatically. 
