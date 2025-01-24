@@ -18,7 +18,15 @@ In the list of Active Mappings, if a mapping that does not have a red X to the r
 
 ## Updating Mapping Tables
 
-To update any mapping table, click on a table title from the list of Active Mappings. Not every table contains the same information, but for the majority of the tables, the fileds that can be udpated include the "Key" and the "Description". The key is a unique value for that entry in the database, while the description is the friendly 
+To update any mapping table, click on a table title from the list of Active Mappings. Not every table contains the same information, but for the majority of the tables, the fileds that can be udpated include the "Key" and the "Description". The key is a unique value for that entry in the database, while the description is the friendly value that will be displayed to users. Often times these are the same, but an instance when it is not is on the "Stage" mapping table where the key value of "P" equals "Unbilled". 
+
+If you need to add values to the mapping table, click on the "Add New..." button where you can add the value to the top, or bottom of the list.
+
+![](2025-01-24_MappingConfig4.png)
+
+To arrange the order of the values in the mapping table, you can sort either column by Ascending or Descending order, or you can move each value individually by using the "Action" buttons.
+
+
 
 ## Add Incentive Multiplier to Category Editor
 
