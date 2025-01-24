@@ -7,7 +7,7 @@ weight = 40
 
 User reports are canned reports that are preformatted. User reports were created to be run on-demand, but many reports can also be scheduled to run at a specific date/time interval. Each report is outlined [below](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-reports-and-descriptions) along with a brief description. 
 
-Users looking for data that is not available in user reports can use [account search] (http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
+Users looking for data that is not available in user reports can use [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
 
 ### Running a User Report
 
@@ -17,7 +17,7 @@ Users looking for data that is not available in user reports can use [account se
 
 ![Report Discription](ReportDis.png)
 
-2. Filter as needed - each report is unique in the style of data it will yield please review filter options and use as needed
+2. Filter as needed - each report is unique in the style of data it will yield. Review filter options and use as needed.
    
 ![Report Filter Options](ReportFilters.png)
 
@@ -36,7 +36,7 @@ Users looking for data that is not available in user reports can use [account se
 ## User Reports and Descriptions
 
 The following is a complete list of Fusion CAC's default reports and their descriptions. An organization may have custom reports
-that do not appear in this list. Additionally, some reports may be part of an add-on module. For questions or if there are other reports your organization would benefit from and you cannot pull the data you need from account search please contact our SME Team (smeteam@dolbey.com) to discuss options.
+that do not appear in this list. Additionally, some reports may be part of an add-on module. For questions or if there are other reports your organization would benefit from and you cannot pull the data you need from [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) please contact our SME Team (smeteam@dolbey.com) to discuss options.
 
 #### 25 Most Common CPT Codes Report
 
@@ -257,7 +257,7 @@ month.
 This report provides details of physician queries created by CDI Specialists on accounts that have since
 been discharged. This report details how the account evolved from a Baseline DRG to a Final DRG.
 
-> [!caution] No PDF Support
+> [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 Any non-cancelled physician query created by a CDI Specialist on an inpatient, now-discharged account
@@ -314,7 +314,7 @@ the Chart Working DRG Save Date/Time (Query Create Date for the Queries.)
 
 This report shows the list of diagnosis codes and procedures that CDI assigned in sequenced order.
 
-> [!caution] No PDF Support
+> [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 ![CDI Codes on Submitted Charts Report](CDICodesSubChts.png)
@@ -352,7 +352,7 @@ This report provides details about charts with assigned procedures. The date ran
 Chart Last Submitted Date. To qualify for this report the chart must have at least one Procedure code
 assigned on the chart.
 
->[!caution] Not Available For Scheduling
+>[!info] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
 ![Coded Procedure Account Details Report](CodedPCSAcctDetail.png)
@@ -624,8 +624,8 @@ This report shows the volume of queries per template for discharged accounts, so
 
 ![Query Template Volume by Discharge Date Report](QueryTempVolByDC.png)
 
-> [!note] 
-> This report is a clone of the existing ["Query Template Volume Overview"](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-template-volume-overview-report) report but the date range of the report is by Discharge Date instead of Query Creation Date. This means that only queries of discharged accounts will appear in this report.  
+> [!info] 
+> This report is a clone of the ["Query Template Volume Overview"](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-template-volume-overview-report) report but the date range of the report is by Discharge Date instead of Query Creation Date. This means that only queries of discharged accounts will appear in this report.  
 
 #### Recent Suggested/Working DRG Report
 
@@ -640,7 +640,7 @@ The date range is irrelevant and will report on all inpatient accounts with no d
 
 ![Recent Suggested/Working DRG Report](SuggestedWrkingHist.png)
 
->[!caution] Not Available For Scheduling
+>[!info] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
 #### Recurring Account Productivity Report
@@ -716,7 +716,7 @@ report is the ChangeHistory Audit Date (Check Out & Check In of the Account Date
 
 ![User Session Log Report](UserSesLog.png)
 
->[!caution] Not Available For Scheduling
+>[!info] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
 #### Weekly Coder Activity Report
@@ -740,7 +740,7 @@ To qualify for this report the chart must be an inpatient patient type.
 
 ![CDI Query Detail Report](CDIQDet.png)
 
-> [!caution] No PDF Support
+> [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 #### Consulting Provider Report
@@ -776,7 +776,7 @@ the date range. Date Range is the date the account was discharged, beginning of 
 of end date. The date range on this report is the Chart Discharged Date. To qualify for this report the
 chart must be Submitted.
 
->[!caution] Not Available For Scheduling
+>[!info] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
 ![Report](image-433.jpg)
@@ -790,7 +790,7 @@ maximum of two PPC values, then only two PPC columns will appear in the report. 
 this report is the Chart Discharged Date. To qualify for this report the chart must have PPC Grouper from
 3M CRS or GPCS, be an Inpatient, Submitted chart, with at least 1 PPC value.
 
->[!caution] Not Available For Scheduling
+>[!info] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
 ![Report](image-434.jpg)
