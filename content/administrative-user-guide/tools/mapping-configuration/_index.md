@@ -3,18 +3,22 @@ title = 'Mapping Configuration'
 weight = 140
 +++
 
-This page allows you to map data from a data field name to a friendly end user facing name. It is highly
-recommended to not touch data mapping tables in a production environment unless you have been
-trained to do so.
+Mapping Configuration is an administrative tool designed for users with administrative roles, enabling them to map data field names to user-friendly, end-user-facing names. It is highly recommended to avoid modifying data mapping tables in a production environment unless you have received proper training.
+
+![](2025-01-24_MappingConfig2.png)
 
 A new Export to CSV button has been added to the mapping title bar. Clicking this will export that
 mapping’s list to CSV, where it can then be printed.
 
-![](image-539.png)
+![](2025-01-24_MappingConfig1.png)
 
-For Mapping, you must have administrative rights to configure.
+In the list of Active Mappings, if a mapping that does not have a red X to the right of the mapping table title, that means it is a default mapping table can cannot be removed from the system by the end user. 
 
-![](image-540.jpg)
+![](2025-01-24_MappingConfig3.png)
+
+## Updating Mapping Tables
+
+To update any mapping table, click on a table title from the list of Active Mappings. Not every table contains the same information, but for the majority of the tables, the fileds that can be udpated include the "Key" and the "Description". The key is a unique value for that entry in the database, while the description is the friendly 
 
 ## Add Incentive Multiplier to Category Editor
 
