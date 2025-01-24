@@ -3,7 +3,7 @@ title = 'Mapping Configuration'
 weight = 140
 +++
 
-Mapping Configuration is an administrative tool designed for users with administrative roles, enabling them to map data field names to user-friendly, end-user-facing names. It is highly recommended to avoid modifying data mapping tables in a production environment unless you have received proper training.
+Mapping Configuration is an administrative tool designed for users with an administrative role, enabling them to map data field names to user-friendly, end-user-facing names. It is highly recommended to avoid modifying data mapping tables in a production environment unless you have received proper training.
 
 ![](2025-01-24_MappingConfig2.png)
 
@@ -12,7 +12,7 @@ mapping’s list to CSV, where it can then be printed.
 
 ![](2025-01-24_MappingConfig1.png)
 
-In the list of Active Mappings, if a mapping that does not have a red X to the right of the mapping table title, that means it is a default mapping table can cannot be removed from the system by the end user. 
+In the list of Active Mappings, if a mapping table does not have a red X to the right of its title, that means it is a default mapping table that cannot be removed from the system by the end user. 
 
 ![](2025-01-24_MappingConfig3.png)
 
@@ -24,9 +24,13 @@ If you need to add values to the mapping table, click on the "Add New..." button
 
 ![](2025-01-24_MappingConfig4.png)
 
-To arrange the order of the values in the mapping table, you can sort either column by Ascending or Descending order, or you can move each value individually by using the "Action" buttons.
+To arrange the order of the values in the mapping table, you can sort either column by Ascending or Descending order by using the arrow buttons. 
 
+![](2025-01-24_MappingConfig6.png)
 
+You can also move each value individually by using the "Action" buttons.
+
+![](2025-01-24_MappingConfig5.png)
 
 ## Add Incentive Multiplier to Category Editor
 
