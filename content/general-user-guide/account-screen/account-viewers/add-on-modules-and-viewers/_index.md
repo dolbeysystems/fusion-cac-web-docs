@@ -38,7 +38,7 @@ Discrete Values with a grey header are within normal limits. Each organization s
 
 ## ER E/M Module 
 
-The ER E/M Viewer is an add-on module for any chart with a “Is Emergency” flag within the account properties.
+The ER E/M viewer is part of an add-on module for any chart with a “Is Emergency” flag within the account properties.
 If this module is turned on, any “Is Emergency” chart will have the “E/M Coding Worksheet” in the Navigation menu. 
 There are several sections to the E/M Coding worksheet including:  E/M No Charge, E/M Level, Trauma, Critical Care, Medications, and Additional Charging. More details on ER E/M functionality can be found in the [General User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/coding-user-guide/coding-a-patient-chart/account-screen/#navigation-pane).
 
