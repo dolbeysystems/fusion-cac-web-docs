@@ -135,3 +135,15 @@ If the organization chooses to use signatures when sending queries, automatic si
 
 > [!note]
 > Please refer to your {{%icon icon="user-tie"%}}supervisor for details as each organization has custom query templates and additional details surrounding queries.
+
+### Query Impact
+
+```
+Query Impact = Pre-Query Working DRG Weight – Post-Query Working DRG Weight
+```
+
+Query impact is calculated using the working DRG calculated within the same session in which the physician query was created. Once the
+physician replies to the query, the CDI will [close the query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/#closing-a-query). During the session the query was closed, the system will then capture the working DRG that was calculated. A session is closed by saving the chart.
+
+If a physician query shifts the assigned DRG, diagnosis, procedures, CC/MCC/HAC/ROM/SOI or Quality
+metrics, the shift reason is automatically calculated by the system. The shift reason is captured by looking at the difference between the last working DRG and the Current Working DRG as well as the Code Sets difference in the most current working DRG. Code sets will be automatically captured for reporting.
