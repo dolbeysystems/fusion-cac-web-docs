@@ -651,7 +651,7 @@ multiple times on the same day with different effective dates. Total time in acc
 HH:MM:SS. The date range on this report is the Change History Audit Date (Submitted, Resubmitted,
 Saved, Viewed actions
 
-![Report](image-421.jpg)
+![Recurring Account Productivity Report](RCRProductivity.png)
 
 #### Submitted by Coder Report
 
@@ -749,7 +749,7 @@ This report provides a list of all consulting provider(s) that were added to eac
 on this report is the Chart Discharged Date. To qualify for this report the chart must be Submitted and
 have at least one Consulting Provider.
 
-![Consulting Provider Report](image-431.jpg)
+![Consulting Provider Report](ConsultPro.png)
 
 #### Engine Outcome per Coder Report
 
@@ -779,21 +779,7 @@ chart must be Submitted.
 >[!info] Not Available For Scheduling
 > This report is not available within Scheduled Reports.
 
-![Report](image-433.jpg)
-
-### Potentially Preventable Complication Report
-
-This report provides a list of submitted accounts that have between one and five Potentially Preventable
-Complication (PPC) values. Up to five PPC values will display in this report, but PPC columns will not
-display if no accounts populate that column. For example, if all of the accounts in the report have a
-maximum of two PPC values, then only two PPC columns will appear in the report. The date range on
-this report is the Chart Discharged Date. To qualify for this report the chart must have PPC Grouper from
-3M CRS or GPCS, be an Inpatient, Submitted chart, with at least 1 PPC value.
-
->[!info] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
-![Report](image-434.jpg)
+![Payor Volumes Report](PayVol.png)
 
 ### Current Workgroup Report
 
@@ -808,37 +794,39 @@ along with total charges.
 > - If **one or more users are selected as a filter**, this report will output the current workgroup statistics for the workgroups that are assigned to only those users (mimicking the workgroup list that appears in the user's personal dashboard).
 > - CDI workgroups can have a blank "oldest discharge date" since no accounts in CDI workgroups typically have a discharge date.
 
-![Report](image-435.jpg)
+![Current Workgroup Report](CurrentWrkgrp.png)
 
 ### AMA CPT Utilization Report
 
 This report lists all users who have added or edited CPT codes on accounts for a specified date range for
-AMA license reporting. This is a report Dolbey users to report CPT code usage to the AMA.
+AMA license reporting. **This is a report Dolbey uses to report CPT code usage to the AMA.**
 
-![Report](image-436.jpg)
+![AMA CPT Utilization Report](AMACPTUse.png)
 
-### Create Topics for User Reports
+## Topics
 
-For all user reports the user can create a topic to categorize reports by type of report. For example, you
-may want to create a topic of impact reports and tag it to the following reports making a short cut when
+User reports can be categorized by topic, per organization. 
+
+For example, the following reports might be added to a topic of Impact Reports:
 you are running reports.
 
 - Physician Query Impact
 - Physician Query Impact by Discharge Date
 - CDI Financial Benefit
 
-To assign a topic to report select the report you wish to assign a topic
-to. Then select “Edit Topic”. You will then be presented with a dialog
-box to tag it to an existing topic or add a new topic. Once you have
-added a new topic, select +Add the save. To note, a report can have
-multiple topic tags.
+Reports can be filtered by topic to narrow down the list of available reports. 
 
-![Report](image-439.jpg)
+![Filter by Topic](TopicFilter.png)
 
-![Report](image-437.jpg)
+To assign a topic to report
+- Select the report
+- Click {{%button%}}Edit Topic{{%/button%}}
+- Edit the selected report ![Edit Topics Dialogue](EditTopics.png)
+  - Choose an exisiting topic from the dropdown menu
+  - Enter a name for a custom topic, and click {{%button%}}+Add{{%/button%}}
+  - Click {{%button%}}Save{{%/button%}}
 
-Now when you look for reports based upon the topic you can filter by for example impact and it will
-filter the list to those that you have classified as an
-“Impact” report.
+>[!info] 
+>A report can have multiple topic tags.
 
-![Report](image-440.jpg)
+Topics can be managed in the Topics [mapping table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#updating-mapping-tables). 
