@@ -352,9 +352,6 @@ This report provides details about charts with assigned procedures. The date ran
 Chart Last Submitted Date. To qualify for this report the chart must have at least one Procedure code
 assigned on the chart.
 
->[!info] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
 ![Coded Procedure Account Details Report](CodedPCSAcctDetail.png)
 
 #### Coder Activity Report
@@ -640,9 +637,6 @@ The date range is irrelevant and will report on all inpatient accounts with no d
 
 ![Recent Suggested/Working DRG Report](SuggestedWrkingHist.png)
 
->[!info] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
 #### Recurring Account Productivity Report
 
 This report tracks daily productivity for recurring accounts. It uses the effective date to track which
@@ -694,9 +688,6 @@ This report shows user activities within the selected date range. Not selecting 
 system events being displayed. (Filtering: Max of 1 user selected; max of 1 day selected). The date range
 on this report is the Date & Time of the action of the activity.
 
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
 #### User Detail Report
 
 This report shows the detail of the accounts that are coded including re-submits, the codes
@@ -715,9 +706,6 @@ account session. (Filtering: Minimum of 1 user selected; max of 7 days selected)
 report is the ChangeHistory Audit Date (Check Out & Check In of the Account Dates).
 
 ![User Session Log Report](UserSesLog.png)
-
->[!info] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
 
 #### Weekly Coder Activity Report
 
@@ -775,9 +763,6 @@ type, and facility - grouped by payor with number of accounts submitted subtotal
 the date range. Date Range is the date the account was discharged, beginning of start date to the ending
 of end date. The date range on this report is the Chart Discharged Date. To qualify for this report the
 chart must be Submitted.
-
->[!info] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
 
 ![Payor Volumes Report](PayVol.png)
 

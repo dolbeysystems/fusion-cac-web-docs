@@ -3,29 +3,40 @@ title = 'Scheduled Reports'
 weight = 50
 +++
 
-Scheduled reporting enables you to: schedule a report to be delivered during a time window, repeat the
-report on a one-time, daily, weekly, or monthly basis, and email the report to the user who needs to see
-the report. Note that not all reports can be scheduled. Review the table of default reports to see if the
-one you wish to schedule is available for this feature. There are two sections in scheduled reports ones
-for Built-in reports from the user reports section and those that are scheduled account search filters.
+![Scheduled User Reports](ScheduleReports.png)
 
-## Creating a Scheduled Report
+Reports in Fusion CAC can be scheduled to be delivered via email at specified times. 
 
-Click on Create New Schedule then fill out all the fields
+Clicking {{%button%}}+Create New Schedule{{%/button%}} will open the scheduling options. 
 
-![Creating a Scheduled Report](image-438.jpg)
+![Report Schedule Options](ReportingOptions.png)
 
-## Run History
+Click {{%button%}}Save{{%/button%}} in the upper right hand corner to save the settings and start the schedule.
 
-Any report (user report or account search filters) will have a run history. If the user clicks on a report on
-the left side of the screen, the right side will now show a run history above the schedule data for the last
-three times the report ran, whether it was successful or errored.
+|Field|Purpose|
+|-----|-------|
+|Name |Name of the scheduled report that will display on the left hand side of the screen|
+|Report|Dropdown list of User Reports available to be scheduled|
+|Format|Format of the report when delivered to the recipient(s)|
+|Disclaimer|Must be checked to acknowledge the report in question may contain PHI|
+|Run For|Allows for filtering the report by role type (All Users, Auditors Only, CDI Only, Coders Only)|
+|Date Range|Date range for the report. Can be set for X number of days or months in past|
+|Email To|Email(s) for recipient(s). If sending to multiple people, email addresses should be comma separated. Receipients do not need to have an active Fusion CAC account to receive a scheduled report|
+|Subject|Text to appear in the subject of the email|
+|Body|Text to appear in the body of the email. It is recommended to include a note that the email is automatically generated and to include contact details for those who no longer want to recieve the report|
+|Frequency|How often the report will be sent to the recipient(s). It is recommended to schedule reports outside of peak hours whenever possible for performance.|
+|Comments|Note for management to keep track of report details. Text entered here will not be included in the email sent out|
 
-You will also see the message, if no message it ran the report and delivered it. You may also see a
-message that says “No Message Returned” which indicates the report didn’t yeild results therefore the
-email didn’t go out since the search didn’t yeild results.
+Saved reports will display on the left hand side of the screen.
 
-![Run History](image-441.jpg)
+![Saved Scheduled Reports](SavedReports.png)
 
-![Save](image-442.jpg)
+### Run History
+
+Scheduled reports will have a run history. 
+
+![Report Run History](RunHistory.png)
+
+A run history will display above the schedule data for the last three times the report ran, whether it was successful or errored. No text in the message column indicate the report ran and was delivered without error. A message of “No Message Returned” indicates nothing was sent as the report yeilded no results. **The application will not send out a blank report.** 
+
 
