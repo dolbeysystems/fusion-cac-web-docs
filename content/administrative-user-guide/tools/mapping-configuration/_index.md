@@ -8,7 +8,7 @@ Mapping Configuration is an administrative tool designed for users with an admin
 ![](2025-01-24_MappingConfig2.png)
 
 A new Export to CSV button has been added to the mapping title bar. Clicking this will export that
-mapping’s list to CSV, where it can then be printed.
+mapping’s list to CSV.
 
 ![](2025-01-24_MappingConfig1.png)
 
@@ -32,9 +32,16 @@ You can also move each value individually by using the "Action" buttons.
 
 ![](2025-01-24_MappingConfig5.png)
 
-## Add Incentive Multiplier to Category Editor
 
-In Mappings Configuration, a new Incentive Multiplier column will appear in the Category mapping. The
+## Unique Mapping Tables ##
+
+While many of the mapping tables are set up the same way, there are a few that are unique and have more fields to enter. These unique tables will be reviewed below. 
+
+### Category Mapping Table 
+
+#### Incentive Multiplier Column 
+
+The "Incentive Multiplier" column has been added to the Category mapping table. This column is optional The
 administrator can optionally record an incentive multiplier that is used in the Incentive Productivity
 Report. Categories without a value in the incentive multiplier will be calculated with an incentive
 multiplier of 1.0.
@@ -44,34 +51,9 @@ submitted an account that week. This report pulls its data in real-time.
 
 ![](image-541.jpg)
 
-## Adding Pending Reasons
+#### HCC Indicators
 
-To add a pending reason, click on “Pending Reasons” on the left side, then click the “Add New Pending
-Reason” button. If you only need pending reasons for certain categories, select all categories that apply.
-Leave the category blank so it applies to all categories.
-A checkbox appears next to each pending reason allowing the user to tie a pending reason to a physician
-and there is an additional check box requiring the date if applicable
-
-![](image-542.jpg)
-
-When a pending reason has the Physician Required box checked, the user will be prompted for a
-physician when a pending reason is assigned to an account. The prompt will force a physician to be
-selected, and that physician will appear in the Code Summary page and in the Pending Reasons report.
-
-## Adding Custom Review Types
-
-Custom reviews are not enabled at every site, to see the use of custom reviews go to the section for this
-in this user manual.
-
-To add a Custom Review Type, click on “CDI Review Types” on the left side, then click the “Add New CDI
-Review Types” button. Note: Changing an existing Custom Review Type will change reporting and
-dashboards
-
-![](image-543.jpg)
-
-## Enabling HCC Indicators
-
-Enabling HCC Indicators does a few things.
+The Display HCC column has been added to the Category mapping and does a few things. 
 
 1. Turns HCC Indicators next to diagnosis codes assigned to the “Assigned Code” Tree, when the user 
 assigns a code that has a CMS HCC a small H indicator appears.
@@ -89,25 +71,43 @@ table. These are turned on in mappings. Under the Categories mapping there is a 
 When HCC's are enabled, these will display below grouped by HCC category and by code,
 showing the account number and MRN # for the associated visit.
 
-## Billing Countdown
+### Pending Reasons Mapping Table
 
-The billing countdown will tell you how many days left to bill the payor. In Mapping Configuration, if
-you add or edit a mapping for "Payor", you see a new "Default Bill Days" field in the header and a new
-"Bill Days" column for each Payor.
+To add/edit pending reasons, in the list of Active Mappings select the "Pending Reasons” mapping table. Then click the “Add New Pending
+Reason” button. This particlar mapping table offers additional options that can be linked to each pending reason, including Facilities, Categories, Roles. Administrators have the flexibility to leave these fields blank - applying the pending reason universally - or specifcy particular options to tailor how the pending reason is applied. 
 
-These fields contain numbers zero or higher or blank to indicate the number of days to add to the
-discharge date (current date is there is no discharge date) to calculate what is basically a billing due
-date.
+A checkbox is displayed next to each pending reason, enabling users to associate a pending reason with a physician. Additionally, there is another checkbox to indicate if a date is required, when applicable.
 
-![](image-546.jpg)
+![](2025-01-29_MappingConfig7.png)
 
-The billing date is compared to the current date (or the last submitted date if the account is
-already submitted) to compute the "Billing Countdown" – the number of days left to submit an
-account. If an account has no payor, no matching payor mapping, or payor mapping with no "bill days"
-defined, the "default bill days" is used (zero if "default bill days" is blank as well.)
+> [!note] Physician Required Checkbox
+When a pending reason has the Physician Required box checked, the user will be prompted for a
+physician when a pending reason is assigned to an account. The prompt will force a physician to be
+selected, and that physician will appear in the Code Summary page and in the Pending Reasons report.
 
-You will find a new field, "Billing Countdown," that you can add from Grid Column Configuration, to use
-for account search filters and workflow. A use case for this field is to determine which accounts are
-approaching a due you can do something like this
+### CDI Review Types Mapping Table
+
+CDI Review types are a custom type of review that are not enabled at every site. To see the use of custom reviews go to CDI User Guide, then Chart Reviews, within this user manual.
+
+To add a custom CDI Review Type, in the list of Active Mappings, select "CDI Review Types” then click the “Add New CDI
+Review Types” button. Enter the Key and Description for the new review and sort it in the exisitng list as needed. 
+
+> [!note] Note: Changing Existing Types
+Changing an existing CDI Review Type will change reporting and dashboards.
+
+### Payor Mapping Table
+
+The "Days to Bill" column has been added to the Payor mapping table. This column will tell the user how many days are left to bill the payor. 
+
+There are two ways to specify the number of days to bill for each payor. First, a default value can be set, which will apply to any payor in the mapping table without a specified value in the "Days to Bill" column. Second, you can individually assign the number of days to bill for each payor directly.
+
+![](2025-01-29_MappingConfig8.png)
+
+![](2025-01-29_MappingConfig9.png)
+
+The billing date is compared to the current date (or the last submitted date if the account has already been submitted) to calculate the "Billing Countdown," which represents the number of days remaining to submit the account. If an account has no payor, no matching payor mapping, or a payor mapping without "bill days" defined, the "default bill days" value is used. If the "default bill days" field is blank, a value of zero is applied.
+
+A "Billing Countdown" field can be added from Grid Column Configuration to use
+for account search filters and workflow. See a use case for this workflow in the screenshot below:
 
 ![](image-547.jpg)
