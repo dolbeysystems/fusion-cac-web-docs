@@ -8,7 +8,7 @@ Mapping Configuration is an administrative tool designed for users with an admin
 ![](2025-01-24_MappingConfig2.png)
 
 A new Export to CSV button has been added to the mapping title bar. Clicking this will export that
-mapping’s list to CSV.
+mapping’s list to CSV should the mapping tables need to be reviewed outside of the application.
 
 ![](2025-01-24_MappingConfig1.png)
 
@@ -41,7 +41,7 @@ While many of the mapping tables are set up the same way, there are a few that a
 
 #### Incentive Multiplier Column 
 
-The "Incentive Multiplier" column has been added to the Category mapping table. This column is optional The
+The "Incentive Multiplier" column has been added to the Category mapping table. The
 administrator can optionally record an incentive multiplier that is used in the Incentive Productivity
 Report. Categories without a value in the incentive multiplier will be calculated with an incentive
 multiplier of 1.0.
@@ -74,7 +74,7 @@ showing the account number and MRN # for the associated visit.
 ### Pending Reasons Mapping Table
 
 To add/edit pending reasons, in the list of Active Mappings select the "Pending Reasons” mapping table. Then click the “Add New Pending
-Reason” button. This particlar mapping table offers additional options that can be linked to each pending reason, including Facilities, Categories, Roles. Administrators have the flexibility to leave these fields blank - applying the pending reason universally - or specifcy particular options to tailor how the pending reason is applied. 
+Reason” button. This particlar mapping table offers additional options that can be linked to each pending reason, including Facilities, Categories, and Roles. Administrators have the flexibility to leave these fields blank - applying the pending reason universally - or specify particular options to tailor how the pending reason is applied. 
 
 A checkbox is displayed next to each pending reason, enabling users to associate a pending reason with a physician. Additionally, there is another checkbox to indicate if a date is required, when applicable.
 
