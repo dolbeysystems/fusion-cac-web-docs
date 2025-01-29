@@ -7,7 +7,7 @@ weight = 40
 
 User reports are canned reports that are preformatted. User reports were created to be run on-demand, but many reports can also be scheduled to run at a specific date/time interval. Each report is outlined [below](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-reports-and-descriptions) along with a brief description. 
 
-Users looking for data that is not available in user reports can use [account search] (http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
+Users looking for data that is not available in user reports can use [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to create custom searches and then export the raw data.
 
 ### Running a User Report
 
@@ -17,7 +17,7 @@ Users looking for data that is not available in user reports can use [account se
 
 ![Report Discription](ReportDis.png)
 
-2. Filter as needed - each report is unique in the style of data it will yield please review filter options and use as needed
+2. Filter as needed - each report is unique in the style of data it will yield. Review filter options and use as needed.
    
 ![Report Filter Options](ReportFilters.png)
 
@@ -36,7 +36,7 @@ Users looking for data that is not available in user reports can use [account se
 ## User Reports and Descriptions
 
 The following is a complete list of Fusion CAC's default reports and their descriptions. An organization may have custom reports
-that do not appear in this list. Additionally, some reports may be part of an add-on module. For questions or if there are other reports your organization would benefit from and you cannot pull the data you need from account search please contact our SME Team (smeteam@dolbey.com) to discuss options.
+that do not appear in this list. Additionally, some reports may be part of an add-on module. For questions or if there are other reports your organization would benefit from and you cannot pull the data you need from [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) please contact our SME Team (smeteam@dolbey.com) to discuss options.
 
 #### 25 Most Common CPT Codes Report
 
@@ -257,7 +257,7 @@ month.
 This report provides details of physician queries created by CDI Specialists on accounts that have since
 been discharged. This report details how the account evolved from a Baseline DRG to a Final DRG.
 
-> [!caution] No PDF Support
+> [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 Any non-cancelled physician query created by a CDI Specialist on an inpatient, now-discharged account
@@ -314,7 +314,7 @@ the Chart Working DRG Save Date/Time (Query Create Date for the Queries.)
 
 This report shows the list of diagnosis codes and procedures that CDI assigned in sequenced order.
 
-> [!caution] No PDF Support
+> [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 ![CDI Codes on Submitted Charts Report](CDICodesSubChts.png)
@@ -351,9 +351,6 @@ The date range on this report is the Chart Submitted Date (FirstSubmitter.)
 This report provides details about charts with assigned procedures. The date range on this report is the
 Chart Last Submitted Date. To qualify for this report the chart must have at least one Procedure code
 assigned on the chart.
-
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
 
 ![Coded Procedure Account Details Report](CodedPCSAcctDetail.png)
 
@@ -624,8 +621,8 @@ This report shows the volume of queries per template for discharged accounts, so
 
 ![Query Template Volume by Discharge Date Report](QueryTempVolByDC.png)
 
-> [!note] 
-> This report is a clone of the existing ["Query Template Volume Overview"](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-template-volume-overview-report) report but the date range of the report is by Discharge Date instead of Query Creation Date. This means that only queries of discharged accounts will appear in this report.  
+> [!info] 
+> This report is a clone of the ["Query Template Volume Overview"](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-template-volume-overview-report) report but the date range of the report is by Discharge Date instead of Query Creation Date. This means that only queries of discharged accounts will appear in this report.  
 
 #### Recent Suggested/Working DRG Report
 
@@ -640,9 +637,6 @@ The date range is irrelevant and will report on all inpatient accounts with no d
 
 ![Recent Suggested/Working DRG Report](SuggestedWrkingHist.png)
 
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
 #### Recurring Account Productivity Report
 
 This report tracks daily productivity for recurring accounts. It uses the effective date to track which
@@ -651,7 +645,7 @@ multiple times on the same day with different effective dates. Total time in acc
 HH:MM:SS. The date range on this report is the Change History Audit Date (Submitted, Resubmitted,
 Saved, Viewed actions
 
-![Report](image-421.jpg)
+![Recurring Account Productivity Report](RCRProductivity.png)
 
 #### Submitted by Coder Report
 
@@ -694,9 +688,6 @@ This report shows user activities within the selected date range. Not selecting 
 system events being displayed. (Filtering: Max of 1 user selected; max of 1 day selected). The date range
 on this report is the Date & Time of the action of the activity.
 
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
 #### User Detail Report
 
 This report shows the detail of the accounts that are coded including re-submits, the codes
@@ -715,9 +706,6 @@ account session. (Filtering: Minimum of 1 user selected; max of 7 days selected)
 report is the ChangeHistory Audit Date (Check Out & Check In of the Account Dates).
 
 ![User Session Log Report](UserSesLog.png)
-
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
 
 #### Weekly Coder Activity Report
 
@@ -740,7 +728,7 @@ To qualify for this report the chart must be an inpatient patient type.
 
 ![CDI Query Detail Report](CDIQDet.png)
 
-> [!caution] No PDF Support
+> [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
 #### Consulting Provider Report
@@ -749,7 +737,7 @@ This report provides a list of all consulting provider(s) that were added to eac
 on this report is the Chart Discharged Date. To qualify for this report the chart must be Submitted and
 have at least one Consulting Provider.
 
-![Consulting Provider Report](image-431.jpg)
+![Consulting Provider Report](ConsultPro.png)
 
 #### Engine Outcome per Coder Report
 
@@ -776,24 +764,7 @@ the date range. Date Range is the date the account was discharged, beginning of 
 of end date. The date range on this report is the Chart Discharged Date. To qualify for this report the
 chart must be Submitted.
 
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
-![Report](image-433.jpg)
-
-### Potentially Preventable Complication Report
-
-This report provides a list of submitted accounts that have between one and five Potentially Preventable
-Complication (PPC) values. Up to five PPC values will display in this report, but PPC columns will not
-display if no accounts populate that column. For example, if all of the accounts in the report have a
-maximum of two PPC values, then only two PPC columns will appear in the report. The date range on
-this report is the Chart Discharged Date. To qualify for this report the chart must have PPC Grouper from
-3M CRS or GPCS, be an Inpatient, Submitted chart, with at least 1 PPC value.
-
->[!caution] Not Available For Scheduling
-> This report is not available within Scheduled Reports.
-
-![Report](image-434.jpg)
+![Payor Volumes Report](PayVol.png)
 
 ### Current Workgroup Report
 
@@ -808,37 +779,39 @@ along with total charges.
 > - If **one or more users are selected as a filter**, this report will output the current workgroup statistics for the workgroups that are assigned to only those users (mimicking the workgroup list that appears in the user's personal dashboard).
 > - CDI workgroups can have a blank "oldest discharge date" since no accounts in CDI workgroups typically have a discharge date.
 
-![Report](image-435.jpg)
+![Current Workgroup Report](CurrentWrkgrp.png)
 
 ### AMA CPT Utilization Report
 
 This report lists all users who have added or edited CPT codes on accounts for a specified date range for
-AMA license reporting. This is a report Dolbey users to report CPT code usage to the AMA.
+AMA license reporting. **This is a report Dolbey uses to report CPT code usage to the AMA.**
 
-![Report](image-436.jpg)
+![AMA CPT Utilization Report](AMACPTUse.png)
 
-### Create Topics for User Reports
+## Topics
 
-For all user reports the user can create a topic to categorize reports by type of report. For example, you
-may want to create a topic of impact reports and tag it to the following reports making a short cut when
+User reports can be categorized by topic, per organization. 
+
+For example, the following reports might be added to a topic of Impact Reports:
 you are running reports.
 
 - Physician Query Impact
 - Physician Query Impact by Discharge Date
 - CDI Financial Benefit
 
-To assign a topic to report select the report you wish to assign a topic
-to. Then select “Edit Topic”. You will then be presented with a dialog
-box to tag it to an existing topic or add a new topic. Once you have
-added a new topic, select +Add the save. To note, a report can have
-multiple topic tags.
+Reports can be filtered by topic to narrow down the list of available reports. 
 
-![Report](image-439.jpg)
+![Filter by Topic](TopicFilter.png)
 
-![Report](image-437.jpg)
+To assign a topic to report
+- Select the report
+- Click {{%button%}}Edit Topic{{%/button%}}
+- Edit the selected report ![Edit Topics Dialogue](EditTopics.png)
+  - Choose an exisiting topic from the dropdown menu
+  - Enter a name for a custom topic, and click {{%button%}}+Add{{%/button%}}
+  - Click {{%button%}}Save{{%/button%}}
 
-Now when you look for reports based upon the topic you can filter by for example impact and it will
-filter the list to those that you have classified as an
-“Impact” report.
+>[!info] 
+>A report can have multiple topic tags.
 
-![Report](image-440.jpg)
+Topics can be managed in the Topics [mapping table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#updating-mapping-tables). 
