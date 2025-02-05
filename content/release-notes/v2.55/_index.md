@@ -228,7 +228,7 @@ Administrators will now be able to create or edit documentation reviews
 without having the explicit privilege ‘Create/Edit Documentation Reviews”. It
 is uncommon to use documenation reviews for CDI users.
 
-### CIncorrect Document is Staying in Focus
+### Incorrect Document is Staying in Focus
 
 **CACTWO-6525 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
