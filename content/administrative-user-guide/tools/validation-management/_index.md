@@ -15,7 +15,7 @@ Examples of rules that can be created with this tool include:
 
 ## Creating a Validation Rule
 
-Begin by entering a rule name in the top right-hand corner of the page and then clicking on {{%button%}}+Add Rule{{%/button%}}.
+Begin by entering a rule name in the top right-hand corner of the page and then click on {{%button%}}+Add Rule{{%/button%}}.
 
 ![](2024-12-09_NewRule.png)
 
@@ -61,23 +61,25 @@ To add criteria to rule, as in the example above, click on **Add Criteria** to d
 
 Upon clicking on **Add Criteria**, you will be presented with differnt types of criteria.
 
+![](2025-02-03_ValidationMgmt1.png)
+
 **Account** - Account type criteria allows you to select fields for a patient chart/account such as discharge
 date, discharge disposition, admit date, procedure codes, diagnosis codes, and many others.
 
-**User** - User type criteria allows you to restrict the rule to a certain users role, such as a Coder or a CDI
-user role only. Typically, account-level criteria and user roles are used together, though account-level criteria can be used independently of user roles. However, creating a rule based solely on a user role without specifying any additional account-level criteria is not advisable.
-
-![](image-499.jpg)
+**User** - User type criteria allows you to restrict the rule to a certain user role(s), such as a Coder or a CDI
+user role only. Typically, account-level criteria and user roles are used together, though account-level criteria can be used independently 
+of user roles. However, creating a rule based solely on a user role without specifying any additional account-level criteria is not 
+advisable.
 
 Once you have defined the type of criteria, you can then add the details.
 
-Example: **ERROR: D/C Disposition must be present**
+Example: **Missing Discharge Disposition**
 
 Building criteria for a validation rule is much like workflow. For this example, select account, then in the
 field name find Discharge Disposition. Once you drop in the field name, it will then give you other fields.
 In this example it allows you to select an operator.
 
-![](image-500.jpg)
+![](2025-02-03_ValidationMgmt2.png)
 
 ## AND/OR Criteria
 
