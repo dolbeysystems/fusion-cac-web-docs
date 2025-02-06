@@ -2,7 +2,7 @@
 title = 'V2.56'
 +++
 
-{{< release-notes-header version="V2.55.8945" date="09/27/2024" >}}
+{{< release-notes-header version="V2.56.9036.0" date="09/27/2024" >}}
 
 ### Allow Multiple Audits on a Single Account
 
