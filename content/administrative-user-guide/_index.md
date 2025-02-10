@@ -21,7 +21,7 @@ The chat room is only active when multiple users are simultaneously accessing on
 
 A configurable "inactivity reason" prompt can be displayed upon login, if the user has been logged out for a specified amount of time. 
 
-![Inactivity Reason Prompt](InactivityPrompt.png)
+![Inactivity Reason Prompt](InactivityReason.png)
 
 If the user attempts to log in after having logged out between the minimum and maximum minutes, the user must record an "inactivity reason". There is a default set of dropdown options for the reason, which can be customized in Mapping Configuration. 
 

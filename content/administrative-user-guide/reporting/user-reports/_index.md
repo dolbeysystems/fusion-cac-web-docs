@@ -500,7 +500,7 @@ each week, per user, to calculate incentive points.
 - Categories without a value in the incentive multiplier will be calculated with an incentive multiplier of 1.0.
 - This report is like the "Weekly Coder Productivity Report" in that it reports on whole weeks, but only produces an entry if the coder first submitted an account that week.
 
-![Incentive Productiviy Report](IncentiveProductivity.png)
+![Incentive Productivity Report](IncentiveProductivity.png)
 
 #### Length of Stay Variance Report
 

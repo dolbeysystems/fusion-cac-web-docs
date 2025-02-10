@@ -3,109 +3,117 @@ title = 'Mapping Configuration'
 weight = 140
 +++
 
-Mapping Configuration is an administrative tool designed for users with an administrative role, enabling them to map data field names to user-friendly, end-user-facing names. It is highly recommended to avoid modifying data mapping tables in a production environment unless you have received proper training.
+![Mapping Configuration](MappingConfigurartion.png)
+
+Mapping Configuration is an administrative tool designed for users with an administrative role, enabling them to map data field names to user-friendly, end-user-facing names. 
+
+>[!note]
+Avoid modifying data mapping tables in a production environment unless you have received proper training.
 
 ![](2025-01-24_MappingConfig2.png)
 
-A new Export to CSV button has been added to the mapping title bar. Clicking this will export that
-mapping’s list to CSV should the mapping tables need to be reviewed outside of the application.
+{{%button%}}Export to CSV{{%/button%}} on the right-hand side of the the mapping title bar will export the selected mapping table to CSV should the table(s) need to be reviewed outside of the application.
 
-![](2025-01-24_MappingConfig1.png)
+![Export to CSV](2025-01-24_MappingConfig1.png)
 
-In the list of Active Mappings, if a mapping table does not have a red X to the right of its title, that means it is a default mapping table that cannot be removed from the system by the end user. 
+##### New Mapping Table 
 
-![](2025-01-24_MappingConfig3.png)
+A new mapping table can be added by clicking {{%button%}}+Add{{%/button%}} to the right of Active Mappings.
 
-## Updating Mapping Tables
+![Add New Mapping Table](AddMapping.png)
 
-To update any mapping table, click on a table title from the list of Active Mappings. Not every table contains the same information, but for the majority of the tables, the fileds that can be udpated include the "Key" and the "Description". The key is a unique value for that entry in the database, while the description is the friendly value that will be displayed to users. Often times these are the same, but an instance when it is not is on the "Stage" mapping table where the key value of "P" equals "Unbilled". 
+Each mapping table must have a unique ID and Title.
+- The **ID:** is how the mapping table is identified by the application. It cannot contain spaces or symbols. 
+- The **Title:** is the user friendly name for the mapping table.
 
-If you need to add values to the mapping table, click on the "Add New..." button where you can add the value to the top, or bottom of the list.
+The ID and Title will often match, but the Title tends to be nicer for users to read as it can contain spaces. 
+
+##### Editing Mapping Tables
+
+Click on a table title from the list of Active Mappings. Not every table contains the same information, but for the majority of the tables, the fields that can be updated include the key and the description. 
+- The **Key** is a unique value for that entry in the database
+- The **Description** is the friendly value that will be displayed to users. 
+
+The Key and Description may or may not match. An example of when they differ is the "Stage" mapping table where the key value of "P" equals "Unbilled". 
+
+To add values to the mapping table, click {{%button%}}+Add New...{{%/button%}} to either the top or bottom of the list as desired.
 
 ![](2025-01-24_MappingConfig4.png)
 
-To arrange the order of the values in the mapping table, you can sort either column by Ascending or Descending order by using the arrow buttons. 
+Table values can be sorted by Ascending or Descending order using the arrow buttons. 
 
 ![](2025-01-24_MappingConfig6.png)
 
-You can also move each value individually by using the "Action" buttons.
+Each value can be individually moved using the "Action" buttons.
 
 ![](2025-01-24_MappingConfig5.png)
 
+Table rows can also be reordered by clicking the white space in the desired row, dragging, and dropping it in the new location. 
 
-## Unique Mapping Tables ##
+Some tables can be removed by clicking the red X in the Active Mapping list.
 
-While many of the mapping tables are set up the same way, there are a few that are unique and have more fields to enter. These unique tables will be reviewed below. 
+If a mapping table does not have a red X to the right of its title, that means it is a default mapping table that cannot be removed from the system. 
 
-### Category Mapping Table 
+![](2025-01-24_MappingConfig3.png)
 
-#### Incentive Multiplier Column 
+#### Special Mapping Columns & Tables
 
-The "Incentive Multiplier" column has been added to the Category mapping table. The
-administrator can optionally record an incentive multiplier that is used in the Incentive Productivity
-Report. Categories without a value in the incentive multiplier will be calculated with an incentive
-multiplier of 1.0.
+While many of the mapping tables are set up the same way, several are unique and have more fields available to edit. 
+ 
+### Category Mapping:
 
-The "Incentive Productivity Report" reports on whole weeks, but only produces an entry if the coder first
-submitted an account that week. This report pulls its data in real-time.
+##### Incentive Multiplier
+
+Incentive Multiplier allows administrators to optionally record an incentive multiplier that is used in the Incentive Productivity Report. Categories without a value in this column will be calculated with an incentive multiplier of 1.0.
 
 ![](image-541.jpg)
 
-#### HCC Indicators
+The [Incentive Productivity Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#incentive-productiviy-report) reports on whole weeks, but only produces an entry if the coder first submitted an account that week. This report pulls its data in real-time.
 
-The Display HCC column has been added to the Category mapping and does a few things. 
+##### Display HCC Indicators
 
-1. Turns HCC Indicators next to diagnosis codes assigned to the “Assigned Code” Tree, when the user 
-assigns a code that has a CMS HCC a small H indicator appears.
-  - The version of HCC for calendar year 2023 (retroactively) and 2024 will display when the user hovers over the H in the Assigned Codes panel.
+- When the user assigns a code that has a CMS HCC, a small H indicator appears.
+  - The current version of HCC *and* the version for the previous calendar year (retroactively) will display when the user hovers over the H in the Assigned Codes panel.
   ![](image-544.jpg)
-2. For any subsequent time, a patient chart that shares the same MRN number that previously had
-HCC’s the user will see in the navigation tree a Previous HCC Overview Menu.
-3. There is a field that will capture current HCC total for each chart in account search.
+- The Previous HCC Overview will be available in the Navigation Tree for any subsequent patient chart with the same MRN number that previously had HCC’s.
+  
+  ![Previous HCC Overview](image-545.png)
 
-![](image-545.png)
+- Current HCC Total will be captured for each chart and is viewable in account search.
 
-> [!caution] HCC Indicators Are Not Retroactive
-This will not capture data that existed prior to turning this feature on in the mapping
-table. These are turned on in mappings. Under the Categories mapping there is a check box.
-When HCC's are enabled, these will display below grouped by HCC category and by code,
-showing the account number and MRN # for the associated visit.
+> [!note] HCC Indicators Are Not Retroactive
+HCC data that existed prior to enabling this feature in the mapping table will **not** be captured. 
 
-### Pending Reasons Mapping Table
 
-To add/edit pending reasons, in the list of Active Mappings select the "Pending Reasons” mapping table. Then click the “Add New Pending
-Reason” button. This particlar mapping table offers additional options that can be linked to each pending reason, including Facilities, Categories, and Roles. Administrators have the flexibility to leave these fields blank - applying the pending reason universally - or specify particular options to tailor how the pending reason is applied. 
+### Pending Reasons Mapping:
 
-A checkbox is displayed next to each pending reason, enabling users to associate a pending reason with a physician. Additionally, there is another checkbox to indicate if a date is required, when applicable.
+Administrators can specify the facilities, categories, or roles each pending reason applies to. Alternatively, these fields can be left blank to apply the pending reason universally. 
 
 ![](2025-01-29_MappingConfig7.png)
 
-> [!note] Physician Required Checkbox
-When a pending reason has the Physician Required box checked, the user will be prompted for a
-physician when a pending reason is assigned to an account. The prompt will force a physician to be
-selected, and that physician will appear in the Code Summary page and in the Pending Reasons report.
+When a pending reason has the Physician Required box checked, the user will be prompted for a physician when that pending reason is assigned to an account. The selected physician will appear on the Code Summary page and in the [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#pending-reasons-report) report.
 
-### CDI Review Types Mapping Table
+ Additionally, there is another checkbox to indicate a date is required, when applicable.
 
-CDI Review types are a custom type of review that are not enabled at every site. To see the use of custom reviews go to CDI User Guide, then Chart Reviews, within this user manual.
+### CDI Review Types Mapping:
 
-To add a custom CDI Review Type, in the list of Active Mappings, select "CDI Review Types” then click the “Add New CDI
-Review Types” button. Enter the Key and Description for the new review and sort it in the exisitng list as needed. 
+CDI Review types are custom and not enabled at every organization. Additional information on the use of custom reviews can be found [here](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-reviews/).
 
 > [!note] Note: Changing Existing Types
 Changing an existing CDI Review Type will change reporting and dashboards.
 
-### Payor Mapping Table
+### Payor Mapping:
 
-The "Days to Bill" column has been added to the Payor mapping table. This column will tell the user how many days are left to bill the payor. 
+The "Days to Bill" column indicates how many days are left to bill the payor. 
+- A default value can be set, which will apply to any payor in the mapping table without a specified value in the "Days to Bill" column. 
 
-There are two ways to specify the number of days to bill for each payor. First, a default value can be set, which will apply to any payor in the mapping table without a specified value in the "Days to Bill" column. Second, you can individually assign the number of days to bill for each payor directly.
+  ![](2025-01-29_MappingConfig8.png)
 
-![](2025-01-29_MappingConfig8.png)
+- Each payor can have a unique number of days to bill
 
-![](2025-01-29_MappingConfig9.png)
+  ![](2025-01-29_MappingConfig9.png)
 
-The billing date is compared to the current date (or the last submitted date if the account has already been submitted) to calculate the "Billing Countdown," which represents the number of days remaining to submit the account. If an account has no payor, no matching payor mapping, or a payor mapping without "bill days" defined, the "default bill days" value is used. If the "default bill days" field is blank, a value of zero is applied.
+The billing date is compared to the current date (or the last submitted date if the account has already been submitted) to calculate the "Billing Countdown," which represents the number of days remaining to submit the account. If an account has no payor, no matching payor mapping, or a payor mapping without a value in the "Days to Bill" field, the "Default Days to Bill" value is used. If the "Default Days to Bill" field is blank, a value of zero is applied.
 
 A "Billing Countdown" field can be added from Grid Column Configuration to use
 for account search filters and workflow. See a use case for this workflow in the screenshot below:
