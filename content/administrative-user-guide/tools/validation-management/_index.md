@@ -55,21 +55,19 @@ Example: **Missing Discharge Disposition** - The end user would know they have t
 
 ### Type of Criteria
 
-To add criteria to rule, as in the example above, click on **Add Criteria** to define how the system fires this rule.
+To add criteria to a rule, as in the example above, click on **Add Criteria** to define how the system will fire the rule.
 
 ![](2025-01-16_AddCriteria.png)
 
-Upon clicking on **Add Criteria**, you will be presented with differnt types of criteria.
+Upon clicking on **Add Criteria**, you will be presented with differnt types of conditions.
 
 ![](2025-02-03_ValidationMgmt1.png)
 
-**Account** - Account type criteria allows you to select fields for a patient chart/account such as discharge
+**Account** - Account type condition allows you to select fields for a patient chart/account such as discharge
 date, discharge disposition, admit date, procedure codes, diagnosis codes, and many others.
 
-**User** - User type criteria allows you to restrict the rule to a certain user role(s), such as a Coder or a CDI
-user role only. Typically, account-level criteria and user roles are used together, though account-level criteria can be used independently 
-of user roles. However, creating a rule based solely on a user role without specifying any additional account-level criteria is not 
-advisable.
+**User** - User type condition allows you to restrict the rule to a certain user role(s), such as a Coder or a CDI
+user role only. Typically, account-level condition and user roles are used together, though account-level condition can be used independently of user roles. However, creating a rule based solely on a user role without specifying any additional account-level criteria is not advisable.
 
 Once you have defined the type of criteria, you can then add the details.
 
@@ -90,18 +88,18 @@ Validation Rules, much like workflow, has two different options to create a vali
 
 ### Example of AND Criteria
 
-At the end of each criterion, you add an “AND” (see below). This criterion will cause the validation rule
-to display if the patient has both a newborn Z code AND an admit type of 4.
+At the end of each criterion, you add an “AND” (see below). In this example, this criterion will cause the validation rule to display if the account is missing a discharge disposition and the user is not a CDI role. 
 
-![](image-498.jpg)
+![](2025-02-10_ValidationMgmt3.png)
 
 ### Example of OR Criteria
 
 At the end of each criterion, you add an “OR” (see below). When you add an OR criteria it will turn blue
-to differentiate between the first and second statement. This criterion will cause the validation rule to
-display if the patient has either a newborn Z code OR an admit type of 4.
+to differentiate between the first and second statement. In this example, this criterion will cause the validation rule to display if the account is missing a discharge disposition or the disposition is Still a Patient.
 
-![](image-501.jpg)
+![](2025-02-10_ValidationMgmt4.png)
+
+Below are the different operators that are available and their description.
 
 | Operator             | Description |
 | -------------------- | ----------- |
