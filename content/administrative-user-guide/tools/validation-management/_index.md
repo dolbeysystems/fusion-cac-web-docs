@@ -3,7 +3,7 @@ title = 'Validation Management'
 weight = 100
 +++
 
-![Validation Management](ValidationManagement.png)
+![Validation Management](2025-02-11_ValidationMgmt5.png)
 
 Validation Management allows user roles with the correct permission to create rules that show up on the code summary page prior to submitting an account. These rules can be made to either prevent an account from being submited until certain requirements are met, or issue a warning to alert users about incomplete items while still allowing the user to submit an account. 
 
@@ -42,15 +42,11 @@ Start by selecting the **Level** from the dropdown menu on the left-hand side of
 ### Defining the Criteria
 
 Once you have selected the level of the validation rule you want to create, you must define what the
-criteria is starting with the verbiage you want to display to the end user. For example, you can display an
-error if a chart does not have a discharge disposition so it does not get submitted to billing without one.
-Since we would want to warn the Coder and not the CDI specialist, we would add another criterion input
-so user role is not equal to CDI specialist. First, type in the display name; this will be what the user will see on the code summary. 
-Keep the informaiton concise, but also provide how they can fix the error.
+criteria is starting with the verbiage you want to display to the end user. To do that, type in the display name; this will be what the user will see on the code summary. Keep the information concise, but also provide how they can fix the error.For example, you can display an error if a chart does not have a discharge disposition so it does not get submitted to billing without one.
 
 Example: **Missing Discharge Disposition** - The end user would know they have to add the disposition to continue.
 
-![](2025-01-16_ValidationRule.png)
+![](2025-02-11_ValidationMgmt6.png)
 
 
 ### Type of Criteria
@@ -59,47 +55,23 @@ To add criteria to a rule, as in the example above, click on **Add Criteria** to
 
 ![](2025-01-16_AddCriteria.png)
 
-Upon clicking on **Add Criteria**, you will be presented with differnt types of conditions.
+Upon clicking on **Add Criteria**, you will be presented with differnt types of conditions for the criteria: Account or User.
 
 ![](2025-02-03_ValidationMgmt1.png)
 
-**Account** - Account type condition allows you to select fields for a patient chart/account such as discharge
-date, discharge disposition, admit date, procedure codes, diagnosis codes, and many others.
+**Account** - Account type allows you to select fields for a patient chart/account such as discharge
+date, discharge disposition, admit date, procedure codes, diagnosis codes, and many others. All of the options will appear as a dropdown in the "Filed" box.
 
-**User** - User type condition allows you to restrict the rule to a certain user role(s), such as a Coder or a CDI
-user role only. Typically, account-level condition and user roles are used together, though account-level condition can be used independently of user roles. However, creating a rule based solely on a user role without specifying any additional account-level criteria is not advisable.
+**User** - User type allows you to restrict the rule to a certain user role(s), such as a Coder or a CDI Specialst. Typically, account-level criteria and user roles are used together. Account-level criteria can be used independently of user roles; however, creating a rule based solely on a user role without specifying any additional account-level criteria is not advisable.
 
-Once you have defined the type of criteria, you can then add the details.
+Once you have defined the type of criteria (Accounr or User) and the field that you want to trigger the rule, you will be presented with the Operator and Value of the operator.
 
-Example: **Missing Discharge Disposition**
+![](2025-02-11_ValidationMgmt7.png)
 
-Building criteria for a validation rule is much like workflow. For this example, select account, then in the
-field name find Discharge Disposition. Once you drop in the field name, it will then give you other fields.
-In this example it allows you to select an operator.
+>[!Note]
+Value is not applicable to the Operators of "Exisits" or "Does Not Exist". 
 
-![](2025-02-03_ValidationMgmt2.png)
-
-## AND/OR Criteria
-
-Validation Rules, much like workflow, has two different options to create a validation rule.
-
-1. AND criteria
-2. OR Criteria.
-
-### Example of AND Criteria
-
-At the end of each criterion, you add an “AND” (see below). In this example, this criterion will cause the validation rule to display if the account is missing a discharge disposition and the user is not a CDI role. 
-
-![](2025-02-10_ValidationMgmt3.png)
-
-### Example of OR Criteria
-
-At the end of each criterion, you add an “OR” (see below). When you add an OR criteria it will turn blue
-to differentiate between the first and second statement. In this example, this criterion will cause the validation rule to display if the account is missing a discharge disposition or the disposition is Still a Patient.
-
-![](2025-02-10_ValidationMgmt4.png)
-
-Below are the different operators that are available and their description.
+Below are the different Operators that are available and their description.
 
 | Operator             | Description |
 | -------------------- | ----------- |
@@ -122,99 +94,96 @@ Below are the different operators that are available and their description.
 | Includes Any Of      | If you have more than one value and it could be any of the following. |
 | Does not Include     | If you have more than one value, you do not want it to equal you must use “Not In List” |
 
+## AND/OR Criteria
 
+Validation Rules, much like workflow, has two different options to create a validation rule.
 
-Once you have selected the field and your operator add a value.
+1. AND criteria
+2. OR Criteria.
 
-Example: **ERROR: D/C Disposition must be present** We might select **Does Not Exist** as an operator. This would
-mean if a discharge disposition does not exist, then this rule would display on the code summary and prevent 
-the user from submitting the chart.
+### Example of AND Criteria
 
-![](image-503.jpg)
+At the end of each criterion, you add an “AND” (see below). In this example, this criterion will cause the validation rule to display if the account is missing a discharge disposition AND the user is not a CDI role. 
 
-Additionally, we may only want to display this rule if the user has a role of a coder. To constrain the rule further,
-click on the **Add Criteria** again, select user, and then select “Is not CDI Specialist”. This will prevent the
-rule from display to a user with a role of a CDI.
+![](2025-02-10_ValidationMgmt3.png)
 
-![](image-502.jpg)
+### Example of OR Criteria
 
-### For Each Check Box
+At the end of each criterion, you add an “OR” (see below). When you add an OR criteria it will turn blue
+to differentiate between the first and second statement. In this example, this criterion will cause the validation rule to display if the account is missing a discharge disposition OR the disposition is Still a Patient.
 
-**For each** is used for fields that are repetitive. For example, a field like discharge disposition is a single
+![](2025-02-10_ValidationMgmt4.png)
+
+## For Each Check Box
+
+![](2025-02-11_ValidationMgmt8.png)
+
+**For Each** is used for fields that are repetitive. For example, a field like discharge disposition is a single
 field (there are not multiple discharge dispositions on a patient chart) therefore, you do not need the
 "for each" checkmark.
 
 The **For Each** checkmark makes sense when you’re trying to create a rule that would have multiple
 outcomes, such as checking if any diagnosis codes have a POA status of U. We don’t want to check only
-the first diagnosis rather we want to check all diagnosis to see if it has a status of U. **For Each** can also be
-used if you want to check if a procedure code has a date of service and/or provider attached. We don’t
-want to just check the first procedure code for the date of service, we want to check each of them.
+the first diagnosis rather we want to check all diagnoses to see if it has a status of U. **For Each** can also be
+used if you want to check if a procedure code has a date of service and/or a provider attached to the procedure. We don’t want to just check the first procedure code for the date of service, we want to check each of them.
 
-To use this field, first select **For Each** before defining a field. The system will open another drop-down
-field to the right of **For Each** to indicate where you want to create the rule. There are only a handful of
-fields the **For Each** field make sense for: charges, CPT codes, diagnosis codes, procedures, pending
-reasons, and physicians.
+To use this field, you must *first* select the **For Each** checkbox before selecting a field. The system will open another drop-down field to the right of **For Each** to indicate where you want to create the rule. There are only a handful of fields the **For Each** field make sense for, which can be seen in the screenshot below. 
 
-Once you have selected a fields, you need to define the field you are looking for.
+![](2025-02-11_ValidationMgmt9.png)
+
+Once you have selected a field, you need to define the field you are looking for.
+
 Example: Place an error reminding the Coder to add the POA status on any diagnosis code that has a U
 Click on **For Each**, then select diagnosis codes. Select POA from the field drop-down menu which will
 allow you to review operators. For this example, use the operator of Equals. Once you select the
 operator of Equals, then you have a field to fill in the value, which would e be “U” in this example.
 
-![](image-504.jpg)
+![](2025-02-11_ValidationMgmt10.png)
 
-Then, because it makes sense to direct the coder to where the diagnosis code was validated or added,
-we can then select Navigate to document code and it will take the end user back to the documentation
-so they can review and assign the POA status appropriately.
-
-### Adding fields to a rule
+## Adding fields to a rule
 
 You can add fields to the rule to tell the user exactly what POA is triggering this rule so they don’t have
 to look through all of the codes to determine which one has a U status.
 
-You can inject a field within the rule that will be displayed for the end-user. Do this by putting the field
-name in braces exactly like this {Code}. When the rule fires for the end-user, it will display the code with
-the issue. If there are multiple, use the For Each
-field to see each of the codes that are the issue as
-an individual rule.
+You can inject a field within the rule that will be displayed for the end-user. Do this by putting the *field name* in braces exactly like this {Code}. 
 
-![](image-506.jpg)
+![](2025-02-11_ValidationMgmt11.png)
 
-### Navigate To
+When the rule fires for the end-user, it will display the code with the issue. If there are multiple, use the **For Each** field to see each of the codes that are the issue as an individual rule.
 
-Once you have defined your rule, you will want to decide if it makes sense to take the end user
+![](2025-02-11_ValidationMgmt12.png)
+
+## Navigate To
+
+When your rule has been defined, you will want to decide if it makes sense to take the end user
 somewhere in the software to correct the issue based on the rule created. In the example of a discharge
 disposition, it does make sense to direct the user to go to the account information
-page as that is where they would likely change the disposition. Under where you
-selected the level, there is a field for
+page as that is where they would likely change the disposition. 
 
-![](image-505.jpg)
+Under where you selected the level when creating a rule, there is a field for "Navigate to".
 
-**Navigate** to (these are placed within the patient chart, under the navigation pane).
+![](2025-02-11_ValidationMgmt14.png)
+
+**Navigate to** will take the user to either the navigation pane or a place within the patient chart if the click on the error/warning. The following are the options for this function and where in the application the user will be directed to:
 
 - **None** – Will not take the user anywhere if they click on the error/warning.
-- **Charges** – Will take the user to the charges viewer.
 - **Account Info** – Will take the user to the account information viewer.
-- **Document Code** – Will take the user to where the code was validated/added.
+- **Charges** – Will take the user to the charges viewer.
+- **Document Code** – Will take the user to where the code was validated/added within the documentation.
+- **E/M Level** - Will take the user to the E/M Level viewer.
+- **Notes & Bookmarks** - Will take the user to the Notes & Bookmarks viewer.
 - **Physicians & Queries** – Will take the user to the Physicians & Queries viewer.
+- **Working DRG History** - Will take the user to the Working DRG History viewer. 
 
-### Pending Reason
+## Pending Reason
 
-![](image-508.jpg)
+This field will have a dropdown with all available pending reasons. If a rule is triggered on an account and it has a pending reason attached, then the pending reason will be added and the user will be able to see the number of the rule. Pending reasons that have a physician or date requirement will NOT be available in this list. The
+only way to remove a pending reason that was added by a rule is to have that rule cleared.
 
-This field will have a dropdown with all available pending reasons.
-If a rule is triggered on an account and it has a pending reason
-attached, then the pending reason will be added and the user will
-be able to see the number of the rule. Pending reasons that have a
-physician or date requirement will NOT be available in this list. The
-only way to remove a pending reason that was added by a rule is
-to have that rule cleared
+![](2025-02-11_ValidationMgmt15.png)
 
-### Saving your Rule
+## Saving your Rule
 
-Once you’ve completed adding criteria for your validation rule
-remember to click on Save Rules in the top right-hand corner. It is
-recommended that you test your validation rule by opening a chart that
-fits the criteria of your validation rule
+Once you’ve completed adding criteria for your Validation Rule, remember to click on Save Rules in the top right-hand corner. It is recommended that you test your Validation Rule by opening a chart that fits the criteria of your Validation Rule
 
-![](image-507.jpg)
+![](2025-02-11_ValidationMgmt13.png)
