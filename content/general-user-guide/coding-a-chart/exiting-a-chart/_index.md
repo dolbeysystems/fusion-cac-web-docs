@@ -19,13 +19,13 @@ This action cancels all work in the chart and either returns the user to the Wor
 
 ![Save Button](Save.png)
 
-This action saves the users work and either returns to the Workgroup or autoloads the next account (if autoload is selected).
+This action saves the users work and will ask the user if they want to stay in the account or exit the account. If the user wishes to exit, they will either be returned to the Workgroup or the nex account will be autoloaded (if autoload is selected).
 
 ### Submit 
 
 ![Submit Button](Submit.png)
 
-This action saves **and** sends the users work to the next phase of workflow, based on the organizations requirements. The user is either returned to the Workgroup or the next account via autoload (if autoload is selected).
+This action saves **and** sends the user's work to the next phase of workflow, based on the organization's requirements. The user is either returned to the Workgroup or the next account via autoload (if autoload is selected).
 
 ### Account Changed Warning Box
 

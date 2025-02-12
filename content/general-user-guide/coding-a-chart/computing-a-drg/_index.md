@@ -8,12 +8,12 @@ weight = 13
 
 {{% children depth=999 %}}
 
-### Code Sequencing
+## Code Sequencing
 
 There are multiple ways to re-sequence codes that have been validated and added to a chart. Dolbey's recommendation is to re-sequence codes using the existing encoder. 
 
 
-##### Code Sequencing and Grouping with Encoder
+### Code Sequencing and Grouping with Encoder
  
 After clicking the Compute button, all patient demographic information and validated codes are uploaded to the existing encoder. 
 
@@ -21,7 +21,7 @@ After clicking the Compute button, all patient demographic information and valid
 
 Use the encoder to re-sequence codes, complete grouping, and complete the encoder session to return the computed grouping and re-sequenced codes to Fusion CAC. From here you will be directed to the Code Summary page for review of Validation Results (and resolution or errors), Assigned Diagnosis Codes, and Assigned Procedure Codes.
 
-##### Code Sequencing with CAC
+### Code Sequencing with CAC
 
 If grouping and billing edits are not required, codes can be re-sequenced by dragging and dropping codes within the Assigned Codes Pane.
 Left click and hold the code to be re-sequenced, then move it to the new sequence location and release.
@@ -31,6 +31,6 @@ Left click and hold the code to be re-sequenced, then move it to the new sequenc
 ![Compute without Resequence](ComputeWOResequence.png)
 
 
-### Computing a DRG/Grouping
+## Computing a DRG/Grouping
 
 Use the Compute button to launch the encoder and proceed with confirmation of codes and sequencing to complete grouping and return the computed grouping and codes to Fusion CAC.
