@@ -8,7 +8,7 @@ weight = 11
 
 {{% children depth=999 %}}
 
-### Validating a Code
+## Validating a Code
 
 Codes can be validated/added to the chart as Assigned Codes while reviewing documents and the suggested codes within each document.
 Right-click on the code to Edit/Assign the code.
@@ -19,17 +19,17 @@ Right-click on the code to Edit/Assign the code.
 |![Red Text Secondary Token](RedText.png)|If the background of the text suggestion has a red background, the text matches only a secondary token|
 |![Green Highlighted Code](GreenHighlight.png)|If the background of the code has a green background this means the code was already validated on a different document
 
-### Adding a Code
+## Adding a Code
 
-There are multiple ways to add a code to a chart, if it has not already been suggested by the engine
+There are multiple ways to add a code to a chart if it has not already been suggested by the engine.
 
-#### Add Code via Right Click
+### Add Code via Right Click
 
 After reviewing all suggested codes from either the Documents Pane or the Unassigned Code Pane, users can add a code to a text document by highlighting the relevant word(s) or phrase and then right-clicking to open the Add Code menu. 
 
 ![Right Click Add Code Menu](AddCodeMenu.png)
 
-#### Add Code via Direct Entry
+### Add Code via Direct Entry
 
 The {{%button%}}Add Code{{%/button%}} box can be used when the code to be assigned is known and encoder is not needed. 
 
@@ -46,14 +46,14 @@ Users may also enter the text description of the code and select the code that w
 
 >[!Note] Either a Diagnosis or Procedure/CPT® code can be entered from the Code Editor window. 
 
-#### Add Code From Encoder
+### Add Code From Encoder
 
 Users can add a code to a text document by highlighting the relevant word(s) or phrase and then right-clicking to open the Add Code menu. Left-click and drag the mouse to highlight the selected text for code addition, then right-click to open the Add Code Menu. 
 Click on the Add Code from Encoder  +  sign to launch the Encoder. Continue to use the encoder and accept the final code which will be returned to your chart.
 
 ![Add Code From Encoder Right Click](AddFromEncoder.png)
 
-#### Add Code to Scanned Documents
+### Add Code to Scanned Documents
 
 The engine does not suggest codes from scanned documents. Users can add codes to scanned documents for codes not assigned elsewhere within the chart.  Adding codes to scanned documents is recommended *only* when a code has not already been added to a text document within the chart or documentation to be coded is not found elsewhere.
 
@@ -63,7 +63,7 @@ Codes added to the scanned document will appear in the Additonal Codes space at 
 
 ![Add Code to Scanned Document](AddToScanned.png)
 
-#### Add Code From Codebook
+### Add Code From Codebook
 
 Users can add a code to a text document by highlighting the relevant word(s) or phrase and then right-clicking to open the Add Code menu. Left-click and drag the mouse to highlight the selected text for code addition, then right-click to open the Add Code Menu. 
 Click on Add Code from Encoder + to launch the Encoder. Continue to use the encoder and accept the final code which will be returned to the chart.
@@ -77,11 +77,11 @@ Left-click and drag the mouse to highlight the selected text for code addition, 
 
 ![Code Description Search Menu](CodeDescriptionSearch.png)
 
-### Supporting Evidence 
+## Supporting Evidence 
 
 Supporting evidence is defined as the components within the chart that were used to make up any suggested codes.
 
 ![Supporting Evidence Box](SupportingEvidence.png)
 
-The supporting details help the user understand why the engine suggested a code. Clicking on the down arrow next to the code will show the words/phrases used to create the code. This linkage will allow users to determine if the code is correct or if it tried to put two thoughts together together incorrectly. 
+The supporting details help the user understand why the engine suggested a code. Clicking on the down arrow next to the code will show the words/phrases used to create the code. This linkage will allow users to determine if the code is correct or if it tried to put two thoughts together incorrectly. 
   
