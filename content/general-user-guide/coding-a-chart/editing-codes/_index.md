@@ -9,7 +9,7 @@ weight = 12
 
 
 
-To edit an existing or suggested code, left click on the code to bring up the encoder and Code Editor windows.  If the user is set up with dual monitors, the encoder window can be moved to the second monitor to remain open as they work through validation of each the engine suggested codes. From the Code Editor window, users can update codes from the code drop-down menu, via Direct Entry, or Encoder.  The POA indicator and code status (Admit, Principal, or Secondary) can also be updated in the Code Editor.
+To edit an existing or suggested code, left click on the code to bring up the encoder and Code Editor windows.  If the user is set up with dual monitors, the encoder window can be moved to the second monitor to remain open as they work through validation of each of the engine suggested codes. From the Code Editor window, users can update codes from the code drop-down menu, via Direct Entry, or Encoder.  The POA indicator and code status (Admit, Principal, or Secondary) can also be updated in the Code Editor.
 
 To change a code, place the curser in the drop-down box where the code to be changed is displayed. Code parts, such as the code extension, can be edited instead of removing the whole thing.
 
@@ -30,7 +30,7 @@ Users have the option to minimize and restore the Code Editor window to continue
 |![Restore Code Editor Button](RestoreEditor.png)|Restores the Code Editor window to full size for review and completion|
 
 
-### Adding Procedure Code Data
+## Adding/Editing Procedure Code Data
 
 ![Procedure Code Editor](PCSCodeEditor.png)
 
@@ -38,14 +38,15 @@ Procedure codes typically require additional information such as Physician and D
 
 To enter in a date and physician to the procedure codes, right-click on the procedure code and then select Edit Procedure Info from the menu. After selecting a procedure code, the Code Editor window for the selected procedure code will open.
 
-##### Add Procedure Date
+### Add Procedure Date
 
 To enter the procedure date, start entering the date in MM/DD/YYYY format or click on the calendar to select the procedure date. 
 
-##### Add Physician
+### Add Physician
 
 To add the physician, click into the **Add physician…** drop-down menu. Start entering the name of the physician who completed the procedure, then select the physician’s name to complete this field. At least 3 characters of the physician’s last name are needed to view the drop-down listing. Continue entering characters of the physician’s last name to narrow the listing of physicians to choose from. 
-##### Add Additional Procedure Details
+
+### Add Additional Procedure Details
 
 Click on the ellipsis {{%button%}}...{{%/button%}} button under the Action heading. 
 
@@ -56,9 +57,9 @@ Users have the option to minimize and restore the Code Editor window to continue
 
 ![Restore Code Editor Button](RestoreEditor.png)
  
-### Mass Editing Codes
+## Mass Editing Codes
 
-Mass editing of codes can be accessed by right clicking and selecting “Edit All Codes” on any of the code headers such as assigned diagnosis, assisted procedures, admit diagnosis. 
+Mass editing of codes can be accessed by right clicking and selecting “Edit All Codes” on any of the code headers such as assigned diagnosis, assigned procedures, admit diagnosis. 
 
 ![Right Click Edit All Codes](RCEditAllCodes.png)
 
@@ -71,7 +72,7 @@ The CPT code section has a Modifier column with a plus sign.  Clicking the plus 
 
 >[!Note] PCS and CPT codes can be updated together. If there is a check mark, the change will be made to both the CPT and the Procedure Code.  When both CPT and Procedure are selected together, only the Physician and Date can be changed.    
 
-### Add Another Episode
+## Add Another Episode
 
 Right clicking on a procedure allows the user to add another instance of the same procedure without needing to duplicate the effort of recoding the procedure.
 
