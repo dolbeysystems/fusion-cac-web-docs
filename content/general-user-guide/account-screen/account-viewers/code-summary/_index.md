@@ -104,7 +104,7 @@ Use the Claim Ownership feature based on the organization’s requirements and p
 
 ![Final Code Summary Viewer](FinalCodeSumViewer.png)
 
-The final code summary will only be available once the facility coder clicks the submit button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded for along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/).  
+The final code summary will only be available once the facility coder clicks the submit button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/).  
 
 ![Final Code Summary](FinalCodeSummary.png)
 
