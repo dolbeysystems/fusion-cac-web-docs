@@ -5,7 +5,7 @@ weight = 11
 
 In the Code Summary Viewer at the bottom, you'll find the Algorithm for Quality Indicators, which outlines the methodology used to identify Pediatric Quality Indicators (PDI), Patient Safety Indicators (PSI), Quality Measure PC-06, and Elixhauser Measures. 
 
-#### PSI Indicators
+## PSI Indicators
 
 The PSI Module uses the PSI technical specification from Agency for Healthcare Research and Quality
 U.S. Department of Health and Human Services from [www.qualityindicators.ahrq.gov](https://qualityindicators.ahrq.gov/).
@@ -18,7 +18,7 @@ The PSI is reported in one of two fields CDI PSI Indicator or PSI Indicator. The
 
 ![PSI Algorithm Flag](PSIAlgorithm.png)
 
-#### PDI Indicator
+## PDI Indicator
 
 The PDI Module uses the PDI technical specification from Agency for Healthcare Research and Quality
 U.S. Department of Health and Human Services [www.qualityindicators.ahrq.gov](https://qualityindicators.ahrq.gov/).
@@ -34,7 +34,7 @@ The algorithm for the PDI on if it applied or not is within the code summary pan
 >[!Note] If a code that causes an exclusion for a PSI or PDI occurs in the top 25 codes (or custom limit set by the organization) the PSI/PDI will show in the banner, with an asterisk next to it, to indicate the PSI was conditionally applied.  The algorithm at the bottom of the Code Summary viewer will show the reason why. 
 
 
-#### PC-06 Indicator
+## PC-06 Indicator
 
 The Quality Measure Module supports the PC06 measure and uses the Joint Commission technical
 specification [https://manual.jointcommission.org/releases/TJC2018B/MIF0393.html](https://manual.jointcommission.org/releases/TJC2018B/MIF0393.html).
@@ -46,7 +46,7 @@ guideline. Fusion CAC provides an indicator on the banner bar to a coder when co
 patient demographics meet a PC-06 guideline. The indicator can be used for workflow and/or reporting.
 
 
-#### Elixhauser Comorbidity Measure Indicator
+## Elixhauser Comorbidity Measure Indicator
 
 The Elixhauser Comorbidity Index is a method of categorizing comorbidities of patients based on the
 International Classification of Diseases (ICD) diagnosis codes. The indicator can be used for workflow
