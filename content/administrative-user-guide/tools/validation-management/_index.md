@@ -87,34 +87,24 @@ In this example it allows you to select an operator.
 
 Validation Rules, much like workflow, has two different options to create a validation rule.
 
-1. AND criteria
-2. OR Criteria.
-
-### Example of AND Criteria
-
-At the end of each criterion, you add an “AND” (see below). This criterion will cause the validation rule
-to display if the patient has both a newborn Z code AND an admit type of 4.
-
-![](image-498.jpg)
-
-### Example of OR Criteria
-
-At the end of each criterion, you add an “OR” (see below). When you add an OR criteria it will turn blue
-to differentiate between the first and second statement. This criterion will cause the validation rule to
-display if the patient has either a newborn Z code OR an admit type of 4.
-
-![](image-501.jpg)
+1. **AND criteria** - think of adding the word "and" to the end of each criterion
+    ![Example of And Criteria](ANDCriteria.png)
+    This rule will trigger if the user is a CDI Specialist **and** the discharge disposition does not exist 
+2. **OR criteria** - think of adding the word "or" to the end of each criterion in blue. OR criteria will turn blue
+to differentiate between the conditions
+    ![Example of Or Criteria](ORCriteria.png)
+    This rule will trigger if the user is a CDI Specialist and the discharge disposition equals 30 **or** does not exist 
 
 | Operator             | Description |
 | -------------------- | ----------- |
-| Equals               |One value must be the same as another value. This is case sensitive|
+| Equals               |One value must be the same as another value. **Case sensitive**|
 | >                    |The value on the left must be greater than the value on the right|
 | <                    |The value on the left must be less than the value on the right|
 | >=                   |The value on the left must be greater than or equal to the value on the right|
 | <=                   |The value on the left must be less than or equal to the value on the right|
 | In List              |The value can be any of the following listed items|
-| Not In List          |The value should not be any of the listed items|
-| Contains             |The value that can contain exactly what is entered. This is common when including payors.|
+| Not In List          |The value can not be any of the listed items|
+| Contains             |The value can contains   entered. This is common when including payors.|
 | Only Contains        |Any one of the codes it is not needed to do all 3. |
 | Exists               | This will search to see if anything “exists” in this field, if it’s not blank it will match. No value is needed after the operator. |
 | Does not Exist       | This will search to see if anything “does exists” in this field if it’s blank it will match. No value is needed after the operator. |
