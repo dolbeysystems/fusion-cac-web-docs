@@ -70,7 +70,7 @@ Each code has a checkbox, and each section has an ‘ALL’ checkbox. If the use
 The CPT code section has a Modifier column with a plus sign.  Clicking the plus will open up the details window to add/change Modifier, plus other items that are included in that window.  Clicking on the ellipsis symbol next to the Episode field will also open the details. The user can add up to 4 modifiers, unless they are using the 3M™ Coding and Reimbursement System (CRS) then they will be able to add up to 5 modifiers.
  
 
->[!Note] that you can update PCS and CPT codes together. If there is a check mark, the change will be made to both the CPT and the Procedure Code.  When both CPT and Procedure are selected together, only the Physician and Date can be changed.    
+>[!Note] PCS and CPT codes can be updated together. If there is a check mark, the change will be made to both the CPT and the Procedure Code.  When both CPT and Procedure are selected together, only the Physician and Date can be changed.    
 
 ## Add Another Episode
 
