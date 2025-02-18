@@ -329,7 +329,7 @@ physician query until a response is received, a query can now be created and
 not sent. When enabled, a physician query will show a “Continue” button in
 place of “Send”. Clicking the ‘Continue’ button will refresh the query to open
 the physician response fields so that the query can then be closed. This is
-common for Epic EMR customers.
+common for Epic EHR customers.
 
 > [!note] Additional Configuration Required
 Please contact Support to enable this feature.

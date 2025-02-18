@@ -33,7 +33,7 @@ Checking the Auto-Load box before starting a session, or while in an assigned wo
 
 ### Refresh Button
 
-Fusion CAC is regularly reacting to account activity, submitting information to the encoder, updating Workgroups, and returning data to the EMR.  When working from the assigned accounts listing, it is recommended to occasionally refresh the data and update the Workgroups with recent information.
+Fusion CAC is regularly reacting to account activity, submitting information to the encoder, updating Workgroups, and returning data to the EHR.  When working from the assigned accounts listing, it is recommended to occasionally refresh the data and update the Workgroups with recent information.
 
 ![Refresh Button](RefreshButton.png)
 
