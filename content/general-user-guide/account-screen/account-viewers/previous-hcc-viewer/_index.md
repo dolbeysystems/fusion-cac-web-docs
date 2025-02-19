@@ -7,7 +7,7 @@ weight = 30
 
 ![Previous HCCs](PreviousHCCViewer.png)
 
-The previous HCC overview will display the HCC history to show for both the current and prior year. When HCCs are enabled, these will display grouped by HCC category and by code — showing the account number and MRN # for the visits each were associated to. 
+The Previous HCC Overview will display the HCC history to show for both the current and prior year. When HCCs are enabled, these will display grouped by HCC category and by code — showing the account number and MRN for the visits each were associated to. 
 
 ![Previous HCC Viewer](PreviousHCC.png)
 
@@ -17,4 +17,4 @@ It is recommended to turn HCCs on for all patient types to capture a more comple
 
 ![Enable HCCs in Mapping Table](DisplayHCC.png)
 
-As a reminder, this will not capture data prior to turning this feature on in the mapping table. 
+As a reminder, this will not capture data prior to turning this feature on in the mapping table.
