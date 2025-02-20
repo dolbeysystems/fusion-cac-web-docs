@@ -100,9 +100,9 @@ Shift reasons can be categorized as either automatic or manual. If manual shift 
 
 ### Query Impact
 
-Upon initiation of the query, the user will see a {{%button%}}Compute{{%/button%}} button below the template name.  Click to compute the Pre-Query DRG, if not already showing. Clicking this button will use currently assigned codes on the chart to compute a DRG. Once the pre-query DRG is completed, users will follow the standard process to send the query.
+Upon initiation of the query, the user will see a {{%button%}}Compute{{%/button%}} button below the template name.  Click to compute the Pre-Query DRG if not already showing. Clicking this button will use currently assigned codes on the chart to compute a DRG. Once the pre-query DRG is completed users will follow the standard process to send the query.
 
-When the query has been responded to, open the query to complete by clicking the envelope icon. Users will be able to compute a post-query DRG in order to capture impact. The previous DRG will auto-populate (unless the user added, deleted, or changed any codes, re-sequenced or changed the discharge disposition). If the pre-query DRG does not populate, it will need to be calculated again by clicking the {{%button%}}Compute Pre-DRG{{%/button%}} below the template name. Users will now also see a {{%button%}}Compute Post-DRG{{%/button%}} below the template name. 
+When the query has been responded to, open the query to complete by clicking the **{{< rawhtml >}}<span style="color:#a00">RED ENVELOPE </span>{{< /rawhtml >}}** icon. Users will be able to compute a post-query DRG in order to capture impact. The previous DRG will auto-populate (unless the user added, deleted, or changed any codes, re-sequenced or changed the discharge disposition). If the pre-query DRG does not populate, it will need to be calculated again by clicking the {{%button%}}Compute Pre-DRG{{%/button%}} below the template name. Users will now also see a {{%button%}}Compute Post-DRG{{%/button%}} below the template name. 
 
 Users can minimize the query as needed to add, delete, or otherwise change any codes before clicking compute.
 
