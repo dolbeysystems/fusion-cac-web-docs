@@ -282,7 +282,7 @@ By default, documentation reviews by design have a free form text field however,
 forms within the form designer for each of these reviews.
 
 If your site does not have documentation reviews enabled, and you wish to track reviews different than
-the default contact us at smeteam@dolbey.com we can show you a demo and discuss if this is a good fit
+the default contact us at smeteam@dolbey.com we can show you a demonstration and discuss if this is a good fit
 for your organization.
 
 ![Documentation Review](image-296.jpg)
