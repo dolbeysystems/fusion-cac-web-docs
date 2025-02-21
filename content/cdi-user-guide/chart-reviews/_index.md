@@ -7,7 +7,7 @@ Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard in
 
 ## Initial Review
 
-An initial review is a case that has never been reviewed by a CDI user in Fusion CAC/CDI. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
+An initial review is a case that has never been reviewed by a CDI user in Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
 
 When a CDI Specialist (CDS) creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/) (the first Working DRG), edits the account (further causing the Working DRG to be cleared), and then saves the account without computing a new Working DRG, the creation of the Baseline DRG also counts as an initial review.
 
@@ -48,7 +48,7 @@ In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-doc
 
 ## Follow-up
 
-A CDI follow-up is a case that has already been reviewed at least once by a CDS within Fusion CAC/CDI. A CDI review for inpatient charts must have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up case is a subsequent review of the first. The default interval is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the Code Summary viewer.
+A CDI follow-up is a case that has already been reviewed at least once by a CDS within Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up case is a subsequent review of the first. The default interval is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the Code Summary viewer.
 
 ![Next Review Date](2025-02-20_ChartReview1.png)
 

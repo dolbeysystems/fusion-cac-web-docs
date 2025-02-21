@@ -14,7 +14,7 @@ by the coder. That information is displayed in the Admit Dx Code field.
 
 ## Category
 
-A category is a ‘Dolbey’ created field that is used to further specify a patient
+A category is a "Dolbey" created field that is used to further specify a patient
 type, if applicable. At some sites, category might equal patient type while
 others may have a category that is comprised of multiple fields to create that
 category. For example, if you would like to report on how many charts a coder

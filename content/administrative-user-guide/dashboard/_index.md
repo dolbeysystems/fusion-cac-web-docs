@@ -8,7 +8,7 @@ user can also select to look specifically at Coder or CDI information by selecti
 dashboard button.
 
 The dashboard is shown when the user logs in and after login, it can be accessed by 
-- Clicking on Fusion CAC/CDI in the top left corner of the application
+- Clicking on Fusion CAC in the top left corner of the application
   
 ![Fusion CAC](FusionCAC.png)
 
