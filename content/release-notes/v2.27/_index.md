@@ -302,15 +302,15 @@ This feature is for 3M CRS users only
 
 ### CACTWO-5327 (Important)
 
-**Changing query from Cancelled to Wrong Provider doubles query**
+**Changing query from Canceled to Wrong Provider doubles query**
 
 When using the "Change Physician" option on an open query a query is
 created as expected, but when reopening the query and changing the
-cancelled reason to "Wrong Provider" a second query was resent. To prevent
+canceled reason to "Wrong Provider" a second query was resent. To prevent
 this, there is now a dropdown on the Change Physician button that will drop
 down the cancel reasons. Clicking Send New Query will send the query to the
 new physician and close the query to the incorrect one. If a user then
-reopens that cancelled query and changes the cancel reason at the bottom,
+reopens that canceled query and changes the cancel reason at the bottom,
 an additional query will not be sent.
 
 ### CACTWO-5328 (Enhancement)

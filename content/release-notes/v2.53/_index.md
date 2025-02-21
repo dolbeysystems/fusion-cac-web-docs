@@ -228,8 +228,8 @@ correctly. They have been corrected.
 **CDI Activity Report is not reporting Reconciliation correctly**
 
 The CDI Activity Report was reporting a DRG Reconciliation if an account set
-for DRG Reconciliation was opened, but then cancelled out. This has been
-corrected so that accts cancelled will no longer be included.
+for DRG Reconciliation was opened, but then canceled out. This has been
+corrected so that accts canceled will no longer be included.
 
 ## CACTWO-6126 (Enhancement)
 

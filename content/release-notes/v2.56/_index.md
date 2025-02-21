@@ -162,7 +162,7 @@ defaulted to the first Submitter.
 t Allow linking of related queries to a Denial
 A new field has been added to the Denial Management viewer for related 
 queries. It is located after ‘Code(s) in Question, and if there are any closed, 
-non-cancelled physician queries, they will appear in a dropdown when the 
+non-canceled physician queries, they will appear in a dropdown when the 
 field is clicked. 
 **For Denial Management users only.**
 
@@ -603,7 +603,7 @@ Sequence in Final DRG’.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Changes to Procedure Details Were Applying Even if Cancelled
+### Changes to Procedure Details Were Applying Even if Canceled
 
 **CACTWO-6756 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 

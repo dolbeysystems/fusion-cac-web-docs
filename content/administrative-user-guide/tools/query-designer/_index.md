@@ -85,7 +85,7 @@ Dropdown items can be edited by pulling up the template in Query Designer and cl
 
 ![Account Field](AccountField.png)
 
-Account fields will automatically populate information from the account, if it has been sent to Fusion CAC. Autopopulated account information will be displayed in a bolder font to differentiate it from text manually entered by an end user. 
+Account fields will automatically populate information from the account, if it has been sent to Fusion CAC. Auto-populated account information will be displayed in a bolder font to differentiate it from text manually entered by an end user. 
 
 ![Populated Account Field](PopulatedAccountField.png)
 

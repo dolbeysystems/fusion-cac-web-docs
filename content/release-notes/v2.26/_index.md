@@ -365,9 +365,9 @@ for sorting.
 
 ### CACTWO-5247 (Important)
 
-**Long error occurring when cancelling out of an account**
+**Long error occurring when canceling out of an account**
 
-In certain incidents, if a timeout occurred and the user cancelled out of an
+In certain incidents, if a timeout occurred and the user canceled out of an
 account before the timeout brought up the log in screen, a long red error was
 seen. This has been corrected so that if the user clicks cancel just as the timeout
 occurs, they will receive a much shorter time out message.

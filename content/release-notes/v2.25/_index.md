@@ -197,7 +197,7 @@ description.
 
 If a user clicks an ‘x’ next to an option in the Audit Schedule box in an Audit
 Workflow criteria, then clicks the Cancel button, the option is still being
-removed. The Cancel button should be cancelling the move. This has been
+removed. The Cancel button should be canceling the move. This has been
 corrected.
 
 ### CACTWO-5100 (Enhancement)

@@ -342,7 +342,7 @@ The reports affected are:
 
 When a user chooses to change a physician on a physician query after it is
 sent, the other fields on the query will also be open to editing the original
-query will retrain oringal text and can be found in the query list as “Cancelled”
+query will retrain oringal text and can be found in the query list as “Canceled”
 
 ### CACTWO-4765 (Enhancement)
 

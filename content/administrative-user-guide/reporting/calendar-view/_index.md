@@ -56,7 +56,7 @@ an audit trail and **will not** add up to the grouping counts.
 | Resubmitted        | Resubmitted is a term used to mean the chart was completed by coding and the chart had already had a submit action performed. This also means that the code packet including patient demographics, code data, and abstraction fields have been passed to the abstraction system to be finalized. |
 | Saved Account      | Saved is a term used to mean the chart was not completed by coding. A user may save a chart if there was missing documents, query or the user could not complete the chart at the time of coding. |
 | Inactivity         | Inactivity is a term used to mean the chart was saved automatically due to inactivity (session timeout). |
-| Cancelled Account  | Cancelled is a term used to mean the chart was opened, nothing was changed on the account, and it was returned to the queue to be coded by another user. |
+| Canceled Account  | Canceled is a term used to mean the chart was opened, nothing was changed on the account, and it was returned to the queue to be coded by another user. |
 
 
 ### View Account Codes

@@ -9,20 +9,19 @@ weight = 20
 
 ![Code Summary](CodeSummary.png)
 
-The Code Summary is the last pane to be reviewed prior to chart submission.This screen shows a summary of activity on the account and provides activity buttons to **Claim Ownership**, **Show History**, and **Print Abstract** *(if a printer is configured)*. This viewer also provides information on Current Owner, First Coder, Last Saver, and Last Submitter. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right of the pane. 
+The Code Summary is the last pane to be reviewed prior to chart submission. This screen shows a summary of activity on the account and provides activity buttons to **Claim Ownership**, **Show History**, and **Print Summary** *(if a printer is configured)*. This viewer also provides information on Current Owner, First Coder, Last Saver, and Last Submitter. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right of the pane. 
 
 ![Code Summary Viewer](CodeSummaryPane.png)
 
 ### Show History
 
-The {{%button%}}Show History{{%/button%}} button provides a timeline view of activity on the account along with an audit trail of account activity from point of admission to the current date. 
-It includes a visual timeline and below the timeline you will see an audit trail of account activity. 
+The {{%button%}}Show History{{%/button%}} button provides a timeline view of activity on the account along with an audit trail of account activity from point of admission to the current date. It includes a visual timeline and below the timeline there will be an audit trail of account activity. 
 
 ![Show History View](ShowHistory.png)
 
-Upon opening show history, users will see the entire history from a birds-eye view.  The user has the option of using the Zoom In and Zoom Out buttons to expand or collapse the timeline.  The Zoom Fit will bring the visual timeline back to its original collapsed grid.  Hover over any of the event boxes and the contents will be displayed. 
+Upon opening Show History, users will see the entire history from a birds-eye view.  The user has the option of using the Zoom In and Zoom Out buttons to expand or collapse the timeline.  The Zoom Fit will bring the visual timeline back to its original collapsed grid.  Hover over any of the event boxes and the contents will be displayed. 
 
-The legend can be found by clicking Show Legend to let the user know what the colors represent, without having to hover over them.  When clicked it will open the Legend and the button name will change to Hide Legend.  Click again to close. 
+The legend can be found by clicking {{%button%}}Show Legend{{%/button%}} button to let the user know what the colors represent without having to hover over them.  When clicked, it will open the Legend and the button name will change to "Hide Legend".  Click again to close. 
 
 Click on an entry by date to view the changes that were made to the account on the date and time indicated.
 
@@ -36,17 +35,17 @@ When the Code Summary link displays **{{< rawhtml >}}<span style="color:#a00">RE
 
 Any errors preventing submission of the chart will be highlighted in the box under Validation Results on the Code Summary screen. Validation Results within the chart that should be reviewed and validated before the chart is finalized and submitted for billing.
 
-**ERROR** results will display in **{{< rawhtml >}}<span style="color:#a00">RED</span>{{< /rawhtml >}}**. These are hard stops that will prevent the chart from being submitted. The Submit button will be grayed out until errors have been resolved, including pending reasons that have been assigned.
+**ERROR** results will display in **{{< rawhtml >}}<span style="color:#a00">RED</span>{{< /rawhtml >}}**. These are hard stops that will prevent the chart from being submitted. The {{%button%}}Submit{{%/button%}} button will be grayed out until errors have been resolved, including pending reasons that have been assigned.
 
 **Warning** results will display in **{{< rawhtml >}}<span style="color:#FFBF00">YELLOW</span>{{< /rawhtml >}}**. These are reminders/suggestions for the user. Warnings do *not need to be resolved* before submitting the chart. 
 
 ![Code Summary Validation Results](ValidationResults.png)
 
-Once all necessary validations results are resolved, the Code Summary link in the Navigation Pane will return to black and users can hit the Submit button to complete the chart.
+Once all necessary validations results are resolved, the Code Summary link in the Navigation pane will return to black and users can hit the {{%button%}}Submit{{%/button%}} button to complete the chart.
 
 ### Pending Reasons
 
-A list of Pending Reasons assigned to the account can be found within the Code Summary Pane below Validation Results.
+A list of Pending Reasons assigned to the account can be found within the Code Summary pane below Validation Results.
 
 ![Pending Reasons](PendingReasons.png)
 
@@ -93,7 +92,7 @@ Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code seque
 
 ![Assigned CPT Code](AssignedCPT.png)
 
-#### Print Abstract
+#### Print Summary
 If a printer is configured for the computer, click on this button to print a copy of the abstract for this account. 
 
 #### Claim Ownership
@@ -104,7 +103,7 @@ Use the Claim Ownership feature based on the organization’s requirements and p
 
 ![Final Code Summary Viewer](FinalCodeSumViewer.png)
 
-The final code summary will only be available once the facility coder clicks the submit button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/).  
+The Final Code Summary will only be available once the facility Coder clicks the {{%button%}}Submit{{%/button%}} button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/).  
 
 ![Final Code Summary](FinalCodeSummary.png)
 
@@ -113,7 +112,7 @@ Clicking on the header will expand the selection to display the codes that were 
 
 ## Physician Coding Summary
 
-The physician code summary will display if the *physician coders* are also coding within Fusion CAC, and they submit the chart. This provides transparency between the facility and physician coding teams as to what was coded.
+The Physician Code Summary will display if the *Physician Coders* are also coding within Fusion CAC, and they submit the chart. This provides transparency between the facility and physician coding teams as to what was coded.
 
 ![Physician Coding Summary](PhysicianCodeSummary.png)
 

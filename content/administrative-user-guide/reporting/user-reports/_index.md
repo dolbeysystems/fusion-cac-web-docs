@@ -260,7 +260,7 @@ been discharged. This report details how the account evolved from a Baseline DRG
 > [!info] No PDF Support
 > Due to the number of columns, this report is not intended to be launched as a PDF.
 
-Any non-cancelled physician query created by a CDI Specialist on an inpatient, now-discharged account
+Any non-canceled physician query created by a CDI Specialist on an inpatient, now-discharged account
 should appear as a line item on this report.
 
 ![CDI Query Detail Report](CDIDetail.png)
@@ -701,7 +701,7 @@ date range on this report is the ChangeHistory Audit Date (Submitted actions).
 #### User Session Log Report
 
 This report shows the users log showing the Checkout time (when user went into the account), Checkin
-time ('Saved', 'Submitted', or cancelled activity in the account), and total time in the account per each
+time ('Saved', 'Submitted', or canceled activity in the account), and total time in the account per each
 account session. (Filtering: Minimum of 1 user selected; max of 7 days selected). The date range on this
 report is the ChangeHistory Audit Date (Check Out & Check In of the Account Dates).
 
@@ -722,7 +722,7 @@ week range. The week range contains the date of the activity, beginning of start
 
 This report provides details of physician queries created by CDI Specialists on accounts that have since
 been discharged. This report details how the account evolved from a Baseline DRG to a Final DRG.
-Any non-cancelled physician query created by a CDI Specialist on an inpatient, now-discharged account
+Any non-canceled physician query created by a CDI Specialist on an inpatient, now-discharged account
 should appear as a line item on this report. The date range on this report is the Chart Discharged Date.
 To qualify for this report the chart must be an inpatient patient type.
 
