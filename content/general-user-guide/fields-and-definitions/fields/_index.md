@@ -1,5 +1,5 @@
 +++
-title = 'Standard Fields'
+title = 'Fields'
 weight = 10
 +++
 
