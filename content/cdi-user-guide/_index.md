@@ -1,6 +1,6 @@
 +++
 title = 'CDI User Guide'
-weight = 40
+weight = 24
 +++
 
 This program will introduce automatic workflow processes which is defined as processes where tasks,
