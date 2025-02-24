@@ -8,7 +8,7 @@ weight = 50
 > [!note] CDI Users Only
 The Matched Criteria viewer is only visible if the active role is CDI Specialist.
 
-Matched criteria allow you to see why the chart was routed to you. The matched criteria group is a list
+Matched Criteria allows a user to see why the chart was routed to them. The matched criteria group is a list
 of “criteria group” that the chart matched upon when it went through workflow. These criteria groups
 are used to indicate a “possible” query opportunity based upon the criteria outlined in workflow.
 
@@ -16,8 +16,8 @@ are used to indicate a “possible” query opportunity based upon the criteria 
 
 ### Prioritizing Workflow using Matched Criteria
 
-Matched criteria can be used to prioritize workflow. There are two fields that can be used to prioritize
-workflow one is “criteria group” this will tell you the name of the criteria that the workflow routed the
+Matched Criteria can be used to prioritize workflow. There are two fields that can be used to prioritize
+workflow one is “Criteria Group” this will tell the name of the criteria that the workflow routed the
 chart to the CDI users often times the field is renamed to “Routed Reason” because this field represents
 why the chart was routed to the user. If the chart matches upon many criteria groups the criteria group
 that is displayed in this field it the first one that it matched upon all others that it matched upon will

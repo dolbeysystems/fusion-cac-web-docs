@@ -35,6 +35,20 @@ To assign the impact of the query, the user will enter a percentage in the "Assi
 * Assigned Impact &
 * Assigned Impact Wgt.
 
->[!Note]Impact Assignment
-For guidelines on how to quantify the impact of a query, or queries, contact your {{%icon icon="user-tie"%}} supervisor for any internal policies and procedures. 
+|Field|Definition|
+|-----|----------|
+|Total Impact %|This the % of the impact assigned to queries it can never exceed 100% but, it is allowed to be less than 100%. The impact % must be assigned in the assigned impact % field per each query.|
+|Remaining Impact $|This is the account impact dollars left to divy out. Think about this like a bank account if the account impact between the baseline and final DRG is $10,000 it should start off with $10,000 then if we assign 50% of the account impact to the first query then it would reduce to $5k and so on.|
+|Remaining Impact Weight|This is the same concept as Remaining Impact $ we have a field for Remaining impact weight since some sites do not have reimbursement dollars in the system.|
+|Assigned Impact %|This is the % of the account impact you are assigning per query.|
+|Assigned Impact $|This is the $ of the account impact you are assigning per query based upon the % you placed in the assigned impact % field that pulls from the remaining impact $.|
+|Assigned Impact Wgt.|This is the weight of the account impact you are assigning per query based upon the % you placed in the assigned impact % field that pulls from the remaining impact weight.|
+|Template|This is the query template you are assigning impact to. Only queries issues by CDI will display here.|
+|Query Reason|This is the query reason to assigned to the query template.|
+|Pre-Drg|This is the pre-DRG assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
+|Post-Drg|This is the post-DRG assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
+|Shift Reasons|This is the shift reasons assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
+|Status|This is the status of the query, to change this click on the blue envelop icon to the right of assigned impact.|
 
+>[!Note]Impact Assignment
+For guidelines on how to quantify the impact of a query, or queries, contact your {{%icon icon="user-tie"%}} supervisor for any internal policies and procedures.

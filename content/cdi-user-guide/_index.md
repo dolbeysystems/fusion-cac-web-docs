@@ -11,13 +11,13 @@ Each organization will have different workflows from one another to coordinate t
 and synchronize data between systems, with the ultimate goal of improving organizational efficiency
 and responsiveness.
 
-Each CDS will have a worklist which will include new cases if current patient location meets the CDS
+Each CDI Specialist (CDS) will have a worklist which will include new cases if current patient location meets the CDS
 work assignments and follow-up cases that the chart owner has been assigned for the CDS reviewing.
 
 For example, if the patient chart is a new case then the patient chart (if it’s an inpatient chart and has a
 fin class of Medicare) will route based on the patient’s current location to one of the CDS Workgroups.
 
-By default, the chart will queue up every day (interval can change based on your policies and/or patient
+By default, the chart will queue up every day (interval can change based on organizational policies and/or patient
 types).
 
 {{% children depth=999 %}}
