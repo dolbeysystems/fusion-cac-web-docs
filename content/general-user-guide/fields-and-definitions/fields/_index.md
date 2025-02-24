@@ -1,5 +1,5 @@
 +++
-title = 'Standard Fields'
+title = 'Fields'
 weight = 10
 +++
 
@@ -38,7 +38,6 @@ The following table contains a list of all standard fields available.
 | Bed                            | This is the last known patients bed. |
 | Birth Weight (g)               | This is the patients birth weight in grams. This can be provided either through the ADT interface or manually entered by a coder. |
 | Building                       | This is the last known patients building which is usually equal to the nursing unit or location. |
-| Campus                         | This is the last known patient’s campus. |
 | Category                       | This is a Dolbey created patient type to assist with reporting because often a patient type field needed to be joined with a location, hospital service or other fields to alter reporting for productivity categories join those fields to create custom patient types for easy productivity and DNFC reporting. |
 | Calculated Date/Time           | This field shows you the last time the encoder was last run, if it's blank, the encoder needs to be run. This is so that in Account Search and workflow. This can help find an accounts that the user should have an APC, DRG or if you are reviewing to see if a coder clicked on the encode to run edits |
 | CDI Physician Queries Agreed   | This is the outcome of the query reporting by the CDI user closing the query. Agree commonly means that the physician provided the CDI with a valid diagnosis. |
@@ -50,6 +49,10 @@ The following table contains a list of all standard fields available.
 | CDI Physician Queries Open     | This is the total number of physician queries still open issued by a CDI user. |
 | CDI Physician Queries Responded | This is the total number of physician queries responded to by Physician for issued by a CDI user. |
 | CDI Physician Query Total      | This is the total number of physician queries issued by a CDI user regardless of if the query is open or closed. If a user was in an account that had an open physician query, and an external interface closed that query, the query total on the account is updated upon closing the account. |
+| CDI PSI Indicator                      | This is the PSI’s that were identified by a CDI user. The PSI indicator is identified by using the patient safety indicator technical specifications. This field requires the quality module.          |
+| CDI Quality Measure                    | This is a field used to identified if a CDI user identified PC-06. The PC- 06 indicator is identified by using the quality measures technical specifications. This field requires the quality module   |
+| Charge CPT Codes                       | Computed as a list of CPT codes assigned to Charges. Does not apply to Transactions.                                                                                                                   |
+| Charge Revenue Codes                   | Computed as a list of Revenue Codes assigned to Charges. Does not apply to Transactions.                                                                                                        
 | Coding Ready End Date/Time     | This is a field used to identify the end date used for when a chart is completed by coding. |
 | Coding Ready Start Date/Time   | This is a field used to identify the start date used for when a chart is ready for coding. |
 | Days to First Submit           | This column will show the difference between the Discharge Date and the date the account was first submitted. This will also include the time along with the date, so the number will be shown as a decimal. |
@@ -131,6 +134,7 @@ The following table contains a list of all standard fields available.
 | Is Emergency Room Visit        | This field identifies if the chart is an ER visit. |
 | Is Inpatient                   | This field identifies if the chart is an inpatient chart. |
 | Is DRG Reconciled              | This is a field to tell if a patient chart was reconciled on submit. True means that either the Last known Working or alternative DRG matched the Final DRG. False means that either the patient charts Last known Working or alternative DRG listed did not match the Final DRG. This field is only applicable on inpatient charts. |
+| Is Prior HCC Present                   | Computed as True if any prior account of the patient contains an HCC code. Field is defined in the site's ADT script and performs a database lookup upon receipt of ADT for prior accounts.     
 | Is Released by CDI             | This field shows if the CDI user released the chart while in the reconciliation process on behalf of the coder from the submit state the coder originally submitted. |
 | Is Resubmitted                 | Is Resubmitted is a term used to mean the chart was completed by coding and the chart had already had a submit action performed. If Is Resubmitted is True that means a coder has submitted this chart to billing a subsequent time. If Is Resubmit is equal to false then the chart has not been resubmitted and it was only submitted a single time. |
 | Last Interface Update          | This is the last date and time the interface received an update to the account. |
@@ -208,6 +212,7 @@ The following table contains a list of all standard fields available.
 | Public Note User ID            | This is the users id that created the public note. |
 | Public Note Date/Time          | This is the date and time that the public note was created. |
 | Public Note                    | This is the public note. |
+| Quality Measure                        | This is a field used to identified if a coder user identified PC-06. The PC-06 indicator is identified by using the quality measures technical specifications. This field requires the quality module. |
 | Random Inclusion Factor        | Computed to display a random number between 1 and 100; Not accessible in Form Designer |
 | Room                           | This is the last known room of the patient. |
 | Secondary Grouper              | This is the secondary grouper of the account. |
