@@ -101,7 +101,7 @@ The section “Completed Alerts” are Alerts that have been closed in one of th
 2. CDS initiates a query
 3. CDS clicks on the **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** next to the Alert
  
-When choosing to close the Alert, the CDS will be presented with a "Close Alert" diaglouge box to select why they are closing the alert.
+When choosing to close the Alert, the CDS will be presented with a "Close Alert" dialouge box to select why they are closing the alert.
 
 ![Close Alert](2025-02-24_ChartPri5.png)
 
@@ -119,163 +119,108 @@ When clicked, this icon will launch a notes page. This can be used by a CDS to l
 
 ![CDI Alert Notes](2025-02-24_ChartPri7.png)
 
-![Active Alerts](image-284.jpg)
+Upon adding the note the paper icon will turn **{{< rawhtml >}}<span style="color:#a00">RED  </span>{{< /rawhtml >}}**, notifying the next user that is reviewing the CDI Alerts that there is a note present on the Alert.
 
-![Active Alerts](image-285.jpg)
-
-Once a note is typed in it will leave the date and time as well as the CDS name so if another CDS enters the chart, they will be able to clearly see who chose to monitor the Alert at this time and why. Upon adding the note the paper icon will turn red, notifying the next user that is reviewing the CDI Alerts that there is a note present on the Alert.
+![CDI Alert Note Red Icon](2025-02-25_ChartPri8.png)
 
 ### CDI Alert Editor Function
 
-Adjacent to the Alert message, you'll find a pencil icon. Clicking on it will open an editor,
-enabling you to rearrange and customize the placement of evidence using a drag-and-drop functionality.
-This feature empowers CDIS professionals to organize their items in a personalized manner, aligning
+Adjacent to the Alert message, there is a pencil icon. Clicking on it will open an editor,
+enabling the CDS to rearrange and customize the placement of evidence using a drag-and-drop functionality.
+This feature empowers CDI professionals to organize their items in a personalized manner, aligning
 with their specific querying requirements.
+
+![CDI Alert Pencil Icon](2025-02-25_ChartPri9.png)
 
 ### Reviewing Clinical Evidence
 
 Each CDI Alert contains clinical evidence extracted from the patient's chart. There are four different
-types of evidence you will see. First are words and phrases within documentation such as signs and
-symptoms, and medications. Second are value abstractions from the documentation such as vital signs
-or laboratory findings within physical documents. The third are code abstractions from the
-documenation. Fourth are discrete values such as laboratory studies and vital signs found in the
-flowsheets, medications from the medication viewer and other flowsheet data. Finally, there are links to
-documents. These links consist of the document name and connect directly to the respective document.
-This feature proves valuable when referencing specific CT Scan documents that may be pertinent to a
-particular Alert. This evidence is categorized into sections such as Laboratory Studies, Clinical Evidence,
-Vital Signs, and Intake and oOutput Data.
+types of evidence that can be extracted. 
+1. Words and phrases within documentation such as signs and symptoms, and medications. 
+2. Value abstractions from the documentation such as vital signs or laboratory findings within physical documents. 
+3. Code abstractions from documenation.
+4. Discrete values such as laboratory studies and vital signs found in the flowsheets, medications from the medication viewer and other flowsheet data. 
 
-![Reviewing Clinical Evidence](image-286.png)
+The evidence in the Alerts are linked to documents within the patient's chart, via a blue hyperlink, ensuring that the CDS directly connects to the relevant document associated with the Alert. This feature is especially useful for referencing specific documents that may be crucial to a particular Alert. The evidence is systematically categorized into sections such as Laboratory Studies, Clinical Evidence, Vital Signs, and Intake & Output Data.
 
-The blue text serves as a hyperlink. Furthermore, following the abstraction, you will observe word for
-phrase in quotes. That is the words or phrases that then engine found in the documentation or values.
-Subsequently, either the document name and document date are considered if derived from a
-document, or the result date and time are used if obtained from flowsheets. In the case of medication
-discrete abstraction, the medication name, dosage, route, and the date and time of administration are
-presented.. This helps provide the necessary context. When evidence with a document type and date is
-selected it will hyperlink you to the place in the document that abstraction was found and highlight that
-yellow. You will also note that there is green highlights with words or phrases in the documentation.
-Those are abstractions that are specific to CDI Alerts. They are just like code abstraction, but are what
-we use for CDI rules. When you hover your mouse over the green abstraction it will provide you with an
-understanding of which Alert the evidence is being used for if there are multiple Alerts present.
+![Reviewing Clinical Evidence](2025-02-25_ChartPri10.png)
+
+After the abstraction process, there will be words or phrases in quotes—these represent the terms the engine identified within the documentation or values. If the data is derived from a document, the document name and date are displayed; if obtained from flowsheets, the result date and time are shown.
+
+For medication discrete abstraction, key details such as the medication name, dosage, route, and administration date and time are presented, ensuring essential context is provided.
+
+When selecting evidence with a document type and date, a hyperlink will direct the CDS to the exact location in the document where the abstraction was found, with the relevant text highlighted in yellow. Additionally, there will bes green highlights within the documentation, marking abstractions specific to CDI Alerts. These function similarly to code abstractions but are tailored for CDI rules.
+
+Hovering over a green-highlighted abstraction will display which Alert the evidence is associated with, especially when multiple Alerts are present.
 
 ![Reviewing Clinical Evidence Document](image-287.jpg)
 
 ![Reviewing Clinical Evidence Code](image-288.jpg)
 
-When you click on a hyperlinked evidence that is folled by result date and time, indicating a discrete
-value abstracted from the flowsheets, it will automatically take you to the corresponding location in the
+When clicking on a hyperlinked evidence that is followed by result date and time, indicating a discrete
+value abstracted from the flowsheets, it will automatically take the CDS to the corresponding location in the
 flowsheets and highlight the respective row.
 
 ![Reviewing Clinical Evidence Discrete Value](image-289.jpg)
 
-Another noteworthy capability within Clinical Evidence is the ease with which a CDIS can incorporate
-additional evidence. While reviewing documentation and flowsheets, if CDIS identifies items deemed
+Another noteworthy capability within Clinical Evidence is the ease with which a CDS can incorporate
+additional evidence. While reviewing documentation and flowsheets, if a CDS identifies items deemed
 crucial for inclusion in the CDI Alerts as supporting evidence for a query, they can effortlessly highlight
 words or phrases in a document, up to a maximum of 1000 characters, and perform a right-click. This
 action triggers a menu presenting various options, including one that reads "Copy to CDI Alert." Clicking
-on this option reveals a pop-out menu displaying available Alerts to which the evidence can be added
+on this option reveals a pop-out menu displaying available Alerts to which the evidence can be added.
 
-![Copy to CDI Alert](image-290.jpg)
+![Copy to CDI Alert](2025-02-25_ChartPri11.png)
 
-Upon selecting the desired Alert, the system opens the Evidence Editor, allowing the CDIS to specify
-where the evidence should be attached. If the CDIS clicks on existing evidence, the new evidence will be
-attached below it. Therefore, it is crucial to ensure that, when determining the placement, the CDIS
-selects the appropriate location by clicking above. Once the evidence is copied over, the system
-provides details such as the evidence itself, the name of the document, and the date. For Laboratory
-Studies, it includes the result date and time.
+Upon selecting the desired Alert, the system opens the [Evidence Editor](http://localhost:1313/fusion-cac-web-docs/cdi-user-guide/chart-prioritization/#cdi-alert-editor-function), allowing the CDS to specify
+where the evidence should be attached. If the CDS clicks on existing evidence, the new evidence will be
+attached below it. Once the evidence is copied over, the system provides details such as the evidence itself, the name of the document, and the date. For Laboratory Studies, it includes the result date and time.
+
+![Added Alert](2025-02-25_ChartPri12.png)
 
 After incorporating the evidence into the designated alert, any highlighted evidence will be displayed in
 the document in purple, accompanied by the phrase "MANUALLY_ADDED" in green at the end. This
 informs the user that the evidence was added manually. Similar to other evidence, hovering over the
 green-highlighted section will provide information about the CDI Alert to which the item was applied.
 
-![Evidence Editor](image-291.jpg)
+![Added Alert in Documents](2025-02-25_ChartPri13.png)
 
-Next when going back to the CDI Alerts viewer you will notice check boxes present next to the evidence
-which serves two purposes. Firstly, if you initiate a query, any evidence marked with a check mark will
-be automatically be copied to your clipboard, enabling you to conveniently paste it into your query. This
-copying action occurs when you click on the envelope icon
+When going back to the CDI Alerts viewer there will be check boxes present next to the evidence
+which serves two purposes. First, when a query is initiated, any evidence marked with a check mark will
+be automatically copied to the clipboard allowing the CDS to conveniently paste the evidence into the query. This
+copying action occurs when the clicking on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon.
 
 
-Secondly, unchecking any of the clinical evidence will put a strike through the text and it will prevent it
-from being copied over. Additionally, any unchecked evidence will be reported back to Dolbey's clinical
-team if an Alert is closed due to it having invalid clinical indicator, insuffiecient clinical evidence or
+Second, unchecking any of the clinical evidence will put a strike through the text and it will prevent it
+from being copied over. Additionally, any unchecked evidence will be reported back to Dolbey's Clinical
+Team if an Alert is closed due to it having invalid clinical indicator, insuffiecient clinical evidence, or
 documentation is already present.
 
-![Unchecking Evidence](image-292.jpg)
+![Unchecking Evidence](2025-02-25_ChartPri14.png)
 
 ### How to initiate a Query
 
-In the right hand corner of the Alert you will see a blue envelope icon next to a red x icon. When you
-click on the blue envelope it will launch you into the query.
+In the right hand corner of the Alert there is see a **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon next to a **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** icon. Clicking on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** will launch the CDS into a query template.
 
-### Query
+#### Query
 
-Once in the query you will notice that a template will autoload for the specific Alert. These autoloaded
-templates can be set by the management staff templates specific to each site and what they use as
-querys.
+A query template will autoload for the specific Alert that is being queried. These templates can be set by the management staff specific to each organziation.
 
 The evidence previously examined on the Alerts viewer page can now be effortlessly incorporated into
 the query. When the query button is pressed, the selected evidence will be automatically copied to the
-clipboard. You can then paste it using a simple process, either by pressing the "ctrl" and "v" keys, the
+clipboard. This can be pasted using a simple process, either by pressing the "ctrl" and "v" keys, the
 standard Windows keyboard shortcut for copying, or by performing a right-click and choosing the paste
 option. After the query is submitted, the corresponding CDI Alert will transition from the Active Alerts
-section to the Closed Alerts section.
-
-Once that query has been submitted that CDI Alert will move from the Active Alerts section down to the
-Closed Alerts section.
-
-![Unchecking Evidence](image-293.jpg)
+section to the Completed Alerts section.
 
 ## Autoresolve
 
 The Alerts have the ability to autoresolve themselves if documentation comes in that would satisfy the
-Alert. Once an Alert is Autoresolved it will move to the Close Alert section. This will ensure that we are
-only putting Alerts to the end-user that require attention. We don’t want them to have Alerts that need
-no action.
+Alert. Once an Alert is Autoresolved it will move to the Completed Alert section. This will ensure that only Alerts that require attention are active for the CDS. 
 
 ## Closing Alert without Querying
 
-If a CDIS chooses that an alert needs closed not by a query being initiated by the envelop button. This is
-done by clicking the red x and it provides several choices for closing an Alert. There are several options
-to state why an Alert is being close without query being sent or placed. There is a section at the bottom
-for additional notes that we encourage the specialist to provide a deeper understanding of why the
-closed.
-
-![Closing Alert without Querying](image-294.jpg)
-
-## Documentation Reviews
-
-If your site does different styles of CDI reviews or want to track management reporting different than
-how our default tracks, you can use the documentation review viewer to track reviews by topic. Other
-organizations have used this if there CDI team would like to do a utilization management type review
-and it doesn’t fit the typical initial or follow up review.
-
-By default, documentation reviews by design have a free form text field however, you can also create
-forms within the form designer for each of these reviews.
-
-If your site does not have documentation reviews enabled, and you wish to track reviews different than
-the default contact us at smeteam@dolbey.com we can show you a demonstration and discuss if this is a good fit
-for your organization.
-
-![Documentation Review](image-296.jpg)
-
-By clicking on “+ Add Review” you can select the type of review that you wish to complete. 
-
-> [!tip] Review Type List Configuration
-The list of review types presented here are configurable by a site administrator through
-[Mapping Configuration.]
-
-![Documentation Review](image-297.jpg)
-
-Then, type in your notes.  Finally, click Ok to save.
-
-![Documentation Review](image-298.png)
-
-Each review is saved, there are custom management reports to report out specific reviews and the CDI
-Management and CDI Personal Dashboard will all change to accommodate these custom reviews, if you
-do not have this enabled custom review info will be hidden since its not appliable.
+If it is determined that an Alert can be closed without initiating a query, a CDS can click on the **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** and the CDS will be presented with a "Close Alert" dialouge box to select why they are closing the alert (see the [Completed Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-prioritization/#completed-alerts) section of this page). 
 
 
 
