@@ -431,15 +431,15 @@ category applies.
 
 **CACTWO-6568 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, all CDI Alerts were expanded making it hard to view all alerts. This
+Previously, all CDI/Clinical Alerts were expanded making it hard to view all alerts. This
 requests was to initially be collapsed when the account is loaded.
 
-### Add Other Choice With Drop Down on the Close CDI Alert Dialog Box
+### Add Other Choice With Drop Down on the Close CDI/Clinical Alert Dialog Box
 
 **CACTWO-6578 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 Add new option of Other with the ability to add drop down box on the Close
-CDI Alert Dialog Box. This allows the user to Close an Alert because it did not
+CDI/Clinical Alert Dialog Box. This allows the user to Close an Alert because it did not
 require a query to be sent and not because the Alert was wrong. They state
 occasionally even though an Alert triggered appropriately; after reviewing a
 query is not needed, they do not want to count it negatively as the alert did

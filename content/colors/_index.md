@@ -69,7 +69,7 @@ The viewer will turn brown to indicate there are open queries awaiting a respons
 The caution symbol next to the left of the code is a edit that comes from the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the edit, if you need a larger view of the edit you can open the TruCode research page for
 further details.
 
-### CDI Alerts
+### CDI/Clinical Alerts
 
 ![CDI Alers Paper Icon](CDIAlertsNotesIcon.png)
 
@@ -108,7 +108,7 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |Symbol/Color   |Meaning   |
 |---------------|----------|
 |Bright Yellow|The user clicked on the code from the unassigned or Show all panel linking to the code location within the document. It can also turn yellow if the user uses the search feature to search on a word or phrase. ![Yellow Highlighted Code](YellowCode.png)|
-|Green Highlight|The code is validated by an end users on a different document. This allows the end user on subsequent documents to quickly see what was already validated. Green is also used by CDI Alerts which highlights words and phrases used to pull details out to link to text for clinical evidence for CDI Alerts. ![Green Highlighted Code](GreenHighlight.png)|
+|Green Highlight|The code is validated by an end users on a different document. This allows the end user on subsequent documents to quickly see what was already validated. Green is also used by CDI/Clinical Alerts which highlights words and phrases used to pull details out to link to text for clinical evidence for CDI/Clinical Alerts. ![Green Highlighted Code](GreenHighlight.png)|
 |Caution Yellow|Identifies [caution codes](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/#caution-code) which indicates when the system suggests codes that are flagged as cautionary. Caution codes are applied to documents that the management team has identified as requiring careful consideration. These cautionary documents enable the system to suggest codes that may not be present on provider-facing or codable documents. It's important to note that these codes cannot be validated from these documents alone. ![Caution Code Yellow](CautionCode.png) ***example:*** If a nurse mentions that a patient was treated for respiratory failure, but there is no mention of it by the provider, the caution code serves as a reminder to ensure that no relevant information is overlooked. It acts as a safety net to capture potential discrepancies or omissions in the documentation process.
 |Green Paper Icon|A bookmark has been added by an end user. Hovering over this icon will display the associated note. Alternatively, users can go to notes & bookmarks within the navigation tree you can see all that were placed. ![Bookmark Icon](BookmarkIcon.png)|
 |Green Flag| Displayed next to the code within the document and on the show all or unassigned code tree to indicate there is a comment on a code. The code comment can also be found on the notes & bookmarks under the navigation tree within the code comment section. ![Code Comment](CodeCommentIcon.png)|

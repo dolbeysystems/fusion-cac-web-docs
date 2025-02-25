@@ -455,7 +455,7 @@ PSI/PDI algorithm that was applied.
 **CACTWO-6726 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 A ‘Matched Criteria Query Template’ dropdown only appears in Workflow if a 
-criterion with the field ‘Evaluation Script’ which is used by CDI Alerts is 
+criterion with the field ‘Evaluation Script’ which is used by CDI/Clinical Alerts is 
 present. When copying and pasting that criterion, the user has no way to 
 remove that template to choose another. A small gray ‘x’ has been added to 
 the box to allow removal of the template after pasting. 
@@ -691,12 +691,12 @@ has been updated.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Copy to CDI Alerts Function is not Appearing for Caution Code Documents
+### Copy to CDI/Clinical Alerts Function is not Appearing for Caution Code Documents
 
 **CACTWO-6798 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When a user highlights text and right clicks from a caution code document, 
-the funtion Copy to CDI Alert does not appear. This has been corrected. 
+the funtion Copy to CDI/Clinical Alert does not appear. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

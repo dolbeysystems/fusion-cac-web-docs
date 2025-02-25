@@ -52,7 +52,7 @@ Account search allows for the ability to search for account level data or drill 
 
 - Account (Default)
 - Audits
-- CDI Alerts
+- CDI/Clinical Alerts
 - Denials
 - Final Assigned Codes
 - Final CPT Codes
