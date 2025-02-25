@@ -1,5 +1,5 @@
 +++
-title = 'Auditor User Guide'
+title = 'Auditor'
 weight = 23
 +++
 

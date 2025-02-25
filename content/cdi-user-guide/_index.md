@@ -1,5 +1,5 @@
 +++
-title = 'CDI User Guide'
+title = 'CDI'
 weight = 24
 +++
 

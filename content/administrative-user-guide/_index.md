@@ -1,5 +1,5 @@
 +++
-title = 'Administrative User Guide'
+title = 'Administrative'
 weight = 22
 +++
 
