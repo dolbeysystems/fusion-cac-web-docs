@@ -45,7 +45,7 @@ Write the query or fill out the template details as needed.
 Once completed, select from the reason dropdown why you are sending the query, and above that field, check the box if the query will affect final coding.
 
 >[!Note] Checkbox 
-The checkbox "Check if physician's answer affects DRG or Fincal Coding" will not be visible to providers.
+The checkbox "Check if physician's answer affects DRG or Final Coding" will not be visible to providers.
 
 Click {{%button%}}Send to Physician{{%/button%}} to complete the query and send it, or click {{%button%}}Save Draft{{%/button%}} if the query is not ready to be sent. If the query is saved as a draft, a draft query section will appear that is separate from sent or closed queries. If a user has at least one draft, but no sent queries, the total drafts count on their personal dashboard will display as zero. 
 
