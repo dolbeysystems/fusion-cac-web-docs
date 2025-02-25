@@ -1,5 +1,5 @@
 +++
-title = 'CDI Alerts and Chart Prioritization'
+title = 'Clinical and CDI Alerts
 weight = 20
 +++
 
