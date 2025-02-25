@@ -41,7 +41,7 @@ Any errors preventing submission of the chart will be highlighted in the box und
 
 ![Code Summary Validation Results](ValidationResults.png)
 
-Once all necessary validations results are resolved, the Code Summary link in the Navigation pane will return to black and users can hit the {{%button%}}Submit{{%/button%}} button to complete the chart.
+Once all necessary validations results are resolved, the Code Summary link in the Navigation Tree will return to black and users can hit the {{%button%}}Submit{{%/button%}} button to complete the chart.
 
 ### Pending Reasons
 

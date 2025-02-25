@@ -75,9 +75,9 @@ Support for updated AutoClose script.
 
 ## CACTWO-5602 (Enhancement)
 
-**Remove ‘hover’ from the Navigation Pane**
+**Remove ‘hover’ from the Navigation Tree**
 
-The Navigation Pane will no longer expand when hovered over. The user will
+The Navigation Tree will no longer expand when hovered over. The user will
 now have to specifically click the arrow to open it. The system will remember
 this preference between accounts.
 
@@ -88,7 +88,7 @@ this preference between accounts.
 If a code has a tag after it, which identifies an Elixhauser code, hovering over
 the tag will now give the Elixhauser definition previously it only displayed the
 abbreviations it now displays the friendly name as well. This can be seen
-across all appropriate viewers in an accounts Navigation Pane.
+across all appropriate viewers in an accounts Navigation Tree.
 
 ## CACTWO-5681 (Enhancement)
 

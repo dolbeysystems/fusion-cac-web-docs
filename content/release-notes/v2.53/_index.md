@@ -142,9 +142,9 @@ viewer header, on the popout, and in the Ctrl+ click of the header.
 
 ## CACTWO-6098 (Enhancement)
 
-**Highlight Navigation pane if Query draft exists**
+**Highlight Navigation Tree if Query draft exists**
 
-The Physicians & Queries viewer on the Navigation Pane will now show with
+The Physicians & Queries viewer on the Navigation Tree will now show with
 an amber highlight if there is a Query Draft. When the draft is either updated
 and sent or deleted, the amber color will go away.
 

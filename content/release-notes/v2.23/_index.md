@@ -605,7 +605,7 @@ extra codes.
 
 **Change coloring of Code Summary to red for warnings**
 
-The Code Summary shows as red in the Navigation Pane if there is a validation
+The Code Summary shows as red in the Navigation Tree if there is a validation
 error. Validation warnings in the Code Summary will display in red, to indicate
 more attention needs to be paid to the validation rule.
 
