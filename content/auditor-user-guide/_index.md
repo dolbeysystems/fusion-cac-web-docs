@@ -1,6 +1,6 @@
 +++
 title = 'Auditor User Guide'
-weight = 50
+weight = 23
 +++
 
 The audit module provides comprehensive functionality designed to streamline and enhance the coder audit
