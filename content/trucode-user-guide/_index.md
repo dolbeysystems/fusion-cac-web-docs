@@ -1,5 +1,5 @@
 +++
-title = "TruCode User Guide"
+title = "TruCode"
 weight = 25
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = 'General User Guide'
+title = 'General'
 weight = 21
 +++
 
