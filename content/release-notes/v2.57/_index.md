@@ -105,7 +105,7 @@ to alter that field. This will appear in **Shared Worksheets only**.
 
 [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/) now has a pane for Auditor worksheets. These 
 worksheets, once created, will only appear in an auditor’s worksheet drop 
-down when the Add button in the [Navigation pane](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) is clicked. Only auditors, 
+down when the Add button in the [Navigation Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) is clicked. Only auditors, 
 admins and managers can create a form in Worksheet Designer for Auditors. A new 
 privilege has been created in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/) to assign that ability to other 
 types of users.
@@ -467,7 +467,7 @@ blank.
 
 **CACTWO-6908 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-An Impact Queries viewer will show in the navigation pane whenever a billed 
+An Impact Queries viewer will show in the Navigation Tree whenever a billed 
 account has a CDI created query in place. This will give the CDI a quick look at 
 impacts among queries without opening each one. Clicking on the envelope 
 will open that specific query for investigation. The field for Assigned Impact 

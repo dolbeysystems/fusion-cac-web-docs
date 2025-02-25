@@ -1,5 +1,5 @@
 +++
-title = 'Account Screen'
+title = 'Account Navigation'
 weight = 10
 +++
 
@@ -50,10 +50,10 @@ The DRG view displays information available from the encoder for the computed DR
 ![Banner Bar - DRG/APC](DRGs.png)
 
 
-## Navigation Pane
+## Navigation Tree
 
-The Navigation Pane sits above the Documents Pane on the left-hand side of the Account Screen. 
-The Navigation Pane includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/), to pages within the chart providing summary views of
+The Navigation Tree sits above the Documents Pane on the left-hand side of the Account Screen. 
+The Navigation Tree includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/), to pages within the chart providing summary views of
 coding information, demographic information, as well as clinical documentation, workflow, and 
 worksheets.
 
@@ -158,7 +158,7 @@ When returning to a chart after new documents have been added, documents that ha
 
 ![Document Pane](DocumentPane.png)
 
-The document pane is in the middle of the screen to display the document or viewer clicked on within the document tree or navigation pane.
+The document pane is in the middle of the screen to display the document or viewer clicked on within the document tree or Navigation Tree.
 
 On the left hand side of main header are backward and forward arrows. These arrows will allow users to move back and forth through documents that have been opened in the document the viewer screen. 
 

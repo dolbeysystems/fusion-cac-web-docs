@@ -263,10 +263,10 @@ Please contact Support to activate this option.
 
 ### CACTWO-5829 (Important)
 
-**Navigation Pane is showing Physician Queries when there aren’t any open**
+**Navigation Tree is showing Physician Queries when there aren’t any open**
 
 If the user was reviewing their accounts using Autoload and pinned the
-navigation pane so that it was open, the Navigation Pane was showing a color
+Navigation Tree so that it was open, the Navigation Tree was showing a color
 alert for Physician Query, indicating there is an open query, even when there
 was not. This has been corrected.
 

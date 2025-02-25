@@ -1,5 +1,5 @@
 +++
-title = 'Charges or Transactions'
+title = 'Charge or Transaction'
 weight = 24
 +++
 

@@ -65,11 +65,11 @@ not trigger.
 
 ### CACTWO-4905 (Enhancement)
 
-**Add Physician Coding Summary to the Navigation Pane**
+**Add Physician Coding Summary to the Navigation Tree**
 
 When a physician coder adds codes to an account, a coder working in that
 account will now see an Physician Coding Summary viewer listed in the
-Navigation Pane.
+Navigation Tree.
 
 ![](image-710.jpg)
 
@@ -88,7 +88,7 @@ physician are not being defaulted in the Edit Code box. This has been corrected.
 
 When multiple accounts have the same MRN and the earliest account has an
 HCC status on a code, the later account is not creating a Previous HCC Overview
-viewer in the Navigation Pane. This has been corrected.
+viewer in the Navigation Tree. This has been corrected.
 
 ### CACTWO-4915 (Important)
 

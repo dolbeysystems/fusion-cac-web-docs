@@ -14,7 +14,7 @@ Denial management tracking involves monitoring cases where a patient's submitted
 
 ## Adding a Denial
 
-To add a denial, select "Denial Management" in the Navigation pane. This option will only be available if the account has been submitted. This will open up the Denial Management viewer in the center of the screen to then click on the {{%button%}}+Add Denial{{%/button%}} button.
+To add a denial, select "Denial Management" in the Navigation Tree. This option will only be available if the account has been submitted. This will open up the Denial Management viewer in the center of the screen to then click on the {{%button%}}+Add Denial{{%/button%}} button.
 
 ![Denial Management Viewer](2025-02-04_DenialMgmt1.png)
 
