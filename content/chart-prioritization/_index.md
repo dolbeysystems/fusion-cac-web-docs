@@ -1,5 +1,5 @@
 +++
-title = 'Clinical and CDI/Clinical Alerts'
+title = 'CDI/Clinical Alerts'
 weight = 20
 +++
 
