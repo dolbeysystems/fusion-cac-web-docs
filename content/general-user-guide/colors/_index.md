@@ -53,7 +53,7 @@ The viewer name will turn red to alert the user that action is needed.
 ![Highlighted Physicians & Queries](PhysiciansQueriesHighlighted.png)
 
 The "Physicians & Queries" viewer will be highlighted with an amber background in the
-Navigation Tree if the account has at least one physician query.
+Navigation tree if the account has at least one physician query.
 
 >[!note] The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.

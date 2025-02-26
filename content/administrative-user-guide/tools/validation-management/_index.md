@@ -179,7 +179,7 @@ selected the level, there is a field for
 
 ![](image-505.jpg)
 
-**Navigate** to (these are placed within the patient chart, under the Navigation Tree).
+**Navigate** to (these are placed within the patient chart, under the Navigation tree).
 
 - **None** – Will not take the user anywhere if they click on the error/warning.
 - **Account Info** – Will take the user to the account information viewer.

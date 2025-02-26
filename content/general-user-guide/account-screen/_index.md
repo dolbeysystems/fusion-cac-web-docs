@@ -69,7 +69,7 @@ Click on the +Add document button to add a document configured based on your use
 
 Available document types are configured with the operational/management team per organization. 
 
-## Document Tree
+## Documents Tree
 
 ![Document Tree](DocumentTree.png)
 
@@ -108,7 +108,7 @@ Sorting documents within the Documents tree is done by right-clicking on a docum
 
 ![Document Sort Menu](DocumentSort.png)
 
-Users can reorganize the Document tree by right clicking on the documents. Clicking on sort will allow users to sort the documents within the folders alphabetically or date. Documents can also be sorted chronologically which removes all folders and will organize all documents in chronological order.
+Users can reorganize the Documents tree by right clicking on the documents. Clicking on sort will allow users to sort the documents within the folders alphabetically or date. Documents can also be sorted chronologically which removes all folders and will organize all documents in chronological order.
 
 ### Text Document Visual Differences
 
@@ -130,7 +130,7 @@ The Documents tree includes a Search button.
 
 ![Document Search](DocSearch.png)
 
-Click on the Search button to open and enter the specific terms or phrase to be found within the documents in the chart. Upon clicking the search button, a floating window will now open and will fill with all results for the search word.  Each result will display the name and date of the document along with a short portion of the sentence containing the word. The arrows allow you to move up and down through the list. This window stays active when using auto-load and will update with each account’s search results. The window can be minimized to a ‘Restore’ button on the Document tree. Clicking on the Restore button will re-open the search window and will display the results.  
+Click on the Search button to open and enter the specific terms or phrase to be found within the documents in the chart. Upon clicking the search button, a floating window will now open and will fill with all results for the search word.  Each result will display the name and date of the document along with a short portion of the sentence containing the word. The arrows allow you to move up and down through the list. This window stays active when using auto-load and will update with each account’s search results. The window can be minimized to a ‘Restore’ button on the Documents tree. Clicking on the Restore button will re-open the search window and will display the results.  
 
 ![Document Search Results](SearchResults.png)
 
@@ -154,11 +154,11 @@ The right click zoom will not be available for photo documents or pdf documents,
 
 When returning to a chart after new documents have been added, documents that have not previously been reviewed by the current user will appear in **BOLD** text.  Documents that have been previously viewed will appear in normal text.
 
-## Document Pane
+## Documents Tree
 
 ![Document Pane](DocumentPane.png)
 
-The Document viewer is in the middle of the screen to display the document, or viewer, clicked on within the document tree or Navigation tree.
+The Documents viewer is in the middle of the screen to display the documents, or viewer, clicked on within the document tree or Navigation tree.
 
 On the left hand side of main header are backward and forward arrows. These arrows will allow users to move back and forth through documents that have been opened in the document the viewer screen. 
 

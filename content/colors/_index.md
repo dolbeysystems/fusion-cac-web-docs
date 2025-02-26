@@ -88,7 +88,7 @@ the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-gui
 |Speech Bubble|Allows auditors to enter in notes next to any of the codes or items getting audited on the coder or auditor tree ![Speech Bubble](CommentIcon.png)|
 |Blue Background|Accuracy rate lines have a blue background, so they stand out. ![Blue Background](BlueBackground.png)|
 
-## Document Tree
+## Documents Tree
 
 |Symbol/Color   |Meaning   |
 |---------------|----------|
