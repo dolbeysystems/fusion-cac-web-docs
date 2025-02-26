@@ -51,4 +51,4 @@ To assign the impact of the query, the user will enter a percentage in the "Assi
 |Status|This is the status of the query, to change this click on the blue envelop icon to the right of assigned impact.|
 
 >[!Note]Impact Assignment
-For guidelines on how to quantify the impact of a query, or queries, contact your {{%icon icon="user-tie"%}} supervisor for any internal policies and procedures.
+For guidelines on how to quantify the impact of a query, or queries, Users should contact their {{%icon icon="user-tie"%}} supervisor for any internal policies and procedures.
