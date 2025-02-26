@@ -29,7 +29,7 @@ patients, considering the special characteristics of the pediatric population.
 
 This PDI indicator displays in the banner bar under the compute button. The PDI is reported in one of two fields CDI PDI Indicator or PDI Indicator if identified. The indicator can be used for workflow and/or reporting.
 
-The algorithm for the PDI on if it applied or not is within the code summary pane.
+The algorithm for the PDI on if it applied or not is within the Code Summary viewer.
 
 >[!Note] If a code that causes an exclusion for a PSI or PDI occurs in the top 25 codes (or custom limit set by the organization) the PSI/PDI will show in the banner, with an asterisk next to it, to indicate the PSI was conditionally applied.  The algorithm at the bottom of the Code Summary viewer will show the reason why. 
 

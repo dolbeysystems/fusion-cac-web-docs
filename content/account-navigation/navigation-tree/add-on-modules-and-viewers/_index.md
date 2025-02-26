@@ -32,7 +32,7 @@ The audit module allows for the role of an auditor within the application. The r
 
 An older style of discrete data can be displayed in a Discrete Values viewer. Tabs across the top of the screen display the categories of data. This displays each of the types of discrete data elements, which may vary by organization. 
 
-The Discrete Values viewer has a Filter by Month box, listing the months that contain values. Selecting a month will highlight all the corresponding dates in the Filter by Date box. The resulting values will show in the viewing pane. The Normal and Abnormal tabs both have this functionality and are filtered separately. 
+The Discrete Values viewer has a Filter by Month box, listing the months that contain values. Selecting a month will highlight all the corresponding dates in the Filter by Date box. The resulting values will show in the viewer. The Normal and Abnormal tabs both have this functionality and are filtered separately. 
 
 Discrete Values with a grey header are within normal limits. Each organization sends what is the reference point to determine what is normal and what is abnormal. If a header is display in red, it is considered abnormal by the organization. In addition to the header color, users can tell if the value is out of normal limits as there is a flag that indicates if the value is low vs. high. 
 

@@ -12,7 +12,7 @@ A Medication Administration Record (MAR, or eMAR for electronic versions), commo
 
 ### Activity Buttons
 
-There are activity buttons to "Save Layout" or expand the Medications viewing pane. Users can expand the width of the Medications pane to view more available columns by clicking on the arrow in the top right corner of the pane. This pane also provides columns that can be sorted or filtered based on the user's need. The columns include the medication Group, Category, Medication name, Dosage, Route, Rx#, Start Date/Time, and End Date/Time.
+There are activity buttons to "Save Layout" or expand the Medications viewer. Users can expand the width of the Medications viewer to view more available columns by clicking on the arrow in the top right corner of the viewer. This viewer also provides columns that can be sorted or filtered based on the user's need. The columns include the medication Group, Category, Medication name, Dosage, Route, Rx#, Start Date/Time, and End Date/Time.
 
 ![Medications Activity Buttons](2025-02-19_Medications1.png)
 

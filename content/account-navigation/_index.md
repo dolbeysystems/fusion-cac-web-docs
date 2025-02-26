@@ -52,8 +52,8 @@ The DRG view displays information available from the encoder for the computed DR
 
 ## Navigation Tree
 
-The Navigation Tree sits above the Documents Pane on the left-hand side of the Account Screen. 
-The Navigation Tree includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/), to pages within the chart providing summary views of
+The Navigation tree sits above the Documents tree on the left-hand side of the Account Screen. 
+The Navigation tree includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/), to pages within the chart providing summary views of
 coding information, demographic information, as well as clinical documentation, workflow, and 
 worksheets.
 
@@ -73,7 +73,7 @@ Available document types are configured with the operational/management team per
 
 ![Document Tree](DocumentTree.png)
 
-The Documents Tree includes a listing of all documents in a patient chart categorized by document type, as configured by the organization. It frames the Documents Tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents Tree indicate document types. Each document in the Documents Tree uses an icon or bolding to give information about the document.
+The Documents tree includes a listing of all documents in a patient chart categorized by document type, as configured by the organization. It frames the Documents tree and is located on the left-hand side of the Account Screen. Icons next to document names in the Documents tree indicate document types. Each document in the Documents tree uses an icon or bolding to give information about the document.
 
 |Icon    |Meaning |
 |--------|--------|
@@ -82,13 +82,13 @@ The Documents Tree includes a listing of all documents in a patient chart catego
 |![Text Document](TextDocIcon.png)| Text document|
 |![Bold Text](BoldText.png)|Bold document titles indicate the document has not been viewed by the current user|
 |![Expand Code Suggestions](ExpandIcon.png)|Document with engine code suggestions|
-|![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents pane with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
+|![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents tree with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
 
 For convenience, users may want to pop out the document into a separate window to continue viewing it while accessing other areas of the chart.
 
 ![Pop Out](PopOutIcon.png)
 
-On the documents panel users will see a backward and a forward arrow. This will allow the user to move up and down through the documents listed in the panel. 
+On the documents tree users will see a backward and a forward arrow. This will allow the user to move up and down through the documents listed in the tree. 
 
 ![Document Tree Arrows](DocumentTreeArrows.png)
 
@@ -104,11 +104,11 @@ Clicking on a document will load the document in the document viewer. Clicking o
 
 ### Sort Documents
 
-Sorting documents within the Documents tree is done by right-clicking on a document within the pane and selecting Sort, then Default, A-Z, Z-A, Date Ascending, or Date Descending. 
+Sorting documents within the Documents tree is done by right-clicking on a document within the tree and selecting Sort, then Default, A-Z, Z-A, Date Ascending, or Date Descending. 
 
 ![Document Sort Menu](DocumentSort.png)
 
-Users can reorganize the Document Tree by right clicking on the documents. Clicking on sort will allow users to sort the documents within the folders alphabetically or date. Documents can also be sorted chronologically which removes all folders and will organize all documents in chronological order.
+Users can reorganize the Document tree by right clicking on the documents. Clicking on sort will allow users to sort the documents within the folders alphabetically or date. Documents can also be sorted chronologically which removes all folders and will organize all documents in chronological order.
 
 ### Text Document Visual Differences
 
@@ -144,7 +144,7 @@ Click on the document highlighted in RED to view the searched term/phrase within
 
 ### Expand Documents 
 
-Right-click on a document within the Documents pane and select Expand to visualize all documents within a documents folder or all suggested codes within each document. The default view is Expand Documents, with options to Collapse All. This allows the user to see the whole folder structure to see what options they have before they open a folder to view specific documents.
+Right-click on a document within the Documents tree and select "Expand" to visualize all documents within a documents folder or all suggested codes within each document. The default view is "Expand Documents", with options to "Collapse All". This allows the user to see the whole folder structure to see what options they have before they open a folder to view specific documents.
 
 ![Expand Documents](ExpandDoc.png)
 
@@ -154,11 +154,11 @@ The right click zoom will not be available for photo documents or pdf documents,
 
 When returning to a chart after new documents have been added, documents that have not previously been reviewed by the current user will appear in **BOLD** text.  Documents that have been previously viewed will appear in normal text.
 
-## Document Pane
+## Document Tree
 
-![Document Pane](DocumentPane.png)
+![Document Tree](DocumentPane.png)
 
-The document pane is in the middle of the screen to display the document or viewer clicked on within the document tree or Navigation Tree.
+The Document viewer is in the middle of the screen to display the document, or viewer, clicked on within the document tree or Navigation tree.
 
 On the left hand side of main header are backward and forward arrows. These arrows will allow users to move back and forth through documents that have been opened in the document the viewer screen. 
 
@@ -176,15 +176,15 @@ To adjust the level of zoom on a document, right-click within the document and c
 
 ![Document Zoom](DocZoom.png)
 
-## Code Panes
+## Code Trees
 
-Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. This allows the user to view each code with a link to the documentation and context of words and phrases which prompted the code suggestion. If the code has a {{%button%}}**+**{{%/button%}} to the left of the code, there are codes within the document for review and validation.
+Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned tree on the right-hand side under the Assigned Codes tree. This allows the user to view each code with a link to the documentation and context of words and phrases which prompted the code suggestion. If the code has a {{%button%}}**+**{{%/button%}} to the left of the code, there are codes within the document for review and validation.
 
 ### Unassigned Codes
 
-![Unassigned Code Pane](UnassignedCodePane.png)
+![Unassigned Code Tree](UnassignedCodePane.png)
 
-There are 2 different symbols that may display next to the code(s). If there is not an icon next to the code, then the engine suggested these codes.
+There are two (2) different symbols that may display next to the code(s). If there is not an icon next to the code, then the engine suggested these codes.
 
 |Code Icon| Meaning|
 |---------|--------|
@@ -195,7 +195,7 @@ Codes are categorized by Diagnosis Codes, Procedure Codes, and then CPT® Codes.
 
 ![Categorized Codes](CategorizedCodes.png)
 
-Alternatively, users can toggle between showing All Codes or just the Unassigned Codes. Click on the Show All button to toggle between showing All Codes suggested by the engine on this account or Show Unassigned to view just the suggested codes pending validation to be moved to the Assigned Codes pane. If there is a code that appears on multiple document types and one of those is assigned, it will appear as **BOLD** in the Show All codes tree. 
+Alternatively, users can toggle between showing All Codes or just the Unassigned Codes. Click on the Show All button to toggle between showing All Codes suggested by the engine on this account or Show Unassigned to view just the suggested codes pending validation to be moved to the Assigned Codes tree. If there is a code that appears on multiple document types and one of those is assigned, it will appear as **BOLD** in the Show All codes tree. 
 
 ![Show All Code Button](ShowAllCodes.png)
 
@@ -209,9 +209,9 @@ Selecting Edit will open a window to review the code, code description, set the 
 
 ![Code Edit Box](CodeEditBox.png)
 
-Clicking OK after making these selections will then move the selected code to the Assigned Codes pane.
+Clicking OK after making these selections will then move the selected code to the Assigned Codes tree.
 
-![Assigned Code Pane](AssignedCodePane.png)
+![Assigned Code Tree](AssignedCodePane.png)
 
 Left-clicking on an Unassigned Code will open the relevant document in the center document viewer and highlight instances of the suggested code in yellow. 
 
@@ -231,7 +231,7 @@ Under Unassigned Procedure Codes are listed all unassigned CPT® Codes that have
 
 #### Hide CDI Added Codes
 
-If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes Pane will be viewable.  When checked, any code added to a document by a CDI will be hidden from the list. 
+If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes tree will be viewable.  When checked, any code added to a document by a CDS will be hidden from the list. 
 
 ![Hide CDI Codes Check Box](HidCDICodes.png)
 
@@ -251,15 +251,15 @@ Comments will show as a green flag in the code trees **and** on the code in the 
 
 ### Assigned Codes
 
-The Assigned pane sits above the Unassigned pane on the right-hand side of the Account Screen. The Assigned pane includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a Coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes pane. All codes on submit within this pane will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
+The Assigned tree sits above the Unassigned tree on the right-hand side of the Account Screen. The Assigned tree includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a Coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes tree. All codes on submit within this tree will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
 
 Codes falling below the 25th position will display within a light purple color. 
 
-![Assigned Code Pane](AssignedCodes.png)
+![Assigned Code Tree](AssignedCodes.png)
  
 #### Admit Diagnosis
 
- Listed first in the Assigned pane is the Admit Diagnosis. Users can right-click on any assigned diagnosis code and select Assign as Admit Diagnosis to add the code as the Admit Diagnosis. This right click menu will change depending on if you click on diagnosis or procedures and if the user is in an inpatient vs outpatient chart.
+ Listed first in the Assigned tree is the Admit Diagnosis. Users can right-click on any assigned diagnosis code and select Assign as Admit Diagnosis to add the code as the Admit Diagnosis. This right click menu will change depending on if you click on diagnosis or procedures and if the user is in an inpatient vs outpatient chart.
 
 ![Right Click Admit Diagnosis](RCAdmit.png)
 

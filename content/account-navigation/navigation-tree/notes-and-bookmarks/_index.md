@@ -7,17 +7,17 @@ weight = 22
 
 {{% children depth=999 %}}
 
-The Notes & Bookmarks becomes visible in the center pane after clicking on the hyperlink from the [Navigation Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane).  This pane presents a summary and chronological history of all notes and bookmarks added to this account. Users can expand the width of the Code Summary pane by clicking on the arrow in the top right corner of the pane.
+Notes & Bookmarks becomes visible in the center viewer after clicking on the hyperlink from the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) tree.  This viewer presents a summary and chronological history of all notes and bookmarks added to an account. Users can expand the width of the Code Summary viewer by clicking on the arrow in the top right corner of the viewer.
 
 ![Notes & Bookmarks Viewer](NotesBookmarksViewer.png)
 
 ## Notes
 
-Notes can be added to the patient chart by clicking on the +Add Note button within the Notes & Bookmarks Pane. 
+Notes can be added to the patient chart by clicking on the +Add Note button within the Notes & Bookmarks viewer. 
 
 ![+Add Note](AddNote.png)
 
-When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the [Navigation Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) will turn red.  
+When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) tree will turn red.  
 
 ![Red Notes & Bookmarks Viewer](RedNotesBookmarks.png)
 

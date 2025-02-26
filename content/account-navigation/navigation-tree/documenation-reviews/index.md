@@ -5,9 +5,9 @@ weight = 29
 
 {{% children depth=999 %}}
 
-The Documentation Review module is designed to provide flexibility for sites that prefer a different style of Clinical Documentation Improvement (CDI) reviews or need alternative methods for tracking management reporting. This module allows users to customize and monitor documentation reviews by various topics and types. It is particularly useful when reviews do not fit the conventional workflows of initial, follow-up, or reconciliation reviews, such as for utilization management purposes.
+The Documentation Reviewss module is designed to provide flexibility for sites that prefer a different style of Clinical Documentation Improvement (CDI) reviews or need alternative methods for tracking management reporting. This module allows users to customize and monitor documentation reviews by various topics and types. It is particularly useful when reviews do not fit the conventional workflows of initial, follow-up, or reconciliation reviews, such as for utilization management purposes.
 
-### Why Use Documentation Review?
+### Why Use Documentation Reviews?
 Sites sometimes choose to add documentation reviews because reporting productivity is more complex than tracking initial, follow-up, or reconciliation reviews. The module's flexibility allows CDI teams to capture and track additional review types that are essential for comprehensive reporting but might not fit within the standard review categories.
 
 ### Standard Review Definitions
@@ -66,17 +66,17 @@ This report shows productivity by each user by custom documentation review type.
 ### CDI Detailed by Review
 This report provides details about the custom documentation review type of CDI reviews performed by account.
 
-### Navigating to Documentation Review
-Unlike the CDI Worksheet which is located under the Document Tree, the Documentation Review section is found on the Navigation Tree within the user interface. This distinction allows easy access to reviews that are separate from the standard CDI workflows and documents.
+### Navigating to Documentation Reviewss
+Unlike the CDI Worksheet which is located under the Document tree, the Documentation Reviewss section is found on the Navigation tree within the user interface. This distinction allows easy access to reviews that are separate from the standard CDI workflows and documents.
 
-### Steps to Access Documentation Review
+### Steps to Access Documentation Reviews
 
-1. Locate the Navigation Tree: Once logged into the system, navigate to the left-hand side of the screen where the Navigation Tree is displayed. This pane provides access to various functions within the system.
-2. Select Documentation Review: Under the Navigation Tree, will be the Documentation Review section. Click on it to open the review interface.
+1. Locate the Navigation tree: Once logged into the system, navigate to the left-hand side of the screen where the Navigation tree is displayed.
+2. Select Documentation Review: Under the Navigation tree, will be the Documentation Reviews section. Click on it to open the review interface.
 
 ![Documentation Reviews](2025-02-20_DocumentationReview1.png)
 
-3. Adding a New Review: Upon opening the Documentation Review module, you will have the option to +Add Review. This allows you to select the specific review type from the list of available choices. The choices available are customized per organization and can include any form types an organization has designed.
+3. Adding a New Review: Upon opening the Documentation Reviews viewer, there will be the option to +Add Review. This allows the user to select the specific review type from the list of available choices. The choices available are customized per organization and can include any form types an organization has designed.
 
 ![Documentation Reviews](2025-02-20_DocumentationReview2.png)
 
