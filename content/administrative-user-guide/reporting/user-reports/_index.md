@@ -806,7 +806,7 @@ Reports can be filtered by topic to narrow down the list of available reports.
 To assign a topic to report
 - Select the report
 - Click {{%button%}}Edit Topic{{%/button%}}
-- Edit the selected report ![Edit Topics Dialogue](EditTopics.png)
+- Edit the selected report ![Edit Topics Dialog](EditTopics.png)
   - Choose an exisiting topic from the dropdown menu
   - Enter a name for a custom topic, and click {{%button%}}+Add{{%/button%}}
   - Click {{%button%}}Save{{%/button%}}
@@ -814,4 +814,4 @@ To assign a topic to report
 >[!info] 
 >A report can have multiple topic tags.
 
-Topics can be managed in the Topics [mapping table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#updating-mapping-tables). 
+Topics can be managed in the Topics [Mapping Table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#updating-mapping-tables). 

@@ -77,7 +77,7 @@ These fields allow the end user to indicate the date and time of a response, tes
 
 Dropdown menus allow end users to select from a pre-determined list of options. 
 
-After naming and determining who can edit the field, a dialogue will open to set the options in the dropdown menu. 
+After naming and determining who can edit the field, a dialog box will open to set the options in the dropdown menu. 
 
 ![Dropdown Field](DropdownField.png)
 
@@ -128,7 +128,7 @@ on it will bring up a notes box, just like in Workflow Management.
 
 ![Show History Button](ShowHistory.png)
 
-![Show History Changes Dialogue](ShowHistChanges.png)
+![Show History Changes Dialog](ShowHistChanges.png)
 
 ## Source Code
 

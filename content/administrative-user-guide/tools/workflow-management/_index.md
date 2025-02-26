@@ -51,7 +51,7 @@ to all other workgroup categories, but Audit workflow is triggered on a schedule
 
 Example: Select that workflow automatically adds charts to the worklist on the first day of every month and last day of the month.
 
-![Edit Audit Dialogue](EditAudit.png)
+![Edit Audit Dialog](EditAudit.png)
 
 On the designated days every month, 5 charts (the limit can be changed) from every coder (First Submitter) will be automatically routed to the auditor’s worklist. 
 
@@ -136,7 +136,7 @@ As an organization expands their AutoClose capabilities, Dolbey recommends condu
 
 To add a new category in Workflow Management, click {{%button%}}+Add New Category{{%/button%}} in the top right corner.
 
-The dialogue box has options to add a default/standard category or a new custom category. 
+The dialog box has options to add a default/standard category or a new custom category. 
 
 ![Add New Category](AddNewCategory.png)
 
@@ -229,7 +229,7 @@ Each criterion has a set of operators. Depending on the property slected, the op
 
 #### Properties
 
-Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button%}} to expand the dialogue.
+Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button%}} to expand the dialog.
 
 ![Worklist Properties](WorklistProperties.png)
 
