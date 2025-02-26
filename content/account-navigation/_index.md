@@ -63,13 +63,13 @@ indicates action items  required to finalize the chart or  additional informatio
 
 ### +Add
 
-Click on the +Add document button to add a document configured based on your user role. 
+Click on the {{%button%}}+Add Document{{%/button%}} button to add a document configured based on a user's role. 
 
 ![Add Document Button](AddDocuments.png)
 
 Available document types are configured with the operational/management team per organization. 
 
-## Document Tree
+## Documents Tree
 
 ![Document Tree](DocumentTree.png)
 
@@ -88,7 +88,7 @@ For convenience, users may want to pop out the document into a separate window t
 
 ![Pop Out](PopOutIcon.png)
 
-On the documents tree users will see a backward and a forward arrow. This will allow the user to move up and down through the documents listed in the tree. 
+On the Documents tree users will see a backward and a forward arrow. This will allow the user to move up and down through the documents listed in the tree. 
 
 ![Document Tree Arrows](DocumentTreeArrows.png)
 
@@ -98,7 +98,7 @@ If the document has a plus sign to the left of the document name, there are code
 
 ![Documented Codes](DocCodes.png)
    
-Clicking on a document will load the document in the document viewer. Clicking on a suggested code listed underneath the document will take you to highlighted text within the document that triggered the engine to make that code suggestion. 
+Clicking on a document will load the document in the Documents viewer. Clicking on a suggested code listed underneath the document will take the user to highlighted text within the document that triggered the engine to make that code suggestion. 
 
 ![Suggested Document Code](DocSuggested.png)
 
@@ -126,7 +126,7 @@ This will bring up a new tab. The left side of the tab will show the older docum
 
 ### Search Button
 
-The Documents tree includes a Search button.  
+The Documents tree includes a {{%button%}}Search{{%/button%}} button.  
 
 ![Document Search](DocSearch.png)
 
