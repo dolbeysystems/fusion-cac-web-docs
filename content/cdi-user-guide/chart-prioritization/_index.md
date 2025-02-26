@@ -11,19 +11,19 @@ the charts based on potential query opportunities available.
 The software provides real-time Alerts when potential query opportunities are identified. Which will
 then allow CDI staff to prioritize charts based upon those potential opportunities.
 
-## What is a CDI/Clinical Alert Topic?
+## What is a CDI/Clinical Alerts Topic?
 
 CDI/Clinical Alert Topics are the diagnosis that is being targeted by the Alert. The Topic encompasses a broad
 range of diagnoses that address various issues being targeted by the system. These diagnoses then
 branch out into more specific types known as Alerts. These are based on the type of issue being
 targeted.
 
-## What is a CDI/Clinical Alert Message?
+## What is a CDI/Clinical Alerts Message?
 
 The Alert message is a specific message that details what is missing, incomplete, and/or inaccurate
 documentation that is missing with the Diagnosis/Topic that is being targeted.
 
-## CDI/Clinical Alert Types
+## CDI/Clinical Alerts Types
 
 CDI/Clinical Alerts branch out into four (4) types of Alerts.
 
@@ -89,7 +89,7 @@ The section “Active Alerts” are Alerts that the system found and no action h
 
 There are three parts to an Alerts title to observe:
 1. **Alert Topic** - This corresponds to a diagnosis.
-2. **CDI/Clinical Alert Message** - This is a brief description of what the system found to be missing, incomplete, or possibly inaccurate and corresponds to the Topic.
+2. **CDI/Clinical Alerts Message** - This is a brief description of what the system found to be missing, incomplete, or possibly inaccurate and corresponds to the Topic.
 3. **Date and Time** - This is the date and time when the system found evidence for the alert to trigger. This information is tracked for reporting to see how quickly the system is triggering an alert.
 
 ![Alert Title](2025-02-24_ChartPri4.png)
@@ -109,7 +109,7 @@ The date and time stamp in the title of the Alert will indicate when the Alert w
 
 ![Close Alert Reason](2025-02-24_ChartPri6.png)
 
-### CDI/Clinical Alert Notes
+### CDI/Clinical Alerts Notes
 
 Next to each of the Alerts in either the Active or Completed Alerts section is a paper icon.
 
@@ -125,7 +125,7 @@ Upon adding the note the paper icon will turn **{{< rawhtml >}}<span style="colo
 
 Once a note is typed in it will leave the date and time as well as the CDS name so if another CDS enters the chart, they will be able to clearly see who chose to monitor the Alert at this time and why. Upon adding the note the paper icon will turn red, notifying the next user that is reviewing the CDI/Clinical Alerts that there is a note present on the Alert.
 
-### CDI/Clinical Alert Editor Function
+### CDI/Clinical Alerts Editor Function
 
 Adjacent to the Alert message, there is a pencil icon. Clicking on it will open an editor,
 enabling the CDS to rearrange and customize the placement of evidence using a drag-and-drop functionality.
@@ -225,7 +225,7 @@ Closed Alerts section.
 The Alerts have the ability to autoresolve themselves if documentation comes in that would satisfy the
 Alert. Once an Alert is Autoresolved it will move to the Completed Alert section. This will ensure that only Alerts that require attention are active for the CDS. 
 
-## Closing Alert without Querying
+## Closing Alerts without Querying
 
 If it is determined that an Alert can be closed without initiating a query, a CDS can click on the **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** and the CDS will be presented with a "Close Alert" dialouge box to select why they are closing the alert (see the [Completed Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-prioritization/#completed-alerts) section of this page). 
 
