@@ -217,7 +217,7 @@ you must add it to the template created in forms designers.
 
 **Add internal note for physician queries**
 
-Internal only notes can now be added to Physician Query templates from the form designer. 
+Internal only notes can now be added to Physician Query templates from [Query Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/query-designer/). 
 
 ![](image-696.jpg)
 

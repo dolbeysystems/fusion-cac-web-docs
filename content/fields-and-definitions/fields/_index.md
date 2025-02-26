@@ -42,7 +42,7 @@ weight = 10
 |Calculated Date/Time           |This field shows you the last time the encoder was last run, if it's blank, the encoder needs to be run. This is so that in Account Search and workflow. This can help find an accounts that the user should have an APC, DRG or if you are reviewing to see if a coder clicked on the encode to run edits |,,
 |Category                       |This is a Dolbey created patient type to assist with reporting because often a patient type field needed to be joined with a location, hospital service or other fields to alter reporting for productivity categories join those fields to create custom patient types for easy productivity and DNFC reporting. |,,,,
 |CDI Physician Queries Agreed   |This is the outcome of the query reporting by the CDI user closing the query. Agree commonly means that the physician provided the CDI with a valid diagnosis. |
-|CDI Physician Queries Canceled |Not accessible in Form Designer. You can customize these by adding a mapping table using this key PhysicianQueryCancelReasons this will overwrite the default cancel options. |
+|CDI Physician Queries Canceled |Not accessible in Query or Worksheet Designer. You can customize these by adding a mapping table using this key PhysicianQueryCancelReasons this will overwrite the default cancel options. |
 |CDI Physician Queries Closed   |This is the total number of physician queries closed issued by a CDI user. |
 |CDI Physician Queries Disagreed |This is the outcome of the query reporting by the CDI user closing the query. Disagree commonly means that the physician provided the CDI with a different result than expected. |
 |CDI Physician Queries No Opinion |This is the outcome of the query reporting by the CDI user closing the query. No Opinion commonly means that the physician provided the CDI with a clinically insignificant diagnosis. |
@@ -168,7 +168,7 @@ weight = 10
 |Location                       |This field can store the location but, commonly the location is stored within the building field not the location field. |,,,,
 |Locked By                      |This is the current user that has the account locked which is defined by actively in use. |
 |Locked Date/Time               |This is the date and time the account became locked in use by the current user. |
-|New Document Flag              |Computed to true if any documents were imported onto account after the last time the account was saved. The user would see in the accounts grid a check mark to indicate True; Not accessible in Form Designer |
+|New Document Flag              |Computed to true if any documents were imported onto account after the last time the account was saved. The user would see in the accounts grid a check mark to indicate True; Not accessible in Query or Worksheet Designer |
 |Next Review Date               |This field can be changed to a different date other than the default which is every day. This field is used by the CDI team to indicate the date that they want the chart routed back to the follow-up review worklist. This field can be found on the code summary page changing the calendar date field from the date displayed to a future date. This will tell the chart to not route back to the “Follow-up Review” until the current calendar date matches the date you changed the next review date to. |
 |Owner First Name               |This is the current Owners first name. An ownership can be claimed by selecting the owner button on the code summary viewer. |
 |Owner Last Name                |This is the current Owners last name. An ownership can be claimed by selecting the owner button on the code summary viewer. |
@@ -204,7 +204,7 @@ weight = 10
 |Pre-Bill Working DRG           |This is the working DRG pre-bill. |
 |Pre-Bill Working DRG Description |This is the working DRG Description pre-bill. |
 |Pre-Bill Working DRG Weight    |This is the working DRG Weight pre-bill. |
-|Pre-Visit Account Number       |Not accessible in Form Designer |
+|Pre-Visit Account Number       |Not accessible in Query or Worksheet Designer |
 |Primary Grouper                |This is the primary grouper of the account. |
 |Principal CPT Code             |This is the principal CPT code on the account. |
 |Principal CPT Modifier         |This is the principal CPT code modifier(s). The user can add up to 4 modifiers unless they are using the 3M CRS encoder, then they will be able to add up to 5 modifiers. |,,,,
@@ -217,7 +217,7 @@ weight = 10
 |Public Note Date/Time          |This is the date and time that the public note was created. |
 |Public Note User ID            |This is the users id that created the public note. |
 |Quality Measure                |This is a field used to identified if a coder user identified PC-06. The PC-06 indicator is identified by using the quality measures technical specifications. This field requires the quality module. |
-|Random Inclusion Factor        |Computed to display a random number between 1 and 100; Not accessible in Form Designer |
+|Random Inclusion Factor        |Computed to display a random number between 1 and 100; Not accessible in Query or Worksheet Designer |
 |Redundant Code Count   |Total number of codes that the coder added manually but the engine suggested the code already                                                        |
 |Room                           |This is the last known room of the patient. |
 |Secondary Grouper              |This is the secondary grouper of the account. |
@@ -234,7 +234,7 @@ weight = 10
 |Transfer From                  |This is where the patient was transferred from. |
 |Transfer To                    |This is where the patient was transferred to. |
 |Validation Rule Count at Submit |This tells you if there were any active validation rules at Submit. |
-|Workflow Trigger Date          |Not accessible in Form Designer |
+|Workflow Trigger Date          |Not accessible in Query or Worksheet Designer |
 |Workgroup                      |This field identifies what current default workgroup the patient chart is currently within. |
 |Workgroup Assigned By          |This is used to indicate that user manually assigned the chart to another user’s “You” worklist. |
 |Workgroup Assigned Date        |This field identifies the date that the patient chart qualified for the current workgroup. |

@@ -18,7 +18,7 @@ Navigate to the **Type new role...** field in the top right corner of the screen
 
 ![](2024-11-21_AddUserRole.png)
 
-In the example of a "CDI Enhanced", management may provide users with this role access to all previous CDI permissions while also enabling the ability to design queries. To start, replicate the settings from the CDI Specialist default role. Then, add privileges for the form designer to Create/Edit All Physician Query Templates. 
+In the example of a "CDI Enhanced", management may provide users with this role access to all previous CDI permissions while also enabling the ability to design queries. To start, replicate the settings from the CDI Specialist default role. Then, add privileges for the [Query Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/query-designer/) to Create/Edit All Physician Query Templates. 
 
 Once all privileges for the custom role are selected, click {{%button%}}Save All Roles{{%/button%}} in the top-right corner.
 
