@@ -42,7 +42,7 @@ Add the note for your bookmark in the Note text box, then click the checkmark bu
 
 ![Green Bookmark Icon](BookmarkIcon.png)
 
-To review all bookmarks within a chart, go to Notes & Bookmarks in the Navigation Tree. All of the bookmarks within the chart are listed in the Notes & Bookmarks pane.
+To review all bookmarks within a chart, go to Notes & Bookmarks in the Navigation tree. All of the bookmarks within the chart are listed in the Notes & Bookmarks pane.
 
 ![Sample Notes & Bookmarks List](NotesBookmarksList.png)
 

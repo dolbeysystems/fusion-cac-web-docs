@@ -38,12 +38,12 @@ Coder can rebut and route an account back to the Auditor (also triggering a save
 
 This role allows for the end-user to have a separate code tree while importing the coder-assigned codes
 so that they have something to start with. The Auditor role has a companion viewer in the Navigation
-Tree. This viewer allows the Auditor to document the findings of an audit.
+tree. This viewer allows the Auditor to document the findings of an audit.
 
 ![Audit Worksheet Viewer](AuditViewer.png)
 
 The pre-audit codes and DRG are displayed for easy reference by the Auditor. The Auditor conducts the
-review and makes changes to the codes in the Assigned Code Tree. When finished, the auditor computes
+review and makes changes to the codes in the Assigned Code tree. When finished, the auditor computes
 for the DRG. This displays post-audit results next to the pre-audit results for easy comparison. The
 changes made by the auditor during the review are automatically recorded within the statistics section
 of the viewer.

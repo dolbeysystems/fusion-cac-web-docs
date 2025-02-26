@@ -53,7 +53,7 @@ The viewer name will turn red to alert the user that action is needed.
 ![Highlighted Physicians & Queries](PhysiciansQueriesHighlighted.png)
 
 The "Physicians & Queries" viewer will be highlighted with an amber background in the
-Navigation Tree if the account has at least one physician query.
+Navigation tree if the account has at least one physician query.
 
 >[!note] The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.
@@ -126,10 +126,10 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |NOR|Indicates the procedure code is a non-OR procedure.
 |Tag|Returned upon computing for the MS-DRG, this indicates that the code is responsible for one of the following quality measures **PSI**, **PDI**, **PC-06** or **Elixhauser**. ![Quality Indicator Tag](QITag.png)|
 |Purple Background on **Assigned Codes**|There are more than 25 codes and any code in purple is below the the 25th position. This is important since CMS only accepts 25 diagnosis codes in the event you need to consider resequencing codes that need to be above the 25th position.![Purple Background](PurpleBackground.png)|
-|Exclamation Icon|Will appear on the "show all" tree when a user manually entered this code *and* the system suggested it.![Exclamation Mark](ExclamationMark.png)|
+|Exclamation Icon|Will appear on the "Show All" tree when a user manually entered this code *and* the system suggested it.![Exclamation Mark](ExclamationMark.png)|
 |Person Icon|A user manually entered this code. It was not suggested by the application. Hovering over the icon will display the user who added it.![Person Icon](PersonIcon.png)|
 |Caution Symbol|An edit that comes from the TruCode encoder or add on edits. If you hover over the caution symbol you can see the edit. Users needing a larger view of the edit can open the TruCode research page for further details.![Caution Symbol](CautionSymbol.png)|
-|Green Flag|In the "Show All" or "Unassigned Code Tree," the presence of a green flag next to a code signifies that there is a comment associated with that particular code. This same flag can also be found alongside the code within a document and in the notes & bookmarks section under the navigation tree within the code comment section.![Code Comment](CodeCommentIcon.png)|
+|Green Flag|In the "Show All" or "Unassigned" code tree, the presence of a green flag next to a code signifies that there is a comment associated with that particular code. This same flag can also be found alongside the code within a document and in the notes & bookmarks section under the Navigation tree within the code comment section.![Code Comment](CodeCommentIcon.png)|
 |Pencil Icon|Exclusively available for **non-TruCode** organizations. It allows end users to manually input a code into the encoder using the compute button. This signifies that there is no direct association between the code and any specific location on a document.|
 |Letter Blocks|Indicates the present on admission (POA) status. When clicked the end user can change the status to the following: <ul><li>Y = Yes</li><li>N = No</li><li>U = Undefined</li><li>W = Withdrawal</li><li>E = Exempt</li></ul> ![Letter Blocks](LetterBlocks.png)|
 
