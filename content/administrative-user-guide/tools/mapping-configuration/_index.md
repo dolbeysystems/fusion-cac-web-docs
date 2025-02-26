@@ -73,7 +73,7 @@ The [Incentive Productivity Report](https://dolbeysystems.github.io/fusion-cac-w
 ##### Display HCC Indicators
 
 - When the user assigns a code that has a CMS HCC, a small H indicator appears.
-  - The current version of HCC *and* the version for the previous calendar year (retroactively) will display when the user hovers over the H in the Assigned Codes panel.
+  - The current version of HCC *and* the version for the previous calendar year (retroactively) will display when the user hovers over the H in the Assigned codes tree.
   ![](image-544.jpg)
 - The Previous HCC Overview will be available in the Navigation tree for any subsequent patient chart with the same MRN number that previously had HCC’s.
   

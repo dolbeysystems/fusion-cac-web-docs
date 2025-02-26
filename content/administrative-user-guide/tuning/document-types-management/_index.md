@@ -67,6 +67,6 @@ codes prevent assigning or changing the caution code.
 
 ![Caution Code Column](SetCaution.png)
 
-In the Unassigned Codes pane, any code attached to a caution document will show in a yellow background and will not have the option to assign on the right click menu.
+In the Unassigned codes tree, any code attached to a caution document will show in a yellow background and will not have the option to assign on the right click menu.
 
 ![Caution Code in Tree](CautionCode.png)

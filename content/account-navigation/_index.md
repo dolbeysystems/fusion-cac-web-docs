@@ -130,7 +130,7 @@ The Documents tree includes a {{%button%}}Search{{%/button%}} button.
 
 ![Document Search](DocSearch.png)
 
-Click on the Search button to open and enter the specific terms or phrase to be found within the documents in the chart. Upon clicking the search button, a floating window will now open and will fill with all results for the search word.  Each result will display the name and date of the document along with a short portion of the sentence containing the word. The arrows allow you to move up and down through the list. This window stays active when using auto-load and will update with each account’s search results. The window can be minimized to a ‘Restore’ button on the Document tree. Clicking on the Restore button will re-open the search window and will display the results.  
+Click on the {{%button%}}Search{{%/button%}} button to open and enter the specific terms or phrase to be found within the documents in the chart. Upon clicking the {{%button%}}Search{{%/button%}} button, a floating window will now open and will fill with all results for the search word.  Each result will display the name and date of the document along with a short portion of the sentence containing the word. The arrows allow you to move up and down through the list. This window stays active when using auto-load and will update with each account’s search results. The window can be minimized to a ‘Restore’ button on the Document tree. Clicking on the Restore button will re-open the search window and will display the results.  
 
 ![Document Search Results](SearchResults.png)
 

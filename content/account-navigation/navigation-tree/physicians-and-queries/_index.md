@@ -6,7 +6,7 @@ weight = 23
 
 {{% children depth=999 %}}
 
-Within this viewer users can add physicians and change the physician's staff function, if necessary. They can also intiaiate the physician query process in this viewer. Users can expand the width of the Physicians & Queries pane by clicking on the arrow in the top right corner of the pane.
+Within this viewer users can add physicians and change the physician's staff function, if necessary. They can also intiaiate the physician query process in this viewer. Users can expand the width of the Physicians & Queries viewer by clicking on the arrow in the top right corner of the viewer.
 
 ![Physicians & Queries Viewer](PhysiciansQueriesViewer.png)
 

@@ -52,7 +52,7 @@ Each column within the Assigned Accounts Grid has menu options to pin, auto size
 
 ![Pin a Column](PinColumn.png)
 
-The Pin Column feature allows users to freeze desired columns to the right or left of the accounts grid pane. Doing so will keep these columns visible when moving to other areas of the assigned accounts grid. Columns can be rearranged after they have been pinned based on view preferences. To unpin a column, select the Pin Column option from the menu and choose No Pin.
+The Pin Column feature allows users to freeze desired columns to the right or left of the accounts grid. Doing so will keep these columns visible when moving to other areas of the assigned accounts grid. Columns can be rearranged after they have been pinned based on view preferences. To unpin a column, select the Pin Column option from the menu and choose No Pin.
 
 ### Autosize & Reset Columns
 

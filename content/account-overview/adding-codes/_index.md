@@ -25,7 +25,7 @@ There are multiple ways to add a code to a chart, if it has not already been sug
 
 #### Add Code via Right Click
 
-After reviewing all suggested codes from either the Documents Pane or the Unassigned Code Pane, users can add a code to a text document by highlighting the relevant word(s) or phrase and then right-clicking to open the Add Code menu. 
+After reviewing all suggested codes from either the Documents viewer or the Unassigned code tree, users can add a code to a text document by highlighting the relevant word(s) or phrase and then right-clicking to open the Add Code menu. 
 
 ![Right Click Add Code Menu](AddCodeMenu.png)
 
