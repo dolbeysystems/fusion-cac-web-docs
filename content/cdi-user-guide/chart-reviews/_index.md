@@ -92,7 +92,7 @@ From here the CDS has 3 options:
 
 ### Documentation Reviews
 
-If an organization does different styles of CDI reviews, or want to track management reporting different than default tracking, the [Documentation Review Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/documenation-reviews/) can be used to track reviews by topic. Organizations have used this if the CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow-up review. 
+If an organization does different styles of CDI reviews, or want to track management reporting different than default tracking, the [Documentation Reviews](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/documenation-reviews/) viewer can be used to track reviews by topic. Organizations have used this if the CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow-up review. 
 
 By default, documentation reviews have a free form text field. Organizations can also create forms within the [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/) for each of these reviews.
 
