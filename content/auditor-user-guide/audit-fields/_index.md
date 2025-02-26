@@ -4,10 +4,10 @@ weight = 23
 +++
 
 Listed below, are the sections of the audit worksheet and the definition of the fields , including how it was
-calculated. If the auditor disagrees with any of the auto-calculated fields below, they can choose to
+calculated. If the Auditor disagrees with any of the auto-calculated fields below, they can choose to
 override the field by entering in the value that makes sense per the audit. The system will provide an
 audit trail to show what the value was changed from and to for transparency along with the user that
-made the change and the date/time the change was performed.
+made the change and the date/time the change was performed.s
 
 ![](image-312.jpg)
 
