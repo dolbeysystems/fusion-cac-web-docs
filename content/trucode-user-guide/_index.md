@@ -1,6 +1,6 @@
 +++
 title = "TruCode"
-weight = 25
+weight = 16
 +++
 
 While Fusion CAC is encoder agnostic, some organizations choose to use the TruCode Encoder Essentials embedded in the application. 
