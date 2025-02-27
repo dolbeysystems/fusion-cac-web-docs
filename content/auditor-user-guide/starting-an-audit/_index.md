@@ -119,42 +119,42 @@ This section will only be available if queries were initiated *after* the audit 
 
 ## Multiple Audits per Account
 
-An account can have one or more audits added to it. Clicking {{%button%}}+Add Audit{{%/button%}} will create a new, blank audit worksheet. These worksheets are numbered and displayed at the top of the Audit viewer, along with a date stamp indicating when each worksheet was opened. The worksheet currently being viewed will be highlighted with a green background.
+An account can have one or more audits added to it. Clicking the {{%button%}}+Add Audit{{%/button%}} button will create a new, blank audit worksheet. These worksheets are numbered and displayed at the top of the Audit viewer, along with a date stamp indicating when each worksheet was opened. The worksheet currently being viewed will be highlighted with a green background.
 
 ![Multiple Audits](MultipleAudits.png)
 
 ## Coder Acknowledgement
 
-If there changes for the Coder to address post-audit, the Auditor will route the chart back to the Coder by clicking on the {{%button%}}Route to Coder{{%/button%}} button. 
+If there are changes for the Coder to address post-audit, the Auditor will route the chart back to the Coder by clicking on the {{%button%}}Route to Coder{{%/button%}} button. 
 
-When the Coder opens the chart to review, there will be a "Coder Acknowledgement" section. This section gives the Coder the opportunity to either agree with the audit or to provide a rebuttal. If the Coder selects the outcome to be a rebuttal the Coder must provide a comment for the Auditor. Once the Coder has added their comments they can route the chart back to the Auditor by clicking on the {{%button%}}Return to Auditor{{%/button%}} button.
+When the Coder opens the chart to review, there will be a "Coder Acknowledgement" section. This section gives the Coder the opportunity to either agree with the audit or to provide a rebuttal. If the Coder selects the outcome to be a rebuttal the Coder must provide a comment for the Auditor. Once the Coder has added their comments they will route the chart back to the Auditor by clicking on the {{%button%}}Return to Auditor{{%/button%}} button.
 
 ![Coder Acknowledgement](2025-02-27_Audit10.png)
 
-Once the chart is returned to the Auditor, there are a few actions the Auditor can take based on the Coder Acknowledgement response. 
+Once the chart is returned to the Auditor, there are a few actions the Auditor can take based on the Coder Acknowledgement response: 
 
 1. Review the rebuttal, select agree, and finish the audit.
-2. Review the rebuttal, select disagree, and finish the audit **OR** initiate the Audit Escalation process. 
-
-If the Auditor reviews the rebuttal, disagrees, and determines that escalation is necessary, they can go through the Audit Escalation processthen either:
-1. Choose "No Escalation Requested" and finish the audit; OR
-2. Choose "Escalation Requested" and enter details for the escalation request then send the escalation to the person responsible for reviewing escalation requests. 
-
-Once the person that receives the escalation is able to review the request, there are a few actions they can take. They can either select:
-1. Agree with Auditor;
-2. Agree with Coder; OR
-3. Alternative Outcome
-
-With either option, they have the ability to add their own comments.
+2. Review the rebuttal, select disagree, and finish the audit **OR** initiate the [Audit Escalation](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/starting-an-audit/#audit-escalation) process. 
 
 ## Audit Escalation
 
-The Audit Escalation feature is triggered when the Coder's outcome results in a rebuttal, and the Auditor disagrees with the rebuttal. In this case, a section labeled "Escalation Requested" becomes available. The Auditor can activate this section to indicate that an escalation is necessary. Once this is set, an additional section called Audit Escalation will appear. This section allows the user to document the outcome of the escalation and provides a designated space for comments related to the escalation.
+The Audit Escalation feature is triggered when the Coder's outcome results in a rebuttal, and the Auditor disagrees with the rebuttal and further action may need to be taken. In this case, a section labeled "Escalation Requested" becomes available. The Auditor can activate this section to indicate that an escalation is necessary. Once this is set, an additional section called Audit Escalation will appear. This section allows the user to document the outcome of the escalation and provides a designated space for comments related to the escalation.
+
+![Audit Escalation](2025-02-27_Audit13.png)
+
+This feature is governed by role-based permissions in the [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/) settings. Within Role Management, there is an option to specify who has the ability to edit the Audit Escalation section.
+
+If a coding manager or another designated individual is responsible for responding to escalations, they must meet the following requirements:
+1.	**Audit View Access**: The user’s role must include permissions to view audits.
+2.	**Audit Role Setting**: The role assigned to the user must have the Audit option enabled in the top-right corner of Role Management.
+3.	**Edit Escalation Access**: The user must also have explicit permission to edit escalations, as defined within the Role Management settings.
+
+These permissions ensure that only authorized individuals can manage and resolve the escalation process effectively.s
+
 
 ## Finishing an Audit
 
-There are two (2) ways an audit can be finished. 
-1. 
+To finish an audit, whether it goes through a rebuttal process or not, the Auditor would simiply click on the {{%button%}}Finish Audit{{%/button%}} button. This closes the audit, but the Auditor has the option to re-open the audit as needed.
 
-If an Auditor has marked an audit finished, and the account is manually routed to a coder, that coder will now see a button at the bottom of the audit called Save Account as Reviewed, if that is the first time being reviewed by the coder. This button will mark the audit as Saved Review and will be seen as such in the Show History of that Account, and in the User Audit Trail report.
+
 
