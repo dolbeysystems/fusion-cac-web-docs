@@ -1,5 +1,5 @@
 +++
-title = 'Chart Reviews'
+title = 'CDI Reviews'
 weight = 10
 +++
 
