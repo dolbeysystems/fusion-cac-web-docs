@@ -1,13 +1,13 @@
 +++
-title = 'Charge or Transaction'
+title = 'Charges or Transactions'
 weight = 14
 +++
 
 {{% children depth=999 %}}
 
-If an interface for account charges or transactions is set up during configuration, the Charges screen shows a listing of charges on the account.
-
 ![Charges or Transactions Viewer](ChargesViewer.png)
+
+If an interface for account charges or transactions is set up during configuration, the Charges viewer shows a listing of charges on the account.
 
 There are activity buttons to "Save Layout" or expand the Charges viewer. Users can expand the width of the Charges viewer to view more available columns by clicking on the arrow in the top right corner of the viewer. This viewer also provides information on CPT Codes, Descriptions, Modifiers, Quantity, Service Date, Revenue Code, and Total Price.
 
