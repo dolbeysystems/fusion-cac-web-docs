@@ -1,6 +1,6 @@
 +++
 title = 'Charge or Transaction'
-weight = 24
+weight = 14
 +++
 
 {{% children depth=999 %}}

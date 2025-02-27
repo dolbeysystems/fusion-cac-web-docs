@@ -1,6 +1,6 @@
 +++
 title = 'Impact Queries'
-weight = 27
+weight = 19
 +++
 
 {{% children depth=999 %}}

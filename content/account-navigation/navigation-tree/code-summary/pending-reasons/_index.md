@@ -1,7 +1,7 @@
 
 +++
 title = 'Pending Reasons'
-weight = 20
+weight = 10
 +++
 
 ### Pending Reasons

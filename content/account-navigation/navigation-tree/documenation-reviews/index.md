@@ -1,6 +1,6 @@
 +++
 title = 'Documentation Reviews'
-weight = 29
+weight = 17
 +++
 
 {{% children depth=999 %}}
