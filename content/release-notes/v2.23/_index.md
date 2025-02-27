@@ -1,5 +1,5 @@
 +++
-title = 'V2.23'
+title = 'V2.23 (December 2021)'
 weight = 10
 +++
 
