@@ -107,9 +107,9 @@ At the conclusion of the audit, the Auditor can list any recommended training to
 
 The Auditor can then re-submit the chart or route it back to the Coder of Record by using the
 {{%button%}}Route to Coder{{%/button%}} button in the top right corner of the audit worksheet. This will route the chart to
-the Coder’s **You** worklist Coder Acknowledgement
+the Coder’s **You** worklist for the Coder to complete the [Coder Acknowledgement](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/starting-an-audit/#coder-acknowledgement) section. 
 
-![Route to Coder](RouteToCoder.png)
+![Route to Coder](2025-02-27_Audit12.png)
 
 ## Missed Queries
 
@@ -127,10 +127,34 @@ An account can have one or more audits added to it. Clicking {{%button%}}+Add Au
 
 If there changes for the Coder to address post-audit, the Auditor will route the chart back to the Coder by clicking on the {{%button%}}Route to Coder{{%/button%}} button. 
 
-When the Coder opens the chart to review, there will be a "Coder Acknowledgement" section. This section gives the Coder the opportunity to either agree with the audit or to provide a rebuttal. If the Coder selects the outcome to be a rebuttal the Coder must provide a comment for the Auditor. Once the Coder has added their comments they can route the chart back to the auditor by click on the {{%button%}}Return to Auditor{{%/button%}} button.
+When the Coder opens the chart to review, there will be a "Coder Acknowledgement" section. This section gives the Coder the opportunity to either agree with the audit or to provide a rebuttal. If the Coder selects the outcome to be a rebuttal the Coder must provide a comment for the Auditor. Once the Coder has added their comments they can route the chart back to the Auditor by clicking on the {{%button%}}Return to Auditor{{%/button%}} button.
 
 ![Coder Acknowledgement](2025-02-27_Audit10.png)
 
+Once the chart is returned to the Auditor, there are a few actions the Auditor can take based on the Coder Acknowledgement response. 
+
+1. Review the rebuttal, select agree, and finish the audit.
+2. Review the rebuttal, select disagree, and finish the audit **OR** initiate the Audit Escalation process. 
+
+If the Auditor reviews the rebuttal, disagrees, and determines that escalation is necessary, they can go through the Audit Escalation processthen either:
+1. Choose "No Escalation Requested" and finish the audit; OR
+2. Choose "Escalation Requested" and enter details for the escalation request then send the escalation to the person responsible for reviewing escalation requests. 
+
+Once the person that receives the escalation is able to review the request, there are a few actions they can take. They can either select:
+1. Agree with Auditor;
+2. Agree with Coder; OR
+3. Alternative Outcome
+
+With either option, they have the ability to add their own comments.
+
+## Audit Escalation
+
+The Audit Escalation feature is triggered when the Coder's outcome results in a rebuttal, and the Auditor disagrees with the rebuttal. In this case, a section labeled "Escalation Requested" becomes available. The Auditor can activate this section to indicate that an escalation is necessary. Once this is set, an additional section called Audit Escalation will appear. This section allows the user to document the outcome of the escalation and provides a designated space for comments related to the escalation.
+
+## Finishing an Audit
+
+There are two (2) ways an audit can be finished. 
+1. 
+
 If an Auditor has marked an audit finished, and the account is manually routed to a coder, that coder will now see a button at the bottom of the audit called Save Account as Reviewed, if that is the first time being reviewed by the coder. This button will mark the audit as Saved Review and will be seen as such in the Show History of that Account, and in the User Audit Trail report.
 
-Once the chart is returned the auditor the auditor has an opportunity to review the rebuttal and provide a response to the rebuttal or they can escalate the audit where the manager that receives the escalation can add a comment in the Auditor Response to Rebuttal.
