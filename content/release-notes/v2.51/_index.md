@@ -1,5 +1,5 @@
 +++
-title = 'V2.51'
+title = 'V2.51 (Jul 2023)'
 +++
 
 {{< release-notes-header version="V2.51.8581" date="07/07/23" >}}
