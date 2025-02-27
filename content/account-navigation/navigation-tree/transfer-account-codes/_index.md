@@ -1,6 +1,6 @@
 +++
 title = 'Transfer Account Codes'
-weight = 31
+weight = 26
 +++
 
 ![Transfer Account Codes](TransferAccountCodes.png)

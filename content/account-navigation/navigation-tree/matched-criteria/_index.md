@@ -1,6 +1,6 @@
 +++
 title = 'Matched Criteria'
-weight = 50
+weight = 20
 +++
 
 ![Matched Criteria Viewer](MCViewer.png)

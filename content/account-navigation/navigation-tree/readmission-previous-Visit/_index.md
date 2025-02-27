@@ -1,6 +1,6 @@
 +++
 title = 'Readmission/Previous Visit'
-weight = 10
+weight = 25
 +++
 
 If the patient has been readmitted within 30 days of an admission date, the patient demographic data will display below from the previous stay. This is not just for inpatient readmissions, but also includes if the patient was ever seen for any patient type within the last 30 days. The 30 days look back can also be expanded to 45 or 90 days. If the previous stay was also coded, you will see the Code Summary display below. If a check mark appears next to the code, this indicates the code on the previous stay was also suggested for the current stay.

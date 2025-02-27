@@ -1,6 +1,6 @@
 +++
 title = 'Previous HCC'
-weight = 30
+weight = 24
 +++
 
 {{% children depth=999 %}}

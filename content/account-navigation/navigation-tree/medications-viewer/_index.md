@@ -1,6 +1,6 @@
 +++
 title = 'Medications'
-weight = 25
+weight = 21
 
 +++
 
