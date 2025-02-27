@@ -1,6 +1,6 @@
 +++
 title = 'Colors and Symbols'
-weight = 100
+weight = 12
 +++
 
 The Fusion CAC 2 application contains a variety of colors and symbols. The following guide provides a

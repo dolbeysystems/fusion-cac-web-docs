@@ -2,7 +2,7 @@
 title = 'V2.25 (Jun 2022)'
 +++
 
-{{< release-notes-header version="V2.24.8210" date="06/24/22" >}}
+{{< release-notes-header version="V2.25.8210" date="06/24/22" >}}
 
 ### CACTWO-3976 (Enhancement)
 
