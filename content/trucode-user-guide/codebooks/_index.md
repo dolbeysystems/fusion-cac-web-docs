@@ -75,3 +75,29 @@ The following shortcuts can be used in the CodeBooks control:
 |←  →    |ICD-10-CM Tabulars|With the focus on a code with a seventh character, press to expand or collapse the seventh character list.|
 |←  →    |ICD-10-PCS index|Press to move between term and code in a see or see also note. Press Enter to then move to the new index location or the table.|
 |←  →    |ICD-10-PCS table|Press to move between the columns in the table.|
+|←  →    |ICD-9-CM and ICD-10-CM indexes|With the focus on a row in the Neoplasm table, Hypertension table, or Table of Drugs and Chemicals; press to move through the columns.|
+|←  →    |Vertical splitter bar|With the focus on the splitter bar, press to resize the panes. Press Enter to confirm the new size.|
+|↑ ↓     |Indexes and tabulars|Press to move backwards or forwards through the panes and resizers.| 
+|↑ ↓     |ICD-10-PCS table|Press to move up and down through the items in a column.|
+|↑ ↓     |Horizontal splitter bar|With the focus on the splitter bar, press to resize the panes. Press Enter to confirm the new size.|
+|Ctrl + ↑, Ctrl + ↓|Indexes and tabulars|Press to move backwards or forwards through the panes and resizers.|
+|F       |ICD-9 or ICD-10 index|Press to start a subterm search.|
+|Esc|Subterm search field|Press to hide the subterm search field.|
+|Backspace|ICD-10-PCS table|Press to move back a column.|
+|Designated Key|ICD-10-PCS table|Press the letter or number key for the item in the highlighted column that you would like to select.|
+|Enter|Indexes and tabulars|With the focus in the search bar, press to perform a search.|
+|Enter|Tabulars|Press to post the highlighted code.|
+|Enter|ICD-10-PCS table|Press to select the highlighted item in a column and move to the next column, or to post a completed code.|
+|Enter|Splitter bar|When resizing a pane using keyboard shortcuts, press to confirm the change.|
+
+|Icon|Location|Description|
+|----|--------|-----------|
+|![Access to Instructional Note](InstructionalNote.png)|All tabulars|Click to access Instructional Note|
+|![New Code](NewCode.png)|All tabulars|New code|
+|![Modified Code](ModifiedCode.png)|All tabulars|Modified code|
+|![Modified Note](ModifiedNote.png)|All tabulars|Modified note|
+|![MCC](MCC.png)|ICD Diagnosis tabulars|Major Complication / Comorbid Condition|
+|![CC](CC.png)|ICD Diagnosis tabulars|Complication / Comorbid Condition|
+|![MA](MA.png)|ICD Diagnosis tabulars|Major Complication / Comorbid Condition, Patient Discharged Alive|
+|![HCC](HCC.png)|ICD-10 Diagnosis tabular|Hierarchical Condition Category (HCC)|
+|    |ICD-10-CM tabular|Access the seventh character of a code (click the **<i class="fa-solid fa-caret-down"></i>** to expand or collapse the list)|
