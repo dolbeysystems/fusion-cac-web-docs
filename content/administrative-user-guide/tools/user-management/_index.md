@@ -184,8 +184,18 @@ Users can access their profile information by clicking on their name in the top 
 
 - Selecting "Profile" will open their profile. The user's permissions will dictate which settings they are able to edit. Users with multiple roles will need to open their profile to switch roles. 
 - Log Out will log the user out of the application. It is recommened for users to log out when they are done working rather than just closing the browser window.
-- Daily productivty stats are displayed for the user to quickly see their work.
 
-![Daily Coder Stats](DailyStats.png)
+## Today's Productivity
 
-![Daily CDI Stats](CDIDailyStats.png)
+To the left of the user's Profile Menu, daily productivty stats are displayed when they click on the bar graph icon. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard). 
+
+![Today's Productivity](2025-03-03_UserMgmt1.png)
+
+When the bar graph icon is clicked, the "Today's Productivity" dialog box will open. 
+
+**Coder/Auditor View:**
+![Today's Productivity Coder](2025-03-03_UserMgmt2.png)
+
+**CDI View:**
+![Today's Productivity CDI](2025-03-03_UserMgmt3.png)
+

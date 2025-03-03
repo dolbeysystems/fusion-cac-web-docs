@@ -13,12 +13,12 @@ By default, users with the Administrator role or the Tuning role have access to 
 
 |Field Name|Description|
 |----------|-----------|
-|Group Name|name of existing document group from Document Types Management. When one is selected, the Group Order automatically populates|
-|+Add Group|adds a new document group that is not in Document Types Management. Users will be prompted to enter a new document group name and order number|
-|Group Order|sequence of the document grouping. The order is copied from Document Types Management but can be edited. Edits will only affect new document types|
-|Includes, Excludes, and NLP Handling|as in Document Types Management, these fields indicate limitations placed on the group(s)|
-|Documents|list of documents included in the group.|
-|Sequencing buttons|new document types are processed through the groups in the order that is displayed|
+|Group Name|Name of existing document group from Document Types Management. When one is selected, the Group Order automatically populates.|
+|+Add Group|Adds a new document group that is not in Document Types Management. Users will be prompted to enter a new document group name and order number.|
+|Group Order|Sequence of the document grouping. The order is copied from Document Types Management but can be edited. Edits will only affect new document types.|
+|Includes, Excludes, and NLP Handling|As in Document Types Management, these fields indicate limitations placed on the group(s).|
+|Documents|List of documents included in the group.|
+|Sequencing buttons|New document types are processed through the groups in the order that is displayed.|
 
 ##### To create a new group: 
 
@@ -30,11 +30,11 @@ By default, users with the Administrator role or the Tuning role have access to 
 The drop down allows users to block certain code sets. If more targeted handling is needed to
 include or exclude certain codes, consider using the includes or excludes method.
 
-Using includes or excludes allows users to override the settings and choose to either include or exclude certain code prefixes. The image above indicates thatthe group will uses codes that start with A,B,C,D,E,F,G, or H. 
+Using includes or excludes allows users to override the settings and choose to either include or exclude certain code prefixes. The image above indicates that the group will uses codes that start with A,B,C,D,E,F,G, or H. 
 
->[!Note] Includes and excludes cannot be used at the same time. 
+>[!Warning] Includes and excludes cannot be used at the same time. 
 
 Once the folder and engine handling have been set, select the documents to be included in this group. Click on {{%button%}}Edit{{%/button%}}, then {{%button%}}+Add{{%/button%}}. When choosing an operator, "Contains" will likely be the best choice. For example, if the user wants to
 put all radiology documents into a folder, consider that if it contains XR, NM, MRA, MRI, US, CT, then those should go into the radiology folder. Use a comma to separate multiple items. Click OK once complete.
 
-Once the new grouping is complete, select Save All in the top right corner.
+Once the new grouping is complete, select {{%button%}}Save All{{%/button%}} in the top right corner.
