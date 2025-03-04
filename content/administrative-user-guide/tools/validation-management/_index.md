@@ -104,6 +104,8 @@ to differentiate between the conditions
 | <=                   |The value on the left must be less than or equal to the value on the right|
 | In List              |The value can be any of the following listed items|
 | Not In List          |The value can not be any of the listed items|
+| Starts with          |This operator is a search function that identifies resulsts where a string begins with a specific set of characters such as codes and document types. |
+| Does not start with  |This operator is a search function that identifies results when a string does not beging with a sppefici set of charatcters such as codes and document types.| 
 | Contains             |The value can contains   entered. This is common when including payors.|
 | Only Contains        |Any one of the codes it is not needed to do all 3. |
 | Exists               | This will search to see if anything “exists” in this field, if it’s not blank it will match. No value is needed after the operator. |
@@ -157,7 +159,7 @@ operator of Equals, then you have a field to fill in the value, which would e be
 
 ![](2025-02-11_ValidationMgmt10.png)
 
-## Adding fields to a rule
+## Adding Fields to a Rule
 
 Fields can be added to the message displayed by rule to tell the user exactly what is triggering the rule when it is displayed in the Code Summary.
 
@@ -200,7 +202,7 @@ physician or date requirement will NOT be available in this list. The
 only way to remove a pending reason that was added by a rule is
 to have that rule cleared
 
-### Saving your Rule
+## Saving Rules
 
 Once you’ve completed adding criteria for your validation rule
 remember to click on Save Rules in the top right-hand corner. It is

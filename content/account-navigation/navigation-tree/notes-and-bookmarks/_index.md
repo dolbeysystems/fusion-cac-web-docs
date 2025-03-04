@@ -9,7 +9,7 @@ weight = 22
 
 Notes & Bookmarks becomes visible in the center viewer after clicking on the hyperlink from the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) tree.  This viewer presents a summary and chronological history of all notes and bookmarks added to an account. Users can expand the width of the Code Summary viewer by clicking on the arrow in the top right corner of the viewer.
 
-![Notes & Bookmarks Viewer](NotesBookmarksViewer.png)
+![Notes & Bookmarks Viewer](2025-03-04_NotesBookmarks1.png)
 
 ## Notes
 
@@ -20,6 +20,18 @@ Notes can be added to the patient chart by clicking on the +Add Note button with
 When notes or bookmarks are applied to the chart, the Notes and Bookmarks link in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) tree will turn red.  
 
 ![Red Notes & Bookmarks Viewer](RedNotesBookmarks.png)
+
+The columns in the Notes & Bookmarks viewer include the following:
+* **Action** - Notes can be deleted, edited, or made private.
+* **Type** - This will show if it is a Note or a Bookmark.
+* **Create Date/Time** - This is a timestampe of when the Note or Bookmark was created.
+* **Created By** - This shows the user's name
+* **Role** - This shows the user's role, which will be the role they were logged in as when they made the note if they have multiple roles.
+* **Comment** - This is the section where the user made the note. 
+
+The columns above can be sorted. The column that is sorted will have a green arrow next to the column name. This is helpful if the user is looking for a note or bookmark by a specific date, user, or user role as an example.
+
+![Columns](2025-03-04_NotesBookmarks2.png)
 
 Account Notes also have formatting options for text. Highlighting the text displays a pop-up with formatting options. A user can now select text in those areas and can change the styles of text.
 

@@ -22,6 +22,9 @@ Once a denial has been added, a form with multiple fileds will need to be filled
 
 ![Denial Management Worksheet](2025-02-20_DenialMgmt11.png)
 
+>[!Note]Auto-populated Fields
+The **Coder Field** will be defaulted to the Owner of the account as long as it is not a CDI Specialist. If there is no Coder but a Submitter, the field will default to the Submitter. If there is no Owner, the field will be left blank for user input.
+
 The **Root Cause** field has a drop down of options where one or more options can be selected.
 
 ![Denial Management Root Cause](2025-02-04_DenialMgmt9.png)

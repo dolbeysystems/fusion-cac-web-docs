@@ -214,7 +214,7 @@ Each criterion has a set of operators. Depending on the property slected, the op
 | <=                   | This sign means that the value must be greater or equal to the value noted. |
 | In List              | If you have more than one value, it could be any of the following. |
 | Not In List          | If you have more than one value, you do not want it to equal. |
-|Starts With           |
+|Starts With           | This operator is a search function that identifies resulsts where a string begins with a specific set of characters such as codes and document types.
 | Contains             | If you have a word, phrase or value that can contain it must have what you added exactly. This is common when including payors. |
 | Only Contains        | Any one of the codes it is not needed to do all 3. |
 | Exists               | This will search to see if anything “exists” in this field, if it’s not blank it will match. No value is needed after the operator. |
