@@ -33,4 +33,4 @@ Left click and hold the code to be re-sequenced, then move it to the new sequenc
 
 ### Computing a DRG/Grouping
 
-Use the Compute button to launch the encoder and proceed with confirmation of codes and sequencing to complete grouping and return the computed grouping and codes to Fusion CAC.
+Use the {{%button%}}Compute{{%/button%}} button to launch the encoder and proceed with confirmation of codes and sequencing to complete grouping and return the computed grouping and codes to Fusion CAC.

@@ -5,10 +5,9 @@ weight = 80
 
 ![Workflow Management Tool](WorkflowManagement.png)
 
-The workflow management editor allow administrators to create, design, modify, and manage workflow(s) within Fusion CAC.
+The Workflow Management tool allows Administrators to create, design, modify, and manage workflow(s) within Fusion CAC.
 
-The purpose of a workflow is to systematically organize and streamline the patient chart activities for proper completion. Workflows are designed to improve efficiency, productivity, and collaboration between the various user roles by defining the sequence of steps, assigning responsibilities,
-and establishing the flow of information between different individuals or departments involved in the process. They ensure that tasks are completed in a structured and efficient manner, enabling organizations to achieve their goals more effectively. 
+The purpose of a workflow is to systematically organize and streamline the patient chart activities for proper completion. Workflows are designed to improve efficiency, productivity, and collaboration between the various user roles by defining the sequence of steps, assigning responsibilities, and establishing the flow of information between different individuals or departments involved in the process. They ensure that tasks are completed in a structured and efficient manner, enabling organizations to achieve their goals more effectively. 
 
 ## Worklists
 
@@ -30,14 +29,14 @@ Categories are made up of one or more worklists. Each worklist is then made up o
 - The Post Discharge category 
   - contains the Inpatient worklist
     - which has the Ready for Coding criteria group
-      - hich is then made up of multiple pieces of criteria 
+      - which is then made up of multiple pieces of criteria 
 
 It is possible for an account to be in more than one worklist at a time, depending on the category: 
 
-- An account may only be in one default category at a time
+- An account may only be in one default category at a time.
 - Custom categories allow an account to be in multiple custom categories at the same time.
-- An account can also be in one default category and multiple custom categories at the same time
-- An account cannot be in more than one workgroup within the same category
+- An account can also be in one default category and multiple custom categories at the same time.
+- An account cannot be in more than one workgroup within the same category.
 
 Often a worklist will contain multiple criteria groups. Each criteria group has many different filters to fully constrain the data. This ensures the appropriate number of charts are caught in each worklist.
 
@@ -46,14 +45,14 @@ Often a worklist will contain multiple criteria groups. Each criteria group has 
 
 ### Audit
 
-Audit workflow collects charts meeting the specified criteria needed to be reviewed by an auditor. The workflow can define certain days for when charts are added to the Auditor worklist(s).In Workflow Management the Audit default workgroup category is identical
+Audit workflow collects charts meeting the specified criteria needed to be reviewed by an Auditor. The workflow can define certain days for when charts are added to the Auditor worklist(s).In Workflow Management the Audit default workgroup category is identical
 to all other workgroup categories, but Audit workflow is triggered on a schedule instead of in real-time.
 
 Example: Select that workflow automatically adds charts to the worklist on the first day of every month and last day of the month.
 
 ![Edit Audit Dialog](EditAudit.png)
 
-On the designated days every month, 5 charts (the limit can be changed) from every coder (First Submitter) will be automatically routed to the auditor’s worklist. 
+On the designated days every month, 5 charts (the limit can be changed) from every Coder (First Submitter) will be automatically routed to the Auditor’s worklist. 
 
 #### Schedule 
 
@@ -86,17 +85,17 @@ As noted, this is not going to be an exact percentage, only a theoretical one. I
 ask for "20% of accounts" and end up getting zero, or you could end up getting all of them, but most of
 the time, you should get ~20%.
 
-This field is intended to be used with QA Workflow, although the application won't prevent an
-administrator from using it in other types of workflow. Valid values for this field are from 1 to 99; any
-other values in this field won't work.
+This field is intended to be used with QA Workflow, although the application will not prevent an
+Administrator from using it in other types of workflow. Valid values for this field are from 1 to 99; any
+other values in this field will not work.
 
 Do not think of this field as a percentage, but rather as a 100-sided die. When workflow examines this
-filter, it'll "roll the die". The common use case for this filter is "Random Inclusion Factor --> less than -->
+filter, it will "roll the die". The common use case for this filter is "Random Inclusion Factor --> less than -->
 10".
 
 ### AutoClose
 
-This automation is the a process by which an ancillary patient chart can be closed by the application based upon a set of rules without coder intervention. Autoclose is a process that takes routine outpatient visits and automates the coding process by submitting the chart directly to billing. This concept is known in the industry as autonomous coding.
+This automation is the a process by which an ancillary patient chart can be closed by the application based upon a set of rules without Coder intervention. Autoclose is a process that takes routine outpatient visits and automates the coding process by submitting the chart directly to billing. This concept is known in the industry as autonomous coding.
 
 Organizations often use AutoClose to ensure they can capitalize on the value of these ancillary charts while not sacrificing the staff they have.
 Common outpatient service lines that make great candidates for AutoClose include:
@@ -117,13 +116,13 @@ Common outpatient service lines that make great candidates for AutoClose include
 The types of accounts eligible for AutoClose depend on the organization, the type of services offered, payor(s), and state requirements. The Dolbey SME Team is happy to answer any questions and will work with each organization to configure AutoClose. 
 
 With AutoClose, charts can be processed within seconds and the total turn-around time can be a little as a few minutes. Charts are processed 24 hours a day, 365 days a year with AutoClose. The impact AutoClose can have on revenue is one of the best benefits of this feature. Many
-organizations AutoClose, on average, **10,000 or more charts per month**. This equals out to about 120,000 outpatient visits AutoClosed per year without coder intervention. That is an estimate of 2.5FTEs.
+organizations AutoClose, on average, **10,000 or more charts per month**. This equals out to about 120,000 outpatient visits AutoClosed per year without Coder intervention. That is an estimate of 2.5FTEs.
 
 #### Completeing Charts
 
 AutoClose can be set to complete charts on day one. Many organizations, however, choose to learn more about how the engine functions before AutoClose is enabled. Autoclose has a **test mode** which allows organizations to simulate what would have AutoClosed had it been enabled in production. This allows users to review and determine if AutoClose is ready for production at their facility.  
 
-Patient charts that pass AutoClose criteria are coded and submitted to billing. Those that fail AutoClose are rejected and routed to a worklist for coder intervention. Rejected are presented to the coder with a failure reason.
+Patient charts that pass AutoClose criteria are coded and submitted to billing. Those that fail AutoClose are rejected and routed to a worklist for Coder intervention. Rejected accounts are presented to the Coder with a failure reason.
 
 As an organization expands their AutoClose capabilities, Dolbey recommends conducting regular audits to ensure the system captures and codes everything correctly.
 
@@ -132,7 +131,7 @@ As an organization expands their AutoClose capabilities, Dolbey recommends condu
 >[!note]Terminology
 >Worklist and Workgroup are often used interchangeably when discussing sorting accounts into "buckets".
 
-#### New Category
+### New Category
 
 To add a new category in Workflow Management, click {{%button%}}+Add New Category{{%/button%}} in the top right corner.
 
@@ -140,7 +139,7 @@ The dialog box has options to add a default/standard category or a new custom ca
 
 ![Add New Category](AddNewCategory.png)
 
-#### Add Worklist 
+### Add Worklist 
 
 To add a new worklist, click {{%button%}}+Add{{%/button%}} under the appropriate category on the left hand side of the screen. 
 
@@ -150,14 +149,14 @@ Name the new workgroup.
 
 ![Name Workgroup](NameWorkgroup.png)
 
-#### Add a Criteria Group
+### Add a Criteria Group
 
 ![Add Criteria Group](AddCriteriaGroup.png)
 
 Name the Criteria Group something simple but meaningful to describe the reason accounts will move into the workgroup. This will help with
 troubleshooting in the future.
 
-#### Set Criteria 
+### Set Criteria 
 
 Workflow has two different criteria options to build workflow.
 
@@ -186,8 +185,7 @@ The OR criteria is listed in blue to call attention.
 
 #### Workgroup Level Criteria
 
-Workgroup level criteria works like all other criteria, but when enabled will apply to every group under that workflow. This alleviates the
-need the same criteria to be added to all of the criteria groups.
+Workgroup level criteria works like all other criteria, but when enabled will apply to every group under that workflow. This alleviates the need for the same criteria to be added to all of the criteria groups.
 
 ![Workgroup Level Criteria](WorkgroupLevel.png)
 
@@ -227,6 +225,9 @@ Each criterion has a set of operators. Depending on the property slected, the op
 | Includes Any Of      | If you have more than one value and it could be any of the following. |
 | Does not Include     | If you have more than one value, you do not want it to equal you must use “Not In List” |
 
+>[!Note]Operator Values
+Unless an operator does not require a value, the value field must be filled in to save the criteria.
+
 #### Properties
 
 Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button%}} to expand the dialog.
@@ -235,7 +236,7 @@ Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button
 
 ###### Workgroup Type
 
-Workgroup Type is used to identify which team or department owns a specific workgroup. This classification is essential for determining ownership and accountability within the workflow. For example, if to verify whether a particular chart is accessible or being held up, management can check which team owns that worklist. This property allows users to quickly identify the appropriate workgroup for reporting and ensure accurate tracking and visibility across departments.
+Workgroup Type is used to identify which team or department owns a specific workgroup. This classification is essential for determining ownership and accountability within the workflow. For example, to verify whether a particular chart is accessible or being held up, management can check which team owns that worklist. This property allows users to quickly identify the appropriate workgroup for reporting and ensure accurate tracking and visibility across departments.
 
 ###### Sort Field and Direction 
 
@@ -277,11 +278,11 @@ Workgroups can be reordered using the buttons at the top of the worklist or by c
 
 ## Workflow History Edits
 
-The Workflow Management page display a running history of edits. A timestamp in next to the worklist name will show the date and time of the last change made. Hovering over the date/time stamp will provide additional details. Clicking on that timestamp will open a log of changes made to the workgroup and criteria group(s).
+The Workflow Management page displays a running history of edits. A timestamp next to the worklist name will show the date and time of the last change made. Hovering over the date/time stamp will provide additional details. Clicking on that timestamp will open a log of changes made to the workgroup and criteria group(s).
 
 ![Workgroup Level Timestamp](WorkgroupDatestamp.png)
 
-Any change made to criteria will show as a time stamp to the right of the specific criteria that was changed. Hovering over the date/time stamp will provide additional details. Clicking on that timestamp will open a log of changes made to that criteria.
+Any change made to criteria will show as a timestamp to the right of the specific criteria that was changed. Hovering over the date/time stamp will provide additional details. Clicking on that timestamp will open a log of changes made to that criteria.
 
 ![Workflow Edit History](EditHistory.png)
 
