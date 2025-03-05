@@ -24,7 +24,7 @@ The display includes the following features:
 
 - **Backward and forward navigation** – Click   to move back and   to move forward through the codes you have viewed.
 - **Subterm search** – A subterm search searches through the subterms of a selected term. This is useful when there is a long list of subterms, you can use the subterm search rather than scrolling through the long list to find the subterm for which you are searching. 
-- **Shortcuts** – Keyboard shortcuts are available for some actions in the encoder. For example, you can press Ctrl + ↑ and Ctrl + ↓to move the cursor though the fields and panes. For a complete listing for keyboard shortcuts, see Keyboard Shortcuts on page 23.
+- **Shortcuts** – Keyboard shortcuts are available for some actions in the encoder. For example, you can press Ctrl + ↑ and Ctrl + ↓ to move the cursor though the fields and panes. For a complete listing for keyboard shortcuts, see Keyboard Shortcuts on page 23.
 - **Find All search** – A Find All search looks for terms outside of the structure of the index. The search results display all occurrences of the terms in the code book that is searched. See Searching for All Occurrences of a Term on page 22 for more information.
 - **Table search** – You can search the Hypertension table, Neoplasm table, and the Table of Drugs and Chemicals. 
   - Hypertension table – In the ICD-9-CM diagnosis code book, this table lists diseases due to hypertension.
@@ -46,7 +46,7 @@ The display includes the following features:
 
 ![TruCode Blue Hyphen](TCHyphen.png)
 
-## About the Tabulars
+### About the Tabulars
 
 The tabulars include all instructional notes, such as Includes, Excludes, Chapter, and Category notes. Codes included in the instructional notes, as well as in the tabular, are links that can be accessed.
 
@@ -90,6 +90,104 @@ The following shortcuts can be used in the CodeBooks control:
 |Enter|ICD-10-PCS table|Press to select the highlighted item in a column and move to the next column, or to post a completed code.|
 |Enter|Splitter bar|When resizing a pane using keyboard shortcuts, press to confirm the change.|
 
+### Searching for an ICD-10-CM Code
+
+1. Enter a term, terms, or code in the **Search For** field
+
+> [!Tip] 
+> The terms can be shortened to the first 3 or 4 letters and can be entered in any order. For a code, enter as little as the first 3 digits. 
+>
+> There are many E codes with subterms of 1 or 2 words (**by, with, due, to, from, etc.**). These terms do not need to be entered in the search.
+
+2. Choose the **Diagnosis**, **ICD-10-CM** or **External Cause**, **ICD-10-CM** code book from the code book list. 
+3. Click **Search** to view the search results. The Search Results pane displays the results. Several results may be shown due to the search terms being found in multiple places in the alphabetic index.
+
+>[!Note]
+>If you searched by a code you are taken directly to the tabular
+
+![Search for ICD-10-CM Code](Search4ICD10Code.png)
+
+4. If there are additional secondary results that you want to view, click the Show all x search results link
+
+>[!Tip]
+>The first results are the best results based upon the search terms uses. The secondary results are particularly helpful when you are unsure of the terms to enter for a disease.
+
+5. To view the detail for a term in the **Search Results** pane, click on it
+
+![Search Results](SearchResults.png)
+
+6. If a cross-reference (see or see also note) is listed and you want to view it, click the link to view the related term.
+
+>[!Tip]
+>For conditions that involve more than one code, the additional codes are listed in brackets. To view the first code in the tabular, press **Enter**. Then press **Enter** again to view the second code in the tabular. If there is a third code, press **Enter** again to view the third code. When you press **Enter** one more time, the codes are posted.
+>![More Than One Code](MoreThan1Code.png)
+
+7.	To select a code and open the tabular, click on the code in either the **Search Results** or the **Detail** pane.
+
+>[!Note]
+>ICD-10-CM external cause of morbidity codes do not begin with an **E**. They begin with the characters **V,W,** or **X**.
+
+8.	In the tabular, check any instructional notes. To do so, click on the symbol to the left of the code to open the instructional notes.
+![Access to Instructional Note](InstructionalNote.png)
+
+![Instructional Notes Example](InstructionalNotesEx.png)
+
+9.	Perform any needed research.
+
+10.	The code may require a seventh character, a character that provides additional information about the diagnosis and the encounter. If this is the case, a   appears to the left of the code. Do the following to select the seventh character for the code:
+    -	Click to expand the list of seventh characters.
+    >[!Tip]
+    >To expand a list of 7th characters, click the arrow to the left of the code, or when the code for which you want to view the 7th characters is highlighted, press the right arrow key.
+
+    >[!Note]
+    >Some codes that require a 7th character do not contain six characters. When that is the case, an **X** fills and missing characters. 
+
+    - Locate the applicable 7th character for the code
+    ![Applicable 7th Character](Locate7thChar.png)
+
+11.	If the code book was accessed from an encounter, click on a code to post it
+
+>[!Tip]
+>When the code is highlighted, you can press **Enter** to post the code.
+
+### Searching for an ICD-10-PCS Procedure Code
+
+1.	Enter the term, terms, or code in the Search for field. 
+
+>[!Tip]
+>Multiple terms can be entered in the **Search for** field. Terms can be shortened and entered in any order. For a code, you can enter as little as the first digit of the code. 
+
+2.	Choose the Procedure, ICD-10-PCS code book from the code book list. 
+
+>[!Tip]
+>With the focus on the code book list, you can press the down arrow to scroll through the list of books.
+
+3.	Click **Search** or press **Enter** to view the search results. The **Search Results** pane displays the results. Several results may be shown due to the search terms being found in multiple places in the alphabetic index.
+
+>[!Note]
+>If you search by a code, you are taken directly to the ICD-10-PCS table. If your search could be the start of either a code *or* a term, search results appear for both the partial code match and the index entries. 
+>![PCS Search Results](PCSSearchResults.png)
+
+![Searching for PCS Codes](SearchingPCSResults.png)
+
+4.	If there are additional secondary results that you want to view, click the **Show all** *x* **search results** link. 
+
+>[!Tip]
+>The first results are the best results based upon the search terms used. The secondary results are particularly helpful when you are unsure of the terms to enter.
+
+5.	To view the detail for an index entry in the **Search Results** pane, click on it.
+6.	If a cross-reference (**see** or **see also** note) is listed and you want to view it, click the link to view the related term.
+7.	To select a code and open the ICD-10-PCS table, click on the code in either the **Search Results** or the **Detail** pane.
+8.	Perform any needed research. 
+
+![Search Results for ICD-10-PCS](PCSSearchingResults.png)
+
+9.	In the Body Part column of the ICD-10-PCS table, verify that the correct body part on which the procedure was performed is selected. If needed, click on a different body part. 
+
+## Codebook Symbols
+
+The following symbols appear in the CodeBooks control. For most symbols, when you rest your mouse pointer on the symbol, a description appears.
+
 |Icon|Location|Description|
 |----|--------|-----------|
 |![Access to Instructional Note](InstructionalNote.png)|All tabulars|Click to access Instructional Note|
@@ -100,4 +198,18 @@ The following shortcuts can be used in the CodeBooks control:
 |![CC](CC.png)|ICD Diagnosis tabulars|Complication / Comorbid Condition|
 |![MA](MA.png)|ICD Diagnosis tabulars|Major Complication / Comorbid Condition, Patient Discharged Alive|
 |![HCC](HCC.png)|ICD-10 Diagnosis tabular|Hierarchical Condition Category (HCC)|
-|    |ICD-10-CM tabular|Access the seventh character of a code (click the **<i class="fa-solid fa-caret-down"></i>** to expand or collapse the list)|
+|![Access 7th Character](Access7thChar.png)|ICD-10-CM tabular|Access the seventh character of a code (click the **<i class="fa-solid fa-caret-down"></i>** to expand or collapse the list)|
+|![Click to View](Click2View.png)|CPT|Click to view the image|
+|![Out of Num Order](OutofNumOrder.png)|CPT|Code appearing out of numerical order|
+|![Modifier 51 Exempt](Mod51Exempt.png)|CPT|Modifier 51 exempt|
+|![Conscious Sedation](ConSed.png)|CPT|Conscious sedation|
+|![Add-on Code](AddOnCode.png)|CPT|Add-on code|
+|![Pending FDA Approval](PendFDA.png)|CPT|Pending FDA Approval|
+|![Telemedicine Service](TeleMed.png)|CPT|Telemedicine Service|
+|![PLA Code](PLACode.png)|CPT|Proprietary Laboratory Analyses (PLA) code|
+|![Satisfies Cat 1 Criteria](SatCat1Crit.png)|CPT|Satisfies Category 1 Criteria|
+|![Audio Only w/Modifer 93](AudioMod93.png)|CPT|Code may be used for reporting audio-only services when appended with modifier 93|
+|![Custom TC Content](CustTCContent.png)|ICD indexes|Custom TruCode content (view the tooltip for details about the type of custom content)|
+|![Code has 7th Character](Has7thChar.png)|ICD-10-CM index|Code has a seventh character|
+|![Best Match](BestMatch.png)|Crosswalk|Best match (most common match or major topic)|
+|![Other Match](OtherMatch.png)|Crosswalk|Other match (less common match or minor topic)|
