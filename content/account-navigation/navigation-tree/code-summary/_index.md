@@ -18,7 +18,9 @@ The {{%button%}}Show History{{%/button%}} button provides a timeline view of act
 
 Upon opening Show History, users will see the entire history from a birds-eye view.  The user has the option of using the Zoom In and Zoom Out buttons to expand or collapse the timeline.  The Zoom Fit will bring the visual timeline back to its original collapsed grid.  Hover over any of the event boxes and the contents will be displayed. 
 
-The legend can be found by clicking {{%button%}}Show Legend{{%/button%}} button to let the user know what the colors represent without having to hover over them.  When clicked, it will open the Legend and the button name will change to "Hide Legend".  Click again to close. 
+The legend can be found by clicking {{%button%}}Show Legend{{%/button%}} to let the user know what the colors represent without having to hover over them.  When clicked, it will open the Legend and the button name will change to "Hide Legend".  Click again to close. 
+
+![Show History Legend](2025-03-05_CodeSummary3.png)
 
 Click on an entry by date to view the changes that were made to the account on the date and time indicated.
 
@@ -50,9 +52,9 @@ Listed beneath Assigned Diagnosis Codes are the Assigned Procedure Codes in code
 
 ### Assigned CPT Codes
 
-Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code sequence order. The list includes the CPT code, description, Service Date, and Physician.
+Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code sequence order. The list includes the CPT code, Modifiers, Code Description, Service Date, Physician, APC and Servier Indicator.
 
-![Assigned CPT Code](AssignedCPT.png)
+![Assigned CPT Code](2025-03-05_CodeSummary4.png)
 
 #### Print Summary
 If a printer is configured for the computer, click on this button to print a copy of the abstract for this account. 

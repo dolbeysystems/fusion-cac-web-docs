@@ -56,7 +56,7 @@ If a mapping table does not have a red X to the right of its title, that means i
 
 ![](2025-01-24_MappingConfig3.png)
 
-#### Special Mapping Columns & Tables
+## Special Mapping Columns & Tables
 
 While many of the mapping tables are set up the same way, several are unique and have more fields available to edit. 
  
@@ -119,3 +119,11 @@ A "Billing Countdown" field can be added from Grid Column Configuration to use
 for account search filters and workflow. See a use case for this workflow in the screenshot below:
 
 ![](image-547.jpg)
+
+### Query Reasons (PhysicianQueryReasons)
+
+The mapping of PhysicianQueryReasons now has a column called Roles, which will allow the user to assign reasons to specified roles. 
+
+![Physician Query Reasons](2025-03-05_MappingConfig10.png)
+
+
