@@ -288,7 +288,7 @@ If a physician query is opened from CDI/Clinical Alerts and the user has created
 
 **CACTWO-7114** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an auditor selects an audit subtype on the latest audit, then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
+If an Auditor selects an audit subtype on the latest audit, then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -296,7 +296,7 @@ If an auditor selects an audit subtype on the latest audit, then moves to anothe
 
 **CACTWO-7130** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an account routed to a coder by an auditor is subsequently submitted by a Physician coder, the account is being removed from the routed coder’s worklist.  This has been corrected.
+If an account routed to a coder by an Auditor is subsequently submitted by a Physician Coder, the account is being removed from the routed Coder’s worklist.  This has been corrected.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
