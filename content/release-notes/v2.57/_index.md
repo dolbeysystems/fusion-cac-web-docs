@@ -10,7 +10,7 @@ title = 'V2.57 (Jan 2025)'
 
 ### Allow PCS/CPT Codes to be Configured per Category
 
-**CACTWO-4897 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+**CACTWO-4897 c
 
 A new configuration will allow outpatient accounts to show PCS codes along 
 with CPT, and inpatient accounts to show CPT codes along with PCS, for 
