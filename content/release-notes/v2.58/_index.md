@@ -44,7 +44,7 @@ A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.git
 
 **CACTWO-6493 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a user selects a workgroup that is not custom from the worklist, if there was a custom workgroup column in the account list it was automatically being hiddern.  This will no longer happened. 
+When a user selects a workgroup that is not custom from the worklist, if there was a custom workgroup column in the account list it was automatically being hidden.  This will no longer happened. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -76,7 +76,7 @@ A new operator of ‘does not start with’ has been added to [Validation Manage
 
 **CACTWO-6912** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will now be defaulted to the owner of the account (as long as its not a CDI).  If there is no owner, the field will be left blank for user input.  Otherwise, if there is no coder but a submitter, the field will default to the submitter. 
+The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will now be defaulted to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
