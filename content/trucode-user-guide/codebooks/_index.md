@@ -184,6 +184,73 @@ The following shortcuts can be used in the CodeBooks control:
 
 9.	In the Body Part column of the ICD-10-PCS table, verify that the correct body part on which the procedure was performed is selected. If needed, click on a different body part. 
 
+>[Tip]
+>Notice that the beginning of the code, the part selected in the index, appears in the **Search Results** pane.
+
+10. In the **Approach** column, the procedure approaches for the selected body part, if any, are now listed. 
+
+>[!Note]
+>The column headings may be different than the ones listed in this example, depending upon the procedure.
+
+11. Choose an approach. 
+    -  In the **Device** column, the devices for the selected approach, if any, are now listed. 
+
+>[!Tip]
+>To make changes to the **Section, Body System,** or **Operation** dor the code click the back arrow in the **Body Part** column heading or with the **Body Part** column selected, press the left arrow key. To move back to the last four columns in the table, click on the forward arrow in the **Body Part** column heading or with the **Body Part** column selected, press the right arrow key.
+
+12. Choose a device.
+    - In the **Qualifier** column, the qualifiers for the procedure, if any, are now listed.
+
+13. Choose a qualifier. 
+14. When you are finished selecting the aspects of the code, press **Enter**, or click **Add Code** in the **Code Description** pane or the 7th character column to post the code. 
+
+###  Searching for a CPT or HCPCS Code
+
+The CPT and HCPCS index search uses both the index and tabular books simultaneously and displays tabular results based upon that search.
+
+1. Enter terms or a code in the **Search for** field
+
+>[!Tip]
+>The terms can be shortened to the first 3 or 4 letters and can be entered in any order. For a code, you can enter as little as the first two digits of the code.
+
+2. Choose the **CPT Tabular** or **HCPCS Tabular** from the list of code books.
+
+>[!Tip]
+>You can tab to the code book field and press **C** to select the CPT tabular or **H** to select the HCPCS tabular. 
+
+3. If you want anesthesia codes to be included in the search results, click the **Include Anesthesia Codes** check box.
+4. Click **Search** to view the search results in the **Search Results** pane. The best matches are listed first.
+
+>[!Tip]
+>The first results are the best results based upon the search terms used. The secondary results are particularly helpful when you are unsure of the terms to enter for a disease. 
+
+![Search Results Pane](SearchPane.png)
+
+5. To view the CPT and HCPCS modifiers with long descriptions, click the **Modifiers** link.
+   
+![Long Descriptions](LongDescriptions.png)
+
+6.	Check any instructional notes. To do so, click on the symbol to the left of the code.
+
+![Access to Instructional Note](InstructionalNote.png)
+
+7.	Perform any needed research. If there are additional crosswalk results and you want to view them:
+  - Click the **View all crosswalk results** link in the **Crosswalk** section of the **Research** pane to view all crosswalk results.
+  - To view a code in the tabular, click on it.
+
+![View Code in Tabular]()
+  - If you accessed the code book from an encounter, press **Enter** to post both the CPT code and the ICD-9-CM procedure code.
+
+8. If you accessed the code book from an encounter, click on a code to post it. 
+
+>[!Tip]
+>When the code you want to add is highlighted, you can press **Enter** to post it.
+
+### Searching the Neoplasm, Drug, or Hypertension Table
+
+
+
+
 ## Codebook Symbols
 
 The following symbols appear in the CodeBooks control. For most symbols, when you rest your mouse pointer on the symbol, a description appears.
