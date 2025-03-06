@@ -184,7 +184,7 @@ The following shortcuts can be used in the CodeBooks control:
 
 9.	In the Body Part column of the ICD-10-PCS table, verify that the correct body part on which the procedure was performed is selected. If needed, click on a different body part. 
 
->[Tip]
+>[!Tip]
 >Notice that the beginning of the code, the part selected in the index, appears in the **Search Results** pane.
 
 10. In the **Approach** column, the procedure approaches for the selected body part, if any, are now listed. 
@@ -224,7 +224,7 @@ The CPT and HCPCS index search uses both the index and tabular books simultaneou
 >[!Tip]
 >The first results are the best results based upon the search terms used. The secondary results are particularly helpful when you are unsure of the terms to enter for a disease. 
 
-![Search Results Pane](SearchPane.png)
+![Search Results Pane](SearchPane.jpg)
 
 5. To view the CPT and HCPCS modifiers with long descriptions, click the **Modifiers** link.
    
@@ -235,21 +235,94 @@ The CPT and HCPCS index search uses both the index and tabular books simultaneou
 ![Access to Instructional Note](InstructionalNote.png)
 
 7.	Perform any needed research. If there are additional crosswalk results and you want to view them:
-  - Click the **View all crosswalk results** link in the **Crosswalk** section of the **Research** pane to view all crosswalk results.
-  - To view a code in the tabular, click on it.
+     - Click the **View all crosswalk results** link in the **Crosswalk** section of the **Research** pane to view all crosswalk results.
+     - To view a code in the tabular, click on it.
 
-![View Code in Tabular]()
-  - If you accessed the code book from an encounter, press **Enter** to post both the CPT code and the ICD-9-CM procedure code.
+![View Code in Tabular](ViewinTab.png)
+     - If you accessed the code book from an encounter, press **Enter** to post both the CPT code and the ICD-9-CM procedure code.
 
-8. If you accessed the code book from an encounter, click on a code to post it. 
+1. If you accessed the code book from an encounter, click on a code to post it. 
 
 >[!Tip]
 >When the code you want to add is highlighted, you can press **Enter** to post it.
 
 ### Searching the Neoplasm, Drug, or Hypertension Table
 
+1.	To access a table, do one of the following:
+     - To access the Neoplasm table, enter the term Neoplasm or a shortened version of neoplasm, such as Neop, and the site of the neoplasm in the Search for field. 
+     - To access the Table of Drugs and Chemicals, enter the term Table and the drug name or partial name in the Search for field.
+     - To access the Hypertension table, enter the term hypertension or htn and a term in the Search for field. 
 
+>[!Note]
+>The Hypertension table is only in the ICD-9-CM Diagnosis code book
 
+2.	Select **Diagnosis**, **ICD-9-CM** or **Diagnosis**, **ICD-10-CM** from the code book list.
+3.	Click **Search** to view the search results.
+4.	If there are additional secondary results that you want to view, click the **Show all x search results** link.
+
+>[!Tip]
+>The first results are the best results based upon the search terms used. The secondary results are particularly helpful when you are unsure of the terms to enter.
+
+5.	To view the detail for a term in the **Search Results** pane, click on it.
+
+>[!Tip]
+>If you scroll through a table, the column headers follow so you always see the description of the columns.
+
+![Search Results](NeoBreastSearchPane.png)
+
+6.	To move through the columns, press → or ← key. The selected code is red.
+7. If a cross-reference (**see** or **see also** note) is listed and you want to view it, click the link to view the related term.
+
+>[!Tip]
+>In the ICD-9-CM Table of Drugs and Chemicals, when appropriate, the poisoning code is highlighted in red as well as the external cause code. This indicates that both of the codes are required to fully code the condition. When you press Enter both of these codes are posted. Note that this does not apply to the ICD-10-CM Table of Drugs and Chemicals; only a single code is needed to fully identify both the agent and the circumstances.
+>![Poisoning Code Highlighted](HighlightedPoision.png)
+
+8.	To select a code and open the tabular, click on the code in either the **Search Results** or the detail pane.
+9.	In the tabular, check any instructional notes. To do so, click on the symbol to the left of the code to open the instructional notes.
+
+![Access to Instructional Note](InstructionalNote.png)
+
+10.	Perform any needed research. 
+11.	If you accessed the code book from an encounter, click on a code to post it.
+
+### Searching for All Occurrences of a Term
+
+The Find All search provides the ability to search for terms outside of the structure of the ICD-9-CM or ICD-10-CM /PCS index. The search results display all occurrences of the terms in the code book that is searched, no matter where in the code book the terms are found.
+
+1.	Enter the term or terms in the **Search for** field.
+
+>[!Tip]
+>The term can be shortened to the first three or four letters and can be entered in any order. 
+
+2.	If you need to change code books, select the book from the list.
+3.	Click the **Find All** check box to select it.
+4.	Click **Search** to view the search results. In the Search Results pane, all index entries containing the terms are shown.
+
+>[!Note]
+>Find All remains active until you remove the check from the Find All check box.
+
+5.	If there are additional secondary results that you want to view, click the Show all x search results link. 
+
+>[!Tip]
+>The first results are the best results based upon the search terms used. The secondary results are particularly helpful when you are unsure of the terms to enter.
+
+6.	Proceed with your search as usual. See the steps for the specific code book you are searching for additional information. 
+
+### Searching for a Subterm
+
+The Subterm search provides the ability to search for the subterm of a selected term in an ICD-9-CM and ICD-10-CM/PCS index (this type of search does not apply to the CPT or HCPCS code books). The subterm search is particularly useful when a term has many subterms.
+
+1.	Click the icon or press the **F** key.
+
+![Search Icon in TruCode](TCSearchIcon.png)
+
+2.	Enter the subterm in the **Search subterms** field and press **Enter** or click the up or down arrow.
+
+![Search Subterms](SearchSubterms.png)
+
+3.	To continue searching for the subterm, press **Enter** or click the up or down arrow again.
+4.	Click the **x** to close the subterm search.
+5.	Proceed with your search as usual. See the steps for the specific code book you are searching for additional information. 
 
 ## Codebook Symbols
 
