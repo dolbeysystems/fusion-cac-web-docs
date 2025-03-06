@@ -110,6 +110,6 @@ The following shortcuts can be used in the References control:
 The following symbols appear in the References control:
 |Symbol|Location|Description|
 |------|--------|-----------|
-|![Other Match Icon](OtherMatch.png)|Search Results pane|Best match results are identified with a green bullet point. A best match result is an article for which the searched-for code or term is a major topic of the article.|
+|![Best Match Icon](BestMatch.png)|Search Results pane|Best match results are identified with a green bullet point. A best match result is an article for which the searched-for code or term is a major topic of the article.|
 |![Other Match Icon](OtherMatch.png)|Search Results pane|Other results are identified with a black bullet point. These results are similar to the results of a find all search; the code or term is found in the article, but is not the major topic of the article.|
 |![View an Exercise Answer](ExerciseAnswer.png)|Article pane|Rest your mouse pointer on this icon to view an exercise answer.|
