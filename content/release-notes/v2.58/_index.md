@@ -40,7 +40,7 @@ A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.git
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Prevent the auto-hiding of the Custom Workgroups column
+### Prevent the Auto-Hiding of the Custom Workgroups column
 
 **CACTWO-6493 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -48,27 +48,27 @@ When a user selects a workgroup that is not custom from the worklist, if there w
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Change how date sorting is done in the Document Tree
+### Change how Date Sorting is Done in the Document Tree
 
 **CACTWO-6549 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Document ordering preventing from ordering in date order [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/), then when sorting by date that document was not obeying the new date sort.  This has been changed so that an assigned number is not taken into consideration when sorting by date. 
+If a document was assigned an order number in [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/), then when sorting by date that document was not obeying the new date sort. This has been changed so that an assigned number is not taken into consideration when sorting by date. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Show inactivity logout in the User Audit Trail report
+### Show Inactivity Logout in the User Audit Trail Report
 
 **CACTWO-6758** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New events have been added as triggers for the [User Audt Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) report.  If a user is logged out due to inactivity, a new line will now show that in the report. 
+New events have been added as triggers for the [User Audt Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) report.  If a user is logged out due to inactivity, a new line will now show in the report. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add new operator for Validation Management only
+### Add new Operator for Validation Management Only
 
 **CACTWO-6781** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new operator of ‘does not start with’ has been added to [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/). 
+A new operator of *‘Does not Start With’* has been added to [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/). 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
