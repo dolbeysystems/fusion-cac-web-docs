@@ -169,7 +169,7 @@ Criteria group names can now be edited in [Workflow Management](https://dolbeysy
 
 **CACTWO-7039** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an audit is created on an account that has multiple occurances of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
+If an audit is created on an account that has multiple occurrences of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
