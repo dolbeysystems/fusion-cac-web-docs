@@ -215,11 +215,11 @@ In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Allow users to be assigned to PHYS Coder Managers
+### Allow users to be assigned to Physician Coder Managers
 
 **CACTWO-7068** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New roles that contain the word ['Manager'](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#manager) such as PHYS Coder Managers will now have the ability to have users assigned to them by an Administrator.
+New roles that contain the word ['Manager'](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#manager) such as Physician Coder Managers will now have the ability to have users assigned to them by an Administrator.
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Show History legend has been updated with new fields
