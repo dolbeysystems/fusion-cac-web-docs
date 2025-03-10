@@ -236,7 +236,7 @@ The legend window in a [Show History](https://dolbeysystems.github.io/fusion-cac
 
 **CACTWO-7070** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a Coder has rebutted an audit, but has not sent that audit back to the Auditor, the rebuttal is not being seen by the Coder when they go back into the audit. This has been corrected. Rebuttal should always be seen whether or not the audit has been routed back to the Auditor. 
+If a Coder has rebutted an [Audits](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), but has not sent that audit back to the Auditor, the rebuttal is not being seen by the Coder when they go back into the audit. This has been corrected. Rebuttal should always be seen whether or not the audit has been routed back to the Auditor. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
