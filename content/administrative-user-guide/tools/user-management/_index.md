@@ -187,7 +187,7 @@ Users can access their profile information by clicking on their name in the top 
 
 ## Today's Productivity
 
-To the left of the user's Profile Menu, daily productivty stats are displayed when they click on the bar graph icon. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard). 
+Daily productivity stats are displayed when the user clicks on the bar graph icon to the left of the user's ID. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard). 
 
 ![Today's Productivity](2025-03-03_UserMgmt1.png)
 

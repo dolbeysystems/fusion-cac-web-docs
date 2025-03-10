@@ -29,7 +29,7 @@ The columns in the Notes & Bookmarks viewer include the following:
 * **Role** - This shows the user's role, which will be the role they were logged in as when they made the note if they have multiple roles.
 * **Comment** - This is the section where the user made the note. 
 
-The columns above can be sorted. The column that is sorted will have a green arrow next to the column name. This is helpful if the user is looking for a note or bookmark by a specific date, user, or user role as an example.
+The columns can be sorted in ascending or descending order. The column that is sorted will have a green arrow next to the column name. This is helpful if the user is looking for a note or bookmark by a specific date, user, or user role as an example.
 
 ![Columns](2025-03-04_NotesBookmarks2.png)
 

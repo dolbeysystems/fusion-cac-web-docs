@@ -16,7 +16,7 @@ A new page called [Notifications Management](https://dolbeysystems.github.io/fus
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Move the productivity panel from the user drop down
+### Move the Productivity Panel From the User Drop Down
 
 **CACTWO-5990 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -24,13 +24,13 @@ In order to make room for more columns, the [Today’s Productivity](https://dol
 
 ![User Profile Productivity](2025-03-03_UserMgmt1.png)
 
-When clicked, it will open a window box that will show a more robust Productivity panel
+When clicked, it will open a window box that will show a more robust productivity panel
 
 ![Today's Productivity Dialog](2025-03-03_UserMgmt2.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Allow Notes to be identified by role
+### Allow Notes to be Identified by Role
 
 **CACTWO-6424 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -40,7 +40,7 @@ A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.git
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Prevent the auto-hiding of the Custom Workgroups column
+### Prevent the Auto-Hiding of the Custom Workgroups column
 
 **CACTWO-6493 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -48,70 +48,70 @@ When a user selects a workgroup that is not custom from the worklist, if there w
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Change how date sorting is done in the Document Tree
+### Change how Date Sorting is Done in the Document Tree
 
 **CACTWO-6549 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Document ordering preventing from ordering in date order [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/), then when sorting by date that document was not obeying the new date sort.  This has been changed so that an assigned number is not taken into consideration when sorting by date. 
+If a document was assigned an order number in [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/), then when sorting by date that document was not obeying the new date sort. This has been changed so that an assigned number is not taken into consideration when sorting by date. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Show inactivity logout in the User Audit Trail report
+### Show Inactivity Logout in the User Audit Trail Report
 
 **CACTWO-6758** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New events have been added as triggers for the [User Audt Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) report.  If a user is logged out due to inactivity, a new line will now show that in the report. 
+New events have been added as triggers for the [User Audt Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) report.  If a user is logged out due to inactivity, a new line will now show in the report. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add new operator for Validation Management only
+### Add new Operator for Validation Management Only
 
 **CACTWO-6781** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new operator of ‘does not start with’ has been added to [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/). 
+A new operator of *‘Does not Start With’* has been added to [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/). 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Update how the Coder is defaulted in Denial Management
+### Update how the Coder is Defaulted in Denial Management
 
 **CACTWO-6912** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will now be defaulted to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
+The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will default to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Allow CDI permission to view the Audit Worksheet
+### Allow CDI Permission to View the Audit Worksheet
 
 **CACTWO-6913** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) viewer can now be seen by a CDI Specialist if the client wants that option.  The CDI would only have the option to view and print.  All editing, creating, routing and deleting abilities are not available.  
+The [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) viewer can now be seen by a CDI Specialist, if desired.  The CDI would *only have the option to view and print*.  Editing, creating, routing and deleting abilities are not available.  
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Incorrect number of days worked in CDI Query Scorecard
+### Incorrect Number of days Worked in CDI Query Scorecard
 
 **CACTWO-6948** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and Score Card by Admission Month were not showing a correct total.  This has been corrected so that the calculation is now the total number of unique day/user combinations, rather than counting every touch per day per user. 
+The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and [Score Card by Admission Month]() were not showing a correct total.  This has been corrected so that the calculation is now the total number of unique day/user combinations, rather than counting every touch per day per user. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Remove Principal Dx from outpatient accounts
+### Remove Principal Dx From Outpatient Accounts
 
 **CACTWO-6982** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The dropdown next to the Compute button in an account will now only show the Principal DX option if the account is an inpatient account. 
+The dropdown next to the [Compute button](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/#code-sequencing) in an account will now only show the Principal DX option if the account is an inpatient account. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add Pre and Post columns to the Audit Drilldown in Account Search
+### Add Pre and Post Columns to the Audit Drilldown in Account Search
 
 **CACTWO-6984** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-8 new columns have been added to Account Search when the [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) of Audits is used:
+8 new columns have been added to [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) when the [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) of Audits is used:
 * Pre-Audit GMLOS & Post-Audit GMLOS
 * Pre-Audit DRG & Post-Audit DRG
 * Pre-Audit ROM & Post-Audit ROM
@@ -123,15 +123,15 @@ The dropdown next to the Compute button in an account will now only show the Pri
 
 **CACTWO-7017** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Workflow Management (classic) has been removed from the Tools dropdown. 
+Workflow Management (classic) has been removed from the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) menu. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Do not allow fields in workflow to be saved without adding operator and value
+### Do not Allow Fields in Workflow to be Saved Without Adding Operator and Value
 
 **CACTWO-7020** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Workflow was allowing fields to be saved without operator and/or the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in to save.
+[Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) was allowing fields to be saved without operator and/or the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in before the user can save.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
