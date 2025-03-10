@@ -91,7 +91,7 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### The CDI Query Score Card reports have a total discrepancy
+### Incorrect number of days worked in CDI Query Scorecard
 
 **CACTWO-6948** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
