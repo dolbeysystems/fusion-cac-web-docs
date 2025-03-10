@@ -10,7 +10,7 @@ title = 'V2.58 (Mar 2025)'
 
 **CACTWO-5877** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the CAC2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the norificaiton, a color and the location it will appear.  
+A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the Fusion CAC 2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the notification, a color and the location it will appear.  
 
 ![Notifications Manager](2025-03-03_NotificationsMgr3.png)
 
