@@ -105,6 +105,8 @@ The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysys
 
 The dropdown next to the [Compute button](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/#code-sequencing) in an account will now only show the Principal DX option if the account is an inpatient account. 
 
+>[!Note] This is only relevant to TruCode Encoder.
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add Pre and Post Columns to the Audit Drilldown in Account Search
