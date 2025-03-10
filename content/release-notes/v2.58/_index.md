@@ -44,7 +44,7 @@ A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.git
 
 **CACTWO-6493 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a user selects a workgroup that is not custom from the worklist, if there was a custom workgroup column in the account list it was automatically being hidden.  This will no longer happened. 
+When a user selects a [workgroup](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#custom-category) that is not custom from the worklist, if there was a custom workgroup column in the account list it was automatically being hidden.  This will no longer happened. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -169,7 +169,7 @@ Criteria group names can now be edited in [Workflow Management](https://dolbeysy
 
 **CACTWO-7039** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an audit is created on an account that has multiple occurances of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
+If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is created on an account that has multiple occurances of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -177,7 +177,7 @@ If an audit is created on an account that has multiple occurances of a procedure
 
 **CACTWO-7040** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an audit is popped-out and the auditor makes code changes and computes w/o resequence, the popped-out audit is showing a ‘missing DRG’ error message, even if it is on the main page.  This has been corrected. 
+If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is popped-out and the auditor makes code changes and computes w/o resequence, the popped-out audit is showing a ‘missing DRG’ error message, even if it is on the main page.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -185,7 +185,7 @@ If an audit is popped-out and the auditor makes code changes and computes w/o re
 
 **CACTWO-7041** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an Audit is popped-out to its own tab and the user then computes a DRG, while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
+If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is popped-out to its own tab and the user then computes a DRG, while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -193,7 +193,7 @@ If an Audit is popped-out to its own tab and the user then computes a DRG, while
 
 **CACTWO-7050** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When an audit is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like code summary, when the audit is reopened, the subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
+When an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like code summary, when the audit is reopened, the subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -209,7 +209,7 @@ In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7061** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Audits were being routed without being saved when other viewers were opened.  This has been corrected so that if a physician query or an encoder are open, an audit cannot be routed until those windows have been closed.
+[Audits](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were being routed without being saved when other viewers were opened.  This has been corrected so that if a physician query or an encoder are open, an audit cannot be routed until those windows have been closed.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -217,15 +217,14 @@ Audits were being routed without being saved when other viewers were opened.  Th
 
 **CACTWO-7068** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New roles that contain the word ‘Manager’ such as PHYS Coder Managers will now have the ability to have users assigned to them by an Administrator.
-b
+New roles that contain the word ['Manager'](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#manager) such as PHYS Coder Managers will now have the ability to have users assigned to them by an Administrator.
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Show History legend has been updated with new fields
 
 **CACTWO-7063** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The legend window in a Show History viewer has been updated with more colors and indicators.   There are now indicators for Payor, Financial Class, Admit Source, Admit Type and Discharge Disposition. 
+The legend window in a [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) viewer has been updated with more colors and indicators.   There are now indicators for Payor, Financial Class, Admit Source, Admit Type and Discharge Disposition. 
 
 ![Show History Legend](2025-03-05_CodeSummary5.png)
 
