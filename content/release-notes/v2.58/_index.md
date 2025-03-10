@@ -95,23 +95,23 @@ Please contact Support to enable this feature.
 
 **CACTWO-6948** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and Score Card by Admission Month were not showing a correct total.  This has been corrected so that the calculation is now the total number of unique day/user combinations, rather than counting every touch per day per user. 
+The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and [Score Card by Admission Month]() were not showing a correct total.  This has been corrected so that the calculation is now the total number of unique day/user combinations, rather than counting every touch per day per user. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Remove Principal Dx from outpatient accounts
+### Remove Principal Dx From Outpatient Accounts
 
 **CACTWO-6982** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The dropdown next to the Compute button in an account will now only show the Principal DX option if the account is an inpatient account. 
+The dropdown next to the [Compute button](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/#code-sequencing) in an account will now only show the Principal DX option if the account is an inpatient account. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add Pre and Post columns to the Audit Drilldown in Account Search
+### Add Pre and Post Columns to the Audit Drilldown in Account Search
 
 **CACTWO-6984** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-8 new columns have been added to Account Search when the [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) of Audits is used:
+8 new columns have been added to [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) when the [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) of Audits is used:
 * Pre-Audit GMLOS & Post-Audit GMLOS
 * Pre-Audit DRG & Post-Audit DRG
 * Pre-Audit ROM & Post-Audit ROM
@@ -123,15 +123,15 @@ The dropdown next to the Compute button in an account will now only show the Pri
 
 **CACTWO-7017** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Workflow Management (classic) has been removed from the Tools dropdown. 
+Workflow Management (classic) has been removed from the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) menu. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Do not allow fields in workflow to be saved without adding operator and value
+### Do not Allow Fields in Workflow to be Saved Without Adding Operator and Value
 
 **CACTWO-7020** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Workflow was allowing fields to be saved without operator and/or the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in to save.
+[Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) was allowing fields to be saved without operator and/or the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in before the user can save.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
