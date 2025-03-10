@@ -201,7 +201,9 @@ When an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/ac
 
 **CACTWO-7054** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), for the mapping MedicareProviderNumber, a new column has been added so that states can be assigned to each number.
+In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), for the mapping MedicareProviderNumber, a new column has been added so that states can be assigned to each number. This is for sites with multiple facities across multiple states that use the TruCode Encoder. In order for sites to update their facilities without interface script changes, a "State" column should be added to the "MedicareProviderNumber' mapping to indicate the geographic state of the facility. This field will be passed into TruCode if populated so that the state's appropriate medical necessity edits are returned.
+
+>[!Note] This is only relevant to TruCode Encoder.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
