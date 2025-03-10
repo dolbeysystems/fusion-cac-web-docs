@@ -119,7 +119,7 @@ The dropdown next to the Compute button in an account will now only show the Pri
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Remove Workflow Classing
+### Remove Workflow Management Classic
 
 **CACTWO-7017** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
