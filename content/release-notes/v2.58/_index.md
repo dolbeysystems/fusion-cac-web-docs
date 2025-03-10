@@ -334,7 +334,7 @@ When creating an audit, the Workgroup data was no longer showing in the header. 
 
 **CACTWO-7151** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If Autoload is turned on and an account with no codes is opened after an account with [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) edits, those edits are not clearing and are showing for the account with no codes. This has been corrected. 
+If [Auto-load](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/) is turned on and an account with no codes is opened after an account with [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) edits, those edits are not clearing and are showing for the account with no codes. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
