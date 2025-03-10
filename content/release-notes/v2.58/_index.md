@@ -2,10 +2,6 @@
 title = 'V2.58 (Mar 2025)'
 +++
 
-+++
-title = 'V2.58 (Mar 2025)'
-+++
-
 {{< release-notes-header version="V2.58.9204.0" date="03/14/25" >}}
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
