@@ -10,7 +10,7 @@ title = 'V2.58 (Mar 2025)'
 
 **CACTWO-5877** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the Fusion CAC 2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the notification, a color and the location it will appear.  
+A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the CAC2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the norificaiton, a color and the location it will appear.  
 
 ![Notifications Manager](2025-03-03_NotificationsMgr3.png)
 
@@ -139,7 +139,7 @@ Workflow was allowing fields to be saved without operator and/or the value.  Thi
 
 **CACTWO-7023** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a time out occurred when a user was saved an account but was sitting in it, it was being rerouted back to that user instead of moving into a new workflow.  This has been corrected. 
+ If an account's workflow assignment changes while the user is in the account, and the user's session times out, the account's workflow was being reverted to the workflow when the account was first loaded.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
