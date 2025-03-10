@@ -141,7 +141,7 @@ Workflow Management (classic) has been removed from the [Tools](https://dolbeysy
 
 **CACTWO-7023** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
- If an account's [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) assignment changes while the user is in the account, and the user's session times out, the account's workflow was being reverted to the workflow when the account was first loaded.  This has been corrected. 
+ If an account's [Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) assignment changes while the user is in the account, and the user's session times out, the account's workflow was being reverted to the workflow when the account was first loaded.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -185,7 +185,7 @@ If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navig
 
 **CACTWO-7041** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is popped-out to its own tab and the user then computes a DRG, while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
+If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is popped-out to its own tab and the user then [computes a DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/), while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -193,7 +193,7 @@ If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navig
 
 **CACTWO-7050** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like code summary, when the audit is reopened, the subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
+When an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like [code summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/), when the audit is reopened, the audit subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
