@@ -345,7 +345,7 @@ This fix only applies to TruCode&#8482; users.
 
 **CACTWO-7152** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The text in the PSI-08 algorithm shows ‘hip fracture’.  This has been corrected to show as ‘other fracture’ when the code table is FXID instead of HIPFXID.
+The text in the [PSI-08](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/) algorithm shows ‘hip fracture’.  This has been corrected to show as ‘other fracture’ when the code table is FXID instead of HIPFXID.
 
 
 
