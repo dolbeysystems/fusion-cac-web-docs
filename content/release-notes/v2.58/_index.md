@@ -16,7 +16,7 @@ A new page called [Notifications Management](https://dolbeysystems.github.io/fus
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Move the productivity panel from the user drop down
+### Move the Productivity Panel From the User Drop Down
 
 **CACTWO-5990 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -24,7 +24,7 @@ In order to make room for more columns, the [Today’s Productivity](https://dol
 
 ![User Profile Productivity](2025-03-03_UserMgmt1.png)
 
-When clicked, it will open a window box that will show a more robust Productivity panel
+When clicked, it will open a window box that will show a more robust productivity panel
 
 ![Today's Productivity Dialog](2025-03-03_UserMgmt2.png)
 
