@@ -326,7 +326,7 @@ When using [Edit Procedure Details](https://dolbeysystems.github.io/fusion-cac-w
 
 **CACTWO-7150** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When creating an audit, the Workgroup data was no longer showing in the header.  This has been corrected. 
+When creating an [Audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), the Workgroup data was no longer showing in the header.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
