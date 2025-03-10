@@ -295,7 +295,7 @@ If an Auditor selects an audit subtype on the latest [Audit](http://localhost:13
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Physician Coder submit sare removing account from Coder's worklist
+### Physician Coder submits are removing account from Coder's worklist
 
 **CACTWO-7130** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
