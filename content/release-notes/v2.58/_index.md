@@ -52,7 +52,7 @@ When a user selects a workgroup that is not custom from the worklist, if there w
 
 **CACTWO-6549 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If a document was assigned an order number in [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/), then when sorting by date that document was not obeying the new date sort.  This has been changed so that an assigned number is not taken into consideration when sorting by date. 
+Document ordering preventing from ordering in date order [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/), then when sorting by date that document was not obeying the new date sort.  This has been changed so that an assigned number is not taken into consideration when sorting by date. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
