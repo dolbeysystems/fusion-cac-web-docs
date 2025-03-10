@@ -30,7 +30,7 @@ When clicked, it will open a window box that will show a more robust productivit
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Allow Notes to be identified by role
+### Allow Notes to be Identified by Role
 
 **CACTWO-6424 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
