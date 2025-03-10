@@ -141,7 +141,7 @@ Workflow Management (classic) has been removed from the [Tools](https://dolbeysy
 
 **CACTWO-7023** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
- If an account's [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) assignment changes while the user is in the account, and the user's session times out, the account's workflow was being reverted to the workflow when the account was first loaded.  This has been corrected. 
+ If an account's [Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) assignment changes while the user is in the account, and the user's session times out, the account's workflow was being reverted to the workflow when the account was first loaded.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
