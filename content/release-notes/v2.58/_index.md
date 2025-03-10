@@ -127,7 +127,7 @@ Workflow Management (classic) has been removed from the Tools dropdown.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Workflow criteria can be saved without all viable fileds filled in
+### Do not allow fields in workflow to be saved without adding operator and value
 
 **CACTWO-7020** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
