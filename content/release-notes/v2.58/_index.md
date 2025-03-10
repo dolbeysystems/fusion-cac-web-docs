@@ -10,7 +10,7 @@ title = 'V2.58 (Mar 2025)'
 
 **CACTWO-5877** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the Fusion CAC 2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the notification, a color and the location it will appear.  
+A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the CAC2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the norificaiton, a color and the location it will appear.  
 
 ![Notifications Manager](2025-03-03_NotificationsMgr3.png)
 
@@ -105,6 +105,8 @@ The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysys
 
 The dropdown next to the [Compute button](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/#code-sequencing) in an account will now only show the Principal DX option if the account is an inpatient account. 
 
+>[!Note] This is only relevant to TruCode Encoder.
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add Pre and Post Columns to the Audit Drilldown in Account Search
@@ -139,7 +141,7 @@ Workflow Management (classic) has been removed from the [Tools](https://dolbeysy
 
 **CACTWO-7023** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a time out occurred when a user saved an account but still had it open, it was being re-routed back to that user instead of moving into a new [worklist](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#worklists).  This has been corrected. 
+ If an account's workflow assignment changes while the user is in the account, and the user's session times out, the account's workflow was being reverted to the workflow when the account was first loaded.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -151,7 +153,7 @@ Two columns have been added to the [DRG Comparison Report](https://dolbeysystems
 * Discharge Disposition
 * Payor
 
-![DRG Comparison Report](2025-03-05_UserReport1.png)s
+![DRG Comparison Report](2025-03-05_UserReport1.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

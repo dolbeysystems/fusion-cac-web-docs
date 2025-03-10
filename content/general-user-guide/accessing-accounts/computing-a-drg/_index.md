@@ -34,3 +34,9 @@ Left click and hold the code to be re-sequenced, then move it to the new sequenc
 ### Computing a DRG/Grouping
 
 Use the {{%button%}}Compute{{%/button%}} button to launch the encoder and proceed with confirmation of codes and sequencing to complete grouping and return the computed grouping and codes to Fusion CAC.
+
+### Principal DX Analysis
+
+Use the {{%button%}}Principal DX Analysis{{%/button%}} button to analyze all assigned codes on an inpatient chart to see what the DRG would be if the code was a principal diagnosis.
+
+>[!Note] **TruCode** users have the option of Principal DX Analysis. In the dropdown menu on the right-side of the "Compute" button, the "Principal DX Analysis" menu.
