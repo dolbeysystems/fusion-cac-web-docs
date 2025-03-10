@@ -165,7 +165,7 @@ Criteria group names can now be edited in [Workflow Management](https://dolbeysy
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Multiple PCS occurances are not showing correctly in Audit
+### Multiple PCS occurrences are not showing correctly in Audit
 
 **CACTWO-7039** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
