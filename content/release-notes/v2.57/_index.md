@@ -27,9 +27,8 @@ Please contact Support to enable this feature.
 
 A new field will display within [User Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/) that can be used by 
 administrators and managers to assign users to a manager.
-The manager field is a dropdown that will only show users with a manager 
-role. Clicking the blue button next to the field will allow the addition of more 
-users to that selected manager. When a manager has users assigned, then 
+The manager field is a dropdown that will only display for users with a manager 
+role. Clicking the blue button next to the field will allow you to associate users to a manager. When a manager has users assigned 
 when that manager runs User Reports, they will only see the users that are 
 assigned to them. A new manager column has been added to the User 
 Management grid. 
