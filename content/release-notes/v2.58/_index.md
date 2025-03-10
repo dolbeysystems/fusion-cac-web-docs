@@ -131,7 +131,7 @@ Workflow Management (classic) has been removed from the Tools dropdown.
 
 **CACTWO-7020** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Workflow was allowing b to be saved without the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in to save.
+Workflow was allowing fields to be saved without operator and/or the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in to save.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
