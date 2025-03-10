@@ -193,7 +193,7 @@ If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/acco
 
 **CACTWO-7050** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When an audit is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like code summary, when the audit is reopened, the subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
+When an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like [code summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/), when the audit is reopened, the audit subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
