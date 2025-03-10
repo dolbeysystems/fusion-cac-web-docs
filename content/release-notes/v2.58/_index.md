@@ -248,7 +248,7 @@ This issue has now been prevented by only removing ICD-10 and CPT codes from evi
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add Status Indicator (SI) to Code Summary viewer plus info symbol
+### Add Status Indicator (SI) to Code Summary and Charge viewer
 
 **CACTWO-7076** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
