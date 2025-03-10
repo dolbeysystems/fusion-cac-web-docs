@@ -177,7 +177,7 @@ If an audit is created on an account that has multiple occurances of a procedure
 
 **CACTWO-7040** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an audit is popped-out and the auditor makes code changes and computes w/o resequence, the popped-out audit is showing a ‘missing DRG’ error message, even if it is on the main page.  This has been corrected. 
+If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is popped-out and the auditor makes code changes and computes w/o resequence, the popped-out audit is showing a ‘missing DRG’ error message, even if it is on the main page.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
