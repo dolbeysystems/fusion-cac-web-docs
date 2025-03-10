@@ -283,7 +283,7 @@ This fix only applies to TruCode&#8482; users.
 
 **CACTWO-7112** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a physician query is opened from CDI/Clinical Alerts and the user has created a signature in their user profile, a chosen query template was showing as blank.  This has been corrected. 
+If a physician query is opened from [CDI/Clinical Alerts] (https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) and the user has created a signature in their [user profile](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/), a chosen [query template](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) was showing as blank.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
