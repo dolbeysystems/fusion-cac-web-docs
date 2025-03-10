@@ -72,26 +72,26 @@ A new operator of *‘Does not Start With’* has been added to [Validation Mana
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Update how the Coder is defaulted in Denial Management
+### Update how the Coder is Defaulted in Denial Management
 
 **CACTWO-6912** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will now be defaulted to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
+The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will default to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Allow CDI permission to view the Audit Worksheet
+### Allow CDI Permission to View the Audit Worksheet
 
 **CACTWO-6913** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) viewer can now be seen by a CDI Specialist if the client wants that option.  The CDI would only have the option to view and print.  All editing, creating, routing and deleting abilities are not available.  
+The [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) viewer can now be seen by a CDI Specialist, if desired.  The CDI would *only have the option to view and print*.  Editing, creating, routing and deleting abilities are not available.  
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Incorrect number of days worked in CDI Query Scorecard
+### Incorrect Number of days Worked in CDI Query Scorecard
 
 **CACTWO-6948** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 

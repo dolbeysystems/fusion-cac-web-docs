@@ -290,6 +290,26 @@ expanded to the full month
 
 ![CDI Query Score Card Report](CDIQSC.png)
 
+#### CDI Query Score Card by Admission Month
+
+This report is displayed in 4 sections:
+
+  1. Admit/Reviews – This section reports on the review rate of the CDI team. It displays the number of patients admitted in the current month along with how many of them were reviewed by CDI.
+  2. CDI Query Outcome – Of the charts that made up the review rate under admits, this section displays the total that resulted in queries that are broken down more granularly by the physician's response rate.
+  3. Reconciliation – This section displays charts that created the review rate section and have a final DRG without having a submitted status. This section shows how often CDI and coders agree on the DRG.
+  4. CMI Comparison – This section reviews where the chart started (Baseline DRG CMI) and where the chart ended up (Final DRG CMI – which is the reported CMI).
+   
+ (Filtering: Max of 12 months selected; only run as a monthly report).
+
+> [!info] Calculations
+>
+> - Daily Initial Average is simple math of two other values to get the average number of initial reviews per day:
+>   - Daily Initial Average = (Number of Initial Reviews) / (Number of Days Worked) - rounded to whole number
+> - Daily Follow Up Average is similar:
+>   -  Daily Follow Up Average = (Number of Followup Reviews) / (Number of Days Worked) - rounded to whole number
+> - Daily Average Total Reviews is simply adding both averages:
+>   -  Daily Average Total Reviews = (Daily Initial Average) + (Daily Follow Up Average) - rounded to whole number
+
 #### CDI Rounding Report
 
 This report shows all charts reviewed and not reviewed by CDI. If the account has not been reviewed by
