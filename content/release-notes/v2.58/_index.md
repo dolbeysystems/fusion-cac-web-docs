@@ -153,7 +153,7 @@ Two columns have been added to the [DRG Comparison Report](https://dolbeysystems
 * Discharge Disposition
 * Payor
 
-![DRG Comparison Report](2025-03-05_UserReport1.png)s
+![DRG Comparison Report](2025-03-05_UserReport1.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
