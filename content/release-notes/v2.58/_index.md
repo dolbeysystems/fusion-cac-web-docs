@@ -291,7 +291,7 @@ If a physician query is opened from [CDI/Clinical Alerts] (https://dolbeysystems
 
 **CACTWO-7114** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an Auditor selects an audit subtype on the latest audit, then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
+If an Auditor selects an audit subtype on the latest [Audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
