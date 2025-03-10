@@ -185,7 +185,7 @@ If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/acco
 
 **CACTWO-7041** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an Audit is popped-out to its own tab and the user then computes a DRG, while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
+If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is popped-out to its own tab and the user then [computes a DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/), while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
