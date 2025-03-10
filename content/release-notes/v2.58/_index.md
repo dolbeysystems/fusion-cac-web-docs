@@ -95,7 +95,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-6948** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and [Score Card by Admission Month]() were not showing a correct total.  This has been corrected so that the calculation is now the total number of unique day/user combinations, rather than counting every touch per day per user. 
+The ‘Number of Days  Worked’ in the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and [Score Card by Admission Month](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-by-admission-month) were not showing a correct total.  This has been corrected so that the calculation is now the total number of unique day/user combinations, rather than counting every touch per day per user. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -135,15 +135,15 @@ Workflow Management (classic) has been removed from the [Tools](https://dolbeysy
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Accounts are not being routed correctly on time-out
+### Accounts are not Being Routed Correctly on Time-out
 
 **CACTWO-7023** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a time out occurred when a user was saved an account but was sitting in it, it was being rerouted back to that user instead of moving into a new workflow.  This has been corrected. 
+If a time out occurred when a user saved an account but still had it open, it was being re-routed back to that user instead of moving into a new [worklist](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#worklists).  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add columns to the DRG Comparison Report
+### Add Columns to the DRG Comparison Report
 
 **CACTWO-7032** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -269,7 +269,7 @@ In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7097** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If facilities have groupers assigned to them, the TruCode™  standalone is not applying that facility’s grouper when computing the DRG.  This has been corrected. 
+If facilities have groupers assigned to them, the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/)  standalone is not applying that facility’s grouper when computing the DRG.  This has been corrected. 
 
 > [!note] TruCode&#8482; Users Only
 This fix only applies to TruCode&#8482; users.
@@ -292,11 +292,11 @@ If an Auditor selects an audit subtype on the latest audit, then moves to anothe
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Physician Coder submit sare removing account from Coder's worklist
+### Physician Coder submit are removing account from Coder's worklist
 
 **CACTWO-7130** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an account routed to a coder by an Auditor is subsequently submitted by a Physician Coder, the account is being removed from the routed Coder’s worklist.  This has been corrected.
+If an account routed to a coder by an Auditor is subsequently submitted by a [Physician Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#physician-codingsingle-path), the account is being removed from the routed Coder’s worklist.  This has been corrected.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -331,12 +331,12 @@ When creating an audit, the Workgroup data was no longer showing in the header. 
 
 **CACTWO-7151** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If Autoload is turned on and an account with no codes is opened after an account with TruCode™ edits, those edits are not clearing and are showing for the account with no codes. This has been corrected. 
+If [Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#auto-load) is turned on and an account with no codes is opened after an account with [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) edits, those edits are not clearing and are showing for the account with no codes. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 > [!note] TruCode&#8482; Users Only
-This fix only applies to TruCode&#8482; users.
+This fix only applies to [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) users.
 
 ### Text change needed for PSI-08 algorithm output
 
