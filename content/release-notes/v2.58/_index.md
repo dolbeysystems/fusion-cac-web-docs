@@ -244,7 +244,7 @@ If a Coder has rebutted an [Audits](http://localhost:1313/fusion-cac-web-docs/ac
 
 **CACTWO-7073** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-This issue has now been prevented by only removing ICD and CPT codes from evidence text that is linked to a document when the text is copied to a physician query. 
+This issue has now been prevented by only removing ICD-10 and CPT codes from evidence text that is linked to a document when the text is copied to a physician query. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
