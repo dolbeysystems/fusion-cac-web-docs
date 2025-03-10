@@ -112,7 +112,7 @@ The dropdown next to the Compute button in an account will now only show the Pri
 **CACTWO-6984** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 8 new columns have been added to Account Search when the [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) of Audits is used:
-* Pre-Audit GLOS & Post-Audit GLOS
+* Pre-Audit GMLOS & Post-Audit GMLOS
 * Pre-Audit DRG & Post-Audit DRG
 * Pre-Audit ROM & Post-Audit ROM
 * Pre-Audit SOI & Post-Audit SOI
