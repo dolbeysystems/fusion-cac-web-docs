@@ -306,11 +306,11 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### WorkgroupAssignedData criteria needs additional functionality
+### Workgroup Assigned Data criteria needs additional functionality
 
 **CACTWO-7140** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In [Workflow Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/), the criteria WorkgroupAssignedData is missing an additional field that would allow the entry of the Workgroup name to send the account to. This has been added. 
+In [Workflow Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/), the criteria Workgroup Assigned Data is missing an additional field that would allow the entry of the Workgroup name to send the account to. This has been added. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
