@@ -119,7 +119,7 @@ The dropdown next to the Compute button in an account will now only show the Pri
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Remove Workflow Classing
+### Remove Workflow Management Classic
 
 **CACTWO-7017** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -127,11 +127,11 @@ Workflow Management (classic) has been removed from the Tools dropdown.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Workflow criteria can be saved without all viable fileds filled in
+### Do not allow fields in workflow to be saved without adding operator and value
 
 **CACTWO-7020** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Workflow was allowing b to be saved without the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in to save.
+Workflow was allowing fields to be saved without operator and/or the value.  This has been corrected so that unless the operator doesn’t require a value, the value field must be filled in to save.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
