@@ -7,7 +7,7 @@ weight = 10
 
 ![Account Action Bar](AccountActionBar.png)
 
-The blue bar accross the top of the screen is the Account Action Bar. This bar displays specific account information such as the account status,the account number, and the dates of service. Additonally, the Account Action Bar houses buttons allowing the user to compute, cancel, save, or submit the account as needed.
+The blue bar across the top of the screen is the Account Action Bar. This bar displays specific account information such as the account status,the account number, and the dates of service. Additonally, the Account Action Bar houses buttons allowing the user to compute, cancel, save, or submit the account as needed.
 
 |Button |Function|
 |-------|--------|
