@@ -91,7 +91,7 @@ The date and time stamp in the title of the Alert will indicate when the Alert w
 
 Next to each of the Alerts in either the Active or Completed Alerts section is a paper icon.
 
-![CDI Alert](PaperIcon.png)
+![CDI/Clinical Alert Paper Icon](2025-03-17_ClinicalAlerts.png)
 
 When clicked, this icon will launch a notes page. This can be used by a CDS to leave a note if they do not feel the Alert currently has enough evidence to build a query, but also shouldn't be ruled out as it could trend towards the diangosis alerted. Once a note is typed in it will leave the date and time as well as the CDS name so if another CDS enters the chart, they will be able to clearly see who chose to monitor the Alert at this time and why.
 
@@ -99,7 +99,7 @@ When clicked, this icon will launch a notes page. This can be used by a CDS to l
 
 Upon adding the note the paper icon will turn **{{< rawhtml >}}<span style="color:#a00">RED  </span>{{< /rawhtml >}}**, notifying the next user that is reviewing the CDI Alerts that there is a note present on the Alert.
 
-![Active Alerts](image-285.jpg)
+![CDI/Clnical Alert Red Note](2025-03-17_ClinicalAlerts2.png)
 
 Once a note is typed in it will leave the date and time as well as the CDS name so if another CDS enters the chart, they will be able to clearly see who chose to monitor the Alert at this time and why. Upon adding the note the paper icon will turn red, notifying the next user that is reviewing the CDI/Clinical Alerts that there is a note present on the Alert.
 
