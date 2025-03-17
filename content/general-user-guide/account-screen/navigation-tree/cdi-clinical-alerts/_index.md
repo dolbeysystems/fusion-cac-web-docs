@@ -91,7 +91,7 @@ The date and time stamp in the title of the Alert will indicate when the Alert w
 
 Next to each of the Alerts in either the Active or Completed Alerts section is a paper icon.
 
-![CDI Alert](image-282.jpg)
+![CDI Alert](PaperIcon.png)
 
 When clicked, this icon will launch a notes page. This can be used by a CDS to leave a note if they do not feel the Alert currently has enough evidence to build a query, but also shouldn't be ruled out as it could trend towards the diangosis alerted. Once a note is typed in it will leave the date and time as well as the CDS name so if another CDS enters the chart, they will be able to clearly see who chose to monitor the Alert at this time and why.
 
@@ -99,7 +99,7 @@ When clicked, this icon will launch a notes page. This can be used by a CDS to l
 
 Upon adding the note the paper icon will turn **{{< rawhtml >}}<span style="color:#a00">RED  </span>{{< /rawhtml >}}**, notifying the next user that is reviewing the CDI Alerts that there is a note present on the Alert.
 
-![Active Alerts](image-285.jpg)
+![Active Alerts](ActiveAlertNote.png)
 
 Once a note is typed in it will leave the date and time as well as the CDS name so if another CDS enters the chart, they will be able to clearly see who chose to monitor the Alert at this time and why. Upon adding the note the paper icon will turn red, notifying the next user that is reviewing the CDI/Clinical Alerts that there is a note present on the Alert.
 
@@ -133,15 +133,13 @@ When selecting evidence with a document type and date, a hyperlink will direct t
 
 Hovering over a green-highlighted abstraction will display which Alert the evidence is associated with, especially when multiple Alerts are present.
 
-![Reviewing Clinical Evidence Document](image-287.jpg)
-
-![Reviewing Clinical Evidence Code](image-288.jpg)
+![Reviewing Clinical Evidence Document](GreenAbstraction.png)
 
 When clicking on a hyperlinked evidence that is followed by result date and time, indicating a discrete
 value abstracted from the flowsheets, it will automatically take the CDS to the corresponding location in the
 flowsheets and highlight the respective row.
 
-![Reviewing Clinical Evidence Discrete Value](image-289.jpg)
+![Reviewing Clinical Evidence Discrete Value](HyperlinkDiscreteData.png)
 
 Another noteworthy capability within Clinical Evidence is the ease with which a CDS can incorporate
 additional evidence. While reviewing documentation and flowsheets, if a CDS identifies items deemed
@@ -196,7 +194,7 @@ section to the Closed Alerts section.
 Once that query has been submitted that CDI/Clinical Alert will move from the Active Alerts section down to the
 Closed Alerts section.
 
-![Unchecking Evidence](image-293.jpg)
+![Unchecking Evidence and Creating Query](AlertsQuery.png)
 
 ## Autoresolve
 
