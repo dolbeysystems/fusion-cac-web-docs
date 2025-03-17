@@ -9,7 +9,7 @@ User Management allows management to add, delete, or change permissions and/or s
 
 | Column |Description|
 | -------|-----------|
-|Action  |Copy exisiting profile when creating new user:![Copy User](image-447.png) Edit existing profile:![Edit User](image-448.png) Remove unused profile: ![Delete User](image-449.png)|
+|Action  |Copy exisiting profile when creating new user:![Copy User](CopyIcon.png) Edit existing profile:![Edit User](EditUser.png) Remove unused profile: ![Delete User](RedX.png)|
 |[Locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked-1)   |Indicates if the user is locked out of the application|
 |Employee Number|Employee number from ogranization|
 |User ID|Username used to log into the application|
