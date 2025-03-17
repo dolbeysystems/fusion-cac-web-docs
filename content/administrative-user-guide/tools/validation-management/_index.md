@@ -126,13 +126,11 @@ Example: **ERROR: D/C Disposition must be present** We might select **Does Not E
 mean if a discharge disposition does not exist, then this rule would display on the code summary and prevent 
 the user from submitting the chart.
 
-![](image-503.jpg)
-
 Additionally, we may only want to display this rule if the user has a role of a coder. To constrain the rule further,
 click on the **Add Criteria** again, select user, and then select “Is not CDI Specialist”. This will prevent the
 rule from display to a user with a role of a CDI.
 
-![](image-502.jpg)
+![Missing Discharge Disposition](MissingDischargeDispo.png)
 
 ### For Each Check Box
 
@@ -179,7 +177,7 @@ disposition, it does make sense to direct the user to go to the account informat
 page as that is where they would likely change the disposition. Under where you
 selected the level, there is a field for
 
-![](image-505.jpg)
+![Navigate To](NavigateTo.png)
 
 **Navigate** to (these are placed within the patient chart, under the Navigation tree).
 
