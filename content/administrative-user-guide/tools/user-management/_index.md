@@ -9,7 +9,7 @@ User Management allows management to add, delete, or change permissions and/or s
 
 | Column |Description|
 | -------|-----------|
-|Action  |Copy exisiting profile when creating new user:![Copy User](image-447.png) Edit existing profile:![Edit User](image-448.png) Remove unused profile: ![Delete User](image-449.png)|
+|Action  |Copy exisiting profile when creating new user:![Copy User](CopyIcon.png) Edit existing profile:![Edit User](EditUser.png) Remove unused profile: ![Delete User](RedX.png)|
 |[Locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked-1)   |Indicates if the user is locked out of the application|
 |Employee Number|Employee number from ogranization|
 |User ID|Username used to log into the application|
@@ -187,7 +187,7 @@ Users can access their profile information by clicking on their name in the top 
 
 ## Today's Productivity
 
-To the left of the user's Profile Menu, daily productivty stats are displayed when they click on the bar graph icon. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard). 
+Daily productivity stats are displayed when the user clicks on the bar graph icon to the left of the user's ID. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard). 
 
 ![Today's Productivity](2025-03-03_UserMgmt1.png)
 
