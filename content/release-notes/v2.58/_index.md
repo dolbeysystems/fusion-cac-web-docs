@@ -10,7 +10,7 @@ title = 'V2.58 (Mar 2025)'
 
 **CACTWO-5877** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the CAC2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the norificaiton, a color and the location it will appear.  
+A new page called [Notifications Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/notifications-management/) has been added to the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown.  Here, notifications can be created that can be seen either on the CAC2 login screen, the Dashboard, or both.  The notification has a field for a Title and a Description, a start and end date for the notification, a color and the location it will appear.  
 
 ![Notifications Manager](2025-03-03_NotificationsMgr3.png)
 
@@ -60,7 +60,7 @@ If a document was assigned an order number in [Document Types Management](https:
 
 **CACTWO-6758** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New events have been added as triggers for the [User Audt Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) report.  If a user is logged out due to inactivity, a new line will now show in the report. 
+New events have been added as triggers for the [User Audit Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) report.  If a user is logged out due to inactivity, a new line will now show in the report. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -170,14 +170,6 @@ Criteria group names can now be edited in [Workflow Management](https://dolbeysy
 **CACTWO-7039** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is created on an account that has multiple occurrences of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
-
-<hr style="height:1px;border-width:0;color:gray;background-color:black">
-
-### Popped-out Audit is giving a missing DRG error message
-
-**CACTWO-7040** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
-
-If an [audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) is popped-out and the auditor makes code changes and computes w/o resequence, the popped-out audit is showing a ‘missing DRG’ error message, even if it is on the main page.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -336,10 +328,10 @@ When creating an [Audit](http://localhost:1313/fusion-cac-web-docs/account-navig
 
 If [Auto-load](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/) is turned on and an account with no codes is opened after an account with [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) edits, those edits are not clearing and are showing for the account with no codes. This has been corrected. 
 
-<hr style="height:1px;border-width:0;color:gray;background-color:black">
-
 > [!note] [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Users Only
 This fix only applies to TruCode&#8482; users.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Text change needed for PSI-08 algorithm output
 
@@ -347,6 +339,63 @@ This fix only applies to TruCode&#8482; users.
 
 The text in the [PSI-08](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/) algorithm shows ‘hip fracture’.  This has been corrected to show as ‘other fracture’ when the code table is FXID instead of HIPFXID.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Fusion CAC Help has been renamed in the help menu
+
+**CACTWO-7153** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+In CAC 2, the help menu item of Fusion CAC Help has been renamed to Fusion CAC User Guide.  The guide has been changed to a web page, rather than a pdf. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### ‘Exists’ operator is not working for Assigned Dx Codes
+
+**CACTWO-7180** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When using a criteria of ‘Assigned Diagnosis Codes with POA of N’ with the “Exists” operator, the criteria was not working.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Multiple Audits were not showing proper color in Navigation pane
+
+**CACTWO-7181** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Completed audit changes the color in the Navigation pane from red to a brownish yellow.  If another audit is added, the color is not changing to red to indicate an open audit; it is remaining in the completed color.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Document Pane Scroll bar jumps when loading new documents
+
+**CACTWO-7202** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When an account has a large number of documents, if the user clicks on an unopened document further down the roll, the scroll bar was jumping back up the document pane.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Coder Scorecard was showing audits prior to last month
+
+**CACTWO-7203** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the Coder Scorecard section of the  Coder Personal Dashboard, audits were displayed that were opened or closed prior to last month.   This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Drilldown columns are not showing in Scheduled Report
+
+**CACTWO-7216** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a Scheduled report is created in Account search using a search that includes a drilldown, the drilldown is not showing in the report when it is sent.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### DRG changes not showing in Audit Management
+
+**CACTWO-7218** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Changes to the MS-DRG and the MS-DRG Reimbursement were not being detected in an audit.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 
 
