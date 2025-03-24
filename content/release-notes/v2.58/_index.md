@@ -385,7 +385,7 @@ In the Coder Scorecard section of the [Coder Personal Dashboard](https://dolbeys
 
 **CACTWO-7216** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a [Scheduled report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) is created in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) using a search that includes a [drilldown(https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level)], the drilldown is not showing in the report when it is sent.  This has been corrected. 
+If a [Scheduled report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) is created in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) using a search that includes a [drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level), the drilldown is not showing in the report when it is sent.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
