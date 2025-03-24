@@ -345,7 +345,7 @@ The text in the [PSI-08](https://dolbeysystems.github.io/fusion-cac-web-docs/acc
 
 **CACTWO-7153** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In CAC 2, the help menu item of Fusion CAC Help has been renamed to Fusion CAC User Guide.  The guide has been changed to a web page, rather than a pdf. 
+In CAC 2, the [help menu](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/#help-menu) item of Fusion CAC Help has been renamed to Fusion CAC User Guide.  The guide has been changed to a web page, rather than a pdf. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -361,7 +361,7 @@ When using a criteria of ‘Assigned Diagnosis Codes with POA of N’ with the �
 
 **CACTWO-7181** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Completed audit changes the color in the Navigation pane from red to a brownish yellow.  If another audit is added, the color is not changing to red to indicate an open audit; it is remaining in the completed color.  This has been corrected. 
+Completed audit changes the color in the [Navigation pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/) from red to a brownish yellow.  If another audit is added, the color is not changing to red to indicate an open audit; it is remaining in the completed color.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -377,7 +377,7 @@ When an account has a large number of documents, if the user clicks on an unopen
 
 **CACTWO-7203** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the Coder Scorecard section of the  Coder Personal Dashboard, audits were displayed that were opened or closed prior to last month.   This has been corrected. 
+In the Coder Scorecard section of the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard), [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were displayed that were opened or closed prior to last month.   This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -385,7 +385,7 @@ In the Coder Scorecard section of the  Coder Personal Dashboard, audits were dis
 
 **CACTWO-7216** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a Scheduled report is created in Account search using a search that includes a drilldown, the drilldown is not showing in the report when it is sent.  This has been corrected. 
+If a [Scheduled report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) is created in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) using a search that includes a [drilldown(https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level)], the drilldown is not showing in the report when it is sent.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -393,7 +393,7 @@ If a Scheduled report is created in Account search using a search that includes 
 
 **CACTWO-7218** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Changes to the MS-DRG and the MS-DRG Reimbursement were not being detected in an audit.  This has been corrected. 
+Changes to the MS-DRG and the MS-DRG Reimbursement were not being detected in an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
