@@ -107,12 +107,12 @@ If the case was a trauma, make the appropriate selection from the dropdown menu 
 
  
 ##### Medication Administration Qty
-Based on the selection, additional fields or boxes will populate. Complete the quantities, add modifiers, and any notes.  Modifier fields are available in the appropriate sections of the worksheet. The user can add up to four (4) modifiers unless they are using the 3M CRS encoder, then they will be able to add up to five (5) modifiers. The “Notes” field is available for the coder to track things such as medications.  
+Based on the selection, additional fields or boxes will populate. Complete the quantities, add modifiers, and any notes.  Modifier fields are available in the appropriate sections of the worksheet. The user can add up to four (4) modifiers unless they are using the Solventum CRS encoder, then they will be able to add up to five (5) modifiers. The “Notes” field is available for the coder to track things such as medications.  
 
 ![Medication Administration Qty](MedAdminQty.png)
  
 ##### Medication Administration Time/Modifier
-Update this section with the duration of each medication as needed, any modifier(s), and notes. The user can add up to four (4) modifiers unless they are using the 3M CRS encoder, then they will be able to add up to five (5) modifiers.
+Update this section with the duration of each medication as needed, any modifier(s), and notes. The user can add up to four (4) modifiers unless they are using the Solventum CRS encoder, then they will be able to add up to five (5) modifiers.
 
 ![Medication Administration Time/Modifier](MedAdminTime.png)
  

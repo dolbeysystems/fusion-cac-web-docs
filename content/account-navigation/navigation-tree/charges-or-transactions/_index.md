@@ -28,7 +28,7 @@ Each column within the Charges grid has menu options to Pin Column, Autosize, an
 
 ### Adding Modifiers to Charges
 
-Click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** button to open the Modifiers window.  Start entering the digits for the modifier to bring up the drop-down listing of available modifiers and their descriptions to select the appropriate modifier.  After the modifier is in the window, click on the {{%button%}}OK{{%/button%}} button to save the selected modifier. Continue this process to add all applicable modifiers to charges in the Charges viewer. The user can add up to four (4) modifiers unless they are using the 3M CRS encoder, then they will be able to add up to five (5) modifiers.
+Click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** button to open the Modifiers window.  Start entering the digits for the modifier to bring up the drop-down listing of available modifiers and their descriptions to select the appropriate modifier.  After the modifier is in the window, click on the {{%button%}}OK{{%/button%}} button to save the selected modifier. Continue this process to add all applicable modifiers to charges in the Charges viewer. The user can add up to four (4) modifiers unless they are using the Solventum CRS encoder, then they will be able to add up to five (5) modifiers.
 
 ![Charge Modifier](ChargeMod.png)
 

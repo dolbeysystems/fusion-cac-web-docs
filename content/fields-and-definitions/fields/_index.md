@@ -207,7 +207,7 @@ weight = 10
 |Pre-Visit Account Number       |Not accessible in Query or Worksheet Designer |
 |Primary Grouper                |This is the primary grouper of the account. |
 |Principal CPT Code             |This is the principal CPT code on the account. |
-|Principal CPT Modifier         |This is the principal CPT code modifier(s). The user can add up to 4 modifiers unless they are using the 3M CRS encoder, then they will be able to add up to 5 modifiers. |,,,,
+|Principal CPT Modifier         |This is the principal CPT code modifier(s). The user can add up to 4 modifiers unless they are using the Solventum CRS encoder, then they will be able to add up to 5 modifiers. |,,,,
 |Principal CPT Physician        |This is the principal CPT code abstracted physician. |
 |Principal Diagnosis Code       |This is the principal diagnosis code on the account. |
 |Principal Procedure Code       |This is the principal procedure (PCS) code on the account. |

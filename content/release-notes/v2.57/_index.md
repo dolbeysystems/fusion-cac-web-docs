@@ -358,7 +358,7 @@ added to 4 Audit user reports:
 **CACTWO-6864 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 A new user report called Current Workgroup Assignment per User has been 
-created. This will display the workflow assignment for each activer user from 
+created. This will display the workflow assignment for each active user from 
 the user’s profile. Only active users with at least one assigned workgroup 
 appear on this report. A [Forced Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#force-autoload) user will show an asterisk to the 
 right of the workgroup name if autoload was launched on that day.

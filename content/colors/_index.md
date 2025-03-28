@@ -36,7 +36,7 @@ The viewer name will turn red to alert the user that action is needed.
 
 |Symbol/Color   |Meaning   |
 |---------------|----------|
-|Blue/Red Circles Containing Numbers|These circles with numbers next to each code are the Risk of Mortality (ROM) and Severity of Illness (SOI) which can be values 1-4, this information comes from the APR-DRG which is a priority grouper licensed from 3M GPCS. ![ROM SOI Circles](ROMSOICircles.png)|
+|Blue/Red Circles Containing Numbers|These circles with numbers next to each code are the Risk of Mortality (ROM) and Severity of Illness (SOI) which can be values 1-4, this information comes from the APR-DRG which is a priority grouper licensed from Solventum GPCS. ![ROM SOI Circles](ROMSOICircles.png)|
 |P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
 |Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
 
