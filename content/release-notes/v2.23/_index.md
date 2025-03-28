@@ -517,16 +517,16 @@ Report multiple times. This has been corrected.
 
 ### CACTWO-4804 (Important)
 
-**Not correctly checking codes for validity using the 3M CRS Encoder**
+**Not correctly checking codes for validity using the Solventum CRS Encoder**
 
-When using 3M CRS encoder, the Discharge Date was used for figuring validity
-of a code in 3M CRS. Any outpatient accounts that have a discharge date that
+When using Solventum CRS encoder, the Discharge Date was used for figuring validity
+of a code in Solventum CRS. Any outpatient accounts that have a discharge date that
 is after the admit date are then likely to get coded with invalid codes.
 Correction has been made so that outpatient accounts use the admit date as
 the discharge date for figuring whether a code is valid.
 
-> [!note] 3M CRS Users Only
-This fix only applies to 3M CRS users.
+> [!note] Solventum CRS Users Only
+This fix only applies to Solventum CRS users.
 
 ### CACTWO-4805 (Important)
 
@@ -670,11 +670,11 @@ For TruCode™ users only.
 
 ### CACTWO-4885 (Important) 
 
-**Birthweight not updating when entered in 3M CRS**
+**Birthweight not updating when entered in Solventum CRS**
 
-CAC2 will now capture the birth weight from 3M CRS if it is provided from 3M
-CRS. Note: The birth weight is only prompted in 3M CRS on newborn accounts
+CAC2 will now capture the birth weight from Solventum CRS if it is provided from Solventum
+CRS. Note: The birth weight is only prompted in Solventum CRS on newborn accounts
 if an APR-DRG grouper is used.
 
-> [!note] 3M CRS Users Only
-This fix only applies to 3M CRS users.
+> [!note] Solventum CRS Users Only
+This fix only applies to Solventum CRS users.

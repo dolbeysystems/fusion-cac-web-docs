@@ -370,12 +370,12 @@ right of the workgroup name if autoload was launched on that day.
 **CACTWO-6867 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 This feature adds a configuration setting "SendChargesToEncoder" is set to 
-false to prevent charges from importing into 3M CRS, but their new custom 
+false to prevent charges from importing into Solventum CRS, but their new custom 
 "charges-filter.js" will inject the charges into the input packet for TruCode's 
 medical necessity calculations.
 
 >[!note] 
-> This fix only applies to sites using 3M CRS with TruCode Medical Necessity Edits.
+> This fix only applies to sites using Solventum CRS with TruCode Medical Necessity Edits.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -524,11 +524,11 @@ Search.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### 'Encoder Not Detected' pops up Sporadically in 3M™
+### 'Encoder Not Detected' pops up Sporadically in Solventum™
 
 **CACTWO-6921 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user was accessing 3M™ but not via the website, the ‘Core Encoder not 
+If a user was accessing Solventum™ but not via the website, the ‘Core Encoder not 
 detected’ message was popping up in various places. This has been fixed. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">

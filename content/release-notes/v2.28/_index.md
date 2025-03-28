@@ -307,7 +307,7 @@ Principal for CDI and Physician Coding Principal for Physician coding.
 
 **Charges attached to codes not included in encoder calculations**
 
-When calculating APC or EAPG for charge codes with the TruCode™ or 3M™
+When calculating APC or EAPG for charge codes with the TruCode™ or Solventum™
 encoders, the charge per unit was not included. This has been corrected.
 
 ## CACTWO-5567 (Important)

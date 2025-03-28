@@ -247,18 +247,18 @@ workgroups will be in a collapsed state. From that point on, Workflow will
 save any collapse or expand that the user does without having to click the
 save button.
 
-### Add Duplicate Code Icon for 3M™ Users
+### Add Duplicate Code Icon for Solventum™ Users
 
 **CACTWO-6535 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a code is added via 3M™, but is already in the unassigned code tree,
+When a code is added via Solventum™, but is already in the unassigned code tree,
 the unassigned code will no longer be visible, but clicking on the Show All
 Codes tree will show the code with a duplicate icon.
 
 ![](image-834.jpg)
 
-> [!note] 3M™ Users Only
-This fix only applies to 3M Users.
+> [!note] Solventum™ Users Only
+This fix only applies to Solventum Users.
 
 ### Valid Value Error Occuring in Some Account Search Filters
 
@@ -337,7 +337,7 @@ Multiple changes have been made to this report:
 - Name changed to Engine Outcome Summary by Coder
 - New column Total Codes Assigned added
 - The column Added has been split into Added Text and Added Non- Text (which includes worksheet)
-- The column Direct will contain codes added via 3M™, but also suggested by FAE
+- The column Direct will contain codes added via Solventum™, but also suggested by FAE
 - The column Image has been split into Image (duplicate) and Image (non-duplicate)
 - The column Worksheet has been removed
 - The calulation of the column Score(now called Usage Score)
@@ -351,7 +351,7 @@ The Engine Outcome per Coder (or per CDI) have been changed to Engine
 Outcome Detail per Coder (or per CDI). The other changes made are:
 
 - Duplicate codes added to the top of text documents are now counted in the Added Non-Text rather than Added Text
-- Added Non-Text will now include codes added via 3M™ but also suggested by FAE
+- Added Non-Text will now include codes added via Solventum™ but also suggested by FAE
 - The column Duplicate is now Added Duplicate
   - It additionally counts codes duplicated on images and worksheets
 - The column Duplicate Codes now includes codes duplicated on images and worksheets
@@ -360,7 +360,7 @@ Outcome Detail per Coder (or per CDI). The other changes made are:
 
 These changes are retroactive except the ‘Added Non-text” column
 calculatoin. This column will retroactively include codes assigned directly
-within 3M™ that were not suggested by FAE
+within Solventum™ that were not suggested by FAE
 
 ### CACTWO-6584 (Important)
 

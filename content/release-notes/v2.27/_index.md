@@ -291,14 +291,14 @@ This has been corrected.
 
 ### CACTWO-5326 (Enhancement)
 
-**Show middle name in 3M™ Coding and Reimbursement System (CRS)**
+**Show middle name in Solventum™ Coding and Reimbursement System (CRS)**
 
 encoder
-The 3M CRS encoder was only showing the patient’s last name. This has been
+The Solventum CRS encoder was only showing the patient’s last name. This has been
 changed to show the patient’s first, middle and last name in the encoder.
 
-> [!note] 3M CRS Users
-This feature is for 3M CRS users only
+> [!note] Solventum CRS Users
+This feature is for Solventum CRS users only
 
 ### CACTWO-5327 (Important)
 
@@ -424,13 +424,13 @@ return to the dashboard. In this instance, the user is a coder:
 
 ### CACTWO-5360 (Enhancement)
 
-**Allow 3M CRS facility to be populated in CAC2**
+**Allow Solventum CRS facility to be populated in CAC2**
 
-Dolbey now supports the field available in 3M CRS which is an account-level
+Dolbey now supports the field available in Solventum CRS which is an account-level
 “EncoderFacility’ field.
 
-> [!note] 3M CRS Users Only
-This feature is for 3M CRS users only.
+> [!note] Solventum CRS Users Only
+This feature is for Solventum CRS users only.
 
 ### CACTWO-5362 (Enhancement)
 
@@ -489,11 +489,11 @@ HAC will be shown in the CC/MCC column, when applicable.
 
 ### CACTWO-5382 (Important)
 
-**3M CRS responses are doubling**
+**Solventum CRS responses are doubling**
 
-3M CRS responses are doubling if the user is timed out of the app and then
+Solventum CRS responses are doubling if the user is timed out of the app and then
 logs back in and reopens the account. This has been corrected.
-For 3M CRS users only
+For Solventum CRS users only
 
 ### CACTWO-5384 (Important)
 
@@ -505,11 +505,11 @@ browser was clearing the checked box. This has been corrected.
 
 ### CACTWO-5385 (Enhancement)
 
-**Enable Alternate Length of Stay in 3M CRS**
+**Enable Alternate Length of Stay in Solventum CRS**
 
-The ability to provide Alternate Length of Stay to 3M CRS to prevent
+The ability to provide Alternate Length of Stay to Solventum CRS to prevent
 prompting for it with specific groupers has been added.
-For 3M CRS users only
+For Solventum CRS users only
 
 ### CACTWO-5387 (Important)
 
@@ -534,13 +534,13 @@ A grand total line has been added to the CDI Activity report.
 
 ### CACTWO-5390 (Enhancement)
 
-**Add CDI codes added via 3M CRS to All codes list for Coders**
+**Add CDI codes added via Solventum CRS to All codes list for Coders**
 
 Currently, the All Codes list (when user is a Coder) will only show CDI codes
 that are added on a document. They can then be hidden by the Hide CDI
-codes list. Codes that are added by a CDI via the 3M CRS encoder will now also
+codes list. Codes that are added by a CDI via the Solventum CRS encoder will now also
 appear in that list.
-For 3M CRS users only
+For Solventum CRS users only
 
 ### CACTWO-5392 (Important)
 
@@ -548,7 +548,7 @@ For 3M CRS users only
 
 The User Detail report is not showing AutoClose statistics, or data for any
 account with no documents, or has documents with no codes, but direct
-coding via 3M CRS has occurred. This has been corrected.
+coding via Solventum CRS has occurred. This has been corrected.
 
 ### CACTWO-5393 (Important)
 
@@ -603,7 +603,7 @@ and the Edit Pending Reason link was appearing. This has been corrected.
 **Code designations are not showing correctly during recalculation**
 
 Codes that have been given a CC, MCC, or HAC designation are not updating
-properly when the code itself is moved into a different position in 3M CRS or
+properly when the code itself is moved into a different position in Solventum CRS or
 the Assigned codes pane. This has been corrected.
 
 ### CACTWO-5403 (Enhancement)
@@ -648,12 +648,12 @@ been corrected.
 
 ### CACTWO-5413 (Important)
 
-**Allow 3M CRS to stay open past timeout**
+**Allow Solventum CRS to stay open past timeout**
 
-For sites with the 3M CRS encoder, the timeout will now be advanced by 4
-hours when using 3M CRS as the encoder. If 3M is open, the timeout will be
+For sites with the Solventum CRS encoder, the timeout will now be advanced by 4
+hours when using Solventum CRS as the encoder. If Solventum is open, the timeout will be
 held for 4 hours before activating.
-For 3M CRS users only
+For Solventum CRS users only
 
 ### CACTWO-5414 (Enhancement)
 

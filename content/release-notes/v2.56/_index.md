@@ -199,16 +199,16 @@ Charges Viewer. The Quantity can be changed and saved.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### 3M™ not Closing Properly When User Changes Roles
+### Solventum™ not Closing Properly When User Changes Roles
 
 **CACTWO-6558 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When using 3M™, if a user changed his role to a role that had a disabled 
-encoder, 3M™ would not close or reopen properly when the user changed 
+When using Solventum™, if a user changed his role to a role that had a disabled 
+encoder, Solventum™ would not close or reopen properly when the user changed 
 back to his role that had the encoder enabled. This has been fixed. 
 
-> [!note] 3M™ Users Only
-This change only applies to 3M Users.
+> [!note] Solventum™ Users Only
+This change only applies to Solventum Users.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -666,7 +666,7 @@ This will then show above the filter criteria:
 **CACTWO-6776 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 The SOI and ROM values in a Physician Query were sometimes not matching 
-the ROM and SOI values of the Shift Reason screen. If the site is using 3M and 
+the ROM and SOI values of the Shift Reason screen. If the site is using Solventum and 
 an account has both an APR for a primary grouper and an additional APR as a 
 secondary or tertiary, the values will always match the SOI and ROM 
 calculations of the primary APR instead of the latter APR.
@@ -731,19 +731,19 @@ only the admit age will show, as usual.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### 3M™ is not Alerting User That the Encoder is Already Open 
+### Solventum™ is not Alerting User That the Encoder is Already Open 
 
 **CACTWO-6815 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the case of a 3M™ encoder being open, with the user then opening a 
+In the case of a Solventum™ encoder being open, with the user then opening a 
 physician query and attempting to compute a DRG, the user was not being 
 warned that the encoder was already open. The user closed the query and 
 was then stuck in the acount. This has been corrected. A blue warning box 
 will now occur if the Compute button in a physician query is clicked while the 
 encoder is already open.
 
-> [!note] 3M™ Users Only
-This change only applies to 3M Users.
+> [!note] Solventum™ Users Only
+This change only applies to Solventum Users.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -774,7 +774,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-6822 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If the user launches and returns the 3M or TruCode codebook from the Code 
+If the user launches and returns the Solventum or TruCode codebook from the Code 
 Editor dialog when editing a diagnosis code, the POA will reset to its default 
 value. This has been corrected.
 

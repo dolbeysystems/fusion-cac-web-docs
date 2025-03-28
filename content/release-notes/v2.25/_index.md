@@ -219,9 +219,9 @@ started. If it is not present, a toast message will be presented to the auditor.
 
 ### CACTWO-5104 (Enhancement)
 
-**Allow 3M CRS to override an unspecified code edit**
+**Allow Solventum CRS to override an unspecified code edit**
 
-When computing a DRG and finding an unspecified code edit in the 3M CRS
+When computing a DRG and finding an unspecified code edit in the Solventum CRS
 for in inpatient account, the user can right click on the code under Diagnosis
 Code Details and choose ‘edit code properties’. Here the user will be able to
 chose one of 2 values and complete the DRG, which then avoides the DRG of
@@ -229,8 +229,8 @@ chose one of 2 values and complete the DRG, which then avoides the DRG of
 will see the option they chose in the Billing Note, other than None. The user
 can also select the billing note before they compute to avoid the DRG of 999.
 
-> [!info] 3M CRS Users Only
-This feature only applies to 3M CRS users. This will require a change to the account information
+> [!info] Solventum CRS Users Only
+This feature only applies to Solventum CRS users. This will require a change to the account information
 tab, please reach out to the support team if this is needed.
 
 ### CACTWO-5105 (Important)
@@ -342,13 +342,13 @@ corrected.
 
 ### CACTWO-5137 (Important)
 
-**Allow up to 5 CPT modifiers per CPT code for 3M CRS users**
+**Allow up to 5 CPT modifiers per CPT code for Solventum CRS users**
 
-When using 3M CRS as the grouper, CPT codes will now allow up to 5 modifiers
+When using Solventum CRS as the grouper, CPT codes will now allow up to 5 modifiers
 per code rather than 4.
 
-> [!note] 3M CRS Encoder Users Only
-This feature is only applicable to 3M CRS encoder users.
+> [!note] Solventum CRS Encoder Users Only
+This feature is only applicable to Solventum CRS encoder users.
 
 ### CACTWO-5139 (Important)
 

@@ -183,15 +183,15 @@ code in the Unassigned/All Code trees.
 
 ## CACTWO-6203 (Enhancement)
 
-**Create error message when computing 3M with dates prior to Oct 1 2015**
+**Create error message when computing Solventum with dates prior to Oct 1 2015**
 
 Currently, TruCode™ displays a red error message if a user tries to compute a
 DRG when an account has an Admit date, Discharge date, or Procedure Date
 before October 1, 2015. This error has been extended to include
-computations using 3M™.
+computations using Solventum™.
 
-> [!note] 3M™ Users Only
-This feature applies to 3M Users Only
+> [!note] Solventum™ Users Only
+This feature applies to Solventum Users Only
 
 ## CACTWO-6219 (Enhancement)
 
@@ -293,9 +293,9 @@ that type to always be retained when an account is reassigned.
 
 ## CACTWO-6343 (Enhancement)
 
-**Allow 3M™ to save position on second monitor**
+**Allow Solventum™ to save position on second monitor**
 
-The software will now remember where you last placed the 3M Coding and
+The software will now remember where you last placed the Solventum Coding and
 Reimbursement window(s) on your screen. When you reopen these windows,
 they will appear in the same position as before.
 

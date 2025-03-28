@@ -272,14 +272,14 @@ was not. This has been corrected.
 
 ### CACTWO-5874 (Important)
 
-**3M™ date fields are grayed out in the Encoder**
+**Solventum™ date fields are grayed out in the Encoder**
 
-When 3M™ is launched via the Encoder menu and the user changes to
+When Solventum™ is launched via the Encoder menu and the user changes to
 APCFinder or DRGFinder, the Admit and Discharge date fields are locked. This
 has been corrected.
 
-> [!note] 3M™ Users Only.
-This fix only applies to 3M™ users.
+> [!note] Solventum™ Users Only.
+This fix only applies to Solventum™ users.
 
 ### CACTWO-5895 (Enhancement)
 

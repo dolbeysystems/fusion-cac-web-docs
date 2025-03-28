@@ -268,13 +268,13 @@ show the friendly value, just like the classic Workflow Management page.
 
 ## CACTWO-6146 (Important)
 
-**3M is opening another instance when opening a dashboard drilldown**
+**Solventum is opening another instance when opening a dashboard drilldown**
 
-If a user opens a dashboard drilldown, another window with 3M is opened.
-This has been corrected so that there is only ever one 3M open.
+If a user opens a dashboard drilldown, another window with Solventum is opened.
+This has been corrected so that there is only ever one Solventum open.
 
-> [!info] 3M Web Component Users Only
-This fix is only applicable for 3M Web Component users.
+> [!info] Solventum Web Component Users Only
+This fix is only applicable for Solventum Web Component users.
 
 ## CACTWO-6147 (Enhancement)
 
@@ -389,7 +389,7 @@ Account Search will now correctly use the Only Contains criterion.
 
 **Code Suggestion by Coder report is not calculating correctly**
 
-When a code is being added via 3M to an account that is then being
+When a code is being added via Solventum to an account that is then being
 submitted, that code is not showing up in the Direct column of the From Other
 Sources section of the Code Suggestion Use by Coder report. This has been
 corrected.
