@@ -53,7 +53,6 @@ Before sending the query, the user will see a {{%button%}}Compute{{%/button%}} b
 
 Prior to [closing a query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/#closing-a-query), when the query has been responded to, open the query to complete it by clicking the **{{< rawhtml >}}<span style="color:#a00">RED ENVELOPE </span>{{< /rawhtml >}}** icon. Users will be able to compute a Post-DRG in order to capture impact. The previous DRG will auto-populate (unless the user added, deleted, or changed any codes, re-sequenced or changed the discharge disposition). If the Pre-DRG does not populate, it will need to be calculated again by clicking the {{%button%}}Compute{{%/button%}} button next to the Pre-DRG. Users will now also see a {{%button%}}Compute{{%/button%}} button for a Post-DRG below the template name. Users can minimize the query as needed to add, delete, or otherwise change any codes before clicking compute.
 
-![Edit Query Impact Video](EditQueryImpact.mp4)
 
 ### Sending a Query
 
