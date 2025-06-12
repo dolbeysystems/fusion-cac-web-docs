@@ -440,6 +440,22 @@ On a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-g
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### CDI Today’s Productivity Time in Chart Calculation
+
+**CACTWO-7371** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The time in the chart should be showing all the time spent, even if a working DRG is not calculated. It was not calculating time in chart that was worked and saved without a DRG. This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change of Admit Source Should Clear DRGs
+
+**CACTWO-7386** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a DRG is calculated and afterwards the Admit Source is changed, the DRGs should clear. This was not happening and has been fixed. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Copy Row function for Flowsheet have ability to Copy to CDI/Clinical Alert
 
 **CACTWO-6767** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -463,6 +479,8 @@ Fusion CAC now enhances the [CDI/Clinical Alerts](https://dolbeysystems.github.i
 When evidence is copied to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) from a document, the document type's friendly name will be displayed instead of its interface name. Previously it was using interface name.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+
 
 
 
