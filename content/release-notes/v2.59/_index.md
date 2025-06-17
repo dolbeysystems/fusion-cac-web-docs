@@ -456,6 +456,14 @@ If a DRG is calculated and afterwards the Admit Source is changed, the DRGs shou
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### Physician Query Recipient is Being Overwritten by Responding Physician
+
+**CACTWO-7390** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When a different physician is set as the responder on a query, it was temporarily overwriting the recipient physician on the query. When saved, it was showing correctly in the physician query viewer, so the correct Physicians were being recorded. The appearance of the overwrite within the query has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Copy Row function for Flowsheet have ability to Copy to CDI/Clinical Alert
 
 **CACTWO-6767** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
