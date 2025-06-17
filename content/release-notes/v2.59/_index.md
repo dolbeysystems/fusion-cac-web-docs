@@ -113,7 +113,7 @@ A new option has been added to the dropdown list when adding criteria for an [Ac
 
 **CACTWO-7154** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) in the [Navigation pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree) of an account, a new field has been added called “Decision Letter Received Date” to each denial appeal indicated. The name of this field will change depending on if it is the First, Second, or Third appeal.
+In [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) in the [Navigation tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree) of an account, a new field has been added called “Decision Letter Received Date” to each denial appeal indicated. The name of this field will change depending on if it is the First, Second, or Third appeal.
 
 ![First Appeal Letter Date Field](FirstAppealLetterDate.png)
 
@@ -154,7 +154,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7193** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
- [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [Denials](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/#adding-a-denial) worksheets can now have multiple instances. But when [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) criteria is created for audits or denials, it is disregarding anything after the first worksheet. So if the first worksheet is closed and a second one is open, workflow is looking at ‘closed’ audits instead of ‘open’ audits. This has been corrected so that if multiple worksheets exist, workflow looks at the most recent. 
+ [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [Denials](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) worksheets can now have multiple instances. But when [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) criteria is created for audits or denials, it is disregarding anything after the first worksheet. So if the first worksheet is closed and a second one is open, workflow is looking at ‘closed’ audits instead of ‘open’ audits. This has been corrected so that if multiple worksheets exist, workflow looks at the most recent. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -180,7 +180,7 @@ The [Audit Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-
 
 **CACTWO-7231** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-management-dashboard) [dashboards](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-personal-dashboard) were not taking multiple audits into consideration in some instances. Secondary audits were only considered if the secondary audit occurred within 30 days of the first audit. This has been changed to a default of 6 months. 
+The [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-management-dashboard) and [Aduit Personal](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-personal-dashboard) dashboards were not taking multiple audits into consideration in some instances. Secondary audits were only considered if the secondary audit occurred within 30 days of the first audit. This has been changed to a default of 6 months. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -355,14 +355,14 @@ The description for the [Coder DRG Summary report](https://dolbeysystems.github.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Display codes only present in physician queries in the Unassigned code pane
+### Display codes only present in physician queries in the Unassigned codes tree
 
 **CACTWO-7327** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Codes that are added via the Pre and Post DRG computation within a [Physician Query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) will now show in the [Unassigned Codes Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#unassigned-codes) if the codes are not present elsewhere on the account.  The codes will be identified with a question mark in front of them, and cannot be edited unless assigned to the account or added to a document.
+Codes that are added via the Pre and Post DRG computation within a [Physician Query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) will now show in the [Unassigned Codes Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#unassigned-codes) if the codes are not present elsewhere on the account.  The codes will be identified with a question mark in front of them, and cannot be edited unless assigned to the account or added to a document.
 
 >[!note] 
-> This fix only applies to sites using the Solventum encoder.
+> This fix only applies to sites using the Solventum encoder.s
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
