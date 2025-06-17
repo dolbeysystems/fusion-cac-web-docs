@@ -28,7 +28,7 @@ In the [Tuning](https://dolbeysystems.github.io/fusion-cac-web-docs/administrati
 
 ### Add Document Date to hover over
 
-**CACTWO-64777 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+**CACTWO-6777 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 In the [Document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#documents-tree), the hover over on the document name provides a physician’s name if it exists. The date of the document will now also show in the hover over if it exists. 
 
