@@ -460,7 +460,15 @@ If a DRG is calculated and afterwards the Admit Source is changed, the DRGs shou
 
 **CACTWO-7390** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When a different physician is set as the responder on a query, it was temporarily overwriting the recipient physician on the query. When saved, it was showing correctly in the physician query viewer, so the correct Physicians were being recorded. The appearance of the overwrite within the query has been corrected.
+When a different physician is set as the responder on a [query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/), it was temporarily overwriting the recipient physician on the query. When saved, it was showing correctly in the physician query viewer, so the correct Physicians were being recorded. The appearance of the overwrite within the query has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### The 'Query For' Checkbox is not Being Saved on the Template
+
+**CACTWO-7404** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When the '[Query For](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/query-designer/#blank-query-template)' box is checked on a query template worksheet, saving gave a green message, but if you went back into the template the checkbox was unchecked. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
