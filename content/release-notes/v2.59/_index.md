@@ -103,7 +103,7 @@ If an inpatient account has a length of stay equal to or greater than 5 days, su
 
 **CACTWO-7134** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new option has been added to the dropdown list when adding criteria for an [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level): Query Shift Reasons.  This will show all shift reasons per query, including ‘other’ reasons that are based on a Mapping Configuration setting. 
+A new option has been added to the dropdown list when adding criteria for an [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/): Query Shift Reasons.  This will show all shift reasons per query, including ‘other’ reasons that are based on a Mapping Configuration setting. 
 
 ![Query - Shift Reasons Column](QueryShiftReasons.png)
 
