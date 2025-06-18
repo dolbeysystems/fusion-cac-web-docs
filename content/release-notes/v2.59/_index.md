@@ -464,6 +464,30 @@ When a different physician is set as the responder on a [query](https://dolbeysy
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### Changing Audit Type was not Clearing the Audit Subtype
+
+**CACTWO-7396** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+With subtypes being attached to [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) Types through [mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), the subtype should be clearing in the audit if the type is changed. This was not happening and has now been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Pending Reason Historical Report is not Showing Correct Submitter
+
+**CACTWO-7392** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The [Pending Reason Historical Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/) was showing the user that created the pending reason as the last submitter. This has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Grid Column not Forcing a Save if a Title was Changed
+
+**CACTWO-7402** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a user clicked in the Title field and made a change to the names, trying to move to another menu like [Account List](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) was not causing the 'Do You Want to Save' message to pop. This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### The 'Query For' Checkbox is not Being Saved on the Template
 
 **CACTWO-7404** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
