@@ -286,6 +286,14 @@ A [validation rule](https://dolbeysystems.github.io/fusion-cac-web-docs/account-
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### Correct Retrospective Followup Reviews Calculation
+
+**CACTWO-7301** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+CDI reviews performed after a first submit when the DRGs match after reconciliation as retrospective follow up reviews on the [CDI Activity](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-activity-report) and [Detailed Activity](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#coder-detailed-activity-report) reports were not being counted. This has been corrected so that they are now included in those calculations. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Show a Tertiary DRG if Applicable
 
 **CACTWO-7302** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
