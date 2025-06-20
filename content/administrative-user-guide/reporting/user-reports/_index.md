@@ -357,7 +357,7 @@ should be used in conjunction with a coding audit if needed.
   - **Added Text**: counts the number of codes added to phrases in text documents that were not suggested by FAE.
   - **Added Non-Text**: counts the number of codes added to the top of text documents and worksheets that were not suggested by FAE.
 - **Edited**: A code suggestion was edited and then assigned to the account.
-- **Direct**: A code was assigned directly to the account manually or from the 3M CRS encoder, but also suggested by FAE
+- **Direct**: A code was assigned directly to the account manually or from the Solventum CRS encoder, but also suggested by FAE
 - **Image**: A code was assigned from an image document.
   - **Image (Non-Duplicate)**: counts the number of codes added to image documents not suggested by FAE.
   - **Image (Duplicate)**: counts the number of codes added to image documents that were also suggested by FAE.
@@ -697,7 +697,7 @@ upon submit will be shown.
 
 This report displays the Top 10 Medical vs. Surgical DRGs for submitted accounts within the defined
 discharge date. Medical DRGs and Surgical DRGs are defined by the DRG type that is returned from the
-TruCode or 3M CRS encoder. The date range on this report is the Chart Discharged Date (Must be
+TruCode or Solventum CRS encoder. The date range on this report is the Chart Discharged Date (Must be
 Submitted and have a Final DRG).
 
 ![Top 10 Coded Medical vs. Surgical DRG Report](CodedMedVsSurgDRG.png)
