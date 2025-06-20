@@ -54,13 +54,12 @@ Active Alerts has been added as a [Grid Column](https://dolbeysystems.github.io/
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add Option to Consider Differences in Estimated Reimbursement During DRG Reconciliation
+### Add an Option to Factor in Estimated Reimbursement Differences During the DRG Reconciliation Process.
 
 **CACTWO-7055** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Adds the optional ability to trigger DRG Reconciliation if the estimated reimbursement between the Working DRG and Final DRG are different, even if the DRGs are the same. 
-
-When a CDI reconciles the account, a reconciliation box is brought up for the CDI to choose which DRG they want to accept. A reibursement column has been added to show the reimbursement to help with that decision. 
+A new configuration setting is now available that can require DRG Reconciliation when there is a discrepancy in the estimated reimbursement between the Working DRG and the Final DRG.
+When a CDI performs reconciliation, a prompt appears allowing them to select which DRG to accept. A new "Reimb." column has been added to display the estimated reimbursement amounts, assisting in the decision-making process.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -141,7 +140,7 @@ When the [submit](https://dolbeysystems.github.io/fusion-cac-web-docs/general-us
 
 **CACTWO-7191** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Additional columns can been added to the [Transfer Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/transfer-account-codes/) when MRN# is searched. If a user opens the transfer viewer and does a search on the MRN and there are more than 2 accts with that MRN, the MRN choice box will open and the new columns will be displayed there. 
+Additional columns can been added to the [Transfer Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/transfer-account-codes/) when searching by MRN. If a user searches for an MRN and more than two accounts share that MRN, the MRN selection box will appear, now displaying the newly added columns.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -154,7 +153,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7193** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
- [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [Denials](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) worksheets can now have multiple instances. But when [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) criteria is created for audits or denials, it is disregarding anything after the first worksheet. So if the first worksheet is closed and a second one is open, workflow is looking at ‘closed’ audits instead of ‘open’ audits. This has been corrected so that if multiple worksheets exist, workflow looks at the most recent. 
+ [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [Denials](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) workflow criteria previously did not support multiple worksheet instances. While multiple Audit and Denial worksheets could exist, the workflow criteria only evaluated the first worksheet, ignoring subsequent ones. As a result, if the first worksheet was closed and a newer one was open, the workflow would incorrectly interpret the status as closed. This has been corrected—workflow criteria will now evaluate the most recent worksheet when multiple instances are present.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -400,19 +399,19 @@ The phrase “then the total number of Queries created” has been removed, sinc
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Make the MRN# the Default in the Transfer Codes viewer
+### Default Search Field in Transfer Codes Viewer Updated to MRN#
 
 **CACTWO-7342** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When opening the [Transfer Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) from the Navigation Pane in an account, the field that will be defaulted will now be MRN#, rather than the Account #. To change back to Account #, please contact Support for a custom ticket.
+ The default search field in the [Transfer Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) when accessed from the Navigation Pane within an account—has been updated to use the MRN# instead of the Account Number. If you prefer to revert the default back to Account Number, please contact Support to request a custom ticket.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Update Account search to show mapped Shift reasons differently
+### Query Shift Reasons Now Display Mapping Friendly Descriptions 
 
 **CACTWO-7343** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When [Query Shift Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons) were added, if a shift reason was based on a mapping, it was not showing the friendly name.  This has been changed to show the mappings description, rather than the key.   
+[Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), previously, when [Query Shift Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons) were based on a mapping, the system displayed the mapping key instead of the user-friendly description. This has been updated so that the description from the mapping is now shown, improving clarity for users.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
