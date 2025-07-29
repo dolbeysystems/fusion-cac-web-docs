@@ -152,7 +152,7 @@ To select multiple workgroups at a time, hold the Ctrl key while clicking.
 
 ![Force AutoLoad Checkbox](2024-11-15_AutoLoadBox.png)
 
-Force Autoload helps prevent cherry-picking by forcing the order in which patient charts are presented to end users. 
+Force Autoload helps prevent cherry-picking by forcing the order in which patient charts are presented to end users. Dolbey recommends using Force Auto Load for high-volume coders where quality and productivity tracking is critical.
 
 ![Autoload Dashboard](AutoloadDashboard.png)
 
@@ -160,9 +160,13 @@ Users with ForceAutoload enabled will bypass the Account List page upon logging 
 
 ![](2024-11-15_AutoLoad.png)
 
-If there are no accounts left to work, the user will receive a message that there are no accounts in the queue.
+One or multiple work lists can be assigned by management. Users will work the one assigned work list until complete or rotate through multiple based on the assigned [workgroup limits](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#workgroup-limits). If there are no accounts left to work, the user will receive a message that there are no accounts in the queue.
 
 ![No Accounts in Queue](NoAccounts.png)
+
+##### Force Auto Load v. Regular Work List Access
+
+![Force AutoLoad vs Regular Worklist](ForceAutoLoadvsRegular.png)
 
 #### Workgroup Limits
 
