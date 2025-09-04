@@ -68,6 +68,7 @@ Account Search allows for the ability to search for account level data or drill 
 - Working Diagnoses
 - Working Procedures
 - Working Visit Reasons
+- Worksheet History
 
 When a choice other than Account, which is the default view, is selected the columns for that choice are added to the beginning of the original grid. The drill-down level can be saved to the grid. For example, if there is search the user has saved called Unsubmitted, and the user added the Final Procedure drill-down to it, then when Unsubmitted is pulled up in Account Search it will include the drill-down columns. Additionally, the name of the drill-down will appear in the drill-down level field instead of the default of Account.
 

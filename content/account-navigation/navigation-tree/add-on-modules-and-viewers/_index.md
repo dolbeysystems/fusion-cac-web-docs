@@ -1,6 +1,6 @@
 +++
 title = 'Add-On Modules and Viewers'
-weight = 13
+weight = 12
 +++
 
 > [!note] Optional Viewers
@@ -21,12 +21,27 @@ An account can have one or more audits added to it. By clicking {{%button%}}+Add
 
 Data in the audit viewer is only intended for coder education and administrative staff to score how the Coder is doing in a report card. The Auditor will need to add the Coder of Record so that the Coder of Record, any Auditor, or other user role that has been given access can view the audit worksheets. 
 
+The audit module allows for the role of an Auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. More details on audit functionality can be found in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) section. 
+
 >[!Note] Aduit Worksheet Permissions
 If needed, the Audit Worksheet can be seen by a CDI Specialist. The CDI Specialist would only have the option to view and print. All editing, routing, and deleting abilities are not available.
 *Please contact the CAC Support Team to opt-in to this permission at cacsupport@dolbey.com* 
 
-The audit module allows for the role of an Auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. More details on audit functionality can be found in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/). 
+### CDI Audit (Viewer)
 
+![CDI Audit Viewer in the Navigation Tree](CDIAuditVwr.png)
+
+The CDI Audit Module is a tool designed to help CDI auditors evaluate the quality, accuracy, and compliance of CDI work within a patient chart. It provides a structured workflow to review whether the baseline DRG was assigned correctly, whether the final working DRG reflects appropriate documentation and coding practices, and whether queries sent by CDI professionals followed compliance standards.
+Audits can be conducted at different stages of the patient’s stay. A concurrent audit allows you to evaluate a case while the patient is still admitted. A post-discharge audit can be performed once the case is complete, ensuring that no documentation opportunities were missed. Finally, the module also supports retrospective random audits, which can be used to evaluate CDI quality as part of regular compliance monitoring. This flexibility ensures that audits can be integrated into both day-to-day CDI operations and broader quality assurance programs.
+
+Prerequisites
+Before starting a CDI audit, two requirements must be met:
+1.	CDI Auditor Role: You must be assigned the role of CDI Auditor within the system. Without this role, you will not see the CDI Audit worksheet or be able to launch an audit.
+2.	Patient Chart with a Baseline DRG: The patient chart must have at least a baseline DRG already assigned by a CDI user. This ensures there is an initial point of comparison for your audit.
+
+If either of these prerequisites is missing, the system will not allow you to proceed with the audit.
+
+More details on audit functionality can be found in the [CDI Audit Worksheet]() section.
 
 ## Discrete Values (Viewer)
 

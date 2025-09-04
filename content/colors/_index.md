@@ -43,10 +43,13 @@ The viewer name will turn red to alert the user that action is needed.
 ### Validation Results
 
 ![Validation Results](image-584.png)
+![Informational Validation Rule](InfoValidationRule.png)
 
 **Red**: Validation hard stop used to notify a user that there are things that they need to resolve. It **does** prevent the user from submitting the chart.
 
 **Yellow**: This color is associated with validation soft stop used to notify a user that there may be things that they need to resolve. It **does not** prevent the user from submitting the chart.
+
+**Blue**: This color indicates a message to the end user for informational purposes. It **does not** prevent the user from submitting the chart.
 
 ### Physicians & Queries
 
@@ -68,6 +71,10 @@ The viewer will turn brown to indicate there are open queries awaiting a respons
 
 The caution symbol next to the left of the code is a edit that comes from the TruCode encoder or add on edits. If you hoover over the caution symbol you can see the edit, if you need a larger view of the edit you can open the TruCode research page for
 further details.
+
+![Red Late Arriving Charge](LateArrivingCharge.png)
+
+The Fusion CAC application will display the CPT Code, Description, and Service Date of a late-arriving charge or transaction in bold red if the charge or transaction was imported after the account was submitted.
 
 ### CDI/Clinical Alerts
 

@@ -101,7 +101,7 @@ Field names can repeat across worksheets, but **each field on a worksheet must b
 
 #### Editable
 
-![Editable](Editable.png)
+![Editable](SharedWrkshtEditableList.png))
 
 Individual fields can be locked down per user role. This way Auditors, CDI Specialists, and Coders can add and view a shared worksheet to a chart, but only users with the specified role can edit certain fields. All users will be able to see the information in that field, but only the specified user role can edit the field. 
 

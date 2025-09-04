@@ -196,7 +196,7 @@ Weight.
 > [!note] Blank Field Values
 > Blank facilities or financial classes are displayed as an empty string to be consistent with other reports.
 
-![Case Mix Index per Month](CMIMonth.png)
+![Case Mix Index per Month](CaseMixIndexPerMonth.png)
 
 #### CC/MCC Capture Rate
 

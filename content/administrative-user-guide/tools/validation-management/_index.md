@@ -40,6 +40,7 @@ Start by selecting the **Level** from the dropdown menu on the left-hand side of
 |Warning|A soft stop used to notify a user that there *may* be items to resolve. It **does not prevent the user from submitting the chart**. This validation rules has a yellow color background, indicating possible intervention is needed.|
 |Toast Message|A notification that comes from the top right-hand corner of the browser as a red message presented for a few seconds. Toast messages **do not stop the user from submitting or saving a chart**. It is simply a notification message to alert the user.|
 |Disabled|This level will disable the validation rule and prevent it from alerting the end user. The rule will turn red within validation management to show it is not active.|
+|Informational|A notification will appear with a light blue background. These messages **do not prevent the user from submitting the chart**.|
 
 ### Defining the Criteria
 
@@ -188,6 +189,7 @@ selected the level, there is a field for
 - **E/M Level** - Will take the user to the E/M Level viewer.
 - **Notes & Bookmarks** - Will take the user to the Notes & Bookmarks viewer.
 - **Physicians & Queries** – Will take the user to the Physicians & Queries viewer.
+- **Web Page** - Will take the user to the URL specified. Note that URLs must start with http:// or https:// and cannot be left blank if "Web Page" navigation is selected. From the Code Summary viewer, clicking on the validation rule will open the web page.
 - **Working DRG History** - Will take the user to the Working DRG History viewer. 
 
 ## Pending Reason

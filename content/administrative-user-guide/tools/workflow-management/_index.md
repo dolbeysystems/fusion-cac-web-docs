@@ -221,6 +221,11 @@ Each criterion has a set of operators. Depending on the property slected, the op
 | Less Than            | This operator is only used with date fields, you will need to define “less than” how many days ago. You cannot add in a date into the field as this field will need to be dynamic therefore days ago is used. |
 | Later Than           | This operator is only used with date fields, you will need to define the exact date you do not wish to exceed. |
 | Is On                | This is for an exact date, this is uncommon to use for workflow. |
+| Weekday In           | This operator allows the user to select the specific day of the week. |
+| Hour In Range        | This operator allows the user to select a range of hours for the admit/discharge date. |
+| Hour In              | This operator allows the user to select a specific hour of the day. |
+| Last Month           | This operator looks for specified criteria in the previous calendar month. Primarily used in Audit workflow. |
+| This Month           | This operator looks for specified criteria in the current calendar month. Primarily used in Audit workflow. |
 | Includes Each Of     | If you have more than one value, it must contain all of the following. However, note the chart must have each of the values but can also have other values. |
 | Includes Any Of      | If you have more than one value and it could be any of the following. |
 | Does not Include     | If you have more than one value, you do not want it to equal you must use “Not In List” |
