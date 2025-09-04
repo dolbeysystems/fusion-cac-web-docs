@@ -67,7 +67,14 @@ Each code has a checkbox, and each section has an ‘ALL’ checkbox. If the use
 ![Edit All Codes Editor](EditAllCodesEditor.png)
 
 The CPT code section has a Modifier column with a plus sign.  Clicking the plus will open up the details window to add/change Modifier, plus other items that are included in that window.  Clicking on the ellipsis symbol next to the Episode field will also open the details. The user can add up to 4 modifiers, unless they are using the Solventum™ Coding and Reimbursement System (CRS) then they will be able to add up to 5 modifiers.
- 
+
+##### Associate a DX with a CPT
+
+Fusion CAC allows users to associate a diagnosis code to a CPT code. After ensuring all necessary diagnosis and CPT codes have been assigned in the assigned code tree, right-click on the header in the assign code tree “Assigned CPT Codes” gray text to "Edit All Codes". An Edit All Codes dialog will open. Click on the ellipsis (...) under detail to open the Procedure Details dialog.
+
+![Edit All Codes Pane with Ellipsis](EditAllCodesEllipsis.png)
+
+ Then click on the "pencil" icon by "Diagnoses" to associate the diagnosis with the CPT.
 
 >[!Note] PCS and CPT codes can be updated together. If there is a check mark, the change will be made to both the CPT and the Procedure Code.  When both CPT and Procedure are selected together, only the Physician and Date can be changed.    
 

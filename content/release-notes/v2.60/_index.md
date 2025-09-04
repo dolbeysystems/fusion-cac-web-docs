@@ -30,7 +30,7 @@ Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-6412, CACTWO-7489, CACTWO-7534 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-This is a licensed module.  If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available for assignment.  This will allow the assignee all the privileges of a CDI Specialist, plus the ability to audit inpatient accounts on a new CDI Audit Viewer.  This viewer does not pop out, and is mostly similar to the [Audit Worksheet Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) with several exceptions:  it audits both the Baseline Codeset and the Final Working Codeset.  It also allows auditing of CDI queries after an additional opt in.
+This is a licensed module.  If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available for assignment.  This will allow the assignee all the privileges of a CDI Specialist, plus the ability to audit inpatient accounts on a new [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer).  This viewer does not pop out, and is mostly similar to the [Audit Worksheet Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) with several exceptions:  it audits both the Baseline Code set and the Final Working Codeset.  It also allows auditing of CDI queries after an additional opt in.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -85,7 +85,7 @@ In [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/admi
 
 **CACTWO-7082, CACTWO-7474, CACTWO-7497 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new viewer has been created that will show time-tracking on 4 types of document work; Denial worksheets,  Audit worksheets, Documentation Reviews and worksheets added via the Add button on the Navigation tree.  These worksheets will all be read only until the new Start button is deployed.  The tracking will be stopped when 1 of three things occur:  clicking the Stop button, opening another sheet and starting its time tracking, or exiting the account.  Users will be able to adjust their time in the Time Tracking viewer if necessary.  Admin will be able to see all time tracked on an account.  The user will only see their own. 
+A new viewer has been created that will show [time-tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/time-tracking-viewer/) on 4 types of document work; Denial worksheets,  Audit worksheets, Documentation Reviews and worksheets added via the Add button on the Navigation tree.  These worksheets will all be read only until the new Start button is deployed.  The tracking will be stopped when 1 of three things occur:  clicking the Stop button, opening another sheet and starting its time tracking, or exiting the account.  Users will be able to adjust their time in the Time Tracking viewer if necessary.  Admin will be able to see all time tracked on an account.  The user will only see their own. 
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -119,7 +119,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7136** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-E/M charges have been added to the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  They will show in the Pre/Post Audit codes section, and then in their own E/M Charges section further down the worksheet.  
+[E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) charges have been added to the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  They will show in the Pre/Post Audit codes section, and then in their own E/M Charges section further down the worksheet.  
 
 ![Audit Worksheet E/M Charges](AuditWrkshtEMChrgs.png)
 
