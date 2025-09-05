@@ -156,5 +156,16 @@ These permissions ensure that only authorized individuals can manage and resolve
 
 To finish an audit, whether it goes through a rebuttal process or not, the Auditor would simiply click on the {{%button%}}Finish Audit{{%/button%}} button. This closes the audit, but the Auditor has the option to re-open the audit as needed.
 
+## Audit Statistics
+
+- **Diagnosis Added:** Codes added to the assigned codes list by quantity. 
+
+  *ex.* If the coder has 5 total diagnosis codes and the auditor has 6 total diagnosis codes, the number of added codes is 1 (because the auditor added an additional code).
+- **Diagnosis Codes Unassigned:** Codes removed from the assigned codes list by quantity. 
+ 
+  *ex.* If the coder has 5 total diagnosis codes and the auditor has 3 total diagnosis codes, the number of unassigned codes is 2 (because the auditor removed two codes).
+- **Diagnosis Codes Edited:** Codes that are different between the assigned code lists by comparing the auditor's codes to the coder's code, but not counting the number of codes added or unassigned. 
+  
+   *ex.* If a coder has 5 total diagnosis codes, and the auditor changed 2 of them without adding or unassigning codes, the number of edited codes is 2 (because the auditor "swapped out" two of the codes from the coder with different ones).
 
 
