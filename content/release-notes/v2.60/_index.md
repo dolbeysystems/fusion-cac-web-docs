@@ -20,7 +20,7 @@ Two new fields have been added to the [CDI Management Dashboard](https://dolbeys
 
 **CACTWO-6139** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#workflow-operators) have been added to [Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/); Last Month and This Month.  This would mostly be used in [Auditing workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit), but can be used in all. These should be used with Date fields such as ‘Admit Date Time is This Month’, etc. 
+Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#workflow-operators) have been added to [Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/); Last Month and This Month.  This would mostly be used in [Auditing workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit), but can be used in any worklist. These should be used with Date fields such as ‘Admit Date Time is This Month’, etc. 
 
 ![Last Month and This Month](LastThisMonth.png)
 
@@ -30,10 +30,14 @@ Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-6412, CACTWO-7489, CACTWO-7534 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-This is a licensed module.  If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available for assignment.  This will allow the assignee all the privileges of a CDI Specialist, plus the ability to audit inpatient accounts on a new [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer).  This viewer does not pop out, and is mostly similar to the [Audit Worksheet Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) with several exceptions:  it audits both the Baseline Code set and the Final Working Codeset.  It also allows auditing of CDI queries after an additional opt in.
+If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available to be assigned to end users. This role will allow the assignee all the privileges of a CDI Specialist, *plus* the ability to audit inpatient accounts on a new [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer). This new viewer is similar to the [Audit Worksheet Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) with the following exceptions:
+
+- allows for auditing of the Baseline Code set 
+- allows for auditing of the Final Working Codeset
+- allows for auditing of CDI queries (additional option)
 
 > [!info] Additional Configuration Required
-Please contact Support to enable this feature.
+Please contact your sales representative for pricing.
 
 ![CDI Audit Worksheet](CDIAuditWrksht.png)
 
@@ -43,7 +47,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-6587** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new option now appears in the right click menu of the [Unassigned/All Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#unassigned-codes) lists called ‘hide unassigned code’.  When used, a new icon will appear in the header, and when clicked it will open a list of all codes hidden by that user on that account.  No other user opening that account will have the code hidden. 
+A new option now appears in the right click menu of the [Unassigned/All Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#unassigned-codes) lists called ‘hide unassigned code’.  When used, a new icon will appear in the header, and when clicked it will open a list of all codes hidden by that user on that account. This functionality will allow the user to indicate that they have reviewed a code and they have determined it is not needed. This is different from deleting codes as code suggestions will still appear in documents and the user can un-hide codes that need to be re-evaluated. No other user opening that account will have the code hidden. 
 
 ![Hide Unassigned Codes in Code Tree](HideUnassignedCodes.png)
 
@@ -71,11 +75,11 @@ The [Case Mixed Index per Month](https://dolbeysystems.github.io/fusion-cac-web-
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add More Profile Types to the Worksheet Designer Shared Forms
+### Add More Role Types to the Worksheet Designer Shared Forms
 
 **CACTWO-7059** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/), shared forms have an [‘Editable](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/#editable)’ dropdown in the Add Field box.  Previously it only included All Users, Coder and CDI.   This has been expanded to add Auditors Only, Auditors or Coders, Coding Managers Only, CDI Managers Only, and Administrators Only.
+In [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/), shared forms have an [‘Editable](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/#editable)’ dropdown in the Add Field box.  Previously it only included All Users, Coder and CDI roles. This has been expanded to include Auditors Only, Auditors or Coders, Coding Managers Only, CDI Managers Only, and Administrators Only.
 
 ![Shared Worksheet Editable List](SharedWrkshtEditableList.png)
 
@@ -168,7 +172,7 @@ A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-us
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add Directionals to Query Impact Codes box
+### Add Symbols to Indicate Changes to Query Impact Codes box
 
 **CACTWO-7189 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -187,7 +191,7 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Show Charges That Arrive After Account Submission to be a Bold Color
+### Display Late Arriving Charges in Red and Bold Post Account Submit
 
 **CACTWO-7215 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -208,7 +212,7 @@ When doing a ‘save and export’ in  [Validation Management](https://dolbeysys
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Allow Queries to Track Impact and Shift Reasons for Outpatient
+### Allow Outpatient Queries to Track Impact and Shift Reasons
 
 **CACTWO-7224. CACTWO-7521 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -223,7 +227,7 @@ Please contact Support to disable this option if it is unwanted.
 
 **CACTWO-7232 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Several column changes have happened:  The Sender column will now say ‘Created  By’; and a new column ‘Sent By’ has been added to differentiate between the creator and sender of the [query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/).  An optional setting has also been created to allow retention of the original creator in the even the query has a physician change.
+The Sender column will now say ‘Created  By’; and a new column ‘Sent By’ has been added to differentiate between the creator and sender of the [query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/).  An optional setting has also been created to allow retention of the original creator in the even the query has a physician change.
 
 ![Created By and Sent By Columns](PhysQueriesCreatedSentBy.png)
 
@@ -381,7 +385,7 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Make CDI Alert Strike Through Automatically Unchecked 
+### Make CDI/Clinical Alert Strike Through Automatically Unchecked 
 
 **CACTWO-7377 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -413,17 +417,15 @@ A new field of ‘Is Add-On’ will now show when doing a ‘for each’ CPT cod
 
 For clients that have implemented, or would like to implement an Assistant Surgeon field on Procedure Codes - Fusion CAC will now add an Assistant Surgeon column to the Procedure Code drill down in Account Search. The criteria for that drill down will also include criteria for Asst Surgeon ID and Asst Surgeon Last Name.
 
-ccccccccccccccccc
-
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add Columns for Query Reporting
 
 **CACTWO-7431 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In [Grid Column Maintenance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) 2 new column options have been added:  
-- APR-DRG Weigth Difference *(Final APR-DRG Wgt minus BAseine APR-DRG Weight)*
-- DRG Impact *(Final DRG Est Reimb minus Baseline DRG Est Reimb)*   
+In [Grid Column Maintenance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) two new column options have been added:  
+- APR-DRG Weigth Difference *(Final APR-DRG Wgt - Baseline APR-DRG Weight)*
+- DRG Impact *(Final DRG Est Reimb - Baseline DRG Est Reimb)*   
 
 Columns have also been added to the Queries drilldown in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level):  Query-Impact Percent, Query-Impact Dollars, and Query-Impact Weight. 
 
@@ -503,7 +505,7 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### TruCode™ Panel Does not Update When set as a Partial Coder
+### TruCode™ Panel Does not Update When set as a Partial Encoder
 
 **CACTWO-7464 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
@@ -562,11 +564,11 @@ Currently, birth weight is not converted when entered as a decimal on a GPCS acc
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### CDI Alerts Showing as a Strike Through When Manually Added
+### CDI/Clinical Alerts Showing as a Strike Through When Manually Added
 
 **CACTWO-7499 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When adding pasted data to a [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), it is pasting in with a strike through.  When saved, the strike through is gone.  This has been corrected so that the strike through never occurs. 
+When adding pasted data to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), it is pasting in with a strike through.  When saved, the strike through is gone.  This has been corrected so that the strike through never occurs. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -582,7 +584,7 @@ If a code is opened in code editor, and the Edit button is clicked, if the code 
 
 **CACTWO-7505 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If CAC2 is minimized, and during that time is timed out due to inactivity, that inactivity is not being logged to the [User Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) Log.   Inactivity messaging has been updated to include this scenario. 
+If CAC is minimized, and during that time is timed out due to inactivity, that inactivity is not being logged to the [User Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) Log.   Inactivity messaging has been updated to include this scenario. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -613,8 +615,8 @@ If Document [Search](https://dolbeysystems.github.io/fusion-cac-web-docs/general
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### CDI Alert was not Updating When Applying an Edit
+### CDI/Clinical Alert was not Updating When Applying an Edit
 
 **CACTWO-7546 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When editing a [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
+When editing a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
