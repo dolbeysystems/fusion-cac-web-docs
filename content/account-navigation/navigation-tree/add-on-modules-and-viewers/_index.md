@@ -31,7 +31,7 @@ If needed, the Audit Worksheet can be seen by a CDI Specialist. The CDI Speciali
 
 ![CDI Audit Viewer in the Navigation Tree](CDIAuditVwr.png)
 
-The CDI Audit Module is a tool designed to help CDI auditors evaluate the quality, accuracy, and compliance of CDI work within a patient chart. It provides a structured workflow to review whether the baseline DRG was assigned correctly, whether the final working DRG reflects appropriate documentation and coding practices, and whether queries sent by CDI professionals followed compliance standards.
+The CDI Audit Module is a tool designed to help [CDI auditors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) evaluate the quality, accuracy, and compliance of CDI work within a patient chart. It provides a structured workflow to review whether the baseline DRG was assigned correctly, whether the final working DRG reflects appropriate documentation and coding practices, and whether queries sent by CDI professionals followed compliance standards.
 Audits can be conducted at different stages of the patient’s stay. A concurrent audit allows you to evaluate a case while the patient is still admitted. A post-discharge audit can be performed once the case is complete, ensuring that no documentation opportunities were missed. Finally, the module also supports retrospective random audits, which can be used to evaluate CDI quality as part of regular compliance monitoring. This flexibility ensures that audits can be integrated into both day-to-day CDI operations and broader quality assurance programs.
 
 Prerequisites
@@ -41,7 +41,7 @@ Before starting a CDI audit, two requirements must be met:
 
 If either of these prerequisites is missing, the system will not allow you to proceed with the audit.
 
-More details on audit functionality can be found in the [CDI Audit Worksheet]() section.
+More details on audit functionality can be found in the [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) section.
 
 ## Discrete Values (Viewer)
 
