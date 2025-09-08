@@ -33,7 +33,7 @@ Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 This is a licensed module.  If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available for assignment.  This will allow the assignee all the privileges of a CDI Specialist, plus the ability to audit inpatient accounts on a new CDI Audit Viewer.  This viewer does not pop out, and is mostly similar to the [Audit Worksheet Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) with several exceptions:  it audits both the Baseline Codeset and the Final Working Codeset.  It also allows auditing of CDI queries after an additional opt in.
 
 > [!info] Additional Configuration Required
-Please contact Support to enable this feature.
+Please contact your sales representative for pricing.
 
 ![CDI Audit Worksheet](CDIAuditWrksht.png)
 
