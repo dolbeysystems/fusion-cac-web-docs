@@ -505,11 +505,11 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### TruCode™ Panel Does not Update When set as a Partial Encoder
+### TruCode™ Panel does not Update when Used for Edits Only
 
 **CACTWO-7464 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If Solventum™ is being used as the encoder and TruCode™ is being used as a partial encoder, when changes are made in Solventum™ they are not being carried through to the TruCode™ panel.  This has been corrected. 
+If Solventum™ is being used as the encoder and TruCode™ for edits only is being used as a partial encoder, when changes are made in Solventum™ they are not being carried through to the TruCode™ panel.  This has been corrected.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
