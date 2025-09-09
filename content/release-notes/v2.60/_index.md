@@ -400,7 +400,7 @@ Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.g
 
 **CACTWO-7400 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new columns have been add to the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-audit-scorecard)/[Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-audit-scorecard) Coder Scorecard reports for auditing data.  The columns are ‘Audit Opened Date’ and ‘Training Recommendations’.
+Two new columns have been add to the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard)/[Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports for auditing data.  The columns are ‘Audit Opened Date’ and ‘Training Recommendations’.
 
 ![Coder Scorecard User Reports](CoderScorecardUserReport.png)
 
