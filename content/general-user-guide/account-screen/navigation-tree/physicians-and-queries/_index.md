@@ -106,7 +106,7 @@ Inpatient Query Shift Reasons
 
 ![Inaptient Query Shift Reasons](ShiftReasons.png)
 
-OUtpatient Query Shift Reasons
+Outpatient Query Shift Reasons
 
 ![Outpatient Query Shift Reasons](OPQueryShiftReasons.png)
  
