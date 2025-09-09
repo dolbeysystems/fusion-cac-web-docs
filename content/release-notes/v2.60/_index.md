@@ -10,7 +10,7 @@ title = 'V2.60 (Sep 2025)'
 
 **CACTWO-6105** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new fields have been added to the [CDI Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-management-dashboard)’s query section.  There are now a field for Open Today and Open Yesterday. 
+Two new fields have been added to the [CDI Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-management-dashboard)’s query section.  There are now fields for Open Today and Open Yesterday. 
 
 ![CDI Management Dashboard Open Queries Section](CDIManageDashQueries.png)
 
@@ -395,7 +395,7 @@ Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.g
 
 ### Add Columns to the Inpatient/Outpatient Scorecard Reports
 
-**CACTWO-7400 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+**CACTWO-7400 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 Two new columns have been add to the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-audit-scorecard)/[Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-audit-scorecard) Scorecard reports for auditing data.  The columns are ‘Audit Opened Date’ and ‘Training Recommendations’.
 
@@ -403,7 +403,7 @@ Two new columns have been add to the [Inpatient](https://dolbeysystems.github.io
 
 ### Create an is Add-On Field for CPT Codes in Validation Management 
 
-**CACTWO-7423 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+**CACTWO-7423 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 A new field of ‘Is Add-On’ will now show when doing a ‘for each’ CPT code criteria in [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/).  This will be triggered IF the CPT code is a designated Add-On code by CMS. 
 
