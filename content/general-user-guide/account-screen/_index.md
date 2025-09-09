@@ -248,7 +248,7 @@ When a code has been hidden, the below icon will be displayed.
 
 ![Hidden Unassigned Code Icon](HiddenUnassignedCode.png)
 
-To review the code(s) that were hidden, click on the hidden icon and a "Show Hidden Codes" dialog will open. This will allow the user to show the hidden code(s) again in the Unassigned/All codes tree.
+To review the code(s) that were hidden, click on the hidden icon and a "Show Hidden Codes" dialog will open. This will allow the user to show the hidden code(s) again in the Unassigned/All codes tree, by selecting what code should be unhidden and clicking "Ok".
 
 ![Show Hidden Codes](ShowHiddenCodes.png)
 

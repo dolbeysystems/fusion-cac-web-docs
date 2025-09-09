@@ -64,7 +64,7 @@ The user can un-hide by clicking on that icon to open the hidden codes list.
 
 **CACTWO-6688** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new field has been added to [Grid Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) called Late Documents.  When using, it will list each distinct document type.  If added to an Account List grid, if there are more than fit in the column, user can hover over to receive the entire list of document types.  
+A new field has been added to [Grid Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) called Late Documents.  When in use, it will list each distinct document type.  If added to an Account List grid, if there are more than fit in the column, user can hover over to receive the entire list of document types.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
