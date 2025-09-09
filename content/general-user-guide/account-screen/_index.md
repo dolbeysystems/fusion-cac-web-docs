@@ -82,7 +82,7 @@ The Documents tree includes a listing of all documents in a patient chart catego
 |![Text Document](TextDocIcon.png)| Text document|
 |![Bold Text](BoldText.png)|Bold document titles indicate the document has not been viewed by the current user|
 |![Expand Code Suggestions](ExpandIcon.png)|Document with engine code suggestions|
-|![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents pane with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
+|![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents tree with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
 
 For convenience, users may want to pop out the document into a separate window to continue viewing it while accessing other areas of the chart.
 
@@ -104,7 +104,7 @@ Clicking on a document will load the document in the document viewer. Clicking o
 
 ### Sort Documents
 
-Sorting documents within the Documents tree is done by right-clicking on a document within the pane and selecting Sort, then Default, A-Z, Z-A, Date Ascending, or Date Descending. 
+Sorting documents within the Documents tree is done by right-clicking on a document within the tree and selecting Sort, then Default, A-Z, Z-A, Date Ascending, or Date Descending. 
 
 ![Document Sort Menu](DocumentSort.png)
 
@@ -144,7 +144,7 @@ Click on the document highlighted in RED to view the searched term/phrase within
 
 ### Expand Documents 
 
-Right-click on a document within the Documents pane and select Expand to visualize all documents within a documents folder or all suggested codes within each document. The default view is Expand Documents, with options to Collapse All. This allows the user to see the whole folder structure to see what options they have before they open a folder to view specific documents.
+Right-click on a document within the Documents tree and select Expand to visualize all documents within a documents folder or all suggested codes within each document. The default view is Expand Documents, with options to Collapse All. This allows the user to see the whole folder structure to see what options they have before they open a folder to view specific documents.
 
 ![Expand Documents](ExpandDoc.png)
 
@@ -178,7 +178,7 @@ To adjust the level of zoom on a document, right-click within the document and c
 
 ## Code Trees
 
-Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. This allows the user to view each code with a link to the documentation and context of words and phrases which prompted the code suggestion. If the code has a {{%button%}}**+**{{%/button%}} to the left of the code, there are codes within the document for review and validation.
+Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned tree on the right-hand side under the Assigned Codes tree. This allows the user to view each code with a link to the documentation and context of words and phrases which prompted the code suggestion. If the code has a {{%button%}}**+**{{%/button%}} to the left of the code, there are codes within the document for review and validation.
 
 ### Unassigned Codes
 
@@ -195,7 +195,7 @@ Codes are categorized by Diagnosis Codes, Procedure Codes, and then CPT® Codes.
 
 ![Categorized Codes](CategorizedCodes.png)
 
-Alternatively, users can toggle between showing All Codes or just the Unassigned codes. Click on the Show All button to toggle between showing All Codes suggested by the engine on this account or Show Unassigned to view just the suggested codes pending validation to be moved to the Assigned Codes pane. If there is a code that appears on multiple document types and one of those is assigned, it will appear as **BOLD** in the "Show All" codes tree. 
+Alternatively, users can toggle between showing All Codes or just the Unassigned codes. Click on the Show All button to toggle between showing All Codes suggested by the engine on this account or Show Unassigned to view just the suggested codes pending validation to be moved to the Assigned Codes tree. If there is a code that appears on multiple document types and one of those is assigned, it will appear as **BOLD** in the "Show All" codes tree. 
 
 ![Show All Code Button](ShowAllCodes.png)
 
@@ -209,9 +209,9 @@ Selecting Edit will open a window to review the code, code description, set the 
 
 ![Code Edit Box](CodeEditBox.png)
 
-Clicking OK after making these selections will then move the selected code to the Assigned Codes pane.
+Clicking OK after making these selections will then move the selected code to the Assigned Codes tree.
 
-![Assigned Code Pane](AssignedCodePane.png)
+![Assigned Code Tree](AssignedCodePane.png)
 
 Left-clicking on an Unassigned Code will open the relevant document in the center document viewer and highlight instances of the suggested code in yellow. 
 
@@ -231,7 +231,7 @@ Under Unassigned Procedure Codes are listed all unassigned CPT® Codes that have
 
 #### Hide CDI Added Codes
 
-If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes Pane will be viewable.  When checked, any code added to a document by a CDI will be hidden from the list. 
+If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes Tree will be viewable.  When checked, any code added to a document by a CDI will be hidden from the list. 
 
 ![Hide CDI Codes Check Box](HidCDICodes.png)
 
@@ -251,7 +251,7 @@ Comments will show as a green flag in the code trees **and** on the code in the 
 
 ### Assigned Codes
 
-The Assigned tree sits above the Unassigned tree on the right-hand side of the Account screen. The Assigned tree includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a Coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes pane. All codes on submit within this pane will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
+The Assigned tree sits above the Unassigned tree on the right-hand side of the Account screen. The Assigned tree includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a Coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes tree. All codes on submit within this tree will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
 
 Codes falling below the 25th position will display in a light purple color. 
 

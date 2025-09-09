@@ -23,7 +23,7 @@ Use the encoder to re-sequence codes, complete grouping, and complete the encode
 
 ##### Code Sequencing with CAC
 
-If grouping and billing edits are not required, codes can be re-sequenced by dragging and dropping codes within the Assigned Codes Pane.
+If grouping and billing edits are not required, codes can be re-sequenced by dragging and dropping codes within the Assigned Codes Tree.
 Left click and hold the code to be re-sequenced, then move it to the new sequence location and release.
 
 >[!Note] **TruCode** users have the option to perform an encoder calculation *without* automatically resequencing the assigned codes on an as-needed basis. In the dropdown menu on the right-side of the "Compute" button, the "Compute w/o Resequence" menu will perform the encoder computation but leave all diagnosis codes in their original position. This feature will enable sites to re-sequence codes above a certain position.

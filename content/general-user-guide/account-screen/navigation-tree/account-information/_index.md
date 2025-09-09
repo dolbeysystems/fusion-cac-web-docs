@@ -8,7 +8,7 @@ weight = 21
 
 ![Account Info Viewer](AccountInfo.png)
 
-The Account Information pane summarizes patient demographic information (based on custom system configuration) with data captured for purposes of state and/or registry reporting. To update data fields in the Account information pane, click on the blue button and select the appropriate selection from the drop-down menu.
+The Account Information viewer summarizes patient demographic information (based on custom system configuration) with data captured for purposes of state and/or registry reporting. To update data fields in the Account information pane, click on the blue button and select the appropriate selection from the drop-down menu.
 
 ![Account Information Viewer](AccountInformationViewer.png)
 
