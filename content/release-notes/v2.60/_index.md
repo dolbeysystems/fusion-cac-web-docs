@@ -420,7 +420,7 @@ A new field of ‘Is Add-On’ will now show when doing a ‘for each’ CPT cod
 
 **CACTWO-7428 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-For clients that have implemented, or would like to implement an Assistant Surgeon field on Procedure Codes - Fusion CAC will now add an Assistant Surgeon column to the Procedure Code drill down in Account Search. The criteria for that drill down will also include criteria for Asst Surgeon ID and Asst Surgeon Last Name.
+For clients that have implemented or would like to implement an Assistant Surgeon field on Procedure Codes, Fusion CAC will now add an Assistant Surgeon column to the Procedure Code [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/). The criteria for that drill down will also include criteria for Asst Surgeon ID and Asst Surgeon Last Name.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -428,11 +428,11 @@ For clients that have implemented, or would like to implement an Assistant Surge
 
 **CACTWO-7431 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In [Grid Column Maintenance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) two new column options have been added:  
+In [Grid Column Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) two new column options have been added:  
 - APR-DRG Weigth Difference *(Final APR-DRG Wgt - Baseline APR-DRG Weight)*
 - DRG Impact *(Final DRG Est Reimb - Baseline DRG Est Reimb)*   
 
-Columns have also been added to the Queries drilldown in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level):  Query-Impact Percent, Query-Impact Dollars, and Query-Impact Weight. 
+Columns have also been added to the Queries [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level):  Query-Impact Percent, Query-Impact Dollars, and Query-Impact Weight. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -458,7 +458,7 @@ Two new fields have been added to each Appeal section in [Denial Management](htt
 
 **CACTWO-7443 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-CAC will no longer remove CPT Code suggestions from inpatient accounts with a length of stay of 5 days or more if the appsetting "hideCPTonInpatientAccounts" is set to false. Now, the removal will only occur if "hideCPTonInpatientAccounts" is set to true.
+Fusion CAC will no longer remove CPT Code suggestions from inpatient accounts with a length of stay of 5 days or more if the appsetting "hideCPTonInpatientAccounts" is set to false. Now, the removal will only occur if "hideCPTonInpatientAccounts" is set to true.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -485,11 +485,11 @@ Please contact Support to enable this feature.
 
 **CACTWO-7454 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Clients now have the ability to update their [Forced Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#force-autoload) users to now see the Coder Scorecard at the bottom of their [Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/). 
+Clients now have the ability to update their [Forced Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#force-autoload) users to see the Coder Scorecard at the bottom of their [Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/). 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### TruCode™ Codebook is Leaving red bar in the Account After Being closed
+### TruCode™ Codebook is Leaving Red Bar in the Account After Being Closed
 
 **CACTWO-7455 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
@@ -503,7 +503,7 @@ If the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-
 
 **CACTWO-7461 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New fields have been add for specific groupers concerning Pre-bill DRGs determined at the time of the [DRG Reconciliation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/).  This is only for sites that need this kind of detailed reporting.
+New fields have been added for specific groupers concerning Pre-bill DRGs determined at the time of the [DRG Reconciliation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/).  This is only for sites that need this kind of detailed reporting.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -514,7 +514,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7464 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If Solventum™ is being used as the encoder and TruCode™ for edits only is being used as a partial encoder, when changes are made in Solventum™ they are not being carried through to the TruCode™ panel.  This has been corrected.  
+When Solventum™ was used as the primary encoder and TruCode™ was set to function as a partial encoder for edits only, updates made in Solventum™ were not reflected in the TruCode™ panel. This issue has now been resolved.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -538,14 +538,14 @@ If the [mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administra
 
 **CACTWO-7474 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If the Time Tracking viewer has been added, an additional setting will add the CDI Audit viewer to the tracking.
+If the [Time Tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/time-tracking-viewer/) viewer has been added, an additional setting will add the CDI Audit viewer to the tracking.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Remove Disabled Work Groups With no Assignments From Account List
+### Remove Disabled Work Groups With No Assignments From Account List
 
 **CACTWO-7475 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -589,7 +589,7 @@ If a code is opened in code editor, and the Edit button is clicked, if the code 
 
 **CACTWO-7505 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If CAC is minimized, and during that time is timed out due to inactivity, that inactivity is not being logged to the [User Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) Log.   Inactivity messaging has been updated to include this scenario. 
+If Fusion CAC is minimized, and during that time is timed out due to inactivity, that inactivity is not being logged to the [User Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) Log.   Inactivity messaging has been updated to include this scenario. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -605,7 +605,7 @@ The order that diagnosis codes are selected when adding them to CPT codes will n
 
 **CACTWO-7509 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) makes a code change, calculates the DRG and the updates the codes in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), weight change and weight difference fields will show in the DRG section of the worksheet.  
+When an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) makes a code change, calculates the DRG and the updates the codes in the coding [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), weight change and weight difference fields will show in the DRG section of the worksheet.  
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
