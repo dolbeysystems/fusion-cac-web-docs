@@ -261,7 +261,7 @@ A new field showing the time in the account will now show in the [Account Detail
 
 **CACTWO-7256 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-With a new setting, forced autoload coders will now have the Account selection field at the top of the page, which will allow them to go back to an account they have already looked at.  After selecting and working a [manually searched account](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#manually-loading-an-account), the user will be taken back to his place in his assigned workgroups.
+With a new setting, forced autoload coders will now have the Account selection field at the top of the page, which will allow them to go back to an account they have already looked at.  After selecting and working a [manually searched account](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#manually-loading-an-account), the user will be taken back to their place in their assigned workgroups.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -304,7 +304,7 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add new Fields for Outpatient Accounts in Denial Management
+### Add New Fields for Outpatient Accounts in Denial Management
 
 **CACTWO-7335 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
