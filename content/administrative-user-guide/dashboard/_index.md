@@ -139,7 +139,7 @@ The Coder dashboard is only available for users with a coder role. This dashboar
 glance personal statistics. Clicking on any of the numbers in blue will open a grid to display the data that
 goes into the number displayed.
 
-![Coder Personal Dashboard](CoderPersonalDash.png)
+![Coder Personal Dashboard](CoderPersonalDashboard.png)
 
 ## CDI Management Dashboard
 
