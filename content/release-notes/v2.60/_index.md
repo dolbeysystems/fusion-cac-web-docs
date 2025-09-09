@@ -505,11 +505,11 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### TruCode™ Panel Does not Update When set as a Partial Encoder
+### TruCode™ Panel does not Update when Used for Edits Only
 
 **CACTWO-7464 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If Solventum™ is being used as the encoder and TruCode™ is being used as a partial encoder, when changes are made in Solventum™ they are not being carried through to the TruCode™ panel.  This has been corrected. 
+If Solventum™ is being used as the encoder and TruCode™ for edits only is being used as a partial encoder, when changes are made in Solventum™ they are not being carried through to the TruCode™ panel.  This has been corrected.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -612,6 +612,14 @@ Please contact Support to enable this feature.
 **CACTWO-7510 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If Document [Search](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#search-button) is opened and the user clicks on a document in that search, then does a right-click on the document to open the action menu, the user will be unable to re-access that right-click menu on any other areas of the document search results. This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow for Users Working in a Timezone Different than the Server
+
+**CACTWO-7526 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Fusion CAC will now allow date/times in all grids to remain static to the timezone when the user's operating system is in a different timezone than the server. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
