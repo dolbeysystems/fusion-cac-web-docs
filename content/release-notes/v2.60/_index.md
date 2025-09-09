@@ -139,7 +139,7 @@ Please contact Support if fields are needed for calculation.
 
 **CACTWO-7169 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The ‘Route to Coder’ button on an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) can now have an arrow down button, to allow the Auditor to hide the Audit from the coder of record.  
+The ‘Route to Coder’ button on an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) can now have a drop-down option enabled to allow the Auditor to hide the Audit from the Coder of Record.  
 
 ![Route Audit to Coder or Hide From Coder](AuditWrkshtRouteHideCoder.png)
 
@@ -152,7 +152,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7170 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The quantity field in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) section of an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) has now been opened for editing by the auditor.  Clicking in the field will present up and down buttons, or the auditor can just type in the new quantity. 
+The quantity field in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) section of an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) has now been opened for editing by the auditor.  Clicking in the field will present up and down buttons, or the Auditor can just type in the new quantity. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -160,7 +160,7 @@ The quantity field in the [Audited Charges](https://dolbeysystems.github.io/fusi
 
 **CACTWO-7171 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-With a new script update, clients can set their [Audit worksheets](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) to determine whether or not to do charges auditing based on Account type.
+With a new script update, clients can set their [Audit Worksheets](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) to determine whether or not to audit charges based on Account type.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -179,7 +179,7 @@ A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-us
 
 **CACTWO-7189 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When going into a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) that is in a [Query Impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) status, the computation window that pops will now show the plus, minus and arrows next to any code changes.
+When going into a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) that is in a [Query Impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) status, the computation window that pops-out will now show the plus, minus, and arrows next to any code changes.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -219,7 +219,7 @@ When doing a ‘save and export’ in  [Validation Management](https://dolbeysys
 
 **CACTWO-7224. CACTWO-7521 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently, only inpatient account physician queries track the [query impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) and [shift reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons).  Outpatient accounts will now use the same processes to track query impact and shift reasons.  The Shift Reasons for Physician Query box that pops after a query is closed will have much fewer reasons to set, and the codes columns will be headed by the Primary and Secondary APC. 
+Currently, only inpatient account physician queries track the [query impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) and [shift reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons).  Outpatient accounts will now use the same processes to track query impact and shift reasons.  The Shift Reasons for Physician Query box that pops-out after a query is closed will have much fewer reasons to set, and the codes columns will be headed by the Primary and Secondary APC. 
 
 > [!info] Additional Configuration Required
 Please contact Support to disable this option if it is unwanted.
