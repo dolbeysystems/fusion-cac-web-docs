@@ -30,10 +30,10 @@ Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-6412, CACTWO-7489, CACTWO-7534 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-We are introducing a new [CDI Audits module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer), designed to bring formal auditing capabilities to CDI programs, which until now have largely relied on manual Excel tracking. This module will function as a dedicated viewer, similar in design to our [Coding Audit tool](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module), while incorporating concepts specific to CDI work.
+We are introducing a new [CDI Audit module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer), designed to bring formal auditing capabilities to CDI programs, which until now have largely relied on manual Excel tracking. This module will function as a dedicated viewer, similar in design to our [Coding Audit module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module), while incorporating concepts specific to CDI work.
 
 Key features include:
-- Dedicated Viewer & Roles – A separate [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) with privacy controls for CDI of record, CDI auditors, and management. A new CDI Audit role with role-based privileges will be added.
+- Dedicated Viewer & Roles – A separate [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) with privacy controls for CDI of Record, CDI Auditors, and Management. A new CDI Audit role with role-based privileges will be added.
 - Audit Criteria – Flexible audit framework supporting baseline DRG, working DRG, mismatch DRG rate, missed query opportunities, query compliance, correct claimed impact, and custom policies.
 - Configurable Weighting – Mapping table options allow organizations to adjust terminology or emphasize certain criteria with higher weight, similar to coding incentive multipliers.
   

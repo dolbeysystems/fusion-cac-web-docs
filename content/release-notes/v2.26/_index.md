@@ -80,7 +80,7 @@ Workgroup will go to the bottom of the category just like it currently does.
 
 **Highlight assigned diagnosis codes after the 25th position**
 
-Any diagnosis code that is in the assigned code pane to
+Any diagnosis code that is in the assigned code tree to
 an account will automatically be highlighted past the
 25th position. This will help the coder/CDI know where
 the diagnosis needs to move to make it within the top
@@ -165,7 +165,7 @@ allow the user to verify that they do want to delete.
 **Remove procedure codes from unassigned if they are a multiple**
 
 If a procedure code appears on multipe documents and it is validated , it will no
-longer appear in the unassigned code pane. This should reduce the amount of
+longer appear in the unassigned code tree. This should reduce the amount of
 procedure codes on inpatient charts.
 
 ### CACTWO-5192 (Enhancement)

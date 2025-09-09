@@ -176,13 +176,13 @@ To adjust the level of zoom on a document, right-click within the document and c
 
 ![Document Zoom](DocZoom.png)
 
-## Code Panes
+## Code Trees
 
 Upon opening the account for initial coding review, all the engine suggested codes will be listed in the Unassigned pane on the right-hand side under the Assigned Codes pane. This allows the user to view each code with a link to the documentation and context of words and phrases which prompted the code suggestion. If the code has a {{%button%}}**+**{{%/button%}} to the left of the code, there are codes within the document for review and validation.
 
 ### Unassigned Codes
 
-![Unassigned Code Pane](UnassignedCodePane.png)
+![Unassigned Code Tree](UnassignedCodePane.png)
 
 There are 2 different symbols that may display next to the code(s). If there is not an icon next to the code, then the engine suggested these codes.
 
@@ -255,7 +255,7 @@ The Assigned tree sits above the Unassigned tree on the right-hand side of the A
 
 Codes falling below the 25th position will display in a light purple color. 
 
-![Assigned Code Pane](AssignedCodes.png)
+![Assigned Code Tree](AssignedCodes.png)
  
 #### Admit Diagnosis
 
