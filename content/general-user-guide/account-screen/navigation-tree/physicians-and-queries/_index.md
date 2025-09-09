@@ -102,11 +102,11 @@ If an organization has choosen to collect shift reasons, a dialog box will appea
 
 Shift reasons can be categorized as either automatic or manual. If manual shift reasons are enabled, users will encounter a dialog box after closing a query.
 
-Inpatient Query Shift Reasons
+**Inpatient Query Shift Reasons**
 
 ![Inaptient Query Shift Reasons](ShiftReasons.png)
 
-Outpatient Query Shift Reasons
+**Outpatient Query Shift Reasons**
 
 ![Outpatient Query Shift Reasons](OPQueryShiftReasons.png)
  
