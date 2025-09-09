@@ -235,6 +235,24 @@ If a CDI adds codes to a document, they can be hidden by the Coder. When the Cod
 
 ![Hide CDI Codes Check Box](HidCDICodes.png)
 
+#### Hide Unassigned Codes
+
+If a user has reviewed a code(s) and has determined that it is not needed, they can hide the code from the Unassgined codes tree. Hiding the code allows it to remain in the code tree, just hidden from view. The user can later un-hide codes that need to be re-evaluated. When a user hides a code(s), it is only hidden to them, not other users who may access the account later. 
+
+Right-click on a code in the unassigned codes tree to access the "Hide Unassigned Code" option.
+
+![Hide Unassigned Code](HideUnassignedCode.png)
+
+When a code has been hidden, the below icon will be displayed.
+
+
+![Hidden Unassigned Code Icon](HiddenUnassignedCode.png)
+
+To review the code(s) that were hidden, click on the hidden icon and a "Show Hidden Codes" dialog will open. This will allow the user to show the hidden code(s) again in the Unassigned/All codes tree.
+
+![Show Hidden Codes](ShowHiddenCodes.png)
+
+
 #### Code Comments
 
 A comment can be added to a code on the [Documents](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#document-tree) tree, or the Unassigned/Show All code tree. 
