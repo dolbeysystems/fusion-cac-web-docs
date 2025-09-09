@@ -31,7 +31,7 @@ Once a validation rule has been added, the rule can be edited by clicking on the
 
 Start by selecting the **Level** from the dropdown menu on the left-hand side of the screen. 
 
-![Rule Level Dropdown](2024-12-09_RuleLevel.png)
+![Rule Level Dropdown](ValidationRuleLevel.png)
 
 |Level|Description|
 |-----|-----------|

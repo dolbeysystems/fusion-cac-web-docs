@@ -349,7 +349,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7359 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new level of ‘Informational’ has been added to the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) page.  When set, the rule will show as light blue on the Code Summary page, and will not interfere with saving or submitting an account.  A new option for ‘Navigate to’ has also been added:  Web Page.  When using this option, a blank field will open up so the user can add the webpage URL.  Note that this has to start with http:// or https://.   When this validation shows in the Code Summary, clicking on it will that URL in a new tab. 
+A new level of ‘Informational’ has been added to the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) page.  When set, the rule will show as light blue on the Code Summary page, and will not interfere with saving or submitting an account.  A new option for ‘Navigate to’ has also been added:  Web Page.  When using this option, a blank field will open up so the user can add the webpage URL.  Note that this has to start with http:// or https://.   When this validation shows in the Code Summary, clicking on it will open that URL in a new tab. 
 
 ![Informational Validation Rule](InfoValidationRule.png)
 
@@ -359,7 +359,7 @@ A new level of ‘Informational’ has been added to the [Validation Management]
 
 **CACTWO-7366 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-An update has been created so that if there is a link(s) of a diagnosis code to a CPT code, and that code is then unassigned, a new window will pop advising the user that there are unassigned links.  The user will have drop down options of either deleting the link, or replacing that code with another in the list.
+An update has been created so that if there is a link(s) of a diagnosis code to a CPT code, and that code is then unassigned, a new window will pop-out advising the user that there are unassigned links.  The user will have drop down options of either deleting the link, or replacing that code with another in the list.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -370,7 +370,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7367 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a Diagnosis code is assigned to a CPT code by  a physician coder, those  codes will now show below the CPT code description in the  Edit All Codes window. 
+When a Diagnosis code is assigned to a CPT code by a Physician Coder, those codes will now show below the CPT code description in the Edit All Codes window. 
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -396,11 +396,13 @@ Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.g
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add Columns to the Inpatient/Outpatient Scorecard Reports
+### Add Columns to the Inpatient/Outpatient Coder Scorecard Reports
 
 **CACTWO-7400 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new columns have been add to the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-audit-scorecard)/[Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-audit-scorecard) Scorecard reports for auditing data.  The columns are ‘Audit Opened Date’ and ‘Training Recommendations’.
+Two new columns have been add to the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-audit-scorecard)/[Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-audit-scorecard) Coder Scorecard reports for auditing data.  The columns are ‘Audit Opened Date’ and ‘Training Recommendations’.
+
+![Coder Scorecard User Reports](CoderScorecardUserReport.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
