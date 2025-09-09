@@ -203,7 +203,7 @@ Alternatively, users can toggle between showing All Codes or just the Unassigned
 
 Users can right-click on a code, then either Assign or Edit the selected code.
 
-![Right Click Code Menu](CodeRightClick.png)
+![Right Click Code Menu](RightClickCodeMenu.png)
 
 Selecting Edit will open a window to review the code, code description, set the POA indicator, and designate the code status as Admit, Principal or Secondary.
 
