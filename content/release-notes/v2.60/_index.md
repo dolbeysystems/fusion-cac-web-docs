@@ -30,13 +30,16 @@ Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-6412, CACTWO-7489, CACTWO-7534 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available to be assigned to end users. This role will allow the assignee all the privileges of a CDI Specialist, *plus* the ability to audit inpatient accounts on a new [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer). This new viewer is similar to the [Audit Worksheet Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) with the following exceptions:
+We are introducing a new [CDI Audits module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer), designed to bring formal auditing capabilities to CDI programs, which until now have largely relied on manual Excel tracking. This module will function as a dedicated viewer, similar in design to our [Coding Audit tool](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module), while incorporating concepts specific to CDI work.
 
-- allows for auditing of the Baseline Code set 
-- allows for auditing of the Final Working Codeset
-- allows for auditing of CDI queries (additional option)
+Key features include:
+- Dedicated Viewer & Roles – A separate [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) with privacy controls for CDI of record, CDI auditors, and management. A new CDI Audit role with role-based privileges will be added.
+- Audit Criteria – Flexible audit framework supporting baseline DRG, working DRG, mismatch DRG rate, missed query opportunities, query compliance, correct claimed impact, and custom policies.
+- Configurable Weighting – Mapping table options allow organizations to adjust terminology or emphasize certain criteria with higher weight, similar to coding incentive multipliers.
+  
+If opted in, a new [role](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) of ‘CDI Auditor’ will be available to be assigned to end users. This role will allow the assignee all the privileges of a CDI Specialist, plus the ability to audit inpatient accounts on a new CDI Audit Viewer. 
 
-> [!info] Additional Configuration Required
+> [!info] Additional Action Required
 Please contact your sales representative for pricing.
 
 ![CDI Audit Worksheet](CDIAuditWrksht.png)
