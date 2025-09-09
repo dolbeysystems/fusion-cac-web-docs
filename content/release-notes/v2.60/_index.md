@@ -615,6 +615,14 @@ If Document [Search](https://dolbeysystems.github.io/fusion-cac-web-docs/general
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### Allow for Users Working in a Timezone Different than the Server
+
+**CACTWO-7526 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Fusion CAC will now allow date/times in all grids to remain static to the timezone when the user's operating system is in a different timezone than the server. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### CDI/Clinical Alert was not Updating When Applying an Edit
 
 **CACTWO-7546 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
