@@ -5,7 +5,7 @@ weight = 26
 
 ![Time Tracking Viewer in the Navigation Tree](TimeTrackViewer.png)
 
-The Time Tracking Viewer allows for time-tracking on 4 types of documents
+The Time Tracking Viewer allows for time-tracking on four types of documents:
 - Denial worksheets
 - Audit worksheets
 - Documentation Reviews
