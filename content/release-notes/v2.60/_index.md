@@ -628,3 +628,11 @@ Fusion CAC will now allow date/times in all grids to remain static to the timezo
 **CACTWO-7546 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When editing a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Forced Autoload was Returning to a Limited Workgroup
+
+**CACTWO-7554 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a Forced Autoload user worked through a group that had a limit on it, if an account was then added to a group that preceded it, the user would be taken to that and then back through the limited group. This has been changed so the the cycle of accounts always obeys the limit on any workgroup. 
