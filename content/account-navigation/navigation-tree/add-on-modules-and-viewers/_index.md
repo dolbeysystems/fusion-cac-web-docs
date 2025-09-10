@@ -11,15 +11,17 @@ weight = 12
 > these modules should reach out to the Dolbey SME team via email (smeteam@dolbey.com).
 {{% children depth=999 %}}
 
-## Audit Module
+## Audit Modules
+
+### Coding Audit Module (Viewer)
 
 ![Audit Viewer](AuditViewer.png)
 
-The Audit Worksheet displays when the account is opened by a user in the role of Auditor. The Audit Worksheet can be popped out onto a separate screen, allowing the Auditor to have a screen for reviewing the chart. By selecting “Show All” codes in the Unassigned code tree, the Auditor is taken to the documents/documentation supporting that code.  This will help streamline the audit process. 
+The coding Audit Worksheet displays when the account is opened by a user in the role of Auditor. The Audit Worksheet can be popped out onto a separate screen, allowing the Auditor to have a screen for reviewing the chart. By selecting “Show All” codes in the Unassigned code tree, the Auditor is taken to the documents/documentation supporting that code.  This will help streamline the audit process. 
 
 An account can have one or more audits added to it. By clicking {{%button%}}+Add Audit{{%/button%}} a new, blank audit worksheet will be created. These worksheets are numbered and displayed at the top of the audit viewer, along with a date stamp indicating when each worksheet was opened. The worksheet currently being viewed will be highlighted with a green background.
 
-Data in the audit viewer is only intended for coder education and administrative staff to score how the Coder is doing in a report card. The Auditor will need to add the Coder of Record so that the Coder of Record, any Auditor, or other user role that has been given access can view the audit worksheets. 
+Data in the Audit Viewer is only intended for coder education and administrative staff to score how the Coder is doing in a report card. The Auditor will need to add the Coder of Record so that the Coder of Record, any Auditor, or other user role that has been given access can view the audit worksheets. 
 
 The audit module allows for the role of an Auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. More details on audit functionality can be found in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) section. 
 
@@ -27,7 +29,7 @@ The audit module allows for the role of an Auditor within the application. The r
 If needed, the Audit Worksheet can be seen by a CDI Specialist. The CDI Specialist would only have the option to view and print. All editing, routing, and deleting abilities are not available.
 *Please contact the CAC Support Team to opt-in to this permission at cacsupport@dolbey.com* 
 
-### CDI Audit (Viewer)
+### CDI Audit Module (Viewer)
 
 ![CDI Audit Viewer in the Navigation Tree](CDIAuditVwr.png)
 

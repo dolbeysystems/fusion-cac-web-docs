@@ -102,10 +102,15 @@ If an organization has choosen to collect shift reasons, a dialog box will appea
 
 Shift reasons can be categorized as either automatic or manual. If manual shift reasons are enabled, users will encounter a dialog box after closing a query.
 
-![Query Shift Reasons](ShiftReasons.png)
+**Inpatient Query Shift Reasons**
 
+![Inaptient Query Shift Reasons](ShiftReasons.png)
+
+**Outpatient Query Shift Reasons**
+
+![Outpatient Query Shift Reasons](OPQueryShiftReasons.png)
  
- This dialog box will display the pre and post-query DRG (if applicable) along with options for shift reasons. These shift reasons can be chosen by the end user to explain the rationale behind the change in the DRG. It is important to note that changes in the DRG might occur for reasons unrelated to the query outcome. Please be aware that the shift reasons dialog is customizable, so each organization may offer different options than what is shown in the screenshot.
+ This dialog box will display the pre and post-query DRG/APC (if applicable) along with options for shift reasons. These shift reasons can be chosen by the end user to explain the rationale behind the change in the DRG/APC. It is important to note that changes in the DRG/APC might occur for reasons unrelated to the query outcome. Please be aware that the shift reasons dialog is customizable, so each organization may offer different options than what is shown in the screenshot.
 
  >[!Note] Automatic vs Manual Shift Reasons
 > The dialog box will only display if shift reasons are set to **manual**. Organizations looking to enable or disable the dialog box, should contact CAC Support (cacsupport@dolbey.com)
