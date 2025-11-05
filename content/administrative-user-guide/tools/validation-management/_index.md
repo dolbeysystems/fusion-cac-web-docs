@@ -210,3 +210,16 @@ recommended that you test your validation rule by opening a chart that
 fits the criteria of your validation rule
 
 ![](2025-02-11_ValidationMgmt13.png)
+
+## Validation FAQs
+
+- ##### What is the difference in validation rules between **Not In List** and **Does Not Include**?
+   The difference applies to properties that contains lists. Here is an example:
+
+    Say you have an account with three assigned diagnosis codes: I10, R12, and Z36.
+
+    In Validation Editor, I'm building validation rules with the "Diagnosis Codes" property. In memory, the "Diagnosis Codes" property equates to a list of three codes – I10, R12, and Z36.
+
+    The validation criterion Diagnosis Codes -> Not In List -> Z36 is TRUE because there are codes in the list on the left – the three assigned diagnosis codes – that are not in the list of the codes on the right, which just has "Z36". Those codes are I10 and R12.
+
+    The validation criterion Diagnosis Codes -> Does Not Include -> Z36 is FALSE because the list of codes on the left – the three assigned diagnosis codes – does indeed include the codes that are listed on the right, which is "Z36".
