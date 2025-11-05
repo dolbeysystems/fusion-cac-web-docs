@@ -1,6 +1,6 @@
 +++
 title = "TruCode Encoder Synonyms List"
-weight = 17
+weight = 23
 +++
 
 The following lists the synonyms that can be used in the CodeBooks control and the index entry to which each synonym is linked. 
