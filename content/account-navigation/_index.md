@@ -279,7 +279,7 @@ Following the listed Assigned ICD-10 Procedures are the Assigned CPT® Codes.
 
 An additional, quicker, way to open the Code Editor dialog via the right-click menu right from the assigned code tree. When clicking on the code from the assigned code tree, user will edit only the code along with the position they have clicked on. However, if using the hot key from the unassigned code tree will open a full code editor, since no action has been assigned yet to that code.
 
-![Right Click Edit Code](RightClickEdit.png)
+ccccccccccccccc
 
 #### Add Code Set Button
 
@@ -302,6 +302,8 @@ Click OK to simultaneously add all codes from this code set to the chart.
 ### Assigned Code Tree
 
 - What is the significance of the **(OR)** next to some of the PCS codes in the [Assigned Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#assigned-codes) tree? 
+
+  ![Assigned PCS OR Codes](AssignedPCSORCodes.png)
   
   These are operating room procedure codes that *may* impact the DRG. 
 
