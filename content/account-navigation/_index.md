@@ -297,3 +297,31 @@ Click on the Code Set to view a listing of the codes for this code set.
 
 Click OK to simultaneously add all codes from this code set to the chart.
 
+## FAQs
+
+### Assigned Code Tree
+
+- What is the significance of the **(OR)** next to some of the PCS codes in the [Assigned Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#assigned-codes) tree? 
+  
+  These are operating room procedure codes that *may* impact the DRG. 
+
+  Here’s how it works:
+
+  In the MS-DRG system, procedures are classified as:
+  - OR (Operating Room) procedures
+  - Non-OR procedures
+  
+  This distinction matters because many DRGs are “surgical” DRGs, and a case will group into a surgical DRG only if it contains an OR-designated procedure.
+
+  ✔ If a procedure is classified as OR:
+    - It may move the case out of a medical DRG and into a surgical DRG, which usually has a higher relative weight (RVU) and therefore increases CMI and reimbursement.
+    - Some OR procedures can also shift the DRG to a different surgical family entirely.
+
+  ✔ If a procedure is classified as Non-OR:
+    - It generally does not move the case into a surgical DRG.
+    - The case usually stays in a medical DRG unless the non-OR procedure triggers a specific DRG logic (rare).
+
+  Examples:
+
+    - A patient admitted for pneumonia who also has a bronchoscopy (Non-OR) → typically remains in a medical DRG.
+    - The same patient who undergoes a thoracotomy (OR procedure) → jumps to a surgical DRG, significantly changing the DRG weight.

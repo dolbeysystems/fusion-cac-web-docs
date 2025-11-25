@@ -213,7 +213,7 @@ fits the criteria of your validation rule
 
 ## Validation FAQs
 
-- ##### What is the difference in validation rules between **Not In List** and **Does Not Include**?
+- What is the difference in validation rules between **Not In List** and **Does Not Include**?
    The difference applies to properties that contains lists. Here is an example:
 
     Say you have an account with three assigned diagnosis codes: I10, R12, and Z36.
