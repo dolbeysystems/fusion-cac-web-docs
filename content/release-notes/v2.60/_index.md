@@ -88,11 +88,11 @@ In [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/admi
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Create Time Tracking for use With Custom Report
+### Track Time on Custom Worksheets
 
-**CACTWO-7082, CACTWO-7474, CACTWO-7497 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+**CACTWO-7082, CACTWO-7497 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new viewer has been created that will show [time-tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/time-tracking-viewer/) on four types of document worksheets: 1) Denial worksheets;  2) Audit worksheets; 3) Documentation Reviews; and 4) worksheets added via the Add button on the Navigation tree.  These worksheets will all be read only until the new Start button is deployed.  The tracking will be stopped when one of three things occur:  1) clicking the Stop button; 2) opening another sheet and starting its time tracking; or 3) exiting the account.  Users will be able to adjust their time in the Time Tracking viewer if necessary.  Administrators will be able to see all time tracked on an account.  The user will only see their own. 
+A new viewer has been created that will show [time-tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/time-tracking-viewer/) worksheets, the Denial viewer, and the Audit viewer. When opted in there is a start button. This start button allows time tracking. The timer will stop if the user clicks the Stop button, opens another viewer or worksheet that has time tracking, or exits the account.  Users will be able to adjust their time in the Time Tracking viewer if necessary.  Administrators will be able to see all time tracked on an account.  The user will only see their own. 
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.

@@ -204,3 +204,70 @@ Alert. Once an Alert is Autoresolved it will move to the Completed Alert section
 ## Closing Alerts without Querying
 
 If it is determined that an Alert can be closed without initiating a query, a CDS can click on the **{{< rawhtml >}}<span style="color:#a00">RED X </span>{{< /rawhtml >}}** and the CDS will be presented with a "Close Alert" dialouge box to select why they are closing the alert (see the [Completed Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-prioritization/#completed-alerts) section of this page). 
+
+## Best Practices for Closing CDI/Clinical Alerts
+
+The goal of this process is to ensure that end users provide actionable feedback directly within the CDI Alerts viewer. This helps streamline communication, create a consistent feedback loop, and provide a clear picture of system performance.
+
+**When reviewing an alert, the user should:**
+
+- Assess the clinical evidence included in the alert.
+
+- Uncheck any inaccurate markers before closing the alert.
+
+- Select the appropriate closure reason from the list below.
+
+**End users have two ways to provide feedback on an alert:**
+
+1. Close a CDI Alert, or
+
+2. Issue a Query.
+
+### Manual CDI Alert Closure Reasons
+
+**Audit Education Opportunity:**
+
+Indicates an opportunity for education when a CDI Specialist closes an alert as “Insufficient” but should have instead issued a query. Managers can click the green “Reopen” button, reopen the case, and update the closure reason to “Education”.
+
+> [!info] Important
+> This closure reason is for Managers only. CDI Specialists should not select this option.
+
+**Insufficient Clinical Evidence:**
+
+Indicated the abstracted clinical evidence is not sufficient to support the alert. In your opinion, the evidence does not justify the alert and it should not have triggered. The method of closure helps the tuning team identify alerts that may need refinement to improve accuracy.
+
+Example: A patient chart triggers a bleeding alert because the patient is on anticoagulation therapy. However, the medication is being used to treat atrial fibrillation (Afib), not active bleeding. In this case, select Insufficient Clinical Evidence and include a short comment explaining why.
+
+**Documentation Already Present:**
+
+To be used when the diagnosis is already documented in the chart, whether or not it has a corresponding code. This method identifies cases where tuning or auto-resolution processes may need optimization.
+
+Example(s):
+
+1. The diagnosis is documented and coded, but the alert failed to auto-resolve.
+2. The specialist manually adds the code, indicating that the system’s tuning logic may need adjustment.
+
+**Handled with Query:**
+
+For when a physician query was placed before the alert was reviewed to indicate the alert correctly identified a valid issue, but it was already being addressed. This type of closure confirms that the alert was accurate, but action was taken independently.
+
+Example: The CDI specialist noticed the same clinical concern and issued a query before the alert triggered.
+
+**Other:**
+
+Used when the alert is closed for reasons unrelated to its accuracy or CDI performance. The below can be customized in the mapping table thus your organization may have different or additional options than shown below. This closure method should be used when the chart no longer requires a query or the reason does not fall into one of the previous categories.
+
+Dropdown Options:
+
+
+- *Alert Triggered but Queried for a Different Clinical Condition* - Use when the alert led to identifying and querying for a different condition.
+
+- *Chart Optimized for the Billing DRG* - Use when the alert was correct, but the chart is already optimized and no query is necessary.
+
+- *Coding Guidance Prohibits Coding of the Condition* - Use when the alert triggered from data that cannot be coded due to coding rules or exclusions.
+
+- *Condition or Diagnosis Is a Tuning Concern* - Use when the alert triggered incorrectly because of an abstracting or coding error.
+
+**Adding Comments:**
+
+Comments are otptional, but encouraged. Users can add free-text comments when closing an alert to provide context for why the alert was closed. These comments help Dolbey’s development and tuning teams understand user perspectives and identifies patterns or potential system improvements.

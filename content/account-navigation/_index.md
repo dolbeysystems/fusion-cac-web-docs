@@ -279,7 +279,7 @@ Following the listed Assigned ICD-10 Procedures are the Assigned CPT® Codes.
 
 An additional, quicker, way to open the Code Editor dialog via the right-click menu right from the assigned code tree. When clicking on the code from the assigned code tree, user will edit only the code along with the position they have clicked on. However, if using the hot key from the unassigned code tree will open a full code editor, since no action has been assigned yet to that code.
 
-![Right Click Edit Code](RightClickEdit.png)
+ccccccccccccccc
 
 #### Add Code Set Button
 
@@ -297,3 +297,33 @@ Click on the Code Set to view a listing of the codes for this code set.
 
 Click OK to simultaneously add all codes from this code set to the chart.
 
+## FAQs
+
+### Assigned Code Tree
+
+- What is the significance of the **(OR)** next to some of the PCS codes in the [Assigned Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#assigned-codes) tree? 
+
+  ![Assigned PCS OR Codes](AssignedPCSORCodes.png)
+  
+  These are operating room procedure codes that *may* impact the DRG. 
+
+  Here’s how it works:
+
+  In the MS-DRG system, procedures are classified as:
+  - OR (Operating Room) procedures
+  - Non-OR procedures
+  
+  This distinction matters because many DRGs are “surgical” DRGs, and a case will group into a surgical DRG only if it contains an OR-designated procedure.
+
+  ✔ If a procedure is classified as OR:
+    - It may move the case out of a medical DRG and into a surgical DRG, which usually has a higher relative weight (RVU) and therefore increases CMI and reimbursement.
+    - Some OR procedures can also shift the DRG to a different surgical family entirely.
+
+  ✔ If a procedure is classified as Non-OR:
+    - It generally does not move the case into a surgical DRG.
+    - The case usually stays in a medical DRG unless the non-OR procedure triggers a specific DRG logic (rare).
+
+  Examples:
+
+    - A patient admitted for pneumonia who also has a bronchoscopy (Non-OR) → typically remains in a medical DRG.
+    - The same patient who undergoes a thoracotomy (OR procedure) → jumps to a surgical DRG, significantly changing the DRG weight.
