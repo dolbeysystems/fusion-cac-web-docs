@@ -103,3 +103,130 @@ Please contact Support to enable this feature.
 **CACTWO-7597** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 For the sake of continuity, the line for Total Time Logged in has been added to the Forced Autoload dashboard to match the other user dashboards. 
+
+### When moving between viewers they were marked as read-only
+
+**CACTWO-7604** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Under specific circumstances, when moving back and forth between viewers, they were being marked as read-only and user was unable to reopen and edit.  This has been corrected. 
+
+### TruCode link to crosswalks was not opening
+
+**CACTWO-7604** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+While the link for accessing crosswalks in TruCode was present, it had yet to be implemented.   That has now been added so that users can use the crosswalks. 
+
+### Updates made to description of several reports
+
+**CACTWO-7616** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The descriptions of the CDI Query Score Card and CDI Query Score Card by Admission Month have been updates. 
+
+### Sync between workgroup criteria changes was not working
+
+**CACTWO-7619** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When multiple users were in the same workgroup criteria, the ‘sync change’ ability was not working.  This has been corrected. 
+
+### Mass Edit is not working for 'All' when adding Dx codes to CPT codes
+
+**CACTWO-7630** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a user checkmarked the ALL button at the top of the CPT column in Mass Editing and added a DX code to the first CPT code, it was not being carried down to all of the CPT codes like it should.  This has been corrected. 
+
+### Add new Working DRG fields foruse in Account Search
+
+**CACTWO-7631** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+4 New fields have been added to use as search items:
+* Baseline Working CC Total
+* Baseline Working HAC Total
+* Baseline Working HCC Total
+* Baseline Working MCC Total
+
+### Mappings were not showing all columns when using the CSV option
+
+**CACTWO-7632** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When exporting a CSV in Mappings, some of the newly added columns were missing from the report.  This has been corrected. 
+
+### Add checkmark next to codes in inpatient accounts
+
+**CACTWO-7634** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A checkmark will now appear on the right of the diagnosis and procedure codes that affect the DRG according to Solventum™ or TruCode™ in these places in Fusion CAC:
+* the Code Summary viewer; 
+* the Final Code Summary viewer; 
+* the Working CDI History viewer; 
+* the Suggested DRG History viewer; AND
+* the TruCode Standalone page. 
+
+> [!info] Additional Configuration Required
+Please contact Support to enable this feature.
+
+### Session Expiration is locking user in account
+
+**CACTWO-7635** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a user is in an account and goes away from their session for long enough for the session to expire, the user is receiving a red error message and is not being taken out to the Login Screen.  This has been corrected. 
+
+### Receiving an error when using invalid characters in Document Search
+
+**CACTWO-7644** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If an invalid character is used in Document Search, ie .^$*+-?{}[]()\/|, then an invalid pattern error was showing in the Fuscion CAC log.  This has been updated so that no error occurs, and the Document Search works normally. 
+
+### Accounts assigned to Audit workgroups were not leaving the workgroup
+
+**CACTWO-7648** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If an auditor finished an audit and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected
+
+### Update the way diagnosis codes can be added to CPT code charges
+
+**CACTWO-7653** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The ‘add’ table has been changed to allow better usablilty and readablity of diagnosis codes that are added to a CPT charge on an outpatient account. 
+
+![Add Diagnoses to a CPT Code](AddDiagnosistoCPTcode.png)
+
+![Add Diagnoses to a CPT code](AddDiagnosistoCPTcode2.png)
+
+### E/M charges should not show in some circumstances and remarks should
+
+**CACTWO-7658** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+ADD TEXT
+
+### TruCode™ encoder is deleting PCS codes after clicking the 'Submit Codes' link
+
+**CACTWO-7659** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a user has the TruCode™ encoder open and adds multiple codes via the code book, a code was being dropped when the 'Submit Codes' link was pressed to bring those codes to the Assigned codes tree.  This has been corrected. 
+
+![Submit Codes link in TruCode™ encoder](SubmitCodesLink.png)
+
+### Scroll Bars in TruCode™ encoder are not working properly
+
+**CACTWO-7660** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a user changes the zoom on the encoder from 100%, the scroll bar sometimes does not go all the way to the bottom of the viewer.  This has been corrected. 
+
+### TruCode™ encoder has drag and drop issues
+
+**CACTWO-7661** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the codes section of TruCode™ encoder, when using drag and drop, the codes were getting stuck.  This has been corrected. 
+
+### TruCode™ encoder links are not working
+
+**CACTWO-7662** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When working in the TruCode™ encoder, if an edits icon appeared on a code indicating that additional codes should be added, clicking the “other codes” link did not open the Code Book in the Edits panel.  This has been corrected. 
+
+### TruCode™ encoders needs a units field for CPT codes
+
+**CACTWO-7663** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new field has been added to the TruCode™ encoder. A units field will now show at the end of each CPT code line in Outpatient runs. It will default to a count of 1.
+
