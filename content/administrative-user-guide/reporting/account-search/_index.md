@@ -42,9 +42,9 @@ Continue to constrain the data for the desired results. There are over 250 field
 
 Once the data has been constrained, select the columns to display by selecting {{%button%}}Columns{{%/button%}}. 
 
-![Account Search Columns](ASColumns.png)
+![Account Search Columns](EditAccountSearchColumns.png)
 
-When the results are initally returned, there will be more column fields displayed than needed. Users can pair down the columns by removing or adding the columns as needed. Clicking on the drop-down arrow on {{%button%}}Columns{{%/button%}} allows the user to select or unselect all columns. Use the check box to indicate the column should display and uncheck it to remove the column from the Account Search or Scheduled Account Search report. 
+When the results are initially returned, there will be more column fields displayed than needed. Users can pair down the columns by removing or adding the columns as needed. Clicking on the drop-down arrow on {{%button%}}Columns{{%/button%}} allows the user to select or unselect all columns. Use the check box to indicate the column should display and uncheck it to remove the column from the Account Search or Scheduled Account Search report. The filter box at the top of the list of columns will narrow down the available fields as the user types.
 
 ## Drill-Down Level
 

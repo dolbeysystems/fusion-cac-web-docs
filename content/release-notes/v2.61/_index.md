@@ -6,40 +6,45 @@ title = 'V2.61 (Jan 2026)'
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Add ability to schedule a report per day of the week.
+### Add Ability to Schedule a Report per day of the Week
 
 **CACTWO-5976 and CACTWO-7233** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When creating a scheduled report, the user will now have the ability to schedule a report for a certain day of the week such as ‘first Tuesday of the month’ or ‘last Friday of the month’.  This has also been added to the scheduling window of the Account Search, along with the ability to report hourly. 
+When creating a [scheduled report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/), the user will now have the ability to schedule a report for a certain day of the week such as ‘first Tuesday of the month’ or ‘last Friday of the month’.  This has also been added to the [scheduling window](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#scheduling-a-report) of the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), along with the ability to report hourly. 
 
-### Replace PSI 04 with a new failure to rescue measure.
+![Scheduled Reports Frequency Options](ScheduleReportsFrequency.png)
+
+### Replace PSI 04 with a new Failure to Rescue Measure
 
 **CACTWO-6787** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}** 
 
-A new failure to rescue code of ISCMR will now show concurrently with PSI 04 when it applies, but it will be completely replacing PSI 04 in the future. 
+A new failure to rescue code of ISCMR will now show concurrently with [PSI](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/#psi-indicators) 04 when it applies, but it will be completely replacing PSI 04 in the future. 
 
-### Allow scheduled reports to be restricted to particular domains
+### Allow Scheduled Reports to be Restricted to Particular Domains
 
 **CACTWO-7138** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new setting will now stop scheduled reports from going out to emails that are not in the configured domain.  As an example, if my setting is marked for ‘dolbey.com’, then if I put an aol.com address in the email for a scheduled report, I will be alerted that the address is not valid for the domain.
+A new setting will now stop [scheduled reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) from going out to emails that are not in the configured domain.  As an example, if the setting is marked for ‘dolbey.com’, and an aol.com address is entered in the email for a scheduled report, the user will be alerted that the address is not valid for the domain.
+
+![Red Ringed Invaild Email Domain](InvaildEmailDomain.png)
+![Invaild Email Domain Message](InvaildEmailDomainMessage.png)
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
-### Make Mapping titles more noticeable
+### Make Mapping Titles more Noticeable
 
 **CACTWO-7274** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Mapping titles are now in blue to make them stand out better when a user is browsing a long list. Previously they were grey and did not stand out.
+[Mapping table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) titles are now in blue to make them stand out better when a user is browsing a long list. Previously they were grey and did not stand out.
 
 ![Mapping Configuration Title](MappingConfigurationTitle.png)
 
-### Enable Columns in Account Search to be filterable
+### Enable Columns in Account Search to be Filterable
 
 **CACTWO-7319** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Columns button in Account Search now has a filter field at the top of the list.  Clicking on Columns brings up the column list as it is currently, and clicking the arrow lets you either select the list as 'Select All' or 'Unselect All'. No matter how columns are pulled up, a filter box is presented at the top and will filter down the list as characters are typed. 
+The [columns](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#selecting-columns) button in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) now has a filter field at the top of the list.  Clicking on {{%button%}}Columns{{%/button%}} brings up the column list as it is currently, and clicking the arrow lets you either select the list as 'Select All' or 'Unselect All'. No matter how columns are pulled up, a filter box is presented at the top and will filter down the list as characters are typed. 
 
 ![Filter Columns in Account Search](AccountSearchColumnsFilter.png)
 
