@@ -89,9 +89,9 @@ If the [CDI Metric Score Card](https://dolbeysystems.github.io/fusion-cac-web-do
 
 Two new total columns have been added to the Audits [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level):
 
-1. Audit- Modifiers Post Audit; AND
+1. Audit- Modifiers Post Audit
 
-2. Audit-Modifiers Pre Audit.  
+2. Audit-Modifiers Pre Audit 
 
 These will record the total based on the number of modifiers on the CPT codes or Charges.
 
@@ -105,62 +105,66 @@ The [PC-06 algorithm](https://dolbeysystems.github.io/fusion-cac-web-docs/accoun
 
 **CACTWO-7588** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-An option has been added to hide the ‘No’ answer from the Final DRG Reconciliation box. The user will then only have the options to agree or cancel during reconciliation.
+An option has been added to hide the ‘No’ answer from the Final DRG Reconciliation prompt window within the [DRG Reconciliation viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/). The user will then only have the options to agree or cancel during reconciliation.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
-### Add Total Time line to Forced Autoload Dashboard
+### Add Total Time Line to Forced Autoload Dashboard
 
 **CACTWO-7597** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-For the sake of continuity, the line for 'Total Time Logged In' has been added to the Forced Autoload dashboard to match the other user dashboards. 
+For the sake of continuity, the line for 'Total Time Logged In' has been added to the [Forced Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#force-autoload) dashboard to match the other user dashboards. 
 
-### When moving between viewers they were marked as read-only
+![Total Time Logged in Force Autoload Dashboard](ForceAutoLoadTotalTime.png)
+
+### When Moving Between Viewers they were marked as read-only
 
 **CACTWO-7604** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Under specific circumstances, when moving back and forth between viewers, they were being marked as read-only and user was unable to reopen and edit.  This has been corrected. 
+Under specific circumstances, when moving back and forth between viewers, [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#starting-an-audit) were being marked as read-only and user was unable to reopen and edit.  This has been corrected. 
 
 ### TruCode link to crosswalks was not opening
 
 **CACTWO-7604** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-While the link for accessing crosswalks in TruCode was present, it had yet to be implemented.   That has now been added so that users can use the crosswalks. 
+While the link for accessing crosswalks in [TruCode](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) was present, it had yet to be implemented. That has now been added so that users can use the crosswalks. 
 
-### Updates made to description of several reports
+### Updates Made to Description of Several Reports
 
 **CACTWO-7616** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The descriptions of the CDI Query Score Card and CDI Query Score Card by Admission Month have been updates. 
+The descriptions of the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and the [CDI Query Score Card by Admission Month](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-by-admission-month) have been updated. 
 
-### Sync between workgroup criteria changes was not working
+### Sync Between Workgroup Criteria Changes was not Working
 
 **CACTWO-7619** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When multiple users were in the same workgroup criteria, the ‘sync change’ ability was not working.  This has been corrected. 
+When multiple users were in the same [workgroup criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#workgroup-level-criteria), the ‘sync change’ ability was not working.  This has been corrected. 
 
 ### Mass Edit is not working for 'All' when adding Dx codes to CPT codes
 
 **CACTWO-7630** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user checkmarked the 'ALL' button at the top of the CPT column in Mass Editing and added a DX code to the first CPT code, it was not being carried down to all of the CPT codes like it should.  This has been corrected. 
+If a user checked the 'ALL' button at the top of the CPT column in [Mass Editing](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/#mass-editing-codes) and added a DX code to the first CPT code, it was not being carried down to all of the CPT codes like it should.  This has been corrected. 
 
-### Add new Working DRG fields foruse in Account Search
+### Add new Working DRG Fields in Account Search
 
 **CACTWO-7631** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-4 New fields have been added to use as search items:
-* Baseline Working CC Total
-* Baseline Working HAC Total
-* Baseline Working HCC Total
-* Baseline Working MCC Total
+4 new fields have been added to [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) to be used as search criteria:
+- Baseline Working CC Total
+- Baseline Working HAC Total
+- Baseline Working HCC Total
+- Baseline Working MCC Total
 
-### Mappings were not showing all columns when using the CSV option
+![New Basline Total Fields](BaslineAccountSearchFields.png)
+
+### Mappings not Showing all Columns When Using CSV Option
 
 **CACTWO-7632** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When exporting a CSV in Mappings, some of the newly added columns were missing from the report.  This has been corrected. 
+When exporting a CSV in [Mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), some of the newly added columns were missing from the report.  This has been corrected. 
 
 ### Add checkmark next to codes in inpatient accounts
 
