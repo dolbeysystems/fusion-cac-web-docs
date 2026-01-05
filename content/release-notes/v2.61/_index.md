@@ -48,45 +48,46 @@ The [columns](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative
 
 ![Filter Columns in Account Search](AccountSearchColumnsFilter.png)
 
-### In Audit Worksheet, add APC calculation display
+### In Audit Worksheet, add APC Calculation Display
 
 **CACTWO-7515** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-For accounts with charges, the Audit Worksheet will now show APC calculations to the left of each code in the Audited Charges section if these two site_configuration settings are set to true:
+For accounts with charges, the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) will now show APC calculations to the left of each code in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) section, if configured. 
 
-1. ShowAuditAPC : true
+![Display APC Calculation in Audit Viewer](AuditViewerAPCCalc.png)
 
-2. ShowAuditCharges : true
-
-### Remove trailing blank spaces in pending reson note
+### Remove Trailing Blank Spaces in Pending Reason Note
 
 **CACTWO-7525** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently when adding a note to a pending reason, any trailing blank spaces are being saved to the record.  This has now been changed to discard trailing blank spaces upon saving the note.  
+Currently when adding a [note to a pending reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/#pending-reason-notes), any trailing blank spaces are being saved to the record.  This has now been changed to discard trailing blank spaces upon saving the note.  
 
-### Add 'Total' column to the CDI Metric Score Card report
+### Add 'Total' Column to the CDI Metric Score Card Report
 
 **CACTWO-7551** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new 'Total' column has been added to the CDI Metric Score Card which calculates the combined statistics for all months within the report.  By comparison, the Average column calculates the average statistics per month within the report. 
+A new 'Total' column has been added to the [CDI Metric Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-metric-score-card) which calculates the combined statistics for all months within the report.  By comparison, the Average column calculates the average statistics per month within the report. 
 
-### Dashboard will not display Audit sections if there is no data
+### Dashboard will not Display Audit Sections if There is no Data
 
 **CACTWO-7570** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-ADD TEXT
+On the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard):
+- If both Inpatient and Outpatient audit data are available, both section headers will appear on the user’s Dashboard, each displaying its corresponding audit details.
+- If no audit data exists at all, both headers will still display, but instead of data, each section will show the message: “No audits performed since last month.
+- If audit data exists for only one category (e.g., Inpatient audits are available but Outpatient audits are not), the Dashboard will display only the header(s) with available data, along with the corresponding audit information.
 
-### Add user name to CDI Metric Score Card when sent as XLSX
+### Add User Name to CDI Metric Score Card When Sent as XLSX
 
 **CACTWO-7575** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If a CDI Metric Score Card report is run as XLSX and has multiple users on it, it will now split the names out on separate tabs in the XLSX report. 
+If the [CDI Metric Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-metric-score-card) report is run as XLSX and has multiple users on it, it will now split the names out on separate tabs in the XLSX report. 
 
 ### Added 'Audit - Modifiers' columns to the Audits drilldown in Account Search
 
 **CACTWO-7581** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new total columns have been added to the Audits Drilldown:
+Two new total columns have been added to the Audits [Drilldown](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level):
 
 1. Audit- Modifiers Post Audit; AND
 
@@ -94,13 +95,13 @@ Two new total columns have been added to the Audits Drilldown:
 
 These will record the total based on the number of modifiers on the CPT codes or Charges.
 
-### PC-06 designation needs to be updated for January 2026
+### PC-06 Designation Updated for January 2026
 
 **CACTWO-7584** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The PC-06 algorithm has been updated for January 2026 changes. This allows for a PC-06 designation for accounts that have a Discharge Disposition of ‘Transfer’ as well as ‘Expired’. 
+The [PC-06 algorithm](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/#pc-06-indicator) has been updated for January 2026 changes. This allows for a PC-06 designation for accounts that have a Discharge Disposition of ‘Transfer’ as well as ‘Expired’. 
 
-### Remove the 'No' option from the Final DRG Reconciliation box
+### Remove the 'No' Option From the Final DRG Reconciliation box
 
 **CACTWO-7588** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
