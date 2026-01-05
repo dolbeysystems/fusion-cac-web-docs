@@ -10,7 +10,7 @@ Mapping Configuration is an administrative tool designed for users with an admin
 >[!note]
 Avoid modifying data mapping tables in a production environment unless you have received proper training.
 
-![](2025-01-24_MappingConfig2.png)
+![](MappingConfigurartion261.png)
 
 {{%button%}}Export to CSV{{%/button%}} on the right-hand side of the the mapping title bar will export the selected mapping table to CSV should the table(s) need to be reviewed outside of the application.
 
@@ -54,7 +54,7 @@ Some tables can be removed by clicking the red X in the Active Mapping list.
 
 If a mapping table does not have a red X to the right of its title, that means it is a default mapping table that cannot be removed from the system. 
 
-![](2025-01-24_MappingConfig3.png)
+![Mapping List No Red X](ActiveMappings.png)
 
 ## Special Mapping Columns & Tables
 
