@@ -158,7 +158,7 @@ If a user checked the 'ALL' button at the top of the CPT column in [Mass Editing
 - Baseline Working HCC Total
 - Baseline Working MCC Total
 
-![New Basline Total Fields](BaslineAccountSearchFields.png)
+![New Baseline Total Fields](BaslineAccountSearchFields.png)
 
 ### Mappings not Showing all Columns When Using CSV Option
 
@@ -166,16 +166,16 @@ If a user checked the 'ALL' button at the top of the CPT column in [Mass Editing
 
 When exporting a CSV in [Mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), some of the newly added columns were missing from the report.  This has been corrected. 
 
-### Add checkmark next to codes in inpatient accounts
+### Add Check Mark Next to Codes in Inpatient Accounts
 
 **CACTWO-7634** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A checkmark will now appear on the right of the diagnosis and procedure codes that affect the DRG according to Solventum™ or TruCode™ in these places in Fusion CAC:
-* the Code Summary viewer; 
-* the Final Code Summary viewer; 
-* the Working CDI History viewer; 
-* the Suggested DRG History viewer; AND
-* the TruCode Standalone page. 
+A checkmark will now appear to the right of the diagnosis and procedure code(s) that affect the DRG (according to Solventum™ or TruCode™) in these places in Fusion CAC:
+- the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/)
+- the [Final Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#final-code-summary)
+- the [Working CDI History viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/working-cdi-history/)
+- the Suggested DRG History viewer
+- the [TruCode](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone page
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
