@@ -262,45 +262,45 @@ Since a right-click print command does not work, a new Print button has been add
 
 ![Print Button for TruCode™ Standalone](PrintButtonforStandalone.png)
 
-### Informational warning popping during submission of account
+### Informational Warning Popping During Submission of Account
 
 **CACTWO-7667** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When there is an informational warning on the Code Summary page, if the account was subsequently submitted, a warning box is popping asking the user if they want to go ahead with the submission, which should not be happening.  This has been corrected. 
+When there is an informational warning on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) page, if the account was subsequently submitted, a warning box is popping asking the user if they want to go ahead with the submission, which should not be happening.  This has been corrected. 
 
-### Allow DRG to autocompute when selected from Dx Analysis button
+### Allow DRG to Auto Compute when Selected from Dx Analysis Button
 
 **CACTWO-7669** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When using the Principal DX Analysis button when computing a TruCode™ DRG, the diagnosis changes, but the DRG has to be recomputed.  This has been changed so that if a different diagnosis is selectd from the Principal DX  Analysis dropdown, the DRG will automatically compute in the banner bar. 
+When using the [Principal DX Analysis](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/#principal-dx-analysis) button when computing a [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) DRG, the diagnosis changes, but the DRG has to be recomputed.  This has been changed so that if a different diagnosis is selected from the Principal DX  Analysis dropdown, the DRG will automatically compute in the banner bar. 
 
-### Add more date options to Audit Workflow
+### Add More Date Options to Audit Workflow
 
 **CACTWO-7679** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When setting time for Audit workflow to run, the days of the 29th, 30th and 31st have been added. If a month occurs that does NOT have the date set (such as setting for the 31st) the month will not run an Audit worklow (such as during the month of November which does not have a 31st day). 
+When setting time for [Audit workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit) to run, the days of the 29th, 30th and 31st have been added. If a month occurs that does NOT have the date set (such as setting for the 31st) the month will not run an Audit workflow. 
 
 ### Auditor cannot close audit if account type is changed
 
 **CACTWO-7683** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an Audit was started and left open on an account that then had its type changed from inpatient to outpatient, when the Auditor went back in to the audit, it was unable to be closed. This has been corrected. 
+If an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) was started and left open on an account that then had its type changed from inpatient to outpatient, when the Auditor went back in to the audit, it was unable to be closed. This has been corrected. 
 
-### CDI Alert links to document not working
+### CDI Alert Links to Document not Working
 
 **CACTWO-7684** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a document was archived which occurs when a Coder saves or submits a chart, CDI Alert links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
+If a document was archived (which occurs when a [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) saves or submits a chart), [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
 
-### Drafted queries are not being counted correctly
+### Drafted Queries are not Being Counted Correctly
 
 **CACTWO-7686** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-This release corrects an issue where physician query drafts were not accurately reflected in Account Search results and grid columns. In certain situations, the system was counting sent physician queries instead of physician query drafts, which could cause accounts to appear as having drafts when none existed.
+This release corrects an issue where [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) drafts were not accurately reflected in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) results and grid columns. In certain situations, the system was counting sent physician queries instead of physician query drafts, which could cause accounts to appear as having drafts when none existed.
 
 With this update, physician query draft counts and filters now correctly reflect only true draft queries, ensuring accurate Account Search results and reporting.
 
-Please note that this correction is not retroactive. Existing accounts will reflect the updated behavior after the account is re-saved or re-submitted.
+Please note that **this correction is not retroactive**. Existing accounts will reflect the updated behavior after the account is re-saved or re-submitted.
 
 ### Add hierarchical user-to-manager assignments for dashboard  and user reports
 

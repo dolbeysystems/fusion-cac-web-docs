@@ -54,6 +54,9 @@ Example: Select that workflow automatically adds charts to the worklist on the f
 
 On the designated days every month, 5 charts (the limit can be changed) from every Coder (First Submitter) will be automatically routed to the Auditor’s worklist. 
 
+>[!note]
+>If a month occurs that does NOT have the date set, (ex. the month of November does not have a 31st day) the month will not run an Audit worklow.
+
 #### Schedule 
 
 The setting to determine when workflow will run for this Audit (Daily, Weekly, or Monthly).
