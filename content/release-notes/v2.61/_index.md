@@ -180,25 +180,25 @@ A checkmark will now appear to the right of the diagnosis and procedure code(s) 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
-### Session Expiration is locking user in account
+### Session Expiration is Locking User in Account
 
 **CACTWO-7635** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user is in an account and goes away from their session for long enough for the session to expire, the user is receiving a red error message and is not being taken out to the Login Screen.  This has been corrected. 
+If a user is in an account and goes away from their session long enough for the session to expire, the user is receiving a red error message and is not being taken out to the [Login Screen](https://dolbeysystems.github.io/fusion-cac-web-docs/#hahahugoshortcode1s3hbhb-accessing-the-fusion-cac-coding-application). This has been corrected. 
 
-### Receiving an error when using invalid characters in Document Search
+### Receiving an Error When Using Invalid Characters in Document Search
 
 **CACTWO-7644** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an invalid character is used in Document Search, ie .^$*+-?{}[]()\/|, then an invalid pattern error was showing in the Fuscion CAC log.  This has been updated so that no error occurs, and the Document Search works normally. 
+If an invalid character is used in [Document Search](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#documents-tree), ie .^$*+-?{}[]()\/|, then an invalid pattern error was showing in the Fusion CAC log.  This has been updated so that no error occurs, and the [Document Search](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#search-button) works as expected. 
 
-### Accounts assigned to Audit workgroups were not leaving the workgroup
+### Accounts assigned to Audit Workgroups not Leaving the Workgroup
 
 **CACTWO-7648** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an auditor finished an audit and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected
+If an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) finished an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected
 
-### Update the way diagnosis codes can be added to CPT code charges
+### Update the way Diagnosis Codes can be Added to CPT Code Charges
 
 **CACTWO-7653** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
@@ -208,27 +208,27 @@ The ‘add’ table has been changed to allow better usablilty and readablity of
 
 ![Add Diagnoses to a CPT code](AddDiagnosistoCPTcode2.png)
 
-### E/M charges should not show in some circumstances and remarks should
+### E/M Charges Should not Show in Some Circumstances and Remarks Should
 
 **CACTWO-7658** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 ADD TEXT
 
-### TruCode™ encoder is deleting PCS codes after clicking the 'Submit Codes' link
+### TruCode™ Encoder is Deleting PCS Codes After Clicking the 'Submit Codes' Link
 
 **CACTWO-7659** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user has the TruCode™ encoder open and adds multiple codes via the code book, a code was being dropped when the 'Submit Codes' link was pressed to bring those codes to the Assigned codes tree.  This has been corrected. 
+If a user has the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder open and adds multiple codes via the code book, a code was being dropped when the 'Submit Codes' link was pressed to bring those codes to the Assigned codes tree.  This has been corrected. 
 
 ![Submit Codes link in TruCode™ encoder](SubmitCodesLink.png)
 
-### Scroll Bars in TruCode™ encoder are not working properly
+### Scroll bars in TruCode™ Encoder are not Working Properly
 
 **CACTWO-7660** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user changes the zoom on the encoder from 100%, the scroll bar sometimes does not go all the way to the bottom of the viewer.  This has been corrected. 
+If a user changes the zoom on the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder from 100%, the scroll bar sometimes does not go all the way to the bottom of the viewer.  This has been corrected. 
 
-### TruCode™ encoder has drag and drop issues
+### TruCode™ encoder has Drag and Drop Issues
 
 **CACTWO-7661** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
@@ -238,25 +238,27 @@ In the codes section of TruCode™ encoder, when using drag and drop, the codes 
 
 **CACTWO-7662** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When working in the TruCode™ encoder, if an edits icon appeared on a code indicating that additional codes should be added, clicking the “other codes” link did not open the Code Book in the Edits panel.  This has been corrected. 
+When working in the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder, if an edits icon appeared on a code indicating that additional codes should be added, clicking the “other codes” link did not open the Code Book in the Edits panel.  This has been corrected. 
 
-### TruCode™ encoders needs a units field for CPT codes
+### TruCode™ Encoders Need a Units Field for CPT codes
 
 **CACTWO-7663** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new field has been added to the TruCode™ encoder. A units field will now show at the end of each CPT code line in Outpatient runs. It will default to a count of 1.
+A new field has been added to the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder. A units field will now show at the end of each CPT code line in Outpatient runs. It will default to a count of 1.
 
-### Update Modifier button in TruCode™ encoder
+### Update Modifier Button in TruCode™ Encoder
 
 **CACTWO-7664** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In TruCode™ encoder, the current modifier button was a circle with a link icon located at the end of the CPT code line.   This has been changed to a gray square with a plus sign, and relocated next to the code’s edit button for consistency.
+In [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder, the current modifier button was a circle with a link icon located at the end of the CPT code line.   This has been changed to a gray square with a plus sign, and relocated next to the code’s edit button for consistency.
+
+![TruCode Standalone CPT Units](TCStandaloneCPTUnits.png)
 
 ### Create a Print Button for TruCode™ Standalone
 
 **CACTWO-7665** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Since a right-click print command does not work, a new Print button has been added to the top right of the TruCode™ Standalone page.
+Since a right-click print command does not work, a new Print button has been added to the top right of the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone page.
 
 ![Print Button for TruCode™ Standalone](PrintButtonforStandalone.png)
 
