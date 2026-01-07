@@ -306,99 +306,103 @@ Please note that **this correction is not retroactive**. Existing accounts will 
 
 **CACTWO-7689** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-This enhancement is for Dashboards and User Reports to support multi-level management hierarchies. Managers will now see data for:
-* Their **direct reports**
-* **Indirect reports** (staff managed by their direct reports)
-* **Themselves**, when applicable
+[Dashboards](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/) and [User Reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/) have been enhanced to better support multi-level management hierarchies. Managers will now see data for:
+
+- Direct reports
+- Indirect reports (staff managed by their direct reports)
+- Themselves (when applicable)
 
 This ensures Dashboards and User Reports display only data relevant to a manager’s full reporting structure, rather than all users in the system.
 
-**Important Behavior Change for Administrators**
-Previously, Administrators always saw data for all users in dashboards and reports. With this update:
-* If an Administrator also has the Manager role and assigned staff, Dashboards and User Reports will reflect only that Administrator’s management hierarchy.
-* Administrators who need visibility into all users should not be assigned the Manager role.
+>[!note] Important Behavior Change for Administrators
+>Previously, Administrators always saw data for all users in dashboards and reports. With this update:
+> - If an Administrator also has the Manager role and assigned staff, Dashboards and User Reports will only reflect the management hierarchy.
+> - Administrators who need visibility into *all* users should **not** be assigned the Manager role.
 
-### Create new Locked in Use messaging in accounts
+### Create new Locked in Use Messaging in Accounts
 
 **CACTWO-7690** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If an account is 'Locked in Use', beside the message that pops when a second user tries to open that account, there will now be a line in the Summary of User Actions.  This line will show an Action of Locked in User, along with the User who has the account locked and their role.
+If an account is 'Locked in Use', beside the message that pops when a second user tries to open that account, there will now be a line in the [Summary of User Actions](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/).  This line will show an Action of Locked in User, along with the User who has the account locked and their role.
+
+![Locked in Use in Summary of User Actions](SummaryofUserActionsLockedinUse.png)
 
 > [!info] Additional Configuration Required
-Please contact Support to enable this feature if you have a Custom Code Summary.
+Please contact Support to enable this feature.
 
 ### Account Search not finding CDI Alerts in certain cases
 
 **CACTWO-7695** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a non-CDI Alert Matched Criteria was assigned to an account ahead of CDI Alerts, the Account Search did not display those CDI Alerts in the CDI/Clinical Alerts Drill-Down.  This has been corrected. 
+If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/matched-criteria/) was assigned to an account ahead of CDI Alerts, the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) did not display those CDI Alerts in the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) Drill-Down.  This has been corrected. 
 
 ### Changing patient type in TruCode™ Standalone left partial computations
 
 **CACTWO-7698** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When changing a patient type from Outpatient to Inpatient (or vice versa), the banner bar was not completely clearing during the computation process.  This has been corrected. 
+When changing a patient type from Outpatient to Inpatient (or vice versa) in the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone, the banner bar was not completely clearing during the computation process.  This has been corrected. 
 
 ### Audit Workflow is not recognizing role-based criteria
 
 **CACTWO-7699** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When using a role based criteria in a workflow, such as ‘First Coder Roles’, the criteria was not looking at user roles.  This has been corrected. 
+When using a role based criteria in a [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/), such as ‘First Coder Roles’, the criteria was not looking at user roles.  This has been corrected. 
 
-### Dates in specific XLSX reports are off by one day
+### Dates in Specific XLSX Reports are off by one day
 
 **CACTWO-7706** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The latest version of JS Reports handles XLSX in a different way than previous, which caused some report dates to be off by one (1) day when run as an XLSX report.  This has been corrected. 
+The latest version of JS Reports handles XLSX in a different way than previous, which caused some [report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/) dates to be off by one (1) day when run as an XLSX report.  This has been corrected. 
 
 The correction ensures that dates shown in XLSX reports now match the dates displayed in the corresponding HTML and PDF versions of the same reports, providing consistent and accurate date values across all formats.
 
 *Affected Reports:*
 
-* CDI Query Detail Report
-* Discharged Not Final Coded
-* Engine Outcome Detail per CDI
-* Engine Outcome Detail per Coder
-* AdventHealth custom Secondary Diagnosis Report
+- [CDI Query Detail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-detail-report)
+- [Discharged Not Final Coded](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#discharged-not-final-coded-report)
+- [Engine Outcome Detail per CDI](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#engine-outcome-detail-per-cdi)
+- [Engine Outcome Detail per Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#engine-outcome-detail-per-coder)
+- AdventHealth custom Secondary Diagnosis
 
-### Corrects length-of-stay (LOS) calculations across multiple reports
+### Corrects Length-of-stay (LOS) Calculations Across Multiple Reports
 
 **CACTWO-7709** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 This update corrects length-of-stay (LOS) calculations in several reports to ensure LOS is calculated consistently and accurately based on the standard formula.
 
 Specifically, this release addresses the following issues:
-* **Same-day discharges** are now correctly calculated with an LOS of 1 day instead of 0.
-* **Timezone-related discrepancies** have been resolved so admit and discharge dates reflect the correct local date, preventing LOS from being undercounted when dates fall late in the evening.
-* **Overcounted LOS values** have been corrected where reports were previously adding an extra day.
+- Same-day discharges are now correctly calculated with an LOS of 1 day instead of 0.
+- Timezone-related discrepancies have been resolved so admit and discharge dates reflect the correct local date, preventing LOS from being under counted when dates fall late in the evening.
+- Over counted LOS values have been corrected where reports were previously adding an extra day.
 
 These fixes ensure LOS values are accurate and consistent across affected reports.
 
 *Affected Reports:*
-* Financial Class Outcome by Discharge
-* Discharged Not Final Coded
-* DRG Comparison Report
-* Final Code Count per Account
-* HAC Report
-* Pending Reason Historical Report
-* Prevent on Admission Tracking
-* User Detail
 
-### Error occurring when using Queries drilldown for Account Search reports
+- [Financial Class Outcome by Discharge](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#financial-class-outcome-by-discharge-report)
+- [Discharged Not Final Coded](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#discharged-not-final-coded-report)
+- [DRG Comparison Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#drg-comparison-report)
+- [Final Code Count per Account](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#final-code-count-per-account-report)
+- [HAC Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#hac-report)
+- [Pending Reason Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#pending-reasons-report)
+- [Prevent on Admission Tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#present-on-admission-tracking-report)
+- [User Detail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-detail-report)
+
+### Error Occurring when Using Queries Drill Down for Account Search Reports
 
 **CACTWO-7721** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an account has physician queries and impact query data is recorded for any query on the account with the "Impact Queries" viewer, any scheduled account search with the "Queries" drilldown that would include that query will produce an error.
+If an account has [physician queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) and impact query data is recorded for any query on the account with the "[Impact Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/impact-queries-viewer/)" viewer, any scheduled [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) with the "Queries" [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) that would include that query will produce an error.
 
 With this change, the scheduled account search will no longer error, and the three "Query - Impact" fields (Query - Impact Percent, Query - Impact Dollars or Query - Impact Weight) should be populated.
 
-### Audit Subtype is cleared when closed audit is popped out
+### Audit Subtype is Cleared when Closed Audit is Popped out
 
 **CACTWO-7722** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In a particular instance where a User popped out the Audit Worksheet, then closed the original account page and reopened it, popping the Audit Worksheet back out was resulting in a blank Audit Subtype.  
+In a particular instance where a user popped out the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), then closed the original account page and reopened it, popping the Audit Worksheet back out was resulting in a blank Audit Subtype.  
 
-This was occuring with these conditions, which has been corrected:
+This was occurring with these conditions, which has been corrected:
 
 1.	In a single browser, log in as an Auditor.
 2.	Load an account with a closed audit (preferably just one audit).
@@ -408,50 +412,50 @@ This was occuring with these conditions, which has been corrected:
 6.	Reload the same account from Recent Views.
 7.	Click the pop-out button on Audit Management, then click on the second browser tab (which should already be present) to view it. Note that the audit subtype is erroneously blank. You are also able to go back to the main tab and save the account with a blank audit subtype on a closed audit.
 
-### Pre-Bill DRG data is not being written on certain accounts
+### Pre-Bill DRG Data is not Being Written on Certain Accounts
 
 **CACTWO-7729** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Discharged inpatient accounts that are submitted for the first time from the v2.60 release with a Working DRG and a Final DRG are not recording a PreReconciledDRG property on the account, when the Working DRG and Final DRG matched, affecting some reports.  This has been corrected. 
+Discharged inpatient accounts that are submitted for the first time from the [v2.60](https://dolbeysystems.github.io/fusion-cac-web-docs/release-notes/v2.60/) release with a Working DRG and a Final DRG are not recording a PreReconciledDRG property on the account, when the Working DRG and Final DRG matched, affecting some reports.  This has been corrected. 
 
 > [!info] Additional Configuration Required
 Please contact Support to check if you need a manual change.
 
-### E/M coding is retaining E/M levels when  No Charge is changed
+### E/M Coding is Retaining E/M Levels when No Charge is Changed
 
 **CACTWO-7734** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a User initially sets up an E/M Coding worksheet to have a No Charge set as None, they get E/M levels.  These show in the Summary at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
+If a user initially sets up an [E/M Coding](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) worksheet to have a No Charge set as None, they get E/M levels.  These show in the [Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#em-summary) at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
 
-### 'Select an item' is being saved in fields that should be ‘null’
+### 'Select an item' is Being Saved in Fields that Should be ‘null’
 
 **CACTWO-7737** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a User selects a dropdown item in a worksheet, then ‘deselects’ it by going back to the top of the dropdown and selecting ‘Select an item’, those words are being saved in the field when it should be saved as ‘null’.  This has been corrected.
+If a user selects a dropdown item in a worksheet, then ‘deselects’ it by going back to the top of the dropdown and selecting ‘Select an item’, those words are being saved in the field when it should be saved as ‘null’.  This has been corrected.
 
-### Add a refresh button to the Scheduled Reports page
+### Add a Refresh Button to the Scheduled Reports page
 
 **CACTWO-7752** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A refresh button has been added to the Scheduled Report page, and will appear next to the name of the report. Pressing this will update that report page for any changes, and will also update the Run History.
+A refresh button has been added to the [Scheduled Reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) page, and will appear next to the name of the report. Pressing this will update that report page for any changes, and will also update the Run History.
 
 ![Refresh Button for Scheduled Reports](RefreshButton.png)
 
-### The Audit Abstract report is erroring when using a filter
+### The Audit Abstract Report is Erroring when Using a Filter
 
 **CACTWO-7787** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The Audit Abstract Report errors when filtered by Category and/or Facility.  This has been corrected.
+The [Audit Abstract Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#audit-abstract-report) errors when filtered by Category and/or Facility.  This has been corrected.
 
-### CDI Alerts report showing no data under certain situations
+### CDI Alerts Report Showing no data Under Certain Situations
 
 **CACTWO-7788** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When running the CDI Alerts report, if it was filtered by Catetory/Facility, it resulted in no data being returned.  This has been corrected.
 
-### Denial Worksheets are showing blank
+### Denial Worksheets are Showing Blank
 
 **CACTWO-7792** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-An issue was occuring where if a User went back to add data to an old  Denial Worksheet, such as an appeal, the sheet was showing with no data unless the User tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
+An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
 
