@@ -208,11 +208,11 @@ The ‘add’ table has been changed to allow better usablilty and readablity of
 
 ![Add Diagnoses to a CPT code](AddDiagnosistoCPTcode2.png)
 
-### E/M Charges Should not Show in Some Circumstances and Remarks Should
+### E/M Charge Handling and Comment Entry Fixes
 
 **CACTWO-7658** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-ADD TEXT
+When a client changes an account from an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module)-coded account to a non-E/M account, the system will now prevent Auditors from pulling in E/M charges. Additionally, an issue where the comment bubble on E/M charge codes did not allow remarks to be entered has been resolved. 
 
 ### TruCode™ Encoder is Deleting PCS Codes After Clicking the 'Submit Codes' Link
 
