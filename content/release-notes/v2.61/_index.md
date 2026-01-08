@@ -459,3 +459,14 @@ When running the CDI Alerts report, if it was filtered by Catetory/Facility, it 
 
 An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
 
+### Invalid Codes are Able to be Transferred to Other Accounts
+
+**CACTWO-7772** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When using the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) option in the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), it is allowing codes that are invalid to be transferred to a newer account.  This has been changed.  A new red toast message will appear showing the code and stating it is invalid and cannot be transferred.
+
+### Open CDI Audits Were not Showing the Correct Color
+
+**CACTWO-7796** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), an open [CDI Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) on a multiple audit account should show as red lettered, but it was showing as tan, for an earlier closed audit.  This has been corrected.
