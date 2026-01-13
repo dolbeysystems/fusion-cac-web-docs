@@ -275,6 +275,9 @@ weight = 10
 |Abstracting Error Rate|Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes/Abstracting Pre-Audit.|		
 |Abstracting Errors |Procedure (PCS/CPT) Date Changes + Procedure (PCS/CPT) Provider Changes + Discharge Disposition Changes + Consulting Provider Changes.|		
 |Abstracting Pre-Audit|(Total Procedure and CPT Codes x 2) + 1 for Discharge Disposition + 1 for Consulting Providers if Present). Procedure and CPT Codes are multiplied by two since there are to abstraction opportunities which is date of service and preforming provider.|		
+|Audit - Charge Accuracy Rate|Charge Accuracy Rate = (1 - (Charge Errors / Charges Audited)) * 100|
+|Charges Audited Rate|Total number of possible charge errors that could be corrected by the auditor. Higher of (Charge Pre Audit Count + Charge Pre Modifier Count) or (Charge Post Audit Count + Charge Post Modifier Count)|
+|Charge Error Rate|Total number of charge errors reported by the auditor. Total charges added + Total charges edited (change in CPT Code) + Total charges deleted + Total charge modifiers added + Total charge modifiers deleted|
 |CPT Accuracy Rate|(CPT Codes Added + CPT Codes Edited + CPT Codes Unassigned + Principal CPT Changed/CPT Codes Pre-Audit) – 100%|
 |CPT Error Rate|Procedure Codes Added + Procedure Codes Edited + Procedure Codes Unassigned + Principal CPT Changed/CPT Codes Pre-Audit|
 |CPT Errors|CPT Codes Added + CPT Codes Edited + CPT Codes Unassigned + Principal CPT Changed|
