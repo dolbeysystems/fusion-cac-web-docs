@@ -121,9 +121,9 @@ weight = 10
 |First CDI Saver First Name     |This is the first CDI saver first name on the patient chart. |
 |First CDI Saver Last Name      |This is the first CDI saver last name on the patient chart. |
 |First Coded Date               |This is the first time the chart was submitted. |
-|First Coder First Name         |This is the first users first name that submitted the chart. |
-|First Coder Last Name          |This is the first users last name that submitted the chart. |
-|First Coder User ID            |This is the first users user Id that submitted the chart. |
+|First Coder First Name         |This is the first name of the first (non CDI Specialist or Phsycian Coder) user to save the chart with an assigned code. |
+|First Coder Last Name          |This is the last name of the first (non CDI Specialist or Phsycian Coder) user to save the chart with an assigned code. |
+|First Coder User ID            |This is the User ID of the first (non CDI Specialist or Phsycian Coder) user to save the chart with an assigned code. |
 |First CPT Code                 |This is the first sequenced CPT code coded by a coder. |
 |First Diagnosis Code           |This is the first sequenced Diagnosis code coded by a coder. |
 |First Procedure Code           |This is the first sequenced Procedure PCS code coded by a coder. |
