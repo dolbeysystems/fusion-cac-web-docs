@@ -85,3 +85,41 @@ Supporting evidence is defined as the components within the chart that were used
 
 The supporting details help the user understand why the engine suggested a code. Clicking on the down arrow next to the code will show the words/phrases used to create the code. This linkage will allow users to determine if the code is correct or if it tried to put two thoughts together together incorrectly. 
   
+## Best Practice: Reviewing Suggested Codes
+
+#### Step 1: Review the Unassigned Codes Tree
+
+The [Unassigned Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#unassigned-codes) tree is your starting point when opening an account. All codes suggested by the engine will initially appear in this tree.
+
+Begin with a quick scan of the list to gain a general understanding of the patient’s documented conditions. This brief review provides helpful context before you begin reading the chart and validating or assigning codes.
+
+> [!note] Important: At this stage, do not click on individual codes. This step should be a high-level overview only.
+
+#### Step 2: Review Documents and Begin Coding
+
+After scanning the Unassigned Codes tree, move to the [Documents tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#document-tree) and begin reviewing the documentation necessary for coding.
+
+##### Validate Codes as Needed
+
+- As you read, If you encounter a suggested code from the engine and determine it is needed, right-click the code to add it to the [Assigned Codes tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#assigned-codes).
+- If the suggested code is not needed, ignore it and continue reviewing the documentation.
+
+##### When You Identify a Condition That Needs a Code
+
+If you find a term that requires coding but do not immediately see a suggested code within the document:
+- Check the Unassigned Codes tree to see if the code is already listed.
+- If the code appears in the Unassigned Codes tree, right-click the code from the Unassigned Codes tree and assign it as secondary. (Code position - such as principal, admit reason or visit reason can be determined later.)
+  
+> [!note] Important: Always right-click the code from the Unassigned Codes tree if you intend to use it. 
+> Right-clicking moves the code to the Assigned Codes tree without navigating away from your current location in the document. Left-clicking will redirect you to another location in the chart and interrupt your workflow.
+
+##### If No Code Was Suggested
+
+If a condition needs to be coded and:
+- No code was suggested in the document and
+- The code does not appear in the Unassigned Codes tree
+  
+Then:
+- Highlight the relevant word or phrase (double-click a word or click and drag to highlight a phrase).
+- Right-click and select Add Code from Encoder.
+- Use the Encoder to locate and assign the appropriate code.
