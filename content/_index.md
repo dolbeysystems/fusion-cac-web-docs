@@ -30,11 +30,6 @@ Fusion CAC works on *recent versions* of the following web browsers:
          style="width: 120px">
     <figcaption>Microsoft Edge</figcaption>
   </figure>
-  <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Mozilla_Firefox_logo_2013.svg"
-         style="width: 120px">
-    <figcaption>Mozilla Firefox</figcaption>
-  </figure>
 </div>
 
 
