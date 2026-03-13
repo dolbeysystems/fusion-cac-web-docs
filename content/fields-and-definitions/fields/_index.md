@@ -168,6 +168,7 @@ weight = 10
 |Location                       |This field can store the location but, commonly the location is stored within the building field not the location field. |,,,,
 |Locked By                      |This is the current user that has the account locked which is defined by actively in use. |
 |Locked Date/Time               |This is the date and time the account became locked in use by the current user. |
+|LOS Difference                 |This subtracts the DRG's GMLOS from the account's length of stay.|
 |New Document Flag              |Computed to true if any documents were imported onto account after the last time the account was saved. The user would see in the accounts grid a check mark to indicate True; Not accessible in Query or Worksheet Designer |
 |Next Review Date               |This field can be changed to a different date other than the default which is every day. This field is used by the CDI team to indicate the date that they want the chart routed back to the follow-up review worklist. This field can be found on the code summary page changing the calendar date field from the date displayed to a future date. This will tell the chart to not route back to the “Follow-up Review” until the current calendar date matches the date you changed the next review date to. |
 |Owner First Name               |This is the current Owners first name. An ownership can be claimed by selecting the owner button on the code summary viewer. |
@@ -256,6 +257,7 @@ weight = 10
 |Working GLOS                   |This is the working DRG GMLOS. |
 |Working HAC Total              |This is the working HAC total count. |
 |Working HCC Total              |This is the working HCC total count. |
+|Working LOS Total              |This subtracts the Working DRG's GMLOS from the account's length of stay.|
 |Working MCC Total              |This is the working MCC total count. |
 |Working PPC Total              |This is the working PPC total count. |
 |Working Principal CPT Code     |This is used to identify working principal CPT Codes. |
