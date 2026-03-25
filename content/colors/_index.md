@@ -34,13 +34,14 @@ The viewer name will turn red to alert the user that action is needed.
 
 ### Code Summary
 
-|Symbol/Color   |Meaning   |
-|---------------|----------|
-|Blue/Red Circles Containing Numbers|These circles with numbers next to each code are the Risk of Mortality (ROM) and Severity of Illness (SOI) which can be values 1-4, this information comes from the APR-DRG which is a priority grouper licensed from Solventum GPCS. ![ROM SOI Circles](ROMSOICircles.png)|
-|P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
-|Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
+##### Show History
 
-### Validation Results
+![Transferred Codes](TransferedAccountCodes.png)
+![Transferred Codes](TransferedCodes.png)
+
+Codes that have been added to an account via the Transfer Account  Codes viewer ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history) viewer. When hovering over the icon, a statement will disply to indicate which account the codes were transferred from.
+
+##### Validation Results
 
 ![Validation Results](image-584.png)
 ![Informational Validation Rule](InfoValidationRule.png)
@@ -50,6 +51,22 @@ The viewer name will turn red to alert the user that action is needed.
 **Yellow**: This color is associated with validation soft stop used to notify a user that there may be things that they need to resolve. It **does not** prevent the user from submitting the chart.
 
 **Blue**: This color indicates a message to the end user for informational purposes. It **does not** prevent the user from submitting the chart.
+
+##### Assigned Diagnosis Codes
+
+![ROM SOI Circles](ROMSOICircles.png)
+
+The red and blue circles with numbers next to each code are the Risk of Mortality (ROM) and Severity of Illness (SOI) which can be values 1-4, this information comes from the APR-DRG which is a priority grouper licensed from Solventum GPCS.
+
+![Principal Diagnosis Icon](PrincipalIcon.png)
+
+A P next to a code indicates the diagnosis is a principal.
+
+##### Visit Reasons
+
+![Visit Reasons Numbers](VisitReasons.png)
+
+The number to the left of the code indicates the position number of visit reason.
 
 ### Physicians & Queries
 
