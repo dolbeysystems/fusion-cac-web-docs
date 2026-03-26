@@ -232,7 +232,7 @@ CDI activity specifically on the number of initial reviews (first time a CDI rev
 follow up reviews (reviews beyond the first time a CDI reviews a chart), queries issued, agreed upon
 query amounts, and the number of days we show activity occurring. The Total column calculates the combined statistics for all months within the report.  By comparison, the Average column calculates the average statistics per month within the report. 
 
-![CDI Metric Score Card](CDIMetricScoreCared.png)
+![CDI Metric Score Card](CDIMetricScoreCard.png)
 
 #### CDI Productivity - Admission Month Report
 

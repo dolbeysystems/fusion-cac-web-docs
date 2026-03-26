@@ -14,11 +14,15 @@ When creating a [scheduled report](https://dolbeysystems.github.io/fusion-cac-we
 
 ![Scheduled Reports Frequency Options](ScheduleReportsFrequency.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Replace PSI 04 with a new Failure to Rescue Measure
 
 **CACTWO-6787** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}** 
 
 A new failure to rescue code of ISCMR will now show concurrently with [PSI](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/#psi-indicators) 04 when it applies, but it will be completely replacing PSI 04 in the future. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Allow Scheduled Reports to be Restricted to Particular Domains
 
@@ -32,6 +36,8 @@ A new setting will now stop [scheduled reports](https://dolbeysystems.github.io/
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Make Mapping Titles more Noticeable
 
 **CACTWO-7274** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -39,6 +45,8 @@ Please contact Support to enable this feature.
 [Mapping table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) titles are now in blue to make them stand out better when a user is browsing a long list. Previously they were grey and did not stand out.
 
 ![Mapping Configuration Title](MappingConfigurationTitle.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Enable Columns in Account Search to be Filterable
 
@@ -48,6 +56,8 @@ The [columns](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative
 
 ![Filter Columns in Account Search](AccountSearchColumnsFilter.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### In Audit Worksheet, add APC Calculation Display
 
 **CACTWO-7515** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -56,17 +66,23 @@ For accounts with charges, the [Audit Worksheet](https://dolbeysystems.github.io
 
 ![Display APC Calculation in Audit Viewer](AuditViewerAPCCalc.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Remove Trailing Blank Spaces in Pending Reason Note
 
 **CACTWO-7525** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 Currently when adding a [note to a pending reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/#pending-reason-notes), any trailing blank spaces are being saved to the record.  This has now been changed to discard trailing blank spaces upon saving the note.  
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Add 'Total' Column to the CDI Metric Score Card Report
 
 **CACTWO-7551** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 A new 'Total' column has been added to the [CDI Metric Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-metric-score-card) which calculates the combined statistics for all months within the report.  By comparison, the Average column calculates the average statistics per month within the report. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Dashboard will not Display Audit Sections if There is no Data
 
@@ -76,12 +92,16 @@ On the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web
 - If both Inpatient and Outpatient audit data are available, both section headers will appear on the user’s Dashboard, each displaying its corresponding audit details.
 - If no audit data exists at all, both headers will still display, but instead of data, each section will show the message: “No audits performed since last month.
 - If audit data exists for only one category (e.g., Inpatient audits are available but Outpatient audits are not), the Dashboard will display only the header(s) with available data, along with the corresponding audit information.
+  
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add User Name to CDI Metric Score Card When Sent as XLSX
 
 **CACTWO-7575** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 If the [CDI Metric Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-metric-score-card) report is run as XLSX and has multiple users on it, it will now split the names out on separate tabs in the XLSX report. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Added 'Audit - Modifiers' columns to the Audits drilldown in Account Search
 
@@ -95,11 +115,15 @@ Two new total columns have been added to the Audits [Drilldown](https://dolbeysy
 
 These will record the total based on the number of modifiers on the CPT codes or Charges.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### PC-06 Designation Updated for January 2026
 
 **CACTWO-7584** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 The [PC-06 algorithm](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/#pc-06-indicator) has been updated for January 2026 changes. This allows for a PC-06 designation for accounts that have a Discharge Disposition of ‘Transfer’ as well as ‘Expired’. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Remove the 'No' Option From the Final DRG Reconciliation box
 
@@ -110,6 +134,8 @@ An option has been added to hide the ‘No’ answer from the Final DRG Reconcil
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Add Total Time Line to Forced Autoload Dashboard
 
 **CACTWO-7597** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -118,11 +144,15 @@ For the sake of continuity, the line for 'Total Time Logged In' has been added t
 
 ![Total Time Logged in Force Autoload Dashboard](ForceAutoLoadTotalTime.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### When Moving Between Viewers they were marked as read-only
 
 **CACTWO-7604** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 Under specific circumstances, when moving back and forth between viewers, [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#starting-an-audit) were being marked as read-only and user was unable to reopen and edit.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### TruCode link to crosswalks was not opening
 
@@ -130,11 +160,15 @@ Under specific circumstances, when moving back and forth between viewers, [audit
 
 While the link for accessing crosswalks in [TruCode](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) was present, it had yet to be implemented. That has now been added so that users can use the crosswalks. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Updates Made to Description of Several Reports
 
 **CACTWO-7616** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 The descriptions of the [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and the [CDI Query Score Card by Admission Month](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-by-admission-month) have been updated. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Sync Between Workgroup Criteria Changes was not Working
 
@@ -142,11 +176,15 @@ The descriptions of the [CDI Query Score Card](https://dolbeysystems.github.io/f
 
 When multiple users were in the same [workgroup criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#workgroup-level-criteria), the ‘sync change’ ability was not working.  This has been corrected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Mass Edit is not working for 'All' when adding Dx codes to CPT codes
 
 **CACTWO-7630** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a user checked the 'ALL' button at the top of the CPT column in [Mass Editing](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/#mass-editing-codes) and added a DX code to the first CPT code, it was not being carried down to all of the CPT codes like it should.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add new Working DRG Fields in Account Search
 
@@ -160,11 +198,15 @@ If a user checked the 'ALL' button at the top of the CPT column in [Mass Editing
 
 ![New Baseline Total Fields](BaslineAccountSearchFields.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Mappings not Showing all Columns When Using CSV Option
 
 **CACTWO-7632** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When exporting a CSV in [Mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), some of the newly added columns were missing from the report.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add Check Mark Next to Codes in Inpatient Accounts
 
@@ -180,11 +222,15 @@ A checkmark will now appear to the right of the diagnosis and procedure code(s) 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Session Expiration is Locking User in Account
 
 **CACTWO-7635** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a user is in an account and goes away from their session long enough for the session to expire, the user is receiving a red error message and is not being taken out to the [Login Screen](https://dolbeysystems.github.io/fusion-cac-web-docs/#hahahugoshortcode1s3hbhb-accessing-the-fusion-cac-coding-application). This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Receiving an Error When Using Invalid Characters in Document Search
 
@@ -192,11 +238,15 @@ If a user is in an account and goes away from their session long enough for the 
 
 If an invalid character is used in [Document Search](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#documents-tree), ie .^$*+-?{}[]()\/|, then an invalid pattern error was showing in the Fusion CAC log.  This has been updated so that no error occurs, and the [Document Search](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#search-button) works as expected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Accounts assigned to Audit Workgroups not Leaving the Workgroup
 
 **CACTWO-7648** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) finished an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected
+If an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) finished an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Update the way Diagnosis Codes can be Added to CPT Code Charges
 
@@ -208,11 +258,15 @@ The ‘add’ table has been changed to allow better usablilty and readablity of
 
 ![Add Diagnoses to a CPT code](AddDiagnosistoCPTcode2.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### E/M Charge Handling and Comment Entry Fixes
 
 **CACTWO-7658** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When a client changes an account from an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module)-coded account to a non-E/M account, the system will now prevent Auditors from pulling in E/M charges. Additionally, an issue where the comment bubble on E/M charge codes did not allow remarks to be entered has been resolved. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### TruCode™ Encoder is Deleting PCS Codes After Clicking the 'Submit Codes' Link
 
@@ -222,11 +276,15 @@ If a user has the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-do
 
 ![Submit Codes link in TruCode™ encoder](SubmitCodesLink.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Scroll bars in TruCode™ Encoder are not Working Properly
 
 **CACTWO-7660** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a user changes the zoom on the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder from 100%, the scroll bar sometimes does not go all the way to the bottom of the viewer.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### TruCode™ encoder has Drag and Drop Issues
 
@@ -234,17 +292,23 @@ If a user changes the zoom on the [TruCode™](https://dolbeysystems.github.io/f
 
 In the codes section of TruCode™ encoder, when using drag and drop, the codes were getting stuck.  This has been corrected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### TruCode™ encoder links are not working
 
 **CACTWO-7662** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When working in the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder, if an edits icon appeared on a code indicating that additional codes should be added, clicking the “other codes” link did not open the Code Book in the Edits panel.  This has been corrected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### TruCode™ Encoders Need a Units Field for CPT codes
 
 **CACTWO-7663** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 A new field has been added to the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) encoder. A units field will now show at the end of each CPT code line in Outpatient runs. It will default to a count of 1.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Update Modifier Button in TruCode™ Encoder
 
@@ -254,6 +318,8 @@ In [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user
 
 ![TruCode Standalone CPT Units](TCStandaloneCPTUnits.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Create a Print Button for TruCode™ Standalone
 
 **CACTWO-7665** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -262,11 +328,15 @@ Since a right-click print command does not work, a new Print button has been add
 
 ![Print Button for TruCode™ Standalone](PrintButtonforStandalone.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Informational Warning Popping During Submission of Account
 
 **CACTWO-7667** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When there is an informational warning on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) page, if the account was subsequently submitted, a warning box is popping asking the user if they want to go ahead with the submission, which should not be happening.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Allow DRG to Auto Compute when Selected from Dx Analysis Button
 
@@ -274,11 +344,15 @@ When there is an informational warning on the [Code Summary](https://dolbeysyste
 
 When using the [Principal DX Analysis](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/#principal-dx-analysis) button when computing a [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) DRG, the diagnosis changes, but the DRG has to be recomputed.  This has been changed so that if a different diagnosis is selected from the Principal DX  Analysis dropdown, the DRG will automatically compute in the banner bar. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Add More Date Options to Audit Workflow
 
 **CACTWO-7679** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 When setting time for [Audit workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit) to run, the days of the 29th, 30th and 31st have been added. If a month occurs that does NOT have the date set (such as setting for the 31st) the month will not run an Audit workflow. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Auditor cannot close audit if account type is changed
 
@@ -286,11 +360,15 @@ When setting time for [Audit workflow](https://dolbeysystems.github.io/fusion-ca
 
 If an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) was started and left open on an account that then had its type changed from inpatient to outpatient, when the Auditor went back in to the audit, it was unable to be closed. This has been corrected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### CDI Alert Links to Document not Working
 
 **CACTWO-7684** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a document was archived (which occurs when a [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) saves or submits a chart), [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Drafted Queries are not Being Counted Correctly
 
@@ -301,6 +379,8 @@ This release corrects an issue where [physician query](https://dolbeysystems.git
 With this update, physician query draft counts and filters now correctly reflect only true draft queries, ensuring accurate Account Search results and reporting.
 
 Please note that **this correction is not retroactive**. Existing accounts will reflect the updated behavior after the account is re-saved or re-submitted.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add hierarchical user-to-manager assignments for dashboard  and user reports
 
@@ -319,6 +399,8 @@ This ensures Dashboards and User Reports display only data relevant to a manager
 > - If an Administrator also has the Manager role and assigned staff, Dashboards and User Reports will only reflect the management hierarchy.
 > - Administrators who need visibility into *all* users should **not** be assigned the Manager role.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Create new Locked in Use Messaging in Accounts
 
 **CACTWO-7690** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -330,11 +412,15 @@ If an account is 'Locked in Use', beside the message that pops when a second use
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Account Search not finding CDI Alerts in certain cases
 
 **CACTWO-7695** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/matched-criteria/) was assigned to an account ahead of CDI Alerts, the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) did not display those CDI Alerts in the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) Drill-Down.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Changing patient type in TruCode™ Standalone left partial computations
 
@@ -342,11 +428,15 @@ If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac
 
 When changing a patient type from Outpatient to Inpatient (or vice versa) in the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone, the banner bar was not completely clearing during the computation process.  This has been corrected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Audit Workflow is not recognizing role-based criteria
 
 **CACTWO-7699** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When using a role based criteria in a [workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/), such as ‘First Coder Roles’, the criteria was not looking at user roles.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Dates in Specific XLSX Reports are off by one day
 
@@ -363,6 +453,8 @@ The correction ensures that dates shown in XLSX reports now match the dates disp
 - [Engine Outcome Detail per CDI](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#engine-outcome-detail-per-cdi)
 - [Engine Outcome Detail per Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#engine-outcome-detail-per-coder)
 - AdventHealth custom Secondary Diagnosis
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Corrects Length-of-stay (LOS) Calculations Across Multiple Reports
 
@@ -388,6 +480,8 @@ These fixes ensure LOS values are accurate and consistent across affected report
 - [Prevent on Admission Tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#present-on-admission-tracking-report)
 - [User Detail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-detail-report)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Error Occurring when Using Queries Drill Down for Account Search Reports
 
 **CACTWO-7721** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
@@ -395,6 +489,8 @@ These fixes ensure LOS values are accurate and consistent across affected report
 If an account has [physician queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) and impact query data is recorded for any query on the account with the "[Impact Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/impact-queries-viewer/)" viewer, any scheduled [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) with the "Queries" [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) that would include that query will produce an error.
 
 With this change, the scheduled account search will no longer error, and the three "Query - Impact" fields (Query - Impact Percent, Query - Impact Dollars or Query - Impact Weight) should be populated.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Audit Subtype is Cleared when Closed Audit is Popped out
 
@@ -412,6 +508,8 @@ This was occurring with these conditions, which has been corrected:
 6.	Reload the same account from Recent Views.
 7.	Click the pop-out button on Audit Management, then click on the second browser tab (which should already be present) to view it. Note that the audit subtype is erroneously blank. You are also able to go back to the main tab and save the account with a blank audit subtype on a closed audit.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Pre-Bill DRG Data is not Being Written on Certain Accounts
 
 **CACTWO-7729** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
@@ -421,17 +519,23 @@ Discharged inpatient accounts that are submitted for the first time from the [v2
 > [!info] Additional Configuration Required
 Please contact Support to check if you need a manual change.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### E/M Coding is Retaining E/M Levels when No Charge is Changed
 
 **CACTWO-7734** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a user initially sets up an [E/M Coding](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) worksheet to have a No Charge set as None, they get E/M levels.  These show in the [Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#em-summary) at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### 'Select an item' is Being Saved in Fields that Should be ‘null’
 
 **CACTWO-7737** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If a user selects a dropdown item in a worksheet, then ‘deselects’ it by going back to the top of the dropdown and selecting ‘Select an item’, those words are being saved in the field when it should be saved as ‘null’.  This has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Add a Refresh Button to the Scheduled Reports page
 
@@ -441,11 +545,15 @@ A refresh button has been added to the [Scheduled Reports](https://dolbeysystems
 
 ![Refresh Button for Scheduled Reports](RefreshButton.png)
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### The Audit Abstract Report is Erroring when Using a Filter
 
 **CACTWO-7787** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 The [Audit Abstract Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#audit-abstract-report) errors when filtered by Category and/or Facility.  This has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### CDI Alerts Report Showing no data Under Certain Situations
 
@@ -453,17 +561,23 @@ The [Audit Abstract Report](https://dolbeysystems.github.io/fusion-cac-web-docs/
 
 When running the CDI Alerts report, if it was filtered by Catetory/Facility, it resulted in no data being returned.  This has been corrected.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Denial Worksheets are Showing Blank
 
 **CACTWO-7792** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Invalid Codes are Able to be Transferred to Other Accounts
 
 **CACTWO-7772** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When using the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) option in the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), it is allowing codes that are invalid to be transferred to a newer account.  This has been changed.  A new red toast message will appear showing the code and stating it is invalid and cannot be transferred.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Open CDI Audits Were not Showing the Correct Color
 
