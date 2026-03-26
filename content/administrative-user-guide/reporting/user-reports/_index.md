@@ -718,6 +718,10 @@ date range on this report is the ChangeHistory Audit Date (Submitted actions).
 
 ![User Detail Report](UserDetail.png)
 
+#### User Login Report
+
+This report shows the login/logout activity of the user. If an inactivity reason was recorded by the user, then the prior logout will be listed as ‘inactivity’ instead of logout and the inactivity reason will be recorded in its own column. Date range available is 31 days, the report will never show the current day’s activity. 
+
 #### User Session Log Report
 
 This report shows the users log showing the Checkout time (when user went into the account), Checkin
