@@ -132,3 +132,115 @@ When accessed, a selection dialog will display available auditors based on the a
 
 ![Change Auditor Button](ChangeAuditor.png)
 ![Change CDI Auditor Button](ChangeCDIAuditor.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### AG-Grid had Been Updated to the Latest Version
+
+**CACTWO-7636** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Enable Time Zone Entry for Specific Reports
+
+**CACTWO-7637** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new mapping called ‘Timezone’, will allow for timezone entry on 4 [reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/): [User Audit Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report), [User Detail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-detail-report), [User Login Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-login-report) and [User Session Log](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-session-log-report).  This will be helpful for clients who have coders that work across time zones.
+
+> [!info] Additional Configuration Required
+Please contact Support to enable this feature.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Modifier Column to Outpatient Coder Scorecard Report
+
+**CACTWO-7641** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new column has been added to the [Outpatient Coder Scorecard report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard); CPT Modifier Count.  This is the total number of modifiers involved in the audit of an outpatient account. This is a retroactive change. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add HCC to Outpatient Shift Reasons
+
+**CACTWO-7647** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+‘HCC’ has been added to the [shift reason](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons) dialog for outpatient physician queries.  
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Retain Minimized Encoder when Editing an Assigned Code
+
+**CACTWO-7651** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+If the [Code Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/) is minimized when editing an assigned code, it will not close if the user moves to other areas of an account’s detail.  But if the code is edited from the document or document code list, the editor will be closed if the user moves to another document. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow Custom Roles to Populate the Change Dropdown in Audits
+
+**CACTWO-7708** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Custom Roles can be [created](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/#create-a-new-role) that will be seen in the ‘Change Coder of Record’ dropdown in an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), and the ‘Change CDI of Record’ dropdown in a [CDI Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/).  
+
+For "Coder of Record" in [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), in addition to users with the role of "Coder" or "Auditors", users with roles enabled with the following privileges are now included:
+
+- Audit accounts as an Auditor
+- Edit accounts as a Coder
+- Edit accounts as a Single Path Coder
+
+For "CDI Specialist of Record" in [CDI Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/), in addition to users with the role of "CDI Specialist" or "CDI Auditor," users with roles enabled with the following privileges are now included:
+
+- Audit accounts as a CDI Auditor
+- Edit accounts as a CDI Specialist
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Pending Reasons to the User Audit Trail Report
+
+**CACTWO-7710** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The [User Audit Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-audit-trail-report) will now show two additional message lines; a line for if a pending reason was added, and a line for is a pending reason has been deleted.  
+
+![Pending Reason Added/Deleted User Audit Trail](PendingAddedDeleted.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add CDI Query Count to CDI Management Dashboard
+
+**CACTWO-7716** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Two new lines of data have been added to the [CDI Management dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-management-dashboard) under the CDI Summary pane; CDI Queries Sent Today, and CDI Queries Sent in Last 7 Days.  These will also have a drill-down leading to detailed pages for those statistics. 
+
+![Lines of data Added to CDI Summary on CDI Management Dashboard](AddedToCDISummary.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Plus Buttons in DRG Reconciliation Viewer to add Codes
+
+**CACTWO-7756** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A plus sign has been added to the left of the codes in the [DRG Reconciliation Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/) to allow for easy additions to the Working DRG and Final DRG.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add new Field of "Pending Reason Date Added (First)"
+
+**CACTWO-7758** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new field has been added to [Grid Maintenance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/), ‘Pending Reason Date Added (First)'.  This will also show as a choice in the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) and [Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) Criteria dropdowns. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change Dashboard to not Show '5,000+' as Total
+
+**CACTWO-7771** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#work-available-queue) on the Dashboard shows any total over 5000 as 5000+.  This has been changed to show the exact number of accounts.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### The Validation Management Display and CSV Export have been Updated
+
+**CACTWO-7800 and 7801** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+For consistency within Fusion, the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) page has been updated to look and act like the [Workflow Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) and [Scheduled Reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) pages.  The functionality of adding, deleting, editing and copying all remain the same.  The csv report has also been updated for better usability.
