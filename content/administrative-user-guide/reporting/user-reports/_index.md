@@ -207,6 +207,15 @@ tell you what opportunities may have been missed
 
 ![CC/MCC Capture Rate](ccmccCapRate.png)
 
+#### CDI Alerts Impact Report
+
+This report allows the user to see what the overall impact on CDI Alerts. It gives the user insight on how impactful the CDI Alert was. It will allow user to see not only if the Alerts are having an impact, but also how much benefit the Alert was. It also shows us which Alerts may be having little to no impact and may need to be adjusted accordingly.
+
+>[!note] CDI Alerts Required
+> CDI Alerts must be implemented to use this report. The date range is based on the admite date of the chart, which must be inpatient and have MatchedCriteriaGroups validated CDI Alerts. 
+
+![CDI Alerts Impact Report](CDIAlertsImpactReport.png)
+
 #### CDI Executive Summary Report
 
 This report is an executive level view broken down per month that shows total discharges vs. total

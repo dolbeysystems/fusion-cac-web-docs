@@ -12,6 +12,8 @@ title = 'V2.62 (Apr 2026)'
 
 A new report titled "[User Login](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-login-report)" has been created. This will show the login/logout activity of the user. If an inactivity reason was recorded by the user, then the prior logout will be listed as ‘inactivity’ instead of logout and the inactivity reason will be recorded in its own column.  Date range available is 31 days, the report will never show the current day’s activity.
 
+![User Login Report](UserLoginReport.png)
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Allow a Secondary Sort in Workflow Management
@@ -264,3 +266,12 @@ Previously, routing a submitted account to a user or workgroup would automatical
 In [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/), when using the ‘[for each](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/#for-each-check-box)’ option and selecting Denials from the list, a list of Denial options will be opened to complete the validation rule. 
 
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Column to the CDI Alerts Impact Report
+
+**CACTWO-7820** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new column, ‘Query Template’ has been added to the CDI Alert Impact Report, and it appears to the left of the Account Number column.  The Date range of the report has also been updated to pull from the Admist Date, not the Query Created Date.
+
+![CDI Alerts Impact Report Query Template Column](CDIAlertsImpactQueryTemp.png)
