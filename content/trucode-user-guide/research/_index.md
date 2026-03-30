@@ -39,7 +39,7 @@ The Research pane contains information applicable to the selected code. The foll
 - **AHA Coding Handbook** – AHA ICD-10-CM and ICD-10-PCS Coding Handbook is a guide to ICD-10-CM and ICD-10-PCS coding.
 - **Anesthesia Crosswalk** – Anesthesia Crosswalk is a mapping between surgical CPT and HCPCS codes and anesthesia CPT and HCPCS codes. Using anesthesia crosswalk you can gather surgical and anesthesia CPT or HCPCS codes simultaneously.
 - **Coders’ Desk Reference** – Optum Coders’ Desk Reference for Procedures provides descriptions of CPT codes.
-- **Coding Advice** – Coding Advice is additional coding instructions, authored by TruCode and based on official sources. 
+- **Coding Advice** – Coding Advice is additional coding instructions, authored by TruBridge (TTruCode) and based on official sources. 
 - **Coding Clinic** – American Hospital Association (AHA) Coding Clinic for ICD-9-CM, Coding Clinic for HCPCS, and Coding Clinic for ICD-10-CM / PCS provide coding advice. The articles related to the selected code appear in reverse chronological order.
 - **CPT Assistant®** – American Medical Association (AMA) CPT Assistant® provides CPT and HCPCS coding guidance. The articles related to the selected code appear in reverse chronological order. 
 - **Crosswalk** – Crosswalk is a mapping between ICD-9-CM procedure codes and associated CPT codes. Using crosswalk you can gather ICD-9-CM and CPT codes simultaneously.
@@ -109,7 +109,7 @@ Edits for an encounter are shown on the Edits pane and are separated into the fo
 
 - **Medicare code edits** – These edits are developed by CMS for inpatient encounters.
 - **Outpatient code edits** – These edits are developed by CMS for outpatient encounters. Either the Outpatient Prospective Payment System (OPPS) or non-OPPS version of the Outpatient Code Editor (OCE) is used to generate these edits. By default the OPPS edits display here. 
-- **TruCode edits** – These edits include proprietary edits developed by TruCode as well as edits provided by regulatory and other agencies. 
+- **TruBridge (TruCode) edits** – These edits include proprietary edits developed by TruBridge (TruCode) as well as edits provided by regulatory and other agencies. 
 - **Medical Necessity Edits** – These are LCD / NCD (Local Coverage Determination and National Coverage Determination) edits. 
 - **RAC Alert!** – Information appears here to alert you that a CMS approved audit issue, in your facility’s recovery audit contractor (RAC) region, has been identified on the patient record. The RAC information shown is based on the facility MPN. The following types of CMS approved RAC targets are included:
   - DRG validation
@@ -121,7 +121,7 @@ As the RACs expand their targets, the RAC targets will be updated accordingly.
 
 The following information is included for each edit:
 - Edit message – A brief description of the edit.
-- Source – For TruCode edits, the official source of the edit is listed, such as Coding Clinic, the CPT book, etc.
+- Source – For TruBridge (TruCode) edits, the official source of the edit is listed, such as Coding Clinic, the CPT book, etc.
 - Details link – When clicked, additional information about the edit is shown.
 
 1.	Click on the Edits tab to view the edits for the encounter.

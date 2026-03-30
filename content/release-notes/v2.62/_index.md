@@ -244,3 +244,23 @@ The [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 **CACTWO-7800 and 7801** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 For consistency within Fusion, the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) page has been updated to look and act like the [Workflow Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) and [Scheduled Reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) pages.  The functionality of adding, deleting, editing and copying all remain the same.  The csv report has also been updated for better usability.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow Submitted Accounts to Remain in Submitted Status to Audit
+
+**CACTWO-7813** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+When using Save and Route to send a submitted account directly to an Auditor or an [Audit workgroup](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit), the account will now remain in Submitted (Stage A).
+
+Previously, routing a submitted account to a user or workgroup would automatically change its stage to QA Review (Stage Q), as the system assumed the account was being sent for updates and resubmission. With this update, routing through Save and Route to an audit destination is recognized as an audit-only action, so the account status will no longer change unnecessarily.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Fields to Validation Management for Denials
+
+**CACTWO-7819** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+In [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/), when using the ‘[for each](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/#for-each-check-box)’ option and selecting Denials from the list, a list of Denial options will be opened to complete the validation rule. 
+
+

@@ -1,5 +1,5 @@
 +++
-title = "TruCode Encoder Synonyms List"
+title = "TruBridge (TruCode) Encoder Synonyms List"
 weight = 23
 +++
 

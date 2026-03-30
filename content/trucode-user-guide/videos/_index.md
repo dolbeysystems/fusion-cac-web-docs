@@ -3,7 +3,7 @@ title = "Tips & Tricks Videos"
 weight = 23
 +++
 
-The Dolbey and TruBridge team has collaborated on videos to provide continuing education on using the TruBridge encoder. These videos aim to provide information to help users confidently navigate the encoder as they work.
+The Dolbey and TruBridge teams have collaborated on videos to provide continuing education on using the TruBridge encoder. These videos aim to provide information to help users confidently navigate the encoder as they work.
 
 ## CPT Deep Dive
 
