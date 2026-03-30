@@ -83,6 +83,7 @@ The Documents tree includes a listing of all documents in a patient chart catego
 |![Bold Text](BoldText.png)|Bold document titles indicate the document has not been viewed by the current user|
 |![Expand Code Suggestions](ExpandIcon.png)|Document with engine code suggestions|
 |![Black Bar White Text](ArchivedDoc.png)|Archived documents that contain codes assigned by coders.  This document will appear in the Documents tree with white text against a black background.  Bookmarks on those documents will also be retained.  Doing a Ctrl Click on the document header in the viewer will now show the archive date and time.|
+|![Archived Document Symbol](ArchivedDocumentsSymbol.png)|The eye symbol alerts the user to an archived document.|
 
 For convenience, users may want to pop out the document into a separate window to continue viewing it while accessing other areas of the chart.
 
@@ -154,7 +155,7 @@ The right click zoom will not be available for photo documents or pdf documents,
 
 When returning to a chart after new documents have been added, documents that have not previously been reviewed by the current user will appear in **BOLD** text.  Documents that have been previously viewed will appear in normal text.
 
-## Document Tree
+## Document Viewer
 
 ![Document Tree](DocumentPane.png)
 

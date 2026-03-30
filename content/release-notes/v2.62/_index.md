@@ -272,6 +272,92 @@ In [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7820** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new column, ‘Query Template’ has been added to the CDI Alert Impact Report, and it appears to the left of the Account Number column.  The Date range of the report has also been updated to pull from the Admist Date, not the Query Created Date.
+A new column, ‘Query Template’ has been added to the [CDI Alert Impact Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-alerts-impact-report), and it appears to the left of the Account Number column.  The Date range of the report has also been updated to pull from the Admit Date, not the Query Created Date.
 
 ![CDI Alerts Impact Report Query Template Column](CDIAlertsImpactQueryTemp.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Column to the Query Impact Report
+
+**CACTWO-7822** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+When the [Query Impact Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-impact-report) or Q[uery Impact Report by Discharge Date](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#query-impact-by-discharge-date-report) is exported as an XLSX file, a ‘Query For’  column will show next to the Query Template. This new column will NOT show if a Query For has not been recorded.  
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Drill Down for E/M Charges in Account Search 
+
+**CACTWO-7823** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) Charges has been added to the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) page, which will include columns associated with the charges field in an [E/M worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet). 
+
+![E/M Charges Drill Down](EMChargesDrillDown.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add new Columns to Inpatient and Outpatient Coder Scorecards
+
+**CACTWO-7833** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Two new columns have been added to the [Inpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) and [Outpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports.  These come directly after the account column and are called D/C Disp Change and D/C Disp Accuracy rate.  This change is retroactive. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Error Occurring when Running the Outpatient Coder Scorecard
+
+**CACTWO-7835** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+An error occurred when running the [Inpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) or [Outpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports if an auditor performed several audits with the same audit type and recorded large amounts of text in Training Recommendations.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Create Hover Over to Active Alerts Name Column
+
+**CACTWO-7836** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The Active Alerts Name column will now have a hover over so that the user can see the full list of alerts when the field in that column ends in ellipsis.
+
+![Active Alerts Name Column](ActiveAlertsNameColumn.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Make the Archived Documents Symbols Easier to see
+
+**CACTWO-7840** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The eye symbol that appears on the [Documents panel header](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#documents-tree) to alert the user to an archived document will now have a black background to make it more noticeable. 
+
+![Enlarged Archived Document Symbol](ArchivedDocSymbol.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add new Column to the Query Drill Down in Account Search
+
+**CACTWO-7842** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new column of Queries Created by Role column will now appear when Queries is selected as the [Drill-Down Level](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/).
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add 'Loading' Bubbles to Calendar View
+
+**CACTWO-7843** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+In the case of a very large return on a [Calender View day](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/calendar-view/), users were unable to tell if the request was working or not, since it took a long time for the page to load.  To remedy that, three pulsing dots, or bubbles, have been added to the screen to show that the screen is in the process of loading.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change Orientation on the CDI Query Score Card Reports
+
+**CACTWO-7854** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-report) and [CDI Query Score Card by Admission Month](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-score-card-by-admission-month) reports will now show in Letter (Portrait) mode for PDF, rather than Landscape (Legal) mode. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Correct Calculation of Oldest D/C Date in Work Available Queue Panel
+
+**CACTWO-7855** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Today’s date was showing as the Oldest Discharge Date in the [Dashboard Work Available](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#work-available-queue) panel if an account did not have a discharge date. The Oldest Populated discharge date will now appear for each  Work Available Queue even if there are blank discharge dates within that queue. 

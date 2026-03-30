@@ -54,6 +54,7 @@ Account Search allows for the ability to search for account level data or drill 
 - Audits
 - CDI/Clinical Alerts
 - Denials
+- E/M Charges
 - Final Assigned Codes
 - Final CPT Codes
 - Final Diagnoses

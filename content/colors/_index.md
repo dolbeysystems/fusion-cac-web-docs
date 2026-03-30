@@ -138,6 +138,7 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |Green Flag| Displayed next to the code within the document and on the show all or unassigned code tree to indicate there is a comment on a code. The code comment can also be found on the notes & bookmarks under the navigation tree within the code comment section. ![Code Comment](CodeCommentIcon.png)|
 |Blue Background|indicates a diagnosis code ![Blue Diagnosis Code](BlueDx.png)|
 |Red Background|indicates a procedure code ![Red Procedure Code](RedPCS.png)|
+|Eye symbol|The eye symbol alerts the user to an archived document. ![Archived Document Symbol](ArchivedDocumentsSymbol.png)|
 
 ## Code Tree
 
