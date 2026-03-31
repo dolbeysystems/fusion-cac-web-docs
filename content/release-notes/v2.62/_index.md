@@ -361,3 +361,121 @@ The [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 **CACTWO-7855** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 Today’s date was showing as the Oldest Discharge Date in the [Dashboard Work Available](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#work-available-queue) panel if an account did not have a discharge date. The Oldest Populated discharge date will now appear for each  Work Available Queue even if there are blank discharge dates within that queue. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Quantity Resetting to Zero in E/M Viewer
+
+**CACTWO-7870** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the instance of a soft CT code being assigned to a document on an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) account, if the user then went into the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) and added a quantity of 1 to the  “Charges for Assigned CPT Codes”, the 1 was not being retained upon saving the account.  This has been corrected.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Inpatient Coder Scorecard is not Displaying Audit DRGs
+
+**CACTWO-7886** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The Pre-Audit and Post-Audit DRG columns in the [report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) are showing as blank.  This has been corrected so that the columns are now populated with the correct DRGs.  This fix is retroactive. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change how Clicking "ok" is Handled in a Code Comment
+
+**CACTWO-7888** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#code-comments), their name should appear in the Commented By column of the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/notes-and-bookmarks/) if a secondary user opens and either clicks cancels or OK without adding text.  It was being replaced by the secondary user.  This has been updated so that the Commented By ID is only changed if a secondary user actually adds more data to the comment. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Workgroups are Skipped During the Second Round for Forced Autoload
+
+**CACTWO-7900** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+[Forced Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#force-autoload) now properly follows a round-robin order when assigning work across multiple workgroups.
+
+Previously, if all assigned workgroups had limits, the system could stop assigning work as expected after the first pass.
+With this update, once all workgroup limits are reached, the system will reset the limits and continue assigning work in order, ensuring a consistent and balanced distribution across workgroups.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### The Plus Sign in the Final DRG Viewer is not Working Properly 
+
+**CACTWO-7901** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If the plus sign on an already assigned code is clicked in a Final [DRG viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/), the code was being removed which is not correct functionality.  Clicking a plus sign should not remove a code; this has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Create a Privilege for Creating and Editing E/M Configuration
+
+**CACTWO-7902** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new privilege has been added to [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/) called ‘Create/Edit E/M Configuration.  If given to a role, it will add the [ER E/M Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/) page to the Tools menu.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow Assigned Codes Tree to Show SOI and ROM Numbers
+
+**CACTWO-7909** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+As long as there is an APR-DRG on an account, the [Assigned codes tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#assigned-codes) will now show code-level SOI and ROM numbers divided by a slash in a blue box next to the code.  Hovering over that will give the descriptors; in the first example of this list the hover over would say SOI 2 / ROM 1.
+
+![SOI and ROM in Assigned Code Tree](SOIROMinCodeTree.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change how the E/M Page Determines Critical Care Date
+
+**CACTWO-7913** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Currently the [Critical Care](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#critical-care) date on the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) is defaulting to today’s date.  This has been changed to default to the date of the E/M page, which is the Admit date. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Stop Users from Being able to add a Duplicate Worksheet to an Account
+
+**CACTWO-7914** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+In order to stop a worksheet from being added multiple times to an account, a new checkbox has been added in [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/).  When checked, once that worksheet has been added to an account, it will then appear in italics in the worksheet dropdown and will be unable to be selected.   Worksheets that have the checkbox left blank will be able to be added multiple times. 
+
+![Prevent Duplicates Worksheet Checkbox](PreventDuplicatesWorksheet.png)
+![Worksheet Cannot Be Duplicated](WorksheetCantBeDuplicated.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow Images to be Pasted into the Rebuttal Areas of Audits
+
+**CACTWO-7915** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Currently, the rebuttal comment section of the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) only support text.   This has been updated so that images can be pasted into the field.  
+
+![Image Pasted into Audit Rebuttal](ImagedPastedintoAuditRebuttal.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Secondary Cardiac Dysrhythmia with POA Y was not Excluding PSI 10
+
+**CACTWO-7920** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When a secondary cardiac dysrhythmia code with POA N is on an account with other criteria that will create a PSI 10 designation, and the POA on that code is later changed to a Y, the PSI 10 designation should be removed, but is not.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow Browser tab to Display Personalized Setting
+
+**CACTWO-7921** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A setting that allows the browser tab to display personal text in the browser tab has been modified to show that text first, before the Fusion CAC wording, like this: 
+
+![Display Personal Text In Tab](DisplayPersonalTextInTab.png)
+
+Users already having this setting will see the change, users that do not currently have this setting can contact Support to have it enabled. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Physician Queries were Allowed to be Changed on Locked in use Accounts
+
+**CACTWO-7924** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If an account was locked in use, the second user that opened it was still able to make changes to queries, assigned physicians, etc, just as if the account was not locked.   This has been corrected.  No changes can be made on a locked account. 
