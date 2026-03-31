@@ -479,3 +479,127 @@ Users already having this setting will see the change, users that do not current
 **CACTWO-7924** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 If an account was locked in use, the second user that opened it was still able to make changes to queries, assigned physicians, etc, just as if the account was not locked.   This has been corrected.  No changes can be made on a locked account. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Coder Should be Unable to add Codes in CDI History when Locked
+
+**CACTWO-7926** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If an account is locked and a coder clicks on a plus sign in the [CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/working-cdi-history/) worksheet, the code can be added.  Account cannot be saved, but the coder should still not be able to do this. The plus sign has now been removed from locked accounts. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Split a Current Privilege in Role Management into two Privileges
+
+**CACTWO-7930** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Currently, in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/) there is a single privilege ‘Exclude Saves From First Coder, Next Review, Ownership, and Workflow updates’.  This has been split out into 2 privileges for better exclusion work:
+- Exclude Saves from First Coder, Next Review, and Ownership
+- Exclude Saves from Triggering Workflow
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Do not Allow all Codes Editor and Code Editor to be Open Together
+
+**CACTWO-7931** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When the [Code editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/#mass-editing-codes) was opened and minimized, the [All Codes editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/#mass-editing-codes) could still be opened, which is not correct.  Now, the user will see a blue toast message over the red ‘restore’ bar that a code editor is already open.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Stop Multiple Instances of Validation Rule from Showing
+
+**CACTWO-7933** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+If a [Validation Rule](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) was a ‘for each’ CPT code, and an account had several instances that matched that, the Validation Rule would be listed for each time in the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/).  A new checkbox for ‘Display Distinct Rules Only’ has been added for the ‘for each’ type fo rule, which will then only allow 1 instance of the rule to show for each distinct result.  In the below example, if an account had 3 instances of CPT 44100, the rule would previously show 3 times in the Code Summary.  With the new checkbox it will now only show once. 
+
+![Display Distinct Rules Only](DisplayDistinctRulesOnly.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change DRG Display on Pre/Post Queries
+
+**CACTWO-7935** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Physician Queries will now display the billing grouper within inpatient physician queries if "BillingGrouper" is configured.  The continued default is for  inpatient physician queries to display the primary grouper.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Forced Autoload Users are Being Given out of Order Accounts
+
+**CACTWO-7941** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the event of very large loads in the assigned workgroups, because it is taken extra time to load the next account, if a user clicks on a Pending account and it opens, the assigned workgroups can lose their work order.  The three blinking dots symbol has been added to Dashboard to indicate the system is working, and this will prevent any user from clicking on a pending account or Load Next Account during that action.  
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Autoload Dashboard is not Dropping Down Lists from Pending Accounts
+
+**CACTWO-7945** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If a [Forced Autoload](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#force-autoload) user has the Coder Scorecard on their dashboard, then if they did a drop down from the ag-grid on their Pending Accounts (hamburger icon in the right of each column) , the dropdown was appearing under the Coder Scorecard banner bar, causing part of the list to be unviewable.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Default the ER E/m Date to the Account's Admit Date
+
+**CACTWO-7947** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+When opening the [E/M Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/) viewer for the first time on an account, the ER E/M date will now default to the account‘s Admit Date.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Audit Workflow is mot Triggering for Charts
+
+**CACTWO-7968** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If an [Audit Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#audit) uses criteria involving a type of user’s role and uses a grouping that includes the same type of user, the workflow was not triggering.  As an example if a criteria included "First Submitter Roles" and the grouping included "First Submitter User Id" an exception in the MongoDB would occur. This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Auditor Worksheets are not Automatically Being Applied
+
+**CACTWO-7974** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+If an Auditor Worksheet was marked for Auto-Add from within worksheet designer, it was not being added when an account was opened.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### The User Detail Report is not Allowing a Full Month of Data to be Pulled
+
+**CACTWO-7980** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The maximum days set on the [User Detail Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#user-detail-report) is 30…this causes an issue when running a report that runs between a 31 day month and a 30.  The maximum has been changed to 31 days and the description has been updated. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### In Workflow Management, the Audit Workflow is not Running
+
+**CACTWO-7980** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In [Workflow Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/), when working with an Audit workflow’s [scheduling](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#schedule), the ‘restrict’ field was allowing alpha entry when it should only have accepted numeric entry.  This caused the workflow to not run.  The ‘restrict’ field has been changed to a drop down field for selection to prevent this issue. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Scorecard Reports not Showing Properly in XLSX
+
+**CACTWO-8000** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) and [Outpatient Coder Scorecard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-audit-scorecard) reports were showing extended characters, like ellipsis or bullet points, as symbols when the reports were run in XLSX.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Unable to Delete Physicians Using "Edit Procedure Codes"
+
+**CACTWO-8002** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+On the [Assigned code tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#assigned-codes), right clicking on PCS or CPT codes and selecting ‘Edit Procedure Code’ from the list was allowing the user to delete the physician assigned, but when clicking save the physician was re-applied.  This has been corrected so that if the ‘x’ is used to remove the physician, saving was saving the deletion.  
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Account Search is Losing the Lower Scroll Bar
+
+**CACTWO-8008** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+It was confirmed that if a filter summary exceeded one line in length, the lower scroll bar would be unviewable.  This has been corrected. 
