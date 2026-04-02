@@ -441,7 +441,7 @@ When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web
 
 **CACTWO-7892** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-This new report was created for a coding management view to show work entering and completing for the selected Discharge Date range.  It includes incoming and completed volume, remaining backlog, and average turnaround times.  This report needs at least a minimum of one category selected and can only use a maximum of a 31-day range. 
+[This new report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#coding-tat-per-patient-type) was created for a coding management view to show work entering and completing for the selected Discharge Date range.  It includes incoming and completed volume, remaining backlog, and average turnaround times.  This report needs at least a minimum of one category selected and can only use a maximum of a 31-day range. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
