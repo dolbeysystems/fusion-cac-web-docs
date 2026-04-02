@@ -137,9 +137,37 @@ When accessed, a selection dialog will display available auditors based on the a
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### AG-Grid has Been Updated to the Latest Version
+
+**CACTWO-7636** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### AG-Grid had Been Updated to the Latest Version
 
 **CACTWO-7636** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+![Updated AG Grid](UpdatedAGGrid.png)
+
+Ag-Grid has been updated and have several new abilities to be aware of:
+
+- The ‘hamburger’ symbol is replaced by a right click menu and the filter icon now handles filtering only. 
+- Improved filter search allows users to locate values by searching any part of the text, not just the first word.
+- The Reset button in the right click menu will reset the entire grid back to match how Grid Column Maintenance is set, so use with caution.
+  
+![AG Grid Right Click Menu](AGGridRightClickMenu.png)
+
+On the right hand side of the viewer, there is now a Columns and a Filters grid. 
+
+![Columns And Filters](ColumnsAndFilters.png)
+
+Clicking on Columns allows you to select and deselect columns, plus group rows at the bottom of the list which can be dragged and dropped: 
+
+![AG Grid Rows And Groups](AGGridRowsAndGroups.png)
+
+With the Filters option, as you filter, those will be added here, so that you can see all your filters at once. You can also add a filter here:
+
+![AG Grid Filters Added](AGGridFiltersAdded.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
