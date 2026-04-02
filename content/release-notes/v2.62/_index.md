@@ -149,7 +149,7 @@ When accessed, a selection dialog will display available auditors based on the a
 
 ![Updated AG Grid](UpdatedAGGrid.png)
 
-Ag-Grid has been updated and have several new abilities to be aware of:
+[AG-Grid](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) has been updated and have several new abilities to be aware of:
 
 - The ‘hamburger’ symbol is replaced by a right click menu and the filter icon now handles filtering only. 
 - Improved filter search allows users to locate values by searching any part of the text, not just the first word.
@@ -258,6 +258,27 @@ A plus sign has been added to the left of the codes in the [DRG Reconciliation V
 **CACTWO-7758** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 A new field has been added to [Grid Maintenance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/), ‘Pending Reason Date Added (First)'.  This will also show as a choice in the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) and [Workflow](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) Criteria dropdowns. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Increase Amount of Accounts Account Search can List
+
+**CACTWO-7763** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+In [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), there will no longer be a page restriction for the amount of accounts that can show on one page.  All accounts will now be seen on the first page, and they will be streamed into Account Search, allowing for thousands of accounts before memory is compromised.  
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Make User Management Work the Same as Account Search Detail
+
+**CACTWO-7769** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+[User Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/) has been updated to work similarly to how [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) detail returns work.
+
+- If a user is being edited, once it is saved or cancelled, the return to the Management screen will highlight and focus on that user.
+- If using the ‘Add’ button to add a user, when the user is saved, the return back to the Management screen will highlight and be focused on that new user.
+- If the copy button is used on an already existing user, once the copy (or copies) are saved, the return to the Management screen will highlight and be focused on the last new user created from the copy.
+- If the copy button is used and the copy is cancelled, not saved, the return to the Management screen will highlight and be focused on the user that was being copied. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -413,6 +434,14 @@ The Pre-Audit and Post-Audit DRG columns in the [report](https://dolbeysystems.g
 **CACTWO-7888** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#code-comments), their name should appear in the Commented By column of the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/notes-and-bookmarks/) if a secondary user opens and either clicks cancels or OK without adding text.  It was being replaced by the secondary user.  This has been updated so that the Commented By ID is only changed if a secondary user actually adds more data to the comment. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Create new Report Coding TAT per Patient Type
+
+**CACTWO-7892** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+This new report was created for a coding management view to show work entering and completing for the selected Discharge Date range.  It includes incoming and completed volume, remaining backlog, and average turnaround times.  This report needs at least a minimum of one category selected and can only use a maximum of a 31-day range. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

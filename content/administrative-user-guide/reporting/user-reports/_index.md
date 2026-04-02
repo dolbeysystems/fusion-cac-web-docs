@@ -425,6 +425,12 @@ indicate the chart is ready for coding. The date range on this report is the Cha
 
 ![Coding Chart Status Report](CodingChartStatus.png)
 
+#### Coding TAT per Patient Type
+
+This report displays coding productivity in regard to submitted, pending, and unbilled charts. This report shows how long the chart took to code from the time the patient was discharged and how long the chart took from the time the coder had accessibility to the patient chart. Once a patient is discharged, it may be examined for completeness and non-coding staff may place pending reasons on the chart to indicate deficiencies. When the deficiencies are resolved, the chart is then assigned to a coding worklist to indicate the chart is ready for coding. 
+
+![Coding TAT Per Patient Type Report](CodingTATPerPatientType.png)
+
 #### Discharged Not Final Coded Report
 
 This report will show management all of the discharged charts within the system that do not have final
