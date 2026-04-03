@@ -660,3 +660,11 @@ On the [Assigned code tree](https://dolbeysystems.github.io/fusion-cac-web-docs/
 **CACTWO-8008** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 It was confirmed that if a filter summary exceeded one line in length, the lower scroll bar would be unviewable.  This has been corrected. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Shift Reason Comments Column is Blank in Account Search
+
+**CACTWO-8058** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) is using the Queries dropdown, the Shift Reason Comments column was always blank.  This column is now properly populated if the query has a shift reason comment.
