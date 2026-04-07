@@ -137,12 +137,6 @@ When accessed, a selection dialog will display available auditors based on the a
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### AG-Grid has Been Updated to the Latest Version
-
-**CACTWO-7636** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
-
-<hr style="height:1px;border-width:0;color:gray;background-color:black">
-
 ### AG-Grid had Been Updated to the Latest Version
 
 **CACTWO-7636** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
