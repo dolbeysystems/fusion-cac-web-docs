@@ -3,8 +3,9 @@ title = 'Colors and Symbols'
 weight = 12
 +++
 
-The Fusion CAC 2 application contains a variety of colors and symbols. The following guide provides a
-detailed explanation of the significance associated with each color and symbol.
+The Fusion CAC 2 application contains a variety of colors and symbols. Hovering over a symbol will often provide additional information.
+
+The following guide provides a detailed explanation of the significance associated with each color and symbol:
 
 ## Top Right Corner (Any Screen)
 
