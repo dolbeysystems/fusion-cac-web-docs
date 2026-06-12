@@ -306,3 +306,50 @@ If an account is manually routed to a user it will populate their "You" queue.
 
 >[!note]Not Recommended
 >It is not recommended to manually route a chart unless absolutely necessary. Once a chart has been manually routed it will no longer move through workflow automatically. 
+
+ A patient chart will only leave a "You" worklist when one of the following events occurs:
+
+- The chart is submitted.
+- Save and Route To is selected.
+- The chart is reconciled or released from CDI.
+- The chart is processed under Physician Coding workflow rules.
+- The chart matches a Custom Workflow after a save.
+- The chart contains a closed audit and is saved after review.
+
+If a chart appears to leave the worklist unexpectedly, review the chart's workflow history, routing
+
+### Understanding When a Patient Chart Leaves a "You" Worklist
+
+The "You" queue is designed to display patient charts that currently require action from a specific user. In most cases, charts will remain on the worklist until the user completes an action that either routes the chart elsewhere or indicates that work on the chart is complete.
+
+There are several system-defined events that will cause a patient chart to automatically leave a user's "You" worklist. Understanding these events can help users determine why a chart is no longer visible in their queue.
+
+#### Chart Submission
+
+When a user submits a patient chart, the system considers the assigned work complete and removes the chart from the user's "You" worklist. Submission is the most common method by which a chart exits the worklist and typically indicates that the chart is ready for the next step in the workflow.
+
+#### Save and Route To
+
+Users may choose to route a chart directly to another user, worklist, or workflow destination by selecting Save and Route To. When this action is performed, ownership of the chart is transferred according to the routing instructions, and the chart is removed from the current user's worklist.
+
+#### CDI Reconcile or Release Actions
+
+When a patient chart is reconciled or released from CDI, the system treats these actions similarly to a chart submission. Because these actions indicate that CDI review activities have been completed, the chart is removed from the user's "You" worklist.
+
+#### Physician Coding Workflow
+
+Charts assigned to users functioning as Physician Coders follow a specialized workflow. As part of this workflow, charts may automatically leave the "You" worklist based on physician coding rules and processing logic. This behavior is expected and differs from standard coding workflows.
+
+#### Custom Workflow Processing
+
+Whenever a user saves a patient chart, the system evaluates any configured Custom Workflow rules before applying default workflow behavior.
+
+If the chart meets the criteria of a custom workflow, the chart is immediately routed according to the custom workflow configuration. Because the chart has been assigned to a new workflow destination, it is removed from the user's current "You" worklist.
+
+For this reason, if a chart appears to leave the worklist after a simple save action, users should verify whether the chart qualifies for a custom workflow rule. In most cases, the chart's removal is the result of successful custom workflow processing rather than an issue with the default workflow configuration.
+
+#### Closed Audit Processing
+
+A chart may also be removed from a "You" worklist if it contains a closed audit. The system assumes that when a user opens a chart with a closed audit and subsequently saves the chart, the audit has been reviewed and no further action is required.
+
+Because the audit-related work is considered complete, the chart is automatically removed from the user's worklist following the save action.
