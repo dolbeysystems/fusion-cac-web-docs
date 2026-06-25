@@ -127,6 +127,10 @@ Previously, only the CPT code was used for matching and modifiers were ignored, 
 
 **CACTWO-7865** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+[CDI Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/#starting-a-cdi-audit) can now be extended with a configurable Other section, allowing organizations to include additional audit questions for evolving review areas such as CDI alerts, reconciliation, workflow compliance, or other site-specific processes. This provides the flexibility to expand audit criteria without requiring product changes.
+
+The feature is enabled by creating a CdiAuditOtherQuestions mapping in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/). Each mapping entry becomes a question in the Other section when a CDI Audit is started, with response options of Criteria Met, Education Opportunity, and Not Applicable. Responses automatically contribute to Other Opportunities and Other Errors where applicable, and the results are available in the CDI Audit drill-down within Account Search for reporting and analysis.
+
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
 
@@ -136,11 +140,19 @@ Please contact Support to enable this feature.
 
 **CACTWO-7893** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+A new Modifiers column has been added to the Options section of [E/M Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/), allowing administrators to configure modifiers for each charge listed there. 
+
+Modifiers are optional, but when populated on a charge in E/M Configuration, they will automatically carry over to the E/M Viewer when that charge is used on an account. Configured modifiers are displayed as comma-separated text on each charge row, with an "Edit Modifiers" button that opens the standard modifier editing dialog. For Additional Charges, the Modifiers field will only be available when a CPT Code is also present on the charge.
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Preserve E/M Viewer Scroll Position Within Session
 
 **CACTWO-7946** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The [E/M Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) will now remember the scroll position for each account during a session. Previously, navigating away from the E/M Viewer and returning to it would reset the view to the top of the page, requiring the user to scroll back down to their previous location. 
+
+The scroll position is now retained per account for the duration of the session. If a different account is loaded, the E/M Viewer will reset to the top for that account. Once the user exits the application entirely, scroll positions are cleared for all accounts.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -148,17 +160,31 @@ Please contact Support to enable this feature.
 
 **CACTWO-7951** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}** 
 
+The [Mass Edit](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/#mass-editing-codes) dialog has been updated to support the "Unassign Diagnosis Code" and "Assign as Visit" actions when multiple codes are selected using the checkboxes or the "All" checkbox. 
+
+Previously, these actions only applied to the individual code on which the action was taken, rather than all selected codes. Users can now unassign diagnosis codes in bulk, or assign multiple codes as Visit reason (up to the maximum of 3). If more than 3 codes are selected for the Assign as Visit action, no codes will be assigned and a warning message will be displayed, preventing a partial or unintended assignment.
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Coder Scorecard Blank for Users with Facility Restrictions
 
 **CACTWO-7976** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
+For coders whose user profiles included facility constraints, the [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) [Scorecard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) on the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard) was always displaying blank, even when qualifying audits had been closed within the current or prior calendar month. 
+
+The query has been corrected so that the Coder Scorecard now displays audit data filtered to only the facilities the coder is authorized to access. This fix is retroactive and applies to existing audits. 
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Create a CDI Query SOI Impact per Month Report
 
 **CACTWO-7978** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+A new "CDI Query SOI Impact per Month" [report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/) was requested to help CDI leadership evaluate monthly query performance and its effect on patient Severity of Illness (SOI) metrics. 
+
+This new report provides CDI teams with a monthly view of query activity and the resulting impact on patient SOI for submitted inpatient accounts. It tracks accounts where a CDI Specialist established a Baseline APR-DRG and a Coder's Final APR-DRG reflected a higher SOI, allowing teams to monitor documentation improvement trends and measure the effectiveness of their query practices. 
+
+Users can filter results by either Admit Date or Discharge Date, with a maximum range of 12 months. When exported to Excel, the report includes four tabs; a cover sheet, a details tab, a summary, and a bar chart visualization;  while PDF and HTML exports display the summary only.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

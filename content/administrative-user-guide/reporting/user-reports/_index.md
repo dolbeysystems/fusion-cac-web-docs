@@ -319,6 +319,8 @@ This report is displayed in 4 sections:
 > - Daily Average Total Reviews is simply adding both averages:
 >   -  Daily Average Total Reviews = (Daily Initial Average) + (Daily Follow Up Average) - rounded to whole number
 
+#### CDI Query SOI Impact per Month
+
 #### CDI Rounding Report
 
 This report shows all charts reviewed and not reviewed by CDI. If the account has not been reviewed by
