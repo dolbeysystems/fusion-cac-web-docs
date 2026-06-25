@@ -10,13 +10,11 @@ title = 'V2.63 (Jul 2026)'
 
 **CACTWO-6029** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Clear Button Added to Filter Input Boxes in Workflow
 
 **CACTWO-6049** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
-
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -137,19 +135,19 @@ Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Encoder now blocks DRG/APC computation for facilities not explicitly licensed in the Medicare Provider Number mapping[
+### Encoder now Blocks DRG/APC Computation for Facilities not Explicitly Licensed in the Medicare Provider Number Mapping
 
 **CACTWO-7997** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Encoder now blocks DRG/APC computation for facilities not explicitly licensed in the Medicare Provider Number mapping[
+### Mapping Configuration now tracks and displays a history of changes
 
 **CACTWO-8015** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Create a Configurable Document Background Display[
+### Create a Configurable Document Background Display
 
 **CACTWO-8035** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
@@ -274,6 +272,24 @@ Please contact Support to enable this feature.
 
 ### Document Types Management Displayed Engine Handling Incorrectly
 
-**CACTWO-8161** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+**CACTWO-8207** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Black Border Appearing Around Focused Links in Chrome and Edge Browsers
+
+**CACTWO-8210** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Workgroup Selector Breaks when Workgroup is Removed from User Profile
+
+**CACTWO-8216** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Destination Account Banner Displays Incorrect Patient Type
+
+**CACTWO-822** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
