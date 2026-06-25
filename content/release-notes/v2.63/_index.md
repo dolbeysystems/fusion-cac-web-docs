@@ -192,17 +192,39 @@ Users can filter results by either Admit Date or Discharge Date, with a maximum 
 
 **CACTWO-7981** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+There was no way to grant users read-only access to [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) - anyone with auditor access could edit or modify audit data, making it difficult for managers and supervisors to review audits without risk of inadvertent changes. 
+
+Two new privileges have been added to the Chart - Editing group in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/): "Only View Audits as an Auditor" and "Only View CDI Audits as a CDI Auditor." 
+
+When enabled, these permissions make the respective audit viewer strictly read-only for all fields, including stopwatches. If a user's role has both create and view-only privileges assigned, the view-only permission takes precedence.
+
+![View Audits as Auditor Role Management](ViewasAuditor.png)
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Highlight Row Yellow When a Value is Changed
 
 **CACTWO-7991** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+Rows in the E/M Viewer will now be highlighted in yellow when any value on that row is modified. 
+
+This makes it easier for coders to quickly identify which lines have been updated within the viewer. The highlight is triggered by a change to any control on the row, including quantity, duration, date, or notes. 
+
+Modifiers are excluded from triggering the highlight, as they may be automatically applied via E/M Configuration. The highlight applies to all charge types displayed in the E/M Viewer, including Medications and Additional Charges.
+
+![Highlighted ER E&M Viewer](HighlightedEREM.png)
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Increase Bookmark Icon Size
 
 **CACTWO-7994** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The bookmark indicator icon in the Account Detail [document viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#document-viewer) has been increased to 20px in size to improve visibility. 
+
+Users were having difficulty spotting bookmarks while skimming through documents. The color and icon style remain unchanged; only the size has been enlarged. Note that this change may slightly increase the spacing between lines of text where a bookmark is present.
+
+![Larger Bookmark Icon](LargerBkMrkIcon.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -215,6 +237,15 @@ Users can filter results by either Admit Date or Discharge Date, with a maximum 
 ### Mapping Configuration now tracks and displays a history of changes
 
 **CACTWO-8015** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) page previously provided no way to see what had changed within a mapping category, making it difficult to diagnose issues caused by inadvertent configuration changes. 
+
+When a mapping was altered incorrectly, administrators had no record of what was changed, by whom, or when - requiring manual investigation to identify and resolve the problem. 
+
+With this update, a "Show History" button now appears in the upper right corner of any mapping that has been modified. Clicking it opens a dialog displaying a before-and-after comparison of all changes made to that mapping, listed in reverse date order. Additions are highlighted in green, deletions in red, and changes in yellow, making it easy to quickly identify exactly what was modified and when.
+
+![Show History Button in Mapping Table](MappingShowHistory.png)
+![Changes to Mapping Table](ChangestoMapping.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
