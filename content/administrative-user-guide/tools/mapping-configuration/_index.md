@@ -134,4 +134,11 @@ The mapping of PhysicianQueryReasons now has a column called Roles, which will a
 
 ![Physician Query Reasons](2025-03-05_MappingConfig10.png)
 
+## Show History
+
+A "Show History" button appears in the upper right corner of any mapping table that has been modified. Clicking it opens a dialog displaying a before-and-after comparison of all changes made to that mapping, listed in reverse date order. Additions are highlighted in green, deletions in red, and changes in yellow, making it easy to quickly identify exactly what was modified and when.
+
+![Show History Button in Mapping Table](MappingShowHistory.png)
+![Changes to Mapping Table](ChangestoMapping.png)
+
 

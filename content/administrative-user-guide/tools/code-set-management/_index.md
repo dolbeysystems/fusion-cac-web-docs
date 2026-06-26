@@ -21,5 +21,5 @@ in the ICD/CPT coding standards.
 5. Add codes into the “Add codes" box.
 6. Click "Save Code Sets" when completed
 
-![Add](2024-12-04_AddingSet.png)
+![Add](CodeSetManagementPage.png)
 
