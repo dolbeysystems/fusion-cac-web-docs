@@ -259,7 +259,7 @@ With this update, a "Show History" button now appears in the upper right corner 
 
 **CACTWO-8038** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-[Account Search]([https://](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/)) previously had no way to report on unassigned CDI query impact, when the impact viewer was used to assign impact per query, making it difficult for teams to identify charts where impact had not yet been fully allocated. 
+[Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/)) previously had no way to report on unassigned CDI query impact, when the impact viewer was used to assign impact per query, making it difficult for teams to identify charts where impact had not yet been fully allocated. 
 
 Three new fields, Remaining Impact Dollars, Remaining Impact Percent, and Remaining Impact Weight, have been added to Account Search and Workflow. These fields are updated whenever a CDI Specialist or CDI Auditor closes a physician query, and reflect the outstanding impact as shown in the Impact Queries viewer. 
 
