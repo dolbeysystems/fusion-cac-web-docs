@@ -85,7 +85,7 @@ Click on the green “Edit CDM Table” button to the right of the effective dat
 
 CDM columns can be copy and pasted directly into the "Edit CDM Table" window from an Excel spreadsheet.
 
-![](2024-12-02_CDMTable.png)
+![Edit CDM Table](EditCDMTable.png)
 
 Best practice is to paste in the column for the CDM code, then the description, and finally the CPT code. This step is
 extremely important because any assigned CDM code will need to be sent in the outbound interface. Therefore, the CDM table in Fusion CAC needs to match whatever system is downstream
@@ -96,9 +96,23 @@ After the information has been correctly updated, click {{%button%}}Ok{{%/button
 
 CDM codes can be updated manually by clicking {{%button%}}+Add CDM Manually{{%/button%}}.
 
-![](2024-12-02_AddCDM.png)
+![Manually Add CDM](AddCDMManually.png)
 
 This will create a new row with free text fields to add the CDM code, the description, and the CPT code. 
+
+###### Modifiers
+
+The Edit CDM Table supports modifiers as part of the CDM import process. 
+
+When importing the CDM table, modifiers should immediately follow the CPT code with no space (for example, "30903RT"). 
+
+![CDM Table Modifier Import Example](CDMModifierImport.png)
+
+The Modifier column will be populated automatically when performing a Reset to import the spreadsheet, or can be entered manually. 
+
+When a coder assigns a CPT code in the E/M Viewer that matches a CDM entry with a modifier, the modifier will automatically be applied to the charge. This allows sites that use hard-coded modifiers such as RT or LT on specific charges to have those modifiers carried forward without requiring coders to add them manually.
+
+![CDM Entry with Modifier](CDMwModifer.png)
 
 Once the CDM table is populated, categories can be edited within the "Option" section. The default options are:
 
@@ -175,3 +189,6 @@ Items listed in this section will align with their corresponding CPT and CDM cod
 To the end-user this displays as a table where they can quickly add a quantity, date, and modifier as applicable.
 
 ![](2024-12-02_AdditionalForUser.png)
+
+>[!note]
+>The CPT Code field for "Additional Charges" is optional, as some organizations use charges without an associated CPT Code. 

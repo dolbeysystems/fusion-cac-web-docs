@@ -483,5 +483,3 @@ This caused the selector to appear truncated, the removed workgroup to remain di
 A bug was corrected in the [Transfer Account Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) where the banner bar was displaying the Patient Type of the source account rather than the destination account. 
 
 This caused confusion when combining accounts of different types, such as merging an ER account into an Inpatient account. Additionally, minor formatting issues in the viewer have been resolved, including the "Room" field not appearing in bold and the "Bed" field displaying as a dash instead of the correct value.
-
-<hr style="height:1px;border-width:0;color:gray;background-color:black">

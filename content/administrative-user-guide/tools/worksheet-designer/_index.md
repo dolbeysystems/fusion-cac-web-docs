@@ -35,6 +35,14 @@ Text copied or typed directly into the worksheet will be read-only for the end u
 
 ![Static Text](StaticText.png)
 
+### Configure Roles
+
+The Roles field is available on CDI, Coding, and Shared worksheets. When one or more roles are assigned to a worksheet, only users who have at least one of those roles assigned to their profile will be able to add that worksheet to an account. Users without a matching role will not see the option to add the worksheet, though they will still be able to view worksheets that have already been added. This role restriction is based on the full list of roles assigned to a user's profile, not just the role they are currently signed in under. 
+
+![WrkshtRolesField](WrkshtRolesField.png)
+
+The Roles field does not apply to Documentation Review or Physician Query templates and will not appear for those template types.
+
 ### Adding Fields
 
 Fusion CAC offers several types of fields that can be added to worksheet templates. These fields allows end users to enter information into the worksheet once it has been added to an account. 

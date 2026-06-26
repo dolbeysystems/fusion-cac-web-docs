@@ -59,6 +59,14 @@ If a mapping table does not have a red X to the right of its title, that means i
 ## Special Mapping Columns & Tables
 
 While many of the mapping tables are set up the same way, several are unique and have more fields available to edit. 
+
+### Audit Training Topics
+
+The Account Type column in the AuditTrainingTopics mapping allows administrators to specify whether each audit training topic is available for all accounts, inpatient accounts only, or outpatient accounts only. When an auditor is working on an inpatient account, only training topics designated for all accounts or inpatient accounts will appear as selectable options, and likewise for outpatient accounts. 
+
+![Audit Type Column](AuditTypeColumn.png)
+
+This feature **applies to Audit Management only** and is not implemented in CDI Audit Management, as CDI audits are exclusively applied to inpatient accounts.
  
 ### Category Mapping:
 

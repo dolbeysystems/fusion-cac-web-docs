@@ -168,5 +168,5 @@ To finish an audit, whether it goes through a rebuttal process or not, the Audit
   
    *ex.* If a coder has 5 total diagnosis codes, and the auditor changed 2 of them without adding or unassigning codes, the number of edited codes is 2 (because the auditor "swapped out" two of the codes from the coder with different ones).
 
->info
+>[!info]
 >Speech bubble icons allows users to make notes and comments on the specified input. The icon will display in red to indicate a comment is present. 
