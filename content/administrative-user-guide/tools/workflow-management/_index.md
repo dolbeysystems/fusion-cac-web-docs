@@ -208,7 +208,7 @@ Each criterion has a set of operators. Depending on the property slected, the op
 | Operator             | Description |
 | -------------------- | ----------- |
 | Equals               | This is used if you have one value, and it must equal the value. This is case sensitive. |
-|Not Equal             |
+|Not Equal             | This is used if you have one value, and it must not equal the value. This is case sensitive. |
 | >                    | This sign means that the value must be less than the value noted. |
 | <                    | This sign means that the value must be greater than the value noted. |
 | >=                   | This sign means that the value must be less or equal to than the value noted. |

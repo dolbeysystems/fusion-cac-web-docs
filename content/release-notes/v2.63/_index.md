@@ -470,7 +470,7 @@ The fix updated the application's CSS to suppress the unwanted focus border, res
 
 **CACTWO-8216** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-An error was corrected where the [Account Lis](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list)t workgroup selector would stop functioning properly if the currently selected workgroup was removed from the user's profile while still active. 
+An error was corrected where the [Account List](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) workgroup selector would stop functioning properly if the currently selected workgroup was removed from the user's profile while still active. 
 
 This caused the selector to appear truncated, the removed workgroup to remain displayed with no accounts loading, and in some cases the loading indicator would spin endlessly. The Account List will now automatically fall back to the "You" queue when a workgroup is removed from the user's profile, and the removed workgroup will no longer appear in the selector.
 
