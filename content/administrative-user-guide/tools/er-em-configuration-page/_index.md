@@ -114,6 +114,8 @@ When a coder assigns a CPT code in the E/M Viewer that matches a CDM entry with 
 
 ![CDM Entry with Modifier](CDMwModifer.png)
 
+If the CPT code matches a CDM entry but the modifiers do not align, a warning will be displayed. Note that modifiers present on the assigned CPT code take precedence over modifiers defined in E/M Configuration via the Edit CDM Table feature.
+
 Once the CDM table is populated, categories can be edited within the "Option" section. The default options are:
 
 - Trauma
@@ -191,4 +193,4 @@ To the end-user this displays as a table where they can quickly add a quantity, 
 ![](2024-12-02_AdditionalForUser.png)
 
 >[!note]
->The CPT Code field for "Additional Charges" is optional, as some organizations use charges without an associated CPT Code. 
+>The CPT Code field for "Additional Charges" is optional, as some organizations use charges without an associated CPT Code. The CDM field is mandatory for all Additional Charges, and CPT Codes are required for all other E/M charge types. When an Additional Charge without a CPT Code is added to an account from the E/M Viewer, it will be added to the E/M Summary normally without generating an error.

@@ -321,6 +321,10 @@ This report is displayed in 4 sections:
 
 #### CDI Query SOI Impact per Month
 
+This report provides CDI teams with a monthly view of query activity and the resulting impact on patient SOI for submitted inpatient accounts. It tracks accounts where a CDI Specialist established a Baseline APR-DRG and a Coder's Final APR-DRG reflected a higher SOI, allowing teams to monitor documentation improvement trends and measure the effectiveness of their query practices. Users can filter results by either Admit Date or Discharge Date, with a maximum range of 12 months. When exported to Excel, the report includes four tabs; a cover sheet, a details tab, a summary, and a bar chart visualization;  while PDF and HTML exports display the summary only.
+
+![CDI Query SOI Impact per Month Report](CDIQuerySOIImpactperMonth.png)
+
 #### CDI Rounding Report
 
 This report shows all charts reviewed and not reviewed by CDI. If the account has not been reviewed by

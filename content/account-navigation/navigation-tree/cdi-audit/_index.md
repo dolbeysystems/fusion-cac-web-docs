@@ -124,6 +124,18 @@ The below calculations are the outcome of each query that was audited.
 
 At the conclusion of the audit, the Auditor can list any recommended training topics. If no recommendations are necessary, "None" should be indicated. These topics can be modified using the mapping table. Additionally, the Auditor has space to provide any additional details as needed.
 
+#### Optional - "Other" Section 
+
+CDI Audits can be extended with a configurable "Other" section, allowing organizations to include additional audit questions for evolving review areas such as CDI alerts, reconciliation, workflow compliance, or other site-specific processes.
+
+![CDI Audit Other Section](CDIAuditOther.png)
+
+This provides the flexibility to expand audit criteria without requiring product changes.
+
+The feature is enabled by creating a CdiAuditOtherQuestions mapping in Mappings Configuration. Each mapping entry becomes a question in the Other section when a CDI Audit is started, with response options of Criteria Met, Education Opportunity, and Not Applicable. Responses automatically contribute to Other Opportunities and Other Errors where applicable, and the results are available in the CDI Audit drill-down within Account Search for reporting and analysis.
+
+![CDI Audit Other Mapping Table](CDIAuditOtherMapping.png)
+
 #### Best Practices
 
 To maximize the effectiveness of CDI audits, auditors should follow several best practices. Always verify that you are auditing the correct CDI of record before starting, as this ensures you are reviewing the intended queries and DRGs. Use audit subtypes to capture specific learning opportunities, such as audits performed for new CDI staff or targeted reviews of certain DRG assignments. Ensure compliance questions are kept current, reflecting not only internal policies but also industry guidelines and payer expectations. Finally, conduct audits consistently and document findings clearly. Overtime, this creates a feedback loop that improves documentation quality, strengthens DRG accuracy, and reinforces compliance across the CDI program.
