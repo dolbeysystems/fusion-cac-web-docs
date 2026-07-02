@@ -10,6 +10,10 @@ title = 'V2.63 (Jul 2026)'
 
 **CACTWO-6029** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+Comment bubbles have been added next to each input field in the Audit Management viewer and the CDI Audit Management viewer. This allows auditors to add a comment alongside any individual input to provide context or explanation for a value entered or changed. The comment bubbles function the same way as the existing comment bubbles on codes; they display as a standard icon when empty and turn red when a comment has been added. This gives auditors a consistent and familiar way to annotate their work throughout the entire audit record.
+
+![Audit Fields Comment Bubbles](AuditCommentBubbles.png)
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Clear Button Added to Filter Input Boxes in Workflow

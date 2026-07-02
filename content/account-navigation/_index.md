@@ -280,8 +280,6 @@ Following the listed Assigned ICD-10 Procedures are the Assigned CPT® Codes.
 
 An additional, quicker, way to open the Code Editor dialog via the right-click menu right from the assigned code tree. When clicking on the code from the assigned code tree, user will edit only the code along with the position they have clicked on. However, if using the hot key from the unassigned code tree will open a full code editor, since no action has been assigned yet to that code.
 
-ccccccccccccccc
-
 #### Add Code Set Button
 
 Users have the option of adding codes from a code set for standard procedures based on facility settings.

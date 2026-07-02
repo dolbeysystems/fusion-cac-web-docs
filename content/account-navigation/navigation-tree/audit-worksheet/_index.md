@@ -170,4 +170,4 @@ To finish an audit, whether it goes through a rebuttal process or not, the Audit
 
 >[!info]
 >Speech bubble icons allows users to make notes and comments on the specified input. The icon will display in red to indicate a comment is present.
->![Speech Bubble](CommentIcon.png)|
+>![Speech Bubble](CommentIcon.png)
