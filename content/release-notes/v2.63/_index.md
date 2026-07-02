@@ -10,7 +10,7 @@ title = 'V2.63 (Jul 2026)'
 
 **CACTWO-6029** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Comment bubbles have been added next to each input field in the Audit Management viewer and the CDI Audit Management viewer. This allows auditors to add a comment alongside any individual input to provide context or explanation for a value entered or changed. The comment bubbles function the same way as the existing comment bubbles on codes; they display as a standard icon when empty and turn red when a comment has been added. This gives auditors a consistent and familiar way to annotate their work throughout the entire audit record.
+Comment bubbles have been added next to each input field in the [Audit Management viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and the [CDI Audit Management viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/). This allows auditors to add a comment alongside any individual input to provide context or explanation for a value entered or changed. The comment bubbles function the same way as the existing comment bubbles on codes; they display as a standard icon when empty and turn red when a comment has been added. This gives auditors a consistent and familiar way to annotate their work throughout the entire audit record.
 
 ![Audit Fields Comment Bubbles](AuditCommentBubbles.png)
 
@@ -206,11 +206,12 @@ Users can filter results by either Admit Date or Discharge Date, with a maximum 
 
 **CACTWO-7981** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-There was no way to grant users read-only access to [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) - anyone with auditor access could edit or modify audit data, making it difficult for managers and supervisors to review audits without risk of inadvertent changes. 
+Previously, there was no way to provide users with read-only access to audits. Any user with auditor permissions could modify audit data, making it difficult for managers, supervisors, and other stakeholders to review audits without the risk of unintentionally changing information.
+To address this, two new privileges have been added to the Chart – Editing section of Role Management:
+•	Only View Audits as an Auditor [HG21.1]
+•	Only View CDI Audits as a CDI Auditor 
 
-Two new privileges have been added to the Chart - Editing group in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/): "Only View Audits as an Auditor" and "Only View CDI Audits as a CDI Auditor." 
-
-When enabled, these permissions make the respective audit viewer strictly read-only for all fields, including stopwatches. If a user's role has both create and view-only privileges assigned, the view-only permission takes precedence.
+When either of these permissions is enabled, the corresponding audit viewer becomes fully read-only. Users can review audit information but cannot edit any fields, including stopwatches. If a role is assigned both edit and view-only permissions, the view-only permission takes precedence, ensuring the audit remains read-only.
 
 ![View Audits as Auditor Role Management](ViewasAuditor.png)
 
