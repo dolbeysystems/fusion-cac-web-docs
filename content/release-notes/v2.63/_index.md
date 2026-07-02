@@ -150,6 +150,16 @@ Modifiers are optional, but when populated on a charge in E/M Configuration, the
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### Reporting - Coder Activity Reports Now Use Account's Current Category 
+
+**CACTWO-7918** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The [Coder Activity Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#coder-activity-report) and [Coder Detailed Activity Report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#coder-detailed-activity-report) have been updated to reflect an account's current category, facility, and (for the Coder Activity Report) hospital service, rather than the category that was in effect at the time of the activity. 
+
+This change benefits sites where an account's category can change after a chart is submitted, such as when a coder's productivity calculations rely on the category being up to date. Filtering by Category, Facility, and Hospital Service on these reports now uses the account's present-day values as well. Totals are unaffected by this change; only the breakdown of activity by category may shift to reflect each account's current classification.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
 ### Preserve E/M Viewer Scroll Position Within Session
 
 **CACTWO-7946** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
@@ -482,8 +492,29 @@ This caused the selector to appear truncated, the removed workgroup to remain di
 
 ### Destination Account Banner Displays Incorrect Patient Type
 
-**CACTWO-822** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+**CACTWO-8224** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 A bug was corrected in the [Transfer Account Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) where the banner bar was displaying the Patient Type of the source account rather than the destination account. 
 
 This caused confusion when combining accounts of different types, such as merging an ER account into an Inpatient account. Additionally, minor formatting issues in the viewer have been resolved, including the "Room" field not appearing in bold and the "Bed" field displaying as a dash instead of the correct value.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Document Types Management – ‘Edit Group Name’ Context Menu Restored to Prior Functionality
+
+**CACTWO-8227** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+An error was corrected with the "Edit Group Name" right-click context menu option in [Document Types Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/). The option had stopped applying name changes to individual documents that did not already have a group assigned, and was instead behaving inconsistently when reassigning groups. 
+
+The functionality has been restored so that right-clicking on a Document Type Group and choosing "Edit Group Name" updates the name for all document types within that group, while right-clicking on an individual document type and choosing the same option updates only that document type's group, regardless of whether it previously had a group assigned.
+
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Newly Added Grid Columns Auto-Adding to Saved Searches
+
+**CACTWO-8293** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+An error was corrected where new fields added through [Grid Column Maintenance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) were automatically being appended to previously saved [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) filters. New columns added in Grid Column Maintenance will continue to be added to the end of the "Default" account search, but will no longer be automatically added to any other previously saved searches.
+
+Note that this problem does not occur with scheduled account searches delivered by email from Jsreport.
