@@ -214,8 +214,8 @@ Users can filter results by either Admit Date or Discharge Date, with a maximum 
 Previously, there was no way to provide users with read-only access to audits. Any user with auditor permissions could modify audit data, making it difficult for managers, supervisors, and other stakeholders to review audits without the risk of unintentionally changing information.
 
 To address this, two new privileges have been added to the Chart – Editing section of Role Management:
-•	Only View Audits as an Auditor [HG21.1]
-•	Only View CDI Audits as a CDI Auditor 
+- Only View Audits as an Auditor [HG21.1]
+- Only View CDI Audits as a CDI Auditor 
 
 When either of these permissions is enabled, the corresponding audit viewer becomes fully read-only. Users can review audit information but cannot edit any fields, including stopwatches. If a role is assigned both edit and view-only permissions, the view-only permission takes precedence, ensuring the audit remains read-only.
 
