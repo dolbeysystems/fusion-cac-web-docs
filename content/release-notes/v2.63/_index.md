@@ -60,6 +60,11 @@ A new Account Type column has been added to the AuditTrainingTopics mapping in [
 
 **CACTWO-6943** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+The [CDI Alerts and Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) links in the account navigation tree will now display in bold red with a count of active alerts when any active alerts are present on the account. This behavior mirrors how open queries are indicated in the navigation tree. 
+The count and red bold formatting will persist regardless of whether the viewer has been opened, and will only revert to standard black text once all active alerts have been closed or auto-resolved. If no alerts have ever existed on the account, the link will continue to not appear in the navigation tree, consistent with existing behavior.
+
+![Red Active Alerts](RedAlertsNavPane.png)
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Display Creator Name and Date on Scheduled Reports
@@ -207,6 +212,7 @@ Users can filter results by either Admit Date or Discharge Date, with a maximum 
 **CACTWO-7981** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 Previously, there was no way to provide users with read-only access to audits. Any user with auditor permissions could modify audit data, making it difficult for managers, supervisors, and other stakeholders to review audits without the risk of unintentionally changing information.
+
 To address this, two new privileges have been added to the Chart – Editing section of Role Management:
 •	Only View Audits as an Auditor [HG21.1]
 •	Only View CDI Audits as a CDI Auditor 
@@ -247,6 +253,11 @@ Users were having difficulty spotting bookmarks while skimming through documents
 
 **CACTWO-7997** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
+For sites using multiple facility licensing with GPCS, if a facility was not listed in the MedicareProviderNumber mapping, the encoder would silently fall back to using the default customer ID, allowing unlicensed facilities to use another facility's license. 
+
+With this update, if a facility is not explicitly listed in the MedicareProviderNumber mapping, users will receive an error message stating the facility is not licensed to use the feature when attempting to compute DRG or APC. 
+This change ensures that encoder computations are restricted to only those facilities with an explicit license, while the Code Book and TruCode edits window remain unaffected as they do not require a Medicare Provider Number.
+
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
 ### Mapping Configuration now tracks and displays a history of changes
@@ -267,6 +278,10 @@ With this update, a "Show History" button now appears in the upper right corner 
 ### Create a Configurable Document Background Display
 
 **CACTWO-8035** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Users reported difficulty reading documents due to the grey background, prompting a request for a high-contrast white background option. This change adds a per-user right-click menu option in the Coder Application to toggle document backgrounds between default grey and high-contrast white. The setting persists across sessions for each individual user.
+
+![Configurable Document Background](ConfigDocBkgrnd.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -431,6 +446,15 @@ This resulted in extremely slow search performance, with some queries taking nea
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
+### Copy Row Commands Now Respect Active Column Filters[
+
+**CACTWO-8189** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The "Copy Row as Table" and "Copy Row as Text" functions in the [Flowsheet viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#flowsheet-viewer) have been updated to only include values from columns that are currently visible. 
+
+Previously, these copy commands would include the entire row's data regardless of any date range filters or hidden columns applied by the user, requiring manual cleanup after pasting. The behavior now matches that of the existing "Copy Row to CDI Alert" function, ensuring consistency across all three copy commands. This is particularly beneficial for long-stay patient encounters where Flowsheet rows may contain extensive historical data and users only need to copy a targeted subset of values for a specific timeframe.
+
+
 ### TruBridge MUE Edits not Displaying in the Standalone Encoder
 
 **CACTWO-8202** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
@@ -443,7 +467,7 @@ The cause was that the Units field for CPT procedures was not being passed to [T
 
 ### Account Search Group rows Missing Total Charges Subtotals
 
-**CACTWO-81203** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+**CACTWO-8203** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
 When accounts in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) were grouped by a column, the grouping rows previously displayed a subtotal of Total Charges for the accounts within each group. 
 
