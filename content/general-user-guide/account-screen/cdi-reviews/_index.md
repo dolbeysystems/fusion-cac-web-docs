@@ -3,20 +3,20 @@ title = 'CDI Reviews'
 weight = 10
 +++
 
-Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard includes data for Today and This Week only, and data is based on the current week. This also provides the CDI Specialist (CDS) with DRG and reconciliation data.
+Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard includes data for Today and This Week only, and data is based on the current week. This also provides the CDI Specialist (CDI) with DRG and reconciliation data.
 
 ## Initial Review
 
-An initial review is a case that has never been reviewed by a CDS in Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
+An initial review is a case that has never been reviewed by a CDI in Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
 
-When a CDS creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/) (the first Working DRG), edits the account - causing the Working DRG to be cleared - and saves the account without computing a new Working DRG, the Baseline DRG creation also counts as an initial review.
+When a CDI creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/) (the first Working DRG), edits the account - causing the Working DRG to be cleared - and saves the account without computing a new Working DRG, the Baseline DRG creation also counts as an initial review.
 
-The CDS will review the patient chart documentation and assign any codes necessary to calculate a working and/or [baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/). The CDS may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
+The CDI will review the patient chart documentation and assign any codes necessary to calculate a working and/or [baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/). The CDI may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
 
 >[!Note] 
 >The **system does not take the place of a Coder**; this is the computer’s best guess at how Coders would have coded the chart
 
-While reviewing, if the CDS has notes they wish to add to the chart they can add an ‘Initial CDI Worksheet’. The CDS worksheet can be customized per organizational needs and preferences. This section outlines the initial default worksheet *prior* to customization.
+While reviewing, if the CDI has notes they wish to add to the chart they can add an ‘Initial CDI Worksheet’. The CDI worksheet can be customized per organizational needs and preferences. This section outlines the initial default worksheet *prior* to customization.
 
 The CDI worksheet *can* include any notes that are needed such as:
 
@@ -27,7 +27,7 @@ The CDI worksheet *can* include any notes that are needed such as:
 
 ## Creating a Query
 
-If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDS should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) viewer in the [Navigation](http://localhost:1313/fusion-cac-web-docs/general-user-guide/account-screen/) tree. 
+If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) viewer in the [Navigation](http://localhost:1313/fusion-cac-web-docs/general-user-guide/account-screen/) tree. 
 
 ![Physicans & Queries Viewer](PhysicanQueriesNP.png)
 
@@ -48,11 +48,11 @@ In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-doc
 
 ## Follow-up
 
-A CDI follow-up review is a case that has already been reviewed at least once by a CDS within Fusion CAC. A CDI review for inpatient charts *must* have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up review is a subsequent review of the first. The default interval for review is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/code-summary/) viewer.
+A CDI follow-up review is a case that has already been reviewed at least once by a CDI within Fusion CAC. A CDI review for inpatient charts *must* have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up review is a subsequent review of the first. The default interval for review is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/code-summary/) viewer.
 
 ![Next Review Date](2025-02-20_ChartReview1.png)
 
-A CDI user can change the interval that the chart is routed back to a queue. Changing the calendar date in the "Next Review Date" field to a future date will tell the chart to not route back to the “Follow-up Review” queue until the current calendar date matches the date selected by the user. A CDS can complete as many follow-up reviews as needed.
+A CDI user can change the interval that the chart is routed back to a queue. Changing the calendar date in the "Next Review Date" field to a future date will tell the chart to not route back to the “Follow-up Review” queue until the current calendar date matches the date selected by the user. A CDI can complete as many follow-up reviews as needed.
 
 ## Reconciliation
 
@@ -63,7 +63,7 @@ After discharge, the Coder will assign a Final DRG. How the organization has cho
 >[!Note]Reconciliation Options
 There are other options that can occur for reconciliation when a Coder submits an account; however, these are the two most common workflow paths. 
 
-In the event the DRGs do not match, the CDS will see an active {{%button%}}Reconcile{{%/button%}} button instead of the usual grayed out {{%button%}}Submit{{%/button%}} button.
+In the event the DRGs do not match, the CDI will see an active {{%button%}}Reconcile{{%/button%}} button instead of the usual grayed out {{%button%}}Submit{{%/button%}} button.
 
 ![Reconcile Button](Reconcile.png)
 
@@ -71,11 +71,11 @@ Clicking on the {{%button%}}Reconcile{{%/button%}} button will bring up a window
 
 ![DRG Difference](2025-02-21_ChartReview2.png)
 
-From here the CDS has 3 options:
+From here the CDI has 3 options:
 
 * **Cancel** will take the user back to the account screen where they can make any coding adjustments or send a Physician Query.
-* **No** will result in the account being closed and the CDS willbe taken back to the Account List. *The user has not agreed with the code.* 
-* **Yes** will result in the Working DRG being automatically changed to match the Final DRG. The account will close and the CDS will be taken back to the Account List.
+* **No** will result in the account being closed and the CDI will be taken back to the Account List. *The user has not agreed with the code.* 
+* **Yes** will result in the Working DRG being automatically changed to match the Final DRG. The account will close and the CDI will be taken back to the Account List.
 
 >[!Note] Outpatient CDI
 >Organizations with users performing CDI on outpatient charts will meet with the Dolbey SME Team to set up outpatient specific workflow for their CDI team.
@@ -96,6 +96,6 @@ If an organization does different styles of CDI reviews, or want to track manage
 
 By default, documentation reviews have a free form text field. Organizations can also create forms within the [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/) for each of these reviews.
 
-Custom management reports are built into the application to report out on specific reviews. The CDI Management and CDI Personal Dashboard will also change to accommodate these custom reviews. Organizations that do not have documentation reviews enabled will have custom review content hidden as it is not appliable. 
+Custom management reports are built into the application to report out on specific reviews. The CDI Management and CDI Personal Dashboard will also change to accommodate these custom reviews. Organizations that do not have documentation reviews enabled will have custom review content hidden as it is not applicable. 
 
 If an organization does not have documentation reviews enabled and they wish to track reviews differently, they should contact the Dolbey SME Team (smeteam@dolbey.com) for a demonstration.
