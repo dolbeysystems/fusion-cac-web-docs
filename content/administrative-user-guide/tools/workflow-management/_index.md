@@ -244,7 +244,18 @@ Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button
 
 ###### Workgroup Type
 
-Workgroup Type is used to identify which team or department owns a specific workgroup. This classification is essential for determining ownership and accountability within the workflow. For example, to verify whether a particular chart is accessible or being held up, management can check which team owns that worklist. This property allows users to quickly identify the appropriate workgroup for reporting and ensure accurate tracking and visibility across departments.
+Workgroup Type is used to identify which team or department owns a specific workgroup. This classification is essential for determining ownership and accountability within the workflow. For example, to verify whether a particular chart is accessible or being held up, management can check which team owns that work list. This property allows users to quickly identify the appropriate workgroup for reporting and ensure accurate tracking and visibility across departments. Additionally, specifying the Workgroup Type sets the ability for accounts assigned to custom work groups to be retained by the user's current role when account is directly assigned to a user. 
+
+![Workgroup Type Drop Down](WorkgroupType.png)
+
+To configure, examine the mapping for WorkGroupType in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/). When the **Used By** column is blank for a workgroup type, which will be the default, any custom workgroup with this workgroup type will be removed from the account when the account is assigned to a user.
+
+![Workgroup Type Used By Column](UsedByColumn.png)
+
+If a workgroup type's **Used By** is set to a role, then any custom workgroup with that workgroup type is designed for use only by that current role. For example, a workgroup type with **Used By** set to Coder designates a custom workgroup to be used by coders only. If a CDI Specialist or Auditor assigned an account to a a user, the custom workgroup with this Workgroup Type will not be removed. If a Coder assigned an account to a user, the customer workgroup with this Workgroup Type will be removed.
+
+>[!Note]
+The "Retain Always" option in the Used By selection means that the custom workgroup with this workgroup type will never be removed if the account is assigned to a user.
 
 ###### Sort Field and Direction 
 
