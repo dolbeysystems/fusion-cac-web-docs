@@ -248,14 +248,28 @@ Workgroup Type is used to identify which team or department owns a specific work
 
 ![Workgroup Type Drop Down](WorkgroupType.png)
 
-To configure, examine the mapping for WorkGroupType in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/). When the **Used By** column is blank for a workgroup type, which will be the default, any custom workgroup with this workgroup type will be removed from the account when the account is assigned to a user.
+To configure Workgroup Type, examine the mapping for WorkGroupType in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/). The **Used By** column determines how custom work groups will behave during account assignment. 
 
 ![Workgroup Type Used By Column](UsedByColumn.png)
 
-If a workgroup type's **Used By** is set to a role, then any custom workgroup with that workgroup type is designed for use only by that current role. For example, a workgroup type with **Used By** set to Coder designates a custom workgroup to be used by coders only. If a CDI Specialist or Auditor assigned an account to a a user, the custom workgroup with this Workgroup Type will not be removed. If a Coder assigned an account to a user, the customer workgroup with this Workgroup Type will be removed.
+**Used By** drop down options include:
+- Blank (default): When the **Used By** column is blank for a workgroup type, any custom workgroup with this workgroup type will be removed from the account when the account is assigned to a user. This is the standard behavior used for most workgroup types and requires no additional configuration.
+- Retain Always: The Retain Always option provides an exception to both the default and role-specific behaviors. Custom work groups are never removed during account assignment, regardless of the assigning role. It does not matter which user or role assigns the account—the custom workgroup will remain on the account until it is removed by another process or through manual intervention.
+- Role Specific: If a workgroup type's **Used By** is set to a role, then any custom workgroup with that workgroup type is designed for use only by that current role. Rather than always removing the workgroup when an account is assigned, the system evaluates which role performed the assignment.
 
->[!Note]
-The "Retain Always" option in the Used By selection means that the custom workgroup with this workgroup type will never be removed if the account is assigned to a user.
+  *example:* a workgroup type with **Used By** set to Physician Coder (which also includes Single Path) designates a custom workgroup to be used by coders only. 
+    - If a CDI Specialist assigns the account to a user, the custom workgroup remains on the account
+    - If a Coder assigned the account to a a user, the custom workgroup also remains
+    - If a Physician Coder (or Single Path user) assigns the account to a user, the custom workgroup is removed because it as fulfilled its intended purpose for that role.
+  
+In other words, a role-specific Workgroup Type is only removed when the account is assigned by the role specified in the Used By field. Assignments performed by any other role will leave the custom workgroup intact.
+
+Troubleshooting Best Practice - 
+
+- Identify the Workgroup Type: Begin by opening the workflow in question and identifying the Workgroup Type assigned to it. The Workgroup Type controls how the system manages the custom workgroup when an account is assigned to a user.
+- Review the Mapping Table: After identifying the Workgroup Type, navigate to the WorkGroupType Mapping Table and locate the matching entry. Review the Used By column, as this setting determines whether the custom workgroup is retained or removed during account assignment.
+
+
 
 ###### Sort Field and Direction 
 
