@@ -109,7 +109,7 @@ the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-gui
 |Brown Title|Indicates a closed audit ![Closed Audit](BrownTitle.png)|
 |Astrisk|Indicates a required field ![Required Field](Astrisk.png)|
 |P Icon|Indicates the diagnosis is a principal ![Principal Diagnosis Icon](PrincipalIcon.png)|
-|Numbers in Visit Reason Section|Indicates the position number of visit reason ![Visit Reasons Numbers](VisitReasons.png)|
+|Numbers in Visit Reason Section|Indicates how the codes are sequenced ![Visit Reasons Numbers](VisitReasons.png)|
 |Speech Bubble|Allows auditors to enter in notes next to any of the codes or items getting audited on the coder or auditor tree ![Speech Bubble](CommentIcon.png)|
 |Blue Background|Accuracy rate lines have a blue background, so they stand out. ![Blue Background](BlueBackground.png)|
 
@@ -123,7 +123,7 @@ the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-gui
 |Black Background|The document has been archived, meaning it was removed or replaced on the account. The end user had already added codes or bookmarks on the document.|
 |Red Text|Search results were found on the document. ![Red Text](RedText.png)|
 |Grey Circle with Number|Displays the umber of instances the searched word/phrase is within the document. ![Grey Circle](GreyCircle.png)|
-|Square with Arrow|Indicates the user can pop out the document(s) into a separate tab. [Document Pop Out Square](DocumentPopOut.png)|
+|Square with Arrow|Indicates the user can pop out the document(s) into a separate tab. ![Document Pop Out Square](DocumentPopOut.png)|
 |Aqua Background|Indicates the document has been popped out into a different tab. ![Popped Out Document](AquaBackground.png)|
 
 ## Documents Tree
