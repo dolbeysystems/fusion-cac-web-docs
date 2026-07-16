@@ -126,7 +126,7 @@ the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-gui
 |Square with Arrow|Indicates the user can pop out the document(s) into a separate tab. ![Document Pop Out Square](DocumentPopOut.png)|
 |Aqua Background|Indicates the document has been popped out into a different tab. ![Popped Out Document](AquaBackground.png)|
 
-## Documents Tree
+### Documents
 
 Words/Phrases and Codes can be highlighted in few different colors:
 
