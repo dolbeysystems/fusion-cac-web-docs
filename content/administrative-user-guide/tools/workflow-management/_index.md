@@ -202,35 +202,66 @@ Add as many values as needed to ensure the data is sufficiently constrained so t
 
 #### Workflow Operators
 
-Each criterion has a set of operators. Depending on the property slected, the operators may be different.
+Each criterion has a set of operators. Depending on the property selected, the operators may be different. Operators tell the system how to compare the value you enter against the value on the chart. The right operator depends on whether you're checking for an exact match, a range, a list of options, or a date.
 
+###### Matching a Single Value
 
-| Operator             | Description |
-| -------------------- | ----------- |
-| Equals               | This is used if you have one value, and it must equal the value. This is case sensitive. |
-|Not Equal             | This is used if you have one value, and it must not equal the value. This is case sensitive. |
-| >                    | This sign means that the value must be less than the value noted. |
-| <                    | This sign means that the value must be greater than the value noted. |
-| >=                   | This sign means that the value must be less or equal to than the value noted. |
-| <=                   | This sign means that the value must be greater or equal to the value noted. |
-| In List              | If you have more than one value, it could be any of the following. |
-| Not In List          | If you have more than one value, you do not want it to equal. |
-|Starts With           | This operator is a search function that identifies resulsts where a string begins with a specific set of characters such as codes and document types.
-| Contains             | If you have a word, phrase or value that can contain it must have what you added exactly. This is common when including payors. |
-| Only Contains        | Any one of the codes it is not needed to do all 3. |
-| Exists               | This will search to see if anything “exists” in this field, if it’s not blank it will match. No value is needed after the operator. |
-| Does not Exist       | This will search to see if anything “does exists” in this field if it’s blank it will match. No value is needed after the operator. |
-| More Than            | This operator is only used with date fields, you will need to define “more than” how many days ago. You cannot add a date into the field as this field will need to be dynamic therefore days ago is used. |
-| Less Than            | This operator is only used with date fields, you will need to define “less than” how many days ago. You cannot add in a date into the field as this field will need to be dynamic therefore days ago is used. |
-| Later Than           | This operator is only used with date fields, you will need to define the exact date you do not wish to exceed. |
-| Is On                | This is for an exact date, this is uncommon to use for workflow. |
-| Weekday In           | This operator allows the user to select the specific day of the week. |
-| Hour In Range        | This operator allows the user to select a range of hours for the admit/discharge date. |
-| Hour In              | This operator allows the user to select a specific hour of the day. |
-| Last Month           | This operator looks for specified criteria in the previous calendar month. Primarily used in Audit workflow. |
-| This Month           | This operator looks for specified criteria in the current calendar month. Primarily used in Audit workflow. |
-| Includes Each Of     | If you have more than one value, it must contain all of the following. However, note the chart must have each of the values but can also have other values. |
-| Includes Any Of      | If you have more than one value and it could be any of the following. |
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| Equals               | The field must match your value exactly — nothing more, nothing less. Uppercase/lowercase matters. |Setting Equals → "Inpatient" will only match accounts where the field says exactly "Inpatient" — not "inpatient" or "Inpatient Chart."|
+|Not Equal             | This is used if you have one value, and it must not equal the value. Uppercase/lowercase matters. |Not Equal → "Inpatient" matches every account except those marked exactly "Inpatient."|
+
+###### Comparing Numbers or Amounts
+
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| < (less than)        | The field's value must be smaller than the number you enter.|< 5 matches 4, 3, 0 — not 5 itself. |
+| > (greater than)     | The field's value must be larger than the number you enter.|> 5 matches 6, 7, 100 — not 5 itself. |
+| <= (less than or equal to) | This sign means that the value must be less or equal to than the value noted. |<= 5 matches 5, 4, 3.|
+| >= (greater than or equal to) | The field's value must be larger than or the same as the number you enter. |>= 5 matches 5, 6, 7.|
+
+###### Matching Against Several Possible Values
+
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| In List              | The field must exactly match one of the values you list — the whole field, not part of it. |In List → [Return to CDI, Return to Coding] matches an account only if the field's entire value is exactly one of those two phrases.|
+| Not In List          | The field must not exactly match any of the values you list. |Not In List → [Return to Quality, Return to Coding] excludes accounts where the field is exactly one of those two phrases.|
+
+###### Searching Within Text
+
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| Starts With           | Matches if the field begins with the characters you enter — useful for codes or document type prefixes.|Starts With → "I10" matches "I10.9," "I10.0," "I10-related note," etc.|
+| Contains             | Matches if your word or phrase appears anywhere in the field — even if it's only part of a longer value, not the whole thing. |Contains → "Blue Cross" matches "Blue Cross of Ohio," "Anthem Blue Cross," or a note that simply mentions "Blue Cross" partway through.|
+| Only Contains        | Matches only if every value in the field comes from your list — nothing extra is allowed. |If an account has codes A, B, and C, "Only Contains → [A, B, C]" matches. If the account also has code D, it does not match.|
+
+###### Checking Whether a Field Has Any Value
+
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| Exists               | Matches if the field has anything in it — it just can't be blank. No value needs to be entered for this operator. |Exists on "Discharge Date" matches any account that has a discharge date recorded, regardless of what that date is.|
+| Does not Exist       | TMatches if the field is blank. No value needs to be entered for this operator. |Does Not Exist on "Discharge Date" matches accounts with no discharge date yet — i.e., still admitted.|
+
+###### Checking Whether a Field Has Any Value
+
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| More Than            | Only for date fields. Matches if the date is more than X days ago. You enter a number of days, not a calendar date, since this needs to stay relative to "today." |More Than → 30 (days ago) on Admit Date matches accounts admitted over a month ago.|
+| Less Than            | Only for date fields. Matches if the date is less than X days ago. Again, you enter a number of days, not a calendar date. |Less Than → 7 (days ago) on Admit Date matches accounts admitted within the last week.|
+| Later Than           | Only for date fields. Matches if the date is later than one specific, fixed calendar date you choose. |Later Than → 01/01/2026 matches any account dated after January 1, 2026.|
+| Is On                | TMatches an exact calendar date. Rarely used in workflow since most workflows need to stay relative to "today." |Is On → 03/15/2026 matches only accounts dated exactly March 15, 2026.|
+| Weekday In           | Matches if the date falls on one of the specific days of the week you select. |Weekday In → [Saturday, Sunday] matches accounts admitted on a weekend.|
+| Hour In Range        | Matches if the time (admit or discharge) falls within a range of hours you set. |Hour In Range → 8:00 AM–5:00 PM matches accounts admitted during standard business hours.|
+| Hour In              | Matches if the time falls on one specific hour you select. |Hour In → 2:00 PM matches accounts admitted between 2:00–2:59 PM.|
+| Last Month           | Matches records from the previous calendar month. Mainly used for Audit workflows. |If today is any day in August, Last Month matches everything dated in July.|
+| This Month           | TMatches records from the current calendar month. Mainly used for Audit workflows. |If today is any day in August, This Month matches everything dated in August.|
+
+###### Checking Whether a Field Has Any Value
+
+| Operator             | Description | Example |
+| -------------------- | ----------- | ------- |
+| Includes Each Of     | The field must contain all of the values you list — but it's okay if it has other values too.|Includes Each Of → [A, B] matches an account with codes A, B, and C, because A and B are both present. It would not match an account with only A.|
+| Includes Any Of      | The field must contain at least one of the values you list. | Includes Any Of → [A, B] matches an account with just A, just B, or both.|
 | Does not Include     | If you have more than one value, you do not want it to equal you must use “Not In List” |
 
 >[!Note]Operator Values

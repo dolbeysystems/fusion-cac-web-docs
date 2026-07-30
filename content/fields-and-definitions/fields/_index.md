@@ -12,7 +12,6 @@ weight = 10
 |Account Status                 |This is the account status for the patient chart. |
 |Active Matched Criteria Groups |This is the total number of active criteria groups on a patient chart. |
 |Added to Images                |This is how many total codes were added to an image document. |
-|Added to Images        |Total number of codes added to images                                                                                                                |
 |Admit Date                     |This is the admit date of the patient. Even though the field is named admit date time it only displays the date. |
 |Admit Date w/ Time             |Computed to display the patient's admit date with the admit time |
 |Admit Diagnosis Codes          |This is the admit diagnosis code of the patient chart. |
@@ -83,7 +82,6 @@ weight = 10
 |Denial Type                    |This is a field from the denial management viewer to display the type of the Denial. |
 |Discharge Date                 |This is the discharge date of the patient. |
 |Discharge Date w/ Time         |Computed to display the patient's discharge date with discharge time |
-|Discharge Date w/ Time         |This is the discharge date with the time of the patient. |
 |Discharge Disposition          |This is the discharge disposition of the patient. |
 |Discharged To                  |This is where the patient was discharged to. |
 |Document Code                  |This is used to find any code suggested by the engine or added by a user assigned or unassigned. |

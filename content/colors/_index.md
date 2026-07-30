@@ -149,7 +149,7 @@ Words/Phrases and Codes can be highlighted in few different colors:
 |MCC|Indicates that the code is a MCC ![Code is a MCC](mcc.png)|
 |CC|Indicates that the code is a CC ![Code is a CC](CC.png)|
 |HAC|Returned upon computing for the MS-DRG, this indicates that the code is an HAC.|
-|NOR|Indicates the procedure code is a non-OR procedure.
+|(OR)|Indicates the procedure code is a non-OR procedure.
 |Tag|Returned upon computing for the MS-DRG, this indicates that the code is responsible for one of the following quality measures **PSI**, **PDI**, **PC-06** or **Elixhauser**. ![Quality Indicator Tag](QITag.png)|
 |Purple Background on **Assigned Codes**|There are more than 25 codes and any code in purple is below the the 25th position. This is important since CMS only accepts 25 diagnosis codes in the event you need to consider resequencing codes that need to be above the 25th position.![Purple Background](PurpleBackground.png)|
 |Exclamation Icon|Will appear on the "Show All" tree when a user manually entered this code *and* the system suggested it.![Exclamation Mark](ExclamationMark.png)|
