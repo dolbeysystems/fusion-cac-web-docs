@@ -20,7 +20,10 @@ Worklists are organized into one of the following categories:
 |CDI/Concurrent|**ONLY** valid if the patient chart does not have a discharge date and has a status of unbilled|
 |Post Discharge|**ONLY** valid if patient chart has a discharge date and has a status of unbilled|
 |QA Review|Available for any charts needing QA and/or for reconciliation workflow|
-|[Custom](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#custom-category)|Allows custom categories to meet unique client specification|
+|Custom|Allows custom categories to meet unique client specification|
+
+>[!info]Additional Information
+>Audit and AutoClose have additional configuration options and are covered in their own sections (linked). CDI/Concurrent, Post Discharge, and QA Review are standard categories with no extra setup.
 
 Categories are made up of one or more worklists. Each worklist is then made up of one or more criteria groups. For example:
 
@@ -45,7 +48,7 @@ Often a worklist will contain multiple criteria groups. Each criteria group has 
 
 ### Audit
 
-Audit workflow collects charts meeting the specified criteria needed to be reviewed by an Auditor. The workflow can define certain days for when charts are added to the Auditor worklist(s).In Workflow Management the Audit default workgroup category is identical
+Audit workflow collects charts meeting the specified criteria needed to be reviewed by an Auditor. The workflow can define certain days for when charts are added to the Auditor worklist(s). In Workflow Management the Audit default workgroup category is identical
 to all other workgroup categories, but Audit workflow is triggered on a schedule instead of in real-time.
 
 Example: Select that workflow automatically adds charts to the worklist on the first day of every month and last day of the month.
@@ -55,7 +58,7 @@ Example: Select that workflow automatically adds charts to the worklist on the f
 On the designated days every month, 5 charts (the limit can be changed) from every Coder (First Submitter) will be automatically routed to the Auditor’s worklist. 
 
 >[!note]
->If a month occurs that does NOT have the date set, (ex. the month of November does not have a 31st day) the month will not run an Audit worklow.
+>If a month occurs that does NOT have the date set, (ex. the month of November does not have a 31st day) the month will not run an Audit workflow.
 
 #### Schedule 
 
@@ -80,9 +83,9 @@ The criteria filter, "Random Percentage" is included in the workflow criteria op
 between 0 and 100 and detected in the workflow engine, a random number will be generated. If the
 random number is less than or greater than the number in the filter criteria, the Criteria will match.
 
-Random Inclusion Factor that is less than 20 will pass a theoretical 20% of accounts through the filter.
+Random Inclusion Factor that is less than 20 will pass a theoretical 20% of accounts through the filter. 
 You don't want to use this with equals (=) because it would always cause a ~1% result, and you don't
-want to use it with greater than (>) because it will pass an inverse percentage.
+want to use it with greater than (>) because it will pass an inverse percentage. Equals only matches the single number rolled, out of 100 possible outcomes — so it will almost always fail to match, letting through close to none of your accounts instead of the percentage you intended.
 
 As noted, this is not going to be an exact percentage, only a theoretical one. In edge cases, you could
 ask for "20% of accounts" and end up getting zero, or you could end up getting all of them, but most of
@@ -98,7 +101,7 @@ filter, it will "roll the die". The common use case for this filter is "Random I
 
 ### AutoClose
 
-This automation is the a process by which an ancillary patient chart can be closed by the application based upon a set of rules without Coder intervention. Autoclose is a process that takes routine outpatient visits and automates the coding process by submitting the chart directly to billing. This concept is known in the industry as autonomous coding.
+This automation is a process by which an ancillary patient chart can be closed by the application based upon a set of rules without Coder intervention. Autoclose is a process that takes routine outpatient visits and automates the coding process by submitting the chart directly to billing. This concept is known in the industry as autonomous coding.
 
 Organizations often use AutoClose to ensure they can capitalize on the value of these ancillary charts while not sacrificing the staff they have.
 Common outpatient service lines that make great candidates for AutoClose include:
@@ -118,10 +121,10 @@ Common outpatient service lines that make great candidates for AutoClose include
 
 The types of accounts eligible for AutoClose depend on the organization, the type of services offered, payor(s), and state requirements. The Dolbey SME Team is happy to answer any questions and will work with each organization to configure AutoClose. 
 
-With AutoClose, charts can be processed within seconds and the total turn-around time can be a little as a few minutes. Charts are processed 24 hours a day, 365 days a year with AutoClose. The impact AutoClose can have on revenue is one of the best benefits of this feature. Many
-organizations AutoClose, on average, **10,000 or more charts per month**. This equals out to about 120,000 outpatient visits AutoClosed per year without Coder intervention. That is an estimate of 2.5FTEs.
+With AutoClose, charts can be processed within seconds and the total turn-around time can be as little as a few minutes. Charts are processed 24 hours a day, 365 days a year with AutoClose. The impact AutoClose can have on revenue is one of the best benefits of this feature. Many
+organizations AutoClose, on average, **10,000 or more charts per month**. This equals out to about 120,000 outpatient visits AutoClosed per year without Coder intervention. That is an estimate of 2.5 FTEs.
 
-#### Completeing Charts
+#### Completing Charts
 
 AutoClose can be set to complete charts on day one. Many organizations, however, choose to learn more about how the engine functions before AutoClose is enabled. Autoclose has a **test mode** which allows organizations to simulate what would have AutoClosed had it been enabled in production. This allows users to review and determine if AutoClose is ready for production at their facility.  
 
@@ -130,9 +133,6 @@ Patient charts that pass AutoClose criteria are coded and submitted to billing. 
 As an organization expands their AutoClose capabilities, Dolbey recommends conducting regular audits to ensure the system captures and codes everything correctly.
 
 ## Edit Workflow
-
->[!note]Terminology
->Worklist and Workgroup are often used interchangeably when discussing sorting accounts into "buckets".
 
 ### New Category
 
@@ -273,7 +273,7 @@ Workgroup properties can be edited by clicking {{%button%}}+Properties{{%/button
 
 ![Worklist Properties](WorklistProperties.png)
 
-###### Workgroup Type
+##### Workgroup Type
 
 Workgroup Type is used to identify which team or department owns a specific workgroup. This classification is essential for determining ownership and accountability within the workflow. For example, to verify whether a particular chart is accessible or being held up, management can check which team owns that work list. This property allows users to quickly identify the appropriate workgroup for reporting and ensure accurate tracking and visibility across departments. Additionally, specifying the Workgroup Type sets the ability for accounts assigned to custom work groups to be retained by the user's current role when account is directly assigned to a user. 
 
@@ -283,6 +283,12 @@ To configure Workgroup Type, examine the mapping for WorkGroupType in [Mappings 
 
 ![Workgroup Type Used By Column](UsedByColumn.png)
 
+|Option         |Action |
+|---------------|-------|
+|Blank (default)|Any custom workgroup with this workgroup type will be removed from the account when the account is assigned|
+|Retain Always  |Custom work groups are never removed during account assignment, regardless of the assigning role|
+Role Specific   |Any custom workgroup with that workgroup type is designed for use only by that current role|
+
 **Used By** drop down options include:
 - Blank (default): When the **Used By** column is blank for a workgroup type, any custom workgroup with this workgroup type will be removed from the account when the account is assigned to a user. This is the standard behavior used for most workgroup types and requires no additional configuration.
 - Retain Always: The Retain Always option provides an exception to both the default and role-specific behaviors. Custom work groups are never removed during account assignment, regardless of the assigning role. It does not matter which user or role assigns the account—the custom workgroup will remain on the account until it is removed by another process or through manual intervention.
@@ -290,7 +296,7 @@ To configure Workgroup Type, examine the mapping for WorkGroupType in [Mappings 
 
   *example:* a workgroup type with **Used By** set to Physician Coder (which also includes Single Path) designates a custom workgroup to be used by coders only. 
     - If a CDI Specialist assigns the account to a user, the custom workgroup remains on the account
-    - If a Coder assigned the account to a a user, the custom workgroup also remains
+    - If a Coder assigned the account to a user, the custom workgroup also remains
     - If a Physician Coder (or Single Path user) assigns the account to a user, the custom workgroup is removed because it as fulfilled its intended purpose for that role.
   
 In other words, a role-specific Workgroup Type is only removed when the account is assigned by the role specified in the Used By field. Assignments performed by any other role will leave the custom workgroup intact.
@@ -302,7 +308,7 @@ Troubleshooting Best Practice -
 
 
 
-###### Sort Field and Direction 
+##### Sort Field and Direction 
 
 Sort Field is used to define how patient charts are automatically organized when added to a worklist. This field determines the primary criterion for sorting, ensuring that charts are arranged in a consistent and logical order to streamline the workflow. For example, coding worklists are commonly sorted by Discharge Date to prioritize records based on when the patient was discharged. 
 
@@ -312,7 +318,7 @@ After selecting the appropriate sort field, setting the Sort Direction allows ma
 
 This sorting mechanism helps users efficiently manage their workload by organizing patient charts in a way that aligns with their operational priorities, such as completing older cases first or focusing on more recent discharges.
 
-###### Assigned Users
+##### Assigned Users
 
 Users listed here are assigned to the worklist and will see it in the Assigned To: dropdown on the [Accounts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) page. 
 
@@ -320,7 +326,7 @@ Click in the assigned users box and select the desired user(s). Holding down Ctr
 
 Click the **X** next to an assigned user to remove them from the worklist. 
 
-###### Notes
+##### Notes
 
 ![Worklist Notes](WorklistNotes.png)
 
@@ -372,7 +378,7 @@ If an account is manually routed to a user it will populate their "You" queue.
 - The chart matches a Custom Workflow after a save.
 - The chart contains a closed audit and is saved after review.
 
-If a chart appears to leave the worklist unexpectedly, review the chart's workflow history, routing
+If a chart appears to leave the worklist unexpectedly, review the chart's workflow history, routing history, and audit trail to determine the cause.
 
 ### Understanding When a Patient Chart Leaves a "You" Worklist
 
