@@ -139,18 +139,18 @@ Search results can be exported from the right-click menu. Exporting in CSV forma
 
 ![Export to CSV](ExportCSV.png)
 
-# Operators
+## Operators
 
 Account Search uses the same set of operators as Workflow Management, since both features compare the value you enter against the value stored in a field. The right operator depends on whether you're checking for an exact match, a range, a list of options, or a date.
 
-## Matching a Single Value
+### Matching a Single Value
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
 | Equals               | The field must match your value exactly (nothing more, nothing less). Uppercase/lowercase matters. |Setting Equals → "Inpatient" will only match accounts where the field says exactly "Inpatient," not "inpatient" or "Inpatient Chart."|
 |Not Equal             | The field must not match your value. Uppercase/lowercase matters. |Not Equal → "Inpatient" matches every account except those marked exactly "Inpatient."|
 
-## Comparing Numbers or Amounts
+### Comparing Numbers or Amounts
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
@@ -159,14 +159,14 @@ Account Search uses the same set of operators as Workflow Management, since both
 | <= (less than or equal to) | The field's value must be smaller than or the same as the number you enter. |<= 5 matches 5, 4, 3.|
 | >= (greater than or equal to) | The field's value must be larger than or the same as the number you enter. |>= 5 matches 5, 6, 7.|
 
-## Matching Against Several Possible Values
+### Matching Against Several Possible Values
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
 | In List              | The field must exactly match one of the values you list (the whole field, not part of it). |In List → [Return to CDI, Return to Coding] matches an account only if the field's entire value is exactly one of those two phrases.|
 | Not In List          | The field must not exactly match any of the values you list. |Not In List → [Return to CDI, Return to Coding] excludes accounts where the field is exactly one of those two phrases.|
 
-## Searching Within Text
+### Searching Within Text
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
@@ -174,14 +174,14 @@ Account Search uses the same set of operators as Workflow Management, since both
 | Contains             | Matches if your word or phrase appears anywhere in the field, even if it's only part of a longer value, not the whole thing. |Contains → "Blue Cross" matches "Blue Cross of Ohio," "Anthem Blue Cross," or a note that simply mentions "Blue Cross" partway through.|
 | Only Contains        | Matches only if every value in the field comes from your list; nothing extra is allowed. |If an account has codes A, B, and C, "Only Contains → [A, B, C]" matches. If the account also has code D, it does not match.|
 
-## Checking Whether a Field Has Any Value
+### Checking Whether a Field Has Any Value
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
 | Exists               | Matches if the field has anything in it; it just can't be blank. No value needs to be entered for this operator. |Exists on "Discharge Date" matches any account that has a discharge date recorded, regardless of what that date is.|
 | Does not Exist       | Matches if the field is blank. No value needs to be entered for this operator. |Does Not Exist on "Discharge Date" matches accounts with no discharge date yet (i.e., still admitted).|
 
-## Working with Dates
+### Working with Dates
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
@@ -195,7 +195,7 @@ Account Search uses the same set of operators as Workflow Management, since both
 | Last Month           | Matches records from the previous calendar month. |If today is any day in August, Last Month matches everything dated in July.|
 | This Month           | Matches records from the current calendar month. |If today is any day in August, This Month matches everything dated in August.|
 
-## Matching Against Multiple Values at Once (Lists Within a Field)
+### Matching Against Multiple Values at Once (Lists Within a Field)
 
 | Operator             | Description | Example |
 | -------------------- | ----------- | ------- |
