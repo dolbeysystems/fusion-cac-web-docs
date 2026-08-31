@@ -16,7 +16,7 @@ Right-click on the code to Edit/Assign the code.
 |Code Highlight|Meaning|
 |--------------|--------|
 |![Purple Highlighted Code](PurpleHighlight.png)|If the background of the text suggestion has a purple background, the text matches a code suggestion|
-|![Red Text Secondary Token](RedText.png)|If the background of the text suggestion has a red background, the text matches only a secondary token|
+|![Red Highlight Secondary Token](RedHighlight.png)|If the background of the text suggestion has a red background, the text matches only a secondary token|
 |![Green Highlighted Code](GreenHighlight.png)|If the background of the code has a green background this means the code was already validated on a different document
 
 ### Adding a Code
