@@ -224,6 +224,270 @@ On the Account List page, assigning or unassigning an account using the context 
 
 This has been resolved so that column filters are now retained, and the busy indicator appears as expected when assigning or unassigning accounts from the Account List.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Allow Inactive Users to be Selected on User Reports
+
+**CACTWO-8315** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+Inactive users can now be selected in the Users filter on the User Reports page, for reports that allow filtering by user, such as the User Detail report. Previously, only active users could be selected in this filter, even though reports have always included the activity of users who are no longer active. This makes it easier to run or rerun historical reports, such as activity or productivity reports for prior periods, without needing to reactivate a user first.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add Ability to Exclude Accounts with Unselected Pending Reasons from the Grid
+
+**CACTWO-8316** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+With the update to the ag-grid  when a user unchecks a pending reason from the Pending Reasons column filter on the Autoload, Account List, or Account Search pages, accounts that ONLY have that pending reason are removed. 
+Accounts that have the unchecked pending reason along with other pending reasons still display. A new **opt-in site configuration setting** has been added which, when set to true, will now remove any account that contains that specific reason whether or not other pending reasons are assigned. When left at its default of false, filtering behaves as before, removing only accounts that have solely that pending reason.
+
+> [!info] Additional Configuration Required
+Please contact Support to enable this feature.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### E/M Charges Credited When Levels Or Options Are Renamed
+
+**CACTWO-8318** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+E/M charges were being incorrectly credited on an account when a level or option name was changed in ER E/M Configuration after the charge had already been applied to that account. This issue has been resolved so that renaming a level or option in ER E/M Configuration will no longer affect existing E/M Charge Summaries on accounts.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Custom Workgroup Assigned Date Displaying with Time in Account List
+
+**CACTWO-8324** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the Account List page, the "Custom Workgroup Assigned Date" column was displaying the date and time in UTC format instead of the standard MM/DD/YYYY format when a custom workgroup was selected. 
+
+The column now correctly displays only the date the account was assigned to the custom workgroup. This was a display issue only, and the fix is retroactive for existing accounts since the underlying data was already correct.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Display Total Column as Currency in the Transactions Viewer
+
+**CACTWO-8326** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The Total column in the Transactions Viewer was not displaying as a currency value for sites with custom columns configured. This issue has been resolved.  The Total column will now correctly display as a currency value, and the fix is retroactive for existing accounts with custom columns in the Transactions Viewer.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change Warning for Worksheets Prevents Saving
+
+**CACTWO-8345** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+An account could end up with a duplicate worksheet document, which caused the Account Changed warning to repeatedly appear when a user chose Apply & Save, preventing the account from being saved. 
+
+An additional check has been added so that when the Conflict dialog alerts on a new worksheet, choosing Apply or Apply & Save will now verify the worksheet does not already exist before adding it, preventing the duplicate from being created.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Display the Edit with Encoder Button Consistently in the Code Editor
+
+**CACTWO-8349** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The "Edit with Encoder" button in the Code Editor dialog was displayed inconsistently across different code fields. The button has been moved to the left of the code entry, so it now appears in the same location for all codes. This is a layout change only, with no change in functionality.
+
+![Edit with Encoder](EditWithEncoder.png)
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Audit Sub-type Dropdown Not Populating on Audit Worksheet
+
+**CACTWO-8353** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In Audit Management, the Audit Sub-Type dropdown on the Audit Worksheet would sometimes not display any choices when an account was first opened, even though the data for the Audit Sub-Type existed. This was a display issue only and has been resolved so the Audit Sub-Type now displays correctly when the account is opened.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Duplicate Lines in Worksheet History Drilldown on Account Search
+
+**CACTWO-8356** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Duplicate worksheet history records could be written for an account, causing entries to appear more than once in the Worksheet History drilldown of Account Search. This has been resolved so duplicate worksheet history records are no longer created going forward. This change is **not retroactive**, so existing duplicate records already in the system will still display as duplicates.
+
+> [!note] For Additional Assistance
+Please contact Support for additional assistance to fix older records.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Add a New Alerts Performance Dashboard
+
+**CACTWO-8376** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The new **Alerts Performance** dashboard brings CDI/Clinical Alert activity, outcomes, and impact into one view. Teams can see how Alerts contribute to CDI queries, which Alerts lead to different outcomes, and how financial impact changes over time.
+
+The dashboard includes **Alert Impact** metrics, a **Net Financial Impact Trend** graph that shows positive and negative values, a donut chart comparing queries from Alerts with other CDI queries, **Top 5 Alerts by Outcome, Alert Key Performance Indicators, and Top 10 Average Auto Resolve Time**.
+
+The dashboard opens in full screen and uses the same timeframe buttons and shared Facility filter as other management dashboards. Users can select the i icon on a panel header for more information about its data.
+
+Because not all sites use CDI/Clinical Alerts, access is controlled by the new **View Alerts Performance Dashboard** privilege in Role Management.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Save Layout Not Saving Column Order in Medications and Transactions Viewers
+
+**CACTWO-8387** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Clicking "Save Layout" in the Medications viewer would not save changes to column order, so any rearranged columns reverted the next time the viewer was opened. This has been resolved so that "Save Layout" now correctly saves and restores column order in the Medications viewer. Note that layouts are saved per user. The same issue was also identified and resolved for the Transactions viewer.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Diagnosis Codes That Are Both MCC and HAC Not Designated as HAC
+
+**CACTWO-8394** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When a diagnosis code qualified as both a MCC (or CC) and a HAC, and had a U or N POA designation, Fusion CAC was giving the MCC or CC flag precedence over the HAC flag, contrary to CMS guidance that HAC should take precedence. This has been resolved so that when a diagnosis code has both an MCC/CC and an HAC, the code will now correctly be designated as HAC rather than MCC or CC.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### CDI Management Dashboard Redesign
+
+**CACTWO-8401** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The **CDI Management Dashboard** has been redesigned to make performance trends and available work easier to review. Key Performance Indicators now use defined periods, such as **This Month** and **Last Month**, instead of a rolling 30 day window. A new dropdown lets users calculate these metrics by **Admit Date** or **Discharge Date**.
+
+**CDI Team Performance** now appears beneath **Activity Summary**. The **Top 10 LOS Variance** list has been renamed **Top 10 Concurrent LOS Variance** and includes only in house patients. A new **Work Available Queue** section at the bottom of the dashboard includes the oldest admit date for each queue.
+
+**Query Performance Trends, Top 10 Query Template Performance, and Top 10 Provider Query Performance** now show the last 60 days. The Provider Query Performance columns have also been reordered and relabeled to match the Query Template Performance card. **CMI Trend** and **CC/MCC Capture Rate Trend** now show a rolling 13 month calendar range, and the capture rate chart includes separate **Medical DRG, Surgical DRG, and Combined Capture** trend lines.
+
+The date range filters in the upper corner apply to **Activity Summary** and **CDI Team Performance** only. Users can select the i icon on a panel header for more information about its data. Updated colors, consistent card alignment, and alternating row shading make the dashboard easier to scan.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### CDI Personal Dashboard Redesign
+
+**CACTWO-8402** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The **CDI Personal Dashboard** has been updated to make individual performance and current work easier to review. It now includes an **Audit Scorecard**, and the **Aging Queries** donut chart has been enlarged for better visibility.
+
+**Top 10 LOS Variance** is now called **Top 10 Concurrent Length of Stay Variance** and shows only currently admitted patients. **Top 10 Query Template Performance** and **Query Performance Trends** now display data from the last 60 days.
+
+In the **CC/MCC Capture** section, **In Progress, No CC/MCC** has been renamed **Working, No CC/MCC**. The Financial Impact panel is now called **Query Impact** and has an updated tooltip. Users can select the "i" icon on a panel header for more information about its data.
+
+Updated colors and consistent card alignment make the dashboard easier to scan. The CDI Personal Dashboard continues to display without a Facility filter.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Prevent Race Condition When Loading a Document of an Unloaded Account
+
+**CACTWO-8403** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+An error occured when the system attempted to load a document for an account at the same time the account was being removed from memory, such as when a user exited a chart shortly after opening a document. 
+
+This displayed an error message, although no account data was affected and the error had no impact on submits or other account actions. This has been corrected so that the system prevents this race condition from occurring when a document is loading for an account that is in the process of being unloaded.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Workgroup History Logs Every Incremental Change Instead of Only the Final Saved State
+
+**CACTWO-8406** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Previously, when a user created or edited a criteria filter, every incremental change to the filter's property, operator, and value was logged to the workgroupHistory collection on save, rather than just the change that was actually saved. 
+
+For example, typing a value would log each keystroke as a separate change, and reverted changes were logged even though they were never included in the final save. This also extended to other workgroup and criteria group level actions such as enabling or disabling a criteria group, renaming a group, reordering items, and adding or removing criteria. 
+
+This has been corrected so that history changes are logged on save based on the net difference between the starting and ending state, at both the workgroup and criteria group levels. Repetitive actions that ultimately result in no change, such as toggling disable and enable multiple times, are no longer logged, and only the final valid change is recorded.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Validation Rule Prevents the Prompt to Update the Baseline DRG from Triggering
+
+**CACTWO-8408** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Previously, when the site configuration setting "promptToUpdateBaseline" was enabled and a CDI Specialist calculated a new Working DRG that differed from the Baseline Working DRG, saving the account would not prompt the user to update the Baseline DRG if a CONFIRM, CRITICAL, or TOAST validation rule was also triggered on save. 
+
+The validation rule dialog was suppressing the baseline prompt entirely. This has been corrected so that the prompt to update the Baseline Working DRG still appears after the user responds to the validation rule dialog. If the account is autosaved due to inactivity in this situation, it will still close without leaving a dialog unanswered.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Workgroup History Shows a Blank Changes Dialog for Criteria Group Filters
+
+**CACTWO-8421** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+Clicking the date and time stamp next to a criteria group filter to view its saved changes displayed a blank dialog instead of the change history, even though the dialog worked correctly for unsaved changes and for workgroup level filters. 
+
+This has been corrected so that clicking the date and time stamp next to a criteria group filter now correctly displays the saved change history in the dialog.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Change Workflow Button Label for Consistency
+
+**CACTWO-8423** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+To stay consistent with the Validation Management, System Search and Account Search pages, the button label in Workflow Management for criteria has been changed from Save Criteria to Add Criteria. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Support More Than Two Inpatient Groupers on the TruCode Standalone Page
+
+**CACTWO-8424** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The TruCode Standalone page previously supported only two inpatient grouper calculations. Support has been added for displaying additional groupers, such as a third or fourth DRG calculation, on this page. 
+
+![Two Inaptient Groupers](TwoGroupers.png)
+
+> [!info] Additional Configuration Required
+Please contact Support to enable this feature.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Work Available Queue on the Dashboard Fails to Load
+
+**CACTWO-8429** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+When a user's primary workgroup name contained an apostrophe, the Work Available Queue on the dashboard would show the "Retrieving..." indicator indefinitely and never load, as the dashboard/getWorkgroupMetrics endpoint returned an error for that user. 
+
+This has been corrected so that workgroup names containing an apostrophe no longer cause this issue, and the dashboard, Account List, and related reports and worksheets open and display without error. 
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Document Type Management Displays Times in UTC Instead of the Local Time Zone
+
+**CACTWO-8431** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+The Last Document Import column in Document Type Management was displaying times in the UTC timezone rather than the user's local timezone, showing a time four to five hours ahead of the correct one, even though the time displayed correctly when opening the same document in a chart. 
+
+This has been corrected so that the Last Document Import column now displays the time in the local timezone, matching the time shown when opening the document in Account Detail.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Exclude Inactive Users from the Users Offline Count on Dashboards
+
+**CACTWO-8476** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
+
+The administrative and management dashboards included inactive user profiles in the Users Offline count. This has been changed so that inactive users are excluded from the offline user counts, both in the total and in the drilldown, across all dashboards that display online and offline user counts.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Bulleted Lists in Account Notes Display as Numbered Lists
+
+**CACTWO-8482** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+A bulleted list added in the Account Notes screen was displayed as a numbered list after clicking OK, even though editing the note showed it correctly as a bulleted list. This has been corrected so that a note saved as a bulleted list now displays correctly as a bulleted list, both in the note itself and in the Notes and Bookmarks viewer.
+
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Flowsheet Columns Do Not Display in Chronological Order
+
+**CACTWO-8496** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+In the Flowsheet viewer, when a user selected a discrete value with both earlier date and time columns and columns already shown for another value, the shared columns could appear out of order. The Flowsheet viewer now displays all columns in chronological order.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
