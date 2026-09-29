@@ -59,7 +59,7 @@ The Audit Outpatient Coder Scorecard report has been updated to add up to six ne
 
 **CACTWO-7939** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now close all active CDI Alerts on a chart at once when the chart is fully optimized and no further CDI action is needed. The new Close All button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
+Users can now close all active CDI Alerts on a chart at once when the chart is fully optimized and no further CDI action is needed. The new **Close All** button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
 
 ![Close All Alerts Button](CloseAllAlerts.png)
 
