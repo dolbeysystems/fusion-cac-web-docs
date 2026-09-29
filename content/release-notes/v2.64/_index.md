@@ -59,7 +59,17 @@ The [Outpatient Coder Scorecard](https://dolbeysystems.github.io/fusion-cac-web-
 
 **CACTWO-7939** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now close all active CDI Alerts on a chart at once when the chart is fully optimized and no further CDI action is needed. The new Close All button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually. Selecting Close All opens a confirmation dialog. If the user confirms, all active Alerts on the chart are closed with the reason Chart Optimized. If an Alert requires a different close reason, the user can cancel and close that Alert individually. Closing Alerts that no longer need action helps keep worklists and opportunity counts accurate.
+Users can now close all active CDI Alerts on a chart at once when the chart is fully optimized and no further CDI action is needed. The new **Close All** button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
+
+![Close All Alerts Button](CloseAllAlerts.png)
+
+Selecting **Close All** opens a confirmation dialog. If the user confirms, all active Alerts on the chart are closed with the reason Chart Optimized. If an Alert requires a different close reason, the user can cancel and close that Alert individually. 
+
+![Close All Alerts Dialog](CloseAllAlerts2.png)
+
+Closing Alerts that no longer need action helps keep worklists and opportunity counts accurate.
+
+![Close All Alerts Outcome](CloseAllAlerts3.png)
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
