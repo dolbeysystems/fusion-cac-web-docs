@@ -10,7 +10,7 @@ title = 'V2.64 (Oct 2026)'
 
 **CACTWO-6448** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the CDI Alerts Evidence Editor when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured mapping list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
+Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) Evidence Editor when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured mapping list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -120,7 +120,7 @@ All existing features have been retained, though some, such as adding sections a
 
 **CACTWO-8243** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new field called ‘Charts Not Yet Submitted’ has been added to the CDI Query SOI Impact per Month report.  The new field shows the number of inpatient accounts that have a stage of ‘P’, indicating they are not yet submitted. 
+A new field called ‘Charts Not Yet Submitted’ has been added to the [CDI Query SOI Impact per Month](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#cdi-query-soi-impact-per-month) report.  The new field shows the number of inpatient accounts that have a stage of ‘P’, indicating they are not yet submitted. 
 
 ![CDI Query SOI Impact per Month](QuerySOIImpact.png)
 
