@@ -23,6 +23,10 @@ Upon opening Show History, users will see the entire history from a birds-eye vi
 
 The legend can be found by clicking {{%button%}}Show Legend{{%/button%}} button to let the user know what the colors represent without having to hover over them.  When clicked, it will open the Legend and the button name will change to "Hide Legend".  Click again to close. 
 
+**Showing or hiding groups:** Each group in the timeline, such as Workflow, has a check box. All groups are checked and visible by default. Uncheck a group to hide it from the timeline, which makes it easier to focus on the entries you need. For example, hiding Workflow removes the large number of system-generated workflow events. Hiding a group changes only the timeline display. It does not affect the Changes or Visual Difference columns.
+
+![Show History Timeline Groups](ShowHistoryGroups.png)
+
 Click on an entry by date to view the changes that were made to the account on the date and time indicated.
 
 ![Audit Trail](AuditTrail.png)
