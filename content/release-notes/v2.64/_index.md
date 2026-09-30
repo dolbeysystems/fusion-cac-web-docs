@@ -10,7 +10,7 @@ title = 'V2.64 (Oct 2026)'
 
 **CACTWO-6448** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) Evidence Editor when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured mapping list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
+Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured mapping list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -21,9 +21,9 @@ Please contact Support to enable this feature.
 
 **CACTWO-7161** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now add a CDI/Clinical Alert from a predefined list of topics, even when the system has not automatically identified that topic on the account. This lets CDI specialists gather evidence in an Alert and use the Query button to carry those details into a query, reducing the need to copy and paste information manually.
+Users can now add a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) from a predefined list of topics, even when the system has not automatically identified that topic on the account. This lets CDI specialists gather evidence in an Alert and use the Query button to carry those details into a query, reducing the need to copy and paste information manually.
 
-A manually added Alert displays **“Manually added”** beside its name, along with a person-and-plus icon. Alert topic names can no longer be edited in the Evidence Editor.
+A manually added Alert displays **“Manually added”** beside its name, along with a person-and-plus icon. Alert topic names can no longer be edited in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function).
 
 If the system later identifies the same topic, it will create a separate automated Alert. The automated Alert may include additional evidence and subcategory information.
 
@@ -43,7 +43,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7533** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new "Days from Discharge" column has been added for use in Account Search. When added to a grid through Grid Column Maintenance, it displays the number of days between today and the account's discharge date. If an account has a blank discharge date, the value is treated as zero. This field is intended for display only.  This column is also supported in scheduled Account Search reports run through JSReport. 
+A new "Days from Discharge" column has been added for use in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/). When added to a grid through [Grid Column](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) Maintenance, it displays the number of days between today and the account's discharge date. If an account has a blank discharge date, the value is treated as zero. This field is intended for display only.  This column is also supported in [scheduled](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) Account Search reports run through JSReport. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -51,7 +51,7 @@ A new "Days from Discharge" column has been added for use in Account Search. Whe
 
 **CACTWO-7898** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Audit Outpatient Coder Scorecard report has been updated to add up to six new columns. When the site configuration setting "ShowAuditCharges" is enabled, Charge Audit, Charge Errors, and Charge Accuracy Rate columns appear after the CPT related columns. Abstraction Audit, Abstraction Errors, and Abstraction Accuracy Rate columns always appear before the Training Topics column. These fields match the values shown in Audit Management for an outpatient account, and no Accuracy Rate value displays when the Audit count is zero.
+The [Outpatient Coder Scorecard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) report has been updated to add up to six new columns. When the site configuration setting "ShowAuditCharges" is enabled, Charge Audit, Charge Errors, and Charge Accuracy Rate columns appear after the CPT related columns. Abstraction Audit, Abstraction Errors, and Abstraction Accuracy Rate columns always appear before the Training Topics column. These fields match the values shown in Audit Management for an outpatient account, and no Accuracy Rate value displays when the Audit count is zero.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -89,7 +89,7 @@ A new **Routed to Coder** section shows which charts have been routed to the cod
 
 **CACTWO-8234** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Validation messages can now identify the specific item that needs attention when a rule uses **For Each** to evaluate an array. This helps users find and correct an issue without searching through every audit, denial, or diagnosis on the chart.
+[Validation messages](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) can now identify the specific item that needs attention when a rule uses **[For Each](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/#for-each-check-box)** to evaluate an array. This helps users find and correct an issue without searching through every audit, denial, or diagnosis on the chart.
 
 In the Validation Editor, add {Sequence} to the message text to display the matching item’s number. For example, if the second denial is missing a Billed DRG, the message Denial #{Sequence} is missing a Billed DRG appears in the Code Summary as **“Denial #2 is missing a Billed DRG.”**
 
@@ -101,7 +101,7 @@ In the Validation Editor, add {Sequence} to the message text to display the matc
 
 **CACTWO-8238** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, when an account was opened as read-only, a physician query draft created by another user could not be viewed, even though the Physicians & Queries section of the Navigation Tree indicated a draft existed. 
+Previously, when an account was opened as read-only, a [physician](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/physicians-and-queries/) query draft created by another user could not be viewed, even though the Physicians & Queries section of the Navigation Tree indicated a draft existed. 
 This has been changed so that a user with the privilege to create or edit queries can now view another user's draft as read-only when the account is locked. No changes can be made to the draft while viewing it this way. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
@@ -110,7 +110,7 @@ This has been changed so that a user with the privilege to create or edit querie
 
 **CACTWO-8239** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Checkboxes have been added to the Show History timeline, allowing each group, such as Workflow, to be individually shown or hidden. All groups are checked, and therefore visible, by default. 
+Checkboxes have been added to the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history) timeline, allowing each group, such as Workflow, to be individually shown or hidden. All groups are checked, and therefore visible, by default. 
 This makes it easier to focus on the entries that matter by temporarily hiding categories that generate a large number of system-generated events, such as workflow activity. Hiding a group only affects the timeline display and has no effect on the Changes or Visual Difference columns.
 
 ![Show History Timeline](ShowHistory.png)
@@ -120,8 +120,7 @@ This makes it easier to focus on the entries that matter by temporarily hiding c
 ### Replace Form Editor in Worksheet Designer and Query Designer
 
 **CACTWO-8240** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
-
-The form editor used within the Worksheet Designer and Query Designer has been replaced in its entirety. 
+https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/query-designer/ has been replaced in its entirety. 
 All existing features have been retained, though some, such as adding sections and editing tables, may be implemented differently. Existing worksheets and queries will continue to work as before, and all editing and toolbar options, such as sizes, styles, and colors, remain available in the new editor.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
@@ -142,7 +141,7 @@ A new field called ‘Charts Not Yet Submitted’ has been added to the [CDI Que
 
 Pinned column headers now display with a darker blue background throughout the application, making it easier to visually identify which columns are pinned. 
 
-This applies to any column pinned by the user, as well as columns that are pinned by default, such as in Physicians & Queries and Flowsheet grids, so that pinned columns are displayed consistently across all grids.  In this example, the left two columns are pinned. 
+This applies to any column pinned by the user, as well as columns that are pinned by default, such as in [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) and Flowsheet grids, so that pinned columns are displayed consistently across all grids.  In this example, the left two columns are pinned. 
 
 ![Pinned Columns](PinnedColumns.png)
 
@@ -152,9 +151,9 @@ This applies to any column pinned by the user, as well as columns that are pinne
 
 **CACTWO-8250** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Administrators can now apply a custom weight to individual questions within the Query Compliance and Other sections of the CDI Audit Worksheet. 
+Administrators can now apply a custom weight to individual questions within the Query Compliance and Other sections of the [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/). 
 
-A new Weight column has been added to mappings with the ids "QueryCompliance" or "CdiAuditOtherQuestions" in Mappings Configuration, allowing a positive whole number or decimal value, up to two decimal points, to be set for each question. Existing mappings default to a weight of 1, and any question without a specified weight also defaults to 1. 
+A new Weight column has been added to mappings with the ids "QueryCompliance" or "CdiAuditOtherQuestions" in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/), allowing a positive whole number or decimal value, up to two decimal points, to be set for each question. Existing mappings default to a weight of 1, and any question without a specified weight also defaults to 1. 
 
 When a weighted question is answered "Criteria Met" or "Education Opportunity" on a CDI Audit, the error rate and accuracy rate adjust according to that question's weight. This change may not apply retroactively to existing CDI audits.
 
@@ -164,9 +163,9 @@ When a weighted question is answered "Criteria Met" or "Education Opportunity" o
 
 **CACTWO-8259** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Since CPT Codes were made optional in the Additional Charges section, an easy way to remove one once entered was still needed, previously requiring a user to delete and re-add the entire row. 
+Since CPT Codes were made optional in the [Additional Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/#options-additional-charges) section, an easy way to remove one once entered was still needed, previously requiring a user to delete and re-add the entire row. 
 
-A clear "x" button has been added next to the CPT Code dropdown in the Additional Charges configuration section of ER E/M Configuration, allowing the code to be removed without deleting the row. This option is only available in the Additional Charges section, since CPT Codes are optional there only.
+A clear "x" button has been added next to the CPT Code dropdown in the Additional Charges configuration section of [ER E/M Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/), allowing the code to be removed without deleting the row. This option is only available in the Additional Charges section, since CPT Codes are optional there only.
 
 ![ER E/M Additional Charges Configuration](AdditionalCharges.png)
 
@@ -176,7 +175,7 @@ A clear "x" button has been added next to the CPT Code dropdown in the Additiona
 
 **CACTWO-8276** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In the Code Summary, a Pending Reason that was added automatically by a Validation Rule still displayed a Delete symbol, making it appear that it could be manually deleted. 
+In the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/), a [Pending Reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/) that was added automatically by a [Validation Rule](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/review-validation-rules/) still displayed a Delete symbol, making it appear that it could be manually deleted. 
 
 The Delete symbol has been disabled for Pending Reasons added by a Validation Rule, since these should only be removed once the Validation Rule is no longer in effect.
 
@@ -186,7 +185,7 @@ The Delete symbol has been disabled for Pending Reasons added by a Validation Ru
 
 **CACTWO-8279** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, when a user closed a CDI/Clinical Alert with the "Query Sent" outcome without creating the query directly from the alert, no association was made between the alert and the query. 
+Previously, when a user closed a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) with the "Query Sent" outcome without creating the query directly from the alert, no association was made between the alert and the query. 
 
 This created a data gap that made it difficult to determine which query resulted from an alert or what financial impact should be attributed to it, affecting ROI reporting. Now, when a user selects "Query Sent" while closing an alert, a dropdown appears listing the existing queries on the account so the user can select the appropriate one before the alert can be closed. 
 
@@ -200,7 +199,7 @@ If no matching query exists, the user can create a new one from this dialog, whi
 
 **CACTWO-8280** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a CDI query created from a CDI/Clinical alert was cancelled, the alert remained linked to that cancelled query. This prevented users from creating a new query from the same alert and properly associating it, so the appropriate dollar impact could not be assigned. This has been resolved so that cancelling a query removes the association between the alert and that query. Users can now click the envelope icon on a completed alert and open a new, blank query ready to send, allowing the CDI impact to be assigned correctly.
+When a CDI query created from a [CDI/Clinical alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) was cancelled, the alert remained linked to that cancelled query. This prevented users from creating a new query from the same alert and properly associating it, so the appropriate dollar impact could not be assigned. This has been resolved so that cancelling a query removes the association between the alert and that query. Users can now click the envelope icon on a completed alert and open a new, blank query ready to send, allowing the CDI impact to be assigned correctly.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -208,7 +207,7 @@ When a CDI query created from a CDI/Clinical alert was cancelled, the alert rema
 
 **CACTWO-8302** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new "Organize Columns" button has been added to the upper right corner of the Account Search page. 
+A new "Organize Columns" button has been added to the upper right corner of the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) page. 
 
 This button opens a dialog that makes it easier to organize columns, including dragging and dropping fields to reorder them, entering a specific position for a field, using arrows to move fields up, down, or to the top or bottom, and searching to quickly locate fields. Users can also add or remove individual fields or all fields at once, and the dialog can be expanded or minimized to fit the screen.
 
@@ -222,7 +221,7 @@ This button opens a dialog that makes it easier to organize columns, including d
 
 The **Queries** drilldown in Account Search now includes eight fields for comparing DRG information before and after a query: **Pre-DRG, Pre-DRG Description, Pre-DRG Weight, Pre-DRG Reimbursement, Post-DRG, Post-DRG Description, Post-DRG Weight, and Post-DRG Reimbursement.**
 
-These fields are also available in scheduled Account Searches.
+These fields are also available in [scheduled](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) Account Searches.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -230,7 +229,7 @@ These fields are also available in scheduled Account Searches.
 
 **CACTWO-8314** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-On the Account List page, assigning or unassigning an account using the context menu would clear any column filters that had been applied after the grid refreshed, and the busy indicator would not display during the refresh. 
+On the [Account List](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) page, assigning or unassigning an account using the context menu would clear any column filters that had been applied after the grid refreshed, and the busy indicator would not display during the refresh. 
 
 This has been resolved so that column filters are now retained, and the busy indicator appears as expected when assigning or unassigning accounts from the Account List.
 
@@ -240,7 +239,7 @@ This has been resolved so that column filters are now retained, and the busy ind
 
 **CACTWO-8315** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Inactive users can now be selected in the Users filter on the User Reports page, for reports that allow filtering by user, such as the User Detail report. Previously, only active users could be selected in this filter, even though reports have always included the activity of users who are no longer active. This makes it easier to run or rerun historical reports, such as activity or productivity reports for prior periods, without needing to reactivate a user first.
+Inactive users can now be selected in the Users filter on the [User Reports](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/) page, for reports that allow filtering by user, such as the User Detail report. Previously, only active users could be selected in this filter, even though reports have always included the activity of users who are no longer active. This makes it easier to run or rerun historical reports, such as activity or productivity reports for prior periods, without needing to reactivate a user first.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -248,7 +247,8 @@ Inactive users can now be selected in the Users filter on the User Reports page,
 
 **CACTWO-8316** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-With the update to the ag-grid  when a user unchecks a pending reason from the Pending Reasons column filter on the Autoload, Account List, or Account Search pages, accounts that ONLY have that pending reason are removed. 
+With the update to the ag-grid when a user unchecks a pending reason from the [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/) column filter on the Autoload, [Account List](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list), or [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) pages, accounts that ONLY have that pending reason are removed. 
+
 Accounts that have the unchecked pending reason along with other pending reasons still display. A new **opt-in site configuration setting** has been added which, when set to true, will now remove any account that contains that specific reason whether or not other pending reasons are assigned. When left at its default of false, filtering behaves as before, removing only accounts that have solely that pending reason.
 
 > [!info] Additional Configuration Required
@@ -260,7 +260,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-8318** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-E/M charges were being incorrectly credited on an account when a level or option name was changed in ER E/M Configuration after the charge had already been applied to that account. This issue has been resolved so that renaming a level or option in ER E/M Configuration will no longer affect existing E/M Charge Summaries on accounts.
+[E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) charges were being incorrectly credited on an account when a level or option name was changed in [ER E/M Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/) after the charge had already been applied to that account. This issue has been resolved so that renaming a level or option in ER E/M Configuration will no longer affect existing E/M Charge Summaries on accounts.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -268,7 +268,7 @@ E/M charges were being incorrectly credited on an account when a level or option
 
 **CACTWO-8324** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the Account List page, the "Custom Workgroup Assigned Date" column was displaying the date and time in UTC format instead of the standard MM/DD/YYYY format when a custom workgroup was selected. 
+In the [Account List](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#account-list) page, the "Custom Workgroup Assigned Date" column was displaying the date and time in UTC format instead of the standard MM/DD/YYYY format when a custom workgroup was selected. 
 
 The column now correctly displays only the date the account was assigned to the custom workgroup. This was a display issue only, and the fix is retroactive for existing accounts since the underlying data was already correct.
 
@@ -278,7 +278,7 @@ The column now correctly displays only the date the account was assigned to the 
 
 **CACTWO-8326** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The Total column in the Transactions Viewer was not displaying as a currency value for sites with custom columns configured. This issue has been resolved.  The Total column will now correctly display as a currency value, and the fix is retroactive for existing accounts with custom columns in the Transactions Viewer.
+The Total column in the [Transactions Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/charges-or-transactions/) was not displaying as a currency value for sites with custom columns configured. This issue has been resolved. The Total column will now correctly display as a currency value, and the fix is retroactive for existing accounts with custom columns in the Transactions Viewer.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -296,7 +296,7 @@ An additional check has been added so that when the Conflict dialog alerts on a 
 
 **CACTWO-8349** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The "Edit with Encoder" button in the Code Editor dialog was displayed inconsistently across different code fields. The button has been moved to the left of the code entry, so it now appears in the same location for all codes. This is a layout change only, with no change in functionality.
+The "Edit with Encoder" button in the [Code Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/editing-codes/) dialog was displayed inconsistently across different code fields. The button has been moved to the left of the code entry, so it now appears in the same location for all codes. This is a layout change only, with no change in functionality.
 
 ![Edit with Encoder](EditWithEncoder.png)
 
@@ -306,7 +306,7 @@ The "Edit with Encoder" button in the Code Editor dialog was displayed inconsist
 
 **CACTWO-8353** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In Audit Management, the Audit Sub-Type dropdown on the Audit Worksheet would sometimes not display any choices when an account was first opened, even though the data for the Audit Sub-Type existed. This was a display issue only and has been resolved so the Audit Sub-Type now displays correctly when the account is opened.
+In Audit Management, the Audit Sub-Type dropdown on the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) would sometimes not display any choices when an account was first opened, even though the data for the Audit Sub-Type existed. This was a display issue only and has been resolved so the Audit Sub-Type now displays correctly when the account is opened.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -314,9 +314,9 @@ In Audit Management, the Audit Sub-Type dropdown on the Audit Worksheet would so
 
 **CACTWO-8356** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Duplicate worksheet history records could be written for an account, causing entries to appear more than once in the Worksheet History drilldown of Account Search. This has been resolved so duplicate worksheet history records are no longer created going forward. This change is **not retroactive**, so existing duplicate records already in the system will still display as duplicates.
+Duplicate worksheet history records could be written for an account, causing entries to appear more than once in the Worksheet History drilldown of [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/). This has been resolved so duplicate worksheet history records are no longer created going forward. This change is **not retroactive**, so existing duplicate records already in the system will still display as duplicates.
 
-> [!note] For Additional Assistance
+> [!info] For Additional Assistance
 Please contact Support for additional assistance to fix older records.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
@@ -339,7 +339,7 @@ Because not all sites use CDI/Clinical Alerts, access is controlled by the new *
 
 **CACTWO-8387** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Clicking "Save Layout" in the Medications viewer would not save changes to column order, so any rearranged columns reverted the next time the viewer was opened. This has been resolved so that "Save Layout" now correctly saves and restores column order in the Medications viewer. Note that layouts are saved per user. The same issue was also identified and resolved for the Transactions viewer.
+Clicking "Save Layout" in the [Medications viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/medications-viewer/) would not save changes to column order, so any rearranged columns reverted the next time the viewer was opened. This has been resolved so that "Save Layout" now correctly saves and restores column order in the Medications viewer. Note that layouts are saved per user. The same issue was also identified and resolved for the Transactions viewer.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -425,15 +425,15 @@ This has been corrected so that clicking the date and time stamp next to a crite
 
 **CACTWO-8423** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-To stay consistent with the Validation Management, System Search and Account Search pages, the button label in Workflow Management for criteria has been changed from Save Criteria to Add Criteria. 
+To stay consistent with the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/), [System Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/system-search/) and [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) pages, the button label in Workflow Management for criteria has been changed from Save Criteria to Add Criteria. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
-### Support More Than Two Inpatient Groupers on the TruCode Standalone Page
+### Support More Than Two Inpatient Groupers on the TruBridge (TruCode) Standalone Page
 
 **CACTWO-8424** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The TruCode Standalone page previously supported only two inpatient grouper calculations. Support has been added for displaying additional groupers, such as a third or fourth DRG calculation, on this page. 
+The [TruBridge (TruCode)](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone page previously supported only two inpatient grouper calculations. Support has been added for displaying additional groupers, such as a third or fourth DRG calculation, on this page. 
 
 ![Two Inaptient Groupers](TwoGroupers.png)
 
@@ -456,7 +456,7 @@ This has been corrected so that workgroup names containing an apostrophe no long
 
 **CACTWO-8431** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The Last Document Import column in Document Type Management was displaying times in the UTC timezone rather than the user's local timezone, showing a time four to five hours ahead of the correct one, even though the time displayed correctly when opening the same document in a chart. 
+The Last Document Import column in [Document Type Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/document-types-management/) was displaying times in the UTC timezone rather than the user's local timezone, showing a time four to five hours ahead of the correct one, even though the time displayed correctly when opening the same document in a chart. 
 
 This has been corrected so that the Last Document Import column now displays the time in the local timezone, matching the time shown when opening the document in Account Detail.
 
@@ -474,7 +474,7 @@ The administrative and management dashboards included inactive user profiles in 
 
 **CACTWO-8482** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-A bulleted list added in the Account Notes screen was displayed as a numbered list after clicking OK, even though editing the note showed it correctly as a bulleted list. This has been corrected so that a note saved as a bulleted list now displays correctly as a bulleted list, both in the note itself and in the Notes and Bookmarks viewer.
+A bulleted list added in the Account Notes screen was displayed as a numbered list after clicking OK, even though editing the note showed it correctly as a bulleted list. This has been corrected so that a note saved as a bulleted list now displays correctly as a bulleted list, both in the note itself and in the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/notes-and-bookmarks/).
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
