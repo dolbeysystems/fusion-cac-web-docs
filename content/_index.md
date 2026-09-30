@@ -50,7 +50,7 @@ and password provided to you by your facility, and then press the
 
 > [!warning] Account Lock-Out
 > Five consecutive failed logins will cause your account to be locked out of
-> the application.  If you are locked out, contact your
+> the application. If you are locked out, contact your
 > {{% icon icon="user-tie" %}} supervisor.
 
 ## {{% icon icon="lock" %}} Two-Factor Authentication (Optional)
@@ -65,7 +65,7 @@ login, you will be taken to a screen showing a QR code to scan or a key to
 enter into an authenticator app on your smartphone.
 
 Once you have scanned or saved the code to your authenticator app, the temporary code for Fusion CAC will appear in your
-authenticator  app with a title similar to this:
+authenticator app with a title similar to this:
 
 **Fusion CAC Dolbey Health Production: heminger**
 
@@ -75,7 +75,7 @@ coding application.
 
 To view the time-based code when logging into the app, select the entry in
 your authenticator app. You should see a long sequence of characters that will
-change every minute.  When you login to the Fusion CAC application, you will
+change every minute. When you login to the Fusion CAC application, you will
 need to view and enter this key from your authenticator
 app into the field beneath the password field.
 

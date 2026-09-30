@@ -2,7 +2,7 @@
 title = 'V2.64 (Oct 2026)'
 +++
 
-{{< release-notes-header version="V2.63.9680" date="07/06/26" >}}
+{{< release-notes-header version="V2.64.9771" date="10/02/26" >}}
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -10,7 +10,7 @@ title = 'V2.64 (Oct 2026)'
 
 **CACTWO-6448** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured mapping list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
+Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured [mapping](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -29,7 +29,7 @@ If the system later identifies the same topic, it will create a separate automat
 
 When closing a manually added Alert, users can select **“Created by accident”** to remove one opened in error. The **“Insufficient clinical evidence,”** **“Documentation already present,”** and **“Other”** outcomes are unavailable for manually added Alerts.
 
-Previously, a CDI/Clinical Alert topic could only appear on an account if the system automatically triggered it, so users had no way to open an alert for a topic that hadn't yet been flagged. Users can now manually add a new CDI/Clinical Alert from a preselected list of topics, using a mapping called "CdiAlertTopicHeaders." 
+Previously, a CDI/Clinical Alert topic could only appear on an account if the system automatically triggered it, so users had no way to open an alert for a topic that hadn't yet been flagged. Users can now manually add a new CDI/Clinical Alert from a preselected list of topics, using a [mapping](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) called "CdiAlertTopicHeaders." 
 
 Manually added alerts will show ‘Manually added’ next to the name, along with a person and plus sign icon. All Alert Topics can non longer have their name edited in the Evidence Editor, the edit icon has been removed. If the system later automatically detects the same topic, it will still create its own active alert, since the automated version pulls in additional data and subcategory information. 
 
@@ -59,7 +59,7 @@ The [Outpatient Coder Scorecard](https://dolbeysystems.github.io/fusion-cac-web-
 
 **CACTWO-7939** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now close all active CDI Alerts on a chart at once when the chart is fully optimized and no further CDI action is needed. The new **Close All** button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
+Users can now close all active [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) on a chart at once when the chart is fully optimized and no further CDI action is needed. The new **Close All** button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
 
 ![Close All Alerts Button](CloseAllAlerts.png)
 
@@ -77,7 +77,7 @@ Closing Alerts that no longer need action helps keep worklists and opportunity c
 
 **CACTWO-7975** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Coder Scorecard on the **Coder Personal** and **Forced Autoload** dashboards now gives coders more visibility into how their accuracy scores are calculated. **Principal PCS Code** has been added as a tracked metric, and each accuracy percentage now shows **Total Opportunities** and **Total Errors** beneath it.
+The Coder Scorecard on the **[Coder Personal](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/)** and **Forced Autoload** dashboards now gives coders more visibility into how their accuracy scores are calculated. **Principal PCS Code** has been added as a tracked metric, and each accuracy percentage now shows **Total Opportunities** and **Total Errors** beneath it.
 
 The **Closed Audit** metric opens a detailed view showing each account number, its errors and accuracy results, and its overall accuracy. Account numbers display as text in this view.
 
@@ -120,7 +120,9 @@ This makes it easier to focus on the entries that matter by temporarily hiding c
 ### Replace Form Editor in Worksheet Designer and Query Designer
 
 **CACTWO-8240** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
-https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/query-designer/ has been replaced in its entirety. 
+
+The form editor used within the [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/) and [Query Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/query-designer/) has been replaced in its entirety. 
+
 All existing features have been retained, though some, such as adding sections and editing tables, may be implemented differently. Existing worksheets and queries will continue to work as before, and all editing and toolbar options, such as sizes, styles, and colors, remain available in the new editor.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
@@ -219,7 +221,7 @@ This button opens a dialog that makes it easier to organize columns, including d
 
 **CACTWO-8304** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The **Queries** drilldown in Account Search now includes eight fields for comparing DRG information before and after a query: **Pre-DRG, Pre-DRG Description, Pre-DRG Weight, Pre-DRG Reimbursement, Post-DRG, Post-DRG Description, Post-DRG Weight, and Post-DRG Reimbursement.**
+The **Queries** drilldown in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/) now includes eight fields for comparing DRG information before and after a query: **Pre-DRG, Pre-DRG Description, Pre-DRG Weight, Pre-DRG Reimbursement, Post-DRG, Post-DRG Description, Post-DRG Weight, and Post-DRG Reimbursement.**
 
 These fields are also available in [scheduled](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) Account Searches.
 
@@ -325,13 +327,13 @@ Please contact Support for additional assistance to fix older records.
 
 **CACTWO-8376** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The new **Alerts Performance** dashboard brings CDI/Clinical Alert activity, outcomes, and impact into one view. Teams can see how Alerts contribute to CDI queries, which Alerts lead to different outcomes, and how financial impact changes over time.
+The new **[Alerts Performance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/alerts-performance-dashboard/)** dashboard brings CDI/Clinical Alert activity, outcomes, and impact into one view. Teams can see how Alerts contribute to CDI queries, which Alerts lead to different outcomes, and how financial impact changes over time.
 
 The dashboard includes **Alert Impact** metrics, a **Net Financial Impact Trend** graph that shows positive and negative values, a donut chart comparing queries from Alerts with other CDI queries, **Top 5 Alerts by Outcome, Alert Key Performance Indicators, and Top 10 Average Auto Resolve Time**.
 
 The dashboard opens in full screen and uses the same timeframe buttons and shared Facility filter as other management dashboards. Users can select the i icon on a panel header for more information about its data.
 
-Because not all sites use CDI/Clinical Alerts, access is controlled by the new **View Alerts Performance Dashboard** privilege in Role Management.
+Because not all sites use CDI/Clinical Alerts, access is controlled by the new **View Alerts Performance Dashboard** privilege in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/).
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -339,7 +341,7 @@ Because not all sites use CDI/Clinical Alerts, access is controlled by the new *
 
 **CACTWO-8387** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Clicking "Save Layout" in the [Medications viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/medications-viewer/) would not save changes to column order, so any rearranged columns reverted the next time the viewer was opened. This has been resolved so that "Save Layout" now correctly saves and restores column order in the Medications viewer. Note that layouts are saved per user. The same issue was also identified and resolved for the Transactions viewer.
+Clicking "Save Layout" in the [Medications viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/medications-viewer/) would not save changes to column order, so any rearranged columns reverted the next time the viewer was opened. This has been resolved so that "Save Layout" now correctly saves and restores column order in the Medications viewer. Note that layouts are saved per user. The same issue was also identified and resolved for the [Transactions viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/charges-or-transactions/).
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -347,7 +349,7 @@ Clicking "Save Layout" in the [Medications viewer](https://dolbeysystems.github.
 
 **CACTWO-8394** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When a diagnosis code qualified as both a MCC (or CC) and a HAC, and had a U or N POA designation, Fusion CAC was giving the MCC or CC flag precedence over the HAC flag, contrary to CMS guidance that HAC should take precedence. This has been resolved so that when a diagnosis code has both an MCC/CC and an HAC, the code will now correctly be designated as HAC rather than MCC or CC.
+When a diagnosis code qualified as both a [MCC (or CC) and a HAC, and had a U or N POA designation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/), Fusion CAC was giving the MCC or CC flag precedence over the HAC flag, contrary to CMS guidance that HAC should take precedence. This has been resolved so that when a diagnosis code has both an MCC/CC and an HAC, the code will now correctly be designated as HAC rather than MCC or CC.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -355,7 +357,7 @@ When a diagnosis code qualified as both a MCC (or CC) and a HAC, and had a U or 
 
 **CACTWO-8401** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The **CDI Management Dashboard** has been redesigned to make performance trends and available work easier to review. Key Performance Indicators now use defined periods, such as **This Month** and **Last Month**, instead of a rolling 30 day window. A new dropdown lets users calculate these metrics by **Admit Date** or **Discharge Date**.
+The **[CDI Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/)** has been redesigned to make performance trends and available work easier to review. Key Performance Indicators now use defined periods, such as **This Month** and **Last Month**, instead of a rolling 30 day window. A new dropdown lets users calculate these metrics by **Admit Date** or **Discharge Date**.
 
 **CDI Team Performance** now appears beneath **Activity Summary**. The **Top 10 LOS Variance** list has been renamed **Top 10 Concurrent LOS Variance** and includes only in house patients. A new **Work Available Queue** section at the bottom of the dashboard includes the oldest admit date for each queue.
 
@@ -369,7 +371,7 @@ The date range filters in the upper corner apply to **Activity Summary** and **C
 
 **CACTWO-8402** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The **CDI Personal Dashboard** has been updated to make individual performance and current work easier to review. It now includes an **Audit Scorecard**, and the **Aging Queries** donut chart has been enlarged for better visibility.
+The **[CDI Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-personal-dashboard/)** has been updated to make individual performance and current work easier to review. It now includes an **Audit Scorecard**, and the **Aging Queries** donut chart has been enlarged for better visibility.
 
 **Top 10 LOS Variance** is now called **Top 10 Concurrent Length of Stay Variance** and shows only currently admitted patients. **Top 10 Query Template Performance** and **Query Performance Trends** now display data from the last 60 days.
 
@@ -383,7 +385,7 @@ Updated colors and consistent card alignment make the dashboard easier to scan. 
 
 **CACTWO-8403** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-An error occured when the system attempted to load a document for an account at the same time the account was being removed from memory, such as when a user exited a chart shortly after opening a document. 
+An error occurred when the system attempted to load a document for an account at the same time the account was being removed from memory, such as when a user exited a chart shortly after opening a document. 
 
 This displayed an error message, although no account data was affected and the error had no impact on submits or other account actions. This has been corrected so that the system prevents this race condition from occurring when a document is loading for an account that is in the process of being unloaded.
 
@@ -393,7 +395,7 @@ This displayed an error message, although no account data was affected and the e
 
 **CACTWO-8406** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Previously, when a user created or edited a criteria filter, every incremental change to the filter's property, operator, and value was logged to the workgroupHistory collection on save, rather than just the change that was actually saved. 
+Previously, when a user created or edited a [criteria filter](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/), every incremental change to the filter's property, operator, and value was logged to the workgroupHistory collection on save, rather than just the change that was actually saved. 
 
 For example, typing a value would log each keystroke as a separate change, and reverted changes were logged even though they were never included in the final save. This also extended to other workgroup and criteria group level actions such as enabling or disabling a criteria group, renaming a group, reordering items, and adding or removing criteria. 
 
@@ -405,7 +407,7 @@ This has been corrected so that history changes are logged on save based on the 
 
 **CACTWO-8408** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Previously, when the site configuration setting "promptToUpdateBaseline" was enabled and a CDI Specialist calculated a new Working DRG that differed from the Baseline Working DRG, saving the account would not prompt the user to update the Baseline DRG if a CONFIRM, CRITICAL, or TOAST validation rule was also triggered on save. 
+Previously, when the site configuration setting "promptToUpdateBaseline" was enabled and a CDI Specialist calculated a new Working DRG that differed from the [Baseline Working DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/cdi-reviews/baseline-drg/), saving the account would not prompt the user to update the Baseline DRG if a CONFIRM, CRITICAL, or TOAST validation rule was also triggered on save. 
 
 The validation rule dialog was suppressing the baseline prompt entirely. This has been corrected so that the prompt to update the Baseline Working DRG still appears after the user responds to the validation rule dialog. If the account is autosaved due to inactivity in this situation, it will still close without leaving a dialog unanswered.
 
@@ -415,7 +417,7 @@ The validation rule dialog was suppressing the baseline prompt entirely. This ha
 
 **CACTWO-8421** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Clicking the date and time stamp next to a criteria group filter to view its saved changes displayed a blank dialog instead of the change history, even though the dialog worked correctly for unsaved changes and for workgroup level filters. 
+Clicking the date and time stamp next to a [criteria group filter](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) to view its saved changes displayed a blank dialog instead of the change history, even though the dialog worked correctly for unsaved changes and for workgroup level filters. 
 
 This has been corrected so that clicking the date and time stamp next to a criteria group filter now correctly displays the saved change history in the dialog.
 
@@ -425,7 +427,7 @@ This has been corrected so that clicking the date and time stamp next to a crite
 
 **CACTWO-8423** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-To stay consistent with the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/), [System Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/system-search/) and [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) pages, the button label in Workflow Management for criteria has been changed from Save Criteria to Add Criteria. 
+To stay consistent with the [Validation Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/), [System Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tuning/system-search/) and [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) pages, the button label in [Workflow Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/) for criteria has been changed from Save Criteria to Add Criteria. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -435,7 +437,7 @@ To stay consistent with the [Validation Management](https://dolbeysystems.github
 
 The [TruBridge (TruCode)](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone page previously supported only two inpatient grouper calculations. Support has been added for displaying additional groupers, such as a third or fourth DRG calculation, on this page. 
 
-![Two Inaptient Groupers](TwoGroupers.png)
+![Two Inpatient Groupers](TwoGroupers.png)
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -466,7 +468,7 @@ This has been corrected so that the Last Document Import column now displays the
 
 **CACTWO-8476** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The administrative and management dashboards included inactive user profiles in the Users Offline count. This has been changed so that inactive users are excluded from the offline user counts, both in the total and in the drilldown, across all dashboards that display online and offline user counts.
+The [administrative](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/) and management dashboards included inactive user profiles in the Users Offline count. This has been changed so that inactive users are excluded from the offline user counts, both in the total and in the drilldown, across all dashboards that display online and offline user counts.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
