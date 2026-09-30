@@ -136,6 +136,15 @@ The feature is enabled by creating a CdiAuditOtherQuestions mapping in Mappings 
 
 ![CDI Audit Other Mapping Table](CDIAuditOtherMapping.png)
 
+#### Question Weighting
+
+Administrators can give individual questions in the Query Compliance and Other sections a custom weight, so that some questions count more heavily than others. Weights are set in the Weight column of the QueryCompliance and CdiAuditOtherQuestions mappings in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#cdi-audit-question-weighting).
+
+When a weighted question is answered Criteria Met or Education Opportunity, the error rate and accuracy rate are adjusted according to that question's weight. Questions without a weight count as 1.
+
+>[!Note] Existing Audits
+>Weighting may not apply to CDI audits completed before the weights were set.
+
 #### Best Practices
 
 To maximize the effectiveness of CDI audits, auditors should follow several best practices. Always verify that you are auditing the correct CDI of record before starting, as this ensures you are reviewing the intended queries and DRGs. Use audit subtypes to capture specific learning opportunities, such as audits performed for new CDI staff or targeted reviews of certain DRG assignments. Ensure compliance questions are kept current, reflecting not only internal policies but also industry guidelines and payer expectations. Finally, conduct audits consistently and document findings clearly. Overtime, this creates a feedback loop that improves documentation quality, strengthens DRG accuracy, and reinforces compliance across the CDI program.
