@@ -60,7 +60,7 @@ A new Account Type column has been added to the AuditTrainingTopics mapping in [
 
 **CACTWO-6943** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [CDI Alerts and Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) links in the account navigation tree will now display in bold red with a count of active alerts when any active alerts are present on the account. This behavior mirrors how open queries are indicated in the navigation tree. 
+The [CDI Alerts and Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) links in the account navigation tree will now display in bold red with a count of active alerts when any active alerts are present on the account. This behavior mirrors how open queries are indicated in the navigation tree. 
 The count and red bold formatting will persist regardless of whether the viewer has been opened, and will only revert to standard black text once all active alerts have been closed or auto-resolved. If no alerts have ever existed on the account, the link will continue to not appear in the navigation tree, consistent with existing behavior.
 
 ![Red Active Alerts](RedAlertsNavPane.png)
@@ -108,7 +108,7 @@ When a coder assigns a CPT code in the E/M Viewer that matches a CDM entry with 
 
 **CACTWO-7824** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Six new [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) fields have been added as searchable criteria in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), allowing users to filter accounts based on alert-level data. The new fields available are: Alert Name, Alert Subtitle, Alert Category, Alert Outcome, Alert Other Outcome, and Alert Query Template. Because multiple alerts can exist on a single account, these fields are string-based and search across all alerts associated with the account.
+Six new [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) fields have been added as searchable criteria in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), allowing users to filter accounts based on alert-level data. The new fields available are: Alert Name, Alert Subtitle, Alert Category, Alert Outcome, Alert Other Outcome, and Alert Query Template. Because multiple alerts can exist on a single account, these fields are string-based and search across all alerts associated with the account.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -169,7 +169,7 @@ This change benefits sites where an account's category can change after a chart 
 
 **CACTWO-7946** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [E/M Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) will now remember the scroll position for each account during a session. Previously, navigating away from the E/M Viewer and returning to it would reset the view to the top of the page, requiring the user to scroll back down to their previous location. 
+The [E/M Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) will now remember the scroll position for each account during a session. Previously, navigating away from the E/M Viewer and returning to it would reset the view to the top of the page, requiring the user to scroll back down to their previous location. 
 
 The scroll position is now retained per account for the duration of the session. If a different account is loaded, the E/M Viewer will reset to the top for that account. Once the user exits the application entirely, scroll positions are cleared for all accounts.
 
@@ -189,7 +189,7 @@ Previously, these actions only applied to the individual code on which the actio
 
 **CACTWO-7976** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-For coders whose user profiles included facility constraints, the [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) [Scorecard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) on the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard) was always displaying blank, even when qualifying audits had been closed within the current or prior calendar month. 
+For coders whose user profiles included facility constraints, the [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) [Scorecard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) on the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/) was always displaying blank, even when qualifying audits had been closed within the current or prior calendar month. 
 
 The query has been corrected so that the Coder Scorecard now displays audit data filtered to only the facilities the coder is authorized to access. This fix is retroactive and applies to existing audits. 
 
@@ -450,7 +450,7 @@ This resulted in extremely slow search performance, with some queries taking nea
 
 **CACTWO-8189** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The "Copy Row as Table" and "Copy Row as Text" functions in the [Flowsheet viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#flowsheet-viewer) have been updated to only include values from columns that are currently visible. 
+The "Copy Row as Table" and "Copy Row as Text" functions in the [Flowsheet viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#flowsheet-viewer) have been updated to only include values from columns that are currently visible. 
 
 Previously, these copy commands would include the entire row's data regardless of any date range filters or hidden columns applied by the user, requiring manual cleanup after pasting. The behavior now matches that of the existing "Copy Row to CDI Alert" function, ensuring consistency across all three copy commands. This is particularly beneficial for long-stay patient encounters where Flowsheet rows may contain extensive historical data and users only need to copy a targeted subset of values for a specific timeframe.
 

@@ -44,7 +44,7 @@ A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.git
 
 **CACTWO-6493 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a user selects a [workgroup](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#custom-category) that is not custom from the worklist, if there was a custom workgroup column in the account list it was automatically being hidden.  This will no longer happened. 
+When a user selects a [workgroup](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/workflow-management/#new-category) that is not custom from the worklist, if there was a custom workgroup column in the account list it was automatically being hidden.  This will no longer happened. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -203,7 +203,7 @@ In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7061** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-[Audits](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were being routed without being saved when other viewers were opened.  This has been corrected so that if a physician query or an encoder are open, an audit cannot be routed until those windows have been closed.
+[Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were being routed without being saved when other viewers were opened.  This has been corrected so that if a physician query or an encoder are open, an audit cannot be routed until those windows have been closed.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -228,7 +228,7 @@ The legend window in a [Show History](https://dolbeysystems.github.io/fusion-cac
 
 **CACTWO-7070** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a Coder has rebutted an [Audits](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), but has not sent that audit back to the Auditor, the rebuttal is not being seen by the Coder when they go back into the audit. This has been corrected. Rebuttal should always be seen whether or not the audit has been routed back to the Auditor. 
+If a Coder has rebutted an [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), but has not sent that audit back to the Auditor, the rebuttal is not being seen by the Coder when they go back into the audit. This has been corrected. Rebuttal should always be seen whether or not the audit has been routed back to the Auditor. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -275,7 +275,7 @@ This fix only applies to TruCode&#8482; users.
 
 **CACTWO-7112** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a physician query is opened from [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) and the user has created a signature in their [user profile](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/), a chosen [query template](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) was showing as blank.  This has been corrected. 
+If a physician query is opened from [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) and the user has created a signature in their [user profile](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/), a chosen [query template](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) was showing as blank.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -283,7 +283,7 @@ If a physician query is opened from [CDI/Clinical Alerts](https://dolbeysystems.
 
 **CACTWO-7114** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an Auditor selects an audit subtype on the latest [Audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
+If an Auditor selects an audit subtype on the latest [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -318,7 +318,7 @@ When using [Edit Procedure Details](https://dolbeysystems.github.io/fusion-cac-w
 
 **CACTWO-7150** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When creating an [Audit](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), the Workgroup data was no longer showing in the header.  This has been corrected. 
+When creating an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), the Workgroup data was no longer showing in the header.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -377,7 +377,7 @@ When an account has a large number of documents, if the user clicks on an unopen
 
 **CACTWO-7203** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the Coder Scorecard section of the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard), [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were displayed that were opened or closed prior to last month.   This has been corrected. 
+In the Coder Scorecard section of the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/), [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were displayed that were opened or closed prior to last month.   This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

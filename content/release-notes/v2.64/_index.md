@@ -10,7 +10,7 @@ title = 'V2.64 (Oct 2026)'
 
 **CACTWO-6448** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured [mapping](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
+Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured [mapping](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -21,9 +21,9 @@ Please contact Support to enable this feature.
 
 **CACTWO-7161** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now add a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) from a predefined list of topics, even when the system has not automatically identified that topic on the account. This lets CDI specialists gather evidence in an Alert and use the Query button to carry those details into a query, reducing the need to copy and paste information manually.
+Users can now add a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) from a predefined list of topics, even when the system has not automatically identified that topic on the account. This lets CDI specialists gather evidence in an Alert and use the Query button to carry those details into a query, reducing the need to copy and paste information manually.
 
-A manually added Alert displays **“Manually added”** beside its name, along with a person-and-plus icon. Alert topic names can no longer be edited in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function).
+A manually added Alert displays **“Manually added”** beside its name, along with a person-and-plus icon. Alert topic names can no longer be edited in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function).
 
 If the system later identifies the same topic, it will create a separate automated Alert. The automated Alert may include additional evidence and subcategory information.
 
@@ -59,7 +59,7 @@ The [Outpatient Coder Scorecard](https://dolbeysystems.github.io/fusion-cac-web-
 
 **CACTWO-7939** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now close all active [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) on a chart at once when the chart is fully optimized and no further CDI action is needed. The new **Close All** button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
+Users can now close all active [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) on a chart at once when the chart is fully optimized and no further CDI action is needed. The new **Close All** button appears at the top of the CDI Alerts Viewer, eliminating the need to close each Alert individually.
 
 ![Close All Alerts Button](CloseAllAlerts.png)
 
@@ -101,7 +101,7 @@ In the Validation Editor, add {Sequence} to the message text to display the matc
 
 **CACTWO-8238** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, when an account was opened as read-only, a [physician](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/physicians-and-queries/) query draft created by another user could not be viewed, even though the Physicians & Queries section of the Navigation Tree indicated a draft existed. 
+Previously, when an account was opened as read-only, a [physician](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) query draft created by another user could not be viewed, even though the Physicians & Queries section of the Navigation Tree indicated a draft existed. 
 This has been changed so that a user with the privilege to create or edit queries can now view another user's draft as read-only when the account is locked. No changes can be made to the draft while viewing it this way. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
@@ -110,7 +110,7 @@ This has been changed so that a user with the privilege to create or edit querie
 
 **CACTWO-8239** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Checkboxes have been added to the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history) timeline, allowing each group, such as Workflow, to be individually shown or hidden. All groups are checked, and therefore visible, by default. 
+Checkboxes have been added to the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) timeline, allowing each group, such as Workflow, to be individually shown or hidden. All groups are checked, and therefore visible, by default. 
 This makes it easier to focus on the entries that matter by temporarily hiding categories that generate a large number of system-generated events, such as workflow activity. Hiding a group only affects the timeline display and has no effect on the Changes or Visual Difference columns.
 
 ![Show History Timeline](ShowHistory.png)
@@ -177,7 +177,7 @@ A clear "x" button has been added next to the CPT Code dropdown in the Additiona
 
 **CACTWO-8276** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/), a [Pending Reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/) that was added automatically by a [Validation Rule](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/review-validation-rules/) still displayed a Delete symbol, making it appear that it could be manually deleted. 
+In the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/), a [Pending Reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/) that was added automatically by a [Validation Rule](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/review-validation-rules/) still displayed a Delete symbol, making it appear that it could be manually deleted. 
 
 The Delete symbol has been disabled for Pending Reasons added by a Validation Rule, since these should only be removed once the Validation Rule is no longer in effect.
 
@@ -187,7 +187,7 @@ The Delete symbol has been disabled for Pending Reasons added by a Validation Ru
 
 **CACTWO-8279** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, when a user closed a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) with the "Query Sent" outcome without creating the query directly from the alert, no association was made between the alert and the query. 
+Previously, when a user closed a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) with the "Query Sent" outcome without creating the query directly from the alert, no association was made between the alert and the query. 
 
 This created a data gap that made it difficult to determine which query resulted from an alert or what financial impact should be attributed to it, affecting ROI reporting. Now, when a user selects "Query Sent" while closing an alert, a dropdown appears listing the existing queries on the account so the user can select the appropriate one before the alert can be closed. 
 
@@ -201,7 +201,7 @@ If no matching query exists, the user can create a new one from this dialog, whi
 
 **CACTWO-8280** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a CDI query created from a [CDI/Clinical alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) was cancelled, the alert remained linked to that cancelled query. This prevented users from creating a new query from the same alert and properly associating it, so the appropriate dollar impact could not be assigned. This has been resolved so that cancelling a query removes the association between the alert and that query. Users can now click the envelope icon on a completed alert and open a new, blank query ready to send, allowing the CDI impact to be assigned correctly.
+When a CDI query created from a [CDI/Clinical alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) was cancelled, the alert remained linked to that cancelled query. This prevented users from creating a new query from the same alert and properly associating it, so the appropriate dollar impact could not be assigned. This has been resolved so that cancelling a query removes the association between the alert and that query. Users can now click the envelope icon on a completed alert and open a new, blank query ready to send, allowing the CDI impact to be assigned correctly.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -262,7 +262,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-8318** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-[E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) charges were being incorrectly credited on an account when a level or option name was changed in [ER E/M Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/) after the charge had already been applied to that account. This issue has been resolved so that renaming a level or option in ER E/M Configuration will no longer affect existing E/M Charge Summaries on accounts.
+[E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) charges were being incorrectly credited on an account when a level or option name was changed in [ER E/M Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/) after the charge had already been applied to that account. This issue has been resolved so that renaming a level or option in ER E/M Configuration will no longer affect existing E/M Charge Summaries on accounts.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -407,7 +407,7 @@ This has been corrected so that history changes are logged on save based on the 
 
 **CACTWO-8408** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Previously, when the site configuration setting "promptToUpdateBaseline" was enabled and a CDI Specialist calculated a new Working DRG that differed from the [Baseline Working DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/cdi-reviews/baseline-drg/), saving the account would not prompt the user to update the Baseline DRG if a CONFIRM, CRITICAL, or TOAST validation rule was also triggered on save. 
+Previously, when the site configuration setting "promptToUpdateBaseline" was enabled and a CDI Specialist calculated a new Working DRG that differed from the [Baseline Working DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/cdi-reviews/baseline-drg/), saving the account would not prompt the user to update the Baseline DRG if a CONFIRM, CRITICAL, or TOAST validation rule was also triggered on save. 
 
 The validation rule dialog was suppressing the baseline prompt entirely. This has been corrected so that the prompt to update the Baseline Working DRG still appears after the user responds to the validation rule dialog. If the account is autosaved due to inactivity in this situation, it will still close without leaving a dialog unanswered.
 
@@ -476,7 +476,7 @@ The [administrative](https://dolbeysystems.github.io/fusion-cac-web-docs/adminis
 
 **CACTWO-8482** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-A bulleted list added in the Account Notes screen was displayed as a numbered list after clicking OK, even though editing the note showed it correctly as a bulleted list. This has been corrected so that a note saved as a bulleted list now displays correctly as a bulleted list, both in the note itself and in the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/notes-and-bookmarks/).
+A bulleted list added in the Account Notes screen was displayed as a numbered list after clicking OK, even though editing the note showed it correctly as a bulleted list. This has been corrected so that a note saved as a bulleted list now displays correctly as a bulleted list, both in the note itself and in the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/notes-and-bookmarks/).
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -492,7 +492,7 @@ In the Flowsheet viewer, when a user selected a discrete value with both earlier
 
 **CACTWO-8535** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-On accounts with a Billing Grouper of APR, the Pre-DRG and Post-DRG columns in the [Impact Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/impact-queries-viewer/) section displayed the MS-DRG values from each query's encoder snapshot instead of the APR-DRG values. This meant that if the APR-DRG changed without a corresponding MS-DRG change, the Pre-DRG and Post-DRG values appeared identical, making the APR variance invisible when reviewing query impact. The underlying Assigned Impact dollar and weight calculations were not affected, since those already used the correct billing grouper. This has been corrected so that the Pre-DRG and Post-DRG columns now resolve the DRG based on the account's billing grouper. For APR billed accounts, these columns are now labeled Pre-APR and Post-APR and reflect the correct values, matching what is shown in the query dialog. This correction also applies to existing closed queries.
+On accounts with a Billing Grouper of APR, the Pre-DRG and Post-DRG columns in the [Impact Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/impact-queries-viewer/) section displayed the MS-DRG values from each query's encoder snapshot instead of the APR-DRG values. This meant that if the APR-DRG changed without a corresponding MS-DRG change, the Pre-DRG and Post-DRG values appeared identical, making the APR variance invisible when reviewing query impact. The underlying Assigned Impact dollar and weight calculations were not affected, since those already used the correct billing grouper. This has been corrected so that the Pre-DRG and Post-DRG columns now resolve the DRG based on the account's billing grouper. For APR billed accounts, these columns are now labeled Pre-APR and Post-APR and reflect the correct values, matching what is shown in the query dialog. This correction also applies to existing closed queries.
 
 
 
