@@ -76,7 +76,8 @@ The number to the left of the code indicates the position number of visit reason
 The "Physicians & Queries" viewer will be highlighted with an amber background in the
 Navigation tree if the account has at least one physician query.
 
->[!note] The amber background does not appear if the "Physician & Queries"
+>[!note] 
+The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.
 
 The viewer will turn brown to indicate there are open queries awaiting a response.

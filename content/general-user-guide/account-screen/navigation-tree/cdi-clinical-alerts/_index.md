@@ -86,7 +86,7 @@ If the system later identifies the same topic on the account, it creates a separ
 To remove a manually added Alert that was added in error, close it using the **Created by Accident** reason. See [Manual CDI Alert Closure Reasons](#manual-cdi-alert-closure-reasons).
 
 > [!info] Additional Configuration Required
-> Please contact Support to enable this feature.
+> Please contact Support to enable this feature. Once enabled, the list of topics available to add is managed in [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#cdiclinical-alert-topics-cdialerttopicheaders).
 
 ### Completed Alerts
 
@@ -127,7 +127,7 @@ Adjacent to the Alert message, there is a pencil icon. Clicking it opens the Evi
 **Adding subheadings:** Evidence is organized under subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs. If a needed subheading is not shown, click {{%button%}}Add{{%/button%}} in the Evidence Editor and select it from the list. Once added, the subheading can be dragged to a new position, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication.
 
 > [!info] Additional Configuration Required
-> Please contact Support to enable adding subheadings.
+> Please contact Support to enable adding subheadings. Once enabled, the list of subheadings available to add is managed in [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#cdiclinical-alert-subheadings-cdialerttopicsubheaders).
 
 Alert topic names cannot be edited in the Evidence Editor.
 
