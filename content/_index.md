@@ -13,7 +13,7 @@ The various chapters within this guide can be navigated using the {{%button%}}**
 
 ## Getting Connected
 
-Fusion CAC is a browser-based program, meaning it works entirely within your preffered web browser. This eliminates the need for downloads and installations to offer real-time collaboration for teams.
+Fusion CAC is a browser-based program, meaning it works entirely within your preferred web browser. This eliminates the need for downloads and installations to offer real-time collaboration for teams.
 
 ## {{%icon icon="globe"%}} Supported Browsers
 
@@ -37,7 +37,7 @@ Fusion CAC works on *recent versions* of the following web browsers:
 
 To launch the CAC application:
   1. **Desktop shortcut** - Some facilities will put an icon on your desktop or in another location based on how you connect to the hospital network. Click this icon to launch the Fusion CAC application
-  2. **Using the URL** - open your prefered web browser and enter your site’s Fusion CAC server
+  2. **Using the URL** - open your preferred web browser and enter your site’s Fusion CAC server
 address into the address bar. The server address will be provided by your {{%icon icon="user-tie"%}} site
 administrator or manager. It will usually look something like this: https://dolbeyfusion.test.com/cac2
 
