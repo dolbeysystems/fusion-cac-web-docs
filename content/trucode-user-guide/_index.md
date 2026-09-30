@@ -1,6 +1,6 @@
 +++
 title = "TruBridge (TruCode)"
-weight = 16
+weight = 60
 +++
 
 While Fusion CAC is encoder agnostic, some organizations choose to use the TruBridge (TruCode) Encoder Essentials embedded in the application. 

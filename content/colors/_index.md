@@ -1,6 +1,6 @@
 +++
 title = 'Colors and Symbols'
-weight = 12
+weight = 30
 +++
 
 The Fusion CAC 2 application contains a variety of colors and symbols. Hovering over a symbol will often provide additional information.
