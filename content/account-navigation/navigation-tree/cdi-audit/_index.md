@@ -5,6 +5,21 @@ weight = 14
 
 ![CDI Audit Worksheet](CDIAuditWrksht.png)
 
+## Overview
+
+The CDI Audit Module is a tool designed to help [CDI auditors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) evaluate the quality, accuracy, and compliance of CDI work within a patient chart. It provides a structured workflow to review whether the baseline DRG was assigned correctly, whether the final working DRG reflects appropriate documentation and coding practices, and whether queries sent by CDI professionals followed compliance standards.
+
+Audits can be conducted at different stages of the patient’s stay. A concurrent audit allows you to evaluate a case while the patient is still admitted. A post-discharge audit can be performed once the case is complete, ensuring that no documentation opportunities were missed. Finally, the module also supports retrospective random audits, which can be used to evaluate CDI quality as part of regular compliance monitoring. This flexibility ensures that audits can be integrated into both day-to-day CDI operations and broader quality assurance programs.
+
+### Prerequisites
+
+Before starting a CDI audit, two requirements must be met:
+
+1. **CDI Auditor Role:** You must be assigned the role of CDI Auditor within the system. Without this role, you will not see the CDI Audit Worksheet or be able to launch an audit.
+2. **Patient Chart with a Baseline DRG:** The patient chart must have at least a baseline DRG already assigned by a CDI user. This ensures there is an initial point of comparison for your audit.
+
+If either of these prerequisites is missing, the system will not allow you to proceed with the audit.
+
 ## Starting a CDI Audit
 
 Once prerequisites are met, you can begin the audit process:
@@ -41,17 +56,16 @@ The first major step in the audit is evaluating the **baseline DRG** assigned by
 
 ![CDI Audit Expand Baseline Working DRG Section](CDIAuditExpandBaselineDRG.png)
 
-2.	**CDI Specialist Outcome:** This is the Baseline DRG and the codes that went into the Basline.
-3.  **CDI Specialist Outcome:** This is the Baseline DRG and the codes that went into the Basline.
-4.  **Adding Missing Codes:** 
+2.  **CDI Specialist Outcome:** This is the Baseline DRG and the codes that went into the Baseline.
+3.  **Adding Missing Codes:** 
     - If the necessary code does not appear on the right-hand side, you can minimize the editor by clicking the red button in the top-right corner.
     - From there, you can find the appropriate documentation or unassigned codes. Right-click to either Add Code or Add Code from Encoder.
     - After adding the code, reopen the editor, move the code into the baseline DRG list, and save.
-5. **Update Codes:** If the CDI wants to change the existing CDI DRG they will need to add codes if not already in assigned code tree. Then click on Update Codes to open the coding editor. 
+4. **Update Codes:** If the CDI wants to change the existing CDI DRG they will need to add codes if not already in assigned code tree. Then click on Update Codes to open the coding editor. 
 
 ![CDI Audit Update Codes](CDIAuditUpdateCodes.png)
 
-6. **Editor Presents two Panels:** 
+5. **Editor Presents two Panels:** 
    - Left side: Displays the codes used to calculate the current baseline DRG.
    - Right side: Displays the system’s assigned code tree, showing all available codes. Move any codes from the right to the left if you want the audited Baseline to use these codes.
 
