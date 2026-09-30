@@ -1,6 +1,10 @@
 +++
 title = 'Account Information'
 weight = 11
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/account-information/',
+  '/general-user-guide/account-screen/account-viewers/account-information/',
+]
 +++
 
 
@@ -8,11 +12,11 @@ weight = 11
 
 ![Account Info Viewer](AccountInfo.png)
 
-The Account Information tree summarizes patient demographic information (based on custom system configuration) with data captured for purposes of state and/or registry reporting. To update data fields in the Account Information tree, click on the blue button and select the appropriate selection from the drop-down menu.
+The Account Information viewer summarizes patient demographic information (based on custom system configuration) with data captured for purposes of state and/or registry reporting. To update data fields in the Account Information viewer, click on the blue button and select the appropriate selection from the drop-down menu.
 
 ![Account Information Viewer](AccountInformationViewer.png)
 
-Users can expand the width of the Code Summary tree by clicking on the arrow in the top right corner of the viewer.
+Users can expand the width of the Account Information viewer by clicking on the arrow in the top right corner of the viewer.
 
 ![Account Information Banner](AccountInformationBanner.png)
 

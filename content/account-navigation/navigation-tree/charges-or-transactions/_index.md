@@ -1,6 +1,10 @@
 +++
 title = 'Charges or Transactions'
 weight = 14
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/charges-or-transactions/',
+  '/general-user-guide/account-screen/account-viewers/charges-or-transactions/',
+]
 +++
 
 {{% children depth=999 %}}
@@ -15,16 +19,10 @@ There are activity buttons to "Save Layout" or expand the Charges viewer. Users 
 
 ### Column Settings
 
-Each column within the Charges grid has menu options to Pin Column, Autosize, and Reset Columns. Click on the Menu icon to view the drop-down listing. After making column setting selections, click on the button to retain column settings for future coding sessions.
+Each column within the Charges grid has menu options to Pin Column, Autosize, and Reset Columns. Click on the Menu icon to view the drop-down listing. These options work the same way as in the Assigned Accounts grid; for details, see [Pin Column](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#pin-column) and [Autosize & Reset Columns](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#autosize--reset-columns). After making column setting selections, click on the {{%button%}}Save Layout{{%/button%}} button to retain column settings for future coding sessions.
 
 ![Three Line Column Settings](ColumnSettings.png)
 
-|Column Setting      |Definition|
-|--------------------|----------|
-|Pin Column          |Allows users to select the column and then pin it to the RIGHT or LEFT side of the assigned accounts grid. This function works similarly to freezing columns in Excel.|
-|Autosize This Column|Select this option to change the column width to automatically size the width of the column for contents of the cells in this column.|
-|Autosize All Columns|To quickly autosize all columns in the assigned accounts grid, click the Autosize All Columns button.|
-|Reset Columns|Click on this option to Reset Columns to their default column width.|
 
 ### Adding Modifiers to Charges
 
@@ -46,7 +44,7 @@ Clicking on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{
 
 Clicking on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** button in the Physician column will open a physician field to allow the selection of a physician. This is the same for the Physician Modifiers column which will open a modifier window allowing modifiers to be selected. When launching the encoder, the physician coder’s modifiers will be sent instead of the final modifiers in the Charges viewer.
 
-![Physician Coder Add Phsyician Box](AddPhysicianBox.png)
+![Physician Coder Add Physician Box](AddPhysicianBox.png)
 
 Clicking on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE PENCIL</span>{{< /rawhtml >}}** button in the Quantity column will open a field to allow the end user to enter a new value for the quantity of the charge. The dialog will perform validation so that invalid quantities are not recorded such as letters, blanks, and/or a zero quantity. Negative quantities are permitted. Decimal quantities are permitted.
 
@@ -61,7 +59,7 @@ Users that have a Physician Coder or Single Path Coder role will have the abilit
 
 ### Caution Column (TruCode)
 
-A Caution Column is avaialble for sites that use the TruCode Encoder to the Charges and Transactions viewers.  This column will indicate a flag if TruCode reports an edit on a charge on an outpatient account. 
+A Caution Column is available in the Charges or Transactions viewer for sites that use the TruCode Encoder.  This column will indicate a flag if TruCode reports an edit on a charge on an outpatient account. 
 
 ![TruCode Caution Column](TruCodeCaution.png)
 

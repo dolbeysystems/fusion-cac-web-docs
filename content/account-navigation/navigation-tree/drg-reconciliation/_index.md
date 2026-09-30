@@ -1,6 +1,10 @@
 +++
-title = 'DRG Reconciliation '
+title = 'DRG Reconciliation'
 weight = 18
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/drg-reconciliation/',
+  '/general-user-guide/account-screen/account-viewers/drg-reconciliation/',
+]
 +++
 
 {{% children depth=999 %}}

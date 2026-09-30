@@ -1,6 +1,10 @@
 +++
 title = 'Medications'
 weight = 21
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/medications-viewer/',
+  '/general-user-guide/account-screen/account-viewers/medications-viewer/',
+]
 
 +++
 
@@ -18,11 +22,4 @@ There are activity buttons to "Save Layout" or expand the Medications viewer. Us
 
 ### Column Settings
 
-Each column within the Medications grid has menu options to Pin Column, Autosize, and Reset Columns. Click on the Menu icon to view the drop-down listing. After making column setting selections, click on the button to retain column settings for future coding sessions.
-
-|Column Setting      |Definition|
-|--------------------|----------|
-|Pin Column          |Allows users to select the column and then pin it to the RIGHT or LEFT side of the assigned accounts grid. This function works similarly to freezing columns in Excel.|
-|Autosize This Column|Select this option to change the column width to automatically size the width of the column for contents of the cells in this column.|
-|Autosize All Columns|To quickly autosize all columns in the assigned accounts grid, click the Autosize All Columns button.|
-|Reset Columns|Click on this option to Reset Columns to their default column width.|
+Each column within the Medications grid has menu options to Pin Column, Autosize, and Reset Columns. Click on the Menu icon to view the drop-down listing. These options work the same way as in the Assigned Accounts grid; for details, see [Pin Column](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#pin-column) and [Autosize & Reset Columns](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/#autosize--reset-columns). After making column setting selections, click on the {{%button%}}Save Layout{{%/button%}} button to retain column settings for future coding sessions.

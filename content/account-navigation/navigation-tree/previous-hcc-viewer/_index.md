@@ -1,6 +1,10 @@
 +++
 title = 'Previous HCC'
 weight = 24
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/previous-hcc-viewer/',
+  '/general-user-guide/account-screen/account-viewers/previous-hcc-viewer/',
+]
 +++
 
 {{% children depth=999 %}}
