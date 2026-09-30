@@ -47,6 +47,24 @@ Once your data is filtered, choose which columns to display by clicking {{%butto
 
 Your initial results will usually include more columns than you need. You can pare these down by adding or removing columns as needed. Clicking the drop-down arrow on Columns lets you select or unselect all columns at once. Check a box to display that column, or uncheck it to remove it from the Account Search or Scheduled Account Search report. As you type in the filter box above the column list, it narrows down the available fields.
 
+### Organize Columns
+
+To change the order of the columns, click {{%button%}}Organize Columns{{%/button%}} in the upper-right corner of the Account Search page. In the Organize Columns dialog, you can:
+
+- Drag and drop fields to reorder them.
+- Enter a specific position for a field.
+- Use the arrows to move a field up, down, or to the top or bottom of the list.
+- Search to quickly locate a field.
+- Add or remove individual fields, or all fields at once.
+
+The dialog can be expanded or minimized to fit the screen.
+
+![Organize Columns](OrganizeColumns.png)
+
+### Days from Discharge
+
+The **Days from Discharge** column shows the number of days between today and the account's discharge date. If an account has no discharge date, the value shows as zero. This column is for display only. It must first be added to the grid through [Grid Column Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/), and it is also available in [scheduled](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) Account Search reports.
+
 ## Drill-Down Level
 
 Account Search allows for the ability to search for account level data or drill down to an array of different data collections. 
@@ -76,6 +94,8 @@ When you choose anything other than Account (the default view), that drill-down'
 
 ![Account Search Drilldown](DrilldownLevel.png)
 
+The **Queries** drill-down includes fields for comparing DRG information before and after a query: Pre-DRG, Pre-DRG Description, Pre-DRG Weight, Pre-DRG Reimbursement, Post-DRG, Post-DRG Description, Post-DRG Weight, and Post-DRG Reimbursement. These fields are also available in scheduled Account Searches.
+
 ## Searching for Data
 
 The data filter lets you constrain your data before Account Search returns results in the grid.
@@ -100,6 +120,9 @@ To manually filter:
 - Click on the filter to close the box
 
 ![Filtered Column](NameFilter.png)
+
+>[!Note] Filtering Pending Reasons
+>For details on how the Pending Reasons column filter works, see [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/#filtering-by-pending-reason).
 
 Additionally, users can choose to group the data creating a pivot table.
 
