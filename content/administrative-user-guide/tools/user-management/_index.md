@@ -10,7 +10,7 @@ User Management allows management to add, delete, or change permissions and/or s
 | Column |Description|
 | -------|-----------|
 |Action  |Copy exisiting profile when creating new user:![Copy User](CopyIcon.png) Edit existing profile:![Edit User](EditUser.png) Remove unused profile: ![Delete User](RedX.png)|
-|[Locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked-1)   |Indicates if the user is locked out of the application|
+|[Locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked)   |Indicates if the user is locked out of the application|
 |Employee Number|Employee number from ogranization|
 |User ID|Username used to log into the application|
 |First Name|User's first name|
@@ -24,7 +24,7 @@ User Management allows management to add, delete, or change permissions and/or s
 |Email|User's email address|
 
 >[!note] Removing a Profile
-> A profile can only be removed if the user has not signed into the application. Once a user logs in, the delete icon will no longer show in their Actions column. This is to maintain accurate reporting. If a user should no longer have access to the Fusion CAC application, their profile should be [locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked-1).
+> A profile can only be removed if the user has not signed into the application. Once a user logs in, the delete icon will no longer show in their Actions column. This is to maintain accurate reporting. If a user should no longer have access to the Fusion CAC application, their profile should be [locked](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#locked).
 
 ## Edit User Profile 
 
@@ -161,7 +161,7 @@ Users with ForceAutoload enabled will bypass the Account List page upon logging 
 
 ![](2024-11-15_AutoLoad.png)
 
-One or multiple work lists can be assigned by management. Users will work the one assigned work list until complete or rotate through multiple based on the assigned [workgroup limits](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#workgroup-limits). If there are no accounts left to work, the user will receive a message that there are no accounts in the queue.
+One or multiple work lists can be assigned by management. Users will work the one assigned work list until complete or rotate through multiple based on the assigned [workgroup limits](#workgroup-limits). If there are no accounts left to work, the user will receive a message that there are no accounts in the queue.
 
 ![No Accounts in Queue](NoAccounts.png)
 
@@ -192,7 +192,7 @@ Users can access their profile information by clicking on their name in the top 
 
 ## Today's Productivity
 
-Daily productivity stats are displayed when the user clicks on the bar graph icon to the left of the user's ID. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard). 
+Daily productivity stats are displayed when the user clicks on the bar graph icon to the left of the user's ID. This is an alternative way for the user to quickly see their work if they are not looking at their [Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/). 
 
 ![Today's Productivity](2025-03-03_UserMgmt1.png)
 

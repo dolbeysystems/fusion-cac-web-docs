@@ -228,7 +228,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7635** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user is in an account and goes away from their session long enough for the session to expire, the user is receiving a red error message and is not being taken out to the [Login Screen](https://dolbeysystems.github.io/fusion-cac-web-docs/#hahahugoshortcode1s3hbhb-accessing-the-fusion-cac-coding-application). This has been corrected. 
+If a user is in an account and goes away from their session long enough for the session to expire, the user is receiving a red error message and is not being taken out to the [Login Screen](https://dolbeysystems.github.io/fusion-cac-web-docs/). This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

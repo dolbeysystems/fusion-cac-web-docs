@@ -5,7 +5,7 @@ weight = 145
 
 ![Notifications Manager](2025-03-03_NotificationsMgr1.png)
 
-Notifications Manager, found in the [Tools](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown menu, allows users with an Administrative role to create notifications that will alert other users of anything they may need to be aware of within the system and/or organization. The notifications can be added to the CAC login screen, the Dashboard, or both.
+Notifications Manager, found in the [Tools](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/) dropdown menu, allows users with an Administrative role to create notifications that will alert other users of anything they may need to be aware of within the system and/or organization. The notifications can be added to the CAC login screen, the Dashboard, or both.
 
 ## Adding a Notification
 
