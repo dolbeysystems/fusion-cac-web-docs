@@ -81,7 +81,7 @@ There are three parts to an Alerts title to observe:
 
 CDI Specialists can add a CDI/Clinical Alert to an account even when the system has not identified that topic. This allows the CDS to gather evidence in the Alert and carry it into a query, rather than copying and pasting information manually.
 
-To add an Alert, click the {{%button%}}Add{{%/button%}} button next to the Active Alerts heading and select a topic from the list. The topics available are set up by your organization.
+To add an Alert, click the {{%button%}}Add{{%/button%}} button next to the Active Alerts heading and select a topic from the list. The topics available are set up by your organization. The name of a manually added Alert cannot be edited, so select the topic that matches the condition you are reviewing.
 
 A manually added Alert displays **Manually added** beside its name, along with a person-and-plus icon.
 
@@ -128,12 +128,16 @@ Adjacent to the Alert message, there is a pencil icon. Clicking it opens the Evi
 
 ![CDI Alert Pencil Icon](2025-02-25_ChartPri9.png)
 
-**Adding subheadings:** Evidence is organized under subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs. If a needed subheading is not shown, click {{%button%}}Add{{%/button%}} in the Evidence Editor and select it from the list. Once added, the subheading can be dragged to a new position, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication.
+**Adding subheadings:** Evidence is organized under subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs. If a needed subheading is not shown, click {{%button%}}Add{{%/button%}} in the Evidence Editor and select it from the list.
+
+After a subheading is selected, its wording can be changed. Click the subheading and type the wording you need. This allows you to customize a subheading when the exact wording is not available in the preset list.
+
+Once added, the subheading can be dragged to a new position, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication.
 
 > [!info] Additional Configuration Required
 > Please contact Support to enable adding subheadings. Once enabled, the list of subheadings available to add is managed in [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#cdiclinical-alert-subheadings-cdialerttopicsubheaders).
 
-Alert topic names cannot be edited in the Evidence Editor.
+Only subheadings can be renamed. Alert topic names cannot be edited in the Evidence Editor.
 
 ### Reviewing Clinical Evidence
 
