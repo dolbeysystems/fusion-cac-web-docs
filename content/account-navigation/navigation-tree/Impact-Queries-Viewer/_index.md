@@ -45,8 +45,8 @@ To assign the impact of the query, the user will enter a percentage in the "Assi
 |Assigned Impact Wgt.|This is the weight of the account impact you are assigning per query based upon the % you placed in the assigned impact % field that pulls from the remaining impact weight.|
 |Template|This is the query template you are assigning impact to. Only queries issues by CDI will display here.|
 |Query Reason|This is the query reason to assigned to the query template.|
-|Pre-Drg|This is the pre-DRG assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
-|Post-Drg|This is the post-DRG assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
+|Pre-DRG|This is the pre-DRG assigned to the query. To change this, click on the blue envelope icon to the right of assigned impact. On accounts with a Billing Grouper of APR, this column is labeled **Pre-APR** and shows the APR-DRG.|
+|Post-DRG|This is the post-DRG assigned to the query. To change this, click on the blue envelope icon to the right of assigned impact. On accounts with a Billing Grouper of APR, this column is labeled **Post-APR** and shows the APR-DRG.|
 |Shift Reasons|This is the shift reasons assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
 |Status|This is the status of the query, to change this click on the blue envelop icon to the right of assigned impact.|
 
