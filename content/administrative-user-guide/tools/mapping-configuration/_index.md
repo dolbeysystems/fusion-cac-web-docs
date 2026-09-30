@@ -134,6 +134,18 @@ The mapping of PhysicianQueryReasons now has a column called Roles, which will a
 
 ![Physician Query Reasons](2025-03-05_MappingConfig10.png)
 
+### CDI/Clinical Alert Topics (CdiAlertTopicHeaders)
+
+The CdiAlertTopicHeaders mapping provides the list of topics users can select when [manually adding a CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#manually-adding-a-cdiclinical-alert). Please contact Support to enable this feature.
+
+### CDI/Clinical Alert Subheadings (CdiAlertTopicSubHeaders)
+
+The CdiAlertTopicSubHeaders mapping provides the list of subheadings, such as Clinical Evidence, Laboratory Studies, and Vital Signs, that users can add in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function). Please contact Support to enable this feature.
+
+### CDI Audit Question Weighting
+
+The QueryCompliance and CdiAuditOtherQuestions mappings include a **Weight** column. Enter a positive whole number or decimal, up to two decimal places, to set the weight of each question on the [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/#question-weighting). Existing entries, and any question without a weight, default to 1.
+
 ## Show History
 
 A "Show History" button appears in the upper right corner of any mapping table that has been modified. Clicking it opens a dialog displaying a before-and-after comparison of all changes made to that mapping, listed in reverse date order. Additions are highlighted in green, deletions in red, and changes in yellow, making it easy to quickly identify exactly what was modified and when.
