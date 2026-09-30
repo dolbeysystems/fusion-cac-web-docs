@@ -28,7 +28,7 @@ A new enhancement has been added to [Workflow Management](https://dolbeysystems.
 
 **CACTWO-6727** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new checkbox has been added to the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/) to allow the user to view [pending reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#pending-reasons) (and any applicable notes) to be seen.  A marker  number next to the checkbox will show the number of currently deleted pending reasons.   When checked, the deleted pending reasons will show beneath the list of active pending reasons, and the red delete button will be grayed out to indicate this is an already deleted pending reason.
+A new checkbox has been added to the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) to allow the user to view [pending reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#pending-reasons) (and any applicable notes) to be seen.  A marker  number next to the checkbox will show the number of currently deleted pending reasons.   When checked, the deleted pending reasons will show beneath the list of active pending reasons, and the red delete button will be grayed out to indicate this is an already deleted pending reason.
 
 > [!note] The number and checkbox will only display if there were previously deleted pending reasons.
 
@@ -70,7 +70,7 @@ For example, if enabled, only users with one of these roles will be able to view
 
 **CACTWO-7240** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Codes that have been added to an account via the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/transfer-account-codes/) viewer will now have a ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history) viewer.   When hovering over the icon, the use will see a statement that indicates which account the codes were transferred from.
+Codes that have been added to an account via the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) viewer will now have a ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) viewer.   When hovering over the icon, the use will see a statement that indicates which account the codes were transferred from.
 
 ![Transferred Codes in Show History](TransferedCodes.png)
 
@@ -90,7 +90,7 @@ To make an assigned diagnosis code with an HAC designation more noticeable, an H
 
 **CACTWO-7345** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new column has been added to the [CDI Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-personal-dashboard)’s Personal Stats pane.  The column is Queries Sent and will count any physician query created by a CDI Specialist or a CDI Auditor that is not cancelled.  All numbers except zero will show drill-down when the number is clicked.  This change is retroactive. 
+A new column has been added to the [CDI Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-personal-dashboard/)’s Personal Stats pane.  The column is Queries Sent and will count any physician query created by a CDI Specialist or a CDI Auditor that is not cancelled.  All numbers except zero will show drill-down when the number is clicked.  This change is retroactive. 
 
 ![Queries Sent CDI Personal Dashboard](QueriesSentDash.png)
 
@@ -110,7 +110,7 @@ This has been resolved. The system now detects when the Forced Autoload session 
 
 **CACTWO-7582** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The three administrative dashboards ([Administrative](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#administrative-dashboard), [CDI Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-management-dashboard), [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-management-dashboard)) will now have a sort button at the top of each column under the [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#work-available-queue) heading. 
+The three administrative dashboards ([Administrative](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/), [CDI Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/), [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-management-dashboard/)) will now have a sort button at the top of each column under the [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) heading. 
 
 ![Sorting Work Available on Dashboard](WorkAvailableSorting.png)
 
@@ -188,7 +188,7 @@ A new column has been added to the [Outpatient Coder Scorecard report](https://d
 
 **CACTWO-7647** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-‘HCC’ has been added to the [shift reason](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons) dialog for outpatient physician queries.  
+‘HCC’ has been added to the [shift reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons) dialog for outpatient physician queries.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -233,7 +233,7 @@ The [User Audit Trail](https://dolbeysystems.github.io/fusion-cac-web-docs/admin
 
 **CACTWO-7716** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new lines of data have been added to the [CDI Management dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-management-dashboard) under the CDI Summary pane; CDI Queries Sent Today, and CDI Queries Sent in Last 7 Days.  These will also have a drill-down leading to detailed pages for those statistics. 
+Two new lines of data have been added to the [CDI Management dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/) under the CDI Summary pane; CDI Queries Sent Today, and CDI Queries Sent in Last 7 Days.  These will also have a drill-down leading to detailed pages for those statistics. 
 
 ![Lines of data Added to CDI Summary on CDI Management Dashboard](AddedToCDISummary.png)
 
@@ -280,7 +280,7 @@ In [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-7771** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#work-available-queue) on the Dashboard shows any total over 5000 as 5000+.  This has been changed to show the exact number of accounts.
+The [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) on the Dashboard shows any total over 5000 as 5000+.  This has been changed to show the exact number of accounts.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -333,7 +333,7 @@ When the [Query Impact Report](https://dolbeysystems.github.io/fusion-cac-web-do
 
 **CACTWO-7823** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) Charges has been added to the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) page, which will include columns associated with the charges field in an [E/M worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet). 
+A new [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) Charges has been added to the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) page, which will include columns associated with the charges field in an [E/M worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet). 
 
 ![E/M Charges Drill Down](EMChargesDrillDown.png)
 
@@ -343,7 +343,7 @@ A new [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administr
 
 **CACTWO-7833** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new columns have been added to the [Inpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) and [Outpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports.  These come directly after the account column and are called D/C Disp Change and D/C Disp Accuracy rate.  This change is retroactive. 
+Two new columns have been added to the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) and [Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports.  These come directly after the account column and are called D/C Disp Change and D/C Disp Accuracy rate.  This change is retroactive. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -351,7 +351,7 @@ Two new columns have been added to the [Inpatient](http://localhost:1313/fusion-
 
 **CACTWO-7835** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-An error occurred when running the [Inpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) or [Outpatient](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports if an auditor performed several audits with the same audit type and recorded large amounts of text in Training Recommendations.  This has been corrected. 
+An error occurred when running the [Inpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#inpatient-coder-scorecard) or [Outpatient](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/user-reports/#outpatient-coder-scorecard) Coder Scorecard reports if an auditor performed several audits with the same audit type and recorded large amounts of text in Training Recommendations.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -403,7 +403,7 @@ The [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7855** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Today’s date was showing as the Oldest Discharge Date in the [Dashboard Work Available](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#work-available-queue) panel if an account did not have a discharge date. The Oldest Populated discharge date will now appear for each  Work Available Queue even if there are blank discharge dates within that queue. 
+Today’s date was showing as the Oldest Discharge Date in the [Dashboard Work Available](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) panel if an account did not have a discharge date. The Oldest Populated discharge date will now appear for each  Work Available Queue even if there are blank discharge dates within that queue. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -411,7 +411,7 @@ Today’s date was showing as the Oldest Discharge Date in the [Dashboard Work A
 
 **CACTWO-7870** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the instance of a soft CT code being assigned to a document on an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) account, if the user then went into the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) and added a quantity of 1 to the  “Charges for Assigned CPT Codes”, the 1 was not being retained upon saving the account.  This has been corrected.
+In the instance of a soft CT code being assigned to a document on an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) account, if the user then went into the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) and added a quantity of 1 to the  “Charges for Assigned CPT Codes”, the 1 was not being retained upon saving the account.  This has been corrected.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -427,7 +427,7 @@ The Pre-Audit and Post-Audit DRG columns in the [report](https://dolbeysystems.g
 
 **CACTWO-7888** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#code-comments), their name should appear in the Commented By column of the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/notes-and-bookmarks/) if a secondary user opens and either clicks cancels or OK without adding text.  It was being replaced by the secondary user.  This has been updated so that the Commented By ID is only changed if a secondary user actually adds more data to the comment. 
+When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#code-comments), their name should appear in the Commented By column of the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/notes-and-bookmarks/) if a secondary user opens and either clicks cancels or OK without adding text.  It was being replaced by the secondary user.  This has been updated so that the Commented By ID is only changed if a secondary user actually adds more data to the comment. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -480,7 +480,7 @@ As long as there is an APR-DRG on an account, the [Assigned codes tree](https://
 
 **CACTWO-7913** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently the [Critical Care](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#critical-care) date on the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) is defaulting to today’s date.  This has been changed to default to the date of the E/M page, which is the Admit date. 
+Currently the [Critical Care](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#critical-care) date on the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) is defaulting to today’s date.  This has been changed to default to the date of the E/M page, which is the Admit date. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -537,7 +537,7 @@ If an account was locked in use, the second user that opened it was still able t
 
 **CACTWO-7926** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an account is locked and a coder clicks on a plus sign in the [CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/working-cdi-history/) worksheet, the code can be added.  Account cannot be saved, but the coder should still not be able to do this. The plus sign has now been removed from locked accounts. 
+If an account is locked and a coder clicks on a plus sign in the [CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/working-cdi-history/) worksheet, the code can be added.  Account cannot be saved, but the coder should still not be able to do this. The plus sign has now been removed from locked accounts. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

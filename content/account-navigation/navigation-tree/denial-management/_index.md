@@ -2,6 +2,10 @@
 +++
 title = 'Denial Management'
 weight = 16
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/denial-management/',
+  '/general-user-guide/account-screen/account-viewers/denial-management/',
+]
 +++
 
 {{% children depth=999 %}}
@@ -18,7 +22,7 @@ To add a denial, select "Denial Management" in the Navigation tree. This option 
 
 ![Denial Management Viewer](2025-02-04_DenialMgmt1.png)
 
-Once a denial has been added, a form with multiple fileds will need to be filled in by the user working the denial. The fields are made up of various drop-down options, dates, and financial information about the denial.
+Once a denial has been added, a form with multiple fields will need to be filled in by the user working the denial. The fields are made up of various drop-down options, dates, and financial information about the denial.
 
 ![Denial Management Worksheet](2025-02-20_DenialMgmt11.png)
 
@@ -46,19 +50,19 @@ Options in the fields above with dropdown lists can be customized per organizati
 
 Each field (except Comments) can be added to [Grid Column Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/grid-column-configuration/) for display in Account Search. These fields can also be used in workflow if necessary. 
 
-As needed, mutiple denial sheets can be created for a single account. To do this, click on the {{%button%}}+Add Denial{{%/button%}} button. As more denials are added to an account, they will be listed at the top of the Denial Management viewer. The denial a user is working on will be indicated in green bubble. 
+As needed, multiple denial sheets can be created for a single account. To do this, click on the {{%button%}}+Add Denial{{%/button%}} button. As more denials are added to an account, they will be listed at the top of the Denial Management viewer. The denial a user is working on will be indicated in green bubble. 
 
-![Multiple Denails](2025-02-04_DenialMgmt3.png)
+![Multiple Denials](2025-02-04_DenialMgmt3.png)
 
 ## Appealing a Denial
 
-If a denial needs to be appealed, there are separate fileds to track when those appeals were sent, how it was sent, and the outcome of the appeal. A user can track the strength of the appeal as low, medium, and high based on their organizations preferences. Additionally, a comment section has been added for any free text the user would like to enter.
+If a denial needs to be appealed, there are separate fields to track when those appeals were sent, how it was sent, and the outcome of the appeal. A user can track the strength of the appeal as low, medium, and high based on their organization's preferences. Additionally, a comment section has been added for any free text the user would like to enter.
 
 ![Appealing a Denial](2025-02-04_DenialMgmt7.png)
 
 ## Deleting a Denial
 
-If a denial needs to be deleted from the account, click on the denial the user wishes to remove, which will bee in the green bubble, then click on the {{%button%}}xDelete Denial{{%/button%}} button.
+If a denial needs to be deleted from the account, click on the denial the user wishes to remove, which will be in the green bubble, then click on the {{%button%}}xDelete Denial{{%/button%}} button.
 
 ![Delete Denial](2025-02-04_DenialMgmt5.png)
 

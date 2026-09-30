@@ -104,7 +104,7 @@ to alter that field. This will appear in **Shared Worksheets only**.
 
 [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/) now has a pane for Auditor worksheets. These 
 worksheets, once created, will only appear in an auditor’s worksheet drop 
-down when the Add button in the [Navigation Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) is clicked. Only auditors, 
+down when the Add button in the [Navigation Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree) is clicked. Only auditors, 
 admins and managers can create a form in Worksheet Designer for Auditors. A new 
 privilege has been created in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/) to assign that ability to other 
 types of users.
@@ -125,7 +125,7 @@ not change even if changes occur on the account details.
 
 **CACTWO-6389 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If enabled, the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard) will display the Coder Scorecard
+If enabled, the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/) will display the Coder Scorecard
 report at the bottom of the dashboard screen. The data can be drilled down 
 by clicking on any number other than 0 in the Open Audits and Closed Audits 
 columns.
@@ -139,7 +139,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-6404 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The reason field on a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) can now be changed after being sent or 
+The reason field on a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) can now be changed after being sent or 
 closed. If a user makes a change in that field, a Save Edit button will appear 
 at the bottom to save the change.
 
@@ -152,7 +152,7 @@ at the bottom to save the change.
 **CACTWO-6440 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 CAC now has the ability to audit Charge CPT/HCPCS codes from the [Charges 
-Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/charges-or-transactions/) will now be added to the Pre/Post Outcome section of the audit. 
+Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/charges-or-transactions/) will now be added to the Pre/Post Outcome section of the audit. 
 A new Audited Charges section will show beneath the Pre and Post Outcome 
 sections of the Audit.
 At the bottom of the list will be an Add button for the auditor to add a hard 
@@ -199,7 +199,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-6486 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/), the physician response field block was static. It 
+In a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/), the physician response field block was static. It 
 has been fixed so that it can become larger as more text is added.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
@@ -270,7 +270,7 @@ the "PreDrgQueryRequirement" site configuration, which can be adjusted by
 CAC Support as needed. 
 1. Default Behavior: The current system behavior continues, where the 
 pre-query DRG is automatically populated from the account and 
-required when sending a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/). If the pre-query DRG is not 
+required when sending a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/). If the pre-query DRG is not 
 included, a validation error will prompt correction before 
 proceeding.
 2. Open: When a query is opened, the pre-query DRG is automatically 
@@ -393,7 +393,7 @@ in the document. This has been corrected.
 
 **CACTWO-6883 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Created By dropdown in a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) showed all available users in 
+The Created By dropdown in a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) showed all available users in 
 the list. This has been changed so that only administrators or users with the 
 privilege from role mangement to create/edit physician queries are listed.
 
@@ -439,7 +439,7 @@ of Record" to the last saver. Otherwise...
 
 **CACTWO-6903 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Using a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) form with dynmaic sections, if sections were removed 
+Using a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) form with dynmaic sections, if sections were removed 
 via the red X on the form, they were scaling in green across the screen 
 horizontally instead of vertically. This has been corrected.
 
@@ -449,7 +449,7 @@ horizontally instead of vertically. This has been corrected.
 
 **CACTWO-6905 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/), when a query is closed, a shift reason panel is presented. 
+In a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/), when a query is closed, a shift reason panel is presented. 
 A new comment box has been added to the panel. This field is available in 
 [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/). Even if no shift reasons are selected, the comment will still 
 show back in the query.

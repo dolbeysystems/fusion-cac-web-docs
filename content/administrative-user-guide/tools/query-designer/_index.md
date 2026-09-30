@@ -45,49 +45,7 @@ Add a new field by clicking {{%button%}}+Add Field{{%/button%}} in the template 
 
 ![Field Type](FieldType.png)
 
-###### Single Input
-
-![Single Input Field](SingleInput.png)
-
-A single input field allows the end user to free type text. This field is best used for entering a concise amount of information, such as a name or short series of numbers. The box will grow horizontally as the user types to fit the data entered.
-
-###### Multiple-Line Text
-
-![Multiple-Line Text](MultiLineText.png)
-
-A multiple-line text field allows the end user to free type text. This field is often used for entering a large amount of information, such as taking notes or providing detailed comments. The box will grow vertically as the user types to fit the data entered. 
-
-###### Checkbox
-
-![Query Checkbox](Checkbox.png)
-
-A checkbox allows the end user to indicate certain items are applicable. This field has been used to show that the query is complete or as a way for users to select certain action items. 
-
-###### Date/Datetime
-
-![Date](Date.png) ![Datetime](Datetime.png)
-
-These fields allow the end user to indicate the date and time of a response, test, or other item being tracked. 
-
-###### Dropdown
-
-![Select Item From Dropdown](Dropdown.png)
-
-Dropdown menus allow end users to select from a pre-determined list of options. 
-
-After naming and determining who can edit the field, a dialog box will open to set the options in the dropdown menu. 
-
-![Dropdown Field](DropdownField.png)
-
-Dropdown items can be edited by pulling up the template in Query Designer and clicking {{%button%}}Edit Dropdown{{%/button%}} in the template tool bar. 
-
-###### Account Field
-
-![Account Field](AccountField.png)
-
-Account fields will automatically populate information from the account, if it has been sent to Fusion CAC. Auto-populated account information will be displayed in a bolder font to differentiate it from text manually entered by an end user. 
-
-![Populated Account Field](PopulatedAccountField.png)
+{{% include "snippets/designer-field-types.md" %}}
 
 ###### Sections
 
@@ -97,7 +55,7 @@ Sections allows end users to customize the query by removing sections as needed 
 
 Static text and fields can be inserted into a section, however **sections cannot be inserted in other sections**.
 
-When the query is added to an account, each section will show have arrows so the end user can re-order as needed. Sections will also have a X to remove that section from the query. Once a section has been removed, an undo button will become available to place it back into the query.
+When the query is added to an account, each section will have arrows so the end user can re-order as needed. Sections will also have a X to remove that section from the query. Once a section has been removed, an undo button will become available to place it back into the query.
 
 ![Section Buttons](SectionButtons.png)
 
@@ -115,20 +73,7 @@ Each field should have a unique name for reporting purposes.
 
 Field names can repeat across queries, but **each field on a query must be unique.** If a field name is repeated on a query, whatever is entered into one field will be automatically duplicated into the other fields with the same name on that query. 
 
-#### Make Required
-
-![Make Field Required](MakeRequired.png)
-
-Fields can be made required by checking the box. Leaving the box unchecked means the field is optional and the query can be completed even if that field is left blank. 
-
-When a query is added to a chart, required fields will have a light red background to indicate action must be taken. Addiontally, the user will be presented with a red toast message if they try to save the chart without completing all required fields. The toast message will include the fields that need to be completed. 
-
-![Required Field Red Background](RedRequiredField.png)
-
-Clicking OK, will add the selected field to the template with the specified settings. A box will then display in Query Designer as a
-placeholder for the selected field with the field name. The fields are not interactive from Query Designer. Once a query has been added to a chart, the field name will be replaced with instructions for the end user. 
-
-![Fields From the Front End](FrontEndFields.png)
+{{% include "snippets/designer-make-required.md" %}}
 
 #### Creating Internal Notes
 
@@ -190,17 +135,7 @@ The template source code can be found under the Tools menu within the template t
 
 ![Source Code](SourceCode.png)
 
-### Changing Field Width
-
-By default, fields will take up the full width of the template. The width can be reduced in the source code to best fit formatting needs. 
-
-In the example below, the width of the dropdown menu has been modified so that it can be on the same line as a checkbox and a multi-line text box. 
-
-![Modified Fields](ModifiedFields.png)
-
-This was done by opening the source code, finding the name of the field, and changing the width percentage. 
-
-![Modified Width](ModifiedWidth.png)
+{{% include "snippets/designer-field-width.md" %}}
 
 ### Renaming/Moving a Query
 
@@ -222,7 +157,7 @@ Once a query has been named and saved, the Document Name cannot be edited. This 
 
 Click the red {{%button%}}X{{%/button%}} button to remove the original query so it can no longer be used. The deleted query will still show up on accounts it was added to prior to being deleted, but users will not be able to add it to new accounts. 
 
-This method also allows for an existing queryt to easily be re-catagorized by role. 
+This method also allows for an existing query to easily be re-categorized by role. 
 
 If you have any questions or would like to walk through editing source code with someone, please reach out to the Dolbey SME team (smeteam@dolbey.com).
 

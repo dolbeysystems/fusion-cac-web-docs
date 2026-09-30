@@ -10,7 +10,7 @@ title = 'V2.60 (Sep 2025)'
 
 **CACTWO-6105** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new fields have been added to the [CDI Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#cdi-management-dashboard)’s query section.  There are now fields for Open Today and Open Yesterday. 
+Two new fields have been added to the [CDI Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/)’s query section.  There are now fields for Open Today and Open Yesterday. 
 
 ![CDI Management Dashboard Open Queries Section](CDIManageDashQueries.png)
 
@@ -50,7 +50,7 @@ Please contact your sales representative for pricing.
 
 **CACTWO-6587** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new option now appears in the right click menu of the [Unassigned/All Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#unassigned-codes) lists called ‘hide unassigned code’.  When used, a new icon will appear in the header, and when clicked it will open a list of all codes hidden by that user on that account. This functionality will allow the user to indicate that they have reviewed a code and they have determined it is not needed. This is different from deleting codes as code suggestions will still appear in documents and the user can un-hide codes that need to be re-evaluated. No other user opening that account will have the code hidden. 
+A new option now appears in the right click menu of the [Unassigned/All Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#unassigned-codes) lists called ‘hide unassigned code’.  When used, a new icon will appear in the header, and when clicked it will open a list of all codes hidden by that user on that account. This functionality will allow the user to indicate that they have reviewed a code and they have determined it is not needed. This is different from deleting codes as code suggestions will still appear in documents and the user can un-hide codes that need to be re-evaluated. No other user opening that account will have the code hidden. 
 
 ![Hide Unassigned Codes in Code Tree](HideUnassignedCodes.png)
 
@@ -171,7 +171,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7184 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) modifier from the E/M viewer on ER accounts has been added to the account grid.  This can also be used in Account Search and Validation Rules. 
+A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) modifier from the E/M viewer on ER accounts has been added to the account grid.  This can also be used in Account Search and Validation Rules. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -243,7 +243,7 @@ Please contact Support to enable this optional setting.
 
 **CACTWO-7250 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When working on a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/), once the account is saved, whether the Denial was completed or not, the Delete button will no longer be displayed.  Deleting can only be done on an unsaved Denial. 
+When working on a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/), once the account is saved, whether the Denial was completed or not, the Delete button will no longer be displayed.  Deleting can only be done on an unsaved Denial. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -297,7 +297,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7333 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently, when a [scheduled report](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) comes into the user’s email, when it is opened it shows the attachment as ‘report csv.’  This has been changed to show the name of the schedule.  If the user prefers to go back to ‘report’ or some other hardcoded name, that can be done through Support.
+Currently, when a [scheduled report](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/scheduled-reports/) comes into the user’s email, when it is opened it shows the attachment as ‘report csv.’  This has been changed to show the name of the schedule.  If the user prefers to go back to ‘report’ or some other hardcoded name, that can be done through Support.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -308,7 +308,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7335 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-One field in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) will change for outpatient accounts: “DRG Change Completed?” will change to “APC/ASC Change Completed?”, which will be a new field in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/).  Two more fields have been added:  “Total Claim Amount” which will be a new field in Account Search and “Overpayment Amount”, which will be in the Financial  Outcome field in Account Search.
+One field in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will change for outpatient accounts: “DRG Change Completed?” will change to “APC/ASC Change Completed?”, which will be a new field in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/).  Two more fields have been added:  “Total Claim Amount” which will be a new field in Account Search and “Overpayment Amount”, which will be in the Financial  Outcome field in Account Search.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -326,7 +326,7 @@ A new [drill-down](https://dolbeysystems.github.io/fusion-cac-web-docs/administr
 
 **CACTWO-7346 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-On the [Coder Personal Dashboard](http://localhost:1313/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard), the Personal Overview section has an  added extra line ‘Total Time Logged In’.  Basically this is the total of the prior 3 lines.
+On the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/), the Personal Overview section has an  added extra line ‘Total Time Logged In’.  Basically this is the total of the prior 3 lines.
 
 ![Total Time Logged into Application](TotalTimeLoggedIn.png)
 
@@ -336,7 +336,7 @@ On the [Coder Personal Dashboard](http://localhost:1313/fusion-cac-web-docs/admi
 
 **CACTWO-7350 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Revenue codes can be enabled to show in the [Audit Worksheet](http://localhost:1313/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  
+Revenue codes can be enabled to show in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  
 
 ![Display Rev Codes on Audit Worksheet](AuditWrkshtDisplayRevCodes.png)
 
@@ -392,7 +392,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7377 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) shows as stricken through with a checked box.   This has been updated so that the box is automatically unchecked when a document no longer exists. 
+Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) shows as stricken through with a checked box.   This has been updated so that the box is automatically unchecked when a document no longer exists. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -448,7 +448,7 @@ Blank query response dates were showing in query [reports](https://dolbeysystems
 
 **CACTWO-7442 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new fields have been added to each Appeal section in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/):  “HIMS Received Date” and “Response Due Date per Letter”.  Another field has been restored:  “Decision Letter Received Date”.  Both of the new additions will be available in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/); the Response option is shortened by the removal of ‘per Letter’. 
+Two new fields have been added to each Appeal section in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/):  “HIMS Received Date” and “Response Due Date per Letter”.  Another field has been restored:  “Decision Letter Received Date”.  Both of the new additions will be available in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/); the Response option is shortened by the removal of ‘per Letter’. 
 
 ![New Fields Added to Denials Management Viewer](NewDenialAppealFields.png)
 
@@ -573,7 +573,7 @@ Currently, birth weight is not converted when entered as a decimal on a GPCS acc
 
 **CACTWO-7499 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When adding pasted data to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), it is pasting in with a strike through.  When saved, the strike through is gone.  This has been corrected so that the strike through never occurs. 
+When adding pasted data to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/), it is pasting in with a strike through.  When saved, the strike through is gone.  This has been corrected so that the strike through never occurs. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -616,7 +616,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7510 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If Document [Search](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#search-button) is opened and the user clicks on a document in that search, then does a right-click on the document to open the action menu, the user will be unable to re-access that right-click menu on any other areas of the document search results. This has been corrected. 
+If Document [Search](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#search-button) is opened and the user clicks on a document in that search, then does a right-click on the document to open the action menu, the user will be unable to re-access that right-click menu on any other areas of the document search results. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -632,7 +632,7 @@ Fusion CAC will now allow date/times in all grids to remain static to the timezo
 
 **CACTWO-7546 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When editing a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
+When editing a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

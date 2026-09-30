@@ -30,7 +30,7 @@ In the [Tuning](https://dolbeysystems.github.io/fusion-cac-web-docs/administrati
 
 **CACTWO-6777 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In the [Document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#documents-tree), the hover over on the document name provides a physician’s name if it exists. The date of the document will now also show in the hover over if it exists. 
+In the [Document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#documents-tree), the hover over on the document name provides a physician’s name if it exists. The date of the document will now also show in the hover over if it exists. 
 
 ![Document Hover Over](DocumentHoverOver.png)
 
@@ -40,7 +40,7 @@ In the [Document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/gener
 
 **CACTWO-6987 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-[Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history) shows the mapping value (key) in the Visual Difference column. This has been changed to use the description of the mapping (friendly name) so that the change is more easily understood. 
+[Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) shows the mapping value (key) in the Visual Difference column. This has been changed to use the description of the mapping (friendly name) so that the change is more easily understood. 
 
 ![Mapping Value in Show History](MappingValueShowHistory.png)
 
@@ -112,7 +112,7 @@ A new option has been added to the dropdown list when adding criteria for an [Ac
 
 **CACTWO-7154** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) in the [Navigation tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree) of an account, a new field has been added called “Decision Letter Received Date” to each denial appeal indicated. The name of this field will change depending on if it is the First, Second, or Third appeal.
+In [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) in the [Navigation tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree) of an account, a new field has been added called “Decision Letter Received Date” to each denial appeal indicated. The name of this field will change depending on if it is the First, Second, or Third appeal.
 
 ![First Appeal Letter Date Field](FirstAppealLetterDate.png)
 
@@ -140,7 +140,7 @@ When the [submit](https://dolbeysystems.github.io/fusion-cac-web-docs/general-us
 
 **CACTWO-7191** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Additional columns can been added to the [Transfer Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/transfer-account-codes/) when searching by MRN. If a user searches for an MRN and more than two accounts share that MRN, the MRN selection box will appear, now displaying the newly added columns.
+Additional columns can been added to the [Transfer Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) when searching by MRN. If a user searches for an MRN and more than two accounts share that MRN, the MRN selection box will appear, now displaying the newly added columns.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -153,7 +153,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7193** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
- [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [Denials](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/) workflow criteria previously did not support multiple worksheet instances. While multiple Audit and Denial worksheets could exist, the workflow criteria only evaluated the first worksheet, ignoring subsequent ones. As a result, if the first worksheet was closed and a newer one was open, the workflow would incorrectly interpret the status as closed. This has been corrected—workflow criteria will now evaluate the most recent worksheet when multiple instances are present.
+ [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [Denials](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) workflow criteria previously did not support multiple worksheet instances. While multiple Audit and Denial worksheets could exist, the workflow criteria only evaluated the first worksheet, ignoring subsequent ones. As a result, if the first worksheet was closed and a newer one was open, the workflow would incorrectly interpret the status as closed. This has been corrected—workflow criteria will now evaluate the most recent worksheet when multiple instances are present.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -171,7 +171,7 @@ Outpatient accounts using a primary grouper of ASC were not computing real-time 
 
 **CACTWO-7230** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The [Audit Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-management-dashboard) was showing as blank or as spinning circles when using the Facility Filter at the top of the page. This has been corrected. 
+The [Audit Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-management-dashboard/) was showing as blank or as spinning circles when using the Facility Filter at the top of the page. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -179,7 +179,7 @@ The [Audit Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-
 
 **CACTWO-7231** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-management-dashboard) and [Aduit Personal](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#audit-personal-dashboard) dashboards were not taking multiple audits into consideration in some instances. Secondary audits were only considered if the secondary audit occurred within 30 days of the first audit. This has been changed to a default of 6 months. 
+The [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-management-dashboard/) and [Aduit Personal](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-personal-dashboard/) dashboards were not taking multiple audits into consideration in some instances. Secondary audits were only considered if the secondary audit occurred within 30 days of the first audit. This has been changed to a default of 6 months. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -219,7 +219,7 @@ When in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/adm
 
 **CACTWO-7261** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history), if a workgroup name had a change after the 50th character, it would show in the Visual Difference column with coding data in it. This has been corrected. 
+In [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history), if a workgroup name had a change after the 50th character, it would show in the Visual Difference column with coding data in it. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -328,7 +328,7 @@ To improve application performance, the calculation of validation rules will no 
 
 **CACTWO-7308** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Medication evidence, when clicked on from the [Clinical Alerts viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#viewing-cdiclinical-alerts), may not show the medication in the [Medications viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/medications-viewer/). This has been corrected. 
+Medication evidence, when clicked on from the [Clinical Alerts viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#viewing-cdiclinical-alerts), may not show the medication in the [Medications viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/medications-viewer/). This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -366,7 +366,7 @@ The description for the [Coder DRG Summary report](https://dolbeysystems.github.
 
 **CACTWO-7327** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Codes that are added via the Pre and Post DRG computation within a [Physician Query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) will now show in the [Unassigned Codes Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#unassigned-codes) if the codes are not present elsewhere on the account.  The codes will be identified with a question mark in front of them, and cannot be edited unless assigned to the account or added to a document.
+Codes that are added via the Pre and Post DRG computation within a [Physician Query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) will now show in the [Unassigned Codes Tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#unassigned-codes) if the codes are not present elsewhere on the account.  The codes will be identified with a question mark in front of them, and cannot be edited unless assigned to the account or added to a document.
 
 >[!note] 
 > This fix only applies to sites using the Solventum encoder.s
@@ -385,7 +385,7 @@ A user could not unassign an account if the user was not granted the privilege t
 
 **CACTWO-7332** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When the [Admin Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#administrative-dashboard) loaded, its performance was being slowed down due to how the discharged pended accounts data was retrieved. This has been updated for faster performance. 
+When the [Admin Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/) loaded, its performance was being slowed down due to how the discharged pended accounts data was retrieved. This has been updated for faster performance. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -443,7 +443,7 @@ The User Session Log has been updated to allow access to the physician coder man
 
 **CACTWO-7365** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-On a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/), the coder field was not defaulting to the first submitting coder, or leaving as blank if not submitted.  This has been corrected. 
+On a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/), the coder field was not defaulting to the first submitting coder, or leaving as blank if not submitted.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -507,7 +507,7 @@ When the '[Query For](https://dolbeysystems.github.io/fusion-cac-web-docs/admini
 
 **CACTWO-6767** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Fusion CAC now supports copying an entire row of a discrete value from flowsheet viewer into CDI/Clinical Alerts, as outlined in the comment above. Any hidden columns will be excluded from the [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) evidence, enabling more precise control over which data is transferred.  
+Fusion CAC now supports copying an entire row of a discrete value from flowsheet viewer into CDI/Clinical Alerts, as outlined in the comment above. Any hidden columns will be excluded from the [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) evidence, enabling more precise control over which data is transferred.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -515,7 +515,7 @@ Fusion CAC now supports copying an entire row of a discrete value from flowsheet
 
 **CACTWO-7132** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Fusion CAC now enhances the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) experience by displaying evidence with a strike through in the viewer if the originally abstracted evidence is no longer present in the document. This typically occurs when a document has been amended and the evidence previously identified has been removed.
+Fusion CAC now enhances the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) experience by displaying evidence with a strike through in the viewer if the originally abstracted evidence is no longer present in the document. This typically occurs when a document has been amended and the evidence previously identified has been removed.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -523,7 +523,7 @@ Fusion CAC now enhances the [CDI/Clinical Alerts](https://dolbeysystems.github.i
 
 **CACTWO-7241** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When evidence is copied to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) from a document, the document type's friendly name will be displayed instead of its interface name. Previously it was using interface name.
+When evidence is copied to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) from a document, the document type's friendly name will be displayed instead of its interface name. Previously it was using interface name.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

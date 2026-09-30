@@ -88,7 +88,7 @@ A new 'Total' column has been added to the [CDI Metric Score Card](https://dolbe
 
 **CACTWO-7570** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-On the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/#coder-personal-dashboard):
+On the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/):
 - If both Inpatient and Outpatient audit data are available, both section headers will appear on the user’s Dashboard, each displaying its corresponding audit details.
 - If no audit data exists at all, both headers will still display, but instead of data, each section will show the message: “No audits performed since last month.
 - If audit data exists for only one category (e.g., Inpatient audits are available but Outpatient audits are not), the Dashboard will display only the header(s) with available data, along with the corresponding audit information.
@@ -215,7 +215,7 @@ When exporting a CSV in [Mappings](https://dolbeysystems.github.io/fusion-cac-we
 A checkmark will now appear to the right of the diagnosis and procedure code(s) that affect the DRG (according to Solventum™ or TruCode™) in these places in Fusion CAC:
 - the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/)
 - the [Final Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#final-code-summary)
-- the [Working CDI History viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/working-cdi-history/)
+- the [Working CDI History viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/working-cdi-history/)
 - the Suggested DRG History viewer
 - the [TruCode](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone page
 
@@ -264,7 +264,7 @@ The ‘add’ table has been changed to allow better usablilty and readablity of
 
 **CACTWO-7658** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When a client changes an account from an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module)-coded account to a non-E/M account, the system will now prevent Auditors from pulling in E/M charges. Additionally, an issue where the comment bubble on E/M charge codes did not allow remarks to be entered has been resolved. 
+When a client changes an account from an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module)-coded account to a non-E/M account, the system will now prevent Auditors from pulling in E/M charges. Additionally, an issue where the comment bubble on E/M charge codes did not allow remarks to be entered has been resolved. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -366,7 +366,7 @@ If an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-naviga
 
 **CACTWO-7684** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a document was archived (which occurs when a [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) saves or submits a chart), [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
+If a document was archived (which occurs when a [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) saves or submits a chart), [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -418,7 +418,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7695** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/matched-criteria/) was assigned to an account ahead of CDI Alerts, the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) did not display those CDI Alerts in the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) Drill-Down.  This has been corrected. 
+If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/matched-criteria/) was assigned to an account ahead of CDI Alerts, the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) did not display those CDI Alerts in the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) Drill-Down.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -525,7 +525,7 @@ Please contact Support to check if you need a manual change.
 
 **CACTWO-7734** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user initially sets up an [E/M Coding](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#er-em-module) worksheet to have a No Charge set as None, they get E/M levels.  These show in the [Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/#em-summary) at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
+If a user initially sets up an [E/M Coding](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) worksheet to have a No Charge set as None, they get E/M levels.  These show in the [Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#em-summary) at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -567,7 +567,7 @@ When running the CDI Alerts report, if it was filtered by Catetory/Facility, it 
 
 **CACTWO-7792** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
+An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
