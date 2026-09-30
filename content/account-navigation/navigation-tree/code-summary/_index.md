@@ -1,6 +1,10 @@
 +++
 title = 'Code Summary'
 weight = 15
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/code-summary/',
+  '/general-user-guide/account-screen/account-viewers/code-summary/',
+]
 +++
 
 
@@ -20,15 +24,23 @@ Upon opening Show History, users will see the entire history from a birds-eye vi
 
 The legend can be found by clicking {{%button%}}Show Legend{{%/button%}} to let the user know what the colors represent without having to hover over them.  When clicked, it will open the Legend and the button name will change to "Hide Legend".  Click again to close. 
 
+![Show History Legend](2025-03-05_CodeSummary3.png)
+
 **Showing or hiding groups:** Each group in the timeline, such as Workflow, has a check box. All groups are checked and visible by default. Uncheck a group to hide it from the timeline, which makes it easier to focus on the entries you need. For example, hiding Workflow removes the large number of system-generated workflow events. Hiding a group changes only the timeline display. It does not affect the Changes or Visual Difference columns.
 
 ![Show History Timeline Groups](ShowHistoryGroups.png)
 
-![Show History Legend](2025-03-05_CodeSummary3.png)
-
 Click on an entry by date to view the changes that were made to the account on the date and time indicated.
 
 ![Audit Trail](AuditTrail.png)
+
+### Validation Results
+
+When the Code Summary link in the Navigation tree displays **{{< rawhtml >}}<span style="color:#a00">RED</span>{{< /rawhtml >}}**, the chart has validation errors that must be resolved before it can be submitted. Validation Results display at the top of the Code Summary viewer. For details on errors and warnings, see [Validation Results](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/review-validation-rules/).
+
+### Pending Reasons
+
+Pending Reasons assigned to the account display below Validation Results. Users can add and remove Pending Reasons and record notes on them here. For details, see [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/).
 
 ### Admit Diagnosis 
 
@@ -56,7 +68,7 @@ Listed beneath Assigned Diagnosis Codes are the Assigned Procedure Codes in code
 
 ### Assigned CPT Codes
 
-Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code sequence order. The list includes the CPT code, Modifiers, Code Description, Service Date, Physician, APC and Servier Indicator.
+Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code sequence order. The list includes the CPT code, Modifiers, Code Description, Service Date, Physician, APC, and Status Indicator.
 
 ![Assigned CPT Code](2025-03-05_CodeSummary4.png)
 
@@ -71,7 +83,7 @@ Use the Claim Ownership feature based on the organization’s requirements and p
 
 ![Final Code Summary Viewer](FinalCodeSumViewer.png)
 
-The Final Code Summary will only be available once the facility Coder clicks the {{%button%}}Submit{{%/button%}} button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/).  
+The Final Code Summary will only be available once the facility Coder clicks the {{%button%}}Submit{{%/button%}} button. This provides transparency between CDI and physician coding teams (if also using Fusion CAC) as to what was coded. When a submitted chart is open again, users will see a new viewer under the navigation menu called the Final Code Summary. This will display what the coders coded along with code status details and sequencing. This data is viewable only for the role of [‘CDI’](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles).  
 
 ![Final Code Summary](FinalCodeSummary.png)
 

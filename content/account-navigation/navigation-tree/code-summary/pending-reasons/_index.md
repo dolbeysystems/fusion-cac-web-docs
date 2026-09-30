@@ -24,6 +24,8 @@ If a pending reason is added to an account, the Submit button will be grayed out
 ##### Pending Reason Notes
 On any account, an edit button will appear to the left of the pending reason. Clicking that button will drop down a note entry where the user can record a note. Pressing ENTER will record the note. Keep in mind that a note can be deleted by clicking a trash can symbol to its left. In Account Search, the "Pending Reasons" drill down will now include the "Note" field.
 
+![Pending Reason Note](PendingReasonNote.png)
+
 ##### Filtering by Pending Reason
 On the Autoload, Account List, and Account Search pages, the Pending Reasons column can be filtered. When a pending reason is unchecked in the column filter, accounts that have **only** that pending reason are removed from the grid. Accounts that have that pending reason along with other pending reasons still display.
 
@@ -31,5 +33,3 @@ Your organization can change this so that any account with the unchecked pending
 
 > [!info] Additional Configuration Required
 > Please contact Support to change how the Pending Reasons filter works.
-
-![Pending Reason Note](PendingReasonNote.png)

@@ -1,6 +1,7 @@
 +++
 title = 'Quality Indicators'
 weight = 11
+aliases = ['/general-user-guide/account-screen/navigation-tree/code-summary/quality-indicators/']
 +++
 
 In the Code Summary Viewer at the bottom, you'll find the Algorithm for Quality Indicators, which outlines the methodology used to identify Pediatric Quality Indicators (PDI), Patient Safety Indicators (PSI), Quality Measure PC-06, and Elixhauser Measures. 

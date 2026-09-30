@@ -3,7 +3,7 @@ title = 'Validation Results'
 weight = 12
 +++
 
-When the Code Summary link displays **{{< rawhtml >}}<span style="color:#a00">RED</span>{{< /rawhtml >}}**, there are [validation errors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/validation-management/) on the chart that must be resolved prior to submission.
+When the Code Summary link displays **{{< rawhtml >}}<span style="color:#a00">RED</span>{{< /rawhtml >}}**, there are [validation errors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) on the chart that must be resolved prior to submission.
 
 ![Red Code Summary](RedCodeSummary.png)
 

@@ -24,7 +24,7 @@ Displayed at the top of the viewer is the Baseline, Working and Final DRG. The a
 
 ![Impact Queries Viewer](2025-02-21_ImpactQueries2.png)
 
-Clicking on the {{%button%}}View Codes{{%/button%}} button in either the Baseline or Working DRG boxes will take the user to the [Working CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/working-cdi-history/) viewer to allow the user to view how the CDS developed their DRG at different stages. Clicking on the {{%button%}}View Codes{{%/button%}} button in the Final DRG box will take the user to the [Final Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/code-summary/) viewer to show the user how the account was final coded by the Coder.
+Clicking on the {{%button%}}View Codes{{%/button%}} button in either the Baseline or Working DRG boxes will take the user to the [Working CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/working-cdi-history/) viewer to allow the user to view how the CDS developed their DRG at different stages. Clicking on the {{%button%}}View Codes{{%/button%}} button in the Final DRG box will take the user to the [Final Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) viewer to show the user how the account was final coded by the Coder.
 
 To review the query that was assigned, click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}**. This will open the query in a dialouge box.
 
