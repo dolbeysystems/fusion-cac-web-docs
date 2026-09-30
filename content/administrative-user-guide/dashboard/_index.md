@@ -17,7 +17,7 @@ The dashboard is displayed when you log in to Fusion CAC. After login, you can r
 
 ![Dashboard](Dashboard.png)
 
-## Dashboard Access
+## Dashboard Permissions
 
 The dashboards available to you are based on your assigned user role and permissions. You may have access to one or more dashboards depending on your responsibilities within Fusion CAC.
 
