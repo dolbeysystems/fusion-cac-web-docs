@@ -105,7 +105,7 @@ When a pending reason has the Physician Required box checked, the user will be p
 
 ### CDI Review Types Mapping:
 
-CDI Review types are custom and not enabled at every organization. Additional information on the use of custom reviews can be found [here](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-reviews/).
+CDI Review types are custom and not enabled at every organization. Additional information on the use of custom reviews can be found [here](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/documenation-reviews/).
 
 > [!note] Note: Changing Existing Types
 Changing an existing CDI Review Type will change reporting and dashboards.
@@ -136,11 +136,11 @@ The mapping of PhysicianQueryReasons now has a column called Roles, which will a
 
 ### CDI/Clinical Alert Topics (CdiAlertTopicHeaders)
 
-The CdiAlertTopicHeaders mapping provides the list of topics users can select when [manually adding a CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#manually-adding-a-cdiclinical-alert). Please contact Support to enable this feature.
+The CdiAlertTopicHeaders mapping provides the list of topics users can select when [manually adding a CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#manually-adding-a-cdiclinical-alert). Please contact Support to enable this feature.
 
 ### CDI/Clinical Alert Subheadings (CdiAlertTopicSubHeaders)
 
-The CdiAlertTopicSubHeaders mapping provides the list of subheadings, such as Clinical Evidence, Laboratory Studies, and Vital Signs, that users can add in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function). Please contact Support to enable this feature.
+The CdiAlertTopicSubHeaders mapping provides the list of subheadings, such as Clinical Evidence, Laboratory Studies, and Vital Signs, that users can add in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function). Please contact Support to enable this feature.
 
 ### CDI Audit Question Weighting
 

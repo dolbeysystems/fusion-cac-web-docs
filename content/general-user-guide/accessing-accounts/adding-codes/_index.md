@@ -97,7 +97,7 @@ Begin with a quick scan of the list to gain a general understanding of the patie
 
 #### Step 2: Review Documents and Begin Coding
 
-After scanning the Unassigned Codes tree, move to the [Documents tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#document-tree) and begin reviewing the documentation necessary for coding.
+After scanning the Unassigned Codes tree, move to the [Documents tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#documents-tree) and begin reviewing the documentation necessary for coding.
 
 ##### Validate Codes as Needed
 

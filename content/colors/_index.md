@@ -100,7 +100,7 @@ The Fusion CAC application will display the CPT Code, Description, and Service D
 ![CDI Alers Paper Icon](CDIAlertsNotesIcon.png)
 
 The paper icon allows users to click to enter notes to indicate thoughts on
-the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/chart-prioritization/).
+the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/chart-prioritization/).
 
 ### Audit Worksheet
 

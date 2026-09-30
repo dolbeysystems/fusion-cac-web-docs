@@ -1,6 +1,7 @@
 +++
 title = 'CDI Reviews'
-weight = 10
+weight = 60
+aliases = ['/general-user-guide/account-screen/cdi-reviews/']
 +++
 
 Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard includes data for Today and This Week only, and data is based on the current week. This also provides the CDI Specialist (CDI) with DRG and reconciliation data.
@@ -9,9 +10,9 @@ Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard in
 
 An initial review is a case that has never been reviewed by a CDI in Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
 
-When a CDI creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/cdi-reviews/baseline-drg/) (the first Working DRG), edits the account - causing the Working DRG to be cleared - and saves the account without computing a new Working DRG, the Baseline DRG creation also counts as an initial review.
+When a CDI creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/cdi-reviews/baseline-drg/) (the first Working DRG), edits the account - causing the Working DRG to be cleared - and saves the account without computing a new Working DRG, the Baseline DRG creation also counts as an initial review.
 
-The CDI will review the patient chart documentation and assign any codes necessary to calculate a working and/or [baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/cdi-reviews/baseline-drg/). The CDI may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
+The CDI will review the patient chart documentation and assign any codes necessary to calculate a working and/or [baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/cdi-reviews/baseline-drg/). The CDI may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
 
 >[!Note] 
 >The **system does not take the place of a Coder**; this is the computer’s best guess at how Coders would have coded the chart
@@ -27,7 +28,7 @@ The CDI worksheet *can* include any notes that are needed such as:
 
 ## Creating a Query
 
-If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) viewer in the [Navigation](http://localhost:1313/fusion-cac-web-docs/general-user-guide/account-screen/) tree. 
+If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) viewer in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/) tree. 
 
 ![Physicans & Queries Viewer](PhysicanQueriesNP.png)
 

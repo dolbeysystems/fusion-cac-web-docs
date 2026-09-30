@@ -1,6 +1,10 @@
 +++
 title = 'CDI/Clinical Alerts'
-weight = 50
+weight = 14
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/',
+  '/general-user-guide/account-screen/account-viewers/cdi-clinical-alerts/',
+]
 +++
 
 
@@ -43,7 +47,7 @@ management editor.
 ## Viewing CDI/Clinical Alerts
 
 To access and view CDI/Clinical Alerts within a patient's chart, locate them in the 
-[Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/) tree and click on the "CDI/Clinical Alerts" viewer. This will make the viewer display in the middle of the screen. There is also a box with an arrow next to "CDI/Clinical Alerts" that will allow the user to pop-out the viewer in a different tab. Doing this gives the user the ability to move the tab to a different monitor, if desired. 
+[Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/) tree and click on the "CDI/Clinical Alerts" viewer. This will make the viewer display in the middle of the screen. There is also a box with an arrow next to "CDI/Clinical Alerts" that will allow the user to pop-out the viewer in a different tab. Doing this gives the user the ability to move the tab to a different monitor, if desired. 
 
 ![CDI in Nav Tree](2025-02-24_ChartPri2.png)
 

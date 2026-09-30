@@ -1,6 +1,7 @@
 +++
 title = 'Chart Prioritization'
 weight = 50
+aliases = ['/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/chart-prioritization/']
 +++
 
 Once CDI/Clinical Alerts are enabled, within the workgroup there is a column named “Criteria

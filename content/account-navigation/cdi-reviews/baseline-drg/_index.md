@@ -1,6 +1,7 @@
 +++
 title = 'Baseline DRG'
 weight = 70
+aliases = ['/general-user-guide/account-screen/cdi-reviews/baseline-drg/']
 +++
 
 The baseline DRG is used for reporting CDI program impact. 

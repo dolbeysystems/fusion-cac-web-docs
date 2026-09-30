@@ -1,13 +1,14 @@
 +++
 title = 'Account Navigation'
 weight = 10
+aliases = ['/general-user-guide/account-screen/']
 +++
 
 ## Account Action Bar
 
 ![Account Action Bar](AccountActionBar.png)
 
-The blue bar across the top of the screen is the Account Action Bar. This bar displays specific account information such as the account status,the account number, and the dates of service. Additonally, the Account Action Bar shows the time in the account, and houses buttons allowing the user to compute, cancel, save, or submit the account as needed.
+The blue bar across the top of the screen is the Account Action Bar. This bar displays specific account information such as the account status, the account number, and the dates of service. Additionally, the Account Action Bar shows the time in the account, and houses buttons allowing the user to compute, cancel, save, or submit the account as needed.
 
 |Button |Function|
 |-------|--------|
@@ -53,7 +54,7 @@ The DRG view displays information available from the encoder for the computed DR
 ## Navigation Tree
 
 The Navigation tree sits above the Documents tree on the left-hand side of the Account Screen. 
-The Navigation tree includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/), to pages within the chart providing summary views of
+The Navigation tree includes hyperlinks, or [viewers](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/), to pages within the chart providing summary views of
 coding information, demographic information, as well as clinical documentation, workflow, and 
 worksheets.
 
@@ -204,7 +205,7 @@ Alternatively, users can toggle between showing All Codes or just the Unassigned
 
 Users can right-click on a code, then either Assign or Edit the selected code.
 
-![Right Click Code Menu](CodeRightClick.png)
+![Right Click Code Menu](RightClickCodeMenu.png)
 
 Selecting Edit will open a window to review the code, code description, set the POA indicator, and designate the code status as Admit, Principal or Secondary.
 
@@ -232,13 +233,29 @@ Under Unassigned Procedure Codes are listed all unassigned CPT® Codes that have
 
 #### Hide CDI Added Codes
 
-If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes tree will be viewable.  When checked, any code added to a document by a CDS will be hidden from the list. 
+If a CDI adds codes to a document, they can be hidden by the Coder. When the Coder opens the account, a box in the Unassigned Codes tree will be viewable.  When checked, any code added to a document by a CDI will be hidden from the list. 
 
 ![Hide CDI Codes Check Box](HidCDICodes.png)
 
+#### Hide Unassigned Codes
+
+If a user has reviewed a code(s) and has determined that it is not needed, they can hide the code from the Unassigned codes tree. Hiding the code allows it to remain in the code tree, just hidden from view. The user can later un-hide codes that need to be re-evaluated. When a user hides a code(s), it is only hidden to them, not other users who may access the account later. 
+
+Right-click on a code in the Unassigned codes tree to access the "Hide Unassigned Code" option.
+
+![Hide Unassigned Code](HideUnassignedCode.png)
+
+When a code has been hidden, the below icon will be displayed.
+
+![Hidden Unassigned Code Icon](HiddenUnassignedCode.png)
+
+To review the code(s) that were hidden, click on the hidden icon and a "Show Hidden Codes" dialog will open. This will allow the user to show the hidden code(s) again in the Unassigned/All codes tree, by selecting what code should be unhidden and clicking "Ok".
+
+![Show Hidden Codes](ShowHiddenCodes.png)
+
 #### Code Comments
 
-A comment can be added to a code on the [document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#document-tree), or the Unassigned/Show All code tree. 
+A comment can be added to a code on the [document tree](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#documents-tree), or the Unassigned/Show All code tree. 
 
 ![Add/Edit Code Comment](CodeComment.png)
 
@@ -254,13 +271,13 @@ Comments will show as a green flag in the code trees **and** on the code in the 
 
 The Assigned tree sits above the Unassigned tree on the right-hand side of the Account Screen. The Assigned tree includes Admit Diagnosis, Principal and/or Visit Reasons Assigned Diagnoses, Principal and Secondary ICD-10 Procedures and Assigned CPT® Codes. Once a Coder validates a code from the document or right clicks and assigned a code from the unassigned codes menu, they will appear in the assigned codes tree. All codes on submit within this tree will go outbound to the abstraction or billing system. Codes can be removed from here by right-clicking and selecting unassign. 
 
-Codes falling below the 25th position will display within a light purple color. 
+Codes falling below the 25th position will display in a light purple color. 
 
 ![Assigned Code Tree](AssignedCodes.png)
  
 #### Admit Diagnosis
 
- Listed first in the Assigned tree is the Admit Diagnosis. Users can right-click on any assigned diagnosis code and select Assign as Admit Diagnosis to add the code as the Admit Diagnosis. This right click menu will change depending on if you click on diagnosis or procedures and if the user is in an inpatient vs outpatient chart.
+ Listed first in the Assigned tree is the Admit Diagnosis. Users can right-click on any assigned diagnosis code and select Assign as Admit Diagnosis to add the code as the Admit Diagnosis. This right click menu will change depending on if the user clicks on diagnosis or procedures and if the user is in an inpatient vs outpatient chart.
 
 ![Right Click Admit Diagnosis](RCAdmit.png)
 
@@ -279,6 +296,8 @@ Following the listed Assigned ICD-10 Procedures are the Assigned CPT® Codes.
 #### Code Editor
 
 An additional, quicker, way to open the Code Editor dialog via the right-click menu right from the assigned code tree. When clicking on the code from the assigned code tree, user will edit only the code along with the position they have clicked on. However, if using the hot key from the unassigned code tree will open a full code editor, since no action has been assigned yet to that code.
+
+![Right Click Edit Code](RightClickEdit.png)
 
 #### Add Code Set Button
 
