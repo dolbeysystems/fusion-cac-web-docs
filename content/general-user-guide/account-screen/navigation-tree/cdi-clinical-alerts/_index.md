@@ -31,18 +31,14 @@ CDI/Clinical Alerts branch out into four (4) types of Alerts.
 | Alert Type                                      | Description |
 | ----------------------------------------------- | ----------- |
 | No Documentation but, Clinical Indicators   | This Alert type is when the provider did not document a diagnosis but, there are clinical indicators that support “Possible Diagnosis”.|
-| Documentation but lack of Clinical Indicators   | This is where the provider documented the diagnosis but there is a lack of clinical indicators that support the diagnosis. For example, Sepsis was documented by the provider but it's not supported by clinical indicators. This Alert helps to ensure that diagnoses are audit proof, ensuring that the supporting evidence required for a proper diagnosis validation is present within the patient's chart. |
-| Documentation but Not Fully Specified           | This is where the provider documented a diagnosis but, it was not documented to its full specificity. For example, Heart Failure Unspecified: the diagnosis is not documented to the full specificity. This CDI/Clinical Alert is helpful for ensuring that diagnoses are documented to their full extent in order to combat denials. |
-| Conflicting Diagnosis                           | This alert detects instances where two or more fully specified versions of a diagnosis may conflict. For example, if one provider documents Acute Diastolic Heart Failure in one section of a patient’s record, while another records Acute on Chronic Systolic Heart Failure elsewhere, the alert flags the discrepancy. By ensuring diagnostic consistency, this alert helps maintain an accurate clinical picture, enabling all care providers to deliver the best possible care. |
+| Documentation but lack of Clinical Indicators   | This is where the provider documented the diagnosis but there is a lack of clinical indicators that support the diagnosis. *For example, Sepsis was documented by the provider but it's not supported by clinical indicators.* This Alert helps to ensure that diagnoses are audit proof, ensuring that the supporting evidence required for a proper diagnosis validation is present within the patient's chart. |
+| Documentation but Not Fully Specified           | This is where the provider documented a diagnosis but, it was not documented to its full specificity. *For example, Heart Failure Unspecified: the diagnosis is not documented to the full specificity.* This CDI/Clinical Alert is helpful for ensuring that diagnoses are documented to their full extent in order to combat denials. |
+| Conflicting Diagnosis                           | This alert detects instances where two or more fully specified versions of a diagnosis may conflict. *For example, if one provider documents Acute Diastolic Heart Failure in one section of a patient’s record, while another records Acute on Chronic Systolic Heart Failure elsewhere, the alert flags the discrepancy.* By ensuring diagnostic consistency, this alert helps maintain an accurate clinical picture, enabling all care providers to deliver the best possible care. |
 
-
-## Setting up CDI/Clinical Alerts
-
+> [!info] Additional Configuration Required
 In order to set up CDI/Clinical Alerts, reach out to the SME Team (smeteam@dolbey.com) for
 assistance. There is a module that must be deployed in conjunction with set up within the workflow
 management editor.
-
-
 
 ## Viewing CDI/Clinical Alerts
 
@@ -54,7 +50,7 @@ To access and view CDI/Clinical Alerts within a patient's chart, locate them in 
 ## Navigating the CDI/Clinical Alerts Viewer
 
 In the CDI/Clinical Alerts viewer there are two headings in the dark blue bars which include:
-1. [Active Alerts](#active-alerts); and
+1. [Active Alerts](#active-alerts)
 2. [Completed Alerts](#completed-alerts) 
 
 Clicking on either of these headings will expand or collapse the section. Within each section are the actual Alerts that were triggered for the current account that is opened.
