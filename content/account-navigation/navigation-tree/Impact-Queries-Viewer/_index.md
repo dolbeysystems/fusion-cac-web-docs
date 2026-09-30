@@ -24,7 +24,7 @@ Displayed at the top of the viewer is the Baseline, Working and Final DRG. The a
 
 ![Impact Queries Viewer](2025-02-21_ImpactQueries2.png)
 
-Clicking on the {{%button%}}View Codes{{%/button%}} button in either the Baseline or Working DRG boxes will take the user to the [Working CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/working-cdi-history/) viewer to allow the user to view how the CDS developed their DRG at different stages. Clicking on the {{%button%}}View Codes{{%/button%}} button in the Final DRG box will take the user to the [Final Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/code-summary/) viewer to show the user how the account was final coded by the Coder.
+Clicking on the {{%button%}}View Codes{{%/button%}} button in either the Baseline or Working DRG boxes will take the user to the [Working CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/working-cdi-history/) viewer to allow the user to view how the CDS developed their DRG at different stages. Clicking on the {{%button%}}View Codes{{%/button%}} button in the Final DRG box will take the user to the [Final Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) viewer to show the user how the account was final coded by the Coder.
 
 To review the query that was assigned, click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}**. This will open the query in a dialouge box.
 
@@ -45,8 +45,8 @@ To assign the impact of the query, the user will enter a percentage in the "Assi
 |Assigned Impact Wgt.|This is the weight of the account impact you are assigning per query based upon the % you placed in the assigned impact % field that pulls from the remaining impact weight.|
 |Template|This is the query template you are assigning impact to. Only queries issues by CDI will display here.|
 |Query Reason|This is the query reason to assigned to the query template.|
-|Pre-Drg|This is the pre-DRG assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
-|Post-Drg|This is the post-DRG assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
+|Pre-DRG|This is the pre-DRG assigned to the query. To change this, click on the blue envelope icon to the right of assigned impact. On accounts with a Billing Grouper of APR, this column is labeled **Pre-APR** and shows the APR-DRG.|
+|Post-DRG|This is the post-DRG assigned to the query. To change this, click on the blue envelope icon to the right of assigned impact. On accounts with a Billing Grouper of APR, this column is labeled **Post-APR** and shows the APR-DRG.|
 |Shift Reasons|This is the shift reasons assigned to the query, to change this click on the blue envelop icon to the right of assigned impact.|
 |Status|This is the status of the query, to change this click on the blue envelop icon to the right of assigned impact.|
 

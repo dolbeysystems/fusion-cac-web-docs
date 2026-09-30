@@ -46,6 +46,9 @@ Privileges are assgined to roles for specific features within the application. T
 
 ![](2024-11-21_Features.png)
 
+>[!note] Alerts Performance Dashboard
+>Access to the [Alerts Performance Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/alerts-performance-dashboard/) is controlled by the **View Alerts Performance Dashboard** privilege. Because not all organizations use CDI/Clinical Alerts, grant this privilege only to roles that need it.
+
 ## Hidden Roles
 
 When editing custom roles, consider removing irrelevant roles to make the page easier to navigate. Columns can be hidden and unhidden by simply clickling on the role name. For instance, clicking on "CDI Specialist" will hide the corresponding column, moving it to the "Hidden Roles" section above the role columns. To unhide the role, click on "CDI Specialist" again and the column will reappear.

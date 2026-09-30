@@ -3,6 +3,16 @@ title = 'Audit Worksheet'
 weight = 13
 +++
 
+## Overview
+
+The Audit Worksheet displays when the account is opened by a user in the role of Auditor. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing.
+
+Data in the Audit Worksheet is only intended for coder education and for administrative staff to score how the Coder is doing in a report card. The Auditor will need to add the Coder of Record so that the Coder of Record, any Auditor, or other user role that has been given access can view the audit worksheets.
+
+>[!Note] Audit Worksheet Permissions
+>If needed, the Audit Worksheet can be seen by a CDI Specialist. The CDI Specialist would only have the option to view and print. All editing, routing, and deleting abilities are not available.
+>*Please contact the CAC Support Team to opt-in to this permission at cacsupport@dolbey.com*
+
 ## Starting an Audit
 
 The pre-audit codes and DRG are displayed for easy reference by the Auditor. The Auditor conducts the review (see steps 1-9) and makes changes to the codes in the Assigned code tree.
@@ -107,7 +117,7 @@ At the conclusion of the audit, the Auditor can list any recommended training to
 
 The Auditor can then re-submit the chart or route it back to the Coder of Record by using the
 {{%button%}}Route to Coder{{%/button%}} button in the top right corner of the audit worksheet. This will route the chart to
-the Coder’s **You** worklist for the Coder to complete the [Coder Acknowledgement](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/starting-an-audit/#coder-acknowledgement) section. 
+the Coder’s **You** worklist for the Coder to complete the [Coder Acknowledgement](#coder-acknowledgement) section. 
 
 ![Route to Coder](2025-02-27_Audit12.png)
 
@@ -134,7 +144,7 @@ When the Coder opens the chart to review, there will be a "Coder Acknowledgement
 Once the chart is returned to the Auditor, there are a few actions the Auditor can take based on the Coder Acknowledgement response: 
 
 1. Review the rebuttal, select agree, and finish the audit.
-2. Review the rebuttal, select disagree, and finish the audit **OR** initiate the [Audit Escalation](https://dolbeysystems.github.io/fusion-cac-web-docs/auditor-user-guide/starting-an-audit/#audit-escalation) process. 
+2. Review the rebuttal, select disagree, and finish the audit **OR** initiate the [Audit Escalation](#audit-escalation) process. 
 
 ## Audit Escalation
 

@@ -1,55 +1,38 @@
 +++
 title = 'Add-On Modules and Viewers'
 weight = 12
+aliases = [
+  '/general-user-guide/account-screen/navigation-tree/add-on-modules-and-viewers/',
+  '/general-user-guide/account-screen/account-viewers/add-on-modules-and-viewers/',
+]
 +++
 
 > [!note] Optional Viewers
-> The following viewers are part of optional
-> [add-on modules](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/add-on-modules/)
+> The following viewers are part of optional add-on modules
 > and may not be used at all organizations. If you are unsure if a module is relevant to your
-> organization, please contact your  supervisor. Organizations looking for more information on
+> organization, please contact your {{%icon icon="user-tie"%}} supervisor. Organizations looking for more information on
 > these modules should reach out to the Dolbey SME team via email (smeteam@dolbey.com).
 {{% children depth=999 %}}
 
-## Audit Modules
+## Audit Module
 
-### Coding Audit Module (Viewer)
+### Coding Audit Viewer
 
 ![Audit Viewer](AuditViewer.png)
 
-The coding Audit Worksheet displays when the account is opened by a user in the role of Auditor. The Audit Worksheet can be popped out onto a separate screen, allowing the Auditor to have a screen for reviewing the chart. By selecting “Show All” codes in the Unassigned code tree, the Auditor is taken to the documents/documentation supporting that code.  This will help streamline the audit process. 
+The Audit Worksheet displays when the account is opened by a user in the role of Auditor. Auditors use it to review the Coder's work, record code and DRG changes with comments, and score the audit for coder education. For permissions and step-by-step instructions, see [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).
 
-An account can have one or more audits added to it. By clicking {{%button%}}+Add Audit{{%/button%}} a new, blank audit worksheet will be created. These worksheets are numbered and displayed at the top of the audit viewer, along with a date stamp indicating when each worksheet was opened. The worksheet currently being viewed will be highlighted with a green background.
-
-Data in the Audit Viewer is only intended for coder education and administrative staff to score how the Coder is doing in a report card. The Auditor will need to add the Coder of Record so that the Coder of Record, any Auditor, or other user role that has been given access can view the audit worksheets. 
-
-The audit module allows for the role of an Auditor within the application. The role of an "Auditor" has the same privileges as a "Coder" when it comes to account editing. More details on audit functionality can be found in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) section. 
-
->[!Note] Aduit Worksheet Permissions
-If needed, the Audit Worksheet can be seen by a CDI Specialist. The CDI Specialist would only have the option to view and print. All editing, routing, and deleting abilities are not available.
-*Please contact the CAC Support Team to opt-in to this permission at cacsupport@dolbey.com* 
-
-### CDI Audit Module (Viewer)
+### CDI Audit Viewer
 
 ![CDI Audit Viewer in the Navigation Tree](CDIAuditVwr.png)
 
-The CDI Audit Module is a tool designed to help [CDI auditors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) evaluate the quality, accuracy, and compliance of CDI work within a patient chart. It provides a structured workflow to review whether the baseline DRG was assigned correctly, whether the final working DRG reflects appropriate documentation and coding practices, and whether queries sent by CDI professionals followed compliance standards.
-Audits can be conducted at different stages of the patient’s stay. A concurrent audit allows you to evaluate a case while the patient is still admitted. A post-discharge audit can be performed once the case is complete, ensuring that no documentation opportunities were missed. Finally, the module also supports retrospective random audits, which can be used to evaluate CDI quality as part of regular compliance monitoring. This flexibility ensures that audits can be integrated into both day-to-day CDI operations and broader quality assurance programs.
-
-Prerequisites
-Before starting a CDI audit, two requirements must be met:
-1.	CDI Auditor Role: You must be assigned the role of CDI Auditor within the system. Without this role, you will not see the CDI Audit worksheet or be able to launch an audit.
-2.	Patient Chart with a Baseline DRG: The patient chart must have at least a baseline DRG already assigned by a CDI user. This ensures there is an initial point of comparison for your audit.
-
-If either of these prerequisites is missing, the system will not allow you to proceed with the audit.
-
-More details on audit functionality can be found in the [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) section.
+The CDI Audit Worksheet helps [CDI auditors](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) evaluate the quality, accuracy, and compliance of CDI work within a patient chart, including the baseline DRG, the working DRG, and any queries sent. For prerequisites and step-by-step instructions, see [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/).
 
 ## Discrete Values (Viewer)
 
-**This feature may not be supported by your organization's EHR vendor.** The Discrete Values viewer show trending data or data that has values.  The most common examples of discrete values are lab values and vital signs. The viewer can be popped out into another window by clicking on a little square with an arrow pointing to the right in the navigation tree next to the viewer name.
+**This feature may not be supported by your organization's EHR vendor.** The Discrete Values viewer shows trending data or data that has values.  The most common examples of discrete values are lab values and vital signs. The viewer can be popped out into another window by clicking on a little square with an arrow pointing to the right in the navigation tree next to the viewer name.
 
-![Discrecte Values Viewer](DiscreteValuesViewer.png)
+![Discrete Values Viewer](DiscreteValuesViewer.png)
 
 An older style of discrete data can be displayed in a Discrete Values viewer. Tabs across the top of the screen display the categories of data. This displays each of the types of discrete data elements, which may vary by organization. 
 
@@ -61,7 +44,7 @@ Discrete Values with a grey header are within normal limits. Each organization s
 
 ![Flowsheet Viewer](2025-02-18_Viewer1.png)
 
-**This feature may not be supported by your organization's EHR vendor.** The Flowsheet viewer shows information found in nursing documentation such as nursing or respiratory assessments, skin assessments, intake and outake data, etc. The viewer can be popped out into another window by clicking on a little square with an arrow pointing to the right in the navigation tree next to the viewer name.
+**This feature may not be supported by your organization's EHR vendor.** The Flowsheet viewer shows information found in nursing documentation such as nursing or respiratory assessments, skin assessments, intake and output data, etc. The viewer can be popped out into another window by clicking on a little square with an arrow pointing to the right in the navigation tree next to the viewer name.
 
 The Flowsheet viewer is the most recent style of discrete data viewer. This viewer is organized much like a spreadsheet. Depending on configuration, users may see major categories on the left-hand side of the spreadsheet (there are many different options as each site is a little different.). Upon clicking on one of these items users will be presented with a grid to the right. That grid will have multiple columns, the first column being name. Hovering over the column name will display three little lines. Clicking on them, will allow the user to filter in order to narrow down the data. If any of those names appear in red that means that at least one of the data elements are outside of the normal limits if there is a range. 
 
@@ -80,7 +63,7 @@ Right clicking in the Major Category column will show a menu allowing the user t
 ![ER E/M Coding Viewer](EMCoding.png)
 
 The ER E/M viewer is part of an add-on module for any chart with a “Is Emergency” flag within the account properties.
-If this module is turned on, any “Is Emergency” chart will have the “E/M Coding Worksheet” in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/#navigation-pane) menu. 
+If this module is turned on, any “Is Emergency” chart will have the “E/M Coding Worksheet” in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree) menu. 
 There are several sections to the E/M Coding worksheet including:  E/M No Charge, E/M Level, Trauma, Critical Care, Medications, and Additional Charging. More details on ER E/M functionality can be found in the [Administrative User Guide](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/er-em-configuration-page/).
 
 ### Completing the ER E/M Worksheet
@@ -107,13 +90,13 @@ Enter start date/time and click on the {{%button%}}Update{{%/button%}} button fo
 
 ![Duration Helper](DurationHelper.png)
  
-If there were multiple spans of time for critical care, click on {{%button%}}+Add{{%/button%}} and enter any additional durations of time.  The system will add up on the minutes and display once “Update” has been selected.
+If there were multiple spans of time for critical care, click on {{%button%}}+Add{{%/button%}} and enter any additional durations of time.  The system will add up the minutes and display once “Update” has been selected.
 
 ![Duration Helper +Add Time](AddTime.png)
 
 ##### E/M Levels Matrix
 
-The E/M Levels martix is configured per organization. This matirx will allow the user to check what interventions were completed during the ER visit. Once an intervention is selected from one of the columns, that becomes the minimal level and all columns before that will gray out. As the remaining sections are completed, users may see the level advance.  
+The E/M Levels matrix is configured per organization. This matrix will allow the user to check what interventions were completed during the ER visit. Once an intervention is selected from one of the columns, that becomes the minimal level and all columns before that will gray out. As the remaining sections are completed, users may see the level advance.  
 
 ![E/M Levels](EMLevels.png)
 
@@ -133,7 +116,7 @@ Update this section with the duration of each medication as needed, any modifier
 
 ![Medication Administration Time/Modifier](MedAdminTime.png)
  
-If there are multiple infusions (for example, one infusion started in left arm and one infusion stated in the right arm), click on the {{%button%}}Action{{%/button%}} button to create another row to be completed including appropriate modifiers for each infusion.
+If there are multiple infusions (for example, one infusion started in left arm and one infusion started in the right arm), click on the {{%button%}}Action{{%/button%}} button to create another row to be completed including appropriate modifiers for each infusion.
 
 ![Action Button](ActionButton.png)
 
@@ -150,7 +133,7 @@ If the Coder adds a CPT code (otherwise referred to as “soft code”), the cod
 ![Charges for Assigned CPT Codes](CPTCharges.png)
 
 >[!Note] 
-When there is a CPT coded added that has no CDM charge, it won’t appear in this section; only those that have a CDM.
+When there is a CPT code added that has no CDM charge, it won’t appear in this section; only those that have a CDM.
  
 ##### E/M Summary
 Once the Additional Charges section is complete, users will see the Summary which details the E/M level and other charges with the corresponding CDM Code.

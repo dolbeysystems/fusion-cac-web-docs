@@ -17,7 +17,7 @@ Users looking for data that is not available in user reports can use [account se
 
 ![Report Discription](ReportDis.png)
 
-2. Filter as needed - each report is unique in the style of data it will yield. Review filter options and use as needed.
+2. Filter as needed - each report is unique in the style of data it will yield. Review filter options and use as needed. For reports that can be filtered by user, both active and inactive users can be selected in the Users filter. This makes it possible to run historical reports for users who are no longer active without reactivating them.
    
 ![Report Filter Options](ReportFilters.png)
 
@@ -139,6 +139,8 @@ This report shows, on an individual coder basis, the errors and accuracy rates f
 including Reason for Visit and secondary diagnoses; errors in CPT code assignments, modifiers, charges,
 and procedure details (provider name and date of procedure). The date range for this report is for the
 date the audit was performed.
+
+The report also includes Abstraction Audit, Abstraction Errors, and Abstraction Accuracy Rate columns, which appear before the Training Topics column. When your organization has enabled audit charges, Charge Audit, Charge Errors, and Charge Accuracy Rate columns also appear after the CPT-related columns. These values match what is shown in Audit Management for an outpatient account. No Accuracy Rate displays when the Audit count is zero.
 
 ![Outpatient Coder Scorecard](OPCoderSC.png)
 
@@ -322,6 +324,8 @@ This report is displayed in 4 sections:
 #### CDI Query SOI Impact per Month
 
 This report provides CDI teams with a monthly view of query activity and the resulting impact on patient SOI for submitted inpatient accounts. It tracks accounts where a CDI Specialist established a Baseline APR-DRG and a Coder's Final APR-DRG reflected a higher SOI, allowing teams to monitor documentation improvement trends and measure the effectiveness of their query practices. Users can filter results by either Admit Date or Discharge Date, with a maximum range of 12 months. When exported to Excel, the report includes four tabs; a cover sheet, a details tab, a summary, and a bar chart visualization;  while PDF and HTML exports display the summary only.
+
+The report includes a **Charts Not Yet Submitted** field, which shows the number of inpatient accounts that have a stage of P and have not yet been submitted.
 
 ![CDI Query SOI Impact per Month Report](CDIQuerySOIImpactperMonth.png)
 

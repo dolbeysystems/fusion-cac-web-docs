@@ -9,9 +9,9 @@ Statistics can be tracked using the CDI Personal Dashboard. The CDI Dashboard in
 
 An initial review is a case that has never been reviewed by a CDI in Fusion CAC. A CDI review for inpatient charts must have a working DRG associated to be considered "reviewed". If there is no DRG then the patient is considered new.
 
-When a CDI creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/) (the first Working DRG), edits the account - causing the Working DRG to be cleared - and saves the account without computing a new Working DRG, the Baseline DRG creation also counts as an initial review.
+When a CDI creates a [Baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/cdi-reviews/baseline-drg/) (the first Working DRG), edits the account - causing the Working DRG to be cleared - and saves the account without computing a new Working DRG, the Baseline DRG creation also counts as an initial review.
 
-The CDI will review the patient chart documentation and assign any codes necessary to calculate a working and/or [baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/baseline-drg/). The CDI may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
+The CDI will review the patient chart documentation and assign any codes necessary to calculate a working and/or [baseline DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/cdi-reviews/baseline-drg/). The CDI may see more codes than are necessary to calculate the DRG(s). Codes displayed on the chart are all the suggested diagnosis and procedures codes to provide a better picture of how coding would look at this chart. Any codes that are not needed for calculation of the DRG can be ignored. 
 
 >[!Note] 
 >The **system does not take the place of a Coder**; this is the computer’s best guess at how Coders would have coded the chart
@@ -27,11 +27,11 @@ The CDI worksheet *can* include any notes that are needed such as:
 
 ## Creating a Query
 
-If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) viewer in the [Navigation](http://localhost:1313/fusion-cac-web-docs/general-user-guide/account-screen/) tree. 
+If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) viewer in the [Navigation](http://localhost:1313/fusion-cac-web-docs/general-user-guide/account-screen/) tree. 
 
 ![Physicans & Queries Viewer](PhysicanQueriesNP.png)
 
-In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/physicians-and-queries/) viewer, if the provider the user wants to query is listed on the page they can click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon. If the provider is not listed, they should click on the {{%button%}}+Add Query{{%/button%}} button. Either option will take the user to the same place; however selecting "+Add Query" requires the user to manually enter in the provider they wish to query. 
+In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) viewer, if the provider the user wants to query is listed on the page they can click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon. If the provider is not listed, they should click on the {{%button%}}+Add Query{{%/button%}} button. Either option will take the user to the same place; however selecting "+Add Query" requires the user to manually enter in the provider they wish to query. 
 
 ![Adding a Query](AddQuery.png)
 
@@ -48,7 +48,7 @@ In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-doc
 
 ## Follow-up
 
-A CDI follow-up review is a case that has already been reviewed at least once by a CDI within Fusion CAC. A CDI review for inpatient charts *must* have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up review is a subsequent review of the first. The default interval for review is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/account-viewers/code-summary/) viewer.
+A CDI follow-up review is a case that has already been reviewed at least once by a CDI within Fusion CAC. A CDI review for inpatient charts *must* have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up review is a subsequent review of the first. The default interval for review is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) viewer.
 
 ![Next Review Date](2025-02-20_ChartReview1.png)
 

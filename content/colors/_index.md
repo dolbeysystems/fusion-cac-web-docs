@@ -40,7 +40,7 @@ The viewer name will turn red to alert the user that action is needed.
 ![Transferred Codes](TransferedAccountCodes.png)
 ![Transferred Codes](TransferedCodes.png)
 
-Codes that have been added to an account via the Transfer Account  Codes viewer ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/code-summary/#show-history) viewer. When hovering over the icon, a statement will disply to indicate which account the codes were transferred from.
+Codes that have been added to an account via the Transfer Account  Codes viewer ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) viewer. When hovering over the icon, a statement will disply to indicate which account the codes were transferred from.
 
 ##### Validation Results
 
@@ -76,7 +76,8 @@ The number to the left of the code indicates the position number of visit reason
 The "Physicians & Queries" viewer will be highlighted with an amber background in the
 Navigation tree if the account has at least one physician query.
 
->[!note] The amber background does not appear if the "Physician & Queries"
+>[!note] 
+The amber background does not appear if the "Physician & Queries"
 viewer is selected because the "selected" background overrides the amber background.
 
 The viewer will turn brown to indicate there are open queries awaiting a response.
@@ -99,7 +100,7 @@ The Fusion CAC application will display the CPT Code, Description, and Service D
 ![CDI Alers Paper Icon](CDIAlertsNotesIcon.png)
 
 The paper icon allows users to click to enter notes to indicate thoughts on
-the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/cdi-user-guide/chart-prioritization/).
+the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/chart-prioritization/).
 
 ### Audit Worksheet
 

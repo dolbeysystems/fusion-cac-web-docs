@@ -168,6 +168,12 @@ the issue. If there are multiple, use the For Each
 field to see each of the codes that are the issue as
 an individual rule.
 
+### Identifying the Item with {Sequence}
+
+When a rule uses **For Each**, add {Sequence} to the message text to show which item in the list triggered the rule. {Sequence} is replaced with the item's number, so users can find and correct the issue without searching through every item on the chart. {Sequence} can be used with any **For Each** field.
+
+For example, the message *Denial #{Sequence} is missing a Billed DRG* displays in the Code Summary as **Denial #2 is missing a Billed DRG** when the second denial on the account is missing a Billed DRG.
+
 ![](2025-02-11_ValidationMgmt12.png)
 
 ## Navigate To
