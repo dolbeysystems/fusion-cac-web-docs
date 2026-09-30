@@ -484,6 +484,14 @@ A bulleted list added in the Account Notes screen was displayed as a numbered li
 
 In the Flowsheet viewer, when a user selected a discrete value with both earlier date and time columns and columns already shown for another value, the shared columns could appear out of order. The Flowsheet viewer now displays all columns in chronological order.
 
+<hr style="height:1px;border-width:0;color:gray;background-color:black">
+
+### Impact Queries Displays MS-DRG Values As Pre-DRG and Post-DRG On APR Billed Accounts
+
+**CACTWO-8535** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
+
+On accounts with a Billing Grouper of APR, the Pre-DRG and Post-DRG columns in the Impact Queries section displayed the MS-DRG values from each query's encoder snapshot instead of the APR-DRG values. This meant that if the APR-DRG changed without a corresponding MS-DRG change, the Pre-DRG and Post-DRG values appeared identical, making the APR variance invisible when reviewing query impact. The underlying Assigned Impact dollar and weight calculations were not affected, since those already used the correct billing grouper. This has been corrected so that the Pre-DRG and Post-DRG columns now resolve the DRG based on the account's billing grouper. For APR billed accounts, these columns are now labeled Pre-APR and Post-APR and reflect the correct values, matching what is shown in the query dialog. This correction also applies to existing closed queries.
+
 
 
 
