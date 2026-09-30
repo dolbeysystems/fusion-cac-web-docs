@@ -13,7 +13,7 @@ The various chapters within this guide can be navigated using the {{%button%}}**
 
 ## Getting Connected
 
-Fusion CAC is a browser-based program, meaning it works entirely within your preffered web browser. This eliminates the need for downloads and installations to offer real-time collaboration for teams.
+Fusion CAC is a browser-based program, meaning it works entirely within your preferred web browser. This eliminates the need for downloads and installations to offer real-time collaboration for teams.
 
 ## {{%icon icon="globe"%}} Supported Browsers
 
@@ -37,7 +37,7 @@ Fusion CAC works on *recent versions* of the following web browsers:
 
 To launch the CAC application:
   1. **Desktop shortcut** - Some facilities will put an icon on your desktop or in another location based on how you connect to the hospital network. Click this icon to launch the Fusion CAC application
-  2. **Using the URL** - open your prefered web browser and enter your site’s Fusion CAC server
+  2. **Using the URL** - open your preferred web browser and enter your site’s Fusion CAC server
 address into the address bar. The server address will be provided by your {{%icon icon="user-tie"%}} site
 administrator or manager. It will usually look something like this: https://dolbeyfusion.test.com/cac2
 
@@ -50,7 +50,7 @@ and password provided to you by your facility, and then press the
 
 > [!warning] Account Lock-Out
 > Five consecutive failed logins will cause your account to be locked out of
-> the application.  If you are locked out, contact your
+> the application. If you are locked out, contact your
 > {{% icon icon="user-tie" %}} supervisor.
 
 ## {{% icon icon="lock" %}} Two-Factor Authentication (Optional)
@@ -65,7 +65,7 @@ login, you will be taken to a screen showing a QR code to scan or a key to
 enter into an authenticator app on your smartphone.
 
 Once you have scanned or saved the code to your authenticator app, the temporary code for Fusion CAC will appear in your
-authenticator  app with a title similar to this:
+authenticator app with a title similar to this:
 
 **Fusion CAC Dolbey Health Production: heminger**
 
@@ -75,7 +75,7 @@ coding application.
 
 To view the time-based code when logging into the app, select the entry in
 your authenticator app. You should see a long sequence of characters that will
-change every minute.  When you login to the Fusion CAC application, you will
+change every minute. When you login to the Fusion CAC application, you will
 need to view and enter this key from your authenticator
 app into the field beneath the password field.
 
