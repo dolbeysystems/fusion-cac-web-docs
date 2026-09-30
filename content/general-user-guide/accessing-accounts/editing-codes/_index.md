@@ -20,7 +20,7 @@ Users have the option to minimize and restore the Code Editor window to continue
 
 |Code Editor Icon|Description|
 |----------------|-----------|
-|![Edit Icon](EditIcon.png)|This button launches the encoder for the existing code|
+|![Edit Icon](EditIcon.png)|**Edit with Encoder** - This button appears to the left of each code and launches the encoder for the existing code|
 |![Direct Entry Button](DirectEntryButton.png)|Adds a new line for direct entry of additional codes|
 |![+Encoder Button](EncoderButton.png)|Launches the encoder for selection of a code|
 |![OK Button](OKButton.png)|Saves any changes for the current session of Code Editor|
