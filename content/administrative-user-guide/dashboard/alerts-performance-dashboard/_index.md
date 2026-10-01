@@ -3,8 +3,6 @@ title = 'Alerts Performance Dashboard'
 weight = 30
 +++
 
-## Alerts Performance Dashboard
-
 The Alerts Performance Dashboard brings [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/account-screen/navigation-tree/cdi-clinical-alerts/) activity, outcomes, and impact together in one view. It shows how Alerts contribute to CDI queries, which Alerts lead to different outcomes, and how financial impact changes over time.
 
 > [!info] Access
