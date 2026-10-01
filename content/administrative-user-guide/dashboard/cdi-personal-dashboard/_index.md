@@ -12,7 +12,7 @@ The **Today**, **This Week**, **This Month**, and **Last Month** selections at t
 
 ![Timeframe Filters](CDIPersonalFilters.png)
 
-### Activity Summary
+## Activity Summary
 
 ![Activity Summary](CDIPersonalActivity.png)
 
@@ -37,7 +37,7 @@ The colored **Time Distribution** bar shows how logged-in time was spent. The pe
 
 Green and yellow together make up productive time.
 
-### Aging Queries
+## Aging Queries
 
 ![Aging Queries](CDIPersonalAgingQueries.png)
 
@@ -51,7 +51,7 @@ The Aging Queries donut chart shows the CDI Specialist's outstanding queries by 
 
 **Total Open Queries** is the total number of queries currently waiting for a provider response. Click **View All Aging Queries** to see the detailed list. Counts update as queries are sent, answered, canceled, or closed.
 
-### Top 10 Concurrent Length of Stay Variance
+## Top 10 Concurrent Length of Stay Variance
 
 ![Top 10 Concurrent Length of Stay variance](CDIPersonalLOS.png)
 
@@ -67,7 +67,7 @@ This list shows the MS-DRGs with the greatest length of stay (LOS) variance for 
 
 Use this section to find in-house patients who are staying longer than expected and to prioritize concurrent CDI review and collaboration with case management.
 
-### CC/MCC Capture
+## CC/MCC Capture
 
 ![CC/MCC Capture](CDIPersonalCCMCC.png)
 
