@@ -1,5 +1,5 @@
 +++
-title = 'Notifications Management'
+title = 'Notifications Manager'
 weight = 145
 +++
 
@@ -11,8 +11,8 @@ Notifications Manager, found in the [Tools](https://dolbeysystems.github.io/fusi
 
 To add a new notification, select **Notification Manager** from the Tools dropdown menu, then click on {{%button%}}+Add Notification{{%/button%}}. Fields will become available on the screen to allow the user to build out the notification. 
 * **Title** - Name the alert with a brief title.
-* **Description** - Add more detials to the title with a description of what the users should exepct as a result of the notification.
-* **Style** - The notification can be displayed in a color that will draw yhe user's attention. 
+* **Description** - Add more details to the title with a description of what the users should expect as a result of the notification.
+* **Style** - The notification can be displayed in a color that will draw the user's attention. 
 * **Start and End Date** - Each notification can have a start and end date. If there should be no end date to the notification, simply keep the End Date blank.
 * **Location** - Where the notification will appear. It can either be on the login screen, Dashboard, or both.
 * **Role(s)** - If desired, the notification can be directed to a specific user role or roles IF the Location is set to Dashboard only.
