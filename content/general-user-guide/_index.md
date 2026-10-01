@@ -1,6 +1,6 @@
 +++
-title = 'General'
-weight = 14
+title = 'Getting Started'
+weight = 10
 +++
 
 

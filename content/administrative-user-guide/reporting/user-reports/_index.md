@@ -863,4 +863,4 @@ To assign a topic to report
 >[!info] 
 >A report can have multiple topic tags.
 
-Topics can be managed in the Topics [Mapping Table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#updating-mapping-tables). 
+Topics can be managed in the Topics [Mapping Table](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/#editing-mapping-tables). 

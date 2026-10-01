@@ -59,7 +59,7 @@ The tabulars include the following features:
 - **Symbols** – Symbols are used in the tabular to provide additional information. For most symbols, when you rest your mouse pointer on it, a description of the symbol appears.
 - **<i class="fa-solid fa-caret-down"></i>** - In the ICD-10-CM tabulars, click <i class="fa-solid fa-caret-down"></i>  following a code to expand the seventh character list, or click   following a code to collapse the seventh character list.
 - **HCCs** – Category numbers (example,  ) for Hierarchical Condition Categories (HCCs) are shown by ICD-10-CM codes that are part of the HCC model. HCCs are used to risk-adjust population data for Medicare Managed Care programs. CMS is using two versions of the HCC model, versions 24 and 28. Both versions are in use and appear in the tabular until version 28 is fully implemented in 2026. You can view HCC details and the HCC version by resting your mouse pointer on a category number.
-- **Shortcuts** – [Keyboard shortcuts](http://localhost:1313/fusion-cac-web-docs/trucode-user-guide/codebooks/#keyboard-shortcuts) are available for some actions in the code books. For example:
+- **Shortcuts** – [Keyboard shortcuts](#keyboard-shortcuts) are available for some actions in the code books. For example:
     - In the ICD-10-CM tabular, you can press the right → key to expand the seventh character list and the ← key to collapse the list.
     - Press Ctrl + ↓ to move forwards or press Ctrl + ↑ to move backward through the panes and resizers, and place the focus as appropriate.
 - **Research pane** – The Research pane displays information about the selected code. 

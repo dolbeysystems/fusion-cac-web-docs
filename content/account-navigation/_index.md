@@ -1,6 +1,6 @@
 +++
 title = 'Account Navigation'
-weight = 10
+weight = 20
 aliases = ['/general-user-guide/account-screen/']
 +++
 
