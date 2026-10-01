@@ -5,13 +5,13 @@ weight = 30
 
 The CDI Management Dashboard is available for management users with the CDI role. It can be deployed with a special role to CDI users if they have a need to see a team view of what all CDI users are doing. This dashboard displays team statistics at a glance, making performance trends and available work easier to review. Clicking on any of the numbers in blue will open a grid to display the data that goes into the number displayed.
 
-![CDI Management Dashboard](CDIManageDash.png)
-
 To see more information about the data in a panel, click the **i** icon in the panel header.
 
 ## Filters
 
 The dashboard can be filtered by facility. The date range filters in the upper corner of the dashboard applies to the **Key Performance Indicators**, **Activity Summary**, and **CDI Team Performance** sections. The other sections use the time periods described below.
+
+![CDI Management Dashboard Filters](CDIMgmtFilters.png)
 
 ## Key Performance Indicators
 
