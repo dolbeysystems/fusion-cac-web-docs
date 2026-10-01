@@ -105,7 +105,7 @@ When a pending reason has the Physician Required box checked, the user will be p
 
 ### CDI Review Types Mapping:
 
-CDI Review types are custom and not enabled at every organization. Additional information on the use of custom reviews can be found [here](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/documenation-reviews/).
+CDI Review types are custom and not enabled at every organization. Additional information on the use of custom reviews can be found [here](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/cdi-reviews/).
 
 > [!note] Note: Changing Existing Types
 Changing an existing CDI Review Type will change reporting and dashboards.
@@ -152,5 +152,3 @@ A "Show History" button appears in the upper right corner of any mapping table t
 
 ![Show History Button in Mapping Table](MappingShowHistory.png)
 ![Changes to Mapping Table](ChangestoMapping.png)
-
-

@@ -280,7 +280,7 @@ In [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-7771** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [Work Available Queue](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) on the Dashboard shows any total over 5000 as 5000+.  This has been changed to show the exact number of accounts.
+The Work Available Queue on the [Administrative](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) and [CDI Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/#work-available-queue) dashboards shows any total over 5000 as 5000+.  This has been changed to show the exact number of accounts.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -403,7 +403,7 @@ The [CDI Query Score Card](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7855** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Today’s date was showing as the Oldest Discharge Date in the [Dashboard Work Available](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) panel if an account did not have a discharge date. The Oldest Populated discharge date will now appear for each  Work Available Queue even if there are blank discharge dates within that queue. 
+Today’s date was showing as the Oldest Discharge Date in the Work Available panel on the [Administrative](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/#work-available-queue) and [CDI Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/#work-available-queue) dashboards if an account did not have a discharge date. The Oldest Populated discharge date will now appear for each  Work Available Queue even if there are blank discharge dates within that queue. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

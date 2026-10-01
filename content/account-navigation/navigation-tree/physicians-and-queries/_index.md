@@ -53,7 +53,7 @@ The checkbox "Check if physician's answer affects DRG or Final Coding" will not 
 
 #### Query Impact Codes
 
-Before sending the query, the user will see a {{%button%}}Compute{{%/button%}} button below the template name.  When this is clicked, an Edit Query Impact Codes dialog box will open. Here, the user can add or remove assigned codes that should be associated with the DRG when they compute the Pre-DRG. Clicking on the {{%button%}}Overwrite All Codes{{%/button%}} button will associate all of the assigned codes. Once the Pre-DRG is computed, continue with the steps below to send the query.
+Before sending the query, the user will see a {{%button%}}Compute{{%/button%}} button below the template name.  When this is clicked, an Edit Query Impact Codes dialog box will open. Here, the user can add or remove assigned codes that should be associated with the DRG when they compute the Pre-Query DRG. Clicking on the {{%button%}}Overwrite All Codes{{%/button%}} button will associate all of the assigned codes. Once the Pre-Query DRG is computed, continue with the steps below to send the query.
 
 ![Edit Query Impact Codes](2025-02-26_PhysQuery1.png)
 
@@ -126,9 +126,9 @@ Query impact is calculated using the Working DRG calculated within the same sess
 If a physician query shifts the assigned DRG, diagnosis, procedures, CC/MCC/HAC/ROM/SOI or Quality
 metrics, the shift reason is automatically calculated by the system. The shift reason is captured by looking at the difference between the last Working DRG and the current Working DRG as well as the Code Sets difference in the most current Working DRG. Code sets will be automatically captured for reporting.
 
-The Pre-DRG is computed before the query is sent, as described in [Query Impact Codes](#query-impact-codes).
+The Pre-Query DRG is computed before the query is sent, as described in [Query Impact Codes](#query-impact-codes).
 
-When the query has been responded to, open the query to complete it by clicking the **{{< rawhtml >}}<span style="color:#a00">RED ENVELOPE </span>{{< /rawhtml >}}** icon. Users will be able to compute a Post-DRG in order to capture impact. The previous DRG will auto-populate (unless the user added, deleted, or changed any codes, re-sequenced or changed the discharge disposition). If the Pre-DRG does not populate, it will need to be calculated again by clicking the {{%button%}}Compute{{%/button%}} button next to the Pre-DRG. Users will now also see a {{%button%}}Compute{{%/button%}} button for a Post-DRG below the template name. Users can minimize the query as needed to add, delete, or otherwise change any codes before clicking compute.
+When the query has been responded to, open the query to complete it by clicking the **{{< rawhtml >}}<span style="color:#a00">RED ENVELOPE </span>{{< /rawhtml >}}** icon. The query has two {{%button%}}Compute{{%/button%}} buttons: one to calculate the Pre-Query DRG and one to calculate the Post-Query DRG. The Pre-Query DRG will auto-populate (unless the user added, deleted, or changed any codes, re-sequenced, or changed the discharge disposition). If the Pre-Query DRG does not populate, click the {{%button%}}Compute{{%/button%}} button next to the Pre-Query DRG to calculate it again. To capture the query impact, click the {{%button%}}Compute{{%/button%}} button for the Post-Query DRG, below the template name. Users can minimize the query as needed to add, delete, or otherwise change any codes before clicking compute.
 
 
 ### Placeholder Queries
@@ -137,7 +137,7 @@ Some organizations create a physician query within Fusion CAC and then copy and 
 
 #### Quick Complete
 
-The Quick Complete query feature is designed for sites that create placeholder queries **ONLY**.  This feature allows a user to log a query without sending it externally. The  user can assign a provider, template, reason, and both pre and post-DRG information along with closing the query with shift reasons all in one session. This quick complete feature aims to streamline these actions into a single, integrated process. This feature is **optional** and needs to be turned on. Contact CAC Support (cacsupport@dolbey.com) to enable this feature.
+The Quick Complete query feature is designed for sites that create placeholder queries **ONLY**.  This feature allows a user to log a query without sending it externally. The  user can assign a provider, template, reason, and both Pre-Query and Post-Query DRG information along with closing the query with shift reasons all in one session. This quick complete feature aims to streamline these actions into a single, integrated process. This feature is **optional** and needs to be turned on. Contact CAC Support (cacsupport@dolbey.com) to enable this feature.
 
 Once enabled, create a new physician query, and notice a new {{%button%}}Quick Complete{{%/button%}} button in the footer. Clicking it will automatically save the query and reopen it with "Record Physician Response" expanded to record a physician's response. The {{%button%}}Quick Complete{{%/button%}} button only appears on new queries, including queries opened from drafts. It will **not** appear if a query is edited or if a query's physician is changed.
 
@@ -165,4 +165,3 @@ If the organization chooses to use signatures when sending queries, automatic si
 
 > [!note]
 > Please refer to your {{%icon icon="user-tie"%}}supervisor for details as each organization has custom query templates and additional details surrounding queries.
-
