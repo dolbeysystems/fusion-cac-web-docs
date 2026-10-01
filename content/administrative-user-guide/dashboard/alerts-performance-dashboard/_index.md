@@ -10,7 +10,7 @@ The Alerts Performance Dashboard brings [CDI/Clinical Alert](https://dolbeysyste
 
 The dashboard opens in full screen. It uses the same timeframe buttons and shared Facility filter as the other management dashboards. To see more information about the data in a panel, click the **i** icon in the panel header.
 
-### Timeframe Buttons
+## Timeframe Buttons
 
 ![Alerts Performance Filters](AlertsFilters.png)
 
@@ -28,7 +28,7 @@ The **Net Financial Impact Trend**, **Monthly Alert Performance**, and **Alert T
 > [!info] Financial Impact Values
 > All financial impact values on this dashboard are estimates and may not represent the organization's actual final payment. Financial impact should be considered alongside documentation accuracy, clinical validity, quality outcomes, query volume, and compliance. It should not be used as the only measure of Alert performance.
 
-### Alert Key Performance Indicators
+## Alert Key Performance Indicators
 
 ![Key Performance Indicators](AlertsKPI.png)
 
@@ -50,7 +50,7 @@ Canceled queries and queries closed with an outcome of **No Response** are not i
 
 Use these indicators to compare Alert and non-Alert query performance, monitor open queries and Alerts, and find documentation opportunities that were still open when an account was discharged or submitted.
 
-### Alert Impact
+## Alert Impact
 
 ![Alert Impact](AlertsAlertImpact.png)
 
@@ -65,7 +65,7 @@ The Alert Impact metrics summarize the estimated financial impact of qualifying 
 
 Use this section to evaluate the financial contribution of Alert-generated queries and compare results across reporting periods.
 
-### Top 10 Alerts by Net Impact
+## Top 10 Alerts by Net Impact
 
 ![Top 10 Alerts by Net Impact](AlertsNetImpact.png)
 
@@ -80,7 +80,7 @@ This section lists the ten Alert types with the highest net financial impact for
 
 A large positive and negative impact combined with a small net impact means the Alert is moving reimbursement in both directions. That Alert may be a candidate for tuning.
 
-### Alerts by Category
+## Alerts by Category
 
 ![Alerts by Category](AlertsCategory.png)
 
@@ -95,7 +95,7 @@ This donut chart (Alerts by Category) compares the number of CDI queries that ca
 
 Use this section to see how much of the organization's query volume comes from Alerts.
 
-### Net Financial Impact Trend
+## Net Financial Impact Trend
 
 ![Net Financial Impact Trend](AlertsNetImpactTrend.png)
 
@@ -107,7 +107,7 @@ This graph shows the estimated monthly net financial impact of Alert queries ove
 |Negative Impact|Estimated reimbursement decreases attributed to CDI Alert queries. Negative values appear below the zero line.|
 |Net Impact|Overall estimated financial impact after combining positive and negative changes. **Formula:** Positive financial impact + negative financial impact.|
 
-### Monthly Alert Performance
+## Monthly Alert Performance
 
 ![Monthly Alert Performance](AlertsPerformance.png)
 
@@ -127,7 +127,7 @@ Use this section to compare Alert volume and outcomes from month to month and to
 
 Use this chart to monitor changes over time and identify months that may need further review.
 
-### Alert Trend
+## Alert Trend
 
 ![Alert Trend](AlertsTrend.png)
 
@@ -136,7 +136,7 @@ This line chart shows monthly Alert volume and outcomes over the most recent 12 
 - Click a colored category at the top of the chart to show or hide its line.
 - Hover over a data point to see the volume for that month.
 
-### Top 10 Average Auto Resolve Time
+## Top 10 Average Auto Resolve Time
 
 ![Top 10 Average Auto Resovle Time](AlertsAutoresolve.png)
 
@@ -151,7 +151,7 @@ Click **View All** to see autoresolve times for additional Alerts.
 
 A long autoresolve time may mean an Alert stayed open for an extended period when a query could have been sent, and the diagnosis was documented later in the encounter. These Alerts may need further review of query timing, workflow, and missed opportunities.
 
-### Top 5 Alerts by Outcome
+## Top 5 Alerts by Outcome
 
 ![Top 5 Alerts by Outcome](AlertsOutcome.png)
 
