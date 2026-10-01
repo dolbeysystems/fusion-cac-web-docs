@@ -23,7 +23,7 @@ The Activity Summary shows the CDI Specialist's activity and logged-in time for 
 |Charts Reviewed|Number of unique accounts the CDI Specialist reviewed. **Concurrent** accounts were reviewed while the patient was admitted. **Retrospective** accounts were reviewed after discharge.|
 |Initial Review|Number of first CDI reviews completed, separated into concurrent and retrospective reviews.|
 |Follow-up Review|Number of additional reviews completed on previously reviewed accounts, separated into concurrent and retrospective reviews.|
-|Queries Sent|Number of qualifying CDI queries sent. **Without Alerts** queries did not come from a CDI/Clinical Alert. **With Alerts** queries were generated from a CDI/Clinical Alert opportunity.|
+|Queries Sent|Number of qualifying CDI queries sent. **Without Alerts** queries did not come from a CDI Alert. **With Alerts** queries were generated from a CDI Alert opportunity.|
 |Reconciliation|Reconciliation activity. **Reconciled** accounts have completed reconciliation. **Pending** accounts are assigned to the CDI Specialist and waiting for reconciliation.|
 |7-Day and 30-Day Averages|**Average Volume** is the average daily activity volume during the rolling period. **Average Time** is the average time spent completing each activity during the rolling period.|
 |Total Time Logged In|Total time the CDI Specialist was logged in to the application during the selected period.|
