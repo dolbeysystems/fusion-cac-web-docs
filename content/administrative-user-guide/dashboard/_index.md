@@ -39,7 +39,7 @@ Fusion CAC includes the following dashboards:
 
 6. [Audit Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-personal-dashboard/) – Provides auditors with information about their individual audit workload, productivity, findings, and performance.
 
-7. [Alerts Performance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/alerts-performance-dashboard/) - 
+7. [Alerts Performance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/alerts-performance-dashboard/) - Provides information about alerts activity, outcomes, and impact together in one view. It shows how Alerts contribute to CDI queries, which Alerts lead to different outcomes, and how financial impact changes over time.
 
 Select the appropriate dashboard to view detailed information about its available metrics, panels, and functionality.
 
