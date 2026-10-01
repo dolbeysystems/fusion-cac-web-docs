@@ -10,7 +10,7 @@ grid to display the data that goes into the number displayed.
 
 To see more information about the data in a panel, click the **i** icon in the panel header.
 
-### Filters
+## Filters
 
 ![CDI Management Dashboard Filters](CDIMgmtFilters.png)
 
@@ -23,7 +23,7 @@ The following sections show current information and are not affected by the date
 - Top 10 Concurrent LOS Variance
 - Work Available Queue
 
-### Key Performance Indicators
+## Key Performance Indicators
 
 ![Key Performance Indicators](CDIMgmtKPI.png)
 
@@ -40,7 +40,7 @@ These metrics are based on inpatient accounts with an admit date or discharge da
 |Working CC/MCC Capture Rate|The percentage of reviewed accounts with at least one captured CC or MCC. The count in parentheses is the number of accounts with a captured CC or MCC. **Formula:** Reviewed accounts with at least one CC or MCC ÷ accounts reviewed by CDI × 100%.|
 |Query Impact|The total estimated financial impact of qualifying CDI queries during the period. The count in parentheses is the number of queries or accounts that contribute to the financial impact. **Formula:** Sum of the estimated financial impact attributed to qualifying CDI queries.|
 
-### CDI Users Online
+## CDI Users Online
 
 ![CDI Users Online](CDIMgmtUsers.png)
 
@@ -54,11 +54,11 @@ This section shows the current status of active CDI users, separated by role. Gr
 
 User status is based on current system activity. Inactive users are not included in the offline counts.
 
-### Activity Summary and CDI Team Performance
+## Activity Summary and CDI Team Performance
 
 The Activity Summary displays CDI activity for the selected date range. CDI Team Performance appears beneath the Activity Summary and uses the same date range. Changing the date range recalculates both sections.
 
-#### Activity Summary
+### Activity Summary
 
 ![Activity Summary](CDIMgmtActivity.png)
 
@@ -71,7 +71,7 @@ The Activity Summary displays CDI activity for the selected date range. CDI Team
 |Average Volume|The average number of activities completed per day over the displayed 7-day or 30-day period.|
 |Average Time|The average amount of time needed to complete that activity.|
 
-#### CDI Team Performance
+### CDI Team Performance
 
 ![CDI Team Performance](CDIMgmtTeam.png)
 
@@ -93,7 +93,7 @@ This section shows productivity and performance metrics for each CDI Specialist.
 
 These metrics should be reviewed together, with case complexity, assigned patient populations, coverage responsibilities, and organizational goals in mind.
 
-### Aging Queries
+## Aging Queries
 
 ![Aging Queries](CDIMgmtAgingQueries.png)
 
@@ -107,7 +107,7 @@ This section shows all currently open CDI queries by how long it has been since 
 
 **Total Open Queries** is the total number of queries currently waiting for a provider response. Click **View All Aging Queries** to see the detailed list. Counts update as queries are sent, answered, canceled, or closed.
 
-### Top 10 Concurrent LOS Variance
+## Top 10 Concurrent LOS Variance
 
 ![Top 10 Concurrent LOS Variance](CDIMgmtLOS.png)
 
@@ -123,9 +123,9 @@ This list shows the MS-DRGs with the greatest length of stay (LOS) variance for 
 
 Use this section to find in-house patients who are staying longer than expected and to prioritize concurrent CDI review and collaboration with case management.
 
-### Query Performance
+## Query Performance
 
-#### Query Performance Trends
+### Query Performance Trends
 
 ![Query Performance Trends](CDIMgmtQueryTrends.png)
 
@@ -140,7 +140,7 @@ This section compares query performance for concurrent and retrospective CDI act
 |Rate & Total|**Rate** is the current calculated percentage. **Total** is the number of accounts or queries in the numerator of that metric.|
 |Vs 60-/90-Day Avg|Shows how the current rate compares with the 60-day and 90-day rolling averages. Arrows show whether the rate went up or down. Green is a favorable change and red is an unfavorable change. For Disagreement Rate, a decrease is favorable.|
 
-#### Top 10 Query Template Performance
+### Top 10 Query Template Performance
 
 ![Top 10 Query Template Performance](CDIMgmtQueryTemplate.png)
 
@@ -156,7 +156,7 @@ This section shows the 10 query templates used most often in the last 60 days, b
 
 Click **View All Templates** to see performance for templates outside the top 10.
 
-#### Top 10 Provider Query Performance
+### Top 10 Provider Query Performance
 
 ![Top 10 Provier Query Performance](CDIMgmtProvider.png)
 
@@ -172,11 +172,11 @@ This section shows the 10 providers who received the most qualifying CDI queries
 
 Click **View All Providers** to see performance for providers outside the top 10.
 
-### CMI Trend and CC/MCC Capture Rate Trend
+## CMI Trend and CC/MCC Capture Rate Trend
 
 The **CMI Trend** and **CC/MCC Capture Rate Trend** charts show a rolling 13-month range. Hover over a data point to see the value for a specific month.
 
-#### CMI Trend
+### CMI Trend
 
 ![CMI Trend](CDIMgmtCMI.png)
 
@@ -191,7 +191,7 @@ This chart shows monthly Baseline, Working, and Final Case Mix Index (CMI), alon
 
 CMI should be reviewed alongside patient population, service-line volume, payer mix, and other clinical or operational changes.
 
-#### CC/MCC Capture Rate Trend
+### CC/MCC Capture Rate Trend
 
 ![CC/MCC Capture Rate](CDIMgmtCCMCC.png)
 
@@ -210,7 +210,7 @@ DRGs that do not vary by CC/MCC, such as transplant, tracheostomy, newborn, and 
 |Surgical DRG|Capture rate for accounts grouping to surgical DRGs, using the same calculation as Medical DRG.|
 |Combined Capture|Capture rate for all qualifying medical and surgical accounts together.|
 
-### CDI Team Quality Performance
+## CDI Team Quality Performance
 
 ![CDI Team Quality Performance](CDIMgmtQuality.png)
 
@@ -231,7 +231,7 @@ This section shows audit workload and accuracy results for each CDI Specialist, 
 
 Accuracy results should be reviewed alongside audit volume and case complexity. Smaller sample sizes may cause larger changes from month to month.
 
-### Work Available Queue
+## Work Available Queue
 
 ![Work Available Queue](CDIMgmtWork.png)
 
