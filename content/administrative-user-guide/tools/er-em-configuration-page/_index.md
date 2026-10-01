@@ -4,7 +4,7 @@ weight = 110
 +++
 
 >[!Note] 
-> The organization must have [ER E/M Module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) enabled to use this feature. If this is not currently enabled, please contact your account representative for more information.
+> The organization must have [ER E/M Module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) enabled to use this feature. If this is not currently enabled, please contact your account representative for more information.
 
 Once the E/M Configuration has been enabled, the initial setup must be completed by the Dolbey Team. After this setup is finalized, your organization can make any desired changes directly or contact the SME Team (smeteam@dolbey.com) for additional support.
 
@@ -134,7 +134,7 @@ Expanding the trauma section will display several items by default. Each item ha
 
 ![](2024-12-02_Trauma.png)
 
-For end users, this will appear as a dropdown menu in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module). Based on the matrix and their selection, the system will automatically populate the corresponding CDM code associated  with the assigned level.
+For end users, this will appear as a dropdown menu in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/). Based on the matrix and their selection, the system will automatically populate the corresponding CDM code associated  with the assigned level.
 
 ![Trauma Dropdown Menu](TraumaMenu.png)
 
@@ -147,7 +147,7 @@ Clicking on the gray date next to **No Charge** will exapnd the section. The "It
 
 ![No Charge Option](NoCharge.png)
 
-For end users, this will appear as a dropdown menu in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module). The user will choose the item and the outbound interface
+For end users, this will appear as a dropdown menu in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/). The user will choose the item and the outbound interface
 will contain both the CPT code and the corresponding CDM code listed in this table.
 
 ![No Charge Dropdown](NoChargeDropdown.png)
@@ -163,7 +163,7 @@ of each occurred on a particular date, if the ER visit occurred over more than o
 
 Medication Time/Modifier includes the ability to indicate that multiples of an item exist on the account. If there are different drugs involved, the user can copy the individual lines and add in the durations of each medication along with the date and modifier if the modifiers, if appropriate.
 
-To the end-user, this will be a table where they can pick all the medication administrations to apply and provide dates and modifiers in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module). There is also a section end users to enter a note to keep everything in line so that they can indicate which medications they have already charged for. This helps the end user stay organized while providing information in the event of an audit.
+To the end-user, this will be a table where they can pick all the medication administrations to apply and provide dates and modifiers in the [E&M Coding viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/). There is also a section end users to enter a note to keep everything in line so that they can indicate which medications they have already charged for. This helps the end user stay organized while providing information in the event of an audit.
 
 ![Medication Section Viewer](MedInViewer.png)
 

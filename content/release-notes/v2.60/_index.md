@@ -30,10 +30,10 @@ Two new [operators](https://dolbeysystems.github.io/fusion-cac-web-docs/administ
 
 **CACTWO-6412, CACTWO-7489, CACTWO-7534 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-We are introducing a new [CDI Audit module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#cdi-audit-viewer), designed to bring formal auditing capabilities to CDI programs, which until now have largely relied on manual Excel tracking. This module will function as a dedicated viewer, similar in design to our coding [Audit module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module), while incorporating concepts specific to CDI work.
+We are introducing a new [CDI Audit module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/), designed to bring formal auditing capabilities to CDI programs, which until now have largely relied on manual Excel tracking. This module will function as a dedicated viewer, similar in design to our coding [Audit module](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), while incorporating concepts specific to CDI work.
 
 Key features include:
-- Dedicated Viewer & Roles – A separate [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) with privacy controls for CDI of Record, CDI Auditors, and Management. A new CDI Audit role with role-based privileges will be added.
+- Dedicated Viewer & Roles – A separate [CDI Audit Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/) with privacy controls for CDI of Record, CDI Auditors, and Management. A new CDI Audit role with role-based privileges will be added.
 - Audit Criteria – Flexible audit framework supporting baseline DRG, working DRG, mismatch DRG rate, missed query opportunities, query compliance, correct claimed impact, and custom policies.
 - Configurable Weighting – Mapping table options allow organizations to adjust terminology or emphasize certain criteria with higher weight, similar to coding incentive multipliers.
   
@@ -92,7 +92,7 @@ In [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/admi
 
 **CACTWO-7082, CACTWO-7497 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new viewer has been created that will show [time-tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/time-tracking-viewer/) worksheets, the Denial viewer, and the Audit viewer. When opted in there is a start button. This start button allows time tracking. The timer will stop if the user clicks the Stop button, opens another viewer or worksheet that has time tracking, or exits the account.  Users will be able to adjust their time in the Time Tracking viewer if necessary.  Administrators will be able to see all time tracked on an account.  The user will only see their own. 
+A new viewer has been created that will show [time-tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/time-tracking-viewer/) worksheets, the Denial viewer, and the Audit viewer. When opted in there is a start button. This start button allows time tracking. The timer will stop if the user clicks the Stop button, opens another viewer or worksheet that has time tracking, or exits the account.  Users will be able to adjust their time in the Time Tracking viewer if necessary.  Administrators will be able to see all time tracked on an account.  The user will only see their own. 
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -126,7 +126,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7136** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-[E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) charges have been added to the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  They will show in the Pre/Post Audit codes section, and then in their own E/M Charges section further down the worksheet.  
+[E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) charges have been added to the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/).  They will show in the Pre/Post Audit codes section, and then in their own E/M Charges section further down the worksheet.  
 
 ![Audit Worksheet E/M Charges](AuditWrkshtEMChrgs.png)
 
@@ -139,7 +139,7 @@ Please contact Support if fields are needed for calculation.
 
 **CACTWO-7169 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The ‘Route to Coder’ button on an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) can now have a drop-down option enabled to allow the Auditor to hide the Audit from the Coder of Record.  
+The ‘Route to Coder’ button on an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) can now have a drop-down option enabled to allow the Auditor to hide the Audit from the Coder of Record.  
 
 ![Route Audit to Coder or Hide From Coder](AuditWrkshtRouteHideCoder.png)
 
@@ -152,7 +152,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7170 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The quantity field in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) section of an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) has now been opened for editing by the auditor.  Clicking in the field will present up and down buttons, or the Auditor can just type in the new quantity. 
+The quantity field in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/#charges) section of an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) has now been opened for editing by the auditor.  Clicking in the field will present up and down buttons, or the Auditor can just type in the new quantity. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -160,7 +160,7 @@ The quantity field in the [Audited Charges](https://dolbeysystems.github.io/fusi
 
 **CACTWO-7171 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-With a new script update, clients can set their [Audit Worksheets](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) to determine whether or not to audit charges based on Account type.
+With a new script update, clients can set their [Audit Worksheets](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/#charges) to determine whether or not to audit charges based on Account type.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -171,7 +171,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7184 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) modifier from the E/M viewer on ER accounts has been added to the account grid.  This can also be used in Account Search and Validation Rules. 
+A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) modifier from the E/M viewer on ER accounts has been added to the account grid.  This can also be used in Account Search and Validation Rules. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -179,7 +179,7 @@ A field for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-na
 
 **CACTWO-7189 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When going into a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) that is in a [Query Impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) status, the computation window that pops-out will now show the plus, minus, and arrows next to any code changes.
+When going into a [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/#query-impact) that is in a [Query Impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/#query-impact) status, the computation window that pops-out will now show the plus, minus, and arrows next to any code changes.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -187,7 +187,7 @@ When going into a [physician query](https://dolbeysystems.github.io/fusion-cac-w
 
 **CACTWO-7197 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new setting will allow an account’s [reconciliation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/) record to be set back to false if a coder re-submits the account.  This will allow for a second reconciliation action.
+A new setting will allow an account’s [reconciliation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/drg-reconciliation/) record to be set back to false if a coder re-submits the account.  This will allow for a second reconciliation action.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -198,7 +198,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7215 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-[Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/charges-or-transactions/) that are imported **AFTER** an account has been submitted will now show in bold red text. This is only for clients that are set for an ImportDateTime on their incoming charges.
+[Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/charges-or-transactions/) that are imported **AFTER** an account has been submitted will now show in bold red text. This is only for clients that are set for an ImportDateTime on their incoming charges.
 
 ![Late Arriving Charge](LateArrivingCharge.png)
 
@@ -219,7 +219,7 @@ When doing a ‘save and export’ in  [Validation Management](https://dolbeysys
 
 **CACTWO-7224. CACTWO-7521 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently, only inpatient account physician queries track the [query impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#query-impact) and [shift reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons).  Outpatient accounts will now use the same processes to track query impact and shift reasons.  The Shift Reasons for Physician Query box that pops-out after a query is closed will have much fewer reasons to set, and the codes columns will be headed by the Primary and Secondary APC. 
+Currently, only inpatient account physician queries track the [query impact](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/#query-impact) and [shift reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/#documenting-query-shift-reasons).  Outpatient accounts will now use the same processes to track query impact and shift reasons.  The Shift Reasons for Physician Query box that pops-out after a query is closed will have much fewer reasons to set, and the codes columns will be headed by the Primary and Secondary APC. 
 
 > [!info] Additional Configuration Required
 Please contact Support to disable this option if it is unwanted.
@@ -230,7 +230,7 @@ Please contact Support to disable this option if it is unwanted.
 
 **CACTWO-7232 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Sender column will now say ‘Created  By’; and a new column ‘Sent By’ has been added to differentiate between the creator and sender of the [query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/).  An optional setting has also been created to allow retention of the original creator in the event the query has a physician change.
+The Sender column will now say ‘Created  By’; and a new column ‘Sent By’ has been added to differentiate between the creator and sender of the [query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/).  An optional setting has also been created to allow retention of the original creator in the event the query has a physician change.
 
 ![Created By and Sent By Columns](PhysQueriesCreatedSentBy.png)
 
@@ -243,7 +243,7 @@ Please contact Support to enable this optional setting.
 
 **CACTWO-7250 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When working on a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/), once the account is saved, whether the Denial was completed or not, the Delete button will no longer be displayed.  Deleting can only be done on an unsaved Denial. 
+When working on a [Denial](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/denial-management/), once the account is saved, whether the Denial was completed or not, the Delete button will no longer be displayed.  Deleting can only be done on an unsaved Denial. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -272,7 +272,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7265 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-In an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), as you work down the viewer, you lose the ‘Route to Coder, Cancel, Print’ buttons.  These buttons have now been set so that no matter where you are in an audit, they will always show at the top of the viewer. 
+In an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), as you work down the viewer, you lose the ‘Route to Coder, Cancel, Print’ buttons.  These buttons have now been set so that no matter where you are in an audit, they will always show at the top of the viewer. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -308,7 +308,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7335 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-One field in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will change for outpatient accounts: “DRG Change Completed?” will change to “APC/ASC Change Completed?”, which will be a new field in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/).  Two more fields have been added:  “Total Claim Amount” which will be a new field in Account Search and “Overpayment Amount”, which will be in the Financial  Outcome field in Account Search.
+One field in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/denial-management/) will change for outpatient accounts: “DRG Change Completed?” will change to “APC/ASC Change Completed?”, which will be a new field in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/).  Two more fields have been added:  “Total Claim Amount” which will be a new field in Account Search and “Overpayment Amount”, which will be in the Financial  Outcome field in Account Search.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -336,7 +336,7 @@ On the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web
 
 **CACTWO-7350 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Revenue codes can be enabled to show in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  
+Revenue codes can be enabled to show in the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/).  
 
 ![Display Rev Codes on Audit Worksheet](AuditWrkshtDisplayRevCodes.png)
 
@@ -392,7 +392,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7377 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) shows as stricken through with a checked box.   This has been updated so that the box is automatically unchecked when a document no longer exists. 
+Document Evidence that no longer exists in a [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) shows as stricken through with a checked box.   This has been updated so that the box is automatically unchecked when a document no longer exists. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -448,7 +448,7 @@ Blank query response dates were showing in query [reports](https://dolbeysystems
 
 **CACTWO-7442 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Two new fields have been added to each Appeal section in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/):  “HIMS Received Date” and “Response Due Date per Letter”.  Another field has been restored:  “Decision Letter Received Date”.  Both of the new additions will be available in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/); the Response option is shortened by the removal of ‘per Letter’. 
+Two new fields have been added to each Appeal section in [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/denial-management/):  “HIMS Received Date” and “Response Due Date per Letter”.  Another field has been restored:  “Decision Letter Received Date”.  Both of the new additions will be available in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/); the Response option is shortened by the removal of ‘per Letter’. 
 
 ![New Fields Added to Denials Management Viewer](NewDenialAppealFields.png)
 
@@ -503,7 +503,7 @@ If the [TruCode™](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-
 
 **CACTWO-7461 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-New fields have been added for specific groupers concerning Pre-bill DRGs determined at the time of the [DRG Reconciliation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/).  This is only for sites that need this kind of detailed reporting.
+New fields have been added for specific groupers concerning Pre-bill DRGs determined at the time of the [DRG Reconciliation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/drg-reconciliation/).  This is only for sites that need this kind of detailed reporting.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -530,7 +530,7 @@ When using commas or decimals in the units field of a CPT code, they were not sh
 
 **CACTWO-7470 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If the [mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) order on one of the below [Account Information](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/account-information/) dropdowns was changed, Account Information was still showing the dropdown in alphabetical order. This has been corrected to show the order set in Mappings Configuration.  The four corrected fields are: Payor, Facility, Gender, and Discharge Disposition.
+If the [mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) order on one of the below [Account Information](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/account-information/) dropdowns was changed, Account Information was still showing the dropdown in alphabetical order. This has been corrected to show the order set in Mappings Configuration.  The four corrected fields are: Payor, Facility, Gender, and Discharge Disposition.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -538,7 +538,7 @@ If the [mappings](https://dolbeysystems.github.io/fusion-cac-web-docs/administra
 
 **CACTWO-7474 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If the [Time Tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/time-tracking-viewer/) viewer has been added, an additional setting will add the CDI Audit viewer to the tracking.
+If the [Time Tracking](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/time-tracking-viewer/) viewer has been added, an additional setting will add the CDI Audit viewer to the tracking.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -565,7 +565,7 @@ The name of all column headers in a [scheduled report](https://dolbeysystems.git
 
 **CACTWO-7494 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently, birth weight is not converted when entered as a decimal on a GPCS account, which can cause a [validation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/review-validation-rules/) error.  The conversion method has changed to round up a decimal number, and if the number cannot be converted, to return it as a zero (0).
+Currently, birth weight is not converted when entered as a decimal on a GPCS account, which can cause a [validation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/review-validation-rules/) error.  The conversion method has changed to round up a decimal number, and if the number cannot be converted, to return it as a zero (0).
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -573,7 +573,7 @@ Currently, birth weight is not converted when entered as a decimal on a GPCS acc
 
 **CACTWO-7499 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When adding pasted data to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/), it is pasting in with a strike through.  When saved, the strike through is gone.  This has been corrected so that the strike through never occurs. 
+When adding pasted data to a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/), it is pasting in with a strike through.  When saved, the strike through is gone.  This has been corrected so that the strike through never occurs. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -605,7 +605,7 @@ The order that diagnosis codes are selected when adding them to CPT codes will n
 
 **CACTWO-7509 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) makes a code change, calculates the DRG and the updates the codes in the coding [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), weight change and weight difference fields will show in the DRG section of the worksheet.  
+When an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) makes a code change, calculates the DRG and the updates the codes in the coding [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), weight change and weight difference fields will show in the DRG section of the worksheet.  
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -632,7 +632,7 @@ Fusion CAC will now allow date/times in all grids to remain static to the timezo
 
 **CACTWO-7546 {{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When editing a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
+When editing a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/), doing the edit and clicking the Apply button was not updating the list.  It was only updating after Save had been clicked.  This has been corrected so that the list shows the edit upon clicking Apply.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

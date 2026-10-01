@@ -28,7 +28,7 @@ A new enhancement has been added to [Workflow Management](https://dolbeysystems.
 
 **CACTWO-6727** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new checkbox has been added to the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) to allow the user to view [pending reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#pending-reasons) (and any applicable notes) to be seen.  A marker  number next to the checkbox will show the number of currently deleted pending reasons.   When checked, the deleted pending reasons will show beneath the list of active pending reasons, and the red delete button will be grayed out to indicate this is an already deleted pending reason.
+A new checkbox has been added to the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/) to allow the user to view [pending reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/#pending-reasons) (and any applicable notes) to be seen.  A marker  number next to the checkbox will show the number of currently deleted pending reasons.   When checked, the deleted pending reasons will show beneath the list of active pending reasons, and the red delete button will be grayed out to indicate this is an already deleted pending reason.
 
 > [!note] The number and checkbox will only display if there were previously deleted pending reasons.
 
@@ -70,7 +70,7 @@ For example, if enabled, only users with one of these roles will be able to view
 
 **CACTWO-7240** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Codes that have been added to an account via the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) viewer will now have a ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) viewer.   When hovering over the icon, the use will see a statement that indicates which account the codes were transferred from.
+Codes that have been added to an account via the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/transfer-account-codes/) viewer will now have a ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/#show-history) viewer.   When hovering over the icon, the use will see a statement that indicates which account the codes were transferred from.
 
 ![Transferred Codes in Show History](TransferedCodes.png)
 
@@ -122,7 +122,7 @@ The unsorted buttons will show in blue, and when a sort is put on one of the col
 
 **CACTWO-7585** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If a user changes the sort to a different column or order withing [Notes and Bookmarks](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/notes-and-bookmarks/), that preference will persist while navigating between accounts. Upon logging out or restarting Fusion CAC, the sort will reset to the default Create Time (descending) setting.
+If a user changes the sort to a different column or order withing [Notes and Bookmarks](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/notes-and-bookmarks/), that preference will persist while navigating between accounts. Upon logging out or restarting Fusion CAC, the sort will reset to the default Create Time (descending) setting.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -130,7 +130,7 @@ If a user changes the sort to a different column or order withing [Notes and Boo
 
 **CACTWO-7625** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When accessed, a selection dialog will display available auditors based on the audit type. This change was made for both [Coding Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [CDI Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/). The ability of an auditor (or cdi auditor) to change the auditor of record has been added to the Audit (and CDI Audit) worksheet.  When the button is clicked the dropdown list of users that have the audit role will be displayed. In either audit type a new button will appear, similar to the one for changing the coder (or CDI) of record:
+When accessed, a selection dialog will display available auditors based on the audit type. This change was made for both [Coding Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) and [CDI Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/). The ability of an auditor (or cdi auditor) to change the auditor of record has been added to the Audit (and CDI Audit) worksheet.  When the button is clicked the dropdown list of users that have the audit role will be displayed. In either audit type a new button will appear, similar to the one for changing the coder (or CDI) of record:
 
 ![Change Auditor Button](ChangeAuditor.png)
 ![Change CDI Auditor Button](ChangeCDIAuditor.png)
@@ -188,7 +188,7 @@ A new column has been added to the [Outpatient Coder Scorecard report](https://d
 
 **CACTWO-7647** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-‘HCC’ has been added to the [shift reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/#documenting-query-shift-reasons) dialog for outpatient physician queries.  
+‘HCC’ has been added to the [shift reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/#documenting-query-shift-reasons) dialog for outpatient physician queries.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -204,15 +204,15 @@ If the [Code Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/general
 
 **CACTWO-7708** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Custom Roles can be [created](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/#create-a-new-role) that will be seen in the ‘Change Coder of Record’ dropdown in an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), and the ‘Change CDI of Record’ dropdown in a [CDI Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/).  
+Custom Roles can be [created](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/#create-a-new-role) that will be seen in the ‘Change Coder of Record’ dropdown in an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), and the ‘Change CDI of Record’ dropdown in a [CDI Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/).  
 
-For "Coder of Record" in [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), in addition to users with the role of "Coder" or "Auditors", users with roles enabled with the following privileges are now included:
+For "Coder of Record" in [Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), in addition to users with the role of "Coder" or "Auditors", users with roles enabled with the following privileges are now included:
 
 - Audit accounts as an Auditor
 - Edit accounts as a Coder
 - Edit accounts as a Single Path Coder
 
-For "CDI Specialist of Record" in [CDI Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/), in addition to users with the role of "CDI Specialist" or "CDI Auditor," users with roles enabled with the following privileges are now included:
+For "CDI Specialist of Record" in [CDI Audit Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/), in addition to users with the role of "CDI Specialist" or "CDI Auditor," users with roles enabled with the following privileges are now included:
 
 - Audit accounts as a CDI Auditor
 - Edit accounts as a CDI Specialist
@@ -243,7 +243,7 @@ Two new lines of data have been added to the [CDI Management dashboard](https://
 
 **CACTWO-7756** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A plus sign has been added to the left of the codes in the [DRG Reconciliation Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/) to allow for easy additions to the Working DRG and Final DRG.
+A plus sign has been added to the left of the codes in the [DRG Reconciliation Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/drg-reconciliation/) to allow for easy additions to the Working DRG and Final DRG.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -333,7 +333,7 @@ When the [Query Impact Report](https://dolbeysystems.github.io/fusion-cac-web-do
 
 **CACTWO-7823** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) Charges has been added to the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) page, which will include columns associated with the charges field in an [E/M worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet). 
+A new [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) for [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) Charges has been added to the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) page, which will include columns associated with the charges field in an [E/M worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/#completing-the-er-em-worksheet). 
 
 ![E/M Charges Drill Down](EMChargesDrillDown.png)
 
@@ -411,7 +411,7 @@ Today’s date was showing as the Oldest Discharge Date in the Work Available pa
 
 **CACTWO-7870** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the instance of a soft CT code being assigned to a document on an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) account, if the user then went into the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) and added a quantity of 1 to the  “Charges for Assigned CPT Codes”, the 1 was not being retained upon saving the account.  This has been corrected.
+In the instance of a soft CT code being assigned to a document on an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) account, if the user then went into the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/#completing-the-er-em-worksheet) and added a quantity of 1 to the  “Charges for Assigned CPT Codes”, the 1 was not being retained upon saving the account.  This has been corrected.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -427,7 +427,7 @@ The Pre-Audit and Post-Audit DRG columns in the [report](https://dolbeysystems.g
 
 **CACTWO-7888** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#code-comments), their name should appear in the Commented By column of the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/notes-and-bookmarks/) if a secondary user opens and either clicks cancels or OK without adding text.  It was being replaced by the secondary user.  This has been updated so that the Commented By ID is only changed if a secondary user actually adds more data to the comment. 
+When a user adds a [code comment](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#code-comments), their name should appear in the Commented By column of the [Notes and Bookmarks viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/notes-and-bookmarks/) if a secondary user opens and either clicks cancels or OK without adding text.  It was being replaced by the secondary user.  This has been updated so that the Commented By ID is only changed if a secondary user actually adds more data to the comment. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -454,7 +454,7 @@ With this update, once all workgroup limits are reached, the system will reset t
 
 **CACTWO-7901** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If the plus sign on an already assigned code is clicked in a Final [DRG viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/), the code was being removed which is not correct functionality.  Clicking a plus sign should not remove a code; this has been corrected. 
+If the plus sign on an already assigned code is clicked in a Final [DRG viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/drg-reconciliation/), the code was being removed which is not correct functionality.  Clicking a plus sign should not remove a code; this has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -480,7 +480,7 @@ As long as there is an APR-DRG on an account, the [Assigned codes tree](https://
 
 **CACTWO-7913** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently the [Critical Care](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#critical-care) date on the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#completing-the-er-em-worksheet) is defaulting to today’s date.  This has been changed to default to the date of the E/M page, which is the Admit date. 
+Currently the [Critical Care](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/#critical-care) date on the [E/M viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/#completing-the-er-em-worksheet) is defaulting to today’s date.  This has been changed to default to the date of the E/M page, which is the Admit date. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -499,7 +499,7 @@ In order to stop a worksheet from being added multiple times to an account, a ne
 
 **CACTWO-7915** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently, the rebuttal comment section of the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) only support text.   This has been updated so that images can be pasted into the field.  
+Currently, the rebuttal comment section of the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) and [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/) only support text.   This has been updated so that images can be pasted into the field.  
 
 ![Image Pasted into Audit Rebuttal](ImagedPastedintoAuditRebuttal.png)
 
@@ -537,7 +537,7 @@ If an account was locked in use, the second user that opened it was still able t
 
 **CACTWO-7926** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an account is locked and a coder clicks on a plus sign in the [CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/working-cdi-history/) worksheet, the code can be added.  Account cannot be saved, but the coder should still not be able to do this. The plus sign has now been removed from locked accounts. 
+If an account is locked and a coder clicks on a plus sign in the [CDI History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/working-cdi-history/) worksheet, the code can be added.  Account cannot be saved, but the coder should still not be able to do this. The plus sign has now been removed from locked accounts. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -563,7 +563,7 @@ When the [Code editor](https://dolbeysystems.github.io/fusion-cac-web-docs/gener
 
 **CACTWO-7933** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If a [Validation Rule](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) was a ‘for each’ CPT code, and an account had several instances that matched that, the Validation Rule would be listed for each time in the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/).  A new checkbox for ‘Display Distinct Rules Only’ has been added for the ‘for each’ type fo rule, which will then only allow 1 instance of the rule to show for each distinct result.  In the below example, if an account had 3 instances of CPT 44100, the rule would previously show 3 times in the Code Summary.  With the new checkbox it will now only show once. 
+If a [Validation Rule](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/validation-management/) was a ‘for each’ CPT code, and an account had several instances that matched that, the Validation Rule would be listed for each time in the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/).  A new checkbox for ‘Display Distinct Rules Only’ has been added for the ‘for each’ type fo rule, which will then only allow 1 instance of the rule to show for each distinct result.  In the below example, if an account had 3 instances of CPT 44100, the rule would previously show 3 times in the Code Summary.  With the new checkbox it will now only show once. 
 
 ![Display Distinct Rules Only](DisplayDistinctRulesOnly.png)
 

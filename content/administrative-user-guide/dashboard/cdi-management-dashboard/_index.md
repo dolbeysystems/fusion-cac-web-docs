@@ -10,7 +10,7 @@ grid to display the data that goes into the number displayed.
 
 To see more information about the data in a panel, click the **i** icon in the panel header.
 
-## Filters
+## Timeframe Filters
 
 ![CDI Management Dashboard Filters](CDIMgmtFilters.png)
 
@@ -66,7 +66,7 @@ The Activity Summary displays CDI activity for the selected date range. CDI Team
 |------|----------|
 |Initial Review|The number of accounts that received their first CDI review during the selected period. **Concurrent** reviews were completed while the patient was still admitted. **Retrospective** reviews were completed after the patient was discharged.|
 |Follow-up Review|The number of additional CDI reviews completed on previously reviewed accounts during the selected period, divided into concurrent and retrospective reviews.|
-|Queries Sent|The number of CDI queries sent to providers during the selected period. **Without Alerts** queries did not come from a CDI Alert. **With Alerts** queries were created from a CDI Alert opportunity.|
+|Queries Sent|The number of CDI queries sent to providers during the selected period. **Without Alerts** queries did not come from a CDI/Clinical Alert. **With Alerts** queries were created from a CDI/Clinical Alert opportunity.|
 |Reconciliation|Reconciliation activity for the selected period. **Reconciled** accounts have completed reconciliation. **Pending** accounts are waiting for reconciliation.|
 |Average Volume|The average number of activities completed per day over the displayed 7-day or 30-day period.|
 |Average Time|The average amount of time needed to complete that activity.|

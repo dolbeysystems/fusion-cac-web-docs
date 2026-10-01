@@ -211,10 +211,10 @@ tell you what opportunities may have been missed
 
 #### CDI Alerts Impact Report
 
-This report allows the user to see what the overall impact on CDI Alerts. It gives the user insight on how impactful the CDI Alert was. It will allow user to see not only if the Alerts are having an impact, but also how much benefit the Alert was. It also shows us which Alerts may be having little to no impact and may need to be adjusted accordingly.
+This report allows the user to see what the overall impact on CDI/Clinical Alerts. It gives the user insight on how impactful the CDI/Clinical Alert was. It will allow user to see not only if the Alerts are having an impact, but also how much benefit the Alert was. It also shows us which Alerts may be having little to no impact and may need to be adjusted accordingly.
 
->[!note] CDI Alerts Required
-> CDI Alerts must be implemented to use this report. The date range is based on the admite date of the chart, which must be inpatient and have MatchedCriteriaGroups validated CDI Alerts. 
+>[!note] CDI/Clinical Alerts Required
+> CDI/Clinical Alerts must be implemented to use this report. The date range is based on the admite date of the chart, which must be inpatient and have MatchedCriteriaGroups validated CDI/Clinical Alerts. 
 
 ![CDI Alerts Impact Report](CDIAlertsImpactReport.png)
 

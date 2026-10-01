@@ -20,7 +20,7 @@ When creating a [scheduled report](https://dolbeysystems.github.io/fusion-cac-we
 
 **CACTWO-6787** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}** 
 
-A new failure to rescue code of ISCMR will now show concurrently with [PSI](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/#psi-indicators) 04 when it applies, but it will be completely replacing PSI 04 in the future. 
+A new failure to rescue code of ISCMR will now show concurrently with [PSI](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/quality-indicators/#psi-indicators) 04 when it applies, but it will be completely replacing PSI 04 in the future. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -62,7 +62,7 @@ The [columns](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative
 
 **CACTWO-7515** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-For accounts with charges, the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) will now show APC calculations to the left of each code in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#charges) section, if configured. 
+For accounts with charges, the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) will now show APC calculations to the left of each code in the [Audited Charges](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/#charges) section, if configured. 
 
 ![Display APC Calculation in Audit Viewer](AuditViewerAPCCalc.png)
 
@@ -72,7 +72,7 @@ For accounts with charges, the [Audit Worksheet](https://dolbeysystems.github.io
 
 **CACTWO-7525** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Currently when adding a [note to a pending reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/#pending-reason-notes), any trailing blank spaces are being saved to the record.  This has now been changed to discard trailing blank spaces upon saving the note.  
+Currently when adding a [note to a pending reason](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/pending-reasons/#pending-reason-notes), any trailing blank spaces are being saved to the record.  This has now been changed to discard trailing blank spaces upon saving the note.  
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -121,7 +121,7 @@ These will record the total based on the number of modifiers on the CPT codes or
 
 **CACTWO-7584** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [PC-06 algorithm](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/#pc-06-indicator) has been updated for January 2026 changes. This allows for a PC-06 designation for accounts that have a Discharge Disposition of ‘Transfer’ as well as ‘Expired’. 
+The [PC-06 algorithm](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/quality-indicators/#pc-06-indicator) has been updated for January 2026 changes. This allows for a PC-06 designation for accounts that have a Discharge Disposition of ‘Transfer’ as well as ‘Expired’. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -129,7 +129,7 @@ The [PC-06 algorithm](https://dolbeysystems.github.io/fusion-cac-web-docs/accoun
 
 **CACTWO-7588** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-An option has been added to hide the ‘No’ answer from the Final DRG Reconciliation prompt window within the [DRG Reconciliation viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/drg-reconciliation/). The user will then only have the options to agree or cancel during reconciliation.
+An option has been added to hide the ‘No’ answer from the Final DRG Reconciliation prompt window within the [DRG Reconciliation viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/drg-reconciliation/). The user will then only have the options to agree or cancel during reconciliation.
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -150,7 +150,7 @@ For the sake of continuity, the line for 'Total Time Logged In' has been added t
 
 **CACTWO-7604** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Under specific circumstances, when moving back and forth between viewers, [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/#starting-an-audit) were being marked as read-only and user was unable to reopen and edit.  This has been corrected. 
+Under specific circumstances, when moving back and forth between viewers, [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/#starting-an-audit) were being marked as read-only and user was unable to reopen and edit.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -213,9 +213,9 @@ When exporting a CSV in [Mappings](https://dolbeysystems.github.io/fusion-cac-we
 **CACTWO-7634** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
 A checkmark will now appear to the right of the diagnosis and procedure code(s) that affect the DRG (according to Solventum™ or TruCode™) in these places in Fusion CAC:
-- the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/)
-- the [Final Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#final-code-summary)
-- the [Working CDI History viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/working-cdi-history/)
+- the [Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/)
+- the [Final Code Summary viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/#final-code-summary)
+- the [Working CDI History viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/working-cdi-history/)
 - the Suggested DRG History viewer
 - the [TruCode](https://dolbeysystems.github.io/fusion-cac-web-docs/trucode-user-guide/) Standalone page
 
@@ -244,7 +244,7 @@ If an invalid character is used in [Document Search](https://dolbeysystems.githu
 
 **CACTWO-7648** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) finished an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected.
+If an [auditor](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) finished an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) and then did a Save/and route on the account to route to a custom workgroup, the account was not leaving the Audit workgroup.  This has been corrected.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -264,7 +264,7 @@ The ‘add’ table has been changed to allow better usablilty and readablity of
 
 **CACTWO-7658** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When a client changes an account from an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module)-coded account to a non-E/M account, the system will now prevent Auditors from pulling in E/M charges. Additionally, an issue where the comment bubble on E/M charge codes did not allow remarks to be entered has been resolved. 
+When a client changes an account from an [E/M](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/)-coded account to a non-E/M account, the system will now prevent Auditors from pulling in E/M charges. Additionally, an issue where the comment bubble on E/M charge codes did not allow remarks to be entered has been resolved. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -334,7 +334,7 @@ Since a right-click print command does not work, a new Print button has been add
 
 **CACTWO-7667** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When there is an informational warning on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) page, if the account was subsequently submitted, a warning box is popping asking the user if they want to go ahead with the submission, which should not be happening.  This has been corrected. 
+When there is an informational warning on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/) page, if the account was subsequently submitted, a warning box is popping asking the user if they want to go ahead with the submission, which should not be happening.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -358,7 +358,7 @@ When setting time for [Audit workflow](https://dolbeysystems.github.io/fusion-ca
 
 **CACTWO-7683** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) was started and left open on an account that then had its type changed from inpatient to outpatient, when the Auditor went back in to the audit, it was unable to be closed. This has been corrected. 
+If an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) was started and left open on an account that then had its type changed from inpatient to outpatient, when the Auditor went back in to the audit, it was unable to be closed. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -366,7 +366,7 @@ If an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-naviga
 
 **CACTWO-7684** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a document was archived (which occurs when a [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) saves or submits a chart), [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
+If a document was archived (which occurs when a [Coder](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/#roles) saves or submits a chart), [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) links from the viewer to that document could break because the document was archived. This has been corrected, and the links will now continue to work even after the document is archived.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -374,7 +374,7 @@ If a document was archived (which occurs when a [Coder](https://dolbeysystems.gi
 
 **CACTWO-7686** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-This release corrects an issue where [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) drafts were not accurately reflected in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) results and grid columns. In certain situations, the system was counting sent physician queries instead of physician query drafts, which could cause accounts to appear as having drafts when none existed.
+This release corrects an issue where [physician query](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/) drafts were not accurately reflected in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) results and grid columns. In certain situations, the system was counting sent physician queries instead of physician query drafts, which could cause accounts to appear as having drafts when none existed.
 
 With this update, physician query draft counts and filters now correctly reflect only true draft queries, ensuring accurate Account Search results and reporting.
 
@@ -405,7 +405,7 @@ This ensures Dashboards and User Reports display only data relevant to a manager
 
 **CACTWO-7690** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-If an account is 'Locked in Use', beside the message that pops when a second user tries to open that account, there will now be a line in the [Summary of User Actions](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/).  This line will show an Action of Locked in User, along with the User who has the account locked and their role.
+If an account is 'Locked in Use', beside the message that pops when a second user tries to open that account, there will now be a line in the [Summary of User Actions](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/).  This line will show an Action of Locked in User, along with the User who has the account locked and their role.
 
 ![Locked in Use in Summary of User Actions](SummaryofUserActionsLockedinUse.png)
 
@@ -418,7 +418,7 @@ Please contact Support to enable this feature.
 
 **CACTWO-7695** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/matched-criteria/) was assigned to an account ahead of CDI Alerts, the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) did not display those CDI Alerts in the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) Drill-Down.  This has been corrected. 
+If a non-CDI Alert [Matched Criteria](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/matched-criteria/) was assigned to an account ahead of CDI Alerts, the [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) did not display those CDI Alerts in the [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) Drill-Down.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -486,7 +486,7 @@ These fixes ensure LOS values are accurate and consistent across affected report
 
 **CACTWO-7721** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an account has [physician queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) and impact query data is recorded for any query on the account with the "[Impact Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/impact-queries-viewer/)" viewer, any scheduled [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) with the "Queries" [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) that would include that query will produce an error.
+If an account has [physician queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/) and impact query data is recorded for any query on the account with the "[Impact Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/impact-queries-viewer/)" viewer, any scheduled [account search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/) with the "Queries" [drill down](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/#drill-down-level) that would include that query will produce an error.
 
 With this change, the scheduled account search will no longer error, and the three "Query - Impact" fields (Query - Impact Percent, Query - Impact Dollars or Query - Impact Weight) should be populated.
 
@@ -496,7 +496,7 @@ With this change, the scheduled account search will no longer error, and the thr
 
 **CACTWO-7722** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In a particular instance where a user popped out the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), then closed the original account page and reopened it, popping the Audit Worksheet back out was resulting in a blank Audit Subtype.  
+In a particular instance where a user popped out the [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), then closed the original account page and reopened it, popping the Audit Worksheet back out was resulting in a blank Audit Subtype.  
 
 This was occurring with these conditions, which has been corrected:
 
@@ -525,7 +525,7 @@ Please contact Support to check if you need a manual change.
 
 **CACTWO-7734** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a user initially sets up an [E/M Coding](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) worksheet to have a No Charge set as None, they get E/M levels.  These show in the [Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#em-summary) at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
+If a user initially sets up an [E/M Coding](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) worksheet to have a No Charge set as None, they get E/M levels.  These show in the [Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/#em-summary) at the bottom.  If later that No Charge option is changed to any other dropdown, the E/M Level section is being hidden, but is still showing in the Summary.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -567,7 +567,7 @@ When running the CDI Alerts report, if it was filtered by Catetory/Facility, it 
 
 **CACTWO-7792** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
+An issue was occurring where if a user went back to add data to an old [Denial Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/denial-management/), such as an appeal, the sheet was showing with no data unless the user tabbed to another denial and back.  This also caused issues with the calendar in the appeal section.  Everything has been corrected.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -575,7 +575,7 @@ An issue was occurring where if a user went back to add data to an old [Denial W
 
 **CACTWO-7772** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When using the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) option in the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), it is allowing codes that are invalid to be transferred to a newer account.  This has been changed.  A new red toast message will appear showing the code and stating it is invalid and cannot be transferred.
+When using the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/transfer-account-codes/) option in the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), it is allowing codes that are invalid to be transferred to a newer account.  This has been changed.  A new red toast message will appear showing the code and stating it is invalid and cannot be transferred.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -583,4 +583,4 @@ When using the [Transfer Account Codes](https://dolbeysystems.github.io/fusion-c
 
 **CACTWO-7796** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), an open [CDI Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/) on a multiple audit account should show as red lettered, but it was showing as tan, for an earlier closed audit.  This has been corrected.
+In the [Navigation Pane](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/#navigation-tree), an open [CDI Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/) on a multiple audit account should show as red lettered, but it was showing as tan, for an earlier closed audit.  This has been corrected.

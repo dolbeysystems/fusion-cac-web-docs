@@ -122,7 +122,7 @@ To manually filter:
 ![Filtered Column](NameFilter.png)
 
 >[!Note] Filtering Pending Reasons
->For details on how the Pending Reasons column filter works, see [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/pending-reasons/#filtering-by-pending-reason).
+>For details on how the Pending Reasons column filter works, see [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/pending-reasons/#filtering-by-pending-reason).
 
 Additionally, users can choose to group the data creating a pivot table.
 

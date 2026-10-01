@@ -34,7 +34,7 @@ When clicked, it will open a window box that will show a more robust productivit
 
 **CACTWO-6424 {{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/notes-and-bookmarks/) viewer that will show the role of the user.   All columns are now sortable from ascending to descending.
+A new column has been added to the [Notes & Bookmarks](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/notes-and-bookmarks/) viewer that will show the role of the user.   All columns are now sortable from ascending to descending.
 
 ![Notes and Bookmarks Roles](2025-03-04_NotesBookmarks2.png)
 
@@ -76,7 +76,7 @@ A new operator of *‘Does not Start With’* has been added to [Validation Mana
 
 **CACTWO-6912** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/denial-management/) will default to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
+The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/denial-management/) will default to the Owner of the account (as long as it is not a CDI).  If there is no Owner, the field will be left blank for user input.  Otherwise, if there is no Coder but a Submitter, the field will default to the Submitter. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -84,7 +84,7 @@ The Coder field of [Denial Management](https://dolbeysystems.github.io/fusion-ca
 
 **CACTWO-6913** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) viewer can now be seen by a CDI Specialist, if desired.  The CDI would *only have the option to view and print*.  Editing, creating, routing and deleting abilities are not available.  
+The [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) viewer can now be seen by a CDI Specialist, if desired.  The CDI would *only have the option to view and print*.  Editing, creating, routing and deleting abilities are not available.  
 
 > [!info] Additional Configuration Required
 Please contact Support to enable this feature.
@@ -169,7 +169,7 @@ Criteria group names can now be edited in [Workflow Management](https://dolbeysy
 
 **CACTWO-7039** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is created on an account that has multiple occurrences of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
+If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) is created on an account that has multiple occurrences of a procedure code, the editing arrows are not showing properly in the audit.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -177,7 +177,7 @@ If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/acco
 
 **CACTWO-7041** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is popped-out to its own tab and the user then [computes a DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/), while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
+If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) is popped-out to its own tab and the user then [computes a DRG](https://dolbeysystems.github.io/fusion-cac-web-docs/general-user-guide/accessing-accounts/computing-a-drg/), while the DRG shows on the main screen, the pop-out continues to show a ‘DRG Required’ error message.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -185,7 +185,7 @@ If an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/acco
 
 **CACTWO-7050** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#audit-module) is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like [code summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/), when the audit is reopened, the audit subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
+When an [Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) is opened and the audit type is selected, the approved subtypes for that audit are in the subtype popdown.  But if the auditor moves from the audit viewer to another viewer, like [code summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/), when the audit is reopened, the audit subtype list shows all subtypes, not just the filtered list for that audit type.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -203,7 +203,7 @@ In [Mapping Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/a
 
 **CACTWO-7061** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-[Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were being routed without being saved when other viewers were opened.  This has been corrected so that if a physician query or an encoder are open, an audit cannot be routed until those windows have been closed.
+[Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) were being routed without being saved when other viewers were opened.  This has been corrected so that if a physician query or an encoder are open, an audit cannot be routed until those windows have been closed.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -218,7 +218,7 @@ New roles that contain the word ['Manager'](https://dolbeysystems.github.io/fusi
 
 **CACTWO-7063** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The legend window in a [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) viewer has been updated with more colors and indicators.   There are now indicators for Payor, Financial Class, Admit Source, Admit Type and Discharge Disposition. 
+The legend window in a [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/#show-history) viewer has been updated with more colors and indicators.   There are now indicators for Payor, Financial Class, Admit Source, Admit Type and Discharge Disposition. 
 
 ![Show History Legend](2025-03-05_CodeSummary5.png)
 
@@ -228,7 +228,7 @@ The legend window in a [Show History](https://dolbeysystems.github.io/fusion-cac
 
 **CACTWO-7070** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a Coder has rebutted an [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), but has not sent that audit back to the Auditor, the rebuttal is not being seen by the Coder when they go back into the audit. This has been corrected. Rebuttal should always be seen whether or not the audit has been routed back to the Auditor. 
+If a Coder has rebutted an [Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), but has not sent that audit back to the Auditor, the rebuttal is not being seen by the Coder when they go back into the audit. This has been corrected. Rebuttal should always be seen whether or not the audit has been routed back to the Auditor. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -244,7 +244,7 @@ This issue has now been prevented by only removing ICD-10 and CPT codes from evi
 
 **CACTWO-7076** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The Status Indicator has been add to the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#assigned-cpt-codes) viewer and will appear next to a CPT code that has resulted from an APC Computation.  The indicator will also show in the [Charges or Transactions](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/charges-or-transactions/) viewers when the Status Indicator column has been added. 
+The Status Indicator has been add to the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/#assigned-cpt-codes) viewer and will appear next to a CPT code that has resulted from an APC Computation.  The indicator will also show in the [Charges or Transactions](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/charges-or-transactions/) viewers when the Status Indicator column has been added. 
 
 ![Code Summary Status Indicator](2025-03-05_CodeSummary4.png)
 
@@ -275,7 +275,7 @@ This fix only applies to TruCode&#8482; users.
 
 **CACTWO-7112** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If a physician query is opened from [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) and the user has created a signature in their [user profile](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/), a chosen [query template](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) was showing as blank.  This has been corrected. 
+If a physician query is opened from [CDI/Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) and the user has created a signature in their [user profile](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/user-management/), a chosen [query template](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/) was showing as blank.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -283,7 +283,7 @@ If a physician query is opened from [CDI/Clinical Alerts](https://dolbeysystems.
 
 **CACTWO-7114** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-If an Auditor selects an audit subtype on the latest [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
+If an Auditor selects an audit subtype on the latest [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), then moves to another viewer, upon going back to audits, older audits no longer show an audit subtype. This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -318,7 +318,7 @@ When using [Edit Procedure Details](https://dolbeysystems.github.io/fusion-cac-w
 
 **CACTWO-7150** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When creating an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/), the Workgroup data was no longer showing in the header.  This has been corrected. 
+When creating an [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/), the Workgroup data was no longer showing in the header.  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -337,7 +337,7 @@ This fix only applies to TruCode&#8482; users.
 
 **CACTWO-7152** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-The text in the [PSI-08](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/quality-indicators/) algorithm shows ‘hip fracture’.  This has been corrected to show as ‘other fracture’ when the code table is FXID instead of HIPFXID.
+The text in the [PSI-08](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/quality-indicators/) algorithm shows ‘hip fracture’.  This has been corrected to show as ‘other fracture’ when the code table is FXID instead of HIPFXID.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -377,7 +377,7 @@ When an account has a large number of documents, if the user clicks on an unopen
 
 **CACTWO-7203** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the Coder Scorecard section of the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/), [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) were displayed that were opened or closed prior to last month.   This has been corrected. 
+In the Coder Scorecard section of the [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/), [audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) were displayed that were opened or closed prior to last month.   This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -393,7 +393,7 @@ If a [Scheduled report](https://dolbeysystems.github.io/fusion-cac-web-docs/admi
 
 **CACTWO-7218** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-Changes to the MS-DRG and the MS-DRG Reimbursement were not being detected in an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/).  This has been corrected. 
+Changes to the MS-DRG and the MS-DRG Reimbursement were not being detected in an [audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/).  This has been corrected. 
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

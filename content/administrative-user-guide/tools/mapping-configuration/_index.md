@@ -136,15 +136,15 @@ The mapping of PhysicianQueryReasons now has a column called Roles, which will a
 
 ### CDI/Clinical Alert Topics (CdiAlertTopicHeaders)
 
-The CdiAlertTopicHeaders mapping provides the list of topics users can select when [manually adding a CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#manually-adding-a-cdiclinical-alert). Please contact Support to enable this feature.
+The CdiAlertTopicHeaders mapping provides the list of topics users can select when [manually adding a CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/#manually-adding-a-cdiclinical-alert). Please contact Support to enable this feature.
 
 ### CDI/Clinical Alert Subheadings (CdiAlertTopicSubHeaders)
 
-The CdiAlertTopicSubHeaders mapping provides the list of subheadings, such as Clinical Evidence, Laboratory Studies, and Vital Signs, that users can add in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/#cdiclinical-alerts-editor-function). Please contact Support to enable this feature.
+The CdiAlertTopicSubHeaders mapping provides the list of subheadings, such as Clinical Evidence, Laboratory Studies, and Vital Signs, that users can add in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/#cdiclinical-alerts-editor-function). Please contact Support to enable this feature.
 
 ### CDI Audit Question Weighting
 
-The QueryCompliance and CdiAuditOtherQuestions mappings include a **Weight** column. Enter a positive whole number or decimal, up to two decimal places, to set the weight of each question on the [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/#question-weighting). Existing entries, and any question without a weight, default to 1.
+The QueryCompliance and CdiAuditOtherQuestions mappings include a **Weight** column. Enter a positive whole number or decimal, up to two decimal places, to set the weight of each question on the [CDI Audit Worksheet](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/#question-weighting). Existing entries, and any question without a weight, default to 1.
 
 ## Show History
 

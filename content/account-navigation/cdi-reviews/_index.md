@@ -28,11 +28,11 @@ The CDI worksheet *can* include any notes that are needed such as:
 
 ## Creating a Query
 
-If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) viewer in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/) tree. 
+If a physician query opportunity is identified during an intiail review or any subsequent reviews, the CDI should query the physician by sending an electronic query through the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/) viewer in the [Navigation](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/) tree. 
 
 ![Physicans & Queries Viewer](PhysicanQueriesNP.png)
 
-In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/physicians-and-queries/) viewer, if the provider the user wants to query is listed on the page they can click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon. If the provider is not listed, they should click on the {{%button%}}+Add Query{{%/button%}} button. Either option will take the user to the same place; however selecting "+Add Query" requires the user to manually enter in the provider they wish to query. 
+In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/physicians-and-queries/) viewer, if the provider the user wants to query is listed on the page they can click on the **{{< rawhtml >}}<span style="color:#0000FF">BLUE ENVELOPE</span>{{< /rawhtml >}}** icon. If the provider is not listed, they should click on the {{%button%}}+Add Query{{%/button%}} button. Either option will take the user to the same place; however selecting "+Add Query" requires the user to manually enter in the provider they wish to query. 
 
 ![Adding a Query](AddQuery.png)
 
@@ -49,7 +49,7 @@ In the [Physicians & Queries](https://dolbeysystems.github.io/fusion-cac-web-doc
 
 ## Follow-up
 
-A CDI follow-up review is a case that has already been reviewed at least once by a CDI within Fusion CAC. A CDI review for inpatient charts *must* have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up review is a subsequent review of the first. The default interval for review is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/) viewer.
+A CDI follow-up review is a case that has already been reviewed at least once by a CDI within Fusion CAC. A CDI review for inpatient charts *must* have a working DRG associated to be considered reviewed. If no DRG then the patient is considered new. A follow-up review is a subsequent review of the first. The default interval for review is every 24hrs until the patient is discharged; however, CDI staff can override this interval by changing the next review date on the [Code Summary](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/) viewer.
 
 ![Next Review Date](2025-02-20_ChartReview1.png)
 
@@ -89,11 +89,11 @@ From here the CDI has 3 options:
 | **Follow-up Review**      | For inpatient charts, each time a chart is accessed after the initial review, a Working DRG is calculated and saved by a user with the CDI role. However, each chart is only counted once per day. For outpatient charts, the count is recorded the first time a chart is opened and saved by a CDI user, with each chart also being counted only once per day.|
 | **Reconciliation**        | Reconciliation can only happen one (1) time per chart, so passing the account back and forth does not count. |
 | **Query Completion**      | This is counted as a Subsequent or Follow-up Review. |
-| **Documentation Reviews** | If your site conducts different types of CDI reviews or needs to track management reporting in a customized way, there are reports available for documentation reviews that differ from our default tracking. You can use the [Documentation Review Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/documenation-reviews/) to monitor reviews by topic. Other organizations have utilized this tool when their CDI team conducts utilization management-style reviews that do not fit the standard initial or follow-up review process. |
+| **Documentation Reviews** | If your site conducts different types of CDI reviews or needs to track management reporting in a customized way, there are reports available for documentation reviews that differ from our default tracking. You can use the [Documentation Review Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/documenation-reviews/) to monitor reviews by topic. Other organizations have utilized this tool when their CDI team conducts utilization management-style reviews that do not fit the standard initial or follow-up review process. |
 
 ### Documentation Reviews
 
-If an organization does different styles of CDI reviews, or want to track management reporting different than default tracking, the [Documentation Reviews](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/documenation-reviews/) viewer can be used to track reviews by topic. Organizations have used this if the CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow-up review. 
+If an organization does different styles of CDI reviews, or want to track management reporting different than default tracking, the [Documentation Reviews](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/documenation-reviews/) viewer can be used to track reviews by topic. Organizations have used this if the CDI team would like to do a utilization management type review and it doesn’t fit the typical initial or follow-up review. 
 
 By default, documentation reviews have a free form text field. Organizations can also create forms within the [Worksheet Designer](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/worksheet-designer/) for each of these reviews.
 

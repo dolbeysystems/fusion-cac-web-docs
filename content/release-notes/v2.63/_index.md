@@ -10,7 +10,7 @@ title = 'V2.63 (Jul 2026)'
 
 **CACTWO-6029** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Comment bubbles have been added next to each input field in the [Audit Management viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) and the [CDI Audit Management viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/). This allows auditors to add a comment alongside any individual input to provide context or explanation for a value entered or changed. The comment bubbles function the same way as the existing comment bubbles on codes; they display as a standard icon when empty and turn red when a comment has been added. This gives auditors a consistent and familiar way to annotate their work throughout the entire audit record.
+Comment bubbles have been added next to each input field in the [Audit Management viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) and the [CDI Audit Management viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/). This allows auditors to add a comment alongside any individual input to provide context or explanation for a value entered or changed. The comment bubbles function the same way as the existing comment bubbles on codes; they display as a standard icon when empty and turn red when a comment has been added. This gives auditors a consistent and familiar way to annotate their work throughout the entire audit record.
 
 ![Audit Fields Comment Bubbles](AuditCommentBubbles.png)
 
@@ -60,7 +60,7 @@ A new Account Type column has been added to the AuditTrainingTopics mapping in [
 
 **CACTWO-6943** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [CDI Alerts and Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) links in the account navigation tree will now display in bold red with a count of active alerts when any active alerts are present on the account. This behavior mirrors how open queries are indicated in the navigation tree. 
+The [CDI Alerts and Clinical Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) links in the account navigation tree will now display in bold red with a count of active alerts when any active alerts are present on the account. This behavior mirrors how open queries are indicated in the navigation tree. 
 The count and red bold formatting will persist regardless of whether the viewer has been opened, and will only revert to standard black text once all active alerts have been closed or auto-resolved. If no alerts have ever existed on the account, the link will continue to not appear in the navigation tree, consistent with existing behavior.
 
 ![Red Active Alerts](RedAlertsNavPane.png)
@@ -108,7 +108,7 @@ When a coder assigns a CPT code in the E/M Viewer that matches a CDM entry with 
 
 **CACTWO-7824** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Six new [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/) fields have been added as searchable criteria in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), allowing users to filter accounts based on alert-level data. The new fields available are: Alert Name, Alert Subtitle, Alert Category, Alert Outcome, Alert Other Outcome, and Alert Query Template. Because multiple alerts can exist on a single account, these fields are string-based and search across all alerts associated with the account.
+Six new [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) fields have been added as searchable criteria in [Account Search](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/reporting/account-search/), allowing users to filter accounts based on alert-level data. The new fields available are: Alert Name, Alert Subtitle, Alert Category, Alert Outcome, Alert Other Outcome, and Alert Query Template. Because multiple alerts can exist on a single account, these fields are string-based and search across all alerts associated with the account.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -136,7 +136,7 @@ Previously, only the CPT code was used for matching and modifiers were ignored, 
 
 **CACTWO-7865** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-[CDI Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-audit/#starting-a-cdi-audit) can now be extended with a configurable Other section, allowing organizations to include additional audit questions for evolving review areas such as CDI alerts, reconciliation, workflow compliance, or other site-specific processes. This provides the flexibility to expand audit criteria without requiring product changes.
+[CDI Audits](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-audit/#starting-a-cdi-audit) can now be extended with a configurable Other section, allowing organizations to include additional audit questions for evolving review areas such as CDI alerts, reconciliation, workflow compliance, or other site-specific processes. This provides the flexibility to expand audit criteria without requiring product changes.
 
 The feature is enabled by creating a CdiAuditOtherQuestions mapping in [Mappings Configuration](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/). Each mapping entry becomes a question in the Other section when a CDI Audit is started, with response options of Criteria Met, Education Opportunity, and Not Applicable. Responses automatically contribute to Other Opportunities and Other Errors where applicable, and the results are available in the CDI Audit drill-down within Account Search for reporting and analysis.
 
@@ -169,7 +169,7 @@ This change benefits sites where an account's category can change after a chart 
 
 **CACTWO-7946** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The [E/M Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#er-em-module) will now remember the scroll position for each account during a session. Previously, navigating away from the E/M Viewer and returning to it would reset the view to the top of the page, requiring the user to scroll back down to their previous location. 
+The [E/M Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/er-em-module/) will now remember the scroll position for each account during a session. Previously, navigating away from the E/M Viewer and returning to it would reset the view to the top of the page, requiring the user to scroll back down to their previous location. 
 
 The scroll position is now retained per account for the duration of the session. If a different account is loaded, the E/M Viewer will reset to the top for that account. Once the user exits the application entirely, scroll positions are cleared for all accounts.
 
@@ -301,7 +301,7 @@ A Remaining Impact Percent greater than zero indicates there is still impact to 
 
 **CACTWO-8054** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}** 
 
-In [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/audit-worksheet/) Management, when custom abstractions were enabled for a field that had a mapping configured, both the friendly value and the interface value were displayed even when they were identical, resulting in unnecessary and confusing duplication. 
+In [Audit](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/audit-worksheet/) Management, when custom abstractions were enabled for a field that had a mapping configured, both the friendly value and the interface value were displayed even when they were identical, resulting in unnecessary and confusing duplication. 
 
 With this update, the interface value is now suppressed when it matches the friendly value, so only one value is shown. When the two values differ, both continue to display as before. This change applies retroactively to all existing audits without requiring them to be resaved.
 
@@ -400,7 +400,7 @@ The fix changed how Account Detail records load; rather than navigating away fro
 
 **CACTWO-8133** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When a CDI Specialist attempted to open the [Impact Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/impact-queries-viewer/) for the first time on an account with completed, non-cancelled queries, the viewer would continuously load without ever rendering results. 
+When a CDI Specialist attempted to open the [Impact Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/impact-queries-viewer/) for the first time on an account with completed, non-cancelled queries, the viewer would continuously load without ever rendering results. 
 
 The fix resolved the issue, restoring the Impact Viewer to load correctly under these conditions.
 
@@ -420,7 +420,7 @@ Chat rooms have been added to the [Grid Column Configuration](https://dolbeysyst
 
 **CACTWO-8161** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-In the [Transactions Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/charges-or-transactions/), users were unable to edit or delete a physician on an existing transaction; changes appeared to save but the original physician remained, with no update occurring in the database. 
+In the [Transactions Viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/charges-or-transactions/), users were unable to edit or delete a physician on an existing transaction; changes appeared to save but the original physician remained, with no update occurring in the database. 
 
 This issue affected only the Transactions Viewer (not the Charges Viewer) and only when editing or deleting an existing physician, not when adding one for the first time. The fix restored the ability to edit and delete physicians in the Transactions Viewer, and an additional display issue where a deleted physician was not visually removed from the viewer was also corrected.
 
@@ -430,7 +430,7 @@ This issue affected only the Transactions Viewer (not the Charges Viewer) and on
 
 **CACTWO-8175** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-When a user deleted a note, the [Notes & Bookmarks](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/notes-and-bookmarks/) viewer did not update right away; the note appeared to remain until the user navigated away from the screen, making it seem as though the deletion had not worked. 
+When a user deleted a note, the [Notes & Bookmarks](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/notes-and-bookmarks/) viewer did not update right away; the note appeared to remain until the user navigated away from the screen, making it seem as though the deletion had not worked. 
 
 The fix corrected the viewer to refresh immediately upon deletion, so the note is removed from the display as soon as it is deleted.
 
@@ -450,7 +450,7 @@ This resulted in extremely slow search performance, with some queries taking nea
 
 **CACTWO-8189** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-The "Copy Row as Table" and "Copy Row as Text" functions in the [Flowsheet viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/#flowsheet-viewer) have been updated to only include values from columns that are currently visible. 
+The "Copy Row as Table" and "Copy Row as Text" functions in the [Flowsheet viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/flowsheet/) have been updated to only include values from columns that are currently visible. 
 
 Previously, these copy commands would include the entire row's data regardless of any date range filters or hidden columns applied by the user, requiring manual cleanup after pasting. The behavior now matches that of the existing "Copy Row to CDI Alert" function, ensuring consistency across all three copy commands. This is particularly beneficial for long-stay patient encounters where Flowsheet rows may contain extensive historical data and users only need to copy a targeted subset of values for a specific timeframe.
 
@@ -519,7 +519,7 @@ This caused the selector to appear truncated, the removed workgroup to remain di
 
 **CACTWO-8224** **{{< rawhtml >}}<span style="color:#2a7d1f">(Important)</span>{{< /rawhtml >}}**
 
-A bug was corrected in the [Transfer Account Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/transfer-account-codes/) where the banner bar was displaying the Patient Type of the source account rather than the destination account. 
+A bug was corrected in the [Transfer Account Codes viewer](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/setup-dependent-viewers/transfer-account-codes/) where the banner bar was displaying the Patient Type of the source account rather than the destination account. 
 
 This caused confusion when combining accounts of different types, such as merging an ER account into an Inpatient account. Additionally, minor formatting issues in the viewer have been resolved, including the "Room" field not appearing in bold and the "Bed" field displaying as a dash instead of the correct value.
 

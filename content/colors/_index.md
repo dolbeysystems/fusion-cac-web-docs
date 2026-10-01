@@ -40,7 +40,7 @@ The viewer name will turn red to alert the user that action is needed.
 ![Transferred Codes](TransferedAccountCodes.png)
 ![Transferred Codes](TransferedCodes.png)
 
-Codes that have been added to an account via the Transfer Account  Codes viewer ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/code-summary/#show-history) viewer. When hovering over the icon, a statement will disply to indicate which account the codes were transferred from.
+Codes that have been added to an account via the Transfer Account  Codes viewer ‘download’ icon next to them in the [Show History](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/#show-history) viewer. When hovering over the icon, a statement will disply to indicate which account the codes were transferred from.
 
 ##### Validation Results
 
@@ -100,7 +100,7 @@ The Fusion CAC application will display the CPT Code, Description, and Service D
 ![CDI Alers Paper Icon](CDIAlertsNotesIcon.png)
 
 The paper icon allows users to click to enter notes to indicate thoughts on
-the [CDI Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/cdi-clinical-alerts/chart-prioritization/).
+the [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/chart-prioritization/).
 
 ### Audit Worksheet
 
