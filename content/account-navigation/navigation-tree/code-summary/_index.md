@@ -68,7 +68,7 @@ Listed beneath Assigned Diagnosis Codes are the Assigned Procedure Codes in code
 
 ### Assigned CPT Codes
 
-Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code sequence order. The list includes the CPT code, Modifiers, Code Description, Service Date, Physician, APC, and Status Indicator.
+Listed beneath Assigned Procedure Codes are the Assigned CPT Codes in code sequence order. The list includes the CPT code, Modifiers, Code Description, Service Date, Physician, APC, and Status Indicator. The Status Indicator column is labeled "SI"; hover over the letters to display the full name.
 
 ![Assigned CPT Code](2025-03-05_CodeSummary4.png)
 
@@ -97,4 +97,3 @@ The Physician Code Summary will display if the *Physician Coders* are also codin
 ![Physician Coding Summary](PhysicianCodeSummary.png)
 
 Clicking on the header will expand the selection to display the codes that were coded. Any codes with a plus (+) sign indicates the code has not been added to the account. The plus (+) sign *does not indicate* that the code needs to be added. It is for the user to quickly add the code if they determine it is needed using coding judgment and supporting documentation.
-
