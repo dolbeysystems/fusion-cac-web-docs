@@ -27,19 +27,19 @@ Management dashboards provide an overview of activity and performance across app
 
 Fusion CAC includes the following dashboards:
 
-1. Administrative Dashboard – Provides management-level information about coding activity, productivity, workload, and performance.
+1. [Administrative Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/administrative-dashboard/) – Provides management-level information about coding activity, productivity, workload, and performance.
 
-2. Coder Personal Dashboard – Provides coders with information about their individual workload, productivity, performance, and coding activity.
+2. [Coder Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/coder-personal-dashboard/) – Provides coders with information about their individual workload, productivity, performance, and coding activity.
 
-3. CDI Management Dashboard – Provides management-level information about CDI reviews, queries, team performance, and related CDI metrics.
+3. [CDI Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-management-dashboard/) – Provides management-level information about CDI reviews, queries, team performance, and related CDI metrics.
 
-4. CDI Personal Dashboard – Provides CDI specialists with information about their individual reviews, queries, performance, and CDI activity.
+4. [CDI Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/cdi-personal-dashboard/) – Provides CDI specialists with information about their individual reviews, queries, performance, and CDI activity.
 
-5. Audit Management Dashboard – Provides management-level information about audit activity, auditor productivity, findings, and audit performance.
+5. [Audit Management Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-management-dashboard/) – Provides management-level information about audit activity, auditor productivity, findings, and audit performance.
 
-6. Audit Personal Dashboard – Provides auditors with information about their individual audit workload, productivity, findings, and performance.
+6. [Audit Personal Dashboard](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/audit-personal-dashboard/) – Provides auditors with information about their individual audit workload, productivity, findings, and performance.
 
-7. Alerts Performance - 
+7. [Alerts Performance](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/dashboard/alerts-performance-dashboard/) - 
 
 Select the appropriate dashboard to view detailed information about its available metrics, panels, and functionality.
 
