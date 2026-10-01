@@ -10,7 +10,7 @@ grid to display the data that goes into the number displayed.
 
 To see more information about the data in a panel, click the **i** icon in the panel header.
 
-## Filters
+## Timeframe Filters
 
 ![CDI Management Dashboard Filters](CDIMgmtFilters.png)
 

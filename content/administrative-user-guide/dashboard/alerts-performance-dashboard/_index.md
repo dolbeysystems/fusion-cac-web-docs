@@ -8,9 +8,9 @@ The Alerts Performance Dashboard brings [CDI/Clinical Alert](https://dolbeysyste
 > [!info] Access
 > Access to this dashboard is controlled by the **View Alerts Performance Dashboard** privilege in [Role Management](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/role-management/). Contact your administrator if you need access.
 
-The dashboard opens in full screen. It uses the same timeframe buttons and shared Facility filter as the other management dashboards. To see more information about the data in a panel, click the **i** icon in the panel header.
+The dashboard opens in full screen. It uses the same timeframe filters and shared Facility filters as the other management dashboards. To see more information about the data in a panel, click the **i** icon in the panel header.
 
-## Timeframe Buttons
+## Timeframe Filters
 
 ![Alerts Performance Filters](AlertsFilters.png)
 

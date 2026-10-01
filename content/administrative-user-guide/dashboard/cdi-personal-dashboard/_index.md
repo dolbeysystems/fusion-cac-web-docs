@@ -6,7 +6,7 @@ weight = 30
 The CDI Personal Dashboard is available to users with the CDI role. Users can see their personal statistics
 separate from the team view, making individual performance and current work easier to review. Clicking on any of the numbers in blue will open a grid to display the data that goes into the number displayed.
 
-The CDI Personal Dashboard does not include a Facility filter. To see more information about the data in a panel, click the **i** icon in the panel header.
+The CDI Personal Dashboard does *not* include a Facility filter. To see more information about the data in a panel, click the **i** icon in the panel header.
 
 The **Today**, **This Week**, **This Month**, and **Last Month** selections at the top of the dashboard set the reporting period for the **Activity Summary**. The **Aging Queries** and **Work Available** sections show current information and are not affected by these selections.
 
