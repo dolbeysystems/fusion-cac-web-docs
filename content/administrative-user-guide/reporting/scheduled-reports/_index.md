@@ -37,6 +37,6 @@ Scheduled reports will have a run history.
 
 ![Report Run History](RunHistory.png)
 
-A run history will display above the schedule data for the last three times the report ran, whether it was successful or errored. No text in the message column indicate the report ran and was delivered without error. A message of “No Message Returned” indicates nothing was sent as the report yeilded no results. **The application will not send out a blank report.** 
+A run history will display above the schedule data for the last three times the report ran, whether it was successful or errored. No text in the message column indicate the report ran and was delivered without error. A message of “No Message Returned” indicates nothing was sent as the report yielded no results. **The application will not send out a blank report.** 
 
 

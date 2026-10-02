@@ -10,10 +10,10 @@ title = 'V2.64 (Oct 2026)'
 
 **CACTWO-6448** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Previously, subheadings such as Clinical Evidence, Laboratory Studies, and Vital Signs only appeared in the [CDI Alerts](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/) [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) when evidence already existed under them, so users had no way to add a subheading that was missing. A new Add button has been added to the Evidence Editor that lets users select and add a subheading from a configured [mapping](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) list. Once added, the subheading can be dragged and dropped to resequence it, and evidence can be moved into it or added to it from an abstraction, discrete value, or medication. A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
+CDI users can now add a subheading when an Alert does not automatically include a section they need, such as Clinical Evidence, Laboratory Studies, or Vital Signs. This allows them to add missing evidence and organize it under the appropriate heading.
+The new Add button in the Evidence Editor lets users choose from a configured list of subheadings. After adding a subheading, users can drag it to a different position, move existing evidence into it, or add evidence from an abstraction, discrete value, or medication.
 
-> [!info] Additional Configuration Required
-Please contact Support to enable this feature.
+A new mapping with the ID "CdiAlertTopicSubHeaders" must be created in Mappings Configuration to populate the list of available subheadings.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 
@@ -21,21 +21,12 @@ Please contact Support to enable this feature.
 
 **CACTWO-7161** **{{< rawhtml >}}<span style="color:#1F497D">(Enhancement)</span>{{< /rawhtml >}}**
 
-Users can now add a [CDI/Clinical Alert](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/#cdiclinical-alerts-editor-function) from a predefined list of topics, even when the system has not automatically identified that topic on the account. This lets CDI specialists gather evidence in an Alert and use the Query button to carry those details into a query, reducing the need to copy and paste information manually.
+Users can now add a CDI/Clinical Alert from a predefined list of topics, even when the system has not automatically identified that topic on the account. This lets CDI specialists gather evidence in an Alert and use the Query button to carry those details into a query, reducing the need to copy and paste information manually.
 
-A manually added Alert displays **“Manually added”** beside its name, along with a person-and-plus icon. Alert topic names can no longer be edited in the [Evidence Editor](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/add-on-modules-and-viewers/cdi-clinical-alerts/#cdiclinical-alerts-editor-function).
-
+A manually added Alert displays “Manually added” beside its name, along with a person-and-plus icon. Alert topic names can no longer be edited in the Evidence Editor.
 If the system later identifies the same topic, it will create a separate automated Alert. The automated Alert may include additional evidence and subcategory information.
+When closing a manually added Alert, users can select “Created by accident” to remove one opened in error. The “Insufficient clinical evidence,” “Documentation already present,” and “Other” outcomes are unavailable for manually added Alerts.
 
-When closing a manually added Alert, users can select **“Created by accident”** to remove one opened in error. The **“Insufficient clinical evidence,”** **“Documentation already present,”** and **“Other”** outcomes are unavailable for manually added Alerts.
-
-Previously, a CDI/Clinical Alert topic could only appear on an account if the system automatically triggered it, so users had no way to open an alert for a topic that hadn't yet been flagged. Users can now manually add a new CDI/Clinical Alert from a preselected list of topics, using a [mapping](https://dolbeysystems.github.io/fusion-cac-web-docs/administrative-user-guide/tools/mapping-configuration/) called "CdiAlertTopicHeaders." 
-
-Manually added alerts will show ‘Manually added’ next to the name, along with a person and plus sign icon. All Alert Topics can non longer have their name edited in the Evidence Editor, the edit icon has been removed. If the system later automatically detects the same topic, it will still create its own active alert, since the automated version pulls in additional data and subcategory information. 
-
-
-> [!info] Additional Configuration Required
-Please contact Support to enable this feature.
 
 <hr style="height:1px;border-width:0;color:gray;background-color:black">
 

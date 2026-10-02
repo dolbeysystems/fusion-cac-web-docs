@@ -124,8 +124,6 @@ To manually filter:
 >[!Note] Filtering Pending Reasons
 >For details on how the Pending Reasons column filter works, see [Pending Reasons](https://dolbeysystems.github.io/fusion-cac-web-docs/account-navigation/navigation-tree/standard-viewers/code-summary/pending-reasons/#filtering-by-pending-reason).
 
-Additionally, users can choose to group the data creating a pivot table.
-
 You can also group the data to create a pivot table. Creating a pivot table lets you reorganize the columns and rows in your Account Search grid to build exactly the report you need. You can find the full list of fields available to filter on or display in the [Fields](https://dolbeysystems.github.io/fusion-cac-web-docs/fields-and-definitions/fields/) section of this user guide.
 
 ## Saving a Search
